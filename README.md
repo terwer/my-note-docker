@@ -7,3 +7,9 @@ my note for docker
 ```bash
 docker compose up --build
 ```
+
+## ckeckip
+
+```bash
+docker inspect my-note-docker | grep IPAddres
+```
