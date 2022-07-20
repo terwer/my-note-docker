@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220719180214-04wur9s",
 		"title": "文档协同开发",
-		"updated": "20220720143333"
+		"updated": "20220720143939"
 	},
 	"Children": [
 		{
@@ -508,11 +508,47 @@
 			]
 		},
 		{
-			"ID": "20220720143333-h68zsru",
+			"ID": "20220720143925-2b9a5cm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220720143925-2b9a5cm",
+				"updated": "20220720143925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022/7/20 待解决问题"
+				}
+			]
+		},
+		{
+			"ID": "20220720143925-h80qmso",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220720143333-h68zsru"
-			}
+				"id": "20220720143925-h80qmso",
+				"updated": "20220720143925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、excel、ppt格式时，点不开右侧工具栏图标"
+				}
+			]
+		},
+		{
+			"ID": "20220720143930-bmsqjby",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220720143930-bmsqjby",
+				"updated": "20220720143939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、段落收藏不能用"
+				}
+			]
 		}
 	]
 }
