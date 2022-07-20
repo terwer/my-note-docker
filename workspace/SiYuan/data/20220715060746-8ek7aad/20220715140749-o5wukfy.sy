@@ -1,0 +1,67 @@
+{
+	"ID": "20220715140749-o5wukfy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220715140749-o5wukfy",
+		"title": "待办事项",
+		"updated": "20220715141023"
+	},
+	"Children": [
+		{
+			"ID": "20220715060749-gn8blpe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715060749-gn8blpe",
+				"updated": "20220715140815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、思源笔记使用Nginx反代实现https"
+				}
+			]
+		},
+		{
+			"ID": "20220715140819-rh57c3e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140819-rh57c3e",
+				"updated": "20220715140847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、实现文章平台绑定功能，按钮名称为：绑定发布平台"
+				}
+			]
+		},
+		{
+			"ID": "20220715140848-z364pd2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140848-z364pd2",
+				"updated": "20220715140937"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、发布或者更新完成在新窗口打开文章链接"
+				}
+			]
+		},
+		{
+			"ID": "20220715141013-q1jme7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141013-q1jme7d",
+				"updated": "20220715141023"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、实现文章自动备份到百度云"
+				}
+			]
+		}
+	]
+}

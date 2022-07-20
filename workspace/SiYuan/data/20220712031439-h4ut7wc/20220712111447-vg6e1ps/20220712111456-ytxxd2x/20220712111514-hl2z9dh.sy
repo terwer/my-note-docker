@@ -1,0 +1,19 @@
+{
+	"ID": "20220712111514-hl2z9dh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220712111514-hl2z9dh",
+		"title": "Spring Data JPA",
+		"updated": "20220712031525"
+	},
+	"Children": [
+		{
+			"ID": "20220712031514-eva915j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712031514-eva915j",
+				"updated": "20220712031514"
+			}
+		}
+	]
+}

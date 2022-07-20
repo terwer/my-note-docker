@@ -1,0 +1,137 @@
+{
+	"ID": "20220708170305-qtr5p4a",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220708170305-qtr5p4a",
+		"title": "地址本最简单的调用方法",
+		"updated": "20220708170314"
+	},
+	"Children": [
+		{
+			"ID": "20220708170314-bmbhh55",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220708170314-bmbhh55",
+				"updated": "20220708170314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "引入js"
+				}
+			]
+		},
+		{
+			"ID": "20220708170314-zz2l957",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220708170314-zz2l957",
+				"updated": "20220708170314"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " \u003cscript\u003e\n Com_IncludeFile(\"common.js|dialog.js\");\n \u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220708170314-nfkj057",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220708170314-nfkj057",
+				"updated": "20220708170314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用"
+				}
+			]
+		},
+		{
+			"ID": "20220708170314-fensk2a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220708170314-fensk2a",
+				"updated": "20220708170314"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!--添加人员start--\u003e\n\u003cdiv class=\"lui-kms-cooperate-share-add lui-kms-cooperate-m16\"\u003e\n  \u003cinput type=\"text\" name=\"shareMemberNames\" placeholder=\"添加人员\" /\u003e\n  \u003cinput type=\"hidden\" name=\"shareMemberIds\"/\u003e\n  \u003cbutton\n    class=\"lui-kms-cooperate-iconfont lui-kms-cooperate-iconfont-add\"\n    value=\"添加\"\n    onclick=\"Dialog_Address(true, 'shareMemberIds', 'shareMemberNames', ';', null);\"\n    \u003e\n  \u003c/button\u003e\n\u003c/div\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220708170314-djg6rf2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220708170314-djg6rf2",
+				"updated": "20220708170314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "也可以这么用"
+				}
+			]
+		},
+		{
+			"ID": "20220708170314-xxxibxz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220708170314-xxxibxz",
+				"updated": "20220708170314"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YXNjcmlwdA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 选择邀请人员\nfunction selectInviteMember(idField, nameField) {\n  Dialog_Address(true, idField, nameField, null, ORG_TYPE_PERSON, function (rtnVal) {\n    //在此写入您的代码，采用rtnVal可用获取返回值，该值为KMSSData对象，采用this可用访问到对话框对象\n    console.log(\"选中的邀请人员信息:\", rtnVal);\n    // 发送邀请待办\n    // todo\n  }, null, null, null, null, null, null, null, false);\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

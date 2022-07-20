@@ -1,0 +1,409 @@
+{
+	"ID": "20220715140539-j7o3uy0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220715140539-j7o3uy0",
+		"title": "2022-07-15-周报",
+		"updated": "20220715145148"
+	},
+	"Children": [
+		{
+			"ID": "20220715140604-f7ujsvo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140604-f7ujsvo",
+				"updated": "20220715140604"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文档协同缺陷修复",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715140604-9hqyefo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140604-9hqyefo",
+				"updated": "20220715143245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、模板切换问题修复",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715143246-jcz738o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715143246-jcz738o",
+				"updated": "20220715143257"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、新建更新文档提示",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715143300-pgvst54",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715143300-pgvst54",
+				"updated": "20220715143308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、回收站相关缺陷修复",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715143308-muhrmkk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715143308-muhrmkk",
+				"updated": "20220715143335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、分享与取消分享问题修改",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715143319-5y1ciw9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715143319-5y1ciw9",
+				"updated": "20220715143331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、编辑体验问题修改",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715140618-vcm66g0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140618-vcm66g0",
+				"updated": "20220715140618"
+			}
+		},
+		{
+			"ID": "20220715140615-07zir85",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140615-07zir85",
+				"updated": "20220715140615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日常缺陷处理",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715140615-hw202eb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140615-hw202eb",
+				"updated": "20220715140615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#168687【知识仓库】借阅列表的 Form 转 Model 问题",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715140622-5n0zoj9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140622-5n0zoj9",
+				"updated": "20220715140622"
+			}
+		},
+		{
+			"ID": "20220715140622-7e526ug",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140622-7e526ug",
+				"updated": "20220715140630"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "专项缺陷处理",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715140631-4neyec4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715140631-4neyec4",
+				"updated": "20220715141203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#169337【关键任务缺陷】 【文档协同-修复】使用模板新建文档时，在未“保存”前可随意切换模板进行应用，应用后将模板内容带入编辑页，而不是现在引用模板时都跳转新建页面",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141204-1f1fjz9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141204-1f1fjz9",
+				"updated": "20220715141223"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#169323【关键任务缺陷】 【文档协同-修复】新建/更新文档提示问题",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141228-q6b0by6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141228-q6b0by6",
+				"updated": "20220715141244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#169207 【关键任务缺陷】 【文档协同-修复】我创建的、我的分享、分享给我、团队列表显示文档的这条线加粗了，很丑",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141245-am1c844",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141245-am1c844",
+				"updated": "20220715141300"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#169203 【关键任务缺陷】 【文档协同-修复】新建文档页面不显示知识模板",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141301-cgduacq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141301-cgduacq",
+				"updated": "20220715141318"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#169179 【关键任务缺陷】 【文档协同-修复】回收站的文档列表的字段应该显示序号、文档名称、操作人、操作时间，按操作时间排序",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141319-kqa4c5l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141319-kqa4c5l",
+				"updated": "20220715141344"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#169045 【关键任务缺陷】 【文档协同-修复】先点击文档协同首页后，再切换点击我的创建列表，然后点击新建模板，如图所示",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141344-hdlne1e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141344-hdlne1e",
+				"updated": "20220715141401"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#168747 【关键任务缺陷】 【文档协同-修复】文档取消分享后还能多次重复取消分享",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141402-7zaoofd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141402-7zaoofd",
+				"updated": "20220715141418"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#169062 【关键任务缺陷】 【文档协同-修复】首页右上角的‘’我的统计“需要去掉",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141419-p3x0d7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141419-p3x0d7h",
+				"updated": "20220715141435"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#168163 【关键任务缺陷】 【文档协同-修复】文档被分享的用户没有收到待阅待办",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141446-9x3sl10",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141446-9x3sl10",
+				"updated": "20220715141453"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#168461 【关键任务缺陷】 【文档协同-修复】只有默认权限的普通用户退出共享操作成功，但是在分享给我的列表还显示该文档",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141453-ic1kq2x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141453-ic1kq2x",
+				"updated": "20220715141515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#168962【日常缺陷】 【附件机制-修复】8082 环境文档协同模块文档在线编辑页面为空白",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715141517-b7ja7ll",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715141517-b7ja7ll",
+				"updated": "20220715143017"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#169040 【关键任务缺陷】 【文档协同-修复】文档的指定范围分享的分享人都退出分享后，在文档的创建人的我的分享列表还看到该文档",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715143001-56zyk85",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715143001-56zyk85",
+				"updated": "20220715143027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#168730 【关键任务缺陷】 【文档协同-修复】新建和上传的模板和文档的标题没有字符限制，导致显示异常",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220715145148-5fv918w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715145148-5fv918w",
+				"updated": "20220715145148"
+			}
+		}
+	]
+}

@@ -1,0 +1,2081 @@
+{
+	"ID": "20220626132859-4q9ueis",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220626132859-4q9ueis",
+		"tags": "jvm",
+		"title": "深入详解JVM之类加载器深度剖析、根、扩展及系统类加载器",
+		"updated": "20220703215509"
+	},
+	"Children": [
+		{
+			"ID": "20220626152335-zha1c9y",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220626152335-zha1c9y",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20220626152335-8din8ik",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220626152335-8din8ik",
+						"updated": "20220626152335"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "文章更新历史",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626152335-3etk78g",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220626152335-3etk78g",
+						"updated": "20220626152335"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/05 feat:初稿。",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-fsbrhbx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626152335-fsbrhbx",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "类加载器（",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "ClassLoader",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-j5p1wib",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626152335-j5p1wib",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "JVM 提供了三种类加载器",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152448-wgi9872",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220626152448-wgi9872",
+				"updated": "20220626152503"
+			},
+			"Children": [
+				{
+					"ID": "20220626152503-3yq7bz7",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626152503-3yq7bz7",
+						"updated": "20220626152503"
+					},
+					"Children": [
+						{
+							"ID": "20220626152503-hpyoyvs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626152503-hpyoyvs",
+								"updated": "20220626152503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "根类加载器（",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "使用 C++ 编写，程序员无法在 Java 代码中使用他们",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626152359-05dzp1e",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220626152359-05dzp1e",
+				"updated": "20220626152505"
+			},
+			"Children": [
+				{
+					"ID": "20220626152424-pm5qu35",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626152424-pm5qu35",
+						"updated": "20220626152505"
+					},
+					"Children": [
+						{
+							"ID": "20220626152424-n3ofisb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626152424-n3ofisb",
+								"updated": "20220626152505"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "扩展类加载器（使用 Java 代码实现）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626152402-jfbt6xc",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220626152402-jfbt6xc",
+				"updated": "20220626152507"
+			},
+			"Children": [
+				{
+					"ID": "20220626152428-2kzah1k",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626152428-2kzah1k",
+						"updated": "20220626152507"
+					},
+					"Children": [
+						{
+							"ID": "20220626152428-yum3nni",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626152428-yum3nni",
+								"updated": "20220626152507"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应用类加载器（系统加载器），使用 Java 实现",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-sahujte",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-sahujte",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、用户自定义的类加载器都是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "java.lang.Classloader",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的子类",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-0oxbjfi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-0oxbjfi",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "例子：",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-6ydm49a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626152335-6ydm49a",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " /**\n  * @name: MyTest1\n  * @author: terwer\n  * @date: 2022-03-07 00:45\n  **/\n public class MyTest1 {\n     public static void main(String[] args) throws Exception {\n         Class clazz = Class.forName(\"java.lang.String\");\n         System.out.println(clazz.getClassLoader());\n \n         Class clazz2 = Class.forName(\"com.terwergreen.classloader.C\");\n         System.out.println(clazz2.getClassLoader());\n     }\n }\n \n class C{\n \n }\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-9i73fo9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-9i73fo9",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "img",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220626130746.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-ceewbtr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-ceewbtr",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "jdk 文档",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-4bt5qg4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-4bt5qg4",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "A class loader is an object that is responsible for loading classes. The class ClassLoader is an abstract class. Given the binary name of a class, a class loader should attempt to locate or generate data that constitutes a definition for the class. A typical strategy is to transform the name into a file name and then read a \"class file\" of that name from a file system.",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Every Class object contains a reference to the ClassLoader that defined it.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-8sx4ink",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-8sx4ink",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Class objects for array classes are not created by class loaders, but are created automatically as required by the Java runtime. The class loader for an array class, as returned by Class.getClassLoader() is the same as the class loader for its element type; if the element type is a primitive type, then the array class has no class loader.",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Applications implement subclasses of ClassLoader in order to extend the manner in which the Java virtual machine dynamically loads classes.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-v4xkuy4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-v4xkuy4",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Class loaders may typically be used by security managers to indicate security domains.",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "In addition to loading classes, a class loader is also responsible for locating resources. A resource is some data (a \".class\" file, configuration data, or an image for example) that is identified with an abstract '/'-separated path name. Resources are typically packaged with an application or library so that they can be located by code in the application or library. In some cases, the resources are included so that they can be located by other libraries.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-71hxit8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-71hxit8",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The ClassLoader class uses a delegation model to search for classes and resources. Each instance of ClassLoader has an associated parent class loader. When requested to find a class or resource, a ClassLoader instance will usually delegate the search for the class or resource to its parent class loader before attempting to find the class or resource itself.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-fcx7rit",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-fcx7rit",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Class loaders that support concurrent loading of classes are known as parallel capable class loaders and are required to register themselves at their class initialization time by invoking the ClassLoader.registerAsParallelCapable method. Note that the ClassLoader class is registered as parallel capable by default. However, its subclasses still need to register themselves if they are parallel capable. In environments in which the delegation model is not strictly hierarchical, class loaders need to be parallel capable, otherwise class loading can lead to deadlocks because the loader lock is held for the duration of the class loading process (see loadClass methods).",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-z70ivd8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-z70ivd8",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Run-time Built-in Class Loaders",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-p6rx7he",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-p6rx7he",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The Java run-time has the following built-in class loaders:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-hf7fntm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-hf7fntm",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Bootstrap class loader.",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-tqzvbbe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-tqzvbbe",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "It is the virtual machine's built-in class loader, typically represented as null, and does not have a parent.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-f9v4hwz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-f9v4hwz",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Platform class loader.",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-4qmkfxi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-4qmkfxi",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " All platform classes are visible to the platform class loader that can be used as the parent of a ClassLoader instance. Platform classes include Java SE platform APIs, their implementation classes and JDK-specific run-time classes that are defined by the platform class loader or its ancestors.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-a0tx6jj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-a0tx6jj",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "To allow for upgrading/overriding of modules defined to the platform class loader, and where upgraded modules read modules defined to class loaders other than the platform class loader and its ancestors, then the platform class loader may have to delegate to other class loaders, the application class loader for example. In other words, classes in named modules defined to class loaders other than the platform class loader and its ancestors may be visible to the platform class loader.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-ep18zs0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-ep18zs0",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "System class loader.",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-dvgbjw6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-dvgbjw6",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "It is also known as application class loader and is distinct from the platform class loader. The system class loader is typically used to define classes on the application class path, module path, and JDK-specific tools. The platform class loader is a parent or an ancestor of the system class loader that all platform classes are visible to it.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-51hbb19",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-51hbb19",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Normally, the Java virtual machine loads classes from the local file system in a platform-dependent manner. However, some classes may not originate from a file; they may originate from other sources, such as the network, or they could be constructed by an application. The method defineClass converts an array of bytes into an instance of class Class. Instances of this newly defined class can be created using Class.newInstance.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-zx9kebc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-zx9kebc",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The methods and constructors of objects created by a class loader may reference other classes. To determine the class(es) referred to, the Java virtual machine invokes the loadClass method of the class loader that originally created the class.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-tph9z4m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-tph9z4m",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "For example, an application could create a network class loader to download class files from a server. Sample code might look like:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-wjvgp6q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-wjvgp6q",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​    ClassLoader loader = new NetworkClassLoader(host, port);",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​    Object main = loader.loadClass(\"Main\", true).newInstance();",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​         . . .",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-lyvsncc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-lyvsncc",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The network class loader subclass must define the methods findClass and loadClassData to load a class from the network. Once it has downloaded the bytes that make up the class, it should use the method defineClass to create a class instance. A sample implementation is:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-ze2tuow",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626152335-ze2tuow",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "class NetworkClassLoader extends ClassLoader {\n   \t String host;\n   \t int port;\n  \n\t  \tpublic Class findClass(String name) {\n          byte[] b = loadClassData(name);\n          return defineClass(name, b, 0, b.length);\n      }\n \n      private byte[] loadClassData(String name) {\n          // load the class data from the connection\n           . . .\n      }\n  }\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-9rd850d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-9rd850d",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Binary names",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Any class name provided as a String parameter to methods in ClassLoader must be a binary name as defined by The Java™ Language Specification.",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Examples of valid class names include:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-6n412mf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626152335-6n412mf",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\"java.lang.String\"\n\"javax.swing.JSpinner$DefaultEditor\"\n\"java.security.KeyStore$Builder$FileBuilder$1\"\n\"java.net.URLClassLoader$3$1\"\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-irxibel",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626152335-irxibel",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Any package name provided as a String parameter to methods in ClassLoader must be either the empty string (denoting an unnamed package) or a fully qualified name as defined by The Java™ Language Specification.",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Since:",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "1.0",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "revised",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "9",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "spec",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "JPMS",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-ahau2fv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626152335-ahau2fv",
+				"updated": "20220626152335"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "类的加载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626152335-alsf80p",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220626152335-alsf80p",
+				"updated": "20220626192621"
+			},
+			"Children": [
+				{
+					"ID": "20220626164047-w5crkjd",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626164047-w5crkjd",
+						"updated": "20220626164047"
+					},
+					"Children": [
+						{
+							"ID": "20220626164047-6ybteyg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626164047-6ybteyg",
+								"updated": "20220626164047"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类加载器",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "并不需要",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "等到某个类被“首次使用”才去加载它。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626164048-nm3nnvw",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626164048-nm3nnvw",
+						"updated": "20220626192624"
+					},
+					"Children": [
+						{
+							"ID": "20220626164048-tkzvjik",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626164048-tkzvjik",
+								"updated": "20220626192624"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JVM 规范允许类加载器在预料到某个类将要被使用的时候预先加载它，如果预先加载中遇到了.class 文件缺失或者遇到错误，类加载器必须在程序首次主动使用该类时候才去报告错误（",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "LinkageError错误",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626192524-rwz5s26",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626192524-rwz5s26",
+						"updated": "20220626192621"
+					},
+					"Children": [
+						{
+							"ID": "20220626192524-2m0bzek",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626192524-2m0bzek",
+								"updated": "20220626192621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果这个类一直没有被程序",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "主动使用",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，那么类加载器不会报告错误。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220703121120-j3d1wvd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220703121120-j3d1wvd",
+				"updated": "20220703121139"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "类的验证",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220703121143-23wemqt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220703121143-23wemqt",
+				"updated": "20220703121809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类被加载后，进入连接阶段。连接是将已经读入到内存的类的二进制数据合并到虚拟机运行时环境中去。"
+				}
+			]
+		},
+		{
+			"ID": "20220703121924-b6g6jwp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220703121924-b6g6jwp",
+				"updated": "20220703121931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类的验证的内容"
+				}
+			]
+		},
+		{
+			"ID": "20220703121932-bjamfps",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220703121932-bjamfps",
+				"updated": "20220703122024"
+			},
+			"Children": [
+				{
+					"ID": "20220703121937-ncpt1qw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220703121937-ncpt1qw",
+						"updated": "20220703121937"
+					},
+					"Children": [
+						{
+							"ID": "20220703121937-uzgavfg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220703121937-uzgavfg",
+								"updated": "20220703121958"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类文件的结构检查"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220703121959-el0fzs2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220703121959-el0fzs2"
+					},
+					"Children": [
+						{
+							"ID": "20220703121959-ykpn43n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220703121959-ykpn43n",
+								"updated": "20220703122010"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "语义检查"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220703122010-hm0m38t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220703122010-hm0m38t"
+					},
+					"Children": [
+						{
+							"ID": "20220703122010-dvgkcga",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220703122010-dvgkcga",
+								"updated": "20220703122013"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字节码验证"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220703122013-ap94223",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220703122013-ap94223",
+						"updated": "20220703122024"
+					},
+					"Children": [
+						{
+							"ID": "20220703122013-ol7cdu9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220703122013-ol7cdu9",
+								"updated": "20220703122024"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "二进制兼容性验证"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220703123356-0vhhcdj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220703123356-0vhhcdj",
+				"updated": "20220703123439"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220703123423971"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220703123424.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220703212019-3y7e090",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220703212019-3y7e090",
+				"updated": "20220703212725"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类的准备"
+				}
+			]
+		},
+		{
+			"ID": "20220703212725-gdtjyfp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220703212725-gdtjyfp",
+				"updated": "20220703212801"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220703212752.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220703212943-vnrwli5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220703212943-vnrwli5",
+				"updated": "20220703212948"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类的解析"
+				}
+			]
+		},
+		{
+			"ID": "20220703212949-1xe4ekw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220703212949-1xe4ekw",
+				"updated": "20220703212949"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220703212922675"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220703212923.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220703213327-nokpnsw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220703213327-nokpnsw",
+				"updated": "20220703213728"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220703213703929"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220703213704.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220703213734-yubo0ct",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220703213734-yubo0ct",
+				"updated": "20220703213848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类的初始化"
+				}
+			]
+		},
+		{
+			"ID": "20220703213848-0uly81y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220703213848-0uly81y",
+				"updated": "20220703213915"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220703213857934"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220703213858.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220703213921-kva1m0p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220703213921-kva1m0p",
+				"updated": "20220703215459"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例"
+				}
+			]
+		},
+		{
+			"ID": "20220703215500-gnuduvr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220703215500-gnuduvr",
+				"updated": "20220703215509"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package com.terwergreen.classloader;\n\n/**\n * 类的加载案例\n *\n * @name: MyTest\n * @author: terwer\n * @date: 2022-07-03 21:48\n **/\npublic class MyTest {\n    public static void main(String[] args) {\n        Singleton singleton = Singleton.getInstance();\n        System.out.println(\"counter1=\" + singleton.counter1);\n        System.out.println(\"counter2=\" + singleton.counter2);\n    }\n}\n\nclass Singleton {\n    // 这样会输出\n    // counter1=1\n    // counter2=0\n    private static Singleton singleton = new Singleton();\n    public static int counter1;\n    public static int counter2 = 0;\n    // 这样会输出\n    // counter1=1\n    // counter2=1\n    // private static Singleton singleton = new Singleton();\n\n    private Singleton() {\n        counter1++;\n        counter2++;\n    }\n\n    public static Singleton getInstance() {\n        return singleton;\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626153444-oyrp8co",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626153444-oyrp8co",
+				"updated": "20220626192748"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "相关文章",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626192846-alg1gql",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626192846-alg1gql",
+				"updated": "20220626193155"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenParen",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220626000550-9sw1r8a",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeBlockRefSpace",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "IDEA自定义Maven archetype",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

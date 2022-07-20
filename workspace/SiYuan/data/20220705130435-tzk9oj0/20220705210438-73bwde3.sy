@@ -1,0 +1,44 @@
+{
+	"ID": "20220705210438-73bwde3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220705210438-73bwde3",
+		"title": "test",
+		"updated": "20220705210459"
+	},
+	"Children": [
+		{
+			"ID": "20220705130438-604e01q",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220705130438-604e01q",
+				"updated": "20220705210458"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "test\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220705210459-x4w71gc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220705210459-x4w71gc"
+			}
+		}
+	]
+}

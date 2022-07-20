@@ -1,0 +1,118 @@
+{
+	"ID": "20220712172904-5vtpfp2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220712172904-5vtpfp2",
+		"title": "思源笔记功能扩展",
+		"updated": "20220712173049"
+	},
+	"Children": [
+		{
+			"ID": "20220712092905-covk0bf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712092905-covk0bf",
+				"updated": "20220712172919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、利用自定义属性"
+				}
+			]
+		},
+		{
+			"ID": "20220712172920-yqw4kti",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712172920-yqw4kti",
+				"updated": "20220712172948"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "设置块属性"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/siyuan-note/siyuan/blob/master/API_zh_CN.md#%E8%AE%BE%E7%BD%AE%E5%9D%97%E5%B1%9E%E6%80%A7"
+						},
+						{
+							"Type": "NodeLinkSpace"
+						},
+						{
+							"Type": "NodeLinkTitle",
+							"Data": "设置块属性"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220712172937-od4gv65",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712172937-od4gv65",
+				"updated": "20220712173035"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "导出Markdown文本"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/siyuan-note/siyuan/blob/master/API_zh_CN.md#%E5%AF%BC%E5%87%BA-markdown-%E6%96%87%E6%9C%AC"
+						},
+						{
+							"Type": "NodeLinkSpace"
+						},
+						{
+							"Type": "NodeLinkTitle",
+							"Data": "导出Markdown文本"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220712173049-f6e7x7x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712173049-f6e7x7x"
+			}
+		}
+	]
+}

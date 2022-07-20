@@ -1,0 +1,224 @@
+{
+	"ID": "20220621190810-t0oz0ah",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220621190810-t0oz0ah",
+		"tags": "docker",
+		"title": "docker 运行思源笔记",
+		"updated": "20220621111610"
+	},
+	"Children": [
+		{
+			"ID": "20220621110812-lgdh3s6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220621110812-lgdh3s6",
+				"updated": "20220621190845"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "docker",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 调试成功，有需要脚本的可以拿走 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "docker-compose.yml",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220621110812-pcrec1x",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220621110812-pcrec1x",
+				"updated": "20220621110812"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " # docker-compose --log-level INFO up --build\n # docker-compose --log-level INFO up -d --build\n ​\n version: '3'\n services:\n   portable-siyuan:\n     stdin_open: true\n     tty: true\n     image: terwer/siyuan:2.0.22\n     container_name: portable-siyuan\n     build:\n       context: .\n       dockerfile: Dockerfile\n     ports:\n       - \"6806:6806\"\n     environment:\n       # 最好使用此设定时区，其它镜像也可以使用，也可以用\"TZ=Asia/Shanghai\"\n       - \"TZ=CST-8\"\n     volumes:\n       - ./workspace:/home/siyuan/Documents\n     restart: \"no\"\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220621110812-g6z0lyz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220621110812-g6z0lyz",
+				"updated": "20220621190854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "依赖的 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Dockerfile",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 就是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Github",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}

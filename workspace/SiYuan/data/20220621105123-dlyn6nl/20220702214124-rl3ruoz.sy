@@ -1,0 +1,183 @@
+{
+	"ID": "20220702214124-rl3ruoz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220702214124-rl3ruoz",
+		"tags": "mac",
+		"title": "Mac最小化窗口的方法",
+		"updated": "20220702214203"
+	},
+	"Children": [
+		{
+			"ID": "20220702134124-l9gpiyk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220702134124-l9gpiyk",
+				"updated": "20220702214203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用快捷键 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Command+Option+H",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，可以实现快速",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "隐藏",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "除当前应用程序之外所有程序窗口的目的。 使用快捷键 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Command+Option+M+H",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，可以实现快速",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "隐藏",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "所有应用程序窗口的目的。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220702214201-bv1gnlv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220702214201-bv1gnlv",
+				"updated": "20220702214201"
+			}
+		}
+	]
+}

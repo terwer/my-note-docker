@@ -1,0 +1,1712 @@
+{
+	"ID": "20220626000550-9sw1r8a",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220626000550-9sw1r8a",
+		"title": "IDEA自定义Maven archetype",
+		"updated": "20220626001517"
+	},
+	"Children": [
+		{
+			"ID": "20220626001517-kimag9g",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220626001517-kimag9g",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20220626001517-kyelqdv",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220626001517-kyelqdv",
+						"updated": "20220626001517"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/03/14 验证通过",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"ID": "20220626001517-9s1in4p",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220626001517-9s1in4p",
+						"updated": "20220626001517"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"ID": "20220626001517-ahm26fo",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220626001517-ahm26fo",
+						"updated": "20220626001517"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/03/03 初稿。",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"ID": "20220626001517-gklam6t",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220626001517-gklam6t",
+						"updated": "20220626001517"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/04/21 兼容 IDEA2022.1。提供使用的新方法。",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-zjs3zrn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-zjs3zrn",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在创建 Maven 的项目时我们发现了一个很不方便的问题，就是每次创建 Maven 的工程的时候，都需要选择一个骨架，但是每个骨架都需要删除一部分东西才行，这样的话实在是太不方便了。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-8xk7274",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626001517-8xk7274",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "为什么要自定义 archetype",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-3jf6mdf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-3jf6mdf",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在创建 Maven 的项目时我们发现了一个很不方便的问题，就是每次创建 Maven 的工程的时候，都需要选择一个骨架，但是每个骨架都需要删除一部分东西才行，在平时开发中，如果是分布式项目，有可能会频繁创建子项目，每次都要删除不要的文件然后拷贝我们要的文件，例如弹簧配置，web.xml 中配置等。这样做不仅会浪费大量时间，拷贝和删除文件也容易导致错误的发生，比如漏拷某文件。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-50njxfw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626001517-50njxfw",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Archetype maven 项目的组成",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-fnhq5tm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-fnhq5tm",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个典型的 Archetype Maven 项目主要包括如下几个部分：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-lein9mu",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220626001517-lein9mu",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"ID": "20220626001517-fhldj2f",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626001517-fhldj2f",
+						"updated": "20220626001517"
+					},
+					"Children": [
+						{
+							"ID": "20220626001517-i0dzqy7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626001517-i0dzqy7",
+								"updated": "20220626001517"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "pom.xml：Archetype 自身的 POM。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626001517-32mkipn",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626001517-32mkipn",
+						"updated": "20220626001517"
+					},
+					"Children": [
+						{
+							"ID": "20220626001517-q781fj3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626001517-q781fj3",
+								"updated": "20220626001517"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "src/main/resources/archetype-resources/pom.xml：基于该 Archetype 生成项目的 POM 原型。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626001517-zrppzhj",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626001517-zrppzhj",
+						"updated": "20220626001517"
+					},
+					"Children": [
+						{
+							"ID": "20220626001517-f0kikw6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626001517-f0kikw6",
+								"updated": "20220626001517"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "src/main/resources/META-INF/maven/archetype-metadata.xml：Archetype 的描述符文件。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626001517-xklgkla",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626001517-xklgkla",
+						"updated": "20220626001517"
+					},
+					"Children": [
+						{
+							"ID": "20220626001517-wb5ecjw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626001517-wb5ecjw",
+								"updated": "20220626001517"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "src/main/resources/archetype-resources/**：其他需要包含在 Archetype 中的内容。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-3fe5ztt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626001517-3fe5ztt",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建自己的骨架结构"
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-e6eyeil",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-e6eyeil",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要创建 Maven 的模板，首先你要创建一个 Maven 的项目，然后再以这个项目作为模板。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-oi2v3df",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626001517-oi2v3df",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建 maven 工程"
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-z9x32s5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-z9x32s5",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首先创建一个 Maven 的工程，名字叫 maven-template-java-simple",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-2drmlio",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-2drmlio",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选择骨架",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220625162405-ox9fg7r",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://cdn.jsdelivr.net/gh/terwer/upload/img/20220314105651.jpeg\" style=\"zoom:50%;\" /\u003e",
+			"HtmlBlockType": 7,
+			"Properties": {
+				"id": "20220626001517-zomsy3n",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220626001517-8af6v1w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626001517-8af6v1w",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "骨架创建"
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-81qk1zp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-81qk1zp",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 maven-template-java-simple 根目录执行",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-o0uvndu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-o0uvndu",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "mvn archetype:create-from-project\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-jf99dnd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-jf99dnd",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "报错解决",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-renvz5l",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-renvz5l",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "mvn archetype:create-from-project报错The specified user settings file does not exist\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-ia0g78n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-ia0g78n",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/chmod/p/15489910.html",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/chmod/p/15489910.html",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-g3e8day",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-g3e8day",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "执行完毕之后，会出现一个编译之后新的 maven 工程（target 文件夹），如下图:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220625162405-oaiu53i",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://cdn.jsdelivr.net/gh/terwer/upload/img/20220314105712.jpeg\" style=\"zoom:50%;\" /\u003e",
+			"HtmlBlockType": 7,
+			"Properties": {
+				"id": "20220626001517-wtc96kd",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220626001517-dsq0jfy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626001517-dsq0jfy",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "骨架安装"
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-t40mn7f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-t40mn7f",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装对应骨架项目",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-e5ytodk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-e5ytodk",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "先进入骨架项目的 pom 文件目录：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-1n7j8rk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-1n7j8rk",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd target/generated-sources/archetype\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-t2ohlpw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-t2ohlpw",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "执行安装：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-8a15kxd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-8a15kxd",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "mvn clean install\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-djhyiyz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-djhyiyz",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们的骨架项目坐标如下：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-6clii84",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-6clii84",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cgroupId\u003ecom.terwergreen\u003c/groupId\u003e\n\u003cartifactId\u003emaven-template-java-simple-archetype\u003c/artifactId\u003e\n\u003cversion\u003e1.0.0\u003c/version\u003e\n\u003cpackaging\u003emaven-archetype\u003c/packaging\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-z5hidqq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-z5hidqq",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "至此，骨架项目安装成功。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-a4524t4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626001517-a4524t4",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用自己创建的自定义骨架"
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-xrfzg01",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-xrfzg01",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建新的 Maven 工程，选择自定义骨架",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-y0h4lkz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626001517-y0h4lkz",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "添加骨架"
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-s191zr6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-s191zr6",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建新的 maven 工程，选择 Add Archetype,填写刚才添加的骨架工程坐标,点击 OK，这是会生成一个新的骨架选项。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-vz3bfbw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-vz3bfbw",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "groupId com.terwergreen\nartifactId maven-template-java-simple-archetype\nversion 1.0.0\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220625162405-5j193nx",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://cdn.jsdelivr.net/gh/terwer/upload/img/20220314105749.jpeg\" style=\"zoom:50%;\" /\u003e",
+			"HtmlBlockType": 7,
+			"Properties": {
+				"id": "20220626001517-9p8fz4c",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220626001517-9p8fz4c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-9p8fz4c",
+				"updated": "20220626002524"
+			}
+		},
+		{
+			"ID": "20220626001517-8xxf2fr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-8xxf2fr",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选中新创建的骨架，点击下一步创建新的 Maven 的项目如下，这是新建的测试项目：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220625162405-mvxo36l",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://cdn.jsdelivr.net/gh/terwer/upload/img/20220314105803.jpeg\" style=\"zoom:50%;\" /\u003e",
+			"HtmlBlockType": 7,
+			"Properties": {
+				"id": "20220626001517-2zqgjg9",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220626001517-2zqgjg9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-2zqgjg9",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220625162405-3yt6tr4",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://cdn.jsdelivr.net/gh/terwer/upload/img/20220314105811.jpeg\" style=\"zoom:50%;\" /\u003e",
+			"HtmlBlockType": 7,
+			"Properties": {
+				"id": "20220626001517-4k6y9h7",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220626001517-4k6y9h7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-4k6y9h7",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220625162405-75tcw7n",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://cdn.jsdelivr.net/gh/terwer/upload/img/20220314105835.jpeg\" style=\"zoom:50%;\" /\u003e",
+			"HtmlBlockType": 7,
+			"Properties": {
+				"id": "20220626001517-mhr6yt3",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220626001517-mhr6yt3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-mhr6yt3",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220625162405-elwxjsr",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://cdn.jsdelivr.net/gh/terwer/upload/img/20220314105849.jpeg\" style=\"zoom:50%;\" /\u003e",
+			"HtmlBlockType": 7,
+			"Properties": {
+				"id": "20220626001517-83mhpo0",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220626001517-83mhpo0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-83mhpo0",
+				"updated": "20220626001517"
+			}
+		},
+		{
+			"ID": "20220626001517-umr6gp0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-umr6gp0",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以后再创建类似的 Maven 的项目时，就可以快速新建的 Maven 项目而不用改来改去了。是不是很方便呢？",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-r67mk0g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-r67mk0g",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PS:删除自定义 archetype",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-5iq1wip",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-5iq1wip",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd /Users/terwer/Library/Caches/JetBrains/IntelliJIdea2021.3/Maven/Indices\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-zg671jy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-zg671jy",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后编辑 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "UserArchetypes.xml",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件即可。注意：修改文件之后需要重启 IDEA。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-3lcks9y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-3lcks9y",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "手动添加的方法：",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-ezvo23e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626001517-ezvo23e",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决添加失效问题（IDEA2022.1 以下版本有效，不包括 IDEA2022.1）"
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-p9mdop1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-p9mdop1",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd ~/Library/Caches/JetBrains\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-ft0yyic",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-ft0yyic",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "找到对应版本目录，例如",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-7e75g87",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-7e75g87",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd /Users/terwer/Library/Caches/JetBrains/IntelliJIdea2021.3/Maven/Indices\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-ccuz753",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-ccuz753",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后新建一个 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "UserArchetypes.xml",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件，内容如下：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-ly2xzwe",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220626001517-ly2xzwe",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003carchetypes\u003e\n    \u003carchetype groupId=\"com.terwergreen\" artifactId=\"maven-template-java-simple-archetype\" version=\"1.0.3\" /\u003e\n\u003c/archetypes\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-6bqepss",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-6bqepss",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "重启 IDEA 就可以了。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-oeuejkp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626001517-oeuejkp",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IDEA 2022.1 的变化"
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-538z2ew",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-538z2ew",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IDEA2022 在 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Add",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 完成之后，下次新建需要切换 Catalog 到 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Default Local",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，然后才能在 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Archetype",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 中选择到。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626001517-fh9zjzj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626001517-fh9zjzj",
+				"updated": "20220626001517"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220421135052088"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://cdn.jsdelivr.net/gh/terwer/upload/img/image-20220421135052088.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

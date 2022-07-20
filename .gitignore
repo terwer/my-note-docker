@@ -1,2 +1,7 @@
 .idea/
-workspace/
+.siyuan
+workspace/SiYuan/backup/
+workspace/SiYuan/conf/
+workspace/SiYuan/history/
+workspace/SiYuan/sync/
+workspace/SiYuan/temp/
