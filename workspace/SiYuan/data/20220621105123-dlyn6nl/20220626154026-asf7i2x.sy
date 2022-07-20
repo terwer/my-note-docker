@@ -1,0 +1,4885 @@
+{
+	"ID": "20220626154026-asf7i2x",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220626154026-asf7i2x",
+		"title": "Zookeeper的基本概念及环境搭建",
+		"updated": "20220627225503"
+	},
+	"Children": [
+		{
+			"ID": "20220626154427-6y5nzek",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220626154427-6y5nzek",
+				"updated": "20220626163349"
+			},
+			"Children": [
+				{
+					"ID": "20220626074143-mnn40vl",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220626074143-mnn40vl",
+						"updated": "20220626155119"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史"
+						}
+					]
+				},
+				{
+					"ID": "20220626154842-2nqhh19",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220626154842-2nqhh19",
+						"updated": "20220626163349"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/06/26 feat:调整文章结构。"
+						}
+					]
+				},
+				{
+					"ID": "20220626154430-q8q6lah",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220626154430-q8q6lah",
+						"updated": "20220626155109"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/05 feat:初稿。"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-p2mzstf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626074143-p2mzstf",
+				"updated": "20220626154416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式系统面临的问题"
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-guxa1id",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-guxa1id",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Zookeeper",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 最主要的应用场景是，作为分布式系统的分布式协同服务。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-ch97dwr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-ch97dwr",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分布式系统可以定义为：",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-2ernxum",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-2ernxum",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分布式系统是同时跨越多个物理主机，独立运行的多个软件组成的系统。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-wn9ixg9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-wn9ixg9",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "每个服务器的算力是有限的，但是，通过分布式系统，由 n 个服务器组成的集群，算力是可以无限扩张的。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-8oz8lr1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-8oz8lr1",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "优点很明显，人多力量大，并且可以相互备份。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-nhmwlq4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-nhmwlq4",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "缺点也很明显，以 5 个人作为项目组开发项目为例，会面临如下问题：",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-osjm1r4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-osjm1r4",
+				"updated": "20220626160802"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220505180348354"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/image-20220505180348354.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-6p8j7au",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-6p8j7au",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "在现实中，我们可以认为协调，出错了也可以人工补偿。在计算机世界，这样行不通，每一步都必须严谨。因此，分布式系统必须合理解决上述问题。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-wactb0v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-wactb0v",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分布式协调的工作就是通过某种方式，让每个节点的信息进行同步和共享。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 这依赖于服务器进程之间的通信，通信方式主要有两种：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-rmv3d8r",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220626074143-rmv3d8r",
+				"updated": "20220626160827"
+			},
+			"Children": [
+				{
+					"ID": "20220626074143-699dx39",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626074143-699dx39",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-85vqzut",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-85vqzut",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "通过网络进行通信",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "类似于现实中任务通过邮件的传递。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-cijxwau",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626074143-cijxwau",
+						"updated": "20220626160827"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-oak896s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-oak896s",
+								"updated": "20220626160827"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "通过共享存储"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "类似于 svn 共享任务分配表。更好的方法是，svn 有变化时，通过邮件通知。整个过程如下："
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image-20220505183542727"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/image-20220505183542727.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-k108h4u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626074143-k108h4u",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Zookeeper 如何解决分布式系统面临的问题",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-03k6z2u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-03k6z2u",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Zookeeper 对分布式系统的协调，使用的是第二种方式，共享存储。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 分布式应用也需要和存储进行网络通信。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-oy5e4uc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-oy5e4uc",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Zookeeper 实现分布式协同的原理，类似于项目组通过 svn 同步工作任务。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-uv1zxcg",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220626074143-uv1zxcg",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"ID": "20220626074143-672lkwi",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626074143-672lkwi",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-xe4nnlk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-xe4nnlk",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Zookeeper 类似 svn，存储了任务的分配、完成情况等共享信息。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-jxifqnh",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626074143-jxifqnh",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-dvok8fr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-dvok8fr",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "每个分布式应用的节点类似于组员，订阅这些共享信息。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-tiegazy",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626074143-tiegazy",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-0jvbyyh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-0jvbyyh",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "当主节点（组 leader），对某个从节点的工作信息发生改变时，相关订阅的从节点会受到 Zookeeper 通知，取得最新的任务分配。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-8syohoy",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626074143-8syohoy",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-nmtc36l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-nmtc36l",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "从节点完成工作后，将完成情况存储到 Zookeeper。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-v86wm8m",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220626074143-v86wm8m",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-fazglbs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-fazglbs",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "主节点订阅了任务的完成情况信息，所以将得到 Zookeeper 的完工通知。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-hjv8i2t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-hjv8i2t",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "如图，svn 和邮件系统合二为一，以 Zookeeper 代替。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-fm908uz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-fm908uz",
+				"updated": "20220626160845"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220505184704848"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/image-20220505184704848.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-dndga9p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-dndga9p",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "备注：Slave 节点想要获取 Zookeeper 的更新通知，需要事先在关心的节点上设置观察点。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-acsnxwy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-acsnxwy",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分布式系统的问题主要来自于共享。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-ut8cveo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-ut8cveo",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Zookeeper 解决协同问题的关键是，保证分布式系统信息的一致性。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-hoay5ec",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626074143-hoay5ec",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Zookeeper 的基本概念",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-v8o8j0y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074143-v8o8j0y",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Zookeeper 概述",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-gcnipjc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-gcnipjc",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Zookeeper 是一个分布式的协调服务，他的设计目标是将复杂易出错的分布式服务封装起来，构成可操作的原语集，以简单的接口提供给用户 使用。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-urz5lsp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074143-urz5lsp",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Zookeeper 是一个典型的分布式数据一致性解决方案",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，分布式应用可以基于塔实现发布订/阅，负载均衡、命名服务、集群管理、分布式锁、分布式队列等功能。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-0h4fyk4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074143-0h4fyk4",
+				"updated": "20220626074143"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "基本概念",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220626074143-e8zhp6q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20220626074143-e8zhp6q",
+				"updated": "20220626160858"
+			},
+			"Children": [
+				{
+					"ID": "20220626074143-s62z93j",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220626074143-s62z93j",
+						"updated": "20220626160858"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-07y5ror",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-07y5ror",
+								"updated": "20220626160858"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "集群角色"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "分布式中最典型的集群是"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Master/Slave"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 模式，通常把能够处理写操作的机器叫 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Master"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 机器，把通过异步复制获取最新数据，并提供读服务的机器成为 Slave 机器。\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Zookeeper 没有使用这一的模式，而是引入了 Leader 、Follower 和 Observer 三种角色。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Zookeeper 中的所有机器通过 leader 选举选举 leader 机器，leader 服务器对外提供读和写服务，其他机器都能提供读服务。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "唯一的区别在与，Observer 不参与选举过程，不参与写操作的过半写成功策略，因此 Observer 可以在不影响写性能的情况下提升集群的性能。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image-20220525224350349"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/image-20220525224350349.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-2dvlns7",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220626074143-2dvlns7",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-o4cax44",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-o4cax44",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "会话（Session）",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Session 指的是客户端会话，",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "一个客户端连接指的是客户端和服务端之间的一个 TCP 长连接",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，Zookeeper 对外的默认端口是 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "2181",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 。",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "客户端启动时，首先会与服务器建立一个 TCP 连接，从第一次连接建立开始，客户端的生命周期就开始了，通过这个连接，客户端能够心跳检测与服务器保持有效会话，也能够向 Zookeeper 服务器发送请求并接收响应，同时还能够通过该连接来接收来自服务器的 Watch 事件通知。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-fdoncym",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220626074143-fdoncym",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-js4s57l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-js4s57l",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "数据节点（ZNode）",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "分布式中分“节点”通常指的是集群中的某一台机器。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "但是，Zookeeper 中的节点分为两类：",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220626074143-9pf29n3",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"MarkerOffset": 1,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220626074143-9pf29n3",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"ID": "20220626074143-arznmtz",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"MarkerOffset": 1,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220626074143-arznmtz",
+										"updated": "20220626074143"
+									},
+									"Children": [
+										{
+											"ID": "20220626074143-vyz955u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220626074143-vyz955u",
+												"updated": "20220626074143"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeText",
+															"Data": "第一类是指构成集群的机器，我们称之为机器节点",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "。",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220626074143-g7e086s",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"MarkerOffset": 1,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220626074143-g7e086s",
+										"updated": "20220626074143"
+									},
+									"Children": [
+										{
+											"ID": "20220626074143-1f39oad",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220626074143-1f39oad",
+												"updated": "20220626074143"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeText",
+															"Data": "第二类指数据模型中的数据单元",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，称为数据节点，即 ZNode。",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220626074143-pkvww23",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-pkvww23",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Zookeeper 将所有数据存在内存中，数据模型是一棵树（ZNode Tree）。由斜杠（/）进行分割的路径，就是一个 ZNode。例如/app/path1。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "每个 ZNode 上都会保存自己的数据内容，同时还会保存一系列的属性信息。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-jtnhlpp",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220626074143-jtnhlpp",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-6hse9nc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-6hse9nc",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "版本",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "每个 ZNode，Zookeeper 都会为其维护一个叫 Stat 的数据结构，Stat 记录了这个 ZNode 的三个版本，分别是 version（当前 ZNode 的版本）、cversion（当前 ZNode 子节点的版本）、zversion（当前 ZNode 的 ACL 版本）。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-nh78grr",
+					"Type": "NodeListItem",
+					"Data": "5",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NQ==",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220626074143-nh78grr",
+						"updated": "20220626074143"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-65efww2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-65efww2",
+								"updated": "20220626074143"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Wacher（事件监听器）",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Watcher 是指事件监听器，是 Zookeeper 的一个重要特性。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Zookeeper 允许用户在指定节点上注册一些 Watcher，并且在特定事件触发的时候，Zookeeper 服务端会将事件通知到感兴趣的客户端，该机制是 Zookeeper 实现分布式协调的重要特性。",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074143-3ajwiyu",
+					"Type": "NodeListItem",
+					"Data": "6",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 6,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Ng==",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220626074143-3ajwiyu",
+						"updated": "20220626154548"
+					},
+					"Children": [
+						{
+							"ID": "20220626074143-gldfemh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074143-gldfemh",
+								"updated": "20220626154548"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "ACL"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Zookeeper 使用 ACL（Access Control Lists）进行权限控制，其定义了一下五种权限，"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "CREATE：创建子节点的权限。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "READ：获取节点数据和节点列表的权限。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "WRITE：更新节点数据的权限。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "DELETE：删除子节点的权限。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "ADMIN：设置节点 ACL 的权限。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "其中，CREATE 和 DELETE 都是针对子节点的权限控制。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-x0acuwh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626074524-x0acuwh",
+				"updated": "20220626154553"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Zookeeper 的环境搭建"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-w7uf1mw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-w7uf1mw",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Zookeeper 的安装方式有三种：单机模式、集群模式和伪集群模式。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-2pv4w91",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220626074524-2pv4w91",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"ID": "20220626074524-8wnzubw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220626074524-8wnzubw",
+						"updated": "20220626074524"
+					},
+					"Children": [
+						{
+							"ID": "20220626074524-nnt4zjr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074524-nnt4zjr",
+								"updated": "20220626074524"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "单机模式：Zookeeper 只运行在一台服务器上，适合测试环境。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074524-h3xa1ku",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220626074524-h3xa1ku",
+						"updated": "20220626074524"
+					},
+					"Children": [
+						{
+							"ID": "20220626074524-i9lmi65",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074524-i9lmi65",
+								"updated": "20220626074524"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "集群模式：Zookeeper 运行于一个集群上，适合生产环境，这个计算机集群被称为一个“集合体”。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074524-utxvsva",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220626074524-utxvsva",
+						"updated": "20220626074524"
+					},
+					"Children": [
+						{
+							"ID": "20220626074524-mt0e5d1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074524-mt0e5d1",
+								"updated": "20220626074524"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "伪集群模式：就是在一台服务器上运行多个 Zookeeper 实例。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-9gd3du3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626074524-9gd3du3",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单机模式搭建"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-o6o6mrc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-o6o6mrc",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "普通搭建"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-nsqvci3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-nsqvci3",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "zookeeper 官网"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-87n2f03",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-87n2f03",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://zookeeper.apache.org/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://zookeeper.apache.org/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-6n9y2s0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-6n9y2s0",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "下载 Zookeeper，最新稳定版是3.7.1"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-3c6xgwf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-3c6xgwf",
+				"updated": "20220626155215"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " cd /app\n wget https://dlcdn.apache.org/zookeeper/zookeeper-3.7.1/apache-zookeeper-3.7.1-bin.tar.gz\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-aw60gtt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-aw60gtt",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "解压"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-p2vv4fz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-p2vv4fz",
+				"updated": "20220626155220"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " tar -zxvf apache-zookeeper-3.7.1-bin.tar.gz\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-9mffxr0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-9mffxr0",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "运行"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-s5k80u5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-s5k80u5",
+				"updated": "20220626155226"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " cd apache-zookeeper-3.7.1-bin\n mkdir data\n ​\n cd conf\n cp zoo_sample.cfg zoo.cfg\n vim zoo.cfg\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-2v3a1nn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-2v3a1nn",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "修改配置如下"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-0fkc4s5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-0fkc4s5",
+				"updated": "20220626155232"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " # the directory where the snapshot is stored.\n # do not use /tmp for storage, /tmp here is just \n # example sakes.\n dataDir=/app/apache-zookeeper-3.7.1-bin/data\n # the port at which the clients will connect\n clientPort=2181\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-ipx28zx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-ipx28zx",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "启动"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-tf7nd89",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-tf7nd89",
+				"updated": "20220626155237"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " cd ..\n cd bin\n ./zkServer.sh start\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-3frfit2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-3frfit2",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "效果"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-ky636qz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-ky636qz",
+				"updated": "20220626155246"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " ➜  bin ./zkServer.sh start\n ZooKeeper JMX enabled by default\n Using config: /app/apache-zookeeper-3.7.1-bin/bin/../conf/zoo.cfg\n Starting zookeeper ... STARTED\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-4g47mgz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-4g47mgz",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "查看状态"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-p49bpxj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-p49bpxj",
+				"updated": "20220626155249"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " ./zkServer.sh status\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-5uso4we",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-5uso4we",
+				"updated": "20220626155253"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " ➜  bin ./zkServer.sh status\n ZooKeeper JMX enabled by default\n Using config: /app/apache-zookeeper-3.7.1-bin/bin/../conf/zoo.cfg\n Client port found: 2181. Client address: localhost. Client SSL: false.\n Mode: standalone\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-mxkdmft",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-mxkdmft",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "docker 方式搭建"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-61pb5hv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-61pb5hv",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "官方镜像地址："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-wrxialh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-wrxialh",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://hub.docker.com/_/zookeeper"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://hub.docker.com/_/zookeeper"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-af2qlna",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-af2qlna",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Dockerfile"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-bcomidr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-bcomidr",
+				"updated": "20220626155300"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZG9ja2VyZmlsZQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " FROM zookeeper:3.8\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-8q95b6x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-8q95b6x",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "docker-compose.yml"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-p1my1vq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-p1my1vq",
+				"updated": "20220626155304"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " version: '3'\n ​\n services:\n   zoo1:\n     image: terwer/zookeeper\n     container_name: portable-zookeeper\n     build:\n       context: .\n       dockerfile: Dockerfile\n     restart: always\n     hostname: zoo1\n     ports:\n       - 2181:2181\n     environment:\n       ZOO_MY_ID: 1\n       ZOO_SERVERS: server.1=zoo1:2888:3888;2181\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-bhx2dl2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626074524-bhx2dl2",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "伪集群模式搭建"
+				}
+			]
+		},
+		{
+			"ID": "20220626155312-dqycqys",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626155312-dqycqys",
+				"updated": "20220626155316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "伪集群模式是在同一机器上运行多个 Zookeeper 实例来模拟多个 Zookeeper 集群的情况，操作简单，便于开发和测试阶段调试。"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-1uxdqd7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-1uxdqd7",
+				"updated": "20220626155322"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "伪集群模式需要注意的问题："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626155325-ez0lc7t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626155325-ez0lc7t",
+				"updated": "20220626155332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、要保证端口不能冲突。"
+				}
+			]
+		},
+		{
+			"ID": "20220626155339-4s3j8xl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626155339-4s3j8xl",
+				"updated": "20220626155402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、dataDir 的路径不能相同。"
+				}
+			]
+		},
+		{
+			"ID": "20220626155345-xdbokdi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626155345-xdbokdi",
+				"updated": "20220626155407"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、dataDir 需要创建 myid 文件夹来标识对应的 Zookeeper 服务器实例。"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-pu44485",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220626074524-pu44485",
+				"updated": "20220626155419"
+			},
+			"Children": [
+				{
+					"ID": "20220626074524-c1jdqda",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220626074524-c1jdqda",
+						"updated": "20220626155410"
+					},
+					"Children": [
+						{
+							"ID": "20220626074524-0gigx56",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074524-0gigx56",
+								"updated": "20220626155410"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "clientPort 端口\n监听的端口要独立"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074524-1y20vss",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220626074524-1y20vss",
+						"updated": "20220626155416"
+					},
+					"Children": [
+						{
+							"ID": "20220626074524-aov63cz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074524-aov63cz",
+								"updated": "20220626155416"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "dataDir 和 dataLogDir\n数据文件和日志文件要分别存储"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074524-5600wzp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220626074524-5600wzp",
+						"updated": "20220626155419"
+					},
+					"Children": [
+						{
+							"ID": "20220626074524-l8dai85",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074524-l8dai85",
+								"updated": "20220626155419"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Server.X 和 myid"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-wbmrref",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-wbmrref",
+				"updated": "20220626155357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Server.X 中的 X 对应 data/myid 中的 id 。"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-2l4vkj4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-2l4vkj4",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-5for3u7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-5for3u7",
+				"updated": "20220626155621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考普通模式"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-6n4g8po",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-6n4g8po",
+				"updated": "20220626155428"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " cd /media/terwer/data/app\n wget https://dlcdn.apache.org/zookeeper/zookeeper-3.7.1/apache-zookeeper-3.7.1-bin.tar.gz\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-nw81172",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-nw81172",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解压，创建集群目录"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-ik06abi",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-ik06abi",
+				"updated": "20220626155434"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " mkdir zkcluster\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-an2uh8n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-an2uh8n",
+				"updated": "20220626155439"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " tar -zxvf apache-zookeeper-3.7.1-bin.tar.gz -C /media/terwer/data/app/zkcluster\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-b8my1nf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-b8my1nf",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制并改名"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-dif8s5k",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-dif8s5k",
+				"updated": "20220626155451"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " cd zkcluster\n mv apache-zookeeper-3.7.1-bin zookeeper01\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-ws9g7em",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-ws9g7em",
+				"updated": "20220626155455"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " cp -r zookeeper01/ zookeeper02\n cp -r zookeeper01/ zookeeper03\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-pdxcehu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-pdxcehu",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220601185111062"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/img/20220601185111.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-uib3abj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-uib3abj",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分别在 zookeeper01 、zookeeper02 、zookeeper03 目录下创建 data 和 logs 目录"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-t8gb4sh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-t8gb4sh",
+				"updated": "20220626154756"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " mkdir data\n mkdir logs\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-mxi0ad1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-mxi0ad1",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改配置文件名称"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-8jsj6ms",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-8jsj6ms",
+				"updated": "20220626154759"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " cd conf\n cp zoo_sample.cfg zoo.cfg\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-i9nz4pq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-i9nz4pq",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改每一个 Zookeeper 的 DataDir、DataLogDir 和 ClientPort，端口分别为2181、2182、2183"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-ay6erzb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-ay6erzb",
+				"updated": "20220626154750"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " dataDir=/media/terwer/data/app/zkcluster/zookeeper01/data\n dataLogDir=/media/terwer/data/app/zkcluster/zookeeper01/logs\n clientPort=2181\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-hz00yfq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-hz00yfq",
+				"updated": "20220626154747"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " dataDir=/media/terwer/data/app/zkcluster/zookeeper02/data\n dataLogDir=/media/terwer/data/app/zkcluster/zookeeper02/logs\n clientPort=2182\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-w41tbz0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-w41tbz0",
+				"updated": "20220626154742"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " dataDir=/media/terwer/data/app/zkcluster/zookeeper03/data\n dataLogDir=/media/terwer/data/app/zkcluster/zookeeper03/logs\n clientPort=2183\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-sd69435",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-sd69435",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置集群"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-i7bnkvr",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220626074524-i7bnkvr",
+				"updated": "20220626155605"
+			},
+			"Children": [
+				{
+					"ID": "20220626074524-f85vy4n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220626074524-f85vy4n",
+						"updated": "20220626155605"
+					},
+					"Children": [
+						{
+							"ID": "20220626074524-izicx97",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074524-izicx97",
+								"updated": "20220626155605"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在每个集群的 data 目录下都新建一个 myid 文件，值分别为1、2、3"
+								}
+							]
+						},
+						{
+							"ID": "20220626074524-zdx87au",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220626074524-zdx87au",
+								"updated": "20220626154737"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": " cd data\n touch myid\n vim myid\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220626074524-so1kfmc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220626074524-so1kfmc",
+						"updated": "20220626155603"
+					},
+					"Children": [
+						{
+							"ID": "20220626074524-9e0kio9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220626074524-9e0kio9",
+								"updated": "20220626155603"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在每个 Zookeeper 的 zoo.cfg 中配置访问端口和集群列表"
+								}
+							]
+						},
+						{
+							"ID": "20220626074524-61mqu56",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220626074524-61mqu56",
+								"updated": "20220626154733"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cHJvcGVydGllcw=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": " server.1=192.168.3.46:2181:2181\n server.2=192.168.3.46:2182:2182\n server.3=192.168.3.46:2183:2183\n # server.服务器 ID=服务器 IP 地址:服务器之间通信端口:服务器之间投票选举端口\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-balhkq5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-balhkq5",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启动集群"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-kwwn5pb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-kwwn5pb",
+				"updated": "20220626155600"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "依次启动三个集群"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-psomjor",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-psomjor",
+				"updated": "20220626154728"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " cd bin\n ./zkServer.sh start\n ./zkServer.sh status\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-jn2urjw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-jn2urjw",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "报错解决"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-3xthkp8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220626074524-3xthkp8",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "错误一"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-sm8vzs7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-sm8vzs7",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " org.apache.zookeeper.server.quorum.QuorumPeerConfig$ConfigException: Client and election port must be different! Please update the configuration file on server.3\n         at org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer.initializeWithAddressString(QuorumPeer.java:362)\n         at org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer.\u003cinit\u003e(QuorumPeer.java:279)\n         at org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer.\u003cinit\u003e(QuorumPeer.java:274)\n         at org.apache.zookeeper.server.quorum.flexible.QuorumMaj.\u003cinit\u003e(QuorumMaj.java:92)\n         at org.apache.zookeeper.server.quorum.QuorumPeerConfig.createQuorumVerifier(QuorumPeerConfig.java:658)\n         at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parseDynamicConfig(QuorumPeerConfig.java:689)\n         at org.apache.zookeeper.server.quorum.QuorumPeerConfig.setupQuorumPeerConfig(QuorumPeerConfig.java:663)\n         at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parseProperties(QuorumPeerConfig.java:491)\n         at org.apache.zookeeper.server.quorum.QuorumPeerConfig.parse(QuorumPeerConfig.java:194)\n         at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:125)\n         at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:91)\n Invalid config, exiting abnormally\n 2022-06-01 22:17:55,296 [myid:] - INFO  [main:ZKAuditProvider@42] - ZooKeeper audit is disabled.\n 2022-06-01 22:17:55,298 [myid:] - ERROR [main:ServiceUtils@48] - Exiting JVM with code 2\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-t1zvebd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-t1zvebd",
+				"updated": "20220626155555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端端口和选举端口不能一样，换一下端口就行了。"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-b7lokc0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-b7lokc0",
+				"updated": "20220626154721"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " server.1=192.168.3.46:2181:3181\n server.2=192.168.3.46:2182:3182\n server.3=192.168.3.46:2183:3183\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-iad755c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220626074524-iad755c",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "错误二"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-v1bjuo2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-v1bjuo2",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " QuorumCnxManager$Listener@7631Exception while listening java.net.BindException\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-dh26pd9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-dh26pd9",
+				"updated": "20220626155550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决方法：在三个 zoo.cfg 中加入"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-5oq9zmy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-5oq9zmy",
+				"updated": "20220626154714"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " quorumListenOnAllIPs=true\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-5fc1dz4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220626074524-5fc1dz4",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "错误三"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-0ez8g49",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-0ez8g49",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " Exception when following the leader java.io.EOFException\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-ak7gwzz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-ak7gwzz",
+				"updated": "20220626155545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上，第一个问题没解决，服务端端口也不能和客户端一样。"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-wnh5ftu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-wnh5ftu",
+				"updated": "20220626154707"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " server.1=192.168.3.46:2888:3888\n server.2=192.168.3.46:2889:3889\n server.3=192.168.3.46:2890:3890\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-8x8bw2v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220626074524-8x8bw2v",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看效果"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-uixup2k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-uixup2k",
+				"updated": "20220626155540"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启动第一个之后"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-l54lcxk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-l54lcxk",
+				"updated": "20220626154701"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " ➜  bin ./zkServer.sh start \n ZooKeeper JMX enabled by default\n Using config: /media/terwer/data/app/zkcluster/zookeeper01/bin/../conf/zoo.cfg\n Starting zookeeper ... STARTED\n ➜  bin ./zkServer.sh status\n ZooKeeper JMX enabled by default\n Using config: /media/terwer/data/app/zkcluster/zookeeper01/bin/../conf/zoo.cfg\n Client port found: 2181. Client address: localhost. Client SSL: false.\n Error contacting service. It is probably not running.\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-29u2ze8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-29u2ze8",
+				"updated": "20220626155535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启动第二个之后"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-q63h4a0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-q63h4a0",
+				"updated": "20220626154657"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " ➜  bin ./zkServer.sh start \n ZooKeeper JMX enabled by default\n Using config: /media/terwer/data/app/zkcluster/zookeeper02/bin/../conf/zoo.cfg\n Starting zookeeper ... STARTED\n ➜  bin ./zkServer.sh status\n ZooKeeper JMX enabled by default\n Using config: /media/terwer/data/app/zkcluster/zookeeper02/bin/../conf/zoo.cfg\n Client port found: 2182. Client address: localhost. Client SSL: false.\n Mode: leader\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-cddaovv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-cddaovv",
+				"updated": "20220626155532"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启动第三个节点之后"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-ft2nzyy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-ft2nzyy",
+				"updated": "20220626154652"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " ➜  bin ./zkServer.sh start \n ZooKeeper JMX enabled by default\n Using config: /media/terwer/data/app/zkcluster/zookeeper03/bin/../conf/zoo.cfg\n Starting zookeeper ... STARTED\n ➜  bin ./zkServer.sh status\n ZooKeeper JMX enabled by default\n Using config: /media/terwer/data/app/zkcluster/zookeeper03/bin/../conf/zoo.cfg\n Client port found: 2183. Client address: localhost. Client SSL: false.\n Mode: follower\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-vne5pml",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220626074524-vne5pml",
+				"updated": "20220626074524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "docker 版伪集群模式搭建"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-gq69qad",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-gq69qad",
+				"updated": "20220626155527"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "docker-compose.yml"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-13n62qp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-13n62qp",
+				"updated": "20220626154647"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " version: '3.1'\n ​\n services:\n   zoo1:\n     image: zookeeper\n     restart: \"no\"\n     hostname: zoo1\n     ports:\n       - 2181:2181\n     environment:\n       ZOO_MY_ID: 1\n       ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=zoo2:2888:3888;2181 server.3=zoo3:2888:3888;2181\n ​\n   zoo2:\n     image: zookeeper\n     restart: \"no\"\n     hostname: zoo2\n     ports:\n       - 2182:2181\n     environment:\n       ZOO_MY_ID: 2\n       ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=zoo2:2888:3888;2181 server.3=zoo3:2888:3888;2181\n ​\n   zoo3:\n     image: zookeeper\n     restart: \"no\"\n     hostname: zoo3\n     ports:\n       - 2183:2181\n     environment:\n       ZOO_MY_ID: 3\n       ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=zoo2:2888:3888;2181 server.3=zoo3:2888:3888;2181\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-c2kvxnu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-c2kvxnu",
+				"updated": "20220626155519"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "检测"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-huuhcrz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-huuhcrz",
+				"updated": "20220626155514"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "先 Attach Shell ，然后"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-p5vs0kq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-p5vs0kq",
+				"updated": "20220626154641"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " /apache-zookeeper-3.8.0-bin/bin\n /zkServer.sh status\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-b1sqe1j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220626074524-b1sqe1j",
+				"updated": "20220626155512"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结果"
+				}
+			]
+		},
+		{
+			"ID": "20220626074524-amecy9d",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220626074524-amecy9d",
+				"updated": "20220626154635"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " root@zoo3:/apache-zookeeper-3.8.0-bin/bin# ./zkServer.sh status\n ZooKeeper JMX enabled by default\n Using config: /conf/zoo.cfg\n Client port found: 2181. Client address: localhost. Client SSL: false.\n Mode: leader\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220627225503-86kb0zl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220627225503-86kb0zl"
+			}
+		}
+	]
+}

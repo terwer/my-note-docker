@@ -1,0 +1,145 @@
+{
+	"ID": "20220716221314-ksplob7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;tags\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
+		"custom-slug": "spring-boot-config-https",
+		"id": "20220716221314-ksplob7",
+		"tags": "spring",
+		"title": "SpringBoot中https的配置",
+		"updated": "20220716221409"
+	},
+	"Children": [
+		{
+			"ID": "20220716232013-24o0ei9",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/Note Attrs\" data-src=\"/widgets/Note Attrs\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"height: 82px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220716232013-24o0ei9",
+				"style": "text-align: left;",
+				"updated": "20220716232013"
+			}
+		},
+		{
+			"ID": "20220716141314-8zfh5l6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220716141314-8zfh5l6",
+				"updated": "20220716221332"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# https://help.aliyun.com/document_detail/365559.html\n# HTTPS协议默认端口号为443，需要使用其他端口时，您可以在此处自定义。\nserver.port=8002\n# https://docs.oracle.com/en/java/javase/11/docs/specs/security/standard-names.html#keystore-types\n# 您需要使用实际的证书名称替换domain_name.pfx。\nserver.ssl.key-store=classpath:v4.pfx\n# 填写pfx-password.txt文件内的密码。\nserver.ssl.key-store-password=${SSL_KEY_PASSWORD}\nserver.ssl.keyStoreType=PKCS12\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220716221332-oahhwga",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220716221332-oahhwga",
+				"updated": "20220716221336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20220716221337-v3zy7it",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220716221337-v3zy7it",
+				"updated": "20220716221409"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://help.aliyun.com/document_detail/365559.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://help.aliyun.com/document_detail/365559.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220716221350-rzhxbl0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220716221350-rzhxbl0",
+				"updated": "20220716221413"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://docs.oracle.com/en/java/javase/11/docs/specs/security/standard-names.html#keystore-types"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://docs.oracle.com/en/java/javase/11/docs/specs/security/standard-names.html#keystore-types"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220716221401-me29urc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220716221401-me29urc"
+			}
+		}
+	]
+}

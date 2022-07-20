@@ -1,0 +1,385 @@
+{
+	"ID": "20220710212511-vh1frqq",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220710212511-vh1frqq",
+		"tags": "java,classloader,jvm",
+		"title": "自定义类加载器与JVM内置加载器交互详析",
+		"updated": "20220710224719"
+	},
+	"Children": [
+		{
+			"ID": "20220710132511-34d95yz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220710132511-34d95yz",
+				"updated": "20220710214721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "java 指定 class 路径"
+				}
+			]
+		},
+		{
+			"ID": "20220710213428-si2sa4b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220710213428-si2sa4b",
+				"updated": "20220710213450"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "java -cp .;/myclasspath Test\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220710213457-b082wa2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220710213457-b082wa2",
+				"updated": "20220710214717"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义类加载器"
+				}
+			]
+		},
+		{
+			"ID": "20220710213825-1tf0f0z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710213825-1tf0f0z",
+				"updated": "20220710214555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果某个类加载器能够加载一个类，那么该类加载器称为："
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "定义类加载器"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220710214610-xmednby",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710214610-xmednby",
+				"updated": "20220710214647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义类加载器及其所有子类加载器称为："
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "初始类加载器"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220710214707-6zk5ziw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710214707-6zk5ziw",
+				"updated": "20220710214835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当生成一个自定义类加载器的实例时，如果没有指定它的父类加载器，那么系统类加载器就成为该类加载器的父加载器。"
+				}
+			]
+		},
+		{
+			"ID": "20220710214835-btzn1ar",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710214835-btzn1ar",
+				"updated": "20220710223550"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220710223535.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710223558-46ilv0x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710223558-46ilv0x",
+				"updated": "20220710224137"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220710224121.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710224140-1tzmqrr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710224140-1tzmqrr",
+				"updated": "20220710224418"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220710224408.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710224420-fjqhjym",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710224420-fjqhjym",
+				"updated": "20220710224532"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220710224517.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710224626-558by1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710224626-558by1a",
+				"updated": "20220710224627"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220710224613.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710224719-6ordird",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710224719-6ordird"
+			}
+		}
+	]
+}

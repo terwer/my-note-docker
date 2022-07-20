@@ -1,0 +1,831 @@
+{
+	"ID": "20220706194436-no4ij45",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220706194436-no4ij45",
+		"title": "类加载器的父亲委托机制深度详解",
+		"updated": "20220707211605"
+	},
+	"Children": [
+		{
+			"ID": "20220706114436-jh72bvi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220706114436-jh72bvi",
+				"updated": "20220706194826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类加载器"
+				}
+			]
+		},
+		{
+			"ID": "20220706194826-aowvvdx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706194826-aowvvdx",
+				"updated": "20220707210340"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706194726101"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706194731.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706212358-b20vr4t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220706212358-b20vr4t",
+				"updated": "20220706212408"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类加载器的父亲委托机制"
+				}
+			]
+		},
+		{
+			"ID": "20220706194834-k96v1cd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706194834-k96v1cd",
+				"updated": "20220706195708"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类加载器的父亲委托机制（Parent Delegation）"
+				}
+			]
+		},
+		{
+			"ID": "20220706195718-3wlcsls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706195718-3wlcsls",
+				"updated": "20220706211648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "父子加载器不是继承关系，子加载器不一定要继承父加载器。"
+				}
+			]
+		},
+		{
+			"ID": "20220706211648-d967e3z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706211648-d967e3z",
+				"updated": "20220707211201"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706195823325"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706195823.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706212139-6f1jiij",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706212139-6f1jiij",
+				"updated": "20220707211449"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706212124825"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706212125.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706212143-sz8r9ya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706212143-sz8r9ya",
+				"updated": "20220707211500"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706212210421"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706212210.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706212221-axuause",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706212221-axuause",
+				"updated": "20220707211515"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706212259027"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706212259.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706212313-3d4g91f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706212313-3d4g91f",
+				"updated": "20220707211533"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706212442004"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706212442.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706212625-elv9mhy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706212625-elv9mhy",
+				"updated": "20220707211549"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706212633194"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706212633.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706213528-el7mfmd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706213528-el7mfmd",
+				"updated": "20220707211605"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706213517416"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706213517.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706213729-qi8us93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706213729-qi8us93",
+				"updated": "20220706213925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义类加载器：如果某个类加载器能够加载一个类，那么该加载器称为"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "定义类加载器"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，定义类加载器及其所有子类加载器都称做"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "初始类加载器"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220706213926-zdgu9lm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706213926-zdgu9lm",
+				"updated": "20220707211431"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706214111381"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706214111.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706213739-ob0sezy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706213739-ob0sezy",
+				"updated": "20220707211420"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706214146757"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706214147.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706214205-s89vyaa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706214205-s89vyaa",
+				"updated": "20220707211410"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706214455660"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706214456.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706214749-ekvzd0j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706214749-ekvzd0j",
+				"updated": "20220706214929"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当生成一个自定义的类加载器的实例时，如果没有指定它的父加载器，那么系统类加载器将成为该类加载器的父类加载器。"
+				}
+			]
+		},
+		{
+			"ID": "20220706214930-1zgq8ry",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706214930-1zgq8ry",
+				"updated": "20220707211353"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706215219081"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706215219.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706214822-1qzirqc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706214822-1qzirqc",
+				"updated": "20220707211339"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706221248345"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706221248.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706222124-hzuthhe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220706222124-hzuthhe",
+				"updated": "20220706222140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类加载器的命名空间"
+				}
+			]
+		},
+		{
+			"ID": "20220706221357-jyzts99",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706221357-jyzts99",
+				"updated": "20220707211328"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706221533110"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706221533.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706222106-89e2swf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220706222106-89e2swf",
+				"updated": "20220706222120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "运行时包"
+				}
+			]
+		},
+		{
+			"ID": "20220706221944-wooqm37",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706221944-wooqm37",
+				"updated": "20220707211239"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706221931248"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706221931.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220706222037-mh8vrrb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220706222037-mh8vrrb",
+				"updated": "20220706222334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建用户自定义的类加载器"
+				}
+			]
+		},
+		{
+			"ID": "20220706222335-7zftv61",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220706222335-7zftv61",
+				"updated": "20220707211222"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220706222307454"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220706222307.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220707211223-yalqpxz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707211223-yalqpxz"
+			}
+		}
+	]
+}

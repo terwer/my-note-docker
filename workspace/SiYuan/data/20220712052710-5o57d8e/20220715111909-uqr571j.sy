@@ -1,0 +1,115 @@
+{
+	"ID": "20220715111909-uqr571j",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220715111909-uqr571j",
+		"tags": "git,rm,repo",
+		"title": "git删除所有分支",
+		"updated": "20220715135250"
+	},
+	"Children": [
+		{
+			"ID": "20220715031911-gsgt4it",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715031911-gsgt4it",
+				"updated": "20220715031911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "To delete all the local tags simple run the following command"
+				}
+			]
+		},
+		{
+			"ID": "20220715031911-k00kltz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220715031911-k00kltz",
+				"updated": "20220715135247"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git tag | xargs git tag -d\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220715031911-bzue5q2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715031911-bzue5q2",
+				"updated": "20220715031911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "To delete remote tags after deleting the local tags by running the above command, you can run the comand below"
+				}
+			]
+		},
+		{
+			"ID": "20220715031911-4vxnqyv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220715031911-4vxnqyv",
+				"updated": "20220715135250"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git ls-remote --tags --refs origin | cut -f2 | xargs git push origin --delete\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220715031911-ep4zut9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715031911-ep4zut9",
+				"updated": "20220715031911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "NOTE: replace origin with your remote handler"
+				}
+			]
+		},
+		{
+			"ID": "20220715111935-5zhl5ao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715111935-5zhl5ao"
+			}
+		}
+	]
+}

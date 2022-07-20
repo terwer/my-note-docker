@@ -1,0 +1,888 @@
+{
+	"ID": "20220715200116-ziq7i82",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;tags\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
+		"custom-slug": "aliyun-service-list",
+		"id": "20220715200116-ziq7i82",
+		"tags": "domain,aliyun,service,serer",
+		"title": "阿里云服务列表",
+		"updated": "20220715212555"
+	},
+	"Children": [
+		{
+			"ID": "20220716174922-04iiibd",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/Note Attrs\" data-src=\"/widgets/Note Attrs\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"height: 82px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220716174922-04iiibd",
+				"style": "text-align: left;",
+				"updated": "20220716174922"
+			}
+		},
+		{
+			"ID": "20220715212555-2n6nj4y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220715212555-2n6nj4y",
+				"updated": "20220716174908"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阿里云登录账号"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-f1911ak",
+			"Type": "NodeTable",
+			"TableAligns": [
+				2,
+				2
+			],
+			"Properties": {
+				"colgroup": "|width: 108px;",
+				"custom-f": "auto",
+				"id": "20220715212555-f1911ak",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "账号"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 2,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "密码"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "terwer"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 2,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "cbgtyw2020"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-bmw2kgd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220715212555-bmw2kgd",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ECS服务器"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-yzys1ks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715212555-yzys1ks",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "120.25.179.230"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-akf9ja4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715212555-akf9ja4",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "root/CBGtyw105036"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-7r3lqjf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220715212555-7r3lqjf",
+				"updated": "20220715232307"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RDS数据库"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-mmk4602",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715212555-mmk4602",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "rm-wz9w2id84p6w14i8zqo.mysql.rds.aliyuncs.com"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-ewwrzvd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715212555-ewwrzvd",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "terwer/CBGtyw105036"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-1zxgz4u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220715212555-1zxgz4u",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "云效流水线"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-r5jl0kd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220715212555-r5jl0kd",
+				"style": "text-align: left;",
+				"updated": "20220715232148"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startmindmap\n!theme reddress-lightblue\n*_ \u0026lt;\u0026amp;flag\u0026gt; ecs\n** terwer-nginx\n*** terwer-nginx\n****_ http 80\n****_ https 443\n****_ https://terwer.terwergreen.com-\u0026gt;3000\n****_ https://terwr.terwergreen.com/api-\u0026gt;8082\n*** siyuan-nginx\n****_ https 9000\n****_ https://siyuan.terwrrgreen.com:9000-\u0026gt;6806\n** my-note-docker\n*** my-note-docker\n****_ http 6806\n****_ \u0026lt;\u0026amp;star\u0026gt;http://siyuan.terwergreen.com:6086\n** jvue\n*** jvue-server\n****_ http 8002\n****_ \u0026lt;\u0026amp;star\u0026gt;http://v4.terwergreen.com:8002\n*** jvue-front\n****_ http 3000\n****_ \u0026lt;\u0026amp;star\u0026gt;http://v4.terwergreen.com:3000\n** artalk\n***_ https 8003\n***_ \u0026lt;\u0026amp;star\u0026gt;https://talk.terwergreen.com:8003\n\n*_ * 星号代表是真实服务，没标注的表示是代理访问\n@endmindmap"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220715220507-9trfjew",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|",
+				"custom-f": "auto",
+				"custom-t": "",
+				"id": "20220715220507-9trfjew",
+				"style": "text-align: left;",
+				"updated": "20220715232509"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "服务"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "地址"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "jvue-front"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://terwer.terwergreen.com"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://terwer.terwergreen.com"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://terwer.terwergreen.com"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://v4.terwergreen.com"
+										},
+										{
+											"Type": "NodeBr",
+											"Data": "br"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://v4.terwergreen.com\u003cbr/\u003e"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://v4.terwergreen.com"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "jvue-server"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://terwer.terwergreen.com/api"
+										},
+										{
+											"Type": "NodeBr",
+											"Data": "br"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://terwer.terwergreen.com/api\u003cbr/\u003e"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://terwer.terwergreen.com/api"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://v4.terwergreen.com/api"
+										},
+										{
+											"Type": "NodeBr",
+											"Data": "br"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://v4.terwergreen.com/api"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://v4.terwergreen.com/api"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "talk"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://talk.terwergreen.com:8003"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://talk.terwergreen.com:8003"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://talk.terwergreen.com:8003"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "my-note"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://siyuan.terwergreen.com:9000"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://siyuan.terwergreen.com:9000"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://siyuan.terwergreen.com:9000"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "plantuml-server"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "http://terwer.terwergreen.com:9999/plantuml/svg/~1"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "http://terwer.terwergreen.com:9999/plantuml/svg/~1"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "http://terwer.terwergreen.com:9999/plantuml/svg/~1"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-l5vmwjt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220715212555-l5vmwjt",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vercel平台"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-6ov4koh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220715212555-6ov4koh",
+				"style": "text-align: left; color: var(--b3-font-color8);",
+				"updated": "20220715232125"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startmindmap\n!theme reddress-lightblue\n*_ \u0026lt;\u0026amp;flag\u0026gt; Vercel\n** vuepress\n***_ https://terwergreen.com\n***_ https://www.terwergreen.com\n** xmlrpc\n***_ https://xmlrpc.terwergreen.com\n** note\n***_ https://note.terwergreen.com\n** memo\n@endmindmap"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220715221302-9xogf01",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|",
+				"custom-f": "auto",
+				"custom-t": "",
+				"id": "20220715221302-9xogf01",
+				"style": "text-align: left;",
+				"updated": "20220715221551"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "服务"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "地址"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vuepress"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://terwergreen.com"
+										},
+										{
+											"Type": "NodeBr",
+											"Data": "br"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://terwergreen.com"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://terwergreen.com"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://www.terwergreen.com"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.terwergreen.com"
+										},
+										{
+											"Type": "NodeLinkSpace"
+										},
+										{
+											"Type": "NodeLinkTitle",
+											"Data": "https://www.terwergreen.com"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-b5mu26h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220715212555-b5mu26h",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "域名解析"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-oxwe4p9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715212555-oxwe4p9",
+				"updated": "20220715212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "terwergreen.com"
+				}
+			]
+		},
+		{
+			"ID": "20220715212555-d04vdu2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715212555-d04vdu2",
+				"updated": "20220715224323"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "terwer.space"
+				}
+			]
+		},
+		{
+			"ID": "20220716173539-8l1v9rd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220716173539-8l1v9rd"
+			}
+		}
+	]
+}

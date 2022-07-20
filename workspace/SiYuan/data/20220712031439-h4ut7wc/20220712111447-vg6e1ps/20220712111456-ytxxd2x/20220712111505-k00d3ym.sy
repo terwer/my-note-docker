@@ -1,0 +1,19 @@
+{
+	"ID": "20220712111505-k00d3ym",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220712111505-k00d3ym",
+		"title": "Spring Data JDBC",
+		"updated": "20220712031512"
+	},
+	"Children": [
+		{
+			"ID": "20220712031505-ouy832f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712031505-ouy832f",
+				"updated": "20220712031505"
+			}
+		}
+	]
+}

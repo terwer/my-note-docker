@@ -1,0 +1,712 @@
+{
+	"ID": "20220710135945-sdsnjmo",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220710135945-sdsnjmo",
+		"title": "本地账号",
+		"updated": "20220710145451"
+	},
+	"Children": [
+		{
+			"ID": "20220710060151-s9pn1zp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220710060151-s9pn1zp",
+				"updated": "20220710141005"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "atlassian"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-sxhy0dk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-sxhy0dk",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "confluence"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-e3pia1s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-e3pia1s",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "terwer/105036"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-7mr7811",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-7mr7811",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "jira"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-wb3l54r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-wb3l54r",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "terwer/105036"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-gnivamf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220710060151-gnivamf",
+				"updated": "20220710141007"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "MySQL数据库"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-3qzj4zx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-3qzj4zx",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "root/123456"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-wtryi9m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-wtryi9m",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "terwer/105036"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-iao8dre",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220710060151-iao8dre",
+				"updated": "20220710145451"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "VMWare Fushion openEuler 2003"
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-1g2gs8p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-1g2gs8p",
+				"updated": "20220710145430"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "terwer/CBGtyw105036"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710140651-553puit",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710140651-553puit",
+				"updated": "20220710140655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ssh连接"
+				}
+			]
+		},
+		{
+			"ID": "20220710140655-km47hng",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220710140655-km47hng",
+				"updated": "20220710140724"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "ssh 192.168.3.67\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-h0zx9lt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220710060151-h0zx9lt",
+				"updated": "20220710141014"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "mysql_openEuler"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-9x62dv2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-9x62dv2",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "root/123456"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-inok5qa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220710060151-inok5qa",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " # 启动\n sudo /etc/init.d/mysqld start\n # 查看状态\n sudo /etc/rc.d/init.d/mysqld status  \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-kakq8fe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-kakq8fe",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "**远程链接关防火墙      **  **\n**"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "http://wiki.terwergreen.com:8090/pages/viewpage.action?pageId=2523171#%E9%98%B2%E7%81%AB%E5%A2%99"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://wiki.terwergreen.com:8090/pages/viewpage.action?pageId=2523171#%E9%98%B2%E7%81%AB%E5%A2%99"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-lfzj79t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220710060151-lfzj79t",
+				"updated": "20220710141017"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "nginx_openEuler"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-gibzd5e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-gibzd5e",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "卸载"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-xs6mdmy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220710060151-xs6mdmy",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " rm -rf /usr/local/nginx\n rm -rf /var/log/nginx\n rm -rf /var/temp/nginx\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-fk6n7tn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220710060151-fk6n7tn",
+				"updated": "20220710141020"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "RockyLinux"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-4agqmel",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-4agqmel",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "root/CBGtyw105036"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-iuj9wo5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-iuj9wo5",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "terwer/CBGtyw105036"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-e1xc03h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220710060151-e1xc03h",
+				"updated": "20220710141023"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Fedora"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-irswa9y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-irswa9y",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "root/CBGtyw105036"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-y313l0y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710060151-y313l0y",
+				"updated": "20220710060151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "terwer/CBGtyw105036"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220710060151-2lotqg7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220710060151-2lotqg7",
+				"updated": "20220710141025"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "本地Mac使用homebrew安装的Nginx"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		}
+	]
+}

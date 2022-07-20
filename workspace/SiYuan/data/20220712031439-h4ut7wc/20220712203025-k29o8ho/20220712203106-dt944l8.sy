@@ -1,0 +1,318 @@
+{
+	"ID": "20220712203106-dt944l8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220712203106-dt944l8",
+		"tags": "go,deepin,dev,env",
+		"title": "Deepin搭建GO开发环境",
+		"updated": "20220712205252"
+	},
+	"Children": [
+		{
+			"ID": "20220712123140-195a9t2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220712123140-195a9t2",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-22jjsjx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712123140-22jjsjx",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-elpvzdp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712123140-elpvzdp",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://go.dev/dl/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://go.dev/dl/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-o25izni",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220712123140-o25izni",
+				"updated": "20220712203152"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "wget https://go.dev/dl/go1.18.3.linux-amd64.tar.gz\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-nqbfssp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712123140-nqbfssp",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解压"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-5wi9j9s",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220712123140-5wi9j9s",
+				"updated": "20220712203155"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-j6d399n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712123140-j6d399n",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置环境变量"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-9cdc4kx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220712123140-9cdc4kx",
+				"updated": "20220712203158"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# GO\nexport GO_HOME=/usr/local/go\nexport PATH=$PATH:$GO_HOME/bin\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-guf3w4q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712123140-guf3w4q",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "验证"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-soy2cdx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220712123140-soy2cdx",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "go version\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-a4fietf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220712123140-a4fietf",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GO 国内代理库"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-8utk8cx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220712123140-8utk8cx",
+				"updated": "20220712205252"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "go env -w GO111MODULE=on\n# go env -w GOPROXY=https://goproxy.cn,direct\ngo env -w GOPROXY=https://goproxy.cn\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-1ewz65m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220712123140-1ewz65m",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20220712123140-gn8d94u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712123140-gn8d94u",
+				"updated": "20220712123140"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://segmentfault.com/a/1190000020293616"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://segmentfault.com/a/1190000020293616"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,110 @@
+{
+	"ID": "20220712132711-az7vac9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220712132711-az7vac9",
+		"tags": "pnpm,npm,node,js,404,electron",
+		"title": "pnpm安装electron报错404解决方案",
+		"updated": "20220712132737"
+	},
+	"Children": [
+		{
+			"ID": "20220712132727-h9bzum8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712132727-h9bzum8",
+				"updated": "20220712132727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自定义镜像地址和版本解决"
+				}
+			]
+		},
+		{
+			"ID": "20220712132727-no3bamz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220712132727-no3bamz",
+				"updated": "20220712132737"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pnpm config set registry https://registry.npmmirror.com/\n\npnpm config set electron_mirror=https://cdn.npmmirror.com/binaries/electron/ \npnpm config set electron_custom_dir=14.2.5\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220712132727-izv9q32",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712132727-izv9q32",
+				"updated": "20220712132727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考："
+				}
+			]
+		},
+		{
+			"ID": "20220712132727-6fvprrd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712132727-6fvprrd",
+				"updated": "20220712132727"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://github.com/electron/electron/issues/22792"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/electron/electron/issues/22792"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220712132728-mrmwwa7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712132728-mrmwwa7"
+			}
+		}
+	]
+}

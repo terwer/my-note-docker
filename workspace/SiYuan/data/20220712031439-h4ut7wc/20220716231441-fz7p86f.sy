@@ -1,0 +1,208 @@
+{
+	"ID": "20220716231441-fz7p86f",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220716231441-fz7p86f",
+		"title": "Java生成验证码图片",
+		"updated": "20220718092322"
+	},
+	"Children": [
+		{
+			"ID": "20220718092237-pc0c67m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220718092237-pc0c67m",
+				"updated": "20220718092245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "生成验证码"
+				}
+			]
+		},
+		{
+			"ID": "20220718092245-o1cxkod",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220718092245-o1cxkod",
+				"updated": "20220718092322"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 验证码工具类\n *\n * @name: VerificationCode\n * @author: terwer\n * @date: 2022-07-17 22:21\n **/\npublic class VerificationCode {\n    private static final String[] randomStr = {\"0\", \"1\", \"2\", \"3\", \"4\",\n            \"5\", \"6\", \"7\", \"8\", \"9\", \"A\", \"B\",\n            \"C\", \"D\", \"E\", \"F\", \"G\", \"H\", \"I\", \"J\", \"K\", \"L\", \"M\",\n            \"N\", \"O\", \"P\", \"Q\", \"R\",\n            \"S\", \"T\", \"U\", \"V\", \"W\", \"X\", \"Y\", \"Z\"};\n\n    /**\n     * 随机生成验证码\n     *\n     * @return\n     */\n    public static Map getVerificationCode() {\n        return getVerificationCodeWithStr(null);\n    }\n\n    /**\n     * 利用给定的字符串生成验证码\n     *\n     * @param str 指定的字符串\n     * @return\n     */\n    public static Map getVerificationCodeWithStr(String str) {\n        // 设置默认生成 4个 长度的验证码\n        int strLength = 4;\n        char[] strArr = null;\n        if (StringUtils.isNotEmpty(str)) {\n            strLength = str.length();\n            strArr = str.toCharArray();\n        }\n\n        // 定义验证码图片大小\n        int width = 20 * strLength + 5, height = 25;\n        // 在内存中创建 图像\n        BufferedImage bufferedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);\n        // 为内存中要创建的图像生成画布，\n        Graphics2D graphics2D = bufferedImage.createGraphics();\n        // 画一个白色矩形，作为验证码背景\n        graphics2D.setColor(Color.WHITE);\n        // 填充\n        graphics2D.fillRect(0, 0, width, height);\n\n        // 画 100 条 灰色的 随机干扰线\n        if (StringUtils.isNotEmpty(str)) {\n            graphics2D.setColor(Color.WHITE);\n        } else {\n            graphics2D.setColor(Color.GRAY);\n        }\n        Random random = new Random();\n        for (int i = 0; i \u003c 100; i++) {\n            graphics2D.drawLine(random.nextInt(width), random.nextInt(height), random.nextInt(width), random.nextInt(height));\n        }\n\n        // 创建字体\n        Font font = new Font(\"Times New Roman\", Font.BOLD, 25);\n        graphics2D.setFont(font);\n\n        StringBuffer sb = new StringBuffer();\n        // 取得 4 位数的 随机字符串\n        for (int i = 0; i \u003c strLength; i++) {\n            // 返回一个 随机数，在 1 和 20 之间\n            String randomNumber = randomStr[random.nextInt(36)];\n            if (StringUtils.isNotEmpty(str)) {\n                randomNumber = String.valueOf(strArr[i]);\n            }\n\n            int red = random.nextInt(255);\n            int green = random.nextInt(255);\n            int blue = random.nextInt(255);\n            //获得一个随机红蓝绿的配合颜色\n            graphics2D.setColor(new Color(red, green, blue));\n            //把该数字用画笔在画布画出，并指定数字的坐标\n            if (null != randomNumber) {\n                graphics2D.drawString(randomNumber, 20 * i + 5, (height / 2) + 10);\n                //把该数字加到缓存字符串中。用于等会生成验证码字符串set到session中用于校对\n                sb.append(randomNumber);\n            }\n        }\n        // 清除内存的图片\n        bufferedImage.flush();\n        // 释放资源\n        graphics2D.dispose();\n\n        // 返回结果\n        Map result = new HashMap();\n        result.put(\"imgStream\", bufferedImage);\n        result.put(\"code\", str);\n        return result;\n    }\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220718012111-irkjkm3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220718012111-irkjkm3",
+				"updated": "20220718012111"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决 alpine 镜像运行 springboot 无法获取验证码（缺少字体）的问题"
+				}
+			]
+		},
+		{
+			"ID": "20220718092201-rl5ghyq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220718092201-rl5ghyq",
+				"updated": "20220718092202"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问题"
+				}
+			]
+		},
+		{
+			"ID": "20220718092202-i8ps1kb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220718092202-i8ps1kb",
+				"updated": "20220718092222"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Caused by: java.lang.NullPointerException\n\tat sun.awt.FontConfiguration.getVersion(FontConfiguration.java:1264)\n\tat sun.awt.FontConfiguration.readFontConfigFile(FontConfiguration.java:219)\n\tat sun.awt.FontConfiguration.init(FontConfiguration.java:107)\n\tat sun.awt.X11FontManager.createFontConfiguration(X11FontManager.java:774)\n\tat sun.font.SunFontManager$2.run(SunFontManager.java:431)\n\tat java.security.AccessController.doPrivileged(Native Method)\n\tat sun.font.SunFontManager.\u003cinit\u003e(SunFontManager.java:376)\n\tat sun.awt.FcFontManager.\u003cinit\u003e(FcFontManager.java:35)\n\tat sun.awt.X11FontManager.\u003cinit\u003e(X11FontManager.java:57)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220718092155-kh62mln",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220718092155-kh62mln",
+				"updated": "20220718092159"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方案"
+				}
+			]
+		},
+		{
+			"ID": "20220718092111-brpb5tw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220718092111-brpb5tw",
+				"updated": "20220718092151"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZG9ja2VyZmlsZQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "FROM maven:3.6.0-jdk-8-alpine\nENV LANG en_US.UTF-8\nRUN apk add --update ttf-dejavu fontconfig \u0026\u0026 rm -rf /var/cache/apk/*\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220717221915-00ctudg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220717221915-00ctudg",
+				"updated": "20220717221920"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20220716151441-hqz6a91",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220716151441-hqz6a91",
+				"updated": "20220717221923"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.cnblogs.com/oukele/p/12869137.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.cnblogs.com/oukele/p/12869137.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220716231507-16e12u6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220716231507-16e12u6"
+			}
+		}
+	]
+}

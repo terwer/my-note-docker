@@ -1,0 +1,360 @@
+{
+	"ID": "20220708165834-l3ydafw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220708165834-l3ydafw",
+		"title": "ekp统一测试环境",
+		"updated": "20220708165843"
+	},
+	"Children": [
+		{
+			"ID": "20220708165843-alhg353",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220708165843-alhg353",
+				"updated": "20220708165843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "v16"
+				}
+			]
+		},
+		{
+			"ID": "20220708165843-7fdvmwb",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				1,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "||||",
+				"id": "20220708165843-7fdvmwb",
+				"updated": "20220708165843"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "环境"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "url"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "登录账号"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "sftp地址"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "sftp账号"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "v16release"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "9564"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "http://exp.landray.com.cn:9564/index.jsp"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ssh：192.168.1.100:55064"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "root/Landray~"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "v16develop"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "8082"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "http://exp.landray.com.cn:8082/index.jsp"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "admin/ $#@!1"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ssh：192.168.1.100:5005"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "root/Landray~"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220708165843-xbwhbya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220708165843-xbwhbya",
+				"updated": "20220708165843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9564数据库"
+				}
+			]
+		},
+		{
+			"ID": "20220708165843-sfst9i0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220708165843-sfst9i0",
+				"updated": "20220708165843"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "hibernate.connection.driverClass = com.microsoft.sqlserver.jdbc.SQLServerDriver\nhibernate.connection.password = landray12345678()\nhibernate.connection.url = jdbc:sqlserver://192.168.1.146:1433;databaseName=v16release\nhibernate.connection.userName = sa\nhibernate.dialect = com.landray.kmss.db.sqlserver.dialect.KmssSQLServer2016Dialect\nhibernate.hbm2ddl.auto = part-update\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220708165843-bnco3pc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220708165843-bnco3pc",
+				"updated": "20220708165843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9564的admin.do密码"
+				}
+			]
+		},
+		{
+			"ID": "20220708165843-s5jql0i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220708165843-s5jql0i",
+				"updated": "20220708165843"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Landray123456\u0026*()\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220708165843-dlj2ozg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220708165843-dlj2ozg",
+				"updated": "20220708165843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "v15"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,338 @@
+{
+	"ID": "20220712111527-31tpc7b",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220712111527-31tpc7b",
+		"title": "001.Spring Data JPA入门",
+		"updated": "20220712112058"
+	},
+	"Children": [
+		{
+			"ID": "20220712031527-85xeezc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220712031527-85xeezc",
+				"updated": "20220712111614"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前言"
+				}
+			]
+		},
+		{
+			"ID": "20220712111615-dveq4u7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712111615-dveq4u7",
+				"updated": "20220712111615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Spring Data JPA, part of the larger Spring Data family, makes it easy to easily implement JPA based repositories. This module deals with enhanced support for JPA based data access layers. It makes it easier to build Spring-powered applications that use data access technologies."
+				}
+			]
+		},
+		{
+			"ID": "20220712111617-6diilym",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220712111617-6diilym",
+				"updated": "20220712111726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Implementing a data access layer of an application has been cumbersome for quite a while. Too much boilerplate code has to be written to execute simple queries as well as perform pagination, and auditing. Spring Data JPA aims to significantly improve the implementation of data access layers by reducing the effort to the amount that’s actually needed. As a developer you write your repository interfaces, including custom finder methods, and Spring will provide the implementation automatically."
+				}
+			]
+		},
+		{
+			"ID": "20220712111727-tmyntzp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220712111727-tmyntzp",
+				"updated": "20220712111731"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特性"
+				}
+			]
+		},
+		{
+			"ID": "20220712031801-n4987lc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220712031801-n4987lc",
+				"updated": "20220712112058"
+			},
+			"Children": [
+				{
+					"ID": "20220712031801-kczs2si",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220712031801-kczs2si",
+						"updated": "20220712031801"
+					},
+					"Children": [
+						{
+							"ID": "20220712031801-jogcj1d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220712031801-jogcj1d",
+								"updated": "20220712031801"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Sophisticated support to build repositories based on Spring and JPA"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220712031801-9hkpj2f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220712031801-9hkpj2f",
+						"updated": "20220712031801"
+					},
+					"Children": [
+						{
+							"ID": "20220712031815-bhm2vdi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220712031815-bhm2vdi",
+								"updated": "20220712031815"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Support for "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Querydsl"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "http://www.querydsl.com/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " predicates and thus type-safe JPA queries"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220712111950-9y15f0f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220712111950-9y15f0f"
+					},
+					"Children": [
+						{
+							"ID": "20220712031950-h81owe6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220712031950-h81owe6",
+								"updated": "20220712031950"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Transparent auditing of domain class"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220712111953-ofsbsft",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220712111953-ofsbsft"
+					},
+					"Children": [
+						{
+							"ID": "20220712032010-wefnln2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220712032010-wefnln2",
+								"updated": "20220712032010"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Pagination support, dynamic query execution, ability to integrate custom data access code"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220712112014-rnz59rx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220712112014-rnz59rx"
+					},
+					"Children": [
+						{
+							"ID": "20220712032023-sq85lcd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220712032023-sq85lcd",
+								"updated": "20220712032023"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Validation of "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "@Query"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " annotated queries at bootstrap time"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220712112027-veu6d63",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220712112027-veu6d63"
+					},
+					"Children": [
+						{
+							"ID": "20220712032037-70enlpu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220712032037-70enlpu",
+								"updated": "20220712032037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Support for XML based entity mapping"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220712112040-226czie",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220712112040-226czie",
+						"updated": "20220712112058"
+					},
+					"Children": [
+						{
+							"ID": "20220712112040-n0w49zs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220712112040-n0w49zs",
+								"updated": "20220712112058"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JavaConfig based repository configuration by introducing "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "@EnableJpaRepositories"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

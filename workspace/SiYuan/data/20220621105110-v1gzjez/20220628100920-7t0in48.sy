@@ -1,0 +1,32 @@
+{
+	"ID": "20220628100920-7t0in48",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220628100920-7t0in48",
+		"title": "2022-06-27",
+		"updated": "20220708231558"
+	},
+	"Children": [
+		{
+			"ID": "20220628020920-eikusc4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220628020920-eikusc4",
+				"updated": "20220628100930"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新日记测试"
+				}
+			]
+		},
+		{
+			"ID": "20220708231558-huhsgkl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220708231558-huhsgkl"
+			}
+		}
+	]
+}

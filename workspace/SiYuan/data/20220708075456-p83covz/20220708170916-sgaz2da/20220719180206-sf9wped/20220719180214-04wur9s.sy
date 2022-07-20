@@ -1,0 +1,382 @@
+{
+	"ID": "20220719180214-04wur9s",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220719180214-04wur9s",
+		"title": "文档协同开发",
+		"updated": "20220719233924"
+	},
+	"Children": [
+		{
+			"ID": "20220719181825-shypwo8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220719181825-shypwo8",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022/05/25 需求评审"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-2x4xbd3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-2x4xbd3",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、后台配置，可选择wps或者石墨文档"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-g4r0y4o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220719181825-g4r0y4o",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022/05/31 UI 评审"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-i348cpb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220719181825-i348cpb",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022/06/10 开发遇到的问题"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-uephhe4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-uephhe4",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、未开启文档中台时候的提示，以及其他页面的缺省样式。"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-z3pqasf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220719181825-z3pqasf",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022/6/24 遗留问题"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-tzk6xb5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-tzk6xb5",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、分享发送待办 -已完成"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-uy63hga",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-uy63hga",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、团队文档发送待办-已完成"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-jzwwzmw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-jzwwzmw",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、权限-已完成"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-04jl9qz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-04jl9qz",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、团队文档传fdTeamId，后台做权限判断，如果不是这个团队的人，提示无权限页面-已完成"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-82cfwr3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-82cfwr3",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、看看能不能隐藏默认标题-TODO"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-1zh0fba",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-1zh0fba",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6、Excel和PPT的知识助手不做-已完成"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-1fe06xz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220719181825-1fe06xz",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022/7/8 遗留问题"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-e0x0iyr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-e0x0iyr",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、文档和模板的拷贝、打印"
+				}
+			]
+		},
+		{
+			"ID": "20220719181825-dtym7t6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181825-dtym7t6",
+				"updated": "20220719181825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、收藏夹重复收藏"
+				}
+			]
+		},
+		{
+			"ID": "20220719181832-c12eyll",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220719181832-c12eyll",
+				"updated": "20220719181839"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022/7/19 遗留问题"
+				}
+			]
+		},
+		{
+			"ID": "20220719181841-e28155z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181841-e28155z",
+				"updated": "20220719181918"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、文档知识助手太长加滚动条"
+				}
+			]
+		},
+		{
+			"ID": "20220719181854-8r3q297",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181854-8r3q297",
+				"updated": "20220719181904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、附件的显示与预览"
+				}
+			]
+		},
+		{
+			"ID": "20220719181904-s01ry7b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719181904-s01ry7b",
+				"updated": "20220719181922"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、收起"
+				}
+			]
+		},
+		{
+			"ID": "20220719195838-5lofyks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719195838-5lofyks",
+				"updated": "20220719195844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、自定义confirm弹窗"
+				}
+			]
+		},
+		{
+			"ID": "20220719215442-zf2u3gl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220719215442-zf2u3gl",
+				"updated": "20220719215502"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、缺省页面"
+				}
+			]
+		},
+		{
+			"ID": "20220719211439-pww164p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220719211439-pww164p",
+				"updated": "20220719211509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022/7/19待转单问题"
+				}
+			]
+		},
+		{
+			"ID": "20220720100640-uwtlv9b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220720100640-uwtlv9b",
+				"updated": "20220720100650"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、搜索关键字去掉"
+				}
+			]
+		},
+		{
+			"ID": "20220720100651-znzyq1y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220720100651-znzyq1y",
+				"updated": "20220720100716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、未选中的时候按钮变成全部"
+				}
+			]
+		},
+		{
+			"ID": "20220720100717-2ul359c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220720100717-2ul359c",
+				"updated": "20220720100931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、右侧滚动条、分页"
+				}
+			]
+		},
+		{
+			"ID": "20220720100726-eyol3fz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220720100726-eyol3fz",
+				"updated": "20220720100852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、带表格收藏"
+				}
+			]
+		}
+	]
+}
