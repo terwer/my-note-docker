@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220719180214-04wur9s",
 		"title": "文档协同开发",
-		"updated": "20220720144348"
+		"updated": "20220720210405"
 	},
 	"Children": [
 		{
@@ -425,8 +425,15 @@
 			"ID": "20220720144348-nhnu9hs",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220720144348-nhnu9hs"
-			}
+				"id": "20220720144348-nhnu9hs",
+				"updated": "20220720210405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、详情页面调整"
+				}
+			]
 		}
 	]
 }
