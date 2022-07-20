@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220720121644-d6sz2f2",
 		"title": "2022-07-21",
-		"updated": "20220720141818"
+		"updated": "20220720121851"
 	},
 	"Children": [
 		{
@@ -61,15 +61,8 @@
 			"ID": "20220720121851-p95rolm",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220720121851-p95rolm",
-				"updated": "20220720141818"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "dfdddddsdcds"
-				}
-			]
+				"id": "20220720121851-p95rolm"
+			}
 		}
 	]
 }
