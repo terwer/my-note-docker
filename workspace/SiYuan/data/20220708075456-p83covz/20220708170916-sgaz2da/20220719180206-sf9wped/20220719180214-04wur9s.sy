@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220719180214-04wur9s",
 		"title": "文档协同开发",
-		"updated": "20220721000814"
+		"updated": "20220721000606"
 	},
 	"Children": [
 		{
@@ -466,7 +466,7 @@
 		{
 			"ID": "20220721000606-58y63at",
 			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 997px; height: 241px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
 				"id": "20220721000606-58y63at",
 				"style": "text-align: left;",
