@@ -16,7 +16,7 @@ export default {
 
 <style>
 #app {
-  font-family: Arial, sans-serif;
+  font-family: "LXGW WenKai","Wenquanyi Micro Hei","Wenquanyi Micro Hei Mono","Microsoft YaHei", "PT Sans", "-apple-system", "Liberation Mono", monospace, dejavu sans mono,Fira Code,Microsoft Yahei,Consolas,Courier New,monospace,Menlo,Monaco !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
