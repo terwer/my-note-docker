@@ -1,0 +1,10 @@
+{
+  "name": "张月的专属笔记本",
+  "sort": 11,
+  "icon": "",
+  "closed": false,
+  "refCreateSavePath": "",
+  "createDocNameTemplate": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": ""
+}
