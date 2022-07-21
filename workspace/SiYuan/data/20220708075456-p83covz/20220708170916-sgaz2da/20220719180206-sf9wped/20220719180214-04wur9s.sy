@@ -469,21 +469,8 @@
 			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
 			"Properties": {
 				"id": "20220721000606-58y63at",
+				"style": "text-align: left;",
 				"updated": "20220721000606"
-			}
-		},
-		{
-			"ID": "20220721000814-3qt5g1g",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220721000814-3qt5g1g"
-			}
-		},
-		{
-			"ID": "20220720151215-fo286j5",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220720151215-fo286j5"
 			}
 		},
 		{
