@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220719180214-04wur9s",
 		"title": "文档协同开发",
-		"updated": "20220721160349"
+		"updated": "20220722183234"
 	},
 	"Children": [
 		{
@@ -464,16 +464,6 @@
 			]
 		},
 		{
-			"ID": "20220721000606-58y63at",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 997px; height: 241px;\"\u003e\u003c/iframe\u003e",
-			"Properties": {
-				"id": "20220721000606-58y63at",
-				"style": "text-align: left;",
-				"updated": "20220721000606"
-			}
-		},
-		{
 			"ID": "20220720151215-l7j62k0",
 			"Type": "NodeParagraph",
 			"Properties": {
@@ -537,10 +527,13 @@
 			}
 		},
 		{
-			"ID": "20220721160237-6717ewg",
-			"Type": "NodeParagraph",
+			"ID": "20220722124921-q92rhfq",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 803px; height: 353px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
-				"id": "20220721160237-6717ewg"
+				"id": "20220722124921-q92rhfq",
+				"style": "text-align: left;",
+				"updated": "20220722124921"
 			}
 		},
 		{
@@ -589,8 +582,15 @@
 			"ID": "20220721160238-e3m1fic",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220721160238-e3m1fic"
-			}
+				"id": "20220721160238-e3m1fic",
+				"updated": "20220722125142"
+			},
+			"Children": [
+				{
+					"Type": "NodeBr",
+					"Data": "br"
+				}
+			]
 		},
 		{
 			"ID": "20220721160238-ms0q7qi",
@@ -639,12 +639,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220721160328-atif9kf",
-				"updated": "20220721160329"
+				"updated": "20220722141116"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "3、"
+					"Data": "3、搜索结果只显示文档不显示附件"
 				}
 			]
 		},
@@ -652,8 +652,15 @@
 			"ID": "20220721160238-va7aget",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220721160238-va7aget"
-			}
+				"id": "20220721160238-va7aget",
+				"updated": "20220722183234"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、知识助手切换tab触发数据更新"
+				}
+			]
 		},
 		{
 			"ID": "20220721160238-81c3qoc",
