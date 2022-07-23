@@ -529,7 +529,7 @@
 		{
 			"ID": "20220722124921-q92rhfq",
 			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1280px; height: 419px;\"\u003e\u003c/iframe\u003e",
+			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1282px; height: 694px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
 				"id": "20220722124921-q92rhfq",
 				"style": "text-align: left;",

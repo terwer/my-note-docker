@@ -19,6 +19,7 @@
   "main.yaml.formatter": "YAML Formatter",
   "main.siyuan.to.yaml": "Siyuan attr to YAML",
   "main.yaml.to.siyuan": "YAML to Siyuan attr",
+  "main.save.attr.to.siyuan": "Save attr to Siyuan",
   "main.copy": "Copy",
   "main.publish": "Publish",
   "main.cancel": "Cancel",

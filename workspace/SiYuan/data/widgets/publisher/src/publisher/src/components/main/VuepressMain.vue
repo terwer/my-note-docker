@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-aside width="61.8%">
+    <el-aside width="45%">
       <el-form label-width="120px">
         <el-form-item :label="$t('main.slug')">
           <el-input/>
@@ -39,6 +39,7 @@
         </el-form-item>
 
         <el-form-item>
+          <el-button type="primary">{{ $t('main.save.attr.to.siyuan') }}</el-button>
           <el-button type="primary">{{ $t('main.publish') }}</el-button>
           <el-button>{{ $t('main.cancel') }}</el-button>
           <el-button type="danger" text>{{ $t('main.publish.status.unpublish') }}</el-button>
