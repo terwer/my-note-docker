@@ -5,10 +5,19 @@
 <script>
 import Publish from '@/components/PublishService'
 
+import {getPage} from "@/lib/siyuanUtil";
+
 export default {
   name: 'App',
   components: {
     Publish
+  },
+  async mounted() {
+    const page = await getPage();
+    if (page) {
+      localStorage.siyuanPage = page;
+      console.log("设置当前思源页面信息", page)
+    }
   }
 }
 </script>
