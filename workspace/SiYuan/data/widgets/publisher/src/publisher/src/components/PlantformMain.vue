@@ -1,33 +1,33 @@
 <template>
   <div class="demo-collapse">
     <el-collapse model-value="1" accordion>
-      <el-collapse-item title="发布到Vuepress" name="1">
+      <el-collapse-item :title="$t('main.publish.to.vuepress')" name="1">
         <el-form label-width="120px">
-          <el-form-item label="文章别名">
+          <el-form-item :label="$t('main.slug')">
             <el-input/>
           </el-form-item>
 
           <el-form-item>
-            <el-checkbox :label="$t('use.google.translate')" size="large"/> &nbsp;&nbsp;
-            <el-button type="primary">自动生成别名</el-button>
+            <el-checkbox :label="$t('main.use.google.translate')" size="large"/> &nbsp;&nbsp;
+            <el-button type="primary">{{ $t('main.auto.fetch.slug') }}</el-button>
           </el-form-item>
 
-          <el-form-item label="文章摘要">
+          <el-form-item :label="$t('main.desc')">
             <el-input type="textarea"/>
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary">自动提取摘要</el-button>
+            <el-button type="primary">{{ $t('main.auto.fetch.desc') }}</el-button>
           </el-form-item>
 
-          <el-form-item label="发布时间">
+          <el-form-item :label="$t('main.create.time')">
             <el-date-picker
                 type="datetime"
-                placeholder="请选择发布时间"
+                :placeholder="$t('main.create.time.placeholder')"
             />
           </el-form-item>
 
-          <el-form-item label="文章标签">
+          <el-form-item :label="$t('main.tag')">
             <el-tag closable>Tag 1</el-tag> &nbsp;&nbsp;
             <el-tag class="ml-2" type="success">Tag 2</el-tag> &nbsp;&nbsp;
             <el-tag class="ml-2" type="info">Tag 3</el-tag> &nbsp;&nbsp;
@@ -36,23 +36,23 @@
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary">自动提取标签</el-button>
+            <el-button type="primary">{{ $t('main.auto.fetch.tag') }}</el-button>
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary">发布</el-button>
-            <el-button>取消</el-button>
-            <el-button type="danger" text>未发布</el-button>
+            <el-button type="primary">{{ $t('main.publish') }}</el-button>
+            <el-button>{{ $t('main.cancel') }}</el-button>
+            <el-button type="danger" text>{{ $t('main.publish.status.unpublish') }}</el-button>
           </el-form-item>
         </el-form>
       </el-collapse-item>
-      <el-collapse-item title="发布到JVue" name="2">
+      <el-collapse-item :title="$t('main.publish.to.jvue')" name="2">
         JVue
       </el-collapse-item>
-      <el-collapse-item title="发布到Confluence" name="3">
+      <el-collapse-item :title="$t('main.publish.to.conf')" name="3">
         Confluence
       </el-collapse-item>
-      <el-collapse-item title="发布到博客园" name="4">
+      <el-collapse-item :title="$t('main.publish.to.cnblogs')" name="4">
         博客园
       </el-collapse-item>
     </el-collapse>

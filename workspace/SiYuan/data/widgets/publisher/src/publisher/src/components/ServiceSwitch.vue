@@ -1,18 +1,18 @@
 <template>
   <el-form label-width="120px">
-    <el-form-item label="Vuepress">
+    <el-form-item :label="$t('service.switch.vuepress')">
       <el-switch/>
     </el-form-item>
 
-    <el-form-item label="JVue">
+    <el-form-item :label="$t('service.switch.jvue')">
       <el-switch/>
     </el-form-item>
 
-    <el-form-item label="Confluence">
+    <el-form-item :label="$t('service.switch.conf')">
       <el-switch/>
     </el-form-item>
 
-    <el-form-item label="博客园">
+    <el-form-item :label="$t('service.switch.cnblogs')">
       <el-switch/>
     </el-form-item>
   </el-form>
