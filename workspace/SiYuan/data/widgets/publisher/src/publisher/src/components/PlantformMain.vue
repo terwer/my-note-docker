@@ -18,6 +18,7 @@
 </template>
 
 <script>
+
 import VuepressMain from "@/components/main/VuepressMain";
 
 export default {

@@ -16,6 +16,13 @@ module.exports = defineConfig({
 
     configureWebpack: {
         plugins: [
+            // 自动导入组件
+            // 现在有bug，IDEA不能自动建议
+            // https://youtrack.jetbrains.com/issue/WEB-52214
+            // yarn add unplugin-vue-components -D
+            // require('unplugin-vue-components/webpack')({ /* options */}),
+
+            // ElementPlus
             AutoImport({
                 resolvers: [ElementPlusResolver()],
             }),
@@ -26,14 +33,14 @@ module.exports = defineConfig({
     },
 
     pluginOptions: {
-      i18n: {
-        locale: 'zh_CN',
-        fallbackLocale: 'en_US',
-        localeDir: 'locales',
-        enableLegacy: false,
-        runtimeOnly: false,
-        compositionOnly: false,
-        fullInstall: true
-      }
+        i18n: {
+            locale: 'zh_CN',
+            fallbackLocale: 'en_US',
+            localeDir: 'locales',
+            enableLegacy: false,
+            runtimeOnly: false,
+            compositionOnly: false,
+            fullInstall: true
+        }
     }
 })
