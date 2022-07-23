@@ -8,7 +8,7 @@
           </el-form-item>
 
           <el-form-item>
-            <el-checkbox label="使用Google翻译API" size="large" /> &nbsp;&nbsp;
+            <el-checkbox :label="$t('use.google.translate')" size="large"/> &nbsp;&nbsp;
             <el-button type="primary">自动生成别名</el-button>
           </el-form-item>
 

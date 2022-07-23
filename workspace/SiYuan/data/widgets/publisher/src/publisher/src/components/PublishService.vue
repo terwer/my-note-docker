@@ -12,6 +12,9 @@
     <el-tab-pane label="服务开关">
       <service-switch/>
     </el-tab-pane>
+    <el-tab-pane label="语言设置">
+      <change-locale/>
+    </el-tab-pane>
   </el-tabs>
 </template>
 
@@ -20,10 +23,11 @@ import PlantformMain from "@/components/PlantformMain";
 import PlantformSetting from "@/components/PlantformSetting";
 import PostBind from "@/components/PostBind";
 import ServiceSwitch from "@/components/ServiceSwitch";
+import ChangeLocale from "@/components/ChangeLocale";
 
 export default {
   name: "PublishService",
-  components: {ServiceSwitch, PostBind, PlantformSetting, PlantformMain}
+  components: {ChangeLocale, ServiceSwitch, PostBind, PlantformSetting, PlantformMain}
 }
 </script>
 
