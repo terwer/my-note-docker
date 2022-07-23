@@ -3,7 +3,7 @@
     <el-aside width="45%">
       <el-form label-width="120px">
         <el-form-item :label="$t('main.slug')">
-          <el-input/>
+          <el-input v-model="formData.customSlug"/>
         </el-form-item>
 
         <el-form-item>
@@ -65,8 +65,32 @@
 </template>
 
 <script>
+
+import {getSiyuanPageId} from "@/lib/util";
+
 export default {
-  name: "VuepressMain"
+  name: "VuepressMain",
+  data() {
+    return {
+      formData: {
+        customSlug: ""
+      }
+    }
+  },
+  async created() {
+    await this.initPage();
+    console.log("VuepressMain created=>初始化页面");
+  },
+  async mounted() {
+    console.log("VuepressMain mounted");
+  },
+  methods: {
+    async initPage() {
+      const pageId = await getSiyuanPageId(false);
+      console.log("initPage.getSiyuanPageId=>", pageId);
+      this.formData.customSlug = pageId;
+    }
+  }
 }
 </script>
 
