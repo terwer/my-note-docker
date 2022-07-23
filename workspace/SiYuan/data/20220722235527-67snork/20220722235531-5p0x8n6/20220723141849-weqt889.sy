@@ -4,9 +4,19 @@
 	"Properties": {
 		"id": "20220723141849-weqt889",
 		"title": "自动导入",
-		"updated": "20220723142017"
+		"updated": "20220724000212"
 	},
 	"Children": [
+		{
+			"ID": "20220724000212-bs8000a",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1168px; height: 712px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220724000212-bs8000a",
+				"style": "text-align: left;",
+				"updated": "20220724000212"
+			}
+		},
 		{
 			"ID": "20220723141849-junwdca",
 			"Type": "NodeParagraph",

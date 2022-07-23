@@ -79,16 +79,15 @@ export default {
   },
   async created() {
     await this.initPage();
-    console.log("VuepressMain created=>初始化页面");
   },
   async mounted() {
-    console.log("VuepressMain mounted");
+    // console.log("VuepressMain mounted");
   },
   methods: {
     async initPage() {
       const pageId = await getSiyuanPageId(false);
-      console.log("initPage.getSiyuanPageId=>", pageId);
       this.formData.customSlug = pageId;
+      // console.log("VuepressMain初始化页面");
     }
   }
 }

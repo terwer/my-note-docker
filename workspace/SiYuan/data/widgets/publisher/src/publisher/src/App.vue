@@ -11,10 +11,10 @@ export default {
     Publish
   },
   async created() {
-    console.log("App created")
+    // console.log("App created")
   },
   async mounted() {
-    console.log("App mounted")
+    // console.log("App mounted")
   }
 }
 </script>
