@@ -1,8 +1,8 @@
 <template>
   <div class="locale-changer">
     <el-form label-width="120px">
-      <el-form-item label="语言选择">
-        <el-select placeholder="请选择语言" v-model="$i18n.locale" @change="langChanged">
+      <el-form-item :label="$t('lang.choose')">
+        <el-select :placeholder="$t('lang.choose.placeholder')" v-model="$i18n.locale" @change="langChanged">
           <el-option :key="i" v-for="(lang, i) in langs" :label="lang.label" :value="lang.value"/>
         </el-select>
       </el-form-item>

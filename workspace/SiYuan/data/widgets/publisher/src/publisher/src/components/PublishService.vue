@@ -1,18 +1,18 @@
 <template>
   <el-tabs tab-position="left">
-    <el-tab-pane label="发布服务">
+    <el-tab-pane :label="$t('service.tab.publish.service')">
       <plantform-main/>
     </el-tab-pane>
-    <el-tab-pane label="发布配置">
+    <el-tab-pane :label="$t('service.tab.publish.setting')">
       <plantform-setting/>
     </el-tab-pane>
-    <el-tab-pane label="文章绑定">
+    <el-tab-pane :label="$t('service.tab.post.bind')">
       <post-bind/>
     </el-tab-pane>
-    <el-tab-pane label="服务开关">
+    <el-tab-pane :label="$t('service.tab.service.switch')">
       <service-switch/>
     </el-tab-pane>
-    <el-tab-pane label="语言设置">
+    <el-tab-pane :label="$t('service.tab.change.local')">
       <change-locale/>
     </el-tab-pane>
   </el-tabs>
