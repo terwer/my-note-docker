@@ -7,6 +7,7 @@ const API_TYPE_JVUE = "jvue";
 const API_TYPE_YUQUE = "yuque";
 const API_TYPE_WECHAT = "wechat";
 const API_TYPE_LIANDI = "liandi";
+const API_TYPE_VUEPRESS = "vuepress";
 
 const CNBLOGS_HOME_KEY = "cnblogs-home";
 const WORDPRESS_HOME_KEY = "wordpress-home";
@@ -15,6 +16,7 @@ const JVUE_HOME_KEY = "jvue-home";
 const YUQUE_HOME_KEY = "yuque-home";
 const WECHAT_HOME_KEY = "wechat-home";
 const LIANDI_HOME_KEY = "liandi-home";
+const VUEPRESS_HOME_KEY = "vuepress-home";
 
 const CNBLOGS_API_URL_KEY = "cnblogs-api-url";
 const WORDPRESS_API_URL_KEY = "wordpress-api-url";
@@ -23,6 +25,7 @@ const JVUE_API_URL_KEY = "jvue-api-url";
 const YUQUE_API_URL_KEY = "yuque-api-url";
 const WECHAT_API_URL_KEY = "wechat-api-url";
 const LIANDI_API_URL_KEY = "liandi-api-url";
+const VUEPRESS_API_URL_KEY = "vuepress-api-url";
 
 const CNBLOGS_API_URL = "https://rpc.cnblogs.com/metaweblog/tangyouwei";
 const WORDPRESS_API_URL = "http://localhost:8000/xmlrpc.php";
@@ -31,6 +34,7 @@ const JVUE_API_URL = "https://v4.terwergreen.com:8002/xmlrpc";
 const YUQUE_API_URL = "https://xmlrpc.terwergreen.com/api/xmlrpc?t=yuque";
 const WECHAT_API_URL = "https://xmlrpc.terwergreen.com/api/xmlrpc?t=wechat";
 const LIANDI_API_URL = "https://xmlrpc.terwergreen.com/api/xmlrpc?t=liandi";
+const VUEPRESS_API_URL = "https://github.com/terwer/src.terwer.github.io";
 
 const CNBLOGS_POSTID_KEY = "custom-cnblogs-post-id";
 const WORDPRESS_POSTID_KEY = "custom-wordpress-post-id";
@@ -39,6 +43,7 @@ const JVUE_POSTID_KEY = "custom-jvue-post-id";
 const YUQUE_POSTID_KEY = "custom-yuque-post-id";
 const WECHAT_POSTID_KEY = "custom-wechat-post-id";
 const LIANDI_POSTID_KEY = "custom-liandi-post-id";
+const VUEPRESS_POSTID_KEY = "custom-vuepress-slug";
 
 const CNBLOGS_USERNAME_KEY = "cnblogs-publish-username";
 const WORDPRESS_USERNAME_KEY = "wordpress-publish-username";
@@ -47,6 +52,7 @@ const JVUE_USERNAME_KEY = "jvue-publish-username";
 const YUQUE_USERNAME_KEY = "yuque-publish-username";
 const WECHAT_USERNAME_KEY = "wechat-publish-username";
 const LIANDI_USERNAME_KEY = "liandi-publish-username";
+const VUEPRESS_USERNAME_KEY = "vuepress-publish-username";
 
 const CNBLOGS_PASSWORD_KEY = "cnblogs-publish-password";
 const WORDPRESS_PASSWORD_KEY = "wordpress-publish-password";
@@ -55,6 +61,7 @@ const JVUE_PASSWORD_KEY = "jvue-publish-password";
 const YUQUE_PASSWORD_KEY = "yuque-publish-password";
 const WECHAT_PASSWORD_KEY = "wechat-publish-password";
 const LIANDI_PASSWORD_KEY = "liandi-publish-password";
+const VUEPRESS_PASSWORD_KEY = "vuepress-publish-password";
 
 /**
  * 平台类型
@@ -66,7 +73,8 @@ export const PUBLISH_TYPE_CONSTANTS = {
     API_TYPE_JVUE,
     API_TYPE_YUQUE,
     API_TYPE_WECHAT,
-    API_TYPE_LIANDI
+    API_TYPE_LIANDI,
+    API_TYPE_VUEPRESS
 };
 
 /**
@@ -79,7 +87,8 @@ export const PUBLISH_HOME_KEY_CONSTANTS = {
     JVUE_HOME_KEY,
     YUQUE_HOME_KEY,
     WECHAT_HOME_KEY,
-    LIANDI_HOME_KEY
+    LIANDI_HOME_KEY,
+    VUEPRESS_HOME_KEY
 }
 
 /**
@@ -92,7 +101,8 @@ export const PUBLISH_API_URL_KEY_CONSTANTS = {
     JVUE_API_URL_KEY,
     YUQUE_API_URL_KEY,
     WECHAT_API_URL_KEY,
-    LIANDI_API_URL_KEY
+    LIANDI_API_URL_KEY,
+    VUEPRESS_API_URL_KEY
 }
 
 /**
@@ -105,7 +115,8 @@ export const PUBLISH_USERNAME_KEY_CONSTANTS = {
     JVUE_USERNAME_KEY,
     YUQUE_USERNAME_KEY,
     WECHAT_USERNAME_KEY,
-    LIANDI_USERNAME_KEY
+    LIANDI_USERNAME_KEY,
+    VUEPRESS_USERNAME_KEY
 }
 
 /**
@@ -118,7 +129,8 @@ export const PUBLISH_PASSWORD_KEY_CONSTANTS = {
     JVUE_PASSWORD_KEY,
     YUQUE_PASSWORD_KEY,
     WECHAT_PASSWORD_KEY,
-    LIANDI_PASSWORD_KEY
+    LIANDI_PASSWORD_KEY,
+    VUEPRESS_PASSWORD_KEY
 }
 
 /**
@@ -131,7 +143,8 @@ export const PUBLISH_POSTID_KEY_CONSTANTS = {
     JVUE_POSTID_KEY,
     YUQUE_POSTID_KEY,
     WECHAT_POSTID_KEY,
-    LIANDI_POSTID_KEY
+    LIANDI_POSTID_KEY,
+    VUEPRESS_POSTID_KEY
 }
 
 export function getApiParams(apiType) {
@@ -211,6 +224,17 @@ export function getApiParams(apiType) {
         username = conf[LIANDI_USERNAME_KEY] || "";
         password = conf[LIANDI_PASSWORD_KEY] || "";
         postidKey = LIANDI_POSTID_KEY;
+    }
+
+    // vuepress
+    if (API_TYPE_VUEPRESS === apiType) {
+        conf = getConf(API_TYPE_VUEPRESS) || {}
+        appKey = API_TYPE_VUEPRESS;
+        home = conf[VUEPRESS_HOME_KEY] || ""
+        apiUrl = conf[VUEPRESS_API_URL_KEY] || VUEPRESS_API_URL;
+        username = conf[VUEPRESS_USERNAME_KEY] || "";
+        password = conf[VUEPRESS_PASSWORD_KEY] || "";
+        postidKey = VUEPRESS_POSTID_KEY;
     }
 
     const apiParams = {

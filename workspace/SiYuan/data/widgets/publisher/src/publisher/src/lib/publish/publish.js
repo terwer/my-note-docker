@@ -16,45 +16,50 @@ async function doPublish(id, type, meta, content) {
     // 设置自定义属性
     const postidKey = apiParams.postidKey;
     const customAttr = {
-        "custom-slug": "",
-        "custom-vuepress-slug": "",
-        [postidKey]: "99999",
+        "custom-slug": meta["custom-slug"],
+        [postidKey]: meta[postidKey],
     };
 
     console.log("设置自定义属性customAttr=>", customAttr);
 
-    // Wordpress调用Wordpress的API
-    if (PUBLISH_TYPE_CONSTANTS.API_TYPE_WORDPRESS === type) {
-        console.log("Wordpress调用Wordpress的API");
-        const wordpressApi = wordpressApiClient(type);
-        const result = wordpressApi.getPosts(10);
-        result.then(function (resolve, reject) {
-            if (reject) {
-                console.log("wordpress getPosts reject=>", reject);
-            } else {
-                console.log("wordpress getPosts=>", resolve);
-            }
-        });
-    } else {
-        // 其他平台调用metaweblogApi的适配器
-        console.log("其他平台调用metaweblogApi的适配器");
-        const metaWeblogApi = metaweblogApiClient(type);
-        const result = metaWeblogApi.getRecentPosts(10);
-        result.then(function (posts) {
-            console.log("metaweblog get recent posts=>", posts);
-        }).catch(function (e) {
-            console.error(e);
-        });
-    }
+    return new Promise((resolve, reject) => {
+        if (PUBLISH_TYPE_CONSTANTS.API_TYPE_WORDPRESS === type) {
+            // Wordpress调用Wordpress的API
+            console.log("Wordpress调用Wordpress的API");
+            const wordpressApi = wordpressApiClient(type);
+            const result = wordpressApi.getPosts(10);
+            result.then(function (res, rej) {
+                if (res) {
+                    console.log("wordpress getPosts reject=>", res);
+                    resolve(res)
+                } else {
+                    console.log("wordpress getPosts=>", rej);
+                    reject(rej)
+                }
+            });
+        } else {
+            // 其他平台调用metaweblogApi的适配器
+            console.log("其他平台调用metaweblogApi的适配器");
+            const metaWeblogApi = metaweblogApiClient(type);
+            const result = metaWeblogApi.getRecentPosts(10);
+            result.then(function (posts) {
+                console.log("metaweblog get recent posts=>", posts);
+                resolve(posts)
+            }).catch(function (e) {
+                console.error(e);
+                reject(e)
+            });
+        }
 
-    // fetchPost("/api/attr/setBlockAttrs", {
-    //     "id": id,
-    //     "attrs": customAttr
-    // }, (response) => {
-    //     const newmeta = response;
-    //     console.log("doPublish customAttr=>", customAttr);
-    //     // console.log("doPublish content=>", content);
-    // });
+        // fetchPost("/api/attr/setBlockAttrs", {
+        //     "id": id,
+        //     "attrs": customAttr
+        // }, (response) => {
+        //     const newmeta = response;
+        //     console.log("doPublish customAttr=>", customAttr);
+        //     // console.log("doPublish content=>", content);
+        // });
+    });
 }
 
 /**

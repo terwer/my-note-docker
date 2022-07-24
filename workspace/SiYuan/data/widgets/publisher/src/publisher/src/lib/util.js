@@ -1,5 +1,6 @@
 import {getPage, getWidgetId} from "@/lib/siyuanUtil";
 import {getConf, setConf} from "@/lib/config";
+import {getApiParams} from "@/lib/publish/publishUtil";
 
 /**
  * 获取本地缓存的思源笔记页面ID
@@ -37,4 +38,15 @@ export async function getSiyuanPage(force) {
         console.warn("调用API设置查询思源页面信息并更新本地缓存", page)
     }
     return page;
+}
+
+/**
+ * 根据平台类型获取发布状态
+ * @param apiType 平台类型
+ * @param meta 元数据
+ */
+export function getPublishStatus(apiType, meta) {
+    const postidKey = getApiParams(apiType).postidKey;
+    const postId = meta[postidKey] || "";
+    return postId === "";
 }

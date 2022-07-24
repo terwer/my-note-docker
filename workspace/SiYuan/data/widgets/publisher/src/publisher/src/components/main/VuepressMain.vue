@@ -55,12 +55,13 @@
           {{ $t('main.yaml.formatter') }}
         </el-form-item>
         <el-form-item>
-          <el-input :autosize="{ minRows: 12, maxRows: 15 }" type="textarea"/>
+          <el-input v-model="vuepressData.vuepressFullContent" :autosize="{ minRows: 12, maxRows: 15 }"
+                    type="textarea"/>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary">{{ $t('main.siyuan.to.yaml') }}</el-button>
-          <el-button type="primary">{{ $t('main.yaml.to.siyuan') }}</el-button>
-          <el-button type="primary">{{ $t('main.copy') }}</el-button>
+          <el-button type="primary" @click="saveAttrToYAML">{{ $t('main.siyuan.to.yaml') }}</el-button>
+          <el-button type="primary" @click="convertYAMLToAttr">{{ $t('main.yaml.to.siyuan') }}</el-button>
+          <el-button type="primary" @click="copyToClipboard">{{ $t('main.copy') }}</el-button>
         </el-form-item>
       </el-form>
     </el-main>
@@ -70,9 +71,8 @@
 <script>
 
 import {getSiyuanPageId} from "@/lib/util";
-import {publishMdContent} from "@/lib/publish/publish";
-import {getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
-import {PUBLISH_TYPE_CONSTANTS} from "@/lib/publish/publishUtil";
+import {exportMdContent, getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
+import {PUBLISH_POSTID_KEY_CONSTANTS} from "@/lib/publish/publishUtil";
 
 export default {
   name: "VuepressMain",
@@ -84,6 +84,11 @@ export default {
       siyuanData: {
         pageId: "",
         meta: {}
+      },
+      vuepressData: {
+        formatter: "",
+        vuepressContent: "",
+        vuepressFullContent: ""
       }
     }
   },
@@ -108,8 +113,7 @@ export default {
     async saveAttrToSiyuan() {
       const customAttr = {
         "custom-slug": this.formData.customSlug,
-        "custom-vuepress-slug": this.formData.customSlug,
-        // [postidKey]: "99999",
+        [PUBLISH_POSTID_KEY_CONSTANTS.VUEPRESS_POSTID_KEY]: this.formData.customSlug,
       };
       await setBlockAttrs(this.siyuanData.pageId, customAttr)
       console.log("VuepressMain保存属性到思源笔记,meta=>", customAttr);
@@ -119,8 +123,22 @@ export default {
 
       alert(this.$t('main.opt.success'))
     },
+    async saveAttrToYAML() {
+      this.vuepressData.formatter = "---"
+      this.vuepressData.vuepressFullContent = this.vuepressData.formatter;
+    },
+    async convertYAMLToAttr() {
+      console.log("convertYAMLToAttr")
+    },
+    copyToClipboard() {
+      console.log("copyToClipboard")
+    },
     async publishPage() {
-      await publishMdContent(this.siyuanData.pageId, PUBLISH_TYPE_CONSTANTS.API_TYPE_VUEPRESS, this.siyuanData.meta)
+      const data = await exportMdContent(this.siyuanData.pageId);
+      this.vuepressData.vuepressContent = data.content;
+      this.vuepressData.vuepressFullContent = this.vuepressData.formatter + "\n" + this.vuepressData.vuepressContent;
+
+      alert(this.$t('main.opt.success'))
     }
   }
 }

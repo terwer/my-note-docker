@@ -43,9 +43,14 @@
         </el-form-item>
 
         <el-form-item>
-          <el-button type="primary" @click="publishPage">{{ $t('main.publish') }}</el-button>
+          <el-button type="primary" @click="publishPage">{{
+              isPublished ? $t('main.update') : $t('main.publish')
+            }}
+          </el-button>
           <el-button>{{ $t('main.cancel') }}</el-button>
-          <el-button type="danger" text>{{ $t('main.publish.status.unpublish') }}</el-button>
+          <el-button type="danger" text>
+            {{ isPublished ? $t('main.publish.status.published') : $t('main.publish.status.unpublish') }}
+          </el-button>
         </el-form-item>
       </el-form>
     </el-aside>
@@ -68,7 +73,7 @@
 </template>
 
 <script>
-import {getSiyuanPageId} from "@/lib/util";
+import {getPublishStatus, getSiyuanPageId} from "@/lib/util";
 import {getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
 import {publishMdContent} from "@/lib/publish/publish";
 import {PUBLISH_TYPE_CONSTANTS} from "@/lib/publish/publishUtil";
@@ -77,6 +82,7 @@ export default {
   name: "CnblogsMain",
   data() {
     return {
+      isPublished: false,
       formData: {
         customSlug: ""
       },
@@ -99,6 +105,9 @@ export default {
 
       // 表单数据
       this.formData.customSlug = this.siyuanData.meta["custom-slug"];
+
+      // 发布状态
+      this.isPublished = getPublishStatus(PUBLISH_TYPE_CONSTANTS.API_TYPE_CNBLPGS, this.siyuanData.meta)
 
       console.log("CnblogsMain初始化页面,meta=>", this.siyuanData.meta);
     },
