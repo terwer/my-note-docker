@@ -10,6 +10,9 @@
     <el-tab-pane :label="$t('setting.cnblogs')">
       <cnblogs-setting/>
     </el-tab-pane>
+    <el-tab-pane :label="$t('setting.wordpress')">
+      <wordpress-setting/>
+    </el-tab-pane>
     <el-tab-pane :label="$t('setting.other1')">
       <other-setting1/>
     </el-tab-pane>
@@ -21,10 +24,11 @@ import JVueSetting from "@/components/setting/JVueSetting";
 import VuepressSetting from "@/components/setting/VuepressSetting";
 import OtherSetting1 from "@/components/setting/OtherSetting1";
 import CnblogsSetting from "@/components/setting/CnblogsSetting";
+import WordpressSetting from "@/components/setting/WordpressSetting";
 
 export default {
   name: "PlantformSetting",
-  components: {CnblogsSetting, OtherSetting1, VuepressSetting, JVueSetting}
+  components: {WordpressSetting, CnblogsSetting, OtherSetting1, VuepressSetting, JVueSetting}
 }
 </script>
 

@@ -11,7 +11,10 @@
         Confluence
       </el-collapse-item>
       <el-collapse-item :title="$t('main.publish.to.cnblogs')" name="4">
-       <cnblogs-main/>
+        <cnblogs-main/>
+      </el-collapse-item>
+      <el-collapse-item :title="$t('main.publish.to.wordpress')" name="5">
+        <wordpress-main/>
       </el-collapse-item>
     </el-collapse>
   </div>
@@ -22,10 +25,11 @@
 import VuepressMain from "@/components/main/VuepressMain";
 import JVueMain from "@/components/main/JVueMain";
 import CnblogsMain from "@/components/main/CnblogsMain";
+import WordpressMain from "@/components/main/WordpressMain";
 
 export default {
   name: "PlantformMain",
-  components: {CnblogsMain, JVueMain, VuepressMain}
+  components: {WordpressMain, CnblogsMain, JVueMain, VuepressMain}
 }
 </script>
 

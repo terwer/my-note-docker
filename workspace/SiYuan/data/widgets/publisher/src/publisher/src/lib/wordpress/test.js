@@ -21,7 +21,7 @@ async function main() {
             {
                 [PUBLISH_HOME_KEY_CONSTANTS.WORDPRESS_HOME_KEY]: "http://localhost:8000",
                 [PUBLISH_API_URL_KEY_CONSTANTS.WORDPRESS_API_URL_KEY]: "http://localhost:8000/xmlrpc.php",
-                [PUBLISH_USERNAME_KEY_CONSTANTS.WORDPRESS_USERNAME_KEY]: "terwer",
+                [PUBLISH_USERNAME_KEY_CONSTANTS.WORDPRESS_USERNAME_KEY]: "test",
                 [PUBLISH_PASSWORD_KEY_CONSTANTS.WORDPRESS_PASSWORD_KEY]: "123456"
             }
         )

@@ -1,6 +1,7 @@
 import {exportMdContent} from "@/lib/siYuanApi";
-import {getApiParams} from "@/lib/publish/publishUtil";
+import {getApiParams, PUBLISH_TYPE_CONSTANTS} from "@/lib/publish/publishUtil";
 import metaweblogApiClient from "@/lib/metaweblog/metaweblog-api-client";
+import wordpressApiClient from "@/lib/wordpress/wordpress-api-client";
 
 async function doPublish(id, type, meta, content) {
     console.log("doPublish params=>", {id, type, meta, content});
@@ -22,20 +23,29 @@ async function doPublish(id, type, meta, content) {
 
     console.log("设置自定义属性customAttr=>", customAttr);
 
-    // const wordpressApi = wordpressApiClient(type);
-    // const result2 = wordpressApi.getPosts(10);
-    // // @ts-ignore
-    // result2.then(function (reslove: any, reject: any) {
-    //     console.log("wordpress getPosts=>", reslove);
-    // });
-
-    const metaWeblogApi = metaweblogApiClient(type);
-    const result = metaWeblogApi.getRecentPosts(10);
-    result.then(function (posts) {
-        console.log("metaweblog get recent posts=>", posts);
-    }).catch(function (e) {
-        console.error(e);
-    });
+    // Wordpress调用Wordpress的API
+    if (PUBLISH_TYPE_CONSTANTS.API_TYPE_WORDPRESS === type) {
+        console.log("Wordpress调用Wordpress的API");
+        const wordpressApi = wordpressApiClient(type);
+        const result = wordpressApi.getPosts(10);
+        result.then(function (resolve, reject) {
+            if (reject) {
+                console.log("wordpress getPosts reject=>", reject);
+            } else {
+                console.log("wordpress getPosts=>", resolve);
+            }
+        });
+    } else {
+        // 其他平台调用metaweblogApi的适配器
+        console.log("其他平台调用metaweblogApi的适配器");
+        const metaWeblogApi = metaweblogApiClient(type);
+        const result = metaWeblogApi.getRecentPosts(10);
+        result.then(function (posts) {
+            console.log("metaweblog get recent posts=>", posts);
+        }).catch(function (e) {
+            console.error(e);
+        });
+    }
 
     // fetchPost("/api/attr/setBlockAttrs", {
     //     "id": id,
