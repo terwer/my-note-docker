@@ -1,4 +1,12 @@
+// https://github.com/lmaccherone/node-localstorage
+if (typeof localStorage === "undefined" || localStorage === null) {
+    const LocalStorage = require('node-localstorage').LocalStorage;
+    global.localStorage = new LocalStorage('./scratch');
+}
+
 export function getConf(key) {
+    console.warn("尝试从localStorage获取数据key=>", key)
+
     const value = localStorage.getItem(key)
     if (!value) {
         return null;
@@ -9,7 +17,8 @@ export function getConf(key) {
 }
 
 export async function setConf(key, value) {
-    console.log("保存数据到localStorage=>", value)
+    console.warn("尝试保存数据到localStorage里key=>", key)
     const valueString = JSON.stringify(value)
     localStorage.setItem(key, valueString)
+    console.log("保存数据到localStorage=>", value)
 }

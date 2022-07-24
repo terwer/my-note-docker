@@ -1,4 +1,4 @@
-import {getConf} from "@/lib/config";
+import {getConf} from "../config";
 
 const API_TYPE_CNBLPGS = "cnblogs";
 const API_TYPE_WORDPRESS = "wordpress";
@@ -139,7 +139,7 @@ export function getApiParams(apiType) {
     // 修改这个切换api
     // ==================
     // cnblogs
-    let conf = getConf(API_TYPE_CNBLPGS)
+    let conf = getConf(API_TYPE_CNBLPGS) || {}
     let appKey = API_TYPE_CNBLPGS;
     let home = conf[CNBLOGS_HOME_KEY] || ""
     let apiUrl = conf[CNBLOGS_API_URL_KEY] || CNBLOGS_API_URL;
@@ -149,7 +149,7 @@ export function getApiParams(apiType) {
 
     // wordpress
     if (API_TYPE_WORDPRESS === apiType) {
-        conf = getConf(API_TYPE_WORDPRESS)
+        conf = getConf(API_TYPE_WORDPRESS) || {}
         appKey = API_TYPE_WORDPRESS;
         home = conf[WORDPRESS_HOME_KEY] || ""
         apiUrl = conf[WORDPRESS_API_URL_KEY] || WORDPRESS_API_URL;
@@ -160,7 +160,7 @@ export function getApiParams(apiType) {
 
     // confluence
     if (API_TYPE_CONFLUENCE === apiType) {
-        conf = getConf(API_TYPE_CONFLUENCE)
+        conf = getConf(API_TYPE_CONFLUENCE) || {}
         appKey = API_TYPE_CONFLUENCE;
         home = conf[CONFLUENCE_HOME_KEY] || ""
         apiUrl = conf[CONFLUENCE_API_URL_KEY] || CONFLUENCE_API_URL;
@@ -171,7 +171,7 @@ export function getApiParams(apiType) {
 
     // jvue
     if (API_TYPE_JVUE === apiType) {
-        conf = getConf(API_TYPE_JVUE)
+        conf = getConf(API_TYPE_JVUE) || {}
         appKey = API_TYPE_JVUE;
         home = conf[JVUE_HOME_KEY] || ""
         apiUrl = conf[JVUE_API_URL_KEY] || JVUE_API_URL;
@@ -182,7 +182,7 @@ export function getApiParams(apiType) {
 
     // yuque
     if (API_TYPE_YUQUE === apiType) {
-        conf = getConf(API_TYPE_YUQUE)
+        conf = getConf(API_TYPE_YUQUE) || {}
         appKey = API_TYPE_YUQUE;
         home = conf[YUQUE_HOME_KEY] || ""
         apiUrl = conf[YUQUE_API_URL_KEY] || YUQUE_API_URL;
@@ -193,7 +193,7 @@ export function getApiParams(apiType) {
 
     // wechat
     if (API_TYPE_WECHAT === apiType) {
-        conf = getConf(API_TYPE_WECHAT)
+        conf = getConf(API_TYPE_WECHAT) || {}
         appKey = API_TYPE_WECHAT;
         home = conf[WECHAT_HOME_KEY] || ""
         apiUrl = conf[WECHAT_API_URL] || WECHAT_API_URL;
@@ -204,7 +204,7 @@ export function getApiParams(apiType) {
 
     // liandi
     if (API_TYPE_LIANDI === apiType) {
-        conf = getConf(API_TYPE_LIANDI)
+        conf = getConf(API_TYPE_LIANDI) || {}
         appKey = API_TYPE_LIANDI;
         home = conf[LIANDI_HOME_KEY] || ""
         apiUrl = conf[LIANDI_API_URL] || LIANDI_API_URL;
@@ -213,12 +213,15 @@ export function getApiParams(apiType) {
         postidKey = LIANDI_POSTID_KEY;
     }
 
-    return {
+    const apiParams = {
         home,
         apiUrl,
         appKey,
         username,
         password,
         postidKey
-    };
+    }
+    console.log("获取最新apiParams=>", apiParams)
+
+    return apiParams;
 }

@@ -1,0 +1,318 @@
+{
+	"ID": "20220724172444-16a2oc1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_vuepress_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
+		"custom-slug": "babel-run-nodejs",
+		"custom-vuepress-slug": "babel-run-nodejs",
+		"id": "20220724172444-16a2oc1",
+		"title": "babel运行nodejs",
+		"updated": "20220724174617"
+	},
+	"Children": [
+		{
+			"ID": "20220724173231-9h7yb2g",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/Note Attrs\" data-src=\"/widgets/Note Attrs\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"height: 208px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220724173231-9h7yb2g",
+				"style": "text-align: left;",
+				"updated": "20220724173231"
+			}
+		},
+		{
+			"ID": "20220724172710-eofqh2q",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1111px; height: 576px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220724172710-eofqh2q",
+				"style": "text-align: left;",
+				"updated": "20220724172710"
+			}
+		},
+		{
+			"ID": "20220724172444-d0cr3d1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220724172444-d0cr3d1",
+				"updated": "20220724172502"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装依赖"
+				}
+			]
+		},
+		{
+			"ID": "20220724172502-2margxy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220724172502-2margxy",
+				"updated": "20220724172513"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn add @babel/cli @babel/node @babel/preset-env\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220724172537-vsdmv59",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220724172537-vsdmv59"
+			}
+		},
+		{
+			"ID": "20220724172537-anjho4g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220724172537-anjho4g",
+				"updated": "20220724172544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "完整的依赖"
+				}
+			]
+		},
+		{
+			"ID": "20220724172544-g66r28e",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220724172544-g66r28e",
+				"updated": "20220724172656"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"dependencies\": {\n    \"core-js\": \"^3.8.3\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"^7.18.9\",\n    \"@babel/node\": \"^7.18.9\",\n    \"@babel/preset-env\": \"^7.18.9\"\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220724172514-3x5lrst",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220724172514-3x5lrst",
+				"updated": "20220724172521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置 .babelrc"
+				}
+			]
+		},
+		{
+			"ID": "20220724172522-3ec9631",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220724172522-3ec9631",
+				"updated": "20220724172653"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"presets\": [\n    [\n      \"@babel/preset-env\",\n      {\n        \"useBuiltIns\": \"entry\",\n        \"corejs\": \"3.8.3\"\n      }\n    ]\n  ]\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220724172612-wya336s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220724172612-wya336s",
+				"updated": "20220724172620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接下来运行即可"
+				}
+			]
+		},
+		{
+			"ID": "20220724172620-26rmk4l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220724172620-26rmk4l",
+				"updated": "20220724172623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编译"
+				}
+			]
+		},
+		{
+			"ID": "20220724172639-ykr7t9j",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220724172639-ykr7t9j",
+				"updated": "20220724172645"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "babel test.js\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220724172623-tt0ufgd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220724172623-tt0ufgd",
+				"updated": "20220724172626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编译与执行"
+				}
+			]
+		},
+		{
+			"ID": "20220724172627-1i2lgxs",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220724172627-1i2lgxs",
+				"updated": "20220724172636"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "babel-node test.js\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220724174558-bt7etvk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220724174558-bt7etvk",
+				"updated": "20220724174606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20220724174606-dbkhvrw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220724174606-dbkhvrw",
+				"updated": "20220724174610"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://babeljs.io/docs/en/babel-preset-env"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://babeljs.io/docs/en/babel-preset-env"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220724174617-ogxiw68",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220724174617-ogxiw68"
+			}
+		}
+	]
+}

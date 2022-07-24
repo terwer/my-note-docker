@@ -6,7 +6,7 @@
 		"custom-slug": "two-column-layout-left-and-right-dragging-effect-implementation-plan",
 		"id": "20220718142548-vtf8mdm",
 		"title": "两栏布局左右拖拽效果实现方案",
-		"updated": "20220718144327"
+		"updated": "20220724172959"
 	},
 	"Children": [
 		{
@@ -17,6 +17,16 @@
 				"id": "20220718142607-2qaj3rr",
 				"style": "text-align: left;",
 				"updated": "20220718142607"
+			}
+		},
+		{
+			"ID": "20220724172959-hokmf7d",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220724172959-hokmf7d",
+				"style": "text-align: left;",
+				"updated": "20220724172959"
 			}
 		},
 		{

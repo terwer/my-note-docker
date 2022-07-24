@@ -30,13 +30,13 @@
 <script>
 import {getConf, setConf} from "@/lib/config";
 import {
-  PUBLISH_TYPE_CONSTANTS,
-  PUBLISH_USERNAME_KEY_CONSTANTS,
-  PUBLISH_PASSWORD_KEY_CONSTANTS, PUBLISH_HOME_KEY_CONSTANTS, PUBLISH_API_URL_KEY_CONSTANTS
+  PUBLISH_API_URL_KEY_CONSTANTS,
+  PUBLISH_HOME_KEY_CONSTANTS, PUBLISH_PASSWORD_KEY_CONSTANTS,
+  PUBLISH_TYPE_CONSTANTS, PUBLISH_USERNAME_KEY_CONSTANTS
 } from "@/lib/publish/publishUtil";
 
 export default {
-  name: "JVueSetting",
+  name: "CnblogsSetting",
   data() {
     return {
       home: "",
@@ -50,22 +50,22 @@ export default {
   },
   methods: {
     initConf() {
-      const conf = getConf(PUBLISH_TYPE_CONSTANTS.API_TYPE_JVUE)
-      console.log("jvue conf=>", conf)
+      const conf = getConf(PUBLISH_TYPE_CONSTANTS.API_TYPE_CNBLPGS)
+      console.log("cnblogs conf=>", conf)
       if (conf) {
-        this.home = conf[PUBLISH_HOME_KEY_CONSTANTS.JVUE_HOME_KEY]
-        this.apiUrl = conf[PUBLISH_API_URL_KEY_CONSTANTS.JVUE_API_URL_KEY]
-        this.username = conf[PUBLISH_USERNAME_KEY_CONSTANTS.JVUE_USERNAME_KEY]
-        this.password = conf[PUBLISH_PASSWORD_KEY_CONSTANTS.JVUE_PASSWORD_KEY]
+        this.home = conf[PUBLISH_HOME_KEY_CONSTANTS.CNBLOGS_HOME_KEY]
+        this.apiUrl = conf[PUBLISH_API_URL_KEY_CONSTANTS.CNBLOGS_API_URL_KEY]
+        this.username = conf[PUBLISH_USERNAME_KEY_CONSTANTS.CNBLOGS_USERNAME_KEY]
+        this.password = conf[PUBLISH_PASSWORD_KEY_CONSTANTS.CNBLOGS_PASSWORD_KEY]
       }
     },
     async saveConf() {
-      await setConf(PUBLISH_TYPE_CONSTANTS.API_TYPE_JVUE,
+      await setConf(PUBLISH_TYPE_CONSTANTS.API_TYPE_CNBLPGS,
           {
-            [PUBLISH_HOME_KEY_CONSTANTS.JVUE_HOME_KEY]: this.home,
-            [PUBLISH_API_URL_KEY_CONSTANTS.JVUE_API_URL_KEY]: this.apiUrl,
-            [PUBLISH_USERNAME_KEY_CONSTANTS.JVUE_USERNAME_KEY]: this.username,
-            [PUBLISH_PASSWORD_KEY_CONSTANTS.JVUE_PASSWORD_KEY]: this.password
+            [PUBLISH_HOME_KEY_CONSTANTS.CNBLOGS_HOME_KEY]: this.home,
+            [PUBLISH_API_URL_KEY_CONSTANTS.CNBLOGS_API_URL_KEY]: this.apiUrl,
+            [PUBLISH_USERNAME_KEY_CONSTANTS.CNBLOGS_USERNAME_KEY]: this.username,
+            [PUBLISH_PASSWORD_KEY_CONSTANTS.CNBLOGS_PASSWORD_KEY]: this.password
           }
       )
     }

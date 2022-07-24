@@ -28,7 +28,8 @@ module.exports = defineConfig({
                 "assert": require.resolve("assert/"),
                 "fs": require.resolve("browserify-fs"),
                 'path': require.resolve('path-browserify'),
-                process: require.resolve('process/browser')
+                "process": require.resolve('process/browser'),
+                "constants": require.resolve("constants-browserify")
             }
         },
         plugins: [
