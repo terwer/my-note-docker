@@ -27,6 +27,8 @@
   "main.publish.to.jvue": "Send to JVue",
   "main.publish.to.conf": "Send to Confluence",
   "main.publish.to.cnblogs": "Send to Cnblogs",
+  "main.opt.success": "Success",
+  "main.opt.failure": "Error",
   "setting.vuepress": "Vuepress",
   "setting.blog.type": "Blog type",
   "setting.blog.type.placeholder": "Please select type",

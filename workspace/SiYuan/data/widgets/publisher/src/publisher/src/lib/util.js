@@ -1,4 +1,5 @@
 import {getPage, getWidgetId} from "@/lib/siyuanUtil";
+import {getConf, setConf} from "@/lib/config";
 
 /**
  * 获取本地缓存的思源笔记页面ID
@@ -23,8 +24,8 @@ export async function getSiyuanPageId(force) {
 export async function getSiyuanPage(force) {
     const widgetId = await getWidgetId()
     // 默认读取缓存
-    if (!force && localStorage.getItem(widgetId)) {
-        const pageObj = JSON.parse(localStorage.getItem(widgetId));
+    const pageObj = getConf(widgetId);
+    if (!force && pageObj) {
         console.log("获取本地缓存的思源笔记页面信息（不是实时的）=>", pageObj)
         return pageObj;
     }
@@ -32,7 +33,7 @@ export async function getSiyuanPage(force) {
     // 如果本地不存在，或者需要强制读取，调用api查询
     const page = await getPage(widgetId);
     if (page) {
-        localStorage.setItem(widgetId, JSON.stringify(page))
+        await setConf(widgetId, page)
         console.warn("调用API设置查询思源页面信息并更新本地缓存", page)
     }
     return page;

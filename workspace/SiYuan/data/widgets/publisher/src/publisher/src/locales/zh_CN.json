@@ -27,6 +27,8 @@
   "main.publish.to.jvue": "发布到JVue",
   "main.publish.to.conf": "发布到Confluence",
   "main.publish.to.cnblogs": "发布到博客园",
+  "main.opt.success": "操作成功",
+  "main.opt.failure": "操作失败",
   "setting.vuepress": "Vuepress",
   "setting.blog.type": "博客类型",
   "setting.blog.type.placeholder": "请选择博客类型",

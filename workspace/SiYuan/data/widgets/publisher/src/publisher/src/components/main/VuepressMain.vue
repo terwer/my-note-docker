@@ -39,8 +39,11 @@
         </el-form-item>
 
         <el-form-item>
-          <el-button type="primary">{{ $t('main.save.attr.to.siyuan') }}</el-button>
-          <el-button type="primary">{{ $t('main.publish') }}</el-button>
+          <el-button type="primary" @click="saveAttrToSiyuan">{{ $t('main.save.attr.to.siyuan') }}</el-button>
+        </el-form-item>
+
+        <el-form-item>
+          <el-button type="primary" @click="publishPage">{{ $t('main.publish') }}</el-button>
           <el-button>{{ $t('main.cancel') }}</el-button>
           <el-button type="danger" text>{{ $t('main.publish.status.unpublish') }}</el-button>
         </el-form-item>
@@ -67,6 +70,9 @@
 <script>
 
 import {getSiyuanPageId} from "@/lib/util";
+import {publishMdContent} from "@/lib/publish/publish";
+import {getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
+import PUBLISH_TYPE_CONSTANTS from "@/lib/publish/publishUtil";
 
 export default {
   name: "VuepressMain",
@@ -74,6 +80,10 @@ export default {
     return {
       formData: {
         customSlug: ""
+      },
+      siyuanData: {
+        pageId: "",
+        meta: {}
       }
     }
   },
@@ -81,13 +91,36 @@ export default {
     await this.initPage();
   },
   async mounted() {
-    // console.log("VuepressMain mounted");
   },
   methods: {
     async initPage() {
       const pageId = await getSiyuanPageId(false);
-      this.formData.customSlug = pageId;
-      // console.log("VuepressMain初始化页面");
+
+      // 思源笔记数据
+      this.siyuanData.pageId = pageId;
+      this.siyuanData.meta = await getBlockAttrs(pageId)
+
+      // 表单数据
+      this.formData.customSlug = this.siyuanData.meta["custom-slug"];
+
+      console.log("VuepressMain初始化页面,meta=>", this.siyuanData.meta);
+    },
+    async saveAttrToSiyuan() {
+      const customAttr = {
+        "custom-slug": this.formData.customSlug,
+        "custom-vuepress-slug": this.formData.customSlug,
+        // [postidKey]: "99999",
+      };
+      await setBlockAttrs(this.siyuanData.pageId, customAttr)
+      console.log("VuepressMain保存属性到思源笔记,meta=>", customAttr);
+
+      // 刷新属性数据
+      await this.initPage();
+
+      alert(this.$t('main.opt.success'))
+    },
+    async publishPage() {
+      await publishMdContent(this.siyuanData.pageId, PUBLISH_TYPE_CONSTANTS.API_TYPE_JVUE, this.siyuanData.meta)
     }
   }
 }
