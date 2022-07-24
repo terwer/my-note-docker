@@ -221,7 +221,7 @@ export function getApiParams(apiType) {
         password,
         postidKey
     }
-    
+
     console.log("获取最新apiParams=>", {
         home,
         apiUrl,
