@@ -1,15 +1,15 @@
 import wordpress_compatible from "./lib/wordpress-compatible";
-import {getApiParams} from "../util";
+import {getApiParams} from "../publish/publishUtil";
 
-const wordpressApiClient = (type: any) => {
+const wordpressApiClient = (type) => {
     const apiParams = getApiParams(type);
     const client = wordpress_compatible.createClient({
-        url: apiParams.API_URL,
+        url: apiParams.apiUrl,
         username: apiParams.username,
         password: apiParams.password
     });
 
-    async function getPosts(numberOfPosts: number) {
+    async function getPosts(numberOfPosts) {
         const filter = {
             // post_type:"", // post,page 文章类型
             // post_status:"", // publish 文章状态
@@ -22,7 +22,7 @@ const wordpressApiClient = (type: any) => {
         const fields = ["id", "title", "name", "date"];
 
         return await new Promise((resolve, reject) => {
-                client.getPosts(filter, fields, function (error: any, posts: any) {
+                client.getPosts(filter, fields, function (error, posts) {
                     if (error) {
                         console.log("An error occurred:", error);
                         reject(error);

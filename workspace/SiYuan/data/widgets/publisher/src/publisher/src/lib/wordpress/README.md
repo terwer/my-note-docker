@@ -2,6 +2,12 @@
 
 ## 依赖类库
 
+```bash
+ yarn add xmlrpc wordpress -S   
+ 
+ 
+```
+
 ```json
 {
   "dependencies": {
@@ -13,8 +19,5 @@
 
 ## test
 ``` 
-pnpm install -D ts-node --save
-
-cd app/src/protyle/publish/wordpress
-ts-node test.ts
+babel-node src/lib/wordpress/test.js
 ```

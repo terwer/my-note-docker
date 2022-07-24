@@ -1,19 +1,19 @@
-const url = require("url");
-const xmlrpc = require("xmlrpc");
-const fieldMap = require("./field-compatible").default;
+var url = require("url"),
+    xmlrpc = require("xmlrpc"),
+    fieldMap = require("../../../../node_modules/wordpress/lib/fields.js");
 
 // http://codex.wordpress.org/XML-RPC_Support
 // http://codex.wordpress.org/XML-RPC_WordPress_API
 
-function extend(a: any, b: any) {
-    for (const p in b) {
+function extend(a, b) {
+    for (var p in b) {
         a[p] = b[p];
     }
 
     return a;
 }
 
-function parseArguments(args: any) {
+function parseArguments(args) {
     return [].slice.call(args, 1)
 
         // Remove null arguments
@@ -21,19 +21,19 @@ function parseArguments(args: any) {
         // null is no longer treated the same as omitting the value. To
         // compensate for this, we just drop the argument before calling
         // into WordPress. See #25.
-        .filter(function (value: any) {
+        .filter(function (value) {
             return value !== null;
         });
 }
 
-const Client = function (this: any, settings: any) {
+function Client(settings) {
     ["url", "username", "password"].forEach(function (prop) {
         if (!settings[prop]) {
             throw new Error("Missing required setting: " + prop);
         }
     });
 
-    const parsedUrl = Client.parseUrl(settings.url);
+    var parsedUrl = Client.parseUrl(settings.url);
     this.rpc = xmlrpc[parsedUrl.secure ? "createSecureClient" : "createClient"]({
         host: settings.host || parsedUrl.host,
         port: parsedUrl.port,
@@ -53,15 +53,17 @@ const Client = function (this: any, settings: any) {
     this.blogId = settings.blogId || 0;
     this.username = settings.username;
     this.password = settings.password;
-};
+}
 
-Client.parseUrl = function (wpUrl: any) {
+Client.parseUrl = function (wpUrl) {
+    var urlParts, secure;
+
     // allow URLs without a protocol
     if (!(/\w+:\/\//.test(wpUrl))) {
         wpUrl = "http://" + wpUrl;
     }
-    const urlParts = url.parse(wpUrl);
-    const secure = urlParts.protocol === "https:";
+    urlParts = url.parse(wpUrl);
+    secure = urlParts.protocol === "https:";
 
     return {
         host: urlParts.hostname,
@@ -73,17 +75,16 @@ Client.parseUrl = function (wpUrl: any) {
 };
 
 extend(Client.prototype, {
-    call: function (method: any) {
-        // eslint-disable-next-line prefer-rest-params
-        const args = parseArguments(arguments);
-        let fn = args.pop();
+    call: function (method) {
+        var args = parseArguments(arguments),
+            fn = args.pop();
 
         if (typeof fn !== "function") {
             args.push(fn);
             fn = null;
         }
 
-        this.rpc.methodCall(method, args, function (error: any, data: any) {
+        this.rpc.methodCall(method, args, function (error, data) {
             if (!error) {
                 return fn(null, data);
             }
@@ -91,7 +92,7 @@ extend(Client.prototype, {
             if (error.code === "ENOTFOUND" && error.syscall === "getaddrinfo") {
                 error.message = "Unable to connect to WordPress.";
             } else if (error.message === "Unknown XML-RPC tag 'TITLE'") {
-                let additional = error.res.statusCode;
+                var additional = error.res.statusCode;
                 if (error.res.statusMessage) {
                     additional += "; " + error.res.statusMessage;
                 }
@@ -104,20 +105,18 @@ extend(Client.prototype, {
     },
 
     authenticatedCall: function () {
-        // eslint-disable-next-line prefer-rest-params
-        const args = [].slice.call(arguments);
+        var args = [].slice.call(arguments);
         args.splice(1, 0, this.blogId, this.username, this.password);
-        // eslint-disable-next-line prefer-spread
         this.call.apply(this, args);
     },
 
-    listMethods: function (fn: any) {
+    listMethods: function (fn) {
         this.call("system.listMethods", fn);
     }
 });
 
 extend(Client.prototype, {
-    getPost: function (id: any, fields: any, fn: any) {
+    getPost: function (id, fields, fn) {
         if (typeof fields === "function") {
             fn = fields;
             fields = null;
@@ -127,7 +126,7 @@ extend(Client.prototype, {
             fields = fieldMap.array(fields, "post");
         }
 
-        this.authenticatedCall("wp.getPost", id, fields, function (error: any, post: any) {
+        this.authenticatedCall("wp.getPost", id, fields, function (error, post) {
             if (error) {
                 return fn(error);
             }
@@ -136,7 +135,7 @@ extend(Client.prototype, {
         });
     },
 
-    getPosts: function (filter: any, fields: any, fn: any) {
+    getPosts: function (filter, fields, fn) {
         if (typeof filter === "function") {
             fn = filter;
             fields = null;
@@ -166,32 +165,32 @@ extend(Client.prototype, {
             fields = fieldMap.array(fields, "post");
         }
 
-        this.authenticatedCall("wp.getPosts", filter, fields, function (error: any, posts: any) {
+        this.authenticatedCall("wp.getPosts", filter, fields, function (error, posts) {
             if (error) {
                 return fn(error);
             }
 
-            fn(null, posts.map(function (post: any) {
+            fn(null, posts.map(function (post) {
                 return fieldMap.from(post, "post");
             }));
         });
     },
 
-    newPost: function (data: any, fn: any) {
+    newPost: function (data, fn) {
         this.authenticatedCall("wp.newPost", fieldMap.to(data, "post"), fn);
     },
 
     // to remove a term, just set the terms and leave out the id that you want to remove
     // to remove a custom field, pass the id with no key or value
-    editPost: function (id: any, data: any, fn: any) {
+    editPost: function (id, data, fn) {
         this.authenticatedCall("wp.editPost", id, fieldMap.to(data, "post"), fn);
     },
 
-    deletePost: function (id: any, fn: any) {
+    deletePost: function (id, fn) {
         this.authenticatedCall("wp.deletePost", id, fn);
     },
 
-    getPostType: function (name: any, fields: any, fn: any) {
+    getPostType: function (name, fields, fn) {
         if (typeof fields === "function") {
             fn = fields;
             fields = null;
@@ -201,7 +200,7 @@ extend(Client.prototype, {
             fields = fieldMap.array(fields, "postType");
         }
 
-        this.authenticatedCall("wp.getPostType", name, fields, function (error: any, postType: any) {
+        this.authenticatedCall("wp.getPostType", name, fields, function (error, postType) {
             if (error) {
                 return fn(error);
             }
@@ -210,7 +209,7 @@ extend(Client.prototype, {
         });
     },
 
-    getPostTypes: function (filter: any, fields: any, fn: any) {
+    getPostTypes: function (filter, fields, fn) {
         if (typeof filter === "function") {
             fn = filter;
             fields = null;
@@ -231,7 +230,7 @@ extend(Client.prototype, {
             fields = fieldMap.array(fields, "postType");
         }
 
-        this.authenticatedCall("wp.getPostTypes", filter, fields, function (error: any, postTypes: any) {
+        this.authenticatedCall("wp.getPostTypes", filter, fields, function (error, postTypes) {
             if (error) {
                 return fn(error);
             }
@@ -245,8 +244,8 @@ extend(Client.prototype, {
 });
 
 extend(Client.prototype, {
-    getTaxonomy: function (name: any, fn: any) {
-        this.authenticatedCall("wp.getTaxonomy", name, function (error: any, taxonomy: any) {
+    getTaxonomy: function (name, fn) {
+        this.authenticatedCall("wp.getTaxonomy", name, function (error, taxonomy) {
             if (error) {
                 return fn(error);
             }
@@ -255,20 +254,20 @@ extend(Client.prototype, {
         });
     },
 
-    getTaxonomies: function (fn: any) {
-        this.authenticatedCall("wp.getTaxonomies", function (error: any, taxonomies: any) {
+    getTaxonomies: function (fn) {
+        this.authenticatedCall("wp.getTaxonomies", function (error, taxonomies) {
             if (error) {
                 return fn(error);
             }
 
-            fn(null, taxonomies.map(function (taxonomy: any) {
+            fn(null, taxonomies.map(function (taxonomy) {
                 return fieldMap.from(taxonomy, "taxonomy");
             }));
         });
     },
 
-    getTerm: function (taxonomy: any, id: any, fn: any) {
-        this.authenticatedCall("wp.getTerm", taxonomy, id, function (error: any, term: any) {
+    getTerm: function (taxonomy, id, fn) {
+        this.authenticatedCall("wp.getTerm", taxonomy, id, function (error, term) {
             if (error) {
                 return fn(error);
             }
@@ -277,7 +276,7 @@ extend(Client.prototype, {
         });
     },
 
-    getTerms: function (taxonomy: any, filter: any, fn: any) {
+    getTerms: function (taxonomy, filter, fn) {
         if (typeof filter === "function") {
             fn = filter;
             filter = {};
@@ -292,33 +291,33 @@ extend(Client.prototype, {
             filter.orderby = fieldMap.array([filter.orderby], "term")[0];
         }
 
-        this.authenticatedCall("wp.getTerms", taxonomy, filter, function (error: any, terms: any) {
+        this.authenticatedCall("wp.getTerms", taxonomy, filter, function (error, terms) {
             if (error) {
                 return fn(error);
             }
 
-            fn(null, terms.map(function (term: any) {
+            fn(null, terms.map(function (term) {
                 return fieldMap.from(term, "term");
             }));
         });
     },
 
-    newTerm: function (data: any, fn: any) {
+    newTerm: function (data, fn) {
         this.authenticatedCall("wp.newTerm", fieldMap.to(data, "term"), fn);
     },
 
-    editTerm: function (id: any, data: any, fn: any) {
+    editTerm: function (id, data, fn) {
         this.authenticatedCall("wp.editTerm", id, fieldMap.to(data, "term"), fn);
     },
 
-    deleteTerm: function (taxonomy: any, id: any, fn: any) {
+    deleteTerm: function (taxonomy, id, fn) {
         this.authenticatedCall("wp.deleteTerm", taxonomy, id, fn);
     }
 });
 
 extend(Client.prototype, {
-    getMediaItem: function (id: any, fn: any) {
-        this.authenticatedCall("wp.getMediaItem", id, function (error: any, media: any) {
+    getMediaItem: function (id, fn) {
+        this.authenticatedCall("wp.getMediaItem", id, function (error, media) {
             if (error) {
                 return fn(error);
             }
@@ -327,34 +326,36 @@ extend(Client.prototype, {
         });
     },
 
-    getMediaLibrary: function (filter: any, fn: any) {
+    getMediaLibrary: function (filter, fn) {
         if (typeof filter === "function") {
             fn = filter;
             filter = {};
         }
 
-        this.authenticatedCall("wp.getMediaLibrary", filter, function (error: any, media: any) {
+        this.authenticatedCall("wp.getMediaLibrary", filter, function (error, media) {
             if (error) {
                 return fn(error);
             }
 
-            fn(null, media.map(function (item: any) {
+            fn(null, media.map(function (item) {
                 return fieldMap.from(item, "media");
             }));
         });
     },
 
-    uploadFile: function (data: any, fn: any) {
+    uploadFile: function (data, fn) {
         this.authenticatedCall("wp.uploadFile", fieldMap.to(data, "file"), fn);
     }
 });
 
-const wordpressClient = {
+const wordpress_compatible = {
     Client: Client,
-    createClient: function (settings: any) {
-        return new (Client as any)(settings);
+
+    createClient: function (settings) {
+        return new Client(settings);
     },
+
     fieldMap: fieldMap
 };
 
-export default wordpressClient;
+export default wordpress_compatible;
