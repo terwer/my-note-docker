@@ -16,7 +16,7 @@ async function main() {
             {
                 [PUBLISH_HOME_KEY_CONSTANTS.CNBLOGS_HOME_KEY]: "https://cnblogs.com/tangyouwei",
                 [PUBLISH_API_URL_KEY_CONSTANTS.CNBLOGS_API_URL_KEY]: "https://rpc.cnblogs.com/metaweblog/tangyouwei",
-                [PUBLISH_USERNAME_KEY_CONSTANTS.CNBLOGS_USERNAME_KEY]: "terwer",
+                [PUBLISH_USERNAME_KEY_CONSTANTS.CNBLOGS_USERNAME_KEY]: "test",
                 [PUBLISH_PASSWORD_KEY_CONSTANTS.CNBLOGS_PASSWORD_KEY]: "123456"
             }
         )
