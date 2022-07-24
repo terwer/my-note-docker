@@ -1,17 +1,17 @@
 <template>
   <div class="demo-collapse">
-    <el-collapse model-value="1" accordion>
+    <el-collapse model-value="4" accordion>
       <el-collapse-item :title="$t('main.publish.to.vuepress')" name="1">
         <vuepress-main/>
       </el-collapse-item>
       <el-collapse-item :title="$t('main.publish.to.jvue')" name="2">
-        JVue
+        <j-vue-main/>
       </el-collapse-item>
       <el-collapse-item :title="$t('main.publish.to.conf')" name="3">
         Confluence
       </el-collapse-item>
       <el-collapse-item :title="$t('main.publish.to.cnblogs')" name="4">
-        博客园
+       <cnblogs-main/>
       </el-collapse-item>
     </el-collapse>
   </div>
@@ -20,13 +20,12 @@
 <script>
 
 import VuepressMain from "@/components/main/VuepressMain";
+import JVueMain from "@/components/main/JVueMain";
+import CnblogsMain from "@/components/main/CnblogsMain";
 
 export default {
   name: "PlantformMain",
-  components: {VuepressMain},
-  props: {
-    modelValue: String // previously was `value: String`
-  },
+  components: {CnblogsMain, JVueMain, VuepressMain}
 }
 </script>
 

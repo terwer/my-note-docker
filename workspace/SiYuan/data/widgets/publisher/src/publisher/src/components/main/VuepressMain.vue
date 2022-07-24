@@ -72,7 +72,7 @@
 import {getSiyuanPageId} from "@/lib/util";
 import {publishMdContent} from "@/lib/publish/publish";
 import {getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
-import PUBLISH_TYPE_CONSTANTS from "@/lib/publish/publishUtil";
+import {PUBLISH_TYPE_CONSTANTS} from "@/lib/publish/publishUtil";
 
 export default {
   name: "VuepressMain",
@@ -120,7 +120,7 @@ export default {
       alert(this.$t('main.opt.success'))
     },
     async publishPage() {
-      await publishMdContent(this.siyuanData.pageId, PUBLISH_TYPE_CONSTANTS.API_TYPE_JVUE, this.siyuanData.meta)
+      await publishMdContent(this.siyuanData.pageId, PUBLISH_TYPE_CONSTANTS.API_TYPE_VUEPRESS, this.siyuanData.meta)
     }
   }
 }
