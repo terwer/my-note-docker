@@ -128,11 +128,23 @@ export function obj2yaml(obj) {
 // babel-node src/lib/util.js
 
 /**
+ * 给日期添加小时
+ * @param date
+ * @param numOfHours
+ * @returns {*}
+ */
+const addHoursToDate = function (date, numOfHours) {
+    date.setTime(date.getTime() + numOfHours * 60 * 60 * 1000);
+    return date;
+}
+
+/**
  * 转换ISO日期为数字日期
  * @param str '2022-07-18T06:25:48.000Z
+ * @param isAddTimeZone 是否增加时区（默认不增加）
  * @returns {string|*}
  */
-export const formatIsoToNumDate = (str) => {
+export const formatIsoToNumDate = (str, isAddTimeZone) => {
     if (!str) {
         return "";
     }
@@ -144,7 +156,16 @@ export const formatIsoToNumDate = (str) => {
     const matches = newstr.match(isoDateRegex);
     for (let i = 0; i < matches.length; i++) {
         const match = matches[i];
-        const dts = match.split("T")
+
+        let newmatch = match;
+        if (isAddTimeZone) {
+            console.warn("修复时区，ISO日期默认晚8小时")
+            // ISO日期默认晚8小时
+            console.log(addHoursToDate(new Date(match), 8))
+            newmatch = addHoursToDate(new Date(match), 8).toISOString()
+        }
+
+        const dts = newmatch.split("T")
         const d = dts[0].replaceAll(/-/g, "")
         const t = dts[1].split(".")[0].replaceAll(/:/g, "")
 
@@ -161,9 +182,10 @@ export const formatIsoToNumDate = (str) => {
 /**
  * 转换ISO日期为中文日期
  * @param str '2022-07-18T06:25:48.000Z
+ * @param isAddTimeZone 是否增加时区（默认不增加）
  * @returns {string|*}
  */
-export const formatIsoToZhDate = (str) => {
+export const formatIsoToZhDate = (str, isAddTimeZone) => {
     if (!str) {
         return "";
     }
@@ -175,7 +197,15 @@ export const formatIsoToZhDate = (str) => {
     const matches = newstr.match(isoDateRegex);
     for (let i = 0; i < matches.length; i++) {
         const match = matches[i];
-        const dts = match.split("T")
+
+        let newmatch = match;
+        if (isAddTimeZone) {
+            // ISO日期默认晚8小时
+            console.log(addHoursToDate(new Date(match), 8))
+            newmatch = addHoursToDate(new Date(match), 8).toISOString()
+        }
+
+        const dts = newmatch.split("T")
         const d = dts[0]
         const t = dts[1].split(".")[0]
 
@@ -259,19 +289,26 @@ export function covertStringToDate(dateString) {
     return changeTimeZone(datestr, 'Asia/Shanghai')
 }
 
-// const date = covertStringToDate('20220718142548');
-// // const timeZone = 'Asia/Shanghai'
-// // const datestr = date.toLocaleString('zh-CN', {
-// //     timeZone,
-// // });
-// const obj = {
-//     title: "测试，这里有T，也有.000Z啊",
-//     date: date
-// }
-// const yaml = obj2yaml(obj)
-// console.log("yaml=>")
-// console.log(yaml)
+const date = covertStringToDate('20220718142548');
+// const timeZone = 'Asia/Shanghai'
+// const datestr = date.toLocaleString('zh-CN', {
+//     timeZone,
+// });
+console.log("date.toISOString=>")
+console.log(date.toISOString())
 
-// const fmt = formatIsoDate(yaml)
-// console.log("fmt=>")
-// console.log(fmt)
+const obj = {
+    title: "测试，这里有T，也有.000Z啊",
+    date: date
+}
+const yaml = obj2yaml(obj)
+console.log("yaml=>")
+console.log(yaml)
+
+const fmt = formatIsoToZhDate(yaml)
+console.log("fmt=>")
+console.log(fmt)
+
+const fmt2 = formatIsoToNumDate(yaml)
+console.log("fmt2=>")
+console.log(fmt2)

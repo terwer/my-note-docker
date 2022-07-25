@@ -94,6 +94,7 @@ export default {
   data() {
     return {
       formData: {
+        title: "",
         customSlug: "",
         created: new Date(),
         checkList: []
@@ -146,6 +147,7 @@ export default {
       this.siyuanData.meta = await getBlockAttrs(pageId)
 
       // 表单数据
+      this.formData.title = page.content;
       this.formData.customSlug = this.siyuanData.meta["custom-slug"];
       this.formData.created = formatNumToZhDate(page.created)
       console.log("VuepressMain初始化页面,meta=>", this.siyuanData.meta);
@@ -191,12 +193,13 @@ export default {
       console.log("convertAttrToYAML")
       // 表单属性转yamlObj
       console.log("convertAttrToYAML,formData=>", this.formData)
+      this.vuepressData.yamlObj.title = this.formData.title;
       this.vuepressData.yamlObj.date = covertStringToDate(this.formData.created)
 
       // formatter
       let yaml = obj2yaml(this.vuepressData.yamlObj);
-      // 修复yaml的ISO日期格式
-      yaml = formatIsoToZhDate(yaml)
+      // 修复yaml的ISO日期格式（js-yaml转换的才需要）
+      yaml = formatIsoToZhDate(yaml, true)
       this.vuepressData.formatter = yaml
       this.vuepressData.vuepressFullContent = this.vuepressData.formatter;
     },
@@ -207,7 +210,8 @@ export default {
 
       // yamlObj转表单属性
       console.log("convertYAMLToAttr,yamlObj=>", this.vuepressData.yamlObj)
-      this.formData.created = formatIsoToZhDate(this.vuepressData.yamlObj.date.toISOString())
+      this.formData.title = this.vuepressData.yamlObj.title
+      this.formData.created = formatIsoToZhDate(this.vuepressData.yamlObj.date.toISOString(), false)
     },
     copyToClipboard() {
       console.log("copyToClipboard")
