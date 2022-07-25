@@ -61,7 +61,7 @@
                     type="textarea"/>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" @click="saveAttrToYAML">{{ $t('main.siyuan.to.yaml') }}</el-button>
+          <el-button type="primary" @click="convertAttrToYAML">{{ $t('main.siyuan.to.yaml') }}</el-button>
           <el-button type="primary" @click="convertYAMLToAttr">{{ $t('main.yaml.to.siyuan') }}</el-button>
           <el-button type="primary" @click="copyToClipboard">{{ $t('main.copy') }}</el-button>
         </el-form-item>
@@ -72,7 +72,7 @@
 
 <script>
 
-import {getSiyuanPageId} from "@/lib/util";
+import {getSiyuanPageId, obj2yaml, yaml2Obj} from "@/lib/util";
 import {exportMdContent, getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
 import {PUBLISH_POSTID_KEY_CONSTANTS} from "@/lib/publish/publishUtil";
 import {slugify} from 'transliteration';
@@ -91,6 +91,31 @@ export default {
         meta: {}
       },
       vuepressData: {
+        yamlObj: {
+          title: "把npm依赖转换为本地依赖",
+          date: "2022-07-09 15:16:00",
+          permalink: "/post/convert-npm-dependencies-to-local.html",
+          meta: [
+            {
+              name: "keywords",
+              content: "npm dependency"
+            },
+            {
+              name: "description",
+              content: "把npm依赖转换为本地依赖有的时候，当我们要使用额第三方库停止维护之后，我们想自己修改代码才能达到某个需求。但是npm默认是只读的，下次运行依赖管理会覆盖代码。缘由要在上面陈述的情况，我们可以把npm依赖库转换为本地依赖，这样就不再受包管理器约束，我们就可以自定义修改代码了方案先删除npm中依赖yarnremove@oaktreehouse/vuepresspluginencrypt森岛帆高"
+            }
+          ],
+          categories: [
+            "博文", "实用技巧"
+          ],
+          tags: [
+            "npm", "dependency"
+          ],
+          author: {
+            name: "terwer",
+            link: "https://github.com/terwer"
+          }
+        },
         formatter: "",
         vuepressContent: "",
         vuepressFullContent: ""
@@ -112,6 +137,9 @@ export default {
 
       // 表单数据
       this.formData.customSlug = this.siyuanData.meta["custom-slug"];
+
+      // 表单属性转换为HTML
+      this.convertAttrToYAML()
 
       console.log("VuepressMain初始化页面,meta=>", this.siyuanData.meta);
     },
@@ -146,12 +174,24 @@ export default {
 
       alert(this.$t('main.opt.success'))
     },
-    async saveAttrToYAML() {
-      this.vuepressData.formatter = "---"
+    convertAttrToYAML() {
+      console.log("convertAttrToYAML")
+      // 表单属性转yamlObj
+      console.log("convertAttrToYAML,formData=>", this.formData)
+      // TODO
+
+      // formatter
+      this.vuepressData.formatter = obj2yaml(this.vuepressData.yamlObj);
       this.vuepressData.vuepressFullContent = this.vuepressData.formatter;
     },
     async convertYAMLToAttr() {
       console.log("convertYAMLToAttr")
+      this.vuepressData.yamlObj = yaml2Obj(this.vuepressData.formatter)
+
+      // yamlObj转表单属性
+      console.log("convertYAMLToAttr,yamlObj=>", this.vuepressData.yamlObj)
+      // TODO
+
     },
     copyToClipboard() {
       console.log("copyToClipboard")
