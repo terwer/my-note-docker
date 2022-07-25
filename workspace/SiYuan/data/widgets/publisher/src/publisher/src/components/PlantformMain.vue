@@ -1,6 +1,6 @@
 <template>
   <div class="demo-collapse">
-    <el-collapse model-value="4" accordion>
+    <el-collapse model-value="1" accordion>
       <el-collapse-item :title="$t('main.publish.to.vuepress')" name="1">
         <vuepress-main/>
       </el-collapse-item>
