@@ -194,6 +194,7 @@ export default {
       // 表单属性转yamlObj
       console.log("convertAttrToYAML,formData=>", this.formData)
       this.vuepressData.yamlObj.title = this.formData.title;
+      this.vuepressData.yamlObj.permalink = "/post/" + this.formData.customSlug + ".html";
       this.vuepressData.yamlObj.date = covertStringToDate(this.formData.created)
 
       // formatter
@@ -211,6 +212,9 @@ export default {
       // yamlObj转表单属性
       console.log("convertYAMLToAttr,yamlObj=>", this.vuepressData.yamlObj)
       this.formData.title = this.vuepressData.yamlObj.title
+      this.formData.customSlug = this.vuepressData.yamlObj.permalink.replace("/pages/", "")
+          .replace("/post/", "").replace(".html", "")
+          .replace("/", "")
       this.formData.created = formatIsoToZhDate(this.vuepressData.yamlObj.date.toISOString(), false)
     },
     copyToClipboard() {

@@ -289,26 +289,26 @@ export function covertStringToDate(dateString) {
     return changeTimeZone(datestr, 'Asia/Shanghai')
 }
 
-const date = covertStringToDate('20220718142548');
-// const timeZone = 'Asia/Shanghai'
-// const datestr = date.toLocaleString('zh-CN', {
-//     timeZone,
-// });
-console.log("date.toISOString=>")
-console.log(date.toISOString())
-
-const obj = {
-    title: "测试，这里有T，也有.000Z啊",
-    date: date
-}
-const yaml = obj2yaml(obj)
-console.log("yaml=>")
-console.log(yaml)
-
-const fmt = formatIsoToZhDate(yaml)
-console.log("fmt=>")
-console.log(fmt)
-
-const fmt2 = formatIsoToNumDate(yaml)
-console.log("fmt2=>")
-console.log(fmt2)
+// const date = covertStringToDate('20220718142548');
+// // const timeZone = 'Asia/Shanghai'
+// // const datestr = date.toLocaleString('zh-CN', {
+// //     timeZone,
+// // });
+// console.log("date.toISOString=>")
+// console.log(date.toISOString())
+//
+// const obj = {
+//     title: "测试，这里有T，也有.000Z啊",
+//     date: date
+// }
+// const yaml = obj2yaml(obj)
+// console.log("yaml=>")
+// console.log(yaml)
+//
+// const fmt = formatIsoToZhDate(yaml)
+// console.log("fmt=>")
+// console.log(fmt)
+//
+// const fmt2 = formatIsoToNumDate(yaml)
+// console.log("fmt2=>")
+// console.log(fmt2)
