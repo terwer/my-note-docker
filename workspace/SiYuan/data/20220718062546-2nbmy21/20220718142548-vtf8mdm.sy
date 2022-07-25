@@ -22,7 +22,7 @@
 		{
 			"ID": "20220724172959-hokmf7d",
 			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1284px; height: 256px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
 				"id": "20220724172959-hokmf7d",
 				"style": "text-align: left;",

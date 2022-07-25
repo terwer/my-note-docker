@@ -1,6 +1,7 @@
 import {getPage, getWidgetId} from "@/lib/siyuanUtil";
 import {getConf, setConf} from "@/lib/config";
 import {getApiParams} from "@/lib/publish/publishUtil";
+import {slugify} from 'transliteration';
 
 /**
  * 获取本地缓存的思源笔记页面ID
@@ -49,4 +50,18 @@ export function getPublishStatus(apiType, meta) {
     const postidKey = getApiParams(apiType).postidKey;
     const postId = meta[postidKey] || "";
     return postId === "";
+}
+
+/**
+ * 中文翻译成英文别名
+ * @param q
+ * @returns {Promise<unknown>}
+ */
+export async function zhSlugify(q) {
+    const v = await fetch('https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=en-US&q=' + q);
+    let json = await v.json()
+    let res = json[0][0];
+    res = res.replaceAll(/-/g, "");
+    console.log("res=>", res)
+    return slugify(res);
 }

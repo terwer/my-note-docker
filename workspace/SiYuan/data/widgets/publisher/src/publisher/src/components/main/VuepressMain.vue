@@ -7,8 +7,10 @@
         </el-form-item>
 
         <el-form-item>
-          <el-checkbox :label="$t('main.use.google.translate')" size="large"/> &nbsp;&nbsp;
-          <el-button type="primary">{{ $t('main.auto.fetch.slug') }}</el-button>
+          <el-checkbox-group v-model="formData.checkList">
+            <el-checkbox label="1">{{ $t('main.use.google.translate') }}</el-checkbox>
+          </el-checkbox-group>
+          <el-button type="primary" @click="makeSlug">{{ $t('main.auto.fetch.slug') }}</el-button>
         </el-form-item>
 
         <el-form-item :label="$t('main.desc')">
@@ -73,13 +75,16 @@
 import {getSiyuanPageId} from "@/lib/util";
 import {exportMdContent, getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
 import {PUBLISH_POSTID_KEY_CONSTANTS} from "@/lib/publish/publishUtil";
+import {slugify} from 'transliteration';
+import {zhSlugify} from "@/lib/util";
 
 export default {
   name: "VuepressMain",
   data() {
     return {
       formData: {
-        customSlug: ""
+        customSlug: "",
+        checkList: []
       },
       siyuanData: {
         pageId: "",
@@ -109,6 +114,24 @@ export default {
       this.formData.customSlug = this.siyuanData.meta["custom-slug"];
 
       console.log("VuepressMain初始化页面,meta=>", this.siyuanData.meta);
+    },
+    async makeSlug() {
+      // 获取最新属性
+      this.siyuanData.meta = await getBlockAttrs(this.siyuanData.pageId)
+      // 获取标题
+      const title = this.siyuanData.meta.title;
+      if (this.formData.checkList.length > 0) {
+        // 调用Google翻译API
+        const result = await zhSlugify(title);
+        console.log("result=>", result)
+        if (result) {
+          this.formData.customSlug = result
+        } else {
+          alert(this.$t('main.opt.failure'))
+        }
+      } else {
+        this.formData.customSlug = slugify(title);
+      }
     },
     async saveAttrToSiyuan() {
       const customAttr = {
