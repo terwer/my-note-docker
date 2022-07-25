@@ -24,6 +24,10 @@
         <el-form-item :label="$t('main.create.time')">
           <el-date-picker
               type="datetime"
+              v-model="formData.created"
+              format="YYYY-MM-DD HH:mm:ss"
+              value-format="YYYY-MM-DD HH:mm:ss"
+              @change="createTimeChanged"
               :placeholder="$t('main.create.time.placeholder')"
           />
         </el-form-item>
@@ -72,11 +76,18 @@
 
 <script>
 
-import {getSiyuanPageId, obj2yaml, yaml2Obj} from "@/lib/util";
+import {
+  covertStringToDate,
+  formatIsoToZhDate, formatNumToZhDate,
+  getSiyuanPageId,
+  obj2yaml,
+  yaml2Obj,
+  zhSlugify
+} from "@/lib/util";
 import {exportMdContent, getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
 import {PUBLISH_POSTID_KEY_CONSTANTS} from "@/lib/publish/publishUtil";
 import {slugify} from 'transliteration';
-import {zhSlugify} from "@/lib/util";
+import {getPage} from "@/lib/siyuanUtil";
 
 export default {
   name: "VuepressMain",
@@ -84,6 +95,7 @@ export default {
     return {
       formData: {
         customSlug: "",
+        created: new Date(),
         checkList: []
       },
       siyuanData: {
@@ -92,25 +104,21 @@ export default {
       },
       vuepressData: {
         yamlObj: {
-          title: "把npm依赖转换为本地依赖",
-          date: "2022-07-09 15:16:00",
+          title: "",
+          date: new Date(),
           permalink: "/post/convert-npm-dependencies-to-local.html",
           meta: [
             {
               name: "keywords",
-              content: "npm dependency"
+              content: ""
             },
             {
               name: "description",
-              content: "把npm依赖转换为本地依赖有的时候，当我们要使用额第三方库停止维护之后，我们想自己修改代码才能达到某个需求。但是npm默认是只读的，下次运行依赖管理会覆盖代码。缘由要在上面陈述的情况，我们可以把npm依赖库转换为本地依赖，这样就不再受包管理器约束，我们就可以自定义修改代码了方案先删除npm中依赖yarnremove@oaktreehouse/vuepresspluginencrypt森岛帆高"
+              content: ""
             }
           ],
-          categories: [
-            "博文", "实用技巧"
-          ],
-          tags: [
-            "npm", "dependency"
-          ],
+          categories: [],
+          tags: [],
           author: {
             name: "terwer",
             link: "https://github.com/terwer"
@@ -130,6 +138,8 @@ export default {
   methods: {
     async initPage() {
       const pageId = await getSiyuanPageId(false);
+      const page = await getPage(pageId)
+      console.log("VuepressMain获取主文档", page)
 
       // 思源笔记数据
       this.siyuanData.pageId = pageId;
@@ -137,11 +147,11 @@ export default {
 
       // 表单数据
       this.formData.customSlug = this.siyuanData.meta["custom-slug"];
+      this.formData.created = formatNumToZhDate(page.created)
+      console.log("VuepressMain初始化页面,meta=>", this.siyuanData.meta);
 
       // 表单属性转换为HTML
       this.convertAttrToYAML()
-
-      console.log("VuepressMain初始化页面,meta=>", this.siyuanData.meta);
     },
     async makeSlug() {
       // 获取最新属性
@@ -161,6 +171,9 @@ export default {
         this.formData.customSlug = slugify(title);
       }
     },
+    createTimeChanged(val) {
+      console.log("createTimeChanged=>", val)
+    },
     async saveAttrToSiyuan() {
       const customAttr = {
         "custom-slug": this.formData.customSlug,
@@ -178,20 +191,23 @@ export default {
       console.log("convertAttrToYAML")
       // 表单属性转yamlObj
       console.log("convertAttrToYAML,formData=>", this.formData)
-      // TODO
+      this.vuepressData.yamlObj.date = covertStringToDate(this.formData.created)
 
       // formatter
-      this.vuepressData.formatter = obj2yaml(this.vuepressData.yamlObj);
+      let yaml = obj2yaml(this.vuepressData.yamlObj);
+      // 修复yaml的ISO日期格式
+      yaml = formatIsoToZhDate(yaml)
+      this.vuepressData.formatter = yaml
       this.vuepressData.vuepressFullContent = this.vuepressData.formatter;
     },
     async convertYAMLToAttr() {
       console.log("convertYAMLToAttr")
+      this.vuepressData.formatter = this.vuepressData.vuepressFullContent
       this.vuepressData.yamlObj = yaml2Obj(this.vuepressData.formatter)
 
       // yamlObj转表单属性
       console.log("convertYAMLToAttr,yamlObj=>", this.vuepressData.yamlObj)
-      // TODO
-
+      this.formData.created = formatIsoToZhDate(this.vuepressData.yamlObj.date.toISOString())
     },
     copyToClipboard() {
       console.log("copyToClipboard")
