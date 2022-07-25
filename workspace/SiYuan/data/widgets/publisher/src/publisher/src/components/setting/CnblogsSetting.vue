@@ -51,8 +51,9 @@ export default {
   methods: {
     initConf() {
       const conf = getConf(PUBLISH_TYPE_CONSTANTS.API_TYPE_CNBLPGS)
-      console.log("cnblogs conf=>", conf)
       if (conf) {
+        console.log("cnblogs conf=>", conf)
+
         this.home = conf[PUBLISH_HOME_KEY_CONSTANTS.CNBLOGS_HOME_KEY]
         this.apiUrl = conf[PUBLISH_API_URL_KEY_CONSTANTS.CNBLOGS_API_URL_KEY]
         this.username = conf[PUBLISH_USERNAME_KEY_CONSTANTS.CNBLOGS_USERNAME_KEY]

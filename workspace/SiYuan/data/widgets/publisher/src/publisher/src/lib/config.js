@@ -5,10 +5,11 @@ if (typeof localStorage === "undefined" || localStorage === null) {
 }
 
 export function getConf(key) {
-    console.warn("尝试从localStorage获取数据key=>", key)
+    console.warn("尝试从localStorage获取数据，key=>", key)
 
     const value = localStorage.getItem(key)
     if (!value) {
+        console.log("未找到对应值，key=>", key)
         return null;
     }
     const valueObj = JSON.parse(value);

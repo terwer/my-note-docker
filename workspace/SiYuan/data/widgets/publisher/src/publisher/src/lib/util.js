@@ -13,6 +13,9 @@ import jsYaml from "js-yaml";
  */
 export async function getSiyuanPageId(force) {
     const page = await getSiyuanPage(force);
+    if (!page) {
+        return
+    }
 
     const pageId = page.root_id || ""
     console.log("获取思源笔记页面ID=>", pageId)

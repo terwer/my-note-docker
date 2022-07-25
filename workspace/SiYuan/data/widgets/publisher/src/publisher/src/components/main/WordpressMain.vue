@@ -92,6 +92,9 @@ export default {
   methods: {
     async initPage() {
       const pageId = await getSiyuanPageId(false);
+      if (!pageId || pageId === "") {
+        return
+      }
 
       // 思源笔记数据
       this.siyuanData.pageId = pageId;

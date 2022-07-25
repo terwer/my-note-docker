@@ -51,8 +51,9 @@ export default {
   methods: {
     initConf() {
       const conf = getConf(PUBLISH_TYPE_CONSTANTS.API_TYPE_WORDPRESS)
-      console.log("wordpress conf=>", conf)
       if (conf) {
+        console.log("wordpress conf=>", conf)
+
         this.home = conf[PUBLISH_HOME_KEY_CONSTANTS.WORDPRESS_HOME_KEY]
         this.apiUrl = conf[PUBLISH_API_URL_KEY_CONSTANTS.WORDPRESS_API_URL_KEY]
         this.username = conf[PUBLISH_USERNAME_KEY_CONSTANTS.WORDPRESS_USERNAME_KEY]

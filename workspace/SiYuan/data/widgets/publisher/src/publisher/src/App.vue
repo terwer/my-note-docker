@@ -4,6 +4,7 @@
 
 <script>
 import Publish from '@/components/PublishService'
+import {getSiyuanPageId} from "@/lib/util";
 
 export default {
   name: 'App',
@@ -11,6 +12,11 @@ export default {
     Publish
   },
   async created() {
+    const pageId = await getSiyuanPageId(false);
+    if (!pageId || pageId === "") {
+      alert("Server error")
+      return
+    }
   },
   async mounted() {
   }

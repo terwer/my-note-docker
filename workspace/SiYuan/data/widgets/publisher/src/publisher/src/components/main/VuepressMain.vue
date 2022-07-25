@@ -139,6 +139,9 @@ export default {
   methods: {
     async initPage() {
       const pageId = await getSiyuanPageId(false);
+      if (!pageId || pageId === "") {
+        return
+      }
       const page = await getPage(pageId)
       console.log("VuepressMain获取主文档", page)
 
