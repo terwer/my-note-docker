@@ -109,7 +109,6 @@ export default {
       const customAttr = {
         "custom-slug": this.formData.customSlug,
         "custom-vuepress-slug": this.formData.customSlug,
-        // [postidKey]: "99999",
       };
       await setBlockAttrs(this.siyuanData.pageId, customAttr)
       console.log("CnblogsMain保存属性到思源笔记,meta=>", customAttr);
