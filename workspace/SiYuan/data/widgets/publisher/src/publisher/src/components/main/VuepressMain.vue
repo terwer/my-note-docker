@@ -14,11 +14,11 @@
         </el-form-item>
 
         <el-form-item :label="$t('main.desc')">
-          <el-input type="textarea"/>
+          <el-input type="textarea" v-model="formData.desc"/>
         </el-form-item>
 
         <el-form-item>
-          <el-button type="primary">{{ $t('main.auto.fetch.desc') }}</el-button>
+          <el-button type="primary" @click="makeDesc">{{ $t('main.auto.fetch.desc') }}</el-button>
         </el-form-item>
 
         <el-form-item :label="$t('main.create.time')">
@@ -88,6 +88,8 @@ import {exportMdContent, getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
 import {PUBLISH_POSTID_KEY_CONSTANTS} from "@/lib/publish/publishUtil";
 import {slugify} from 'transliteration';
 import {getPage} from "@/lib/siyuanUtil";
+import {mdToHtml, parseHtml} from "@/lib/htmlUtil";
+import {CONSTANTS} from "@/lib/constants";
 
 export default {
   name: "VuepressMain",
@@ -96,6 +98,7 @@ export default {
       formData: {
         title: "",
         customSlug: "",
+        desc: "",
         created: new Date(),
         checkList: []
       },
@@ -175,6 +178,14 @@ export default {
       } else {
         this.formData.customSlug = slugify(title);
       }
+    },
+    async makeDesc() {
+      const data = await exportMdContent(this.siyuanData.pageId);
+
+      const md = data.content
+      let html = mdToHtml(md)
+      this.formData.desc = html;
+      this.formData.desc = parseHtml(html, CONSTANTS.MAX_PREVIEW_LENGTH, true)
     },
     createTimeChanged(val) {
       console.log("createTimeChanged=>", val)

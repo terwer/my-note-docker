@@ -62,7 +62,8 @@ export function getPublishStatus(apiType, meta) {
  * @returns {Promise<unknown>}
  */
 export async function zhSlugify(q) {
-    const v = await fetch('https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=en-US&q=' + q);
+    // const v = await fetch('https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=en-US&q=' + q);
+    const v = await fetch('https://api.terwer.space/api/translate?q=' + q);
     let json = await v.json()
     let res = json[0][0];
     res = res.replaceAll(/-/g, "");
