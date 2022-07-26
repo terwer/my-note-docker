@@ -332,7 +332,7 @@ export function cutWords(words) {
     // https://github.com/ddsol/speedtest.net/issues/112
     // 浏览器和webpack不支持，只有node能用
     // const result = nodejieba.cut(words);
-    const result = "浏览器和webpack不支持，只有node能用，作者仓库：https://github.com/yanyiwu/nodejieba，在线版本：http://cppjieba-webdemo.herokuapp.com/"
+    const result = "浏览器和webpack不支持，只有node能用，作者仓库： https://github.com/yanyiwu/nodejieba ，在线版本：http://cppjieba-webdemo.herokuapp.com 。"
     alert(result)
     console.log("分词完毕，结果=>", result);
     return result;
