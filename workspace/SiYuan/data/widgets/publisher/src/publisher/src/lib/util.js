@@ -29,6 +29,7 @@ export async function getSiyuanPageId(force) {
  */
 export async function getSiyuanPage(force) {
     const widgetId = await getWidgetId()
+    console.log("获取挂件的widgetId=>", widgetId)
     // 默认读取缓存
     const pageObj = getConf(widgetId);
     if (!force && pageObj) {
