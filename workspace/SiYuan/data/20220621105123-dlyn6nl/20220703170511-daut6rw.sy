@@ -5,9 +5,19 @@
 		"id": "20220703170511-daut6rw",
 		"tags": "mac,cocoapods,ios",
 		"title": "Mac Big Sur 安装CocoaPods",
-		"updated": "20220703170541"
+		"updated": "20220726123832"
 	},
 	"Children": [
+		{
+			"ID": "20220726123832-pdwmihy",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1241px; height: 776px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220726123832-pdwmihy",
+				"style": "text-align: left;",
+				"updated": "20220726123832"
+			}
+		},
 		{
 			"ID": "20220703170541-xqu6mze",
 			"Type": "NodeHeading",
@@ -18,8 +28,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "切换homebrew为中科大源"
+					"Data": "切换 homebrew 为中科大源",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -27,6 +47,10 @@
 			"ID": "20220703170541-sp5pr6h",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-sp5pr6h",
 				"updated": "20220703170541"
@@ -34,18 +58,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "# 替换各个源\ngit -C \"$(brew --repo)\" remote set-url origin https://mirrors.ustc.edu.cn/brew.git\ngit -C \"$(brew --repo homebrew/core)\" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git\ngit -C \"$(brew --repo homebrew/cask)\" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git\n\n# zsh 替换 brew bintray 镜像\necho 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' \u003e\u003e ~/.zshrc\nsource ~/.zshrc\n\n# bash 替换 brew bintray 镜像\n# echo 'export HOMEBREW_BOTTLE_DOMAIN=https://# mirrors.ustc.edu.cn/homebrew-bottles' \u003e\u003e ~/.bash_profile\n# source ~/.bash_profile\n\n# 刷新源\n$ brew update\n"
+					"Data": "# 替换各个源\ngit -C \"$(brew --repo)\" remote set-url origin https://mirrors.ustc.edu.cn/brew.git\ngit -C \"$(brew --repo homebrew/core)\" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git\ngit -C \"$(brew --repo homebrew/cask)\" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git\n\n# zsh 替换 brew bintray 镜像\necho 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' \u003e\u003e ~/.zshrc\nsource ~/.zshrc\n\n# bash 替换 brew bintray 镜像\n# echo 'export HOMEBREW_BOTTLE_DOMAIN=https://# mirrors.ustc.edu.cn/homebrew-bottles' \u003e\u003e ~/.bash_profile\n# source ~/.bash_profile\n\n# 刷新源\n$ brew update\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -59,8 +97,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "安装ruby"
+					"Data": "安装 ruby",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -68,6 +116,10 @@
 			"ID": "20220703170541-3kn4j4c",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-3kn4j4c",
 				"updated": "20220703170541"
@@ -75,18 +127,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "brew update\nbrew upgrade\nbrew install ruby\n"
+					"Data": "brew update\nbrew upgrade\nbrew install ruby\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -100,7 +166,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "安装之后可根据提示设置环境变量"
+					"Data": "安装之后可根据提示设置环境变量",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -108,6 +177,10 @@
 			"ID": "20220703170541-kyqv2w0",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-kyqv2w0",
 				"updated": "20220703170541"
@@ -115,18 +188,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "➜  Homebrew git:(stable) brew install ruby\n==\u003e Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/readline-8.1.1.big_\n######################################################################## 100.0%\n==\u003e Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/ruby-3.0.3.big_sur.\n######################################################################## 100.0%\n==\u003e Installing dependencies for ruby: readline\n==\u003e Installing ruby dependency: readline\n==\u003e Pouring readline-8.1.1.big_sur.bottle.tar.gz\n🍺  /usr/local/Cellar/readline/8.1.1: 48 files, 1.6MB\n==\u003e Installing ruby\n==\u003e Pouring ruby-3.0.3.big_sur.bottle.tar.gz\n==\u003e Caveats\nBy default, binaries installed by gem will be placed into:\n  /usr/local/lib/ruby/gems/3.0.0/bin\n\nYou may want to add this to your PATH.\n\nruby is keg-only, which means it was not symlinked into /usr/local,\nbecause macOS already provides this software and installing another version in\nparallel can cause all kinds of trouble.\n\nIf you need to have ruby first in your PATH, run:\n  echo 'export PATH=\"/usr/local/opt/ruby/bin:$PATH\"' \u003e\u003e ~/.zshrc\n\nFor compilers to find ruby you may need to set:\n  export LDFLAGS=\"-L/usr/local/opt/ruby/lib\"\n  export CPPFLAGS=\"-I/usr/local/opt/ruby/include\"\n\nFor pkg-config to find ruby you may need to set:\n  export PKG_CONFIG_PATH=\"/usr/local/opt/ruby/lib/pkgconfig\"\n\n==\u003e Summary\n🍺  /usr/local/Cellar/ruby/3.0.3: 16,540 files, 39.4MB\n==\u003e Running `brew cleanup ruby`...\nDisable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.\nHide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).\nRemoving: /Users/terwer/Library/Caches/Homebrew/ruby--3.0.1... (11.0MB)\n==\u003e Caveats\n==\u003e ruby\nBy default, binaries installed by gem will be placed into:\n  /usr/local/lib/ruby/gems/3.0.0/bin\n\nYou may want to add this to your PATH.\n\nruby is keg-only, which means it was not symlinked into /usr/local,\nbecause macOS already provides this software and installing another version in\nparallel can cause all kinds of trouble.\n\nIf you need to have ruby first in your PATH, run:\n  echo 'export PATH=\"/usr/local/opt/ruby/bin:$PATH\"' \u003e\u003e ~/.zshrc\n\nFor compilers to find ruby you may need to set:\n  export LDFLAGS=\"-L/usr/local/opt/ruby/lib\"\n  export CPPFLAGS=\"-I/usr/local/opt/ruby/include\"\n\nFor pkg-config to find ruby you may need to set:\n  export PKG_CONFIG_PATH=\"/usr/local/opt/ruby/lib/pkgconfig\"\n\n➜  Homebrew git:(stable) \n"
+					"Data": "➜  Homebrew git:(stable) brew install ruby\n==\u003e Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/readline-8.1.1.big_\n######################################################################## 100.0%\n==\u003e Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/ruby-3.0.3.big_sur.\n######################################################################## 100.0%\n==\u003e Installing dependencies for ruby: readline\n==\u003e Installing ruby dependency: readline\n==\u003e Pouring readline-8.1.1.big_sur.bottle.tar.gz\n🍺  /usr/local/Cellar/readline/8.1.1: 48 files, 1.6MB\n==\u003e Installing ruby\n==\u003e Pouring ruby-3.0.3.big_sur.bottle.tar.gz\n==\u003e Caveats\nBy default, binaries installed by gem will be placed into:\n  /usr/local/lib/ruby/gems/3.0.0/bin\n\nYou may want to add this to your PATH.\n\nruby is keg-only, which means it was not symlinked into /usr/local,\nbecause macOS already provides this software and installing another version in\nparallel can cause all kinds of trouble.\n\nIf you need to have ruby first in your PATH, run:\n  echo 'export PATH=\"/usr/local/opt/ruby/bin:$PATH\"' \u003e\u003e ~/.zshrc\n\nFor compilers to find ruby you may need to set:\n  export LDFLAGS=\"-L/usr/local/opt/ruby/lib\"\n  export CPPFLAGS=\"-I/usr/local/opt/ruby/include\"\n\nFor pkg-config to find ruby you may need to set:\n  export PKG_CONFIG_PATH=\"/usr/local/opt/ruby/lib/pkgconfig\"\n\n==\u003e Summary\n🍺  /usr/local/Cellar/ruby/3.0.3: 16,540 files, 39.4MB\n==\u003e Running `brew cleanup ruby`...\nDisable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.\nHide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).\nRemoving: /Users/terwer/Library/Caches/Homebrew/ruby--3.0.1... (11.0MB)\n==\u003e Caveats\n==\u003e ruby\nBy default, binaries installed by gem will be placed into:\n  /usr/local/lib/ruby/gems/3.0.0/bin\n\nYou may want to add this to your PATH.\n\nruby is keg-only, which means it was not symlinked into /usr/local,\nbecause macOS already provides this software and installing another version in\nparallel can cause all kinds of trouble.\n\nIf you need to have ruby first in your PATH, run:\n  echo 'export PATH=\"/usr/local/opt/ruby/bin:$PATH\"' \u003e\u003e ~/.zshrc\n\nFor compilers to find ruby you may need to set:\n  export LDFLAGS=\"-L/usr/local/opt/ruby/lib\"\n  export CPPFLAGS=\"-I/usr/local/opt/ruby/include\"\n\nFor pkg-config to find ruby you may need to set:\n  export PKG_CONFIG_PATH=\"/usr/local/opt/ruby/lib/pkgconfig\"\n\n➜  Homebrew git:(stable) \n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -140,8 +227,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "安装CocoaPods"
+					"Data": "安装 CocoaPods",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -149,6 +246,10 @@
 			"ID": "20220703170541-cgul76d",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-cgul76d",
 				"updated": "20220703170541"
@@ -156,18 +257,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "gem install cocoapods\n"
+					"Data": "gem install cocoapods\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -181,7 +296,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "结果如下："
+					"Data": "结果如下：",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -189,6 +307,10 @@
 			"ID": "20220703170541-mqa0v50",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-mqa0v50",
 				"updated": "20220703170541"
@@ -196,18 +318,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "➜  ~ ruby -v\nruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-darwin20]\n➜  ~ gem -v\n3.2.32\n➜  ~  gem install cocoapods\nFetching nanaimo-0.3.0.gem\nFetching colored2-3.1.2.gem\nFetching claide-1.0.3.gem\nFetching CFPropertyList-3.0.5.gem\nFetching atomos-0.1.3.gem\nFetching xcodeproj-1.21.0.gem\nFetching ruby-macho-2.5.1.gem\nFetching nap-1.1.0.gem\nFetching molinillo-0.8.0.gem\nFetching gh_inspector-1.1.3.gem\nFetching fourflusher-2.3.1.gem\nFetching escape-0.0.4.gem\nFetching cocoapods-try-1.2.0.gem\nFetching netrc-0.11.0.gem\nFetching cocoapods-trunk-1.6.0.gem\nFetching cocoapods-search-1.0.1.gem\nFetching cocoapods-plugins-1.0.0.gem\nFetching cocoapods-downloader-1.5.1.gem\nFetching cocoapods-deintegrate-1.0.5.gem\nFetching ffi-1.15.5.gem\nFetching ethon-0.15.0.gem\nFetching typhoeus-1.4.0.gem\nFetching public_suffix-4.0.6.gem\nFetching fuzzy_match-2.0.4.gem\nFetching concurrent-ruby-1.1.9.gem\nFetching httpclient-2.8.3.gem\nFetching algoliasearch-1.27.5.gem\nFetching addressable-2.8.0.gem\nFetching zeitwerk-2.5.3.gem\nFetching tzinfo-2.0.4.gem\nFetching i18n-1.8.11.gem\nFetching activesupport-6.1.4.4.gem\nFetching cocoapods-1.11.2.gem\nFetching cocoapods-core-1.11.2.gem\nSuccessfully installed nanaimo-0.3.0\nSuccessfully installed colored2-3.1.2\nSuccessfully installed claide-1.0.3\nSuccessfully installed CFPropertyList-3.0.5\nSuccessfully installed atomos-0.1.3\nSuccessfully installed xcodeproj-1.21.0\nSuccessfully installed ruby-macho-2.5.1\nSuccessfully installed nap-1.1.0\nSuccessfully installed molinillo-0.8.0\nSuccessfully installed gh_inspector-1.1.3\nSuccessfully installed fourflusher-2.3.1\nSuccessfully installed escape-0.0.4\nSuccessfully installed cocoapods-try-1.2.0\nSuccessfully installed netrc-0.11.0\nSuccessfully installed cocoapods-trunk-1.6.0\nSuccessfully installed cocoapods-search-1.0.1\nSuccessfully installed cocoapods-plugins-1.0.0\nSuccessfully installed cocoapods-downloader-1.5.1\nSuccessfully installed cocoapods-deintegrate-1.0.5\nBuilding native extensions. This could take a while...\nSuccessfully installed ffi-1.15.5\nSuccessfully installed ethon-0.15.0\nSuccessfully installed typhoeus-1.4.0\nSuccessfully installed public_suffix-4.0.6\nSuccessfully installed fuzzy_match-2.0.4\nSuccessfully installed concurrent-ruby-1.1.9\nSuccessfully installed httpclient-2.8.3\nA new major version is available for Algolia! Please now use the https://rubygems.org/gems/algolia gem to get the latest features.\nSuccessfully installed algoliasearch-1.27.5\nSuccessfully installed addressable-2.8.0\nSuccessfully installed zeitwerk-2.5.3\nSuccessfully installed tzinfo-2.0.4\nSuccessfully installed i18n-1.8.11\nSuccessfully installed activesupport-6.1.4.4\nSuccessfully installed cocoapods-core-1.11.2\nSuccessfully installed cocoapods-1.11.2\nParsing documentation for nanaimo-0.3.0\nInstalling ri documentation for nanaimo-0.3.0\nParsing documentation for colored2-3.1.2\nInstalling ri documentation for colored2-3.1.2\nParsing documentation for claide-1.0.3\nInstalling ri documentation for claide-1.0.3\nParsing documentation for CFPropertyList-3.0.5\nInstalling ri documentation for CFPropertyList-3.0.5\nParsing documentation for atomos-0.1.3\nInstalling ri documentation for atomos-0.1.3\nParsing documentation for xcodeproj-1.21.0\nInstalling ri documentation for xcodeproj-1.21.0\nParsing documentation for ruby-macho-2.5.1\nInstalling ri documentation for ruby-macho-2.5.1\nParsing documentation for nap-1.1.0\nInstalling ri documentation for nap-1.1.0\nParsing documentation for molinillo-0.8.0\nInstalling ri documentation for molinillo-0.8.0\nParsing documentation for gh_inspector-1.1.3\nInstalling ri documentation for gh_inspector-1.1.3\nParsing documentation for fourflusher-2.3.1\nInstalling ri documentation for fourflusher-2.3.1\nParsing documentation for escape-0.0.4\nInstalling ri documentation for escape-0.0.4\nParsing documentation for cocoapods-try-1.2.0\nInstalling ri documentation for cocoapods-try-1.2.0\nParsing documentation for netrc-0.11.0\nInstalling ri documentation for netrc-0.11.0\nParsing documentation for cocoapods-trunk-1.6.0\nInstalling ri documentation for cocoapods-trunk-1.6.0\nParsing documentation for cocoapods-search-1.0.1\nInstalling ri documentation for cocoapods-search-1.0.1\nParsing documentation for cocoapods-plugins-1.0.0\nInstalling ri documentation for cocoapods-plugins-1.0.0\nParsing documentation for cocoapods-downloader-1.5.1\nInstalling ri documentation for cocoapods-downloader-1.5.1\nParsing documentation for cocoapods-deintegrate-1.0.5\nInstalling ri documentation for cocoapods-deintegrate-1.0.5\nParsing documentation for ffi-1.15.5\nInstalling ri documentation for ffi-1.15.5\nParsing documentation for ethon-0.15.0\nInstalling ri documentation for ethon-0.15.0\nParsing documentation for typhoeus-1.4.0\nInstalling ri documentation for typhoeus-1.4.0\nParsing documentation for public_suffix-4.0.6\nInstalling ri documentation for public_suffix-4.0.6\nParsing documentation for fuzzy_match-2.0.4\nInstalling ri documentation for fuzzy_match-2.0.4\nParsing documentation for concurrent-ruby-1.1.9\nInstalling ri documentation for concurrent-ruby-1.1.9\nParsing documentation for httpclient-2.8.3\nInstalling ri documentation for httpclient-2.8.3\nParsing documentation for algoliasearch-1.27.5\nInstalling ri documentation for algoliasearch-1.27.5\nParsing documentation for addressable-2.8.0\nInstalling ri documentation for addressable-2.8.0\nParsing documentation for zeitwerk-2.5.3\nInstalling ri documentation for zeitwerk-2.5.3\nParsing documentation for tzinfo-2.0.4\nInstalling ri documentation for tzinfo-2.0.4\nParsing documentation for i18n-1.8.11\nInstalling ri documentation for i18n-1.8.11\nParsing documentation for activesupport-6.1.4.4\nInstalling ri documentation for activesupport-6.1.4.4\nParsing documentation for cocoapods-core-1.11.2\nInstalling ri documentation for cocoapods-core-1.11.2\nParsing documentation for cocoapods-1.11.2\nInstalling ri documentation for cocoapods-1.11.2\nDone installing documentation for nanaimo, colored2, claide, CFPropertyList, atomos, xcodeproj, ruby-macho, nap, molinillo, gh_inspector, fourflusher, escape, cocoapods-try, netrc, cocoapods-trunk, cocoapods-search, cocoapods-plugins, cocoapods-downloader, cocoapods-deintegrate, ffi, ethon, typhoeus, public_suffix, fuzzy_match, concurrent-ruby, httpclient, algoliasearch, addressable, zeitwerk, tzinfo, i18n, activesupport, cocoapods-core, cocoapods after 18 seconds\n34 gems installed\n➜  ~ \n"
+					"Data": "➜  ~ ruby -v\nruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [x86_64-darwin20]\n➜  ~ gem -v\n3.2.32\n➜  ~  gem install cocoapods\nFetching nanaimo-0.3.0.gem\nFetching colored2-3.1.2.gem\nFetching claide-1.0.3.gem\nFetching CFPropertyList-3.0.5.gem\nFetching atomos-0.1.3.gem\nFetching xcodeproj-1.21.0.gem\nFetching ruby-macho-2.5.1.gem\nFetching nap-1.1.0.gem\nFetching molinillo-0.8.0.gem\nFetching gh_inspector-1.1.3.gem\nFetching fourflusher-2.3.1.gem\nFetching escape-0.0.4.gem\nFetching cocoapods-try-1.2.0.gem\nFetching netrc-0.11.0.gem\nFetching cocoapods-trunk-1.6.0.gem\nFetching cocoapods-search-1.0.1.gem\nFetching cocoapods-plugins-1.0.0.gem\nFetching cocoapods-downloader-1.5.1.gem\nFetching cocoapods-deintegrate-1.0.5.gem\nFetching ffi-1.15.5.gem\nFetching ethon-0.15.0.gem\nFetching typhoeus-1.4.0.gem\nFetching public_suffix-4.0.6.gem\nFetching fuzzy_match-2.0.4.gem\nFetching concurrent-ruby-1.1.9.gem\nFetching httpclient-2.8.3.gem\nFetching algoliasearch-1.27.5.gem\nFetching addressable-2.8.0.gem\nFetching zeitwerk-2.5.3.gem\nFetching tzinfo-2.0.4.gem\nFetching i18n-1.8.11.gem\nFetching activesupport-6.1.4.4.gem\nFetching cocoapods-1.11.2.gem\nFetching cocoapods-core-1.11.2.gem\nSuccessfully installed nanaimo-0.3.0\nSuccessfully installed colored2-3.1.2\nSuccessfully installed claide-1.0.3\nSuccessfully installed CFPropertyList-3.0.5\nSuccessfully installed atomos-0.1.3\nSuccessfully installed xcodeproj-1.21.0\nSuccessfully installed ruby-macho-2.5.1\nSuccessfully installed nap-1.1.0\nSuccessfully installed molinillo-0.8.0\nSuccessfully installed gh_inspector-1.1.3\nSuccessfully installed fourflusher-2.3.1\nSuccessfully installed escape-0.0.4\nSuccessfully installed cocoapods-try-1.2.0\nSuccessfully installed netrc-0.11.0\nSuccessfully installed cocoapods-trunk-1.6.0\nSuccessfully installed cocoapods-search-1.0.1\nSuccessfully installed cocoapods-plugins-1.0.0\nSuccessfully installed cocoapods-downloader-1.5.1\nSuccessfully installed cocoapods-deintegrate-1.0.5\nBuilding native extensions. This could take a while...\nSuccessfully installed ffi-1.15.5\nSuccessfully installed ethon-0.15.0\nSuccessfully installed typhoeus-1.4.0\nSuccessfully installed public_suffix-4.0.6\nSuccessfully installed fuzzy_match-2.0.4\nSuccessfully installed concurrent-ruby-1.1.9\nSuccessfully installed httpclient-2.8.3\nA new major version is available for Algolia! Please now use the https://rubygems.org/gems/algolia gem to get the latest features.\nSuccessfully installed algoliasearch-1.27.5\nSuccessfully installed addressable-2.8.0\nSuccessfully installed zeitwerk-2.5.3\nSuccessfully installed tzinfo-2.0.4\nSuccessfully installed i18n-1.8.11\nSuccessfully installed activesupport-6.1.4.4\nSuccessfully installed cocoapods-core-1.11.2\nSuccessfully installed cocoapods-1.11.2\nParsing documentation for nanaimo-0.3.0\nInstalling ri documentation for nanaimo-0.3.0\nParsing documentation for colored2-3.1.2\nInstalling ri documentation for colored2-3.1.2\nParsing documentation for claide-1.0.3\nInstalling ri documentation for claide-1.0.3\nParsing documentation for CFPropertyList-3.0.5\nInstalling ri documentation for CFPropertyList-3.0.5\nParsing documentation for atomos-0.1.3\nInstalling ri documentation for atomos-0.1.3\nParsing documentation for xcodeproj-1.21.0\nInstalling ri documentation for xcodeproj-1.21.0\nParsing documentation for ruby-macho-2.5.1\nInstalling ri documentation for ruby-macho-2.5.1\nParsing documentation for nap-1.1.0\nInstalling ri documentation for nap-1.1.0\nParsing documentation for molinillo-0.8.0\nInstalling ri documentation for molinillo-0.8.0\nParsing documentation for gh_inspector-1.1.3\nInstalling ri documentation for gh_inspector-1.1.3\nParsing documentation for fourflusher-2.3.1\nInstalling ri documentation for fourflusher-2.3.1\nParsing documentation for escape-0.0.4\nInstalling ri documentation for escape-0.0.4\nParsing documentation for cocoapods-try-1.2.0\nInstalling ri documentation for cocoapods-try-1.2.0\nParsing documentation for netrc-0.11.0\nInstalling ri documentation for netrc-0.11.0\nParsing documentation for cocoapods-trunk-1.6.0\nInstalling ri documentation for cocoapods-trunk-1.6.0\nParsing documentation for cocoapods-search-1.0.1\nInstalling ri documentation for cocoapods-search-1.0.1\nParsing documentation for cocoapods-plugins-1.0.0\nInstalling ri documentation for cocoapods-plugins-1.0.0\nParsing documentation for cocoapods-downloader-1.5.1\nInstalling ri documentation for cocoapods-downloader-1.5.1\nParsing documentation for cocoapods-deintegrate-1.0.5\nInstalling ri documentation for cocoapods-deintegrate-1.0.5\nParsing documentation for ffi-1.15.5\nInstalling ri documentation for ffi-1.15.5\nParsing documentation for ethon-0.15.0\nInstalling ri documentation for ethon-0.15.0\nParsing documentation for typhoeus-1.4.0\nInstalling ri documentation for typhoeus-1.4.0\nParsing documentation for public_suffix-4.0.6\nInstalling ri documentation for public_suffix-4.0.6\nParsing documentation for fuzzy_match-2.0.4\nInstalling ri documentation for fuzzy_match-2.0.4\nParsing documentation for concurrent-ruby-1.1.9\nInstalling ri documentation for concurrent-ruby-1.1.9\nParsing documentation for httpclient-2.8.3\nInstalling ri documentation for httpclient-2.8.3\nParsing documentation for algoliasearch-1.27.5\nInstalling ri documentation for algoliasearch-1.27.5\nParsing documentation for addressable-2.8.0\nInstalling ri documentation for addressable-2.8.0\nParsing documentation for zeitwerk-2.5.3\nInstalling ri documentation for zeitwerk-2.5.3\nParsing documentation for tzinfo-2.0.4\nInstalling ri documentation for tzinfo-2.0.4\nParsing documentation for i18n-1.8.11\nInstalling ri documentation for i18n-1.8.11\nParsing documentation for activesupport-6.1.4.4\nInstalling ri documentation for activesupport-6.1.4.4\nParsing documentation for cocoapods-core-1.11.2\nInstalling ri documentation for cocoapods-core-1.11.2\nParsing documentation for cocoapods-1.11.2\nInstalling ri documentation for cocoapods-1.11.2\nDone installing documentation for nanaimo, colored2, claide, CFPropertyList, atomos, xcodeproj, ruby-macho, nap, molinillo, gh_inspector, fourflusher, escape, cocoapods-try, netrc, cocoapods-trunk, cocoapods-search, cocoapods-plugins, cocoapods-downloader, cocoapods-deintegrate, ffi, ethon, typhoeus, public_suffix, fuzzy_match, concurrent-ruby, httpclient, algoliasearch, addressable, zeitwerk, tzinfo, i18n, activesupport, cocoapods-core, cocoapods after 18 seconds\n34 gems installed\n➜  ~ \n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -221,8 +357,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "初始化CocoaPods"
+					"Data": "初始化 CocoaPods",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -236,7 +382,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "项目中使用CocoaPods时，第一次运行需要初始化。进入项目根目录，执行下面的命令"
+					"Data": "项目中使用 CocoaPods 时，第一次运行需要初始化。进入项目根目录，执行下面的命令",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -250,7 +399,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "这条命令是将Github上的开源库都托管都安装Podspec索引安装到到本地，过程可能很慢，耐心等待即可。。。"
+					"Data": "这条命令是将 Github 上的开源库都托管都安装 Podspec 索引安装到到本地，过程可能很慢，耐心等待即可。。。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -258,6 +410,10 @@
 			"ID": "20220703170541-f1c4ldu",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-f1c4ldu",
 				"updated": "20220703170541"
@@ -265,18 +421,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "pod setup\n"
+					"Data": "pod setup\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -290,27 +460,47 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "如果提示找不到 "
+					"Data": "如果提示找不到 ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeSpan",
-					"Data": "code",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
-							"Type": "NodeCodeSpanOpenMarker"
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeCodeSpanContent",
-							"Data": "pod"
+							"Data": "pod",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCodeSpanCloseMarker"
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": " ，使用下面的命令重新安装"
+					"Data": " ，使用下面的命令重新安装",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -318,6 +508,10 @@
 			"ID": "20220703170541-qwdawl9",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-qwdawl9",
 				"updated": "20220703170541"
@@ -325,18 +519,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "➜  ~ gem install -n /usr/local/bin cocoapods\nSuccessfully installed cocoapods-1.11.2\nParsing documentation for cocoapods-1.11.2\nDone installing documentation for cocoapods after 1 seconds\n1 gem installed\n➜  ~ \n"
+					"Data": "➜  ~ gem install -n /usr/local/bin cocoapods\nSuccessfully installed cocoapods-1.11.2\nParsing documentation for cocoapods-1.11.2\nDone installing documentation for cocoapods after 1 seconds\n1 gem installed\n➜  ~ \n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -350,7 +558,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "再次执行就可以了。"
+					"Data": "再次执行就可以了。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -358,6 +569,10 @@
 			"ID": "20220703170541-la4q6o8",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-la4q6o8",
 				"updated": "20220703170541"
@@ -365,18 +580,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "➜  ~ pod\nUsage:\n\n    $ pod COMMAND\n\n      CocoaPods, the Cocoa library package manager.\n\nCommands:\n\n    + cache         Manipulate the CocoaPods cache\n    + deintegrate   Deintegrate CocoaPods from your project\n    + env           Display pod environment\n    + init          Generate a Podfile for the current directory\n    + install       Install project dependencies according to versions from a\n                    Podfile.lock\n    + ipc           Inter-process communication\n    + lib           Develop pods\n    + list          List pods\n    + outdated      Show outdated project dependencies\n    + plugins       Show available CocoaPods plugins\n    + repo          Manage spec-repositories\n    + search        Search for pods\n    + setup         Setup the CocoaPods environment\n    + spec          Manage pod specs\n    + trunk         Interact with the CocoaPods API (e.g. publishing new specs)\n    + try           Try a Pod!\n    + update        Update outdated project dependencies and create new\n                    Podfile.lock\n\nOptions:\n\n    --allow-root    Allows CocoaPods to run as root\n    --silent        Show nothing\n    --version       Show the version of the tool\n    --verbose       Show more debugging information\n    --no-ansi       Show output without ANSI codes\n    --help          Show help banner of specified command\n➜  ~ \n"
+					"Data": "➜  ~ pod\nUsage:\n\n    $ pod COMMAND\n\n      CocoaPods, the Cocoa library package manager.\n\nCommands:\n\n    + cache         Manipulate the CocoaPods cache\n    + deintegrate   Deintegrate CocoaPods from your project\n    + env           Display pod environment\n    + init          Generate a Podfile for the current directory\n    + install       Install project dependencies according to versions from a\n                    Podfile.lock\n    + ipc           Inter-process communication\n    + lib           Develop pods\n    + list          List pods\n    + outdated      Show outdated project dependencies\n    + plugins       Show available CocoaPods plugins\n    + repo          Manage spec-repositories\n    + search        Search for pods\n    + setup         Setup the CocoaPods environment\n    + spec          Manage pod specs\n    + trunk         Interact with the CocoaPods API (e.g. publishing new specs)\n    + try           Try a Pod!\n    + update        Update outdated project dependencies and create new\n                    Podfile.lock\n\nOptions:\n\n    --allow-root    Allows CocoaPods to run as root\n    --silent        Show nothing\n    --version       Show the version of the tool\n    --verbose       Show more debugging information\n    --no-ansi       Show output without ANSI codes\n    --help          Show help banner of specified command\n➜  ~ \n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -384,6 +613,10 @@
 			"ID": "20220703170541-r4p4mdp",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-r4p4mdp",
 				"updated": "20220703170541"
@@ -391,18 +624,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "➜  ~ pod setup\nSetup completed\n➜  ~ \n"
+					"Data": "➜  ~ pod setup\nSetup completed\n➜  ~ \n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -416,8 +663,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "使用CocoaPods"
+					"Data": "使用 CocoaPods",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -431,7 +688,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "生成 Podfile"
+					"Data": "生成 Podfile",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -439,6 +699,10 @@
 			"ID": "20220703170541-y67udzy",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-y67udzy",
 				"updated": "20220703170541"
@@ -446,18 +710,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "pod init\n"
+					"Data": "pod init\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -471,7 +749,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "添加依赖，在 Podfile 里面添加对应依赖和版本即可"
+					"Data": "添加依赖，在 Podfile 里面添加对应依赖和版本即可",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -479,6 +760,10 @@
 			"ID": "20220703170541-veuyxku",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-veuyxku",
 				"updated": "20220703170541"
@@ -486,18 +771,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "platform :ios, \"7.0\"\n# ignore all warnings\ninhibit_all_warnings!\n\npod 'RESideMenu','~\u003e 4.0.7'         # 侧拉菜单\npod \"AFNetworking\",\"~\u003e 2.0\"         # 网络访问\n"
+					"Data": "platform :ios, \"7.0\"\n# ignore all warnings\ninhibit_all_warnings!\n\npod 'RESideMenu','~\u003e 4.0.7'         # 侧拉菜单\npod \"AFNetworking\",\"~\u003e 2.0\"         # 网络访问\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -511,7 +810,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "安装依赖"
+					"Data": "安装依赖",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -519,6 +821,10 @@
 			"ID": "20220703170541-2sdcoc2",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220703170541-2sdcoc2",
 				"updated": "20220703170541"
@@ -526,18 +832,32 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "pod install\n"
+					"Data": "pod install\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -551,8 +871,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "扩展阅读"
+					"Data": "扩展阅读",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -566,27 +896,51 @@
 			"Children": [
 				{
 					"Type": "NodeLink",
-					"Data": "span",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "https://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/"
+							"Data": "https://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "https://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/"
+							"Data": "https://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				}
@@ -596,7 +950,8 @@
 			"ID": "20220703170550-q8pqxir",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220703170550-q8pqxir"
+				"id": "20220703170550-q8pqxir",
+				"updated": "20220703170550"
 			}
 		}
 	]
