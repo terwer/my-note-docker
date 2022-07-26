@@ -29,7 +29,9 @@ module.exports = defineConfig({
                 "fs": require.resolve("browserify-fs"),
                 'path': require.resolve('path-browserify'),
                 "process": require.resolve('process/browser'),
-                "constants": require.resolve("constants-browserify")
+                "constants": require.resolve("constants-browserify"),
+                "os": require.resolve("os-browserify/browser"),
+                "zlib": require.resolve("browserify-zlib")
             }
         },
         plugins: [

@@ -3,6 +3,9 @@ import {getConf, setConf} from "../lib/config";
 import {getApiParams} from "../lib/publish/publishUtil";
 import {slugify} from 'transliteration';
 import jsYaml from "js-yaml";
+import {mdToPlanText} from "@/lib/htmlUtil";
+
+// const nodejieba = require("nodejieba");
 
 /**
  * 获取本地缓存的思源笔记页面ID
@@ -317,3 +320,20 @@ export function covertStringToDate(dateString) {
 // const fmt2 = formatIsoToNumDate(yaml)
 // console.log("fmt2=>")
 // console.log(fmt2)
+
+/**
+ * 文本分词
+ * @param words 文本
+ */
+export function cutWords(words) {
+    // https://github.com/yanyiwu/nodejieba
+    words = mdToPlanText(words)
+    console.log("准备开始分词，原文=>", words)
+    // https://github.com/ddsol/speedtest.net/issues/112
+    // 浏览器和webpack不支持，只有node能用
+    // const result = nodejieba.cut(words);
+    const result = "浏览器和webpack不支持，只有node能用"
+    console.log("分词完毕，结果=>", result);
+    return result;
+}
+

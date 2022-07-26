@@ -63,3 +63,14 @@ function filterHtml(str) {
     str = str.toLowerCase();
     return str;
 }
+
+/**
+ * 将Markdown转换为纯文本
+ * @param md
+ * @returns {string}
+ */
+export function mdToPlanText(md) {
+    let html = mdToHtml(md)
+    html = removeWidgetTag(html)
+    return filterHtml(html)
+}

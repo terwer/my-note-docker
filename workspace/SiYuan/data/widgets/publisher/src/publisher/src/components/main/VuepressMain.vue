@@ -59,7 +59,7 @@
         </el-form-item>
 
         <el-form-item>
-          <el-button type="primary">{{ $t('main.auto.fetch.tag') }}</el-button>
+          <el-button type="primary" @click="fetchTag">{{ $t('main.auto.fetch.tag') }}</el-button>
         </el-form-item>
 
         <el-form-item>
@@ -95,7 +95,7 @@
 <script>
 
 import {
-  covertStringToDate,
+  covertStringToDate, cutWords,
   formatIsoToZhDate, formatNumToZhDate,
   getSiyuanPageId,
   obj2yaml,
@@ -213,7 +213,7 @@ export default {
 
       const md = data.content
       let html = mdToHtml(md)
-      this.formData.desc = html;
+      // this.formData.desc = html;
       this.formData.desc = parseHtml(html, CONSTANTS.MAX_PREVIEW_LENGTH, true)
     },
     createTimeChanged(val) {
@@ -234,6 +234,13 @@ export default {
       }
       this.formData.tag.inputVisible = false
       this.formData.tag.inputValue = ''
+    },
+    async fetchTag() {
+      const data = await exportMdContent(this.siyuanData.pageId);
+
+      const md = data.content
+      const genTags = cutWords(md)
+      console.log("genTags=>", genTags)
     },
     async saveAttrToSiyuan() {
       const customAttr = {

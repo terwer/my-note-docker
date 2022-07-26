@@ -5,9 +5,18 @@
 		"id": "20220719180214-04wur9s",
 		"tags": "landray,doc,kms,cooperate",
 		"title": "文档协同开发",
-		"updated": "20220722124921"
+		"updated": "20220726211237"
 	},
 	"Children": [
+		{
+			"ID": "20220726211237-3hntas1",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 752px; height: 973px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220726211237-3hntas1",
+				"updated": "20220726211237"
+			}
+		},
 		{
 			"ID": "20220719181825-shypwo8",
 			"Type": "NodeHeading",
@@ -525,16 +534,6 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220721160237-p3cf6r1"
-			}
-		},
-		{
-			"ID": "20220722124921-q92rhfq",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1282px; height: 694px;\"\u003e\u003c/iframe\u003e",
-			"Properties": {
-				"id": "20220722124921-q92rhfq",
-				"style": "text-align: left;",
-				"updated": "20220722124921"
 			}
 		},
 		{
