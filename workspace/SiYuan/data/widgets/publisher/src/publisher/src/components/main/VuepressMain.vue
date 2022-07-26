@@ -33,11 +33,29 @@
         </el-form-item>
 
         <el-form-item :label="$t('main.tag')">
-          <el-tag closable>Tag 1</el-tag> &nbsp;&nbsp;
-          <el-tag class="ml-2" type="success">Tag 2</el-tag> &nbsp;&nbsp;
-          <el-tag class="ml-2" type="info">Tag 3</el-tag> &nbsp;&nbsp;
-          <el-tag class="ml-2" type="warning">Tag 4</el-tag> &nbsp;&nbsp;
-          <el-tag class="ml-2" type="danger">Tag 5</el-tag>
+          <el-tag
+              v-for="tag in formData.tag.dynamicTags"
+              :key="tag"
+              class="mx-1"
+              closable
+              :disable-transitions="false"
+              @close="tagHandleClose(tag)"
+          >
+            {{ tag }}
+          </el-tag>
+          &nbsp;&nbsp;
+          <el-input
+              v-if="formData.tag.inputVisible"
+              ref="tagRefInput"
+              v-model="formData.tag.inputValue"
+              class="ml-1 w-20"
+              size="small"
+              @keyup.enter="tagHandleInputConfirm"
+              @blur="tagHandleInputConfirm"
+          />
+          <el-button v-else class="button-new-tag ml-1" size="small" @click="tagShowInput">
+            + New Tag
+          </el-button>
         </el-form-item>
 
         <el-form-item>
@@ -100,7 +118,12 @@ export default {
         customSlug: "",
         desc: "",
         created: new Date(),
-        checkList: []
+        checkList: [],
+        tag: {
+          inputValue: "",
+          dynamicTags: [],
+          inputVisible: false
+        }
       },
       siyuanData: {
         pageId: "",
@@ -156,6 +179,12 @@ export default {
       this.formData.title = page.content;
       this.formData.customSlug = this.siyuanData.meta["custom-slug"];
       this.formData.created = formatNumToZhDate(page.created)
+      this.formData.tag.dynamicTags = [];
+      const tgarr = page.tag.split(" ")
+      for (let i = 0; i < tgarr.length; i++) {
+        const tg = tgarr[i].replace(/#/g, "");
+        this.formData.tag.dynamicTags.push(tg)
+      }
       console.log("VuepressMain初始化页面,meta=>", this.siyuanData.meta);
 
       // 表单属性转换为HTML
@@ -189,6 +218,22 @@ export default {
     },
     createTimeChanged(val) {
       console.log("createTimeChanged=>", val)
+    },
+    tagHandleClose(tag) {
+      this.formData.tag.dynamicTags.splice(this.formData.tag.dynamicTags.indexOf(tag), 1)
+    },
+    tagShowInput() {
+      this.formData.tag.inputVisible = true
+      this.$nextTick(function () {
+        this.$refs.tagRefInput.focus()
+      })
+    },
+    tagHandleInputConfirm() {
+      if (this.formData.tag.inputValue) {
+        this.formData.tag.dynamicTags.push(this.formData.tag.inputValue)
+      }
+      this.formData.tag.inputVisible = false
+      this.formData.tag.inputValue = ''
     },
     async saveAttrToSiyuan() {
       const customAttr = {
