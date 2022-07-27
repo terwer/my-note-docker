@@ -5,9 +5,9 @@ const publicPath = isPro ? '' : '/'
 // const resolve = (dir) => path.join(__dirname, dir)
 const webpack = require("webpack")
 
-const AutoImport = require('unplugin-auto-import/webpack')
-const Components = require('unplugin-vue-components/webpack')
-const {ElementPlusResolver} = require('unplugin-vue-components/resolvers')
+// const AutoImport = require('unplugin-auto-import/webpack')
+// const Components = require('unplugin-vue-components/webpack')
+// const {ElementPlusResolver} = require('unplugin-vue-components/resolvers')
 
 // 配置参考：https://www.pudn.com/news/62a7142b194b3b0e43577e16.html
 // 官方文档：https://cli.vuejs.org/config/#publicpath
@@ -42,12 +42,12 @@ module.exports = defineConfig({
             // require('unplugin-vue-components/webpack')({ /* options */}),
 
             // ElementPlus
-            AutoImport({
-                resolvers: [ElementPlusResolver()],
-            }),
-            Components({
-                resolvers: [ElementPlusResolver()],
-            }),
+            // AutoImport({
+            //     resolvers: [ElementPlusResolver()],
+            // }),
+            // Components({
+            //     resolvers: [ElementPlusResolver()],
+            // }),
 
             new webpack.ProvidePlugin({
                 process: 'process/browser',

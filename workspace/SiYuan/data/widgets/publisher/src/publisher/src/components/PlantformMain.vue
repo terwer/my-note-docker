@@ -29,7 +29,12 @@ import WordpressMain from "@/components/main/WordpressMain";
 
 export default {
   name: "PlantformMain",
-  components: {WordpressMain, CnblogsMain, JVueMain, VuepressMain}
+  components: {WordpressMain, CnblogsMain, JVueMain, VuepressMain},
+  data(){
+    return {
+
+    }
+  }
 }
 </script>
 
