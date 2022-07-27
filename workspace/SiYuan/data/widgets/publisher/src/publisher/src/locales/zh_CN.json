@@ -16,6 +16,7 @@
   "main.create.time": "发布时间",
   "main.create.time.placeholder": "请选择发布时间",
   "main.tag": "文章标签",
+  "main.tag.new": "新标签",
   "main.auto.fetch.tag": "自动提取标签",
   "main.yaml.formatter": "YAML Formatter",
   "main.siyuan.to.yaml": "思源属性转YAML",

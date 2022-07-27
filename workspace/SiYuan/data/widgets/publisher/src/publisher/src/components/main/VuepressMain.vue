@@ -43,7 +43,6 @@
           >
             {{ tag }}
           </el-tag>
-          &nbsp;&nbsp;
           <el-input
               v-if="formData.tag.inputVisible"
               ref="tagRefInput"
@@ -53,8 +52,8 @@
               @keyup.enter="tagHandleInputConfirm"
               @blur="tagHandleInputConfirm"
           />
-          <el-button v-else class="button-new-tag ml-1" size="small" @click="tagShowInput">
-            + New Tag
+          <el-button v-else class="button-new-tag ml-1 el-tag" size="small" @click="tagShowInput">
+            {{ $t('main.tag.new') }}
           </el-button>
         </el-form-item>
 
@@ -85,6 +84,7 @@
         </el-form-item>
         <el-form-item>
           <el-input v-model="vuepressData.vuepressFullContent" :autosize="{ minRows: 12, maxRows: 15 }"
+                    v-on:focus="$event.target.select()" ref="fmtRefInput"
                     type="textarea"/>
         </el-form-item>
         <el-form-item>
@@ -113,6 +113,7 @@ import {slugify} from 'transliteration';
 import {getPage} from "@/lib/siyuanUtil";
 import {mdToHtml, parseHtml, removeWidgetTag} from "@/lib/htmlUtil";
 import {CONSTANTS} from "@/lib/constants";
+import copy from 'copy-to-clipboard';
 
 export default {
   name: "VuepressMain",
@@ -276,7 +277,7 @@ export default {
       // 刷新属性数据
       await this.initPage();
 
-      // alert(this.$t('main.opt.success'))
+      alert(this.$t('main.opt.success'))
     },
     convertAttrToYAML() {
       console.log("convertAttrToYAML")
@@ -338,7 +339,11 @@ export default {
       this.formData.categories = this.vuepressData.yamlObj.categories
     },
     copyToClipboard() {
-      console.log("copyToClipboard")
+      this.$refs.fmtRefInput.focus();
+      // document.execCommand('copy');
+      copy(this.vuepressData.vuepressFullContent)
+
+      alert(this.$t('main.opt.success'))
     },
     async publishPage() {
       const data = await exportMdContent(this.siyuanData.pageId);

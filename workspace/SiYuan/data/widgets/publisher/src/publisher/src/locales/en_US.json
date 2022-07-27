@@ -16,6 +16,7 @@
   "main.create.time": "Publish time",
   "main.create.time.placeholder": "Please select time",
   "main.tag": "Post tag",
+  "main.tag.new": "New tag",
   "main.auto.fetch.tag": "Auto fetch tag",
   "main.yaml.formatter": "YAML Formatter",
   "main.siyuan.to.yaml": "Siyuan attr to YAML",

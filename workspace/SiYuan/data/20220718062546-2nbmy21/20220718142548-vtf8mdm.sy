@@ -9,7 +9,7 @@
 		"id": "20220718142548-vtf8mdm",
 		"tags": "拖拽,布局,实现,方式,可以,区域",
 		"title": "两栏布局左右拖拽效果实现方案",
-		"updated": "20220727160921"
+		"updated": "20220718143811"
 	},
 	"Children": [
 		{
@@ -44,20 +44,6 @@
 				{
 					"Type": "NodeText",
 					"Data": "CSS方式实现"
-				}
-			]
-		},
-		{
-			"ID": "20220725131120-chcihtu",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220725131120-chcihtu",
-				"updated": "20220725131122"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "111"
 				}
 			]
 		},

@@ -37,4 +37,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.el-tag {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
 </style>
