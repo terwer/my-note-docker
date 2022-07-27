@@ -1,0 +1,805 @@
+{
+	"ID": "20220727213906-fg8wm5y",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220727213906-fg8wm5y",
+		"title": "初始化项目",
+		"updated": "20220727223804"
+	},
+	"Children": [
+		{
+			"ID": "20220727213906-e0b0yj7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220727213906-e0b0yj7",
+				"updated": "20220727213926"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "依赖版本",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220727213926-4o5orvz",
+			"Type": "NodeTable",
+			"Data": "|col1|col2|col3|\n| ----| --------| ----|\n|node|v16.16.0||\n|yarn|1.22.19||",
+			"TableAligns": [
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "||",
+				"id": "20220727213926-4o5orvz",
+				"updated": "20220727222317"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "col1",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "col2",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "col3",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						0,
+						0,
+						0
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "node",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "v16.16.0",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						0,
+						0,
+						0
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "yarn",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1.22.19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220727222318-zbm5abc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220727222318-zbm5abc",
+				"updated": "20220727222336"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "新建项目",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220727222336-bvpwuzz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220727222336-bvpwuzz",
+				"updated": "20220727222404"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn create vite\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220727222405-ikxw31y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220727222405-ikxw31y",
+				"updated": "20220727222405"
+			}
+		},
+		{
+			"ID": "20220727223302-sxhdxuk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220727223302-sxhdxuk",
+				"updated": "20220727223302"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "sy-post-publisher",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220727223302-jy7s7of",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220727223302-jy7s7of",
+				"updated": "20220727223522"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将思源笔记的文章发布到支持的开放平台的",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "思源笔记挂件",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220727223344-xy7v3mw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220727223344-xy7v3mw",
+				"updated": "20220727223458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前支持 Vuepress 以及 2 种博客平台标准、metaweblog api 和基于 Wordpress 的 xmlrpc 远程调用 api",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220727223302-eruk1as",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220727223302-eruk1as",
+				"updated": "20220727223302"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Vue 3 + TypeScript + Vite",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220727223506-zl16cet",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220727223506-zl16cet",
+				"updated": "20220727223623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目使用 Vue 3 框架，TypeScript 开发语言，Vite 作为构建工具。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220727223625-igeqh17",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220727223625-igeqh17",
+				"updated": "20220727223655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目使用了 Vue 3 的 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\u003cscript setup\u003e",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，可以查看文档 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeLink",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "script setup docs",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 了解更多。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220727223302-pemk6p6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220727223302-pemk6p6",
+				"updated": "20220727223733"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "推荐开发工具",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220727223302-6cekr10",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220727223302-6cekr10",
+				"updated": "20220727223748"
+			},
+			"Children": [
+				{
+					"ID": "20220727223302-133yatk",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220727223302-133yatk",
+						"updated": "20220727223302"
+					},
+					"Children": [
+						{
+							"ID": "20220727223302-of6rfui",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220727223302-of6rfui",
+								"updated": "20220727223302"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "VS Code",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://code.visualstudio.com/",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " + ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeLink",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Volar",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://marketplace.visualstudio.com/items?itemName=Vue.volar",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220727223735-2d28zvr",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220727223735-2d28zvr",
+						"updated": "20220727223748"
+					},
+					"Children": [
+						{
+							"ID": "20220727223735-rqhh4f6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220727223735-rqhh4f6",
+								"updated": "20220727223748"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "IntelliJ IDEA 或者 WebStorm",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220727223302-2rfn9uz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220727223302-2rfn9uz",
+				"updated": "20220727223804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开始开发"
+				}
+			]
+		},
+		{
+			"ID": "20220727223302-32i4jc6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220727223302-32i4jc6",
+				"updated": "20220727223302"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn\nyarn dev\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}
