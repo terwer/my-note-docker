@@ -97,7 +97,7 @@
 import {
   covertStringToDate, cutWords,
   formatIsoToZhDate, formatNumToZhDate,
-  getSiyuanPageId,
+  getSiyuanPageId, jiebaToHotWords,
   obj2yaml,
   yaml2Obj,
   zhSlugify
@@ -239,8 +239,18 @@ export default {
       const data = await exportMdContent(this.siyuanData.pageId);
 
       const md = data.content
-      const genTags = cutWords(md)
+      const genTags = await cutWords(md)
       console.log("genTags=>", genTags)
+
+      const hotTags = jiebaToHotWords(genTags, 5)
+      console.log("hotTags=>", hotTags)
+
+      // 如果标签不存在，保存新标签到表单
+      for (let i = 0; i < hotTags.length; i++) {
+        if (!this.formData.tag.dynamicTags.includes(hotTags[i])) {
+          this.formData.tag.dynamicTags.push(hotTags[i])
+        }
+      }
     },
     async saveAttrToSiyuan() {
       const customAttr = {

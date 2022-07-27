@@ -3,10 +3,12 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
-		"custom-slug": "two-column-layout-left-and-right-dragging-effect-implementation-plan",
+		"custom-slug": "two-column-layout-left-and-right-drag-effect-implementation-plan",
+		"custom-vuepress-slug": "two-column-layout-left-and-right-drag-effect-implementation-plan",
 		"id": "20220718142548-vtf8mdm",
-		"title": "001.两栏布局左右拖拽效果实现方案",
-		"updated": "20220726094607"
+		"tags": "拖拽",
+		"title": "两栏布局左右拖拽效果实现方案",
+		"updated": "20220727144956"
 	},
 	"Children": [
 		{

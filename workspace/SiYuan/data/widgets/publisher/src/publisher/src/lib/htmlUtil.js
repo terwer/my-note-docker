@@ -57,9 +57,22 @@ function filterHtml(str) {
     str = str.replace(/(^\s*)|(\s*$)/g, "");
     str = str.replace(/</g, "").replace(/>/g, "")
     str = str.replace(/"/g, "").replace(/'/g, "")
+    str = str.replace(/\*/g, "")
     str = str.replace(/\$/g, "")
     // 下面是行内空格，不建议去除
     str = str.replace(/\s+/g, '');
+
+    // 冒号分号替换成下划线
+    str = str.replace(/[:|：]/g, "_")
+    str = str.replace(/[;|；]/g, "_")
+
+    // 需要排除的字符
+    const excludeWords = ['\\d*/\\d/\\d*', '[、|\\\\]', '[，|,]', '\\d', '/', '-']
+    for (let i = 0; i < excludeWords.length; i++) {
+        const regex = new RegExp(excludeWords[i], "g");
+        str = str.replaceAll(regex, "")
+    }
+
     str = str.toLowerCase();
     return str;
 }

@@ -3,7 +3,7 @@ import {getConf, setConf} from "../lib/config";
 import {getApiParams} from "../lib/publish/publishUtil";
 import {slugify} from 'transliteration';
 import jsYaml from "js-yaml";
-import {mdToPlanText} from "@/lib/htmlUtil";
+import {mdToPlanText} from "../lib/htmlUtil";
 
 // const nodejieba = require("nodejieba");
 
@@ -325,16 +325,69 @@ export function covertStringToDate(dateString) {
  * 文本分词
  * @param words 文本
  */
-export function cutWords(words) {
+export async function cutWords(words) {
     // https://github.com/yanyiwu/nodejieba
     words = mdToPlanText(words)
     console.log("准备开始分词，原文=>", words)
     // https://github.com/ddsol/speedtest.net/issues/112
     // 浏览器和webpack不支持，只有node能用
     // const result = nodejieba.cut(words);
-    const result = "浏览器和webpack不支持，只有node能用，作者仓库： https://github.com/yanyiwu/nodejieba ，在线版本：http://cppjieba-webdemo.herokuapp.com 。"
-    alert(result)
-    console.log("分词完毕，结果=>", result);
-    return result;
+    // https://api.terwer.space/api/jieba?q=test
+
+    const v = await fetch('https://api.terwer.space/api/jieba?q=' + words);
+    let json = await v.json()
+    // const result = "浏览器和webpack不支持，只有node能用，作者仓库： https://github.com/yanyiwu/nodejieba ，在线版本：http://cppjieba-webdemo.herokuapp.com 。"
+    // alert(result)
+    console.log("分词完毕，结果=>", json.result);
+    return json.result;
 }
 
+/**
+ * 统计分词并按照次数排序
+ * @param words 分词数组
+ * @param len 长度
+ * @returns {string[]}
+ */
+function countWords(words, len) {
+    const unUseWords = ['页面']
+    console.warn("文本清洗，统计，排序，去除无意义的单词unUseWords=>", unUseWords)
+
+    // 统计
+    let wordobj = words.reduce(function (count, word) {
+        // 排除无意义的词
+        if (word.length === 1 || unUseWords.includes(word)) {
+            count[word] = 0;
+            return count;
+        }
+
+        // 统计
+        // eslint-disable-next-line no-prototype-builtins
+        count[word] = count.hasOwnProperty(word) ? count[word] + 1 : 1;
+        return count;
+    }, {});
+
+    // 排序
+    const wordarr = Object.keys(wordobj).sort(function (a, b) {
+        return wordobj[b] - wordobj[a];
+    });
+    console.warn("文本清洗结束wordarr=>", wordarr)
+
+    if (!len || len === 0) {
+        return wordarr
+    }
+    return wordarr.slice(0, len)
+}
+
+/**
+ * 从分词中提取热门标签
+ */
+export function jiebaToHotWords(words, len) {
+    // const words = ["文档", "协同", "开发", "2022/05/25", "需求", "评审", "1", "、", "后台", "配置", "，", "可", "选择", "wps", "或者", "石墨", "文档", "2022/05/31ui", "评审", "2022/06/10", "开发", "遇到", "的", "问题", "1", "、", "未", "开启", "文档", "中台", "时候", "的", "提示", "，", "以及", "其他", "页面", "的", "缺省", "样式", "。", "2022/6/24", "遗留问题", "1", "、", "分享", "发送", "待办", "-", "已", "完成", "2", "、", "团队", "文档", "发送", "待办", "-", "已", "完成", "3", "、", "权限", "-", "已", "完成", "4", "、", "团队", "文档", "传", "fdteamid", "，", "后台", "做", "权限", "判断", "，", "如果", "不是", "这个", "团队", "的人", "，", "提示", "无", "权限", "页面", "-", "已", "完成", "5", "、", "看看", "能", "不能", "隐藏", "默认", "标题", "-todo6", "、", "excel", "和", "ppt", "的", "知识", "助手", "不", "做", "-", "已", "完成", "2022/7/8", "遗留问题", "1", "、", "文档", "和", "模板", "的", "拷贝", "、", "打印", "2", "、", "收藏夹", "重复", "收藏", "2022/7/19", "遗留问题", "1", "、", "文档", "知识", "助手", "太长加", "滚动条", "2", "、", "附件", "的", "显示", "与", "预览", "3", "、", "收起", "4", "、", "自定义", "confirm", "弹窗", "5", "、", "缺省", "页面", "2022/7/19", "待转", "单", "问题", "1", "、", "搜索", "关键字", "去掉", "2", "、", "未", "选中", "的", "时候", "按钮", "变成", "全部", "3", "、", "右侧", "滚动条", "、", "分页", "4", "、", "带", "表格", "收藏", "2022/7/20", "待", "解决问题", "1", "、", "excel", "、", "ppt", "格式", "时", "，", "点", "不", "开", "右侧", "工具栏", "图标", "2", "、", "段落", "收藏", "不能", "用", "3", "、", "详情", "页面", "调整", "4", "、", "筛选", "项", "修复", "5", "、", "git", "无法访问", "1", "、", "摘要", "、", "正文", "（", "正文", "图片", "）", "、", "附件", "2", "、", "搜索", "结果", "，", "状态", "30", "，", "有", "可", "阅读", "权限", "（", "确认", "）", "3", "、", "链接", "只", "展示", "图标", "放在", "标题", "右侧", "1", "、", "插入", "图片", "、", "表格", "2", "、", "维基", "目录", "3", "、", "搜索", "结果", "只", "显示", "文档", "不", "显示", "附件", "4", "、", "知识", "助手", "切换", "tab", "触发", "数据", "更新"]
+    // const len = 5
+
+    const res = countWords(words, len);
+    // console.log(res)
+    return res;
+}
+
+// jiebaToHotWords()
