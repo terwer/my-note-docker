@@ -2,8 +2,11 @@
 	"ID": "20220703170511-daut6rw",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "macbigsur安装cocoapods切换homebrew为中科大源#替换各个源gitc(brewrepo)remoteseturloriginhttps_mirrorsustceducnbrewgitgitc(brewrepohomebrewcore)remoteseturloriginhttps_mirrorsustceducnhomebrewcoregitgitc(brewrepohomebrewcask)remoteseturloriginhttps_mirrorsustceducnhomebr",
+		"custom-slug": "mac-big-sur-installation-cocoapods",
+		"custom-vuepress-slug": "mac-big-sur-installation-cocoapods",
 		"id": "20220703170511-daut6rw",
-		"tags": "mac,cocoapods,ios",
+		"tags": "mac,cocoapods,ios,安装,切换,中科大",
 		"title": "Mac Big Sur 安装CocoaPods",
 		"updated": "20220726123832"
 	},

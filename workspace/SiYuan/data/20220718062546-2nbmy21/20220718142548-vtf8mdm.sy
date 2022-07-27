@@ -2,13 +2,14 @@
 	"ID": "20220718142548-vtf8mdm",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "两栏布局左右拖拽效果实现方案css方式实现第一种利用的css的方式实现利用浏览器非overflow_auto元素设置resize可以拉伸的特性实现无javascript的分栏宽度控制。webkit浏览器下滚动条可以自定义其中resize区域大小就是scrollbar的大小于是我们可以将整个拉伸区域变成和容器一样高红色的就是扩大后的区域不推荐使用css的方式实现毕竟兼容性并不好。在火狐上表现不佳。{padding__margin__}flcontainer{width_%_height_vh_overflo",
 		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
-		"custom-slug": "two-column-layout-left-and-right-drag-effect-implementation-plan",
-		"custom-vuepress-slug": "two-column-layout-left-and-right-drag-effect-implementation-plan",
+		"custom-slug": "two-column-layout-left-and-right-dragging-effect-implementation-plan",
+		"custom-vuepress-slug": "two-column-layout-left-and-right-dragging-effect-implementation-plan",
 		"id": "20220718142548-vtf8mdm",
-		"tags": "拖拽",
+		"tags": "拖拽,布局,实现,方式,可以,区域",
 		"title": "两栏布局左右拖拽效果实现方案",
-		"updated": "20220727144956"
+		"updated": "20220727160921"
 	},
 	"Children": [
 		{

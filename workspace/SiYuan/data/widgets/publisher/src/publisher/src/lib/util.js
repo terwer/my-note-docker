@@ -57,7 +57,11 @@ export async function getSiyuanPage(force) {
 export function getPublishStatus(apiType, meta) {
     const postidKey = getApiParams(apiType).postidKey;
     const postId = meta[postidKey] || "";
-    return postId === "";
+    console.log("平台=>", apiType)
+    console.log("meta=>", meta)
+    console.log("postidKey=>", postidKey)
+    console.log("postidKey的值=>", postId)
+    return postId !== "";
 }
 
 /**

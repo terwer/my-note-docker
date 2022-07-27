@@ -16,9 +16,13 @@ export function mdToHtml(md) {
  * @param str 原字符
  * @returns {*|string} 删除后的字符
  */
-function removeWidgetTag(str) {
-    var regex = /<iframe.*src="\/widgets\/publisher.*<\/iframe>/g;
-    return str.replaceAll(regex, "")
+export function removeWidgetTag(str) {
+    const publisherRegex = /<iframe.*src="\/widgets\/publisher.*<\/iframe>/g;
+    str = str.replaceAll(publisherRegex, "")
+
+    const noteAttrRegex = /<iframe.*\/widgets\/Note*\sAttrs.*\/iframe>/g
+    str = str.replaceAll(noteAttrRegex, "")
+    return str
 }
 
 /**
@@ -57,8 +61,13 @@ function filterHtml(str) {
     str = str.replace(/(^\s*)|(\s*$)/g, "");
     str = str.replace(/</g, "").replace(/>/g, "")
     str = str.replace(/"/g, "").replace(/'/g, "")
+
+    // 正则保留字符
     str = str.replace(/\*/g, "")
     str = str.replace(/\$/g, "")
+    str = str.replace(/\./g, "")
+    str = str.replace(/\+/g, "")
+
     // 下面是行内空格，不建议去除
     str = str.replace(/\s+/g, '');
 

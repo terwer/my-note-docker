@@ -12,6 +12,7 @@ export default {
     Publish
   },
   async created() {
+    this.devMock();
     const pageId = await getSiyuanPageId(false);
     if (!pageId || pageId === "") {
       alert("Server error")
@@ -19,6 +20,13 @@ export default {
     }
   },
   async mounted() {
+  },
+  methods: {
+    devMock() {
+      if (process.env.NODE_ENV === "development") {
+        console.log("开发模式")
+      }
+    }
   }
 }
 </script>

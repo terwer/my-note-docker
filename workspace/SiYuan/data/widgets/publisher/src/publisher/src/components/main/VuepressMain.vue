@@ -67,9 +67,14 @@
         </el-form-item>
 
         <el-form-item>
-          <el-button type="primary" @click="publishPage">{{ $t('main.publish') }}</el-button>
+          <el-button type="primary" @click="publishPage">{{
+              isPublished ? $t('main.update') : $t('main.publish')
+            }}
+          </el-button>
           <el-button>{{ $t('main.cancel') }}</el-button>
-          <el-button type="danger" text>{{ $t('main.publish.status.unpublish') }}</el-button>
+          <el-button type="danger" text>
+            {{ isPublished ? $t('main.publish.status.published') : $t('main.publish.status.unpublish') }}
+          </el-button>
         </el-form-item>
       </el-form>
     </el-aside>
@@ -96,23 +101,24 @@
 
 import {
   covertStringToDate, cutWords,
-  formatIsoToZhDate, formatNumToZhDate,
+  formatIsoToZhDate, formatNumToZhDate, getPublishStatus,
   getSiyuanPageId, jiebaToHotWords,
   obj2yaml,
   yaml2Obj,
   zhSlugify
 } from "@/lib/util";
 import {exportMdContent, getBlockAttrs, setBlockAttrs} from "@/lib/siYuanApi";
-import {PUBLISH_POSTID_KEY_CONSTANTS} from "@/lib/publish/publishUtil";
+import {PUBLISH_POSTID_KEY_CONSTANTS, PUBLISH_TYPE_CONSTANTS} from "@/lib/publish/publishUtil";
 import {slugify} from 'transliteration';
 import {getPage} from "@/lib/siyuanUtil";
-import {mdToHtml, parseHtml} from "@/lib/htmlUtil";
+import {mdToHtml, parseHtml, removeWidgetTag} from "@/lib/htmlUtil";
 import {CONSTANTS} from "@/lib/constants";
 
 export default {
   name: "VuepressMain",
   data() {
     return {
+      isPublished: false,
       formData: {
         title: "",
         customSlug: "",
@@ -123,7 +129,8 @@ export default {
           inputValue: "",
           dynamicTags: [],
           inputVisible: false
-        }
+        },
+        categories: ["默认分类"]
       },
       siyuanData: {
         pageId: "",
@@ -178,17 +185,21 @@ export default {
       // 表单数据
       this.formData.title = page.content;
       this.formData.customSlug = this.siyuanData.meta["custom-slug"];
-      this.formData.created = formatNumToZhDate(page.created)
+      this.formData.desc = this.siyuanData.meta["custom-desc"];
       this.formData.tag.dynamicTags = [];
-      const tgarr = page.tag.split(" ")
+      const tagstr = this.siyuanData.meta.tags || ""
+      const tgarr = tagstr.split(",")
       for (let i = 0; i < tgarr.length; i++) {
-        const tg = tgarr[i].replace(/#/g, "");
-        this.formData.tag.dynamicTags.push(tg)
+        this.formData.tag.dynamicTags.push(tgarr[i])
       }
+      this.formData.created = formatNumToZhDate(page.created)
       console.log("VuepressMain初始化页面,meta=>", this.siyuanData.meta);
 
       // 表单属性转换为HTML
       this.convertAttrToYAML()
+
+      // 发布状态
+      this.isPublished = getPublishStatus(PUBLISH_TYPE_CONSTANTS.API_TYPE_VUEPRESS, this.siyuanData.meta)
     },
     async makeSlug() {
       // 获取最新属性
@@ -256,6 +267,8 @@ export default {
       const customAttr = {
         "custom-slug": this.formData.customSlug,
         [PUBLISH_POSTID_KEY_CONSTANTS.VUEPRESS_POSTID_KEY]: this.formData.customSlug,
+        "custom-desc": this.formData.desc,
+        tags: this.formData.tag.dynamicTags.join(",")
       };
       await setBlockAttrs(this.siyuanData.pageId, customAttr)
       console.log("VuepressMain保存属性到思源笔记,meta=>", customAttr);
@@ -263,7 +276,7 @@ export default {
       // 刷新属性数据
       await this.initPage();
 
-      alert(this.$t('main.opt.success'))
+      // alert(this.$t('main.opt.success'))
     },
     convertAttrToYAML() {
       console.log("convertAttrToYAML")
@@ -272,6 +285,19 @@ export default {
       this.vuepressData.yamlObj.title = this.formData.title;
       this.vuepressData.yamlObj.permalink = "/post/" + this.formData.customSlug + ".html";
       this.vuepressData.yamlObj.date = covertStringToDate(this.formData.created)
+      const meta = [
+        {
+          name: "keywords",
+          content: this.formData.tag.dynamicTags.join(" ")
+        },
+        {
+          name: "description",
+          content: this.formData.desc
+        }
+      ];
+      this.vuepressData.yamlObj.meta = meta;
+      this.vuepressData.yamlObj.tags = this.formData.tag.dynamicTags;
+      this.vuepressData.yamlObj.categories = this.formData.categories;
 
       // formatter
       let yaml = obj2yaml(this.vuepressData.yamlObj);
@@ -292,13 +318,33 @@ export default {
           .replace("/post/", "").replace(".html", "")
           .replace("/", "")
       this.formData.created = formatIsoToZhDate(this.vuepressData.yamlObj.date.toISOString(), false)
+
+      const yamlMeta = this.vuepressData.yamlObj.meta
+      for (let i = 0; i < yamlMeta.length; i++) {
+        const m = yamlMeta[i]
+        if (m.name === "description") {
+          this.formData.desc = m.content
+          break
+        }
+      }
+
+      for (let j = 0; j < this.vuepressData.yamlObj.tags.length; j++) {
+        const tag = this.vuepressData.yamlObj.tags[j]
+        if (!this.formData.tag.dynamicTags.includes(tag)) {
+          this.formData.tag.dynamicTags.push(tag)
+        }
+      }
+
+      this.formData.categories = this.vuepressData.yamlObj.categories
     },
     copyToClipboard() {
       console.log("copyToClipboard")
     },
     async publishPage() {
       const data = await exportMdContent(this.siyuanData.pageId);
-      this.vuepressData.vuepressContent = data.content;
+      const md = removeWidgetTag(data.content)
+
+      this.vuepressData.vuepressContent = md;
       this.vuepressData.vuepressFullContent = this.vuepressData.formatter + "\n" + this.vuepressData.vuepressContent;
 
       alert(this.$t('main.opt.success'))
