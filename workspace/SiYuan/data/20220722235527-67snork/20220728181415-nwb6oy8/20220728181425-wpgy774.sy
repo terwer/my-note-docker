@@ -1,0 +1,38 @@
+{
+	"ID": "20220728181425-wpgy774",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220728181425-wpgy774",
+		"title": "定义和监听属性",
+		"updated": "20220728181501"
+	},
+	"Children": [
+		{
+			"ID": "20220728181425-ojeb0mj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220728181425-ojeb0mj",
+				"updated": "20220728181501"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cscript type=\"ts\" setup\u003e\nconst props = defineProps({\n  isReload: {\n    type: Boolean,\n    default: false\n  }\n})\n/*监听props*/\nwatch(() =\u003e props.isReload, /**/(oldValue, newValue) =\u003e {\n  //Here you can add you functionality\n  // as described in the name you will get old and new value of watched property\n})\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}
