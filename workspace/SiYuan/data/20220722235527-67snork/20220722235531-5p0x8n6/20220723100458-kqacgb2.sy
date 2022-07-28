@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220723100458-kqacgb2",
 		"title": "国际化",
-		"updated": "20220723111238"
+		"updated": "20220727232712"
 	},
 	"Children": [
 		{
@@ -40,45 +40,26 @@
 			"ID": "20220723100522-993e3ew",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
-			"CodeBlockFenceChar": 96,
-			"CodeBlockFenceLen": 3,
-			"CodeBlockOpenFence": "YGBg",
-			"CodeBlockInfo": "YmFzaA==",
-			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220723100522-993e3ew",
-				"updated": "20220723100629"
+				"updated": "20220727232712"
 			},
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "YmFzaA==",
-					"Properties": {
-						"id": ""
-					}
+					"CodeBlockInfo": "YmFzaA=="
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "vue add vue add i18n\n",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "vue add i18n\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				}
 			]
 		},

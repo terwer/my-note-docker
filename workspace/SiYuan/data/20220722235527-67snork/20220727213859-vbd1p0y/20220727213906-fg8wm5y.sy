@@ -4,9 +4,19 @@
 	"Properties": {
 		"id": "20220727213906-fg8wm5y",
 		"title": "初始化项目",
-		"updated": "20220727223804"
+		"updated": "20220728234310"
 	},
 	"Children": [
+		{
+			"ID": "20220728234310-d2xd0ql",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"fold": "0",
+				"id": "20220728234310-d2xd0ql",
+				"updated": "20220728234310"
+			}
+		},
 		{
 			"ID": "20220727213906-e0b0yj7",
 			"Type": "NodeHeading",
