@@ -4,9 +4,19 @@
 	"Properties": {
 		"id": "20220723100458-kqacgb2",
 		"title": "国际化",
-		"updated": "20220727232712"
+		"updated": "20220729094903"
 	},
 	"Children": [
+		{
+			"ID": "20220729094903-a949asf",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220729094903-a949asf",
+				"style": "text-align: left;",
+				"updated": "20220729094903"
+			}
+		},
 		{
 			"ID": "20220723111147-7i2eubd",
 			"Type": "NodeHeading",
