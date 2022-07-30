@@ -1,0 +1,994 @@
+{
+	"ID": "20220729231413-8mc3ix8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220729231413-8mc3ix8",
+		"title": "发版说明",
+		"updated": "20220729233054"
+	},
+	"Children": [
+		{
+			"ID": "20220729233054-8mr5bxx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220729233054-8mr5bxx",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "sy-post-publisher"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-qltcc9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233054-qltcc9a",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Publish siyuan article to supported open platforms"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-j9uhss2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233054-j9uhss2",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "At present, it supports vuepress "
+				},
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "and two open API standard blog platforms, \u003ccode\u003emetaweblog api\u003c/code\u003e and \u003ccode\u003exmlrpc\u003c/code\u003e remote call API based on \u003ccode\u003ewordpress\u003c/code\u003e ( will release in v0.0.2)"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-18rjhzx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233054-18rjhzx",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "中文版说明"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "README-zh_CN.md"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-i70um1f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233054-i70um1f",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Support plantforms"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-8zpulo0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20220729233054-8zpulo0",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"ID": "20220729233054-v070nlu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233054-v070nlu",
+						"updated": "20220729233054"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20220729233054-z889ugu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233054-z889ugu",
+								"updated": "20220729233054"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vuepress-v0.0.1 support，2022-07-29 release"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233054-lptohzv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233054-lptohzv",
+						"updated": "20220729233054"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20220729233054-opw9ku7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233054-opw9ku7",
+								"updated": "20220729233054"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Cnblogs-relay on v0.0.2 version，will release on 2022-10-31"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233054-y73zl12",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233054-y73zl12",
+						"updated": "20220729233054"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20220729233054-gnnuwjs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233054-gnnuwjs",
+								"updated": "20220729233054"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Liandi-relay on v0.0.2 version，will release on 2022-10-31"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233054-dsn6pxy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233054-dsn6pxy",
+						"updated": "20220729233054"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20220729233054-kpxophs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233054-kpxophs",
+								"updated": "20220729233054"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Yueque-relay on v0.0.2 version，will release on 2022-10-31"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-1n8pje3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233054-1n8pje3",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vue 3 + TypeScript + Vite"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-wf2ipz1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233054-wf2ipz1",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\u003cscript setup\u003e"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " SFCs, check out the "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "script setup docs"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " to learn more."
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-6k4c7t7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233054-6k4c7t7",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Recommended IDE Setup"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-2e5kshz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220729233054-2e5kshz",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"ID": "20220729233054-3jgpdw4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233054-3jgpdw4",
+						"updated": "20220729233054"
+					},
+					"Children": [
+						{
+							"ID": "20220729233054-1xz8c9f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233054-1xz8c9f",
+								"updated": "20220729233054"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "VS Code"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://code.visualstudio.com/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " + "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Volar"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://marketplace.visualstudio.com/items?itemName=Vue.volar"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-4l6ofj7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233054-4l6ofj7",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Type Support For "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": ".vue"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Imports in TS"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-f8txh4o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233054-f8txh4o",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Since TypeScript cannot handle type information for "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": ".vue"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": ".vue"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " imports (for example to get props validation when using manual "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "h(...)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " calls), you can enable Volar's Take Over mode by following these steps:"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-k83ni4l",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220729233054-k83ni4l",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"ID": "20220729233054-j5pr8zh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220729233054-j5pr8zh",
+						"updated": "20220729233054"
+					},
+					"Children": [
+						{
+							"ID": "20220729233054-jsuxmbo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233054-jsuxmbo",
+								"updated": "20220729233054"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Run "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Extensions: Show Built-in Extensions"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " from VS Code's command palette, look for "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "TypeScript and JavaScript Language Features"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", then right click and select "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Disable (Workspace)"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ". By default, Take Over mode will enable itself if the default TypeScript extension is disabled."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233054-o73houc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220729233054-o73houc",
+						"updated": "20220729233054"
+					},
+					"Children": [
+						{
+							"ID": "20220729233054-eex7e0f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233054-eex7e0f",
+								"updated": "20220729233054"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Reload the VS Code window by running "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Developer: Reload Window"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " from the command palette."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-ff95mb9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233054-ff95mb9",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "You can learn more about Take Over mode "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "here"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/johnsoncodehk/volar/discussions/471"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "."
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-s03i8a8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233054-s03i8a8",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Devlopment"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-6xf4gzb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729233054-6xf4gzb",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn\nyarn dev\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-vtud8zg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233054-vtud8zg",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Tool Version"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-jcsllmi",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|",
+				"id": "20220729233054-jcsllmi",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Tool"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Version"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "node"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "v16.16.0"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "yarn"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1.22.19"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-gitx21t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233054-gitx21t",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Init Project"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-9hjug72",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729233054-9hjug72",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn create vite\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-eizus80",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233054-eizus80",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Deploy"
+				}
+			]
+		},
+		{
+			"ID": "20220729233054-3pcdeih",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729233054-3pcdeih",
+				"updated": "20220729233054"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn deploy\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

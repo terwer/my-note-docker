@@ -2,9 +2,12 @@
 	"ID": "20220705214739-syqommn",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "idea自定义生成注释与作者版权信息文章更新历史feat_提供更好的办法直接添加到fileheader里面。生成类注释打开preferenceseditorclass在此添加的话你每次创建类的时候会弹两次框第二次是让你输入description的内容了代码如下{description}@name_{name}@author_{user}@date_{year}{month}{day}{hour}_{minute}接口(interface)枚举(enum)注解(annotation)的注释同理。生成效果id",
+		"custom-slug": "idea-customized-annotation-and-author-copyright-information",
 		"id": "20220705214739-syqommn",
+		"tags": "author,注释,方法,模板,生成,添加",
 		"title": "IDEA自定义生成注释与作者版权信息",
-		"updated": "20220707212026"
+		"updated": "20220729195148"
 	},
 	"Children": [
 		{
@@ -57,6 +60,16 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20220729195148-u1a0un2",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220729195148-u1a0un2",
+				"style": "text-align: left;",
+				"updated": "20220729195148"
+			}
 		},
 		{
 			"ID": "20220705214741-wbiz45c",

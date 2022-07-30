@@ -4,9 +4,19 @@
 	"Properties": {
 		"id": "20220728181425-wpgy774",
 		"title": "定义和监听属性",
-		"updated": "20220728181501"
+		"updated": "20220729224938"
 	},
 	"Children": [
+		{
+			"ID": "20220729224938-cgt9w9s",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220729224938-cgt9w9s",
+				"style": "text-align: left;",
+				"updated": "20220729224938"
+			}
+		},
 		{
 			"ID": "20220728181425-ojeb0mj",
 			"Type": "NodeCodeBlock",

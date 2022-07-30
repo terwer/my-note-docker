@@ -1,0 +1,868 @@
+{
+	"ID": "20220729233014-ysfrhru",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "中文版发版说明sypostpublisher将思源笔记的文章发布到支持的开放平台的思源笔记挂件目前支持vuepress~~以及种博客平台标准metaweblogapi和基于wordpress的xmlrpc远程调用api（延期到v）~~支持平台[x]vuepressv版本支持发布[]博客园延期到v版本预计发布[]链滴社区延期到v版本预计发布[]语雀延期到v版本预计发布vuetypescriptvite项目使用vue框架typescript开发语言vite作为构建工具。项目使用了vue的可以查看文档scrip",
+		"custom-slug": "chinese-version-publishing-description",
+		"custom-vuepress-slug": "chinese-version-publishing-description",
+		"id": "20220729233014-ysfrhru",
+		"tags": "发布,支持,延期,版本,预计",
+		"title": "中文版发版说明",
+		"updated": "20220729233252"
+	},
+	"Children": [
+		{
+			"ID": "20220729233252-5zb4xrx",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1167px; height: 833px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220729233252-5zb4xrx",
+				"style": "text-align: left;",
+				"updated": "20220729233252"
+			}
+		},
+		{
+			"ID": "20220729233036-xbyq3e1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220729233036-xbyq3e1",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "sy-post-publisher"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-26pxdcv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233036-26pxdcv",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将思源笔记的文章发布到支持的开放平台的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "思源笔记挂件"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-rnub2lq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233036-rnub2lq",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前支持 Vuepress "
+				},
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "以及 2 种博客平台标准、metaweblog api 和基于 Wordpress 的 xmlrpc 远程调用 api （延期到v0.0.2）"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-948i8w9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233036-948i8w9",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "支持平台"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-6022z8m",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20220729233036-6022z8m",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"ID": "20220729233036-wxrfhiz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-wxrfhiz",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20220729233036-ntrjn3n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-ntrjn3n",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vuepress-v0.0.1版本支持，2022-07-29发布"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233036-0l6cq6p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-0l6cq6p",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20220729233036-pe37tyb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-pe37tyb",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "博客园-延期到v0.0.2版本，预计2022-10-31发布"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233036-lxgblmv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-lxgblmv",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20220729233036-j1j74w5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-j1j74w5",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "链滴社区-延期到v0.0.2版本，预计2022-10-31发布"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233036-j8mz1uk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-j8mz1uk",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20220729233036-yd45baw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-yd45baw",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "语雀-延期到v0.0.2版本，预计2022-10-31发布"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-myk11hs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233036-myk11hs",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vue 3 + TypeScript + Vite"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-ts5kakd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233036-ts5kakd",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目使用 Vue 3 框架，TypeScript 开发语言，Vite 作为构建工具。"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-rqkmfx0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729233036-rqkmfx0",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目使用了 Vue 3 的 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\u003cscript setup\u003e"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，可以查看文档 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "script setup docs"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 了解更多。"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-aodyqmu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233036-aodyqmu",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "推荐开发工具"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-g4v78ul",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220729233036-g4v78ul",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"ID": "20220729233036-taf1pcy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-taf1pcy",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"ID": "20220729233036-psc00j5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-psc00j5",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "VS Code"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://code.visualstudio.com/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " + "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Volar"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://marketplace.visualstudio.com/items?itemName=Vue.volar"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233036-k2ev7qf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-k2ev7qf",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"ID": "20220729233036-s99zskg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-s99zskg",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "IntelliJ IDEA 或者 WebStorm## Support plantforms"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-drjf4wx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20220729233036-drjf4wx",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"ID": "20220729233036-u156qbi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-u156qbi",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20220729233036-7z4s032",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-7z4s032",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Vuepress-v0.0.1版本支持，2022-07-29发布"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233036-4h4gcpk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-4h4gcpk",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20220729233036-7g5gz21",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-7g5gz21",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "博客园-延期到v0.0.2版本，预计2022-10-31发布"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233036-9n5l24q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-9n5l24q",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20220729233036-awfpw67",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-awfpw67",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "链滴社区-延期到v0.0.2版本，预计2022-10-31发布"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220729233036-0md9k41",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220729233036-0md9k41",
+						"updated": "20220729233036"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20220729233036-0eam1ua",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220729233036-0eam1ua",
+								"updated": "20220729233036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "语雀-延期到v0.0.2版本，预计2022-10-31发布"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-dmst52y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233036-dmst52y",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开始开发"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-caxm8pl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729233036-caxm8pl",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn\nyarn dev\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-8rwqncs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233036-8rwqncs",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "依赖版本"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-lswvnvb",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|",
+				"id": "20220729233036-lswvnvb",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "工具"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "版本"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "node"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "v16.16.0"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "yarn"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1.22.19"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-y1p2o49",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233036-y1p2o49",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "初始化项目"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-u54n5k6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729233036-u54n5k6",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn create vite\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-3dedpf9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220729233036-3dedpf9",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "部署"
+				}
+			]
+		},
+		{
+			"ID": "20220729233036-vz6jact",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220729233036-vz6jact",
+				"updated": "20220729233036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn deploy\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

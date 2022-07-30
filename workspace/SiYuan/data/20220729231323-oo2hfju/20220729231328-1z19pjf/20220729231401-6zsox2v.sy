@@ -1,0 +1,19 @@
+{
+	"ID": "20220729231401-6zsox2v",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220729231401-6zsox2v",
+		"title": "v0.0.1",
+		"updated": "20220729231410"
+	},
+	"Children": [
+		{
+			"ID": "20220729231401-a76nvq3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220729231401-a76nvq3",
+				"updated": "20220729231401"
+			}
+		}
+	]
+}

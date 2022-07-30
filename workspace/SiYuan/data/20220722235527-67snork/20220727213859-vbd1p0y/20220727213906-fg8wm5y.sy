@@ -2,7 +2,11 @@
 	"ID": "20220727213906-fg8wm5y",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "初始化项目依赖版本_col_col_col______node_v___yarn___新建项目yarncreatevitesypostpublisher将思源笔记的文章发布到支持的开放平台的思源笔记挂件目前支持vuepress以及种博客平台标准metaweblogapi和基于wordpress的xmlrpc远程调用apivuetypescriptvite项目使用vue框架typescript开发语言vite作为构建工具。项目使用了vue的可以查看文档scriptsetupdocs了解更多。推荐开发工具vs",
+		"custom-slug": "initialization-project",
+		"custom-vuepress-slug": "initialization-project",
 		"id": "20220727213906-fg8wm5y",
+		"tags": "项目,思源,笔记,支持,使用",
 		"title": "初始化项目",
 		"updated": "20220728234310"
 	},
@@ -14,6 +18,7 @@
 			"Properties": {
 				"fold": "0",
 				"id": "20220728234310-d2xd0ql",
+				"style": "text-align: left;",
 				"updated": "20220728234310"
 			}
 		},
