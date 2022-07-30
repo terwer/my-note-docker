@@ -5,18 +5,9 @@
 		"id": "20220719180214-04wur9s",
 		"tags": "landray,doc,kms,cooperate",
 		"title": "文档协同开发",
-		"updated": "20220727122737"
+		"updated": "20220730100210"
 	},
 	"Children": [
-		{
-			"ID": "20220727122737-buaf78s",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
-			"Properties": {
-				"id": "20220727122737-buaf78s",
-				"updated": "20220727122737"
-			}
-		},
 		{
 			"ID": "20220719181825-shypwo8",
 			"Type": "NodeHeading",
