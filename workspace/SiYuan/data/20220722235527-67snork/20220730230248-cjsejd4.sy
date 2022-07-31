@@ -1,0 +1,19 @@
+{
+	"ID": "20220730230248-cjsejd4",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220730230248-cjsejd4",
+		"title": "TypeScript",
+		"updated": "20220730230255"
+	},
+	"Children": [
+		{
+			"ID": "20220730230248-k2q3gga",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730230248-k2q3gga",
+				"updated": "20220730230248"
+			}
+		}
+	]
+}

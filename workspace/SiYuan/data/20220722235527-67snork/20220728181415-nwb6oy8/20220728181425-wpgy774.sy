@@ -2,7 +2,15 @@
 	"ID": "20220728181425-wpgy774",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "bbbbbbbbbbbbbb3",
+		"custom-conf-post-id": "ccccccccccc",
+		"custom-desc": "定义和监听属性constprops=defineprops({isreload_{type_booleandefault_false}})监听propswatch(()={hereyoucanaddyoufunctionalityasdescribedinthenameyouwillgetoldandnewvalueofwatchedproperty})",
+		"custom-jvue-post-id": "jjjjjjjjj",
+		"custom-slug": "definition-and-listening-attributes",
+		"custom-vuepress-slug": "definition-and-listening-attributes",
+		"custom-wordpress-post-id": "wwww",
 		"id": "20220728181425-wpgy774",
+		"tags": "监听,定义,属性,和,c",
 		"title": "定义和监听属性",
 		"updated": "20220729224938"
 	},
