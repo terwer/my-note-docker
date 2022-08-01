@@ -3,7 +3,7 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "vuereactive和ref的区别首先我们都知道ref函数和reactive函数都是用来定义响应式数据_但是reactive更适合定义复杂的数据类型（jsonarr）ref适合定义基本数据类型（可接收基本数据类型和对象）一句话_使用场景ref简单数据reactive复杂数据ref取数据需要加value参考https_juejincnpost",
-		"custom-slug": "the-difference-between-vue3-reactive-and-ref",
+		"custom-slug": "the-difference-between-vue3-reactive-and-ref-1wzsi8",
 		"custom-vuepress-slug": "the-difference-between-vue3-reactive-and-ref",
 		"id": "20220731124626-bzppv2f",
 		"tags": "数据,定义,数据类型,函数,适合",
@@ -14,7 +14,7 @@
 		{
 			"ID": "20220731232330-lqfqukr",
 			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 847px; height: 573px;\"\u003e\u003c/iframe\u003e",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1158px; height: 682px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
 				"id": "20220731232330-lqfqukr",
 				"style": "text-align: left;",
