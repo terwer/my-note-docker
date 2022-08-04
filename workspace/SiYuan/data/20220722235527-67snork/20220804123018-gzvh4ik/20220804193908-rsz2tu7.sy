@@ -4,41 +4,130 @@
 	"Properties": {
 		"id": "20220804193908-rsz2tu7",
 		"title": "这是最新的一篇测试文章",
-		"updated": "20220804194124"
+		"updated": "20220804205916"
 	},
 	"Children": [
 		{
-			"ID": "20220804193908-s6zkwn1",
-			"Type": "NodeParagraph",
+			"ID": "20220804205611-r4lf60s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20220804193908-s6zkwn1",
-				"updated": "20220804193919"
+				"id": "20220804205611-r4lf60s",
+				"updated": "20220804205621"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "测试"
+					"Data": "基本语法"
 				}
 			]
 		},
 		{
-			"ID": "20220804194122-ubzknud",
+			"ID": "20220804205622-ufknawf",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220804194122-ubzknud"
-			}
-		},
-		{
-			"ID": "20220804194122-b5afemo",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220804194122-b5afemo",
-				"updated": "20220804194124"
+				"id": "20220804205622-ufknawf",
+				"updated": "20220804205705"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "hello"
+					"Data": "粗体 "
+				}
+			]
+		},
+		{
+			"ID": "20220804205709-ow6axz2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804205709-ow6axz2"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "粗体测试"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220804205706-g39p7qh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804205706-g39p7qh",
+				"updated": "20220804205746"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "**粗体测试**"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220804205748-ip84re3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220804205748-ip84re3",
+				"updated": "20220804205807"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码块"
+				}
+			]
+		},
+		{
+			"ID": "20220804205808-jqtfxt2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804205808-jqtfxt2",
+				"updated": "20220804205916"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public static void main(){\n    System.out.println(\"Hello, Worlds!\");\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
 				}
 			]
 		}
