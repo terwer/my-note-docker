@@ -1,0 +1,111 @@
+{
+	"ID": "20220804123028-a7izd12",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220804123028-a7izd12",
+		"title": "上手react-bootstrap",
+		"updated": "20220804123142"
+	},
+	"Children": [
+		{
+			"ID": "20220804123124-mo1om84",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220804123124-mo1om84",
+				"updated": "20220804123131"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装"
+				}
+			]
+		},
+		{
+			"ID": "20220804123131-n6jqrei",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804123131-n6jqrei",
+				"updated": "20220804123142"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn add react-bootstrap bootstrap\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804123028-htvgpwx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220804123028-htvgpwx",
+				"updated": "20220804123101"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20220804123101-4j7oxl4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804123101-4j7oxl4",
+				"updated": "20220804123107"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://react-bootstrap.github.io/getting-started/introduction/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://react-bootstrap.github.io/getting-started/introduction/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220804123103-dqxtfng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804123103-dqxtfng"
+			}
+		}
+	]
+}
