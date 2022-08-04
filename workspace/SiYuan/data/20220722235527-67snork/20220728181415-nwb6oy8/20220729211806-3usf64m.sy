@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220729211806-3usf64m",
 		"title": "Vue3的script和seup模式下ref的使用",
-		"updated": "20220729212213"
+		"updated": "20220804193353"
 	},
 	"Children": [
 		{
@@ -75,6 +75,20 @@
 				{
 					"Type": "NodeText",
 					"Data": "，Vue3 需要上面的方法才行。"
+				}
+			]
+		},
+		{
+			"ID": "20220804193341-nt6wpuw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804193341-nt6wpuw",
+				"updated": "20220804193353"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "推荐使用Vue3"
 				}
 			]
 		},
