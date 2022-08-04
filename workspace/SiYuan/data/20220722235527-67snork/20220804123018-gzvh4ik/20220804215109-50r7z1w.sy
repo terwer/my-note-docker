@@ -1,0 +1,110 @@
+{
+	"ID": "20220804215109-50r7z1w",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220804215109-50r7z1w",
+		"title": "使用服务端缓存对getServerSideProps进行缓存",
+		"updated": "20220804215451"
+	},
+	"Children": [
+		{
+			"ID": "20220804215433-nicrwu2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804215433-nicrwu2",
+				"updated": "20220804215438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方法如下："
+				}
+			]
+		},
+		{
+			"ID": "20220804215438-cv9kie0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220804215438-cv9kie0",
+				"updated": "20220804215451"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// This value is considered fresh for ten seconds (s-maxage=10).\n// If a request is repeated within the next 10 seconds, the previously\n// cached value will still be fresh. If the request is repeated before 59 seconds,\n// the cached value will be stale but still render (stale-while-revalidate=59).\n//\n// In the background, a revalidation request will be made to populate the cache\n// with a fresh value. If you refresh the page, you will see the new value.\nexport async function getServerSideProps({ req, res }) {\n  res.setHeader(\n    'Cache-Control',\n    'public, s-maxage=10, stale-while-revalidate=59'\n  )\n\n  return {\n    props: {},\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220804215109-25b3g3l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220804215109-25b3g3l",
+				"updated": "20220804215119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20220804215119-ncz0den",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804215119-ncz0den",
+				"updated": "20220804215122"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props#caching-with-server-side-rendering-ssr"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props#caching-with-server-side-rendering-ssr"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220804215123-4uzkyza",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804215123-4uzkyza"
+			}
+		}
+	]
+}
