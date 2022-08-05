@@ -3,9 +3,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "使用服务端缓存对getserversideprops进行缓存方法如下_thisvalueisconsideredfreshfortenseconds(smaxage=)ifarequestisrepeatedwithinthenextsecondsthepreviouslycachedvaluewillstillbefreshiftherequestisrepeatedbeforesecondsthecachedvaluewillbestalebutstillrender(stalewhilerevali",
-		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_publish_status\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true}]",
+		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_publish_status\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_desc\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:3,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;tags\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:4,\u0026amp;quot;show\u0026amp;quot;:true}]",
 		"custom-publish-status": "published",
-		"custom-slug": "use-the-server-cache-to-cache-the-getserversideprops",
+		"custom-slug": "use-the-server-cache-to-cache-the-getserversideprops-vlxjx",
 		"id": "20220804215109-50r7z1w",
 		"tags": "缓存,使用,服务端,进行,方法",
 		"title": "使用服务端缓存对getServerSideProps进行缓存",
