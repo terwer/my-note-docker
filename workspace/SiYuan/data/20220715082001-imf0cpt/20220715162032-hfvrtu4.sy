@@ -2,10 +2,13 @@
 	"ID": "20220715162032-hfvrtu4",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "消息中间件消息队列原理及activemqrocketmqrabbitmqkafka区别总结要点本文大概围绕如下几点进行阐述_为什么使用消息队列？使用消息队列有什么缺点?如何保证消息的顺序性？如何保证消息队列是高可用的？如何保证消息不被重复消费?如何保证消费的可靠性传输?消息队列如何选型?我们围绕以上七点进行阐述。只是提供一个思路而不是描述怎么调用消息队列的api。正文为什么要使用消息队列?分析_一个用消息队列的人不知道为啥用这就有点尴尬。没有复习这点很容易被问蒙然后就开始胡扯了。回答_这个问题咱只答三个最",
 		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true}]",
+		"custom-slug": "message-middleware-ncudb",
 		"id": "20220715162032-hfvrtu4",
+		"tags": "消息,队列,消费,中间件,MQ",
 		"title": "消息中间件",
-		"updated": "20220720122821"
+		"updated": "20220805175749"
 	},
 	"Children": [
 		{
@@ -16,6 +19,16 @@
 				"id": "20220716232108-46szpet",
 				"style": "text-align: left;",
 				"updated": "20220716232108"
+			}
+		},
+		{
+			"ID": "20220805175749-zardqbf",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220805175749-zardqbf",
+				"style": "text-align: left;",
+				"updated": "20220805175749"
 			}
 		},
 		{

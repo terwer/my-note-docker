@@ -2,12 +2,15 @@
 	"ID": "20220708165834-l3ydafw",
 	"Type": "NodeDocument",
 	"Properties": {
-		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_publish_status\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_post_password\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:false}]",
+		"custom-desc": "ekp统一测试环境v_环境_url_登录账号_sftp地址_sftp账号_________vrelease___ssh___rootlandray~__vdevelop__admin#@!_ssh___rootlandray~__vsmokeflow___ssh___rootlandray~_数据库hibernateconnectiondriverclass=commicrosoftsqlserverjdbcsqlserverdriverhibernateconnectionpassword=landra",
+		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_publish_status\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_post_password\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:false},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_desc\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:3,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:4,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;tags\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:5,\u0026amp;quot;show\u0026amp;quot;:true}]",
 		"custom-post-password": "105036",
 		"custom-publish-status": "secret",
+		"custom-slug": "ekp-unified-test-environment-vyudd",
 		"id": "20220708165834-l3ydafw",
+		"tags": "账号,统一,测试环境,环境,登录",
 		"title": "ekp统一测试环境",
-		"updated": "20220805150500"
+		"updated": "20220805164312"
 	},
 	"Children": [
 		{
@@ -18,6 +21,16 @@
 				"id": "20220805131316-80n2hqk",
 				"style": "text-align: left;",
 				"updated": "20220805131316"
+			}
+		},
+		{
+			"ID": "20220805164312-k2ej24j",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220805164312-k2ej24j",
+				"style": "text-align: left;",
+				"updated": "20220805164312"
 			}
 		},
 		{
