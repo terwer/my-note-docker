@@ -2,11 +2,24 @@
 	"ID": "20220708165704-n20geag",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_publish_status\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_post_password\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:false}]",
+		"custom-post-password": "105036",
+		"custom-publish-status": "secret",
 		"id": "20220708165704-n20geag",
 		"title": "ekp开发环境汇总",
-		"updated": "20220708165713"
+		"updated": "20220805131331"
 	},
 	"Children": [
+		{
+			"ID": "20220805131331-4dtdmgi",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/Note Attrs\" data-src=\"/widgets/Note Attrs\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"height: 82px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220805131331-4dtdmgi",
+				"style": "text-align: left;",
+				"updated": "20220805131331"
+			}
+		},
 		{
 			"ID": "20220708165713-e1kxnqg",
 			"Type": "NodeHeading",
