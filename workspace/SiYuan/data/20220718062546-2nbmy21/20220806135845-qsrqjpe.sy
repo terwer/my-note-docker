@@ -2,23 +2,36 @@
 	"ID": "20220806135845-qsrqjpe",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "后端服务coros预检请求验证问题探究问题引入目前在vitevue的项目中使用fetchapi调用siyuan的api时候如果加上api鉴权就会返回cors错误如下_​根据https_developermozillaorgenusdocsglossarypreflight_request这篇文章的理解在检测到cors跨域复杂请求（例如post等）时候会发送一个options的预检请求请求会返回下一个请求允许的header和method检测请求可以看到可以看到思源服务端返回的accesscontrolreq",
+		"custom-slug": "back-end-service-coros-pre-inspection-request-verification-question-exploration-2qpgmv",
 		"id": "20220806135845-qsrqjpe",
+		"tags": "请求,可以,看到,返回,问题",
 		"title": "后端服务COROS预检请求验证问题探究",
-		"updated": "20220806140034"
+		"updated": "20220806154951"
 	},
 	"Children": [
+		{
+			"ID": "20220806154951-y7v7qgl",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220806154951-y7v7qgl",
+				"style": "text-align: left;",
+				"updated": "20220806154951"
+			}
+		},
 		{
 			"ID": "20220806135911-plguoyp",
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20220806135911-plguoyp",
-				"updated": "20220806135919"
+				"updated": "20220806154945"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "## 问题引入"
+					"Data": "问题引入"
 				}
 			]
 		},
