@@ -1,0 +1,120 @@
+{
+	"ID": "20220806123629-g95mre8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_publish_status\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_post_password\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
+		"custom-post-password": "105036",
+		"custom-publish-status": "secret",
+		"id": "20220806123629-g95mre8",
+		"title": "2022-08-05周报",
+		"updated": "20220806124132"
+	},
+	"Children": [
+		{
+			"ID": "20220806123710-r3xzj82",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/Note Attrs\" data-src=\"/widgets/Note Attrs\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"height: 82px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220806123710-r3xzj82",
+				"style": "text-align: left;",
+				"updated": "20220806123710"
+			}
+		},
+		{
+			"ID": "20220806123700-ahgaemp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806123700-ahgaemp",
+				"updated": "20220806123957"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、需求开发"
+				}
+			]
+		},
+		{
+			"ID": "20220806123700-ljw2v8i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806123700-ljw2v8i",
+				"updated": "20220806123939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#162077【知识仓库】知识仓库门户部件知识统计性能优化\n#170072【知识仓库】新建知识时，当手动替换作者时，所属部门和岗位一并自动替换为作者所属的部门和岗位"
+				}
+			]
+		},
+		{
+			"ID": "20220806123959-wbbhfoh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806123959-wbbhfoh"
+			}
+		},
+		{
+			"ID": "20220806123700-2ov9v9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806123700-2ov9v9a",
+				"updated": "20220806124001"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、文档协同缺陷修复"
+				}
+			]
+		},
+		{
+			"ID": "20220806123700-1j9e77v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806123700-1j9e77v"
+			}
+		},
+		{
+			"ID": "20220806123700-p11ked6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806123700-p11ked6",
+				"updated": "20220806124004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、日常缺陷处理"
+				}
+			]
+		},
+		{
+			"ID": "20220806124017-395kfm7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806124017-395kfm7",
+				"updated": "20220806124132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#170569 定义属性为组织架构，文档选择部门后，列表筛选此部门却不显示文档\n#170704【文档协同-修复】文档协同知识助手优化问题\n#170779【日常缺陷】 【文档协同-修复】普通用户取消知识助手的收藏，提示操作失败，没有取消收藏成功\n#170803【日常缺陷】 【文档协同-修复】指定范围分享的页面，点击方框应该不能输入内容，且弹出选择人员的地址本\n#170843【日常缺陷】 【文档协同-修复】文档首页的模板分类top5图中父分类下没有统计其子分类下模板数量\n#170842【日常缺陷】 【文档协同-修复】文档首页的最新模板、最热模板列表不同用户显示不一样\n#170788【日常缺陷】 【文档协同-修复】首页样式问题\n#170847【日常缺陷】 【文档协同-修复】维基知识引用问题"
+				},
+				{
+					"Type": "NodeBr",
+					"Data": "br"
+				}
+			]
+		},
+		{
+			"ID": "20220806123700-5btxywd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806123700-5btxywd",
+				"updated": "20220806123700"
+			}
+		}
+	]
+}
