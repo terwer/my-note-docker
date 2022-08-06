@@ -5,7 +5,7 @@
 		"custom-desc": "后端服务coros预检请求验证问题探究问题引入目前在vitevue的项目中使用fetchapi调用siyuan的api时候如果加上api鉴权就会返回cors错误如下_​根据https_developermozillaorgenusdocsglossarypreflight_request这篇文章的理解在检测到cors跨域复杂请求（例如post等）时候会发送一个options的预检请求请求会返回下一个请求允许的header和method检测请求可以看到可以看到思源服务端返回的accesscontrolreq",
 		"custom-slug": "back-end-service-coros-pre-inspection-request-verification-question-exploration-2qpgmv",
 		"id": "20220806135845-qsrqjpe",
-		"tags": "请求,可以,看到,返回,问题",
+		"tags": "请求,CORS,Authorization,auth,跨域",
 		"title": "后端服务COROS预检请求验证问题探究",
 		"updated": "20220806154951"
 	},

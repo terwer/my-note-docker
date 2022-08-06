@@ -3,10 +3,11 @@
 
 version: '3'
 services:
-  my-note-docker:
+  prd-note:
     stdin_open: true
     tty: true
-    container_name: my-note-docker
+    image: terwer/prd-note:2.1.5-mac-build
+    container_name: prd
     build:
       context: .
       dockerfile: Dockerfile
