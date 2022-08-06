@@ -1,0 +1,58 @@
+{
+	"ID": "20220806140129-2aubpha",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806140129-2aubpha",
+		"title": "Charles代理支持localhost",
+		"updated": "20220806140201"
+	},
+	"Children": [
+		{
+			"ID": "20220806140141-x011hsg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806140141-x011hsg",
+				"updated": "20220806140151"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用下面的地址代替localhost"
+				}
+			]
+		},
+		{
+			"ID": "20220806140129-rfcg40p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806140129-rfcg40p",
+				"updated": "20220806140135"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "localhost.charlesproxy.com"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806140136-aedmwvr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806140136-aedmwvr"
+			}
+		}
+	]
+}
