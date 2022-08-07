@@ -6,8 +6,8 @@
 		"custom-slug": "back-end-service-coros-pre-inspection-request-verification-question-exploration-2qpgmv",
 		"id": "20220806135845-qsrqjpe",
 		"tags": "请求,CORS,Authorization,auth,跨域",
-		"title": "后端服务COROS预检请求验证问题探究",
-		"updated": "20220806154951"
+		"title": "后端服务CORS预检请求验证问题探究",
+		"updated": "20220806141817"
 	},
 	"Children": [
 		{
