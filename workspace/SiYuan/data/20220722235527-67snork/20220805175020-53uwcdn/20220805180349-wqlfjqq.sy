@@ -13,7 +13,7 @@
 		{
 			"ID": "20220805180822-lu0xm1t",
 			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1284px; height: 969px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
 				"id": "20220805180822-lu0xm1t",
 				"style": "text-align: left;",
