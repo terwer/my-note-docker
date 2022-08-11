@@ -7,7 +7,7 @@
 		"id": "20220806135845-qsrqjpe",
 		"tags": "请求,CORS,Authorization,auth,跨域",
 		"title": "后端服务CORS预检请求验证问题探究",
-		"updated": "20220806154951"
+		"updated": "20220810205837"
 	},
 	"Children": [
 		{
@@ -392,7 +392,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20220806135911-yepvhs3",
-				"updated": "20220806135911"
+				"updated": "20220810205837"
 			},
 			"Children": [
 				{
@@ -400,7 +400,8 @@
 					"Data": "```"
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Z28="
 				},
 				{
 					"Type": "NodeCodeBlockCode",
