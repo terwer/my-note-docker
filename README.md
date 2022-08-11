@@ -6,8 +6,15 @@ my note for docker
 
 ## 备份
 
+Linux或者macOS
+
 ```bash
 ./p.sh
+```
+
+Windows
+```powershell
+./p.ps1
 ```
 
 ```bash
