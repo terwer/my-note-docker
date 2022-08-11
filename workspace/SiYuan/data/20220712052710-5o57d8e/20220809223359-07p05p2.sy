@@ -8,7 +8,7 @@
 		"id": "20220809223359-07p05p2",
 		"tags": "导入,win10,wsl,deepin,linux",
 		"title": "Win10导入Deepin到WSL",
-		"updated": "20220809225209"
+		"updated": "20220811112413"
 	},
 	"Children": [
 		{
@@ -210,8 +210,41 @@
 			"ID": "20220809224822-11g5jzl",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220809224822-11g5jzl"
-			}
+				"id": "20220809224822-11g5jzl",
+				"updated": "20220811112413"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://pan.baidu.com/s/1mx5UPFLkrVaLfCRXmfSv_w?pwd=8888"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://pan.baidu.com/s/1mx5UPFLkrVaLfCRXmfSv_w?pwd=8888"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeBr",
+					"Data": "br"
+				}
+			]
 		},
 		{
 			"ID": "20220809224822-hd6c2ws",
