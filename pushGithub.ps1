@@ -1,5 +1,5 @@
 $msg=':art: 备份本地笔记'
-$srcgithubUrl=git@github.com:terwer/my-note-docker.git
+$srcgithubUrl='git@github.com:terwer/my-note-docker.git'
 
 git config user.name "terwer"
 git config user.email "youweics@163.com"
