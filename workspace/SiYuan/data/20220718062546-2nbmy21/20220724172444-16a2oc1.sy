@@ -6,8 +6,9 @@
 		"custom-slug": "babel-run-nodejs",
 		"custom-vuepress-slug": "babel-run-nodejs",
 		"id": "20220724172444-16a2oc1",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220724173231-9h7yb2g\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220724174617-ogxiw68\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220724172537-anjho4g\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:5,\u0026amp;quot;focusEnd\u0026amp;quot;:5}",
 		"title": "babel运行nodejs",
-		"updated": "20220730160757"
+		"updated": "20220814175252"
 	},
 	"Children": [
 		{
@@ -75,8 +76,133 @@
 			"ID": "20220724172537-vsdmv59",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220724172537-vsdmv59"
-			}
+				"id": "20220724172537-vsdmv59",
+				"updated": "20220814175229"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "或者全局安装"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220814173931-3pw5hor",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220814173931-3pw5hor",
+				"updated": "20220814174434"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn global add @babel/core @babel/cli @babel/node @babel/preset-env\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220814174349-l5j020u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220814174349-l5j020u",
+				"updated": "20220814175232"
+			},
+			"Children": [
+				{
+					"Type": "NodeUnderline",
+					"Data": "u",
+					"Children": [
+						{
+							"Type": "NodeUnderlineOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意：全局安装需要把yarn的全局目录添加到Windows的path，查找path命令如下"
+						},
+						{
+							"Type": "NodeUnderlineCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220814174420-y9ynl0e",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220814174420-y9ynl0e",
+				"updated": "20220814174437"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn global bin\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220814175234-ms2slay",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220814175234-ms2slay",
+				"updated": "20220814175252"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Data": "s",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "不建议全局安装，很多时候以来都成问题"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker"
+						}
+					]
+				}
+			]
 		},
 		{
 			"ID": "20220724172537-anjho4g",

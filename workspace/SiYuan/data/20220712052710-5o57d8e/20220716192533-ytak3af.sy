@@ -4,9 +4,19 @@
 	"Properties": {
 		"id": "20220716192533-ytak3af",
 		"title": "docker配置nginx支持https",
-		"updated": "20220716193129"
+		"updated": "20220815001324"
 	},
 	"Children": [
+		{
+			"ID": "20220815001324-si4aaob",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 983px; height: 371px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220815001324-si4aaob",
+				"style": "text-align: left;",
+				"updated": "20220815001324"
+			}
+		},
 		{
 			"ID": "20220716193016-rfy5jld",
 			"Type": "NodeHeading",
