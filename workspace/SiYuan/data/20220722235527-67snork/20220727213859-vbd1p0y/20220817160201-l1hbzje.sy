@@ -8,10 +8,11 @@
 		"custom-jvue-post-id": "7994",
 		"custom-slug": "vite-uses-nodejs-built-in-modules-z12udha",
 		"custom-vuepress-slug": "docs/002.前端开发/018.vite使用nodeJS内置的模块.md",
+		"custom-wordpress-post-id": "4119",
 		"id": "20220817160201-l1hbzje",
 		"tags": "内置,模块,vite,node,nodejs,fetch,node-fetch",
 		"title": "vite使用nodeJS内置的模块",
-		"updated": "20220817203009"
+		"updated": "20220818141254"
 	},
 	"Children": [
 		{
@@ -44,7 +45,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220817160351-sj9uk4q",
-				"updated": "20220817203009"
+				"updated": "20220818141254"
 			},
 			"Children": [
 				{
