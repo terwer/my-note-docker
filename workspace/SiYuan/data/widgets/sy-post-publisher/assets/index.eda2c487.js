@@ -8,8 +8,8 @@ var __publicField = (obj, key, value) => {
   __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
   return value;
 };
-var require_index_3d0cbca9 = __commonJS({
-  "assets/index.3d0cbca9.js"(exports, module) {
+var require_index_eda2c487 = __commonJS({
+  "assets/index.eda2c487.js"(exports, module) {
     const p$2 = function polyfill() {
       const relList = document.createElement("link").relList;
       if (relList && relList.supports && relList.supports("modulepreload")) {
@@ -77915,10 +77915,13 @@ var require_index_3d0cbca9 = __commonJS({
           isSlugLoading.value = true;
           const page = await getPage(siyuanData.pageId);
           logUtil.logInfo("page=>", page);
-          const title2 = page.content;
-          logUtil.logInfo("title=>", title2);
+          let fmtTitle = page.content;
+          if (fmtTitle.indexOf(".") > -1) {
+            fmtTitle = fmtTitle.replace(/\d*\./g, "");
+          }
+          logUtil.logInfo("fmtTitle=>", fmtTitle);
           if (formData.checkList.length > 0) {
-            const result = await zhSlugify(title2);
+            const result = await zhSlugify(fmtTitle);
             logUtil.logInfo("result=>", result);
             if (result) {
               formData.customSlug = result;
@@ -77926,7 +77929,7 @@ var require_index_3d0cbca9 = __commonJS({
               ElMessage.success(t("main.opt.failure"));
             }
           } else {
-            formData.customSlug = await pingyinSlugify(title2);
+            formData.customSlug = await pingyinSlugify(fmtTitle);
           }
           if (slugHashEnabled.value) {
             const newstr = page.content + new Date().toISOString();
@@ -78382,8 +78385,8 @@ var require_index_3d0cbca9 = __commonJS({
         };
       }
     });
-    const MetaweblogMain_vue_vue_type_style_index_0_scoped_e54bc38a_lang = "";
-    const MetaweblogMain = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-e54bc38a"]]);
+    const MetaweblogMain_vue_vue_type_style_index_0_scoped_4387f4a1_lang = "";
+    const MetaweblogMain = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-4387f4a1"]]);
     const __default__$c = {
       name: "JVueMain",
       components: {
@@ -80030,4 +80033,4 @@ var require_index_3d0cbca9 = __commonJS({
     app.mount("#app");
   }
 });
-export default require_index_3d0cbca9();
+export default require_index_eda2c487();
