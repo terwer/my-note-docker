@@ -2,11 +2,26 @@
 	"ID": "20220806140129-2aubpha",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "charles代理支持localhost使用下面的地址代替localhostlocalhostcharlesproxycom",
+		"custom-slug": "charles-agent-supports-localhost-z7tshv",
+		"custom-yuque-post-id": "90231198",
 		"id": "20220806140129-2aubpha",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220822100640-w34fooi\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220806140136-aedmwvr\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220822100640-w34fooi\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "代理,支持,使用,下面,地址",
 		"title": "Charles代理支持localhost",
-		"updated": "20220806140201"
+		"updated": "20220822100640"
 	},
 	"Children": [
+		{
+			"ID": "20220822100640-w34fooi",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1164px; height: 484px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220822100640-w34fooi",
+				"style": "text-align: left;",
+				"updated": "20220822100640"
+			}
+		},
 		{
 			"ID": "20220806140141-x011hsg",
 			"Type": "NodeParagraph",
