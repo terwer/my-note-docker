@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>list Child Docs for sy</title>
+    <link rel="stylesheet" href="./static/listChildDocs.css" />
+    <script src="./static/jquery-3.6.0.min.js"></script>
+    <script src="./src/listChildDocsClass.js" type="module"></script>
+</head>
+
+<body>
+    <div class="app">
+        <p class="upperbar">
+            <button id="refresh" title="refresh"></button>
+            <select id="listdepth" name="depth" title="showDepth">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select id="printMode" name="mode">
+            </select>
+            <input type="hidden" name="auto" value="0" id="autoMode" title="AutoRefresh?">
+            <span id="updateTime"></span>
+        </p>
+        <div class="linksContainer" id="linksContainer">
+            
+        </div>
+    </div>
+    <script type="module" src="./src/listChildDocsMain.js"></script>
+</body>
+
+</html>

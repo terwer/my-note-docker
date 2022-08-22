@@ -2,10 +2,14 @@
 	"ID": "20220710212511-vh1frqq",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "自定义类加载器与jvm内置加载器交互详析java指定class路径javacp_myclasspathtest定义类加载器如果某个类加载器能够加载一个类那么该类加载器称为_定义类加载器。定义类加载器及其所有子类加载器称为_初始类加载器。当生成一个自定义类加载器的实例时如果没有指定它的父类加载器那么系统类加载器就成为该类加载器的父加载器。​",
+		"custom-jvue-post-id": "8003",
+		"custom-slug": "130.-customized-class-loader-interacts-with-jvm-built-in-loader-detailed-analysis-z1imndh",
 		"id": "20220710212511-vh1frqq",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220710132511-34d95yz\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220822194937-adp0zgf\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:2284,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220710132511-34d95yz\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "java,classloader,jvm",
-		"title": "自定义类加载器与JVM内置加载器交互详析",
-		"updated": "20220710224719"
+		"title": "130.自定义类加载器与JVM内置加载器交互详析",
+		"updated": "20220822210120"
 	},
 	"Children": [
 		{
@@ -375,10 +379,151 @@
 			]
 		},
 		{
-			"ID": "20220710224719-6ordird",
+			"ID": "20220822200049-yyxblgm",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220710224719-6ordird"
+				"id": "20220822200049-yyxblgm",
+				"updated": "20220822200813"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220822200751.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220822205852-xui0x6h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822205852-xui0x6h",
+				"updated": "20220822205853"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220822205832.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220822205858-pecjcrh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822205858-pecjcrh",
+				"updated": "20220822210114"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不同类加载器的命名空间关系"
+				}
+			]
+		},
+		{
+			"ID": "20220822210029-4lrio3f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822210029-4lrio3f",
+				"updated": "20220822210116"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220822210116-nrtjl9m.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220822210120-l3plm4z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822210120-l3plm4z"
 			}
 		}
 	]

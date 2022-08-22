@@ -1,0 +1,106 @@
+#refresh {
+    background-image:url("./icon.png");
+}
+button, select, input{
+    border: 1px solid sandybrown;
+    font-weight: 300;
+    background-size: auto 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 3em;
+    height: 1.5em;
+    border-radius:0.3em;
+    /* color: white; */
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #f0f0f022;
+    /* background-color:darkslategray;
+    color: white; */
+}
+
+#autoMode{
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+select{
+    margin-left: 0.5em;
+}
+
+#printMode{
+    width: 5em;
+}
+
+#savedepth{
+    width: 3em;
+    height: 1.5em;
+    border: 1px solid sandybrown;
+    margin-left: 0.2em;
+    display: inline-block;
+    border-radius:0.3em;
+    color: #4CB0F9;
+}
+
+#updateTime{
+    margin-left: 0.5em;
+    /* color: darkgray; */
+}
+.ordinaryText_dark{
+    color: darkgray;
+}
+.upperbar{
+    float: left;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.button_dark{
+    background-color:darkslategray;
+    color: white;
+}
+
+.linksListItem {
+    padding: 4px 0px;
+}
+
+.childDocLinks, .refLinks{
+    color: black;
+    padding: 0 2px;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(0, 0, 0, .1);
+}
+
+.childDocLinks_dark{
+    color: #C9D1D9;
+}
+
+.childDocLinks:hover, .refLinks:hover{
+    color: #1186d9;
+    border-bottom: 1px dashed #4CB0F9;
+}
+
+.errorinfo {
+    color: red;
+    text-align: center;
+}
+
+body{
+    padding: 0;
+    border: 0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+}
+.app{
+    width: 100%;
+}

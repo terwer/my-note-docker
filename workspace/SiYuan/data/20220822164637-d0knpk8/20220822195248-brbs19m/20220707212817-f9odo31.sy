@@ -2,9 +2,11 @@
 	"ID": "20220707212817-f9odo31",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-jvue-post-id": "7981",
 		"id": "20220707212817-f9odo31",
-		"title": "用户自定义类加载器探秘",
-		"updated": "20220707225127"
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220707132817-x7ya3gs\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220822195149-rds7cau\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
+		"title": "129.用户自定义类加载器探秘",
+		"updated": "20220822200237"
 	},
 	"Children": [
 		{
@@ -235,10 +237,13 @@
 			]
 		},
 		{
-			"ID": "20220707225127-l2tcga9",
-			"Type": "NodeParagraph",
+			"ID": "20220822195149-rds7cau",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
 			"Properties": {
-				"id": "20220707225127-l2tcga9"
+				"id": "20220822195149-rds7cau",
+				"style": "text-align: left;",
+				"updated": "20220822195149"
 			}
 		}
 	]

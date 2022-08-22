@@ -1,0 +1,19 @@
+{
+	"ID": "20220822220912-rnv1re6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220822220912-rnv1re6",
+		"title": "Java SE",
+		"updated": "20220822220921"
+	},
+	"Children": [
+		{
+			"ID": "20220822220912-nr5word",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822220912-nr5word",
+				"updated": "20220822220912"
+			}
+		}
+	]
+}

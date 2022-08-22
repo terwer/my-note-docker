@@ -1,0 +1,639 @@
+{
+	"ID": "20220822221025-munpqmj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220822221025-munpqmj",
+		"title": "Java SE Lesson 22",
+		"updated": "20220822221759"
+	},
+	"Children": [
+		{
+			"ID": "20220822221411-vppt48x",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220822221411-vppt48x",
+				"updated": "20220822221759"
+			},
+			"Children": [
+				{
+					"ID": "20220822221411-rhd9w9o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220822221411-rhd9w9o",
+						"updated": "20220822221411"
+					},
+					"Children": [
+						{
+							"ID": "20220822221411-8hxds4v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221411-8hxds4v",
+								"updated": "20220822221411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ClassLoader（类加载器）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822221411-wm3b2mw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20220822221411-wm3b2mw",
+						"updated": "20220822221759"
+					},
+					"Children": [
+						{
+							"ID": "20220822221411-mh1us17",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221411-mh1us17",
+								"updated": "20220822221411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JVM提供了三种类加载器"
+								}
+							]
+						},
+						{
+							"ID": "20220822221702-85ae4zi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221702-85ae4zi",
+								"updated": "20220822221756"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1）根类加载器（使用C++编写，程序员无法在Java代码中获得该类）"
+								}
+							]
+						},
+						{
+							"ID": "20220822221712-1wn7ilz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221712-1wn7ilz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2）扩展加载器，使用Java代码实现"
+								}
+							]
+						},
+						{
+							"ID": "20220822221719-ok4u5x8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221719-ok4u5x8",
+								"updated": "20220822221759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3）系统加载器（应用加载器），使用Java代码实现"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220822221411-nbinqh0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220822221411-nbinqh0",
+				"updated": "20220822221422"
+			},
+			"Children": [
+				{
+					"ID": "20220822221411-y8w5m6t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220822221411-y8w5m6t",
+						"updated": "20220822221411"
+					},
+					"Children": [
+						{
+							"ID": "20220822221411-terwn1k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221411-terwn1k",
+								"updated": "20220822221411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户自定义的类加载器都是java.lang.ClassLoader的子类"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822221411-uf7zfma",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220822221411-uf7zfma",
+						"updated": "20220822221411"
+					},
+					"Children": [
+						{
+							"ID": "20220822221411-7kaploq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221411-7kaploq",
+								"updated": "20220822221411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "程序中对子类的“主动使用”会导致父类被初始化；但对父类的“主动”使用并不会导致子类初始化（不可能说生成一个Object类的对象就导致系统中所有的子类都会被初始化）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822221411-64f9gvv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220822221411-64f9gvv",
+						"updated": "20220822221411"
+					},
+					"Children": [
+						{
+							"ID": "20220822221411-pkzldzt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221411-pkzldzt",
+								"updated": "20220822221411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类加载器的父亲委托机制（Parent Delegation）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822221418-qfldf01",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220822221418-qfldf01",
+						"updated": "20220822221422"
+					},
+					"Children": [
+						{
+							"ID": "20220822221418-2qkbc8p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221418-2qkbc8p",
+								"updated": "20220822221422"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "父子加载器并非继承关系，也就是说子加载器不一定是继承了父加载器。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220822221411-kffiilk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220822221411-kffiilk",
+				"updated": "20220822221411"
+			},
+			"Children": [
+				{
+					"ID": "20220822221411-b1p1w1l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220822221411-b1p1w1l",
+						"updated": "20220822221411"
+					},
+					"Children": [
+						{
+							"ID": "20220822221411-lw9o4v5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221411-lw9o4v5",
+								"updated": "20220822221411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JVM自带的类加载器之间的关系："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220822221424-h89xle8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822221424-h89xle8",
+				"updated": "20220822221450"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220822221438.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220822221519-om0nfyz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822221519-om0nfyz"
+			}
+		},
+		{
+			"ID": "20220822221518-yn2vlx2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220822221518-yn2vlx2",
+				"updated": "20220822221524"
+			},
+			"Children": [
+				{
+					"ID": "20220822221524-mgyw0nc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220822221524-mgyw0nc",
+						"updated": "20220822221524"
+					},
+					"Children": [
+						{
+							"ID": "20220822221524-pwyw3xe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221524-pwyw3xe",
+								"updated": "20220822221524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "定义类加载器：如果某个类加载器能够加载一个类，那么该类加载器就称作： "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "定义类加载器"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ；定义类加载器及其所有子加载器都称作： "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "初始类加载器"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822221527-4ynsshw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220822221527-4ynsshw"
+					},
+					"Children": [
+						{
+							"ID": "20220822221527-h396emp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221527-h396emp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当生成一个自定义的类加载器实例时，如果没有指定它的父加载器，那么系统类加载器就将成为该类加载器的父加载器。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220822221530-gd71a1b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822221530-gd71a1b",
+				"updated": "20220822221549"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220822221539.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220822221556-6qt0mt1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220822221556-6qt0mt1",
+				"updated": "20220822221624"
+			},
+			"Children": [
+				{
+					"ID": "20220822221622-v93sd54",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220822221622-v93sd54",
+						"updated": "20220822221624"
+					},
+					"Children": [
+						{
+							"ID": "20220822221622-hx5d8b0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822221622-hx5d8b0",
+								"updated": "20220822221624"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwergreen.com/api/public/20220822221611.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220822221626-gba81yp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822221626-gba81yp",
+				"updated": "20220822221649"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220822221638.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

@@ -8,8 +8,8 @@ var __publicField = (obj, key, value) => {
   __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
   return value;
 };
-var require_index_18e50d07 = __commonJS({
-  "assets/index.18e50d07.js"(exports, module) {
+var require_index_3d0cbca9 = __commonJS({
+  "assets/index.3d0cbca9.js"(exports, module) {
     const p$2 = function polyfill() {
       const relList = document.createElement("link").relList;
       if (relList && relList.supports && relList.supports("modulepreload")) {
@@ -78025,6 +78025,10 @@ var require_index_18e50d07 = __commonJS({
             await oneclickAttr(true);
             const metaweblogCfg = getJSONConf(props.apiType);
             const api = new API(props.apiType);
+            let fmtTitle = formData.title;
+            if (fmtTitle.indexOf(".") > -1) {
+              fmtTitle = fmtTitle.replace(/\d*\./g, "");
+            }
             const data = await getPageMd(siyuanData.pageId);
             const md = removeWidgetTag(data.content);
             let content = md;
@@ -78032,7 +78036,7 @@ var require_index_18e50d07 = __commonJS({
               content = render(md);
             }
             const post = new Post();
-            post.title = formData.title;
+            post.title = fmtTitle;
             post.wp_slug = formData.customSlug;
             post.description = content;
             post.categories = formData.categories;
@@ -78378,8 +78382,8 @@ var require_index_18e50d07 = __commonJS({
         };
       }
     });
-    const MetaweblogMain_vue_vue_type_style_index_0_scoped_85f92c86_lang = "";
-    const MetaweblogMain = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-85f92c86"]]);
+    const MetaweblogMain_vue_vue_type_style_index_0_scoped_e54bc38a_lang = "";
+    const MetaweblogMain = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-e54bc38a"]]);
     const __default__$c = {
       name: "JVueMain",
       components: {
@@ -80026,4 +80030,4 @@ var require_index_18e50d07 = __commonJS({
     app.mount("#app");
   }
 });
-export default require_index_18e50d07();
+export default require_index_3d0cbca9();
