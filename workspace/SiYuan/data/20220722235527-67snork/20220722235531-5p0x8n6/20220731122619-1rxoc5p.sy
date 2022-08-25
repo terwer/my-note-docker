@@ -3,9 +3,11 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "表单校验模板js代码import{reactiveref}fromvue_import{forminstanceformrules}fromelementplus_import{usein}fromvuein_const{t}=usein()constformsize=ref(default)constformref=ref()constformdata=ref({githubuser_})construles=reactive({githubuser_[{required_truemessage_()=",
+		"custom-metaweblog-test1-post-id": "48",
 		"custom-slug": "form-verification",
 		"custom-vuepress-slug": "form-verification",
 		"id": "20220731122619-1rxoc5p",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220731122935-58b2nn2\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220731122828-tdf2l8c\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:674,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220731122935-58b2nn2\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "表单,校验,模板,代码,其中",
 		"title": "表单校验",
 		"updated": "20220731124238"

@@ -2,10 +2,14 @@
 	"ID": "20220715111909-uqr571j",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "git删除所有分支todeleteallthelocaltagssimplerunthefollowingcommandgittag_xargsgittagdtodeleteremotetagsafterdeletingthelocaltagsbyrunningtheabovecommandyoucanrunthecomandbelowgitlsremotetagsrefsorigin_cutf_xargsgitpushorigindeletenote_replaceoriginwithyourremot",
+		"custom-metaweblog-test1-post-id": "34",
+		"custom-slug": "git-delete-all-branches-z22hnwp",
 		"id": "20220715111909-uqr571j",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220715031911-gsgt4it\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220824000029-oa84l6f\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
 		"tags": "git,rm,repo",
 		"title": "git删除所有分支",
-		"updated": "20220715135250"
+		"updated": "20220824000029"
 	},
 	"Children": [
 		{
@@ -105,10 +109,12 @@
 			]
 		},
 		{
-			"ID": "20220715111935-5zhl5ao",
-			"Type": "NodeParagraph",
+			"ID": "20220824000029-oa84l6f",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
 			"Properties": {
-				"id": "20220715111935-5zhl5ao"
+				"id": "20220824000029-oa84l6f",
+				"updated": "20220824000029"
 			}
 		}
 	]

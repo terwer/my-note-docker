@@ -1,0 +1,87 @@
+{
+	"ID": "20220824180134-fx73rtr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220824180134-fx73rtr",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220824180134-sp09bv6\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220824180223-ovz0kgr\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220824180223-ovz0kgr\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "Mac OS解决npm权限不足问题",
+		"updated": "20220824180223"
+	},
+	"Children": [
+		{
+			"ID": "20220824180134-sp09bv6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220824180134-sp09bv6",
+				"updated": "20220824180149"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo chown -R `whoami` ~/.npm\nsudo chown -R `whoami` /usr/local/lib/node_modules\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220824180150-ht8pdlu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220824180150-ht8pdlu",
+				"updated": "20220824180155"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "错误提示如下："
+				}
+			]
+		},
+		{
+			"ID": "20220824180155-ch341xa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220824180155-ch341xa",
+				"updated": "20220824180222"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "permission denied, access '/usr/local/lib/node_modules/'\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220824180223-ovz0kgr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220824180223-ovz0kgr"
+			}
+		}
+	]
+}

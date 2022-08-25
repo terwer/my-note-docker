@@ -6,21 +6,12 @@
 		"custom-slug": "mac-big-sur-installation-cocoapods",
 		"custom-vuepress-slug": "mac-big-sur-installation-cocoapods",
 		"id": "20220703170511-daut6rw",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220703170541-xqu6mze\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220823235710-k5l6n5g\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:7361}",
 		"tags": "mac,cocoapods,ios,安装,切换,中科大",
 		"title": "Mac Big Sur 安装CocoaPods",
-		"updated": "20220726123832"
+		"updated": "20220823235710"
 	},
 	"Children": [
-		{
-			"ID": "20220726123832-pdwmihy",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/publisher\" data-src=\"/widgets/publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1241px; height: 776px;\"\u003e\u003c/iframe\u003e",
-			"Properties": {
-				"id": "20220726123832-pdwmihy",
-				"style": "text-align: left;",
-				"updated": "20220726123832"
-			}
-		},
 		{
 			"ID": "20220703170541-xqu6mze",
 			"Type": "NodeHeading",
@@ -950,11 +941,12 @@
 			]
 		},
 		{
-			"ID": "20220703170550-q8pqxir",
-			"Type": "NodeParagraph",
+			"ID": "20220823235710-k5l6n5g",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
 			"Properties": {
-				"id": "20220703170550-q8pqxir",
-				"updated": "20220703170550"
+				"id": "20220823235710-k5l6n5g",
+				"updated": "20220823235710"
 			}
 		}
 	]

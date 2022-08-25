@@ -1,0 +1,54 @@
+{
+	"ID": "20220825141012-myrrnnr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220825141012-myrrnnr",
+		"title": "Nuxt3直接引入js文件和js代码",
+		"updated": "20220825141032"
+	},
+	"Children": [
+		{
+			"ID": "20220825141012-hdvt6aw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220825141012-hdvt6aw",
+				"updated": "20220825141031"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://github.com/nuxt/framework/discussions/5131"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/nuxt/framework/discussions/5131"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220825141032-dpfaspn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220825141032-dpfaspn"
+			}
+		}
+	]
+}

@@ -3,9 +3,11 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "从零开始使用react写一个随机变色的标签组件标签定义及引用color_设置标签颜色visible_标签是否显示trueclosable_标签是否可以关闭（点击默认关闭）falseonclose_关闭会调icon_iconimportreact{usestate}fromreact_importclassnamesfromclassnames_interfaceipropstag{color?_string_visbile?_boolean_closable?_boolean_onclose?_()=ic",
+		"custom-metaweblog-test1-post-id": "40",
 		"custom-slug": "use-react-to-write-a-random-color-changing-label-component-from-scratch-1ekdsl",
 		"custom-vuepress-slug": "docs/002.前端开发/016.从零开始使用react写一个随机变色的标签组件.md",
 		"id": "20220805175029-vxtmuzm",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220805175412-zvsokwj\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220805175306-7715030\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:18,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220805175412-zvsokwj\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "标签,关闭,定义,是否,从零开始",
 		"title": "从零开始使用react写一个随机变色的标签组件",
 		"updated": "20220805175412"

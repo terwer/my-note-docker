@@ -2,9 +2,14 @@
 	"ID": "20220626154026-asf7i2x",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "zookeeper的基本概念及环境搭建文章更新历史feat_调整文章结构。feat_初稿。分布式系统面临的问题zookeeper最主要的应用场景是作为分布式系统的分布式协同服务。分布式系统可以定义为_分布式系统是同时跨越多个物理主机独立运行的多个软件组成的系统。每个服务器的算力是有限的但是通过分布式系统由n个服务器组成的集群算力是可以无限扩张的。优点很明显人多力量大并且可以相互备份。缺点也很明显以个人作为项目组开发项目为例会面临如下问题_在现实中我们可以认为协调出错了也可以人工补偿。在计算机世界这样行不通",
+		"custom-metaweblog-test1-post-id": "27",
+		"custom-slug": "the-basic-concept-and-environment-of-zookeeper-z1pcrsn",
 		"id": "20220626154026-asf7i2x",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220626074524-3frfit2\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220823235602-j4yfwbd\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:6847,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220823235606-rnvzhws\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "节点,集群,通过,分布式系统,分布式",
 		"title": "Zookeeper的基本概念及环境搭建",
-		"updated": "20220627225503"
+		"updated": "20220823235606"
 	},
 	"Children": [
 		{
@@ -4875,10 +4880,19 @@
 			]
 		},
 		{
-			"ID": "20220627225503-86kb0zl",
+			"ID": "20220823235606-rnvzhws",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220627225503-86kb0zl"
+				"id": "20220823235606-rnvzhws"
+			}
+		},
+		{
+			"ID": "20220823235602-j4yfwbd",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220823235602-j4yfwbd",
+				"updated": "20220823235602"
 			}
 		}
 	]

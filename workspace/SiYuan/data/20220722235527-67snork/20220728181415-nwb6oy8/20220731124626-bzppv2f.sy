@@ -3,9 +3,11 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "vue的reactive和ref的区别首先我们都知道ref函数和reactive函数都是用来定义响应式数据_但是reactive更适合定义复杂的数据类型（jsonarr）ref适合定义基本数据类型（可接收基本数据类型和对象）一句话_使用场景ref简单数据reactive复杂数据ref取数据需要加value参考https_juejincnpost",
+		"custom-metaweblog-test1-post-id": "37",
 		"custom-slug": "the-difference-between-the-reactive-and-ref-of-vue3-zjdawh",
 		"custom-vuepress-slug": "docs/002.前端开发/014.vue3的reactive和ref的区别.md",
 		"id": "20220731124626-bzppv2f",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220731232330-lqfqukr\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220731124920-44n2zqn\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220731232330-lqfqukr\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "数据,定义,数据类型,函数,适合",
 		"title": "vue3的reactive和ref的区别",
 		"updated": "20220801211042"

@@ -4,12 +4,13 @@
 	"Properties": {
 		"custom-desc": "自定义类加载器与jvm内置加载器交互详析java指定class路径javacp_myclasspathtest定义类加载器如果某个类加载器能够加载一个类那么该类加载器称为_定义类加载器。定义类加载器及其所有子类加载器称为_初始类加载器。当生成一个自定义类加载器的实例时如果没有指定它的父类加载器那么系统类加载器就成为该类加载器的父加载器。​",
 		"custom-jvue-post-id": "8003",
+		"custom-metaweblog-test1-post-id": "17",
 		"custom-slug": "130.-customized-class-loader-interacts-with-jvm-built-in-loader-detailed-analysis-z1imndh",
 		"id": "20220710212511-vh1frqq",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220710132511-34d95yz\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220822210120-l3plm4z\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:2242,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220822210120-l3plm4z\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220710132511-34d95yz\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220822210029-4lrio3f\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:2651,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220822210029-4lrio3f\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:3,\u0026amp;quot;focusEnd\u0026amp;quot;:3}",
 		"tags": "java,classloader,jvm",
 		"title": "130.自定义类加载器与JVM内置加载器交互详析",
-		"updated": "20220822210120"
+		"updated": "20220823234522"
 	},
 	"Children": [
 		{
@@ -518,13 +519,6 @@
 					"Data": "​"
 				}
 			]
-		},
-		{
-			"ID": "20220822210120-l3plm4z",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220822210120-l3plm4z"
-			}
 		}
 	]
 }
