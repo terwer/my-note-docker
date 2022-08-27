@@ -44,10 +44,11 @@ let showFloatWnd = function(event){
     );
     临时目标.appendChild(虚拟链接);
     虚拟链接.style.position = "fixed";
+    虚拟链接.style.display = "none";//不显示虚拟链接，防止视觉干扰
     挂件坐标 = 获取元素视图坐标(挂件自身元素);
     let Y = event.clientY + 挂件坐标.Y;
-    let X = event.clientY + 挂件坐标.X;
-    虚拟链接.style.top = Y + "px";//和浮窗弹出位置貌似无关
+    let X = event.clientX + 挂件坐标.X;
+    虚拟链接.style.top = Y + "px";//这个是临时创建的“block-ref”的位置，不设定应该也没啥？
     虚拟链接.style.left = X + "px";
     
     let 点击事件 = 思源主界面.createEvent("MouseEvents");
@@ -73,14 +74,16 @@ let showFloatWnd = function(event){
     //     return null
     // }
     虚拟链接.dispatchEvent(点击事件);
-    //但搬运过来有修改，和上面的修改有点...问题，此部分充满了玄学
-    //强制重设popover位置，间隔5ms，重设事件1.2s
+    //不让悬停时挂件highlight（暂时未定位的产生原因，先通过移除class样式临时解决）
+    window.frameElement.parentElement.parentElement.classList.remove("protyle-wysiwyg--hl");
+    //搬运过来有修改，和上面的修改有点...冲突，此部分充满了玄学
+    //强制重设popover位置，间隔5ms，重设时间1.2s
     let interval = setInterval( ()=>{
         //参考了https://github.com/leolee9086/cc-template/blob/6909dac169e720d3354d77685d6cc705b1ae95be/index.html#L102-L117
         let panel = 思源主界面.querySelector(`.block__popover[data-oid="${linkId}"]`);
         if (panel) {
             console.log("Reset",Y,X)
-            panel.style.top = Y - 24 + "px";//呃，覆盖链接部分防止闪烁
+            panel.style.top = Y + 24 + "px";//呃，不再覆盖链接试一下
             let left = X - (panel.offsetWidth / 2 || 0);
             if (left < 0) left = 0;
             panel.style.left = left + "px";

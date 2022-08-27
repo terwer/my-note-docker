@@ -4,16 +4,409 @@
 	"Properties": {
 		"id": "20220708170758-gwshlxh",
 		"title": "周报",
-		"updated": "20220708090802"
+		"updated": "20220826165137"
 	},
 	"Children": [
 		{
-			"ID": "20220708090758-gvnbzlm",
-			"Type": "NodeParagraph",
+			"ID": "20220826164748-ez10zu0",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/listChildDocs\" data-src=\"/widgets/listChildDocs\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1055px; height: 679px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
-				"id": "20220708090758-gvnbzlm",
-				"updated": "20220708090758"
+				"custom-list-child-docs": "{\u0026amp;quot;printMode\u0026amp;quot;:\u0026amp;quot;2\u0026amp;quot;,\u0026amp;quot;childListId\u0026amp;quot;:\u0026amp;quot;20220826165137-7v9bere\u0026amp;quot;,\u0026amp;quot;listDepth\u0026amp;quot;:1,\u0026amp;quot;auto\u0026amp;quot;:false}",
+				"id": "20220826164748-ez10zu0",
+				"style": "text-align: left;",
+				"updated": "20220826164748"
 			}
+		},
+		{
+			"ID": "20220826165137-7v9bere",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220826165137-7v9bere",
+				"memo": "此块由listChildDocs挂件创建，您的更改可能会被覆盖。如果挂件删除，请删除此块。",
+				"updated": "20220826165137"
+			},
+			"Children": [
+				{
+					"ID": "20220826165137-u21ixvk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220826165137-u21ixvk",
+						"updated": "20220826165137"
+					},
+					"Children": [
+						{
+							"ID": "20220826165137-2fff5pf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220826165137-2fff5pf",
+								"updated": "20220826165137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "📄"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "2022-08-26-周报"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "siyuan://blocks/20220826163149-f4vuujs"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220826165137-zx8iuuu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220826165137-zx8iuuu",
+						"updated": "20220826165137"
+					},
+					"Children": [
+						{
+							"ID": "20220826165137-gtjr46f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220826165137-gtjr46f",
+								"updated": "20220826165137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "📄"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "2022-08-19-周报"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "siyuan://blocks/20220820125623-j6uakxr"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220826165137-mgdhnxg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220826165137-mgdhnxg",
+						"updated": "20220826165137"
+					},
+					"Children": [
+						{
+							"ID": "20220826165137-8cj2ha8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220826165137-8cj2ha8",
+								"updated": "20220826165137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "📄"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "2022-08-13-周报"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "siyuan://blocks/20220813205849-nmvumke"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220826165137-hju8hhw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220826165137-hju8hhw",
+						"updated": "20220826165137"
+					},
+					"Children": [
+						{
+							"ID": "20220826165137-i84gdp0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220826165137-i84gdp0",
+								"updated": "20220826165137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "📄"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "2022-08-05-周报"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "siyuan://blocks/20220806123629-g95mre8"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220826165137-wla6tqz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220826165137-wla6tqz",
+						"updated": "20220826165137"
+					},
+					"Children": [
+						{
+							"ID": "20220826165137-s0ojsb7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220826165137-s0ojsb7",
+								"updated": "20220826165137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "📄"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "2022-07-22-周报"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "siyuan://blocks/20220722220202-pmzgp91"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220826165137-1t35rmt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220826165137-1t35rmt",
+						"updated": "20220826165137"
+					},
+					"Children": [
+						{
+							"ID": "20220826165137-86djvv9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220826165137-86djvv9",
+								"updated": "20220826165137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "📄"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "2022-07-15-周报"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "siyuan://blocks/20220715140539-j7o3uy0"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220826165137-i8km8q2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220826165137-i8km8q2",
+						"updated": "20220826165137"
+					},
+					"Children": [
+						{
+							"ID": "20220826165137-bksun6p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220826165137-bksun6p",
+								"updated": "20220826165137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "📄"
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "2022-07-08-周报"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "siyuan://blocks/20220708155504-ymzxuqi"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }

@@ -5,25 +5,25 @@
                 "default": true,
                 "state": true
             },
-            "toolbar-theme-location-record": {
-                "default": false
-            },
             "toolbar-theme-menu-block": {
                 "default": false
             },
-            "toolbar-theme-style-tabbar": {
-                "default": false
-            },
             "toolbar-theme-style-guides": {
-                "default": false
-            },
-            "toolbar-theme-style-mark": {
                 "default": false
             },
             "toolbar-theme-invert": {
                 "default": false
             },
             "toolbar-theme-typewriter-switch": {
+                "default": false
+            },
+            "toolbar-theme-location-record": {
+                "default": false
+            },
+            "toolbar-theme-style-tabbar": {
+                "default": false
+            },
+            "toolbar-theme-style-mark": {
                 "default": false
             },
             "toolbar-theme-dock-fold": {

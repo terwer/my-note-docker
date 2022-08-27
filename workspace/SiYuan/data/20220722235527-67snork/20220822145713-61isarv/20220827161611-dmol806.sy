@@ -1,0 +1,443 @@
+{
+	"ID": "20220827161611-dmol806",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "15970179",
+		"custom-conf-post-id": "10551298",
+		"custom-desc": "核心实现packagetest_importjavasqlconnection_importjavasqldrivermanager_importjavasqlpreparedstatement_importjavasqlresultset_@authorterwer@description@create_publicclassmain{publicstaticvoidmain(string[]args){connectionconnection=null_preparedstatementprepare",
+		"custom-jvue-post-id": "7957",
+		"custom-kms-post-id": "182dea86c65be34724ee5f947ebaca3c",
+		"custom-liandi-post-id": "1661592442059",
+		"custom-metaweblog-oschina-post-id": "5570469",
+		"custom-slug": "jdbc-problem-analysis-z1rqimy",
+		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/110.JDBC的问题分析.md",
+		"custom-wordpress-post-id": "4131",
+		"custom-wordpress-wp2-post-id": "4246",
+		"custom-yuque-post-id": "90869895",
+		"id": "20220827161611-dmol806",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220827161617-jnfbtnh\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220827161626-3p3fkh4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1646,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220827162036-nn9h4a8\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:14,\u0026amp;quot;focusEnd\u0026amp;quot;:14}",
+		"tags": "数据库,mybatis,jdbc,problem,问题,framework",
+		"title": "110.JDBC的问题分析",
+		"updated": "20220827162036"
+	},
+	"Children": [
+		{
+			"ID": "20220827161617-jnfbtnh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220827161617-jnfbtnh",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "核心实现"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-1xc7dlo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220827161617-1xc7dlo",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package test;\n\nimport java.sql.Connection;\nimport java.sql.DriverManager;\nimport java.sql.PreparedStatement;\nimport java.sql.ResultSet;\n\n/**\n * @author terwer\n * @Description\n * @create 2021-11-30 23:18\n */\npublic class Main {\n    public static void main(String[] args) {\n        Connection connection = null;\n        PreparedStatement preparedStatement = null;\n        ResultSet resultSet = null;\n        try {\n            // 1、加载数据库驱动\n            Class.forName(\"com.mysql.jdbc.Driver\");\n            // 2、获取数据库链接\n            connection = DriverManager.getConnection(\"jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8\u0026useSSL=false\", \"root\", \"123456\");\n\n            // 3、定义sql语句\n            String sql = \"select * from user where username = ?\";\n            // 4、获取预处理对象\n            preparedStatement = connection.prepareStatement(sql);\n            // 5、设置参数\n            preparedStatement.setString(1, \"terwer\");\n            // 6、拿到查询的数据库结果\n            resultSet = preparedStatement.executeQuery();\n\n            while (resultSet.next()) {\n                int id = resultSet.getInt(\"id\");\n                String username = resultSet.getString(\"username\");\n\n                User user = new User();\n                user.setId(id);\n                user.setUsername(username);\n\n                System.out.println(\"user = \" + user.toString());\n            }\n\n            // JDBC问题分析\n            // 1、数据库链接信息等存在硬编码  解决：配置文件\n            // 2、频繁创建释放数据库链接 解决：连接池(c3p0、druid)\n\n            // 查询过程问题分析\n            // 1、sql语句、参数、结果集存在硬编码 解决：配置文件\n\n            // 结果集问题分析\n            // 1、需要手动封装结果集 解决：反射进行对象映射、内省\n\n        } catch (Exception e) {\n            e.printStackTrace();\n        } finally {\n            System.out.println(\"释放资源\");\n        }\n    }\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-jnir8q4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-jnir8q4",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1 问题分析"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-gky4fnn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-gky4fnn",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JDBC 问题总结:"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-iy9mtap",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-iy9mtap",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原始 jdbc 开发存在的问题如下:"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-qut7ua8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-qut7ua8",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、 数据库连接创建、释放频繁造成系统资源浪费，从而影响系统性能。"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-gwrnp65",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-gwrnp65",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、 Sql 语句在代码中硬编码，造成代码不易维护，实际应用中 sql 变化的可能较大，sql 变动需要改变 java 代码。"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-7tk8ra1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-7tk8ra1",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、 使用 preparedStatement 向占有位符号传参数存在硬编码，因为 sql 语句的 where 条件不一定，可能多也可能少，修改 sql 还要修改代码，系统不易维护。"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-ur55lm9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-ur55lm9",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、 对结果集解析存在硬编码(查询列名)，sql 变化导致解析代码变化，系统不易维护，如果能将数据库记录封装成 pojo 对象解析比较方便"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-3famsgi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-3famsgi",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2 问题解决思路"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-irkeamb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-irkeamb",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、使用数据库连接池初始化连接资源"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-my6djz2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-my6djz2",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、将 sql 语句抽取到 xml 配置文件中"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-6xc8cjw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-6xc8cjw",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、使用反射、内省等底层技术，自动将实体与表进行属性与字段的自动映射"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-xra26bt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220827161617-xra26bt",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mysql 驱动链接"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-hraizo1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-hraizo1",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://files.cnblogs.com/files/tangyouwei/mysql-connector-java-5.1.49.jar.zip"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://files.cnblogs.com/files/tangyouwei/mysql-connector-java-5.1.49.jar.zip"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-yapf2ao",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220827161617-yapf2ao",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "源码"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-rvpna5k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-rvpna5k",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Gitee 版"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-ef882wn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-ef882wn",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://gitee.com/youweics/senior-java-engineer-road/blob/master/p7-skill/framework/mybatis/jdbc-simple/src/main/java/com/terwergreen/App.java"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://gitee.com/youweics/senior-java-engineer-road/blob/master/p7-skill/framework/mybatis/jdbc-simple/src/main/java/com/terwergreen/App.java"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-6rtads7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-6rtads7",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Github 版"
+				}
+			]
+		},
+		{
+			"ID": "20220827161617-epr97ba",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220827161617-epr97ba",
+				"updated": "20220827161617"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://github.com/terwer/senior-java-engineer-road/blob/master/p7-skill/framework/mybatis/jdbc-simple/src/main/java/com/terwergreen/App.java"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/terwer/senior-java-engineer-road/blob/master/p7-skill/framework/mybatis/jdbc-simple/src/main/java/com/terwergreen/App.java"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220827161626-3p3fkh4",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220827161626-3p3fkh4",
+				"updated": "20220827162036"
+			},
+			"Children": [
+				{
+					"ID": "20220827162121-cb48v0u",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220827162121-cb48v0u",
+						"updated": "20220827162126"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220827162036-tvl9d8k",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220827162036-tvl9d8k",
+						"updated": "20220827162036"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/03/06 校对完成"
+						}
+					]
+				},
+				{
+					"ID": "20220827162036-nn9h4a8",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220827162036-nn9h4a8",
+						"updated": "20220827162036"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/03/16 初稿。"
+						}
+					]
+				}
+			]
+		}
+	]
+}
