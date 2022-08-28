@@ -1,0 +1,819 @@
+{
+	"ID": "20220828113017-muleg4p",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "项目结构├──ipersistence│├──ipersistenceiml│├──pomxml│└──src└──ipersistence_test├──ipersistence_testiml├──pomxml├──src└──target具体代码sqlmapperconfigxml配置文件usermapperxml配置文件selectfromuserselectfromuserwhereid=#{id}andusername=#{username}读取资源处理resources类资源处理类@name",
+		"custom-jvue-post-id": "8006",
+		"custom-slug": "code-implementation-of-custom-persistence-layer-framework",
+		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/122.自定义持久层框架的代码实现一.md",
+		"id": "20220828113017-muleg4p",
+		"tags": "配置文件,项目,结构,具体,代码",
+		"title": "122.自定义持久层框架的代码实现一",
+		"updated": "20220828114849"
+	},
+	"Children": [
+		{
+			"ID": "20220828114315-llwvmtk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220828114315-llwvmtk",
+				"updated": "20220828114353"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目结构"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-m0imh8v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-m0imh8v",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": ".\n├── IPersistence\n│   ├── IPersistence.iml\n│   ├── pom.xml\n│   └── src\n└── IPersistence_test\n    ├── IPersistence_test.iml\n    ├── pom.xml\n    ├── src\n    └── target\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-vsvurxd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220828114315-vsvurxd",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "具体代码"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-ehuwysx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220828114315-ehuwysx",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "sqlMapperConfig.xml配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-3jiqitw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-3jiqitw",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cconfiguration\u003e\n    \u003c!-- 存放数据库配置信息 --\u003e\n    \u003cdataSource\u003e\n        \u003cproperty name=\"driverClass\" value=\"com.mysql.jdbc.Driver\"\u003e\u003c/property\u003e\n        \u003cproperty name=\"jdbcUrl\" value=\"jdbc:mysql://localhost:3306/zdy_mybatis\"\u003e\u003c/property\u003e\n        \u003cproperty name=\"username\" value=\"root\"\u003e\u003c/property\u003e\n        \u003cproperty name=\"password\" value=\"123456\"\u003e\u003c/property\u003e\n    \u003c/dataSource\u003e\n\n    \u003c!-- 存放mapper.xml全路径 --\u003e\n    \u003cmapper resource=\"UserMapper.xml\" /\u003e\n\u003c/configuration\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-a3c90qz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220828114315-a3c90qz",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "UserMapper.xml配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-b8nc6f5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-b8nc6f5",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cmapper namespace=\"user\"\u003e\n    \u003c!-- sql的唯一标识：namespace.id组合：statementId --\u003e\n    \u003cselect id=\"selectList\" resultType=\"com.terwergreen.pojo.User\"\u003e\n        select * from user\n    \u003c/select\u003e\n    \u003cselect id=\"selectOne\" resultType=\"com.terwergreen.pojo.User\" parameterType=\"com.terwergreen.pojo.User\"\u003e\n        select * from user where id = #{id} and username = #{username}\n    \u003c/select\u003e\n\u003c/mapper\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-yo1yie5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220828114315-yo1yie5",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "读取资源处理，Resources类"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-84rwy4b",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220828114315-84rwy4b",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-iowztk9",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220828114315-iowztk9",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-1apels8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-1apels8",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 资源处理类\n *\n * @name: Resource\n * @author: terwer\n * @date: 2022-05-08 15:57\n */\nobject Resources {\n    /**\n     * 根据配置文件的路径，将配置文件加载成字节输入流，存储到内存中\n     *\n     * @param path\n     * @return\n     */\n    @JvmStatic\n    fun getResourceAsStream(path: String?): InputStream {\n        return Resources::class.java.classLoader.getResourceAsStream(path)\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-hckccu8",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-hckccu8",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-pqh4i9y",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220828114315-pqh4i9y",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-lob28uf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-lob28uf",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 资源处理类\n *\n * @name: Resource\n * @author: terwer\n * @date: 2022-03-14 12:57\n **/\npublic class Resources {\n    /**\n     * 根据配置文件的路径，将配置文件加载成字节输入流，存储到内存中\n     *\n     * @param path\n     * @return\n     */\n    public static InputStream getResourceAsStream(String path) {\n        InputStream inputStream = Resources.class.getClassLoader().getResourceAsStream(path);\n        return inputStream;\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-uiukck3",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-uiukck3",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-b83rh0p",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220828114315-b83rh0p",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-ke9ncti",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220828114315-ke9ncti",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SqlSessionFactoryBuider工厂构建对象"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-wxcqzed",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220828114315-wxcqzed",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-l0s2wac",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220828114315-l0s2wac",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-57dgj3q",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-57dgj3q",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 工厂构建对象\n *\n * @name: SqlSessionFactoryBuilder\n * @author: terwer\n * @date: 2022-05-08 15:18\n */\nclass SqlSessionFactoryBuilder {\n    @Throws(DocumentException::class, PropertyVetoException::class)\n    fun build(ips: InputStream?): SqlSessionFactory {\n        // 1、解析配置文件，将解析出来的内容封装到Configuration中\n        val xmlConfigBuilder = XmlConfigBuilder()\n        val configuration = xmlConfigBuilder.parse(ips)\n\n        // 2、创建SqlSessionFactory对象\n        return DefaultSqlSessionFactory(configuration)\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-rwxjxbp",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-rwxjxbp",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-9rah5r5",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220828114315-9rah5r5",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-nn6snhj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-nn6snhj",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 工厂构建对象\n *\n * @name: SqlSessionFactoryBuilder\n * @author: terwer\n * @date: 2022-03-14 15:18\n **/\npublic class SqlSessionFactoryBuilder {\n    public SqlSessionFactory build(InputStream in) throws DocumentException, PropertyVetoException {\n        // 1、解析配置文件，将解析出来的内容封装到Configuration中\n        XmlConfigBuilder xmlConfigBuilder = new XmlConfigBuilder();\n        Configuration configuration = xmlConfigBuilder.parse(in);\n\n        // 2、创建SqlSessionFactory对象\n        DefaultSqlSessionFactory sqlSessionFactory = new DefaultSqlSessionFactory(configuration);\n        return sqlSessionFactory;\n    }\n\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-w5kddcd",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-w5kddcd",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-5y4svrg",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220828114315-5y4svrg",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-hrh22a8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220828114315-hrh22a8",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置文件解析"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-svi6990",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220828114315-svi6990",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-99m4dsa",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220828114315-99m4dsa",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-1pwdwr2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-1pwdwr2",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * @name: XmlConfigBuilder\n * @author: terwer\n * @date: 2022-03-14 15:40\n */\nclass XmlConfigBuilder {\n    private val configuration: Configuration\n\n    init {\n        configuration = Configuration()\n    }\n\n    /**\n     * 使用dom4j将配置文件进行解析，封装Configuration\n     *\n     * @param in\n     * @return\n     */\n    @Throws(DocumentException::class, PropertyVetoException::class)\n    fun parse(ips: InputStream?): Configuration {\n        val document = SAXReader().read(ips)\n        // \u003cconfiruration\u003e\n        val rootElement = document.rootElement\n        val list: List\u003cElement?\u003e = rootElement.selectNodes(\"//property\")\n        val properties = Properties()\n        for (element in list) {\n            val name = element!!.attributeValue(\"name\")\n            val value = element.attributeValue(\"value\")\n            properties.setProperty(name, value)\n        }\n        val comboPooledDataSource = ComboPooledDataSource()\n        comboPooledDataSource.driverClass = properties.getProperty(\"driverClass\")\n        comboPooledDataSource.jdbcUrl = properties.getProperty(\"jdbcUrl\")\n        comboPooledDataSource.user = properties.getProperty(\"username\")\n        comboPooledDataSource.password = properties.getProperty(\"password\")\n        configuration.dataSource = comboPooledDataSource\n\n        // mapper.xml解析，拿到路径，加载成字节输入流，进行解析\n        val mapperList: List\u003cElement?\u003e = rootElement.selectNodes(\"//mapper\")\n        // \u003cmapper\u003e\n        for (element in mapperList) {\n            val mapperPath = element!!.attributeValue(\"resource\")\n            val resourceAsStream = Resources.getResourceAsStream(mapperPath)\n            val xmlMapperBuilder = XmlMapperBuilder(configuration)\n            xmlMapperBuilder.parse(resourceAsStream)\n        }\n        return configuration\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-m8lajuk",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-m8lajuk",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-akl4kvt",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220828114315-akl4kvt",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-chgl98x",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-chgl98x",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * @name: XmlConfigBuilder\n * @author: terwer\n * @date: 2022-03-14 15:40\n **/\npublic class XmlConfigBuilder {\n\n    private Configuration configuration;\n\n    public XmlConfigBuilder() {\n        configuration = new Configuration();\n    }\n\n    /**\n     * 使用dom4j将配置文件进行解析，封装Configuration\n     *\n     * @param in\n     * @return\n     */\n    public Configuration parse(InputStream in) throws DocumentException, PropertyVetoException {\n        Document document = new SAXReader().read(in);\n        // \u003cconfiruration\u003e\n        Element rootElement = document.getRootElement();\n\n        List\u003cElement\u003e list = rootElement.selectNodes(\"//property\");\n        Properties properties = new Properties();\n        for (Element element : list) {\n            String name = element.attributeValue(\"name\");\n            String value = element.attributeValue(\"value\");\n\n            properties.setProperty(name, value);\n        }\n\n        ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource();\n        comboPooledDataSource.setDriverClass(properties.getProperty(\"driverClass\"));\n        comboPooledDataSource.setJdbcUrl(properties.getProperty(\"jdbcUrl\"));\n        comboPooledDataSource.setUser(properties.getProperty(\"username\"));\n        comboPooledDataSource.setPassword(properties.getProperty(\"password\"));\n\n        configuration.setDataSource(comboPooledDataSource);\n\n        // mapper.xml解析，拿到路径，加载成字节输入流，进行解析\n        List\u003cElement\u003e mapperList= rootElement.selectNodes(\"//mapper\");\n        // \u003cmapper\u003e\n        for (Element element : mapperList) {\n            String mapperPath = element.attributeValue(\"resource\");\n            InputStream resourceAsStream = Resources.getResourceAsStream(mapperPath);\n\n            XmlMapperBuilder xmlMapperBuilder = new XmlMapperBuilder(configuration);\n            xmlMapperBuilder.parse(resourceAsStream);\n        }\n\n        return configuration;\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-bflih20",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-bflih20",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-sh2zg1o",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220828114315-sh2zg1o",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-k9h96g6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220828114315-k9h96g6",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mapper映射文件解析"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-tzb5o2r",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220828114315-tzb5o2r",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-p9k35bu",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220828114315-p9k35bu",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-zgkrnth",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-zgkrnth",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * mapper解析器\n *\n * @name: XmlMapperBuilder\n * @author: terwer\n * @date: 2022-05-08 16:16\n */\nclass XmlMapperBuilder(private val configuration: Configuration) {\n    @Throws(DocumentException::class)\n    fun parse(`in`: InputStream?) {\n        val document = SAXReader().read(`in`)\n\n        // \u003cmapper\u003e\n        val rootElement = document.rootElement\n        val namespace = rootElement.attributeValue(\"namespace\")\n        val list: List\u003cElement?\u003e = rootElement.selectNodes(\"//select\")\n        for (element in list) {\n            val id = element!!.attributeValue(\"id\")\n            val resultType = element.attributeValue(\"resultType\")\n            val parameterType = element.attributeValue(\"parameterType\")\n            val sqlText = element.textTrim\n            val mappedStatement = MappedStatement()\n            mappedStatement.statementId = id\n            mappedStatement.resultType = resultType\n            mappedStatement.parameterType = parameterType\n            mappedStatement.sql = sqlText\n            val mappedStatementMap = configuration.mappedStatementMap\n            val statementId = \"$namespace.$id\"\n            mappedStatementMap[statementId] = mappedStatement\n        }\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-evlyb2a",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-evlyb2a",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-sb29hc9",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220828114315-sb29hc9",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-liaw7ot",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-liaw7ot",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * mapper解析器\n *\n * @name: XmlMapperBuilder\n * @author: terwer\n * @date: 2022-03-14 16:16\n **/\npublic class XmlMapperBuilder {\n    private Configuration configuration;\n\n    public XmlMapperBuilder(Configuration configuration) {\n        this.configuration = configuration;\n    }\n\n    public void parse(InputStream in) throws DocumentException {\n        Document document = new SAXReader().read(in);\n\n        // \u003cmapper\u003e\n        Element rootElement = document.getRootElement();\n        String namespace = rootElement.attributeValue(\"namespace\");\n\n        List\u003cElement\u003e list = rootElement.selectNodes(\"//select\");\n        for (Element element : list) {\n            String id = element.attributeValue(\"id\");\n            String resultType = element.attributeValue(\"resultType\");\n            String parameterType = element.attributeValue(\"parameterType\");\n\n            String sqlText = element.getTextTrim();\n\n            MappedStatement mappedStatement = new MappedStatement();\n            mappedStatement.setStatementId(id);\n            mappedStatement.setResultType(resultType);\n            mappedStatement.setParameterType(parameterType);\n            mappedStatement.setSql(sqlText);\n\n            Map\u003cString, MappedStatement\u003e mappedStatementMap = configuration.getMappedStatementMap();\n            String statementId = namespace + \".\" + id;\n            mappedStatementMap.put(statementId, mappedStatement);\n        }\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-s2az3mh",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-s2az3mh",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-9hqunlh",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220828114315-9hqunlh",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-6jq72un",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220828114315-6jq72un",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SqlSession的具体实现"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-a4zi4fa",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220828114315-a4zi4fa",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-qhu6myn",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220828114315-qhu6myn",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-ghr0bt1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-ghr0bt1",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * @name: SqlSession\n * @author: terwer\n * @date: 2022-05-08 16:35\n */\ninterface SqlSession {\n    /**\n     * 查询所有\n     */\n    @Throws(Exception::class)\n    fun \u003cE\u003e selectList(statementId: String?, vararg params: Any?): List\u003cE\u003e?\n\n    /**\n     * 查询单个\n     */\n    @Throws(Exception::class)\n    fun \u003cT\u003e selectOne(statementId: String?, vararg params: Any?): T\n    fun \u003cT\u003e getMapper(mapperClass: Class\u003c*\u003e?): T\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-e3y8wbm",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-e3y8wbm",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-ddurrcj",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220828114315-ddurrcj",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-kn47hiq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828114315-kn47hiq",
+				"updated": "20220828114315"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * @name: SqlSession\n * @author: terwer\n * @date: 2022-03-14 16:35\n **/\npublic interface SqlSession {\n    /**\n     * 查询所有\n     */\n    public \u003cE\u003e List\u003cE\u003e selectList(String statementId, Object... params) throws Exception;\n\n    /**\n     * 查询单个\n     */\n    public \u003cT\u003e T selectOne(String statementId, Object... params) throws Exception;\n\n    public \u003cT\u003e T getMapper(Class\u003c?\u003e mapperClass);\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828114315-zpi79o5",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828114315-zpi79o5",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114315-m8r5evu",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220828114315-m8r5evu",
+				"updated": "20220828114315"
+			}
+		},
+		{
+			"ID": "20220828114357-z16wuq2",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220828114357-z16wuq2",
+				"updated": "20220828114340"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220828114340-ok7dchd",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220828114340-ok7dchd"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史"
+						}
+					]
+				},
+				{
+					"ID": "20220828114315-y4302vt",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220828114315-y4302vt",
+						"updated": "20220828114315"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/08 feat:增加Kotlin实现。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220828114849-dibbe69",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220828114849-dibbe69"
+			}
+		}
+	]
+}

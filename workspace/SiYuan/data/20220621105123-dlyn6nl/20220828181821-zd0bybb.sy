@@ -1,0 +1,208 @@
+{
+	"ID": "20220828181821-zd0bybb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "这里是一些常用格式的用法示例代码选项卡代码‍‍```kotlin工厂构建对象@name_sqlsessionfactorybuilder@author_terwer@date__classsqlsessionfactorybuilder{@throws(documentexception__classpropertyvetoexception__class)funbuild(ips_inputstream?)_sqlsessionfactory{}}‍‍```‍‍```java工厂构建对象@name_sq",
+		"custom-slug": "hello-world",
+		"id": "20220828181821-zd0bybb",
+		"tags": "代码,选项卡,code,code-group",
+		"title": "HelloWorld",
+		"updated": "20220828194059"
+	},
+	"Children": [
+		{
+			"ID": "20220828182644-q07azfu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220828182644-q07azfu",
+				"updated": "20220828182702"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里是一些常用格式的用法示例"
+				}
+			]
+		},
+		{
+			"ID": "20220828181821-xulp5hp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220828181821-xulp5hp",
+				"updated": "20220828181839"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码选项卡"
+				}
+			]
+		},
+		{
+			"ID": "20220828182741-rl6cox1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220828182741-rl6cox1",
+				"updated": "20220828182747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码"
+				}
+			]
+		},
+		{
+			"ID": "20220828191213-vhgun8v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828191213-vhgun8v",
+				"updated": "20220828193924"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ccode-group\u003e\n\n\u003ccode-block title=\"Kotlin\" active\u003e\n\n‍```kotlin\n‍```\n\n\u003c/code-block\u003e\n\n\u003ccode-block title=\"Java\"\u003e\n\n‍```java\n‍```\n\n\u003c/code-block\u003e\n\n\u003c/code-group\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828193419-cnx0hqb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220828193419-cnx0hqb",
+				"updated": "20220828193425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "效果"
+				}
+			]
+		},
+		{
+			"ID": "20220828193949-hd2a5fx",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220828193949-hd2a5fx",
+				"updated": "20220828193949"
+			}
+		},
+		{
+			"ID": "20220828193949-n9w20mn",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220828193949-n9w20mn",
+				"updated": "20220828193949"
+			}
+		},
+		{
+			"ID": "20220828193949-vygje2t",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828193949-vygje2t",
+				"updated": "20220828194059"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "kotlin\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828193949-m943t55",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828193949-m943t55",
+				"updated": "20220828193949"
+			}
+		},
+		{
+			"ID": "20220828193949-oir0qba",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220828193949-oir0qba",
+				"updated": "20220828193949"
+			}
+		},
+		{
+			"ID": "20220828193949-8iclb97",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220828193949-8iclb97",
+				"updated": "20220828194051"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "java\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220828193949-hx652ad",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220828193949-hx652ad",
+				"updated": "20220828193949"
+			}
+		},
+		{
+			"ID": "20220828193949-3dy2dc7",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220828193949-3dy2dc7",
+				"updated": "20220828193949"
+			}
+		}
+	]
+}
