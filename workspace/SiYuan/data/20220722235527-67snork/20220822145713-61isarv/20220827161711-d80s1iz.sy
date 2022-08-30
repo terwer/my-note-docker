@@ -16,7 +16,7 @@
 		"custom-yuque-post-id": "90875390",
 		"id": "20220827161711-d80s1iz",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220827184146-umino29\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220827185550-xpz4z9r\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:932.5}",
-		"tags": "custom,dao,framework,persistence",
+		"tags": "custom,dao,framework,persistence,mybatis,mybatis-2",
 		"title": "121.自定义持久层框架的设计思路",
 		"updated": "20220828114213"
 	},

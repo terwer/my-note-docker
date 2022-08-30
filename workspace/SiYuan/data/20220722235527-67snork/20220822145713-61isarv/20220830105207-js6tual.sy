@@ -1,0 +1,2201 @@
+{
+	"ID": "20220830105207-js6tual",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16638684",
+		"custom-desc": "mybatis基本流程利用resources工具类加载配置文件并转换成输入输出流利用解析的配置创建sqlsessionfactory工厂生产sqlsessionsqlsession调用方法mybatis配置文件分析sqlmapconfigxmlmybatis核心配置文件层级mybatis常用配置解析输出日志在sqlmapconfigxml添加如下配置_）environments标签事务管理器（transactionmanager）类型有两种_jdbc_直接使用jdbc的提交和回滚设置依赖于从数据源得到的链",
+		"custom-jvue-post-id": "8012",
+		"custom-kms-post-id": "182ecc44fefb6d2cee704874eb6a8bef",
+		"custom-slug": "mybatis-basic-process-and-configuration-file-analysis",
+		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/230.Mybatis基本流程及配置文件解析.md",
+		"custom-yuque-post-id": "91164767",
+		"id": "20220830105207-js6tual",
+		"tags": "配置,事务,mybatis,config,cfg,mybatis-9,framework",
+		"title": "230.Mybatis基本流程及配置文件解析",
+		"updated": "20220830105327"
+	},
+	"Children": [
+		{
+			"ID": "20220830105327-gafnm5o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220830105327-gafnm5o",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mybatis基本流程"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-sdnjwle",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-sdnjwle",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、利用Resources工具类加载配置文件，并转换成输入输出流"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-unoc7x3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-unoc7x3",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、利用解析的配置，创建SqlSessionFactory工厂"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-jcie4f3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-jcie4f3",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、生产SqlSession"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-xrzf3qj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-xrzf3qj",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、SqlSession调用方法"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-0o788fz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220830105327-0o788fz",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mybatis配置文件分析"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-ahcz52j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830105327-ahcz52j",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "sqlMapConfig.xml"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-m7dwhae",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830105327-m7dwhae",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyBatis核心配置文件层级"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-9kni0d9",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317110557.png\" alt=\"image-20220317110551420\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830105327-9kni0d9",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-ap1z9ib",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830105327-ap1z9ib",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyBatis常用配置解析"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-rk8sdwo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-rk8sdwo",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输出日志，在sqlMapConfig.xml添加如下配置："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-su1wzas",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-su1wzas",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003csettings\u003e\n  \u003c!-- 输出日志 --\u003e\n  \u003csetting name=\"logImpl\" value=\"STDOUT_LOGGING\" /\u003e\n\u003c/settings\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-0eajup0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-0eajup0",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1）environments标签"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-f6p9alp",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317110917.png\" alt=\"image-20220317110912040\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830105327-f6p9alp",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-36f2bkl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-36f2bkl",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事务管理器（ "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "transactionManager"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ）类型有两种："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-doeujdp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-doeujdp",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JDBC：直接使用JDBC的提交和回滚设置，依赖于从数据源得到的链接来管理事务的作用域"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-90pnkt9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-90pnkt9",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MANAGED：几乎不做事。不提交事务也不会回滚。让容器（例如JEE的应用服务器的上下文）来管理事务的整个生命周期。"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-nf2d4b1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-nf2d4b1",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认情况下会关闭链接，然而一些容器不希望这样，需要配置 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "closeConnection"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的属性为 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "false"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 来阻止它的默认关闭行为。"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-s701a9x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-s701a9x",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据源（ "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "DataSource"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ）有三种："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-0g154rc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220830105327-0g154rc",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"ID": "20220830105327-ibjqlis",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-ibjqlis",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-rr86176",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-rr86176",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "UNPOOLED：每次请求都打开和关闭链接"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830105327-lv13qn9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-lv13qn9",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-rpsa3zw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-rpsa3zw",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "POOLED：采用连接池管理JDBC链接"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830105327-qqhei31",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-qqhei31",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-ayof3fq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-ayof3fq",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JNDI：为了配合EJB容器使用，容器可以集中在外部配置数据源，然后放置一个JNDI的上下文引用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-6vhrnuy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-6vhrnuy",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2）mapper标签"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-vph5yvo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-vph5yvo",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作用是加载映射，加载方式有以下四种："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-o0qxl4u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220830105327-o0qxl4u",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"ID": "20220830105327-bhkpi7j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-bhkpi7j",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-33mbq9e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-33mbq9e",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用相对类路径的引用，例如："
+								}
+							]
+						},
+						{
+							"ID": "20220830105327-brb0z27",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830105327-brb0z27",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cmapper resource=\"org/mybatis/builder/AuthorMapper.xml\" /\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830105327-k5qyrtb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-k5qyrtb",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-z42nmj8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-z42nmj8",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用URL，例如："
+								}
+							]
+						},
+						{
+							"ID": "20220830105327-9370swa",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830105327-9370swa",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cMappper url=\"file:///var/mapper/AuthorMapper.xml\" /\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830105327-u6kw09a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-u6kw09a",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-z7ev24o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-z7ev24o",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用接口实现类的全限定类名，例如："
+								}
+							]
+						},
+						{
+							"ID": "20220830105327-1kguvjr",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830105327-1kguvjr",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cmapper class=\"org.mybatis.builder.AuthorMapper\" /\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830105327-evidrd4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-evidrd4",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-k85y1fg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-k85y1fg",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用包名称，例如："
+								}
+							]
+						},
+						{
+							"ID": "20220830105327-onazeha",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830105327-onazeha",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cpackage name=\"org.mybatis.builder\" /\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-z8g5ww2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-z8g5ww2",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3）Properties"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-uzc1vp2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-uzc1vp2",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "习惯性将数据量配置信息单独配置在 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "jdbc.properties"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件中"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-d9x12e0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-d9x12e0",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "jdbc.dirver=com.mysql.jdbc.Driver\njdbc.url=jdbc:mysql://localhost:3306/zdy_mybatis?characterEncoding=utf8\njdbc.username=root\njdbc.password=123456\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-o6bsiwj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-o6bsiwj",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cproperties resource=\"jdbc.properties\"/\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-nifyczm",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317133052.png\" alt=\"image-20220317133039702\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830105327-nifyczm",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-eep8ylr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-eep8ylr",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意顺序：properties必须在最前面，否则会报如下错误"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-44imj9s",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317133515.png\" alt=\"image-20220317133510592\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830105327-44imj9s",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-ktkqqre",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-ktkqqre",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4）typeAliases标签"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-wthk919",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-wthk919",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型别名是为Java类设置一个短的名字。原来的类型配置如下："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-mrnz71z",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-mrnz71z",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselect id=\"findAll\" resultType=\"com.terwergreen.pojo.User\"\u003e\nselect * from user\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-439nf1a",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317135141.png\" alt=\"image-20220317135136062\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830105327-439nf1a",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-b7khdnj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-b7khdnj",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置typeAliases，为 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "com.terwergreen.pojo.User"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 指定别名 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "user"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-mqxllu8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-mqxllu8",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctypeAliases\u003e\n    \u003ctypeAlias type=\"com.terwergreen.pojo.User\" alias=\"user\"/\u003e\n\u003c/typeAliases\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-yz6yr1w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-yz6yr1w",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cselect id=\"findAll\" resultType=\"user\"\u003e\nselect * from user\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-uivpw2n",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317135454.png\" alt=\"image-20220317135448999\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830105327-uivpw2n",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-klpfere",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-klpfere",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上面是我们自定义的别名，Mybatis 默认已经为我们设置好了一些别名："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-1v9os21",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317135848.png\" alt=\"image-20220317135843506\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830105327-1v9os21",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-jj5rtde",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-jj5rtde",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果实体类较多，上面方法不可取，可以使用指定包名的方式"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-7vmna2g",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-7vmna2g",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 为实体的全限定类名取别名 --\u003e\n\u003ctypeAliases\u003e\n  \u003c!-- 给单独的实体起别名 --\u003e\n  \u003c!-- \u003ctypeAlias type=\"com.terwergreen.pojo.User\" alias=\"user\"/\u003e --\u003e\n  \u003cpackage name=\"com.terwergreen.pojo\"/\u003e \n\u003c/typeAliases\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-g7rv8j4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-g7rv8j4",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "批量起别名：该包下所有类本身的类名，"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "不区分大小写"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-d3x8bd7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830105327-d3x8bd7",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mapper.xml"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-a7rft5k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-a7rft5k",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1)动态SQL"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-8x33d2x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-8x33d2x",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态SQL语句概述"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-qiee9fv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-qiee9fv",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://mybatis.org/mybatis-3/dynamic-sql.html"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-dn05d8k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220830105327-dn05d8k",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态SQL之 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\u003cif\u003e"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-x3co842",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-x3co842",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "根据实体类的不用取值，使用不同的SQL进行查询"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-2h9d39n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-2h9d39n",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 多条件组合查询用户：if案例 --\u003e\n\u003cselect id=\"findByCondition\" parameterType=\"user\" resultType=\"user\"\u003e\n  select * from user where 1=1\n  \u003cif test=\"id!=null\"\u003e\n    and id=#{id}\n  \u003c/if\u003e\n  \u003cif test=\"username!=null\"\u003e\n    and username=#{username}\n  \u003c/if\u003e\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-u500tii",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220830105327-u500tii",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态SQL之 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "where"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-ww6cfux",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-ww6cfux",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 多条件组合查询用户：where案例 --\u003e\n\u003cselect id=\"findByConditionWhere\" parameterType=\"user\" resultType=\"user\"\u003e\n  select * from user\n  \u003cwhere\u003e\n    \u003cif test=\"id!=null\"\u003e\n        and id=#{id}\n    \u003c/if\u003e\n    \u003cif test=\"username!=null\"\u003e\n        and username=#{username}\n    \u003c/if\u003e\n  \u003c/where\u003e\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-sxmxn73",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-sxmxn73",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同时设置id和username之后，日志如下："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-8t4h3g9",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220830105327-8t4h3g9",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-ztp39z4",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220830105327-ztp39z4",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-5kf9jbw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-5kf9jbw",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * where测试\n *\n * @throws IOException\n */\n@Test\n@Throws(IOException::class)\nfun test7() {\n    val resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\")\n    val sqlSessionFactory = SqlSessionFactoryBuilder().build(resourceAsStream)\n    val sqlSession = sqlSessionFactory.openSession()\n    val userDao = sqlSession.getMapper(IUserDao::class.java)\n    val user = User()\n    user.id = 1\n    user.username = \"tyw\"\n    val userList = userDao.findByConditionWhere(user)\n    for (user2 in userList) {\n        println(user2)\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-s4cdgk6",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830105327-s4cdgk6",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-fwnuy98",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220830105327-fwnuy98",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-zwqtmij",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-zwqtmij",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " public void test7() throws IOException {\n   InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n   SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n\n   SqlSession sqlSession = sqlSessionFactory.openSession();\n   IUserDao userDao = sqlSession.getMapper(IUserDao.class);\n\n   User user = new User();\n   user.setId(1);\n   user.setUsername(\"tyw\");\n   List\u003cUser\u003e userList = userDao.findByConditionWhere(user);\n\n   for (User user2 : userList) {\n     System.out.println(user2);\n   }\n }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-36g0zam",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830105327-36g0zam",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-s0m9zav",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220830105327-s0m9zav",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-qbuspma",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-qbuspma",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "==\u003e  Preparing: select * from user WHERE id=? and username=? \n==\u003e Parameters: 1(Integer), tyw(String)\n\u003c==    Columns: id, username\n\u003c==        Row: 1, tyw\n\u003c==      Total: 1\nUser{id=1, username='tyw'}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-zmoq84c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220830105327-zmoq84c",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态SQL之 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "foreach"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-qbbfeyr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-qbbfeyr",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "循环执行SQL的拼接动作。例如："
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "select * from user where id in(1,2,4)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-ji2l3jq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-ji2l3jq",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试代码"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-is7st2u",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220830105327-is7st2u",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-xqwnbxe",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220830105327-xqwnbxe",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-0lyq7l0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-0lyq7l0",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * foreach测试\n *\n * @throws IOException\n */\n@Test\n@Throws(IOException::class)\nfun test8() {\n    val resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\")\n    val sqlSessionFactory = SqlSessionFactoryBuilder().build(resourceAsStream)\n    val sqlSession = sqlSessionFactory.openSession()\n    val userDao = sqlSession.getMapper(IUserDao::class.java)\n    val ids = arrayOf(1, 2, 4)\n    val userList = userDao.findByIds(ids)\n    for (user2 in userList) {\n        println(user2)\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-gwqgnoo",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830105327-gwqgnoo",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-fwdghkn",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220830105327-fwdghkn",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-ezztcq4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-ezztcq4",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public void test8() throws IOException {\n  InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n  SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n\n  SqlSession sqlSession = sqlSessionFactory.openSession();\n  IUserDao userDao = sqlSession.getMapper(IUserDao.class);\n\n  Integer[] ids = new Integer[]{1, 2, 4};\n  List\u003cUser\u003e userList = userDao.findByIds(ids);\n\n  for (User user2 : userList) {\n    System.out.println(user2);\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-hzzclep",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830105327-hzzclep",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-sr6pqdq",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220830105327-sr6pqdq",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-bbtiwaa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-bbtiwaa",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置如下"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-yrtyceu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-yrtyceu",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 多值查询：foerach案例 --\u003e\n\u003cselect id=\"findByIds\" parameterType=\"list\" resultType=\"user\"\u003e\n  select * from user\n  \u003cwhere\u003e\n    \u003cforeach collection=\"array\" open=\"id in (\" close=\")\" item=\"id\" separator=\",\"\u003e\n      #{id}\n    \u003c/foreach\u003e\n  \u003c/where\u003e\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-7mv758w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-7mv758w",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日志如下："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-0c7krkq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-0c7krkq",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "==\u003e  Preparing: select * from user WHERE id in ( ? , ? , ? ) \n==\u003e Parameters: 1(Integer), 2(Integer), 4(Integer)\n\u003c==    Columns: id, username\n\u003c==        Row: 1, tyw\n\u003c==        Row: 2, 张月\n\u003c==        Row: 4, haha\n\u003c==      Total: 3\nUser{id=1, username='tyw'}\nUser{id=2, username='张月'}\nUser{id=4, username='haha'}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-durryrr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-durryrr",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "foreach各项的含义如下："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-gx7slbk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-gx7slbk",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "\u003cforeach\u003e"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 用于遍历几乎"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-rogdm1c",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220830105327-rogdm1c",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"ID": "20220830105327-ugxk7qx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-ugxk7qx",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-c0vj09b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-c0vj09b",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "collection：要遍历的集合元素，不能带有#{}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830105327-26moe4z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-26moe4z",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-dl60ejb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-dl60ejb",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "open：语句开始部分"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830105327-mbbgxdc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-mbbgxdc",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-vss00ql",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-vss00ql",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "close：结束部分"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830105327-swos94e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-swos94e",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-taegdlb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-taegdlb",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "item：遍历的元素生成的变量名"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830105327-xiypi70",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830105327-xiypi70",
+						"updated": "20220830105327"
+					},
+					"Children": [
+						{
+							"ID": "20220830105327-l6u6t3c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830105327-l6u6t3c",
+								"updated": "20220830105327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "sperator：分隔符"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-y8unbc5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220830105327-y8unbc5",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SQL片段抽取"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-s637rqk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-s637rqk",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以将重复sql抽取出来放在sql标签中，使用时候用include"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-5p2p7a6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-5p2p7a6",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 抽取sql片段简化编写 --\u003e\n\u003csql id=\"selectUser\"\u003eselect * from user\u003c/sql\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-jru9te0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-jru9te0",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-akgrpsv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-akgrpsv",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 根据ID查询用户 --\u003e\n\u003cselect id=\"findById\" parameterType=\"int\" resultType=\"user\"\u003e\n    \u003cinclude refid=\"selectUser\"\u003e\u003c/include\u003e where id=#{id}\n\u003c/select\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-h4o37es",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-h4o37es",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-whw126t",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220830105327-whw126t",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-3mvhitf",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220830105327-3mvhitf",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-8xz50x1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-8xz50x1",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * sql抽取测试\n *\n * @throws IOException\n */\n@Test\n@Throws(IOException::class)\nfun test9() {\n    val resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\")\n    val sqlSessionFactory = SqlSessionFactoryBuilder().build(resourceAsStream)\n    val sqlSession = sqlSessionFactory.openSession()\n    val userDao = sqlSession.getMapper(IUserDao::class.java)\n    val user2 = userDao.findById(1)\n    println(user2)\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-wsv8nhi",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830105327-wsv8nhi",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-kz7uz1n",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220830105327-kz7uz1n",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-esf7u74",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-esf7u74",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * sql抽取测试\n *\n * @throws IOException\n */\n@Test\npublic void test9() throws IOException {\n    InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n    SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n\n    SqlSession sqlSession = sqlSessionFactory.openSession();\n    IUserDao userDao = sqlSession.getMapper(IUserDao.class);\n\n    User user2 = userDao.findById(1);\n\n    System.out.println(user2);\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-hwkz8in",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830105327-hwkz8in",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-xb96vm7",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220830105327-xb96vm7",
+				"updated": "20220830105327"
+			}
+		},
+		{
+			"ID": "20220830105327-zi094br",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830105327-zi094br",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日志如下："
+				}
+			]
+		},
+		{
+			"ID": "20220830105327-ynzuj0h",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830105327-ynzuj0h",
+				"updated": "20220830105327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "==\u003e  Preparing: select * from user where id=?\n==\u003e Parameters: 1(Integer)\n\u003c==    Columns: id, username\n\u003c==        Row: 1, tyw\n\u003c==      Total: 1\nUser{id=1, username='tyw'}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

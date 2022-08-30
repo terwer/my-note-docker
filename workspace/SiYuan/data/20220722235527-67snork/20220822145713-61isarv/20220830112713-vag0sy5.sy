@@ -1,0 +1,1264 @@
+{
+	"ID": "20220830112713-vag0sy5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16638769",
+		"custom-desc": "一对一查询需求用户表和订单表的关系为_一个用户可以有多个订单一个订单只能从属于一个用户一对一查询需求_查询一个订单同时查询出该订单所对应的用户对应的sql语句_selectfromordersouseruwhereouid=uid查询结果如下_idordertimetotaluididusernamepasswordbirthday__lucy____lucy____tom__需求分析具体实现创建user和order实体user用户信息@name_user@author_terwer@date__clas",
+		"custom-jvue-post-id": "8013",
+		"custom-kms-post-id": "182ecd3a9de18ccab960471495c96a43",
+		"custom-slug": "mybatis-complex-mapping-development-one-to-one-query",
+		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/241.MyBatis复杂映射开发之一对一查询.md",
+		"id": "20220830112713-vag0sy5",
+		"tags": "framework,mybatis,query,mybatis-10",
+		"title": "241.MyBatis复杂映射开发之一对一查询",
+		"updated": "20220830114508"
+	},
+	"Children": [
+		{
+			"ID": "20220830113036-5nzer7z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220830113036-5nzer7z",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一对一查询需求"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-wat5dmt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830113036-wat5dmt",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户表和订单表的关系为：一个用户可以有多个订单，一个订单只能从属于一个用户"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-z8ocia3",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/image-20220317170627431.png\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830113036-z8ocia3",
+				"updated": "20220830114508"
+			}
+		},
+		{
+			"ID": "20220830113036-cuelk62",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830113036-cuelk62",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一对一查询需求：查询一个订单，同时查询出该订单所对应的用户"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-4pcms4a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830113036-4pcms4a",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对应的sql语句："
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "select * from orders o,user u where o.uid=u.id "
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-iisfo0a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830113036-iisfo0a",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查询结果如下："
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-lslkgus",
+			"Type": "NodeTable",
+			"TableAligns": [
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"Properties": {
+				"colgroup": "|||||||",
+				"id": "20220830113036-lslkgus",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "id"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "ordertime"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "total"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "uid"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "id"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "username"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "password"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"TableCellAlign": 1,
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "birthday"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2022-03-17 17:15:33"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3000"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "lucy"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "123"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2022-03-17 17:15:56"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2022-03-17 17:15:33"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "4000"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "lucy"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "123"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2022-03-17 17:15:56"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2022-03-17 17:15:33"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "5000"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tom"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "123"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"TableCellAlign": 1,
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2022-03-17 17:15:56"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-4nnzcjk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220830113036-4nnzcjk",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需求分析"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-vg72kj4",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317185145.png\" alt=\"image-20220317184728374\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830113036-vg72kj4",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-z2l1rq7",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317185151.png\" alt=\"image-20220317185134760\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830113036-z2l1rq7",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-5yy3akf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220830113036-5yy3akf",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "具体实现"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-233omyp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830113036-233omyp",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建User和Order实体"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-hqcwki8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220830113036-hqcwki8",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"ID": "20220830113036-3d8fyzp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830113036-3d8fyzp",
+						"updated": "20220830113036"
+					},
+					"Children": [
+						{
+							"ID": "20220830113036-ko7510c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830113036-ko7510c",
+								"updated": "20220830113036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "User"
+								}
+							]
+						},
+						{
+							"ID": "20220830113036-52qif99",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-group\u003e",
+							"Properties": {
+								"id": "20220830113036-52qif99",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-izsksjt",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+							"Properties": {
+								"id": "20220830113036-izsksjt",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-azoylw4",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830113036-azoylw4",
+								"updated": "20220830113036"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "a290bGlu"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 用户信息\n *\n * @name: User\n * @author: terwer\n * @date: 2022-05-08 17:41\n */\nclass User {\n    var id: Int? = null\n    var username: String? = null\n    override fun toString(): String {\n        return \"User{\" +\n                \"id=\" + id +\n                \", username='\" + username + '\\'' +\n                '}'\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830113036-quzeqg2",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830113036-quzeqg2",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-dyl3c8t",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Java\"\u003e",
+							"Properties": {
+								"id": "20220830113036-dyl3c8t",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-rlx7di8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830113036-rlx7di8",
+								"updated": "20220830113036"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 用户信息\n *\n * @name: User\n * @author: terwer\n * @date: 2022-03-17 17:41\n **/\npublic class User {\n    private Integer id;\n    private String username;\n\n    public Integer getId() {\n        return id;\n    }\n\n    public void setId(Integer id) {\n        this.id = id;\n    }\n\n    public String getUsername() {\n        return username;\n    }\n\n    public void setUsername(String username) {\n        this.username = username;\n    }\n\n    @Override\n    public String toString() {\n        return \"User{\" +\n                \"id=\" + id +\n                \", username='\" + username + '\\'' +\n                '}';\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830113036-4ieokeh",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830113036-4ieokeh",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-rmbirwm",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-group\u003e",
+							"Properties": {
+								"id": "20220830113036-rmbirwm",
+								"updated": "20220830113036"
+							}
+						}
+					]
+				},
+				{
+					"ID": "20220830113036-k98tgol",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220830113036-k98tgol",
+						"updated": "20220830113036"
+					},
+					"Children": [
+						{
+							"ID": "20220830113036-rpbki89",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830113036-rpbki89",
+								"updated": "20220830113036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Order"
+								}
+							]
+						},
+						{
+							"ID": "20220830113036-tf3n1lk",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-group\u003e",
+							"Properties": {
+								"id": "20220830113036-tf3n1lk",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-cwxi59p",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+							"Properties": {
+								"id": "20220830113036-cwxi59p",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-50zic6i",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830113036-50zic6i",
+								"updated": "20220830113036"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "a290bGlu"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 订单\n *\n * @name: Order\n * @author: terwer\n * @date: 2022-05-08 17:42\n */\nclass Order {\n    var id: Int? = null\n    var orderTime: String? = null\n    var total: Double? = null\n\n    // 代表当前订单属于哪一个用户\n    var user: User? = null\n    override fun toString(): String {\n        return \"Order{\" +\n                \"id=\" + id +\n                \", orderTime='\" + orderTime + '\\'' +\n                \", total=\" + total +\n                \", user=\" + user +\n                '}'\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830113036-u04jmyw",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830113036-u04jmyw",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-lnoi1mc",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Java\"\u003e",
+							"Properties": {
+								"id": "20220830113036-lnoi1mc",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-4xyenpk",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830113036-4xyenpk",
+								"updated": "20220830113036"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 订单\n *\n * @name: Order\n * @author: terwer\n * @date: 2022-03-17 17:42\n **/\npublic class Order {\n    private Integer id;\n    private String orderTime;\n    private Double total;\n\n    // 代表当前订单属于哪一个用户\n    private User user;\n\n    public Integer getId() {\n        return id;\n    }\n\n    public void setId(Integer id) {\n        this.id = id;\n    }\n\n    public String getOrderTime() {\n        return orderTime;\n    }\n\n    public void setOrderTime(String orderTime) {\n        this.orderTime = orderTime;\n    }\n\n    public Double getTotal() {\n        return total;\n    }\n\n    public void setTotal(Double total) {\n        this.total = total;\n    }\n\n    public User getUser() {\n        return user;\n    }\n\n    public void setUser(User user) {\n        this.user = user;\n    }\n\n    @Override\n    public String toString() {\n        return \"Order{\" +\n                \"id=\" + id +\n                \", orderTime='\" + orderTime + '\\'' +\n                \", total=\" + total +\n                \", user=\" + user +\n                '}';\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830113036-q6hfw1f",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830113036-q6hfw1f",
+								"updated": "20220830113036"
+							}
+						},
+						{
+							"ID": "20220830113036-6vhpvfh",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-group\u003e",
+							"Properties": {
+								"id": "20220830113036-6vhpvfh",
+								"updated": "20220830113036"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-20z2hwm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830113036-20z2hwm",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建OrderMapper接口"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-f4xf3uk",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220830113036-f4xf3uk",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-xihngbq",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220830113036-xihngbq",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-0p675o4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830113036-0p675o4",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 订单映射\n *\n * @name: IUserMapper\n * @author: terwer\n * @date: 2022-05-08 17:54\n */\ninterface OrderMapper {\n    /**\n     * 查询订单同时查询订单所属用户\n     * @return\n     */\n    fun findOrderAndUser(): List\u003cOrder?\u003e?\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-4sk49k3",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830113036-4sk49k3",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-io1n2al",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220830113036-io1n2al",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-nd11r37",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830113036-nd11r37",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 订单映射\n *\n * @name: IUserMapper\n * @author: terwer\n * @date: 2022-03-17 17:54\n **/\npublic interface OrderMapper {\n    /**\n     * 查询订单同时查询订单所属用户\n     * @return\n     */\n    public List\u003cOrder\u003e findOrderAndUser();\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-45yjssh",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830113036-45yjssh",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-wfsa4dz",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220830113036-wfsa4dz",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-4hl3m5q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830113036-4hl3m5q",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置OrderMapper.xml"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-2bca4xk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830113036-2bca4xk",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\" ?\u003e\n\u003c!DOCTYPE mapper\n        PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\"\n        \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\"\u003e\n\u003cmapper namespace=\"com.terwergreen.mapper.OrderMapper\"\u003e\n    \u003cresultMap id=\"orderMap\" type=\"com.terwergreen.pojo.Order\"\u003e\n        \u003cresult property=\"id\" column=\"id\"\u003e\u003c/result\u003e\n        \u003cresult property=\"orderTime\" column=\"ordertime\"\u003e\u003c/result\u003e\n        \u003cresult property=\"total\" column=\"total\"\u003e\u003c/result\u003e\n\n        \u003cassociation property=\"user\" javaType=\"com.terwergreen.pojo.User\"\u003e\n            \u003cresult property=\"id\" column=\"uid\"\u003e\u003c/result\u003e\n            \u003cresult property=\"username\" column=\"username\"\u003e\u003c/result\u003e\n        \u003c/association\u003e\n    \u003c/resultMap\u003e\n\n    \u003c!-- resultMap：手动配置实体属性与表字段的映射关系 --\u003e\n    \u003cselect id=\"findOrderAndUser\" resultMap=\"orderMap\"\u003e\n        select * from orders o,user u where o.uid=u.id\n    \u003c/select\u003e\n\u003c/mapper\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-dxt6sjf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830113036-dxt6sjf",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "另外一种配置方法"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-bnje9le",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830113036-bnje9le",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " \u003cmapper namespace=\"com.terwergreen.mapper.OrderMapper\"\u003e\n    \u003cresultMap id=\"orderMap\" type=\"com.terwergreen.pojo.Order\"\u003e\n       \u003cresult property=\"id\" column=\"id\"\u003e\u003c/result\u003e\n        \u003cresult property=\"orderTime\" column=\"ordertime\"\u003e\u003c/result\u003e\n        \u003cresult property=\"total\" column=\"total\"\u003e\u003c/result\u003e\n    \n        \u003cresult property=\"user.id\" column=\"uid\"\u003e\u003c/result\u003e\n        \u003cresult property=\"user.username\" column=\"username\"\u003e\u003c/result\u003e\n    \u003c/resultMap\u003e\n  \n    \u003c!-- resultMap：手动配置实体属性与表字段的映射关系 --\u003e\n    \u003cselect id=\"findOrderAndUser\" resultMap=\"orderMap\"\u003e\n        select * from orders o,user u where o.uid=u.id\n    \u003c/select\u003e\n\u003c/mapper\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-sinjype",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830113036-sinjype",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试结果"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-83tkgro",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220830113036-83tkgro",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-3439n2p",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220830113036-3439n2p",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-derufv9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830113036-derufv9",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Test\n@Throws(IOException::class)\nfun test1() {\n    val resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\")\n    val sqlSessionFactory = SqlSessionFactoryBuilder().build(resourceAsStream)\n    val sqlSession = sqlSessionFactory.openSession()\n    val orderMapper = sqlSession.getMapper(OrderMapper::class.java)\n    val orderList = orderMapper.findOrderAndUser()\n    for (order in orderList) {\n        println(order)\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-172qzuk",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830113036-172qzuk",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-lpx3iov",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220830113036-lpx3iov",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-l7pieny",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830113036-l7pieny",
+				"updated": "20220830113036"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Test\npublic void test1() throws IOException {\n    InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n    SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n\n    SqlSession sqlSession = sqlSessionFactory.openSession();\n    OrderMapper orderMapper = sqlSession.getMapper(OrderMapper.class);\n\n    List\u003cOrder\u003e orderList = orderMapper.findOrderAndUser();\n    for (Order order : orderList) {\n        System.out.println(order);\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830113036-4c75sbq",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830113036-4c75sbq",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-y38tyb2",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220830113036-y38tyb2",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113036-w6us2uo",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317184429.png\" alt=\"image-20220317184422603\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830113036-w6us2uo",
+				"updated": "20220830113036"
+			}
+		},
+		{
+			"ID": "20220830113047-hiw2ksx",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220830113047-hiw2ksx",
+				"updated": "20220830113104"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220830113104-m0336fd",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220830113104-m0336fd",
+						"updated": "20220830113104"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史"
+						}
+					]
+				},
+				{
+					"ID": "20220830113104-4173nig",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220830113104-4173nig",
+						"updated": "20220830113104"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/08 feat:新增Kotlin支持。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830113105-jvx8iux",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830113105-jvx8iux"
+			}
+		}
+	]
+}

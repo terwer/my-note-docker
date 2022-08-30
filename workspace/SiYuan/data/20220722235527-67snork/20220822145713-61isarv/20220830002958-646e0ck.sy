@@ -1,0 +1,2195 @@
+{
+	"ID": "20220830002958-646e0ck",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16637935",
+		"custom-desc": "快速入门mybatis的官网_https_mybatisorgmybatismybatis的开发步骤添加mybatis的坐标创建user数据表createtable`user`(`id`int()notnullauto_increment`username`varchar()defaultnull`password`varchar()defaultnullprimarykey(`id`))engine=innodbauto_increment=defaultcharset=utfmb_insertinto",
+		"custom-jvue-post-id": "8011",
+		"custom-kms-post-id": "182ea8800ba08d32c65ca8e4bc2b7aca",
+		"custom-slug": "basic-use-of-mybatis",
+		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/220.MyBatis的基本使用.md",
+		"id": "20220830002958-646e0ck",
+		"tags": "mybatis,basic,use,framework,mybatis-8",
+		"title": "220.MyBatis的基本使用",
+		"updated": "20220830005257"
+	},
+	"Children": [
+		{
+			"ID": "20220830005217-0vfeto8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220830005217-0vfeto8",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快速入门"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-cfoo20j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-cfoo20j",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mybatis的官网："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://mybatis.org/mybatis-3/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://mybatis.org/mybatis-3/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-mfy4i6f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220830005217-mfy4i6f",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyBatis的开发步骤"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-d0sr25f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830005217-d0sr25f",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "添加MyBatis的坐标"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-dzq3es0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-dzq3es0",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cproperties\u003e\n    \u003cproject.build.sourceEncoding\u003eUTF-8\u003c/project.build.sourceEncoding\u003e\n    \u003cmaven.compiler.encoding\u003eUTF-8\u003c/maven.compiler.encoding\u003e\n    \u003cjava.version\u003e1.8\u003c/java.version\u003e\n    \u003cmaven.compiler.source\u003e1.8\u003c/maven.compiler.source\u003e\n    \u003cmaven.compiler.target\u003e1.8\u003c/maven.compiler.target\u003e\n\u003c/properties\u003e\n\n\u003cdependencies\u003e\n    \u003c!--mybatis坐标--\u003e\n    \u003cdependency\u003e\n        \u003cgroupId\u003eorg.mybatis\u003c/groupId\u003e\n        \u003cartifactId\u003emybatis\u003c/artifactId\u003e\n        \u003cversion\u003e3.4.5\u003c/version\u003e\n    \u003c/dependency\u003e\n    \u003c!--mysql驱动坐标--\u003e\n    \u003cdependency\u003e\n        \u003cgroupId\u003emysql\u003c/groupId\u003e\n        \u003cartifactId\u003emysql-connector-java\u003c/artifactId\u003e\n        \u003cversion\u003e5.1.6\u003c/version\u003e\n        \u003cscope\u003eruntime\u003c/scope\u003e\n    \u003c/dependency\u003e\n    \u003c!--单元测试坐标--\u003e\n    \u003cdependency\u003e\n        \u003cgroupId\u003ejunit\u003c/groupId\u003e\n        \u003cartifactId\u003ejunit\u003c/artifactId\u003e\n        \u003cversion\u003e4.12\u003c/version\u003e\n        \u003cscope\u003etest\u003c/scope\u003e\n    \u003c/dependency\u003e\n    \u003c!--⽇志坐标--\u003e\n    \u003cdependency\u003e\n        \u003cgroupId\u003elog4j\u003c/groupId\u003e\n        \u003cartifactId\u003elog4j\u003c/artifactId\u003e\n        \u003cversion\u003e1.2.12\u003c/version\u003e\n    \u003c/dependency\u003e\n\u003c/dependencies\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-340k5pp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830005217-340k5pp",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建user数据表"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-lzmd4pa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-lzmd4pa",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "CREATE TABLE `user` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `username` varchar(255) DEFAULT NULL,\n  `password` varchar(255) DEFAULT NULL,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;\n\nINSERT INTO `user` VALUES ('1', '小唐', '123');\nINSERT INTO `user` VALUES ('2', '小张', '456');\nINSERT INTO `user` VALUES ('3', '小雨', '789');\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-2kq3shd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830005217-2kq3shd",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编写User实体类"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-1uzqio3",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220830005217-1uzqio3",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-1zbdhaz",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220830005217-1zbdhaz",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-16kvtik",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-16kvtik",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 用户信息\n *\n * @name: User\n * @author: terwer\n * @date: 2022-05-08 11:32\n */\nclass User {\n    var id: Int? = null\n    var username: String? = null\n    override fun toString(): String {\n        return \"User{\" +\n                \"id=\" + id +\n                \", username='\" + username + '\\'' +\n                '}'\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-ijdhwfs",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830005217-ijdhwfs",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-qox6pn9",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220830005217-qox6pn9",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-9kajudh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-9kajudh",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 用户信息\n *\n * @name: User\n * @author: terwer\n * @date: 2022-03-15 11:32\n **/\npublic class User {\n    private Integer id;\n    private String username;\n\n    public Integer getId() {\n        return id;\n    }\n\n    public void setId(Integer id) {\n        this.id = id;\n    }\n\n    public String getUsername() {\n        return username;\n    }\n\n    public void setUsername(String username) {\n        this.username = username;\n    }\n\n    @Override\n    public String toString() {\n        return \"User{\" +\n                \"id=\" + id +\n                \", username='\" + username + '\\'' +\n                '}';\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-i0b7vfl",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830005217-i0b7vfl",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-t54f8h6",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220830005217-t54f8h6",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-wglxuux",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830005217-wglxuux",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编写映射⽂件UserMapper.xml"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-kiqlown",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-kiqlown",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\" ?\u003e\n\u003c!DOCTYPE mapper\n        PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\"\n        \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\"\u003e\n\u003cmapper namespace=\"user\"\u003e\n    \u003cselect id=\"findAll\" resultType=\"com.test.pojo.User\"\u003e\n        select * from user\n    \u003c/select\u003e\n\u003c/mapper\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-n7zhqor",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830005217-n7zhqor",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编写核⼼⽂件SqlMapConfig.xml"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-hpqzgv5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-hpqzgv5",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!DOCTYPE configuration PUBLIC \"-//mybatis.org//DTD Config 3.0//EN\"\n\"http://mybatis.org/dtd/mybatis-3-config.dtd\"\u003e\n\u003cconfiguration\u003e\n    \u003cenvironments default=\"development\"\u003e\n        \u003cenvironment id=\"development\"\u003e\n            \u003c!-- 当前事务交给JDBC --\u003e\n            \u003ctransactionManager type=\"JDBC\"\u003e\u003c/transactionManager\u003e\n            \u003c!-- 当前只用MyBatis提供的连接池 --\u003e\n            \u003cdataSource type=\"POOLED\"\u003e\n                \u003cproperty name=\"driver\" value=\"com.mysql.jdbc.Driver\"/\u003e\n                \u003cproperty name=\"url\" value=\"jdbc:mysql://localhost:3306/zdy_mybatis\"/\u003e\n                \u003cproperty name=\"username\" value=\"root\"/\u003e\n                \u003cproperty name=\"password\" value=\"123456\"/\u003e\n            \u003c/dataSource\u003e\n        \u003c/environment\u003e\n    \u003c/environments\u003e\n\n    \u003cmappers\u003e\n        \u003cmapper resource=\"UserMapper.xml\"/\u003e\n    \u003c/mappers\u003e\n\u003c/configuration\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-57pqq6b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220830005217-57pqq6b",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编写测试类"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-lqufh2s",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220830005217-lqufh2s",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-dpa95pk",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220830005217-dpa95pk",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-9ccl3kb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-9ccl3kb",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Test\n@Throws(IOException::class)\nfun test1() {\n    val resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\")\n    val sqlSessionFactory = SqlSessionFactoryBuilder().build(resourceAsStream)\n    val sqlSession = sqlSessionFactory.openSession()\n    val userList = sqlSession.selectList\u003cUser\u003e(\"user.findAll\")\n    for (user in userList) {\n        println(user)\n    }\n\n    // 关闭资源\n    sqlSession.close()\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-pzkwtm6",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830005217-pzkwtm6",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-8ecxa1k",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220830005217-8ecxa1k",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-ert6g0f",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-ert6g0f",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Test\npublic void test1() throws IOException {\n    InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n    SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n\n    SqlSession sqlSession = sqlSessionFactory.openSession();\n    List\u003cUser\u003e userList = sqlSession.selectList(\"user.findAll\");\n    for (User user : userList) {\n        System.out.println(user);\n    }\n\n    // 关闭资源\n    sqlSession.close();\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-2jtrrzg",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830005217-2jtrrzg",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-clohmla",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220830005217-clohmla",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-c8x586r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-c8x586r",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "运行结果"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-yxxjjyq",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315123042.png\" alt=\"image-20220315122806775\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830005217-yxxjjyq",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-ftlu6mi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-ftlu6mi",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "乱码解决"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-snin4ov",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-snin4ov",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改url为"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-95l1q4f",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-95l1q4f",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "jdbc:mysql://localhost:3306/zdy_mybatis?characterEncoding=utf8\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-7hkk1x9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-7hkk1x9",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "效果"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-czdatja",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315123048.png\" alt=\"image-20220315123004020\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830005217-czdatja",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-jgq8tpl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-jgq8tpl",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "完善，添加新增方法"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-79bp82r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-79bp82r",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 添加用户\nparameterType：参数类型\n--\u003e\n\u003cinsert id=\"saveUser\" parameterType=\"com.terwergreen.pojo.User\"\u003e\ninsert into user(id, username) values(#{id}, #{username})\n\u003c/insert\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-va4s2h5",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315125151.png\" alt=\"image-20220315125147149\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830005217-va4s2h5",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-ikwcgnq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-ikwcgnq",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "没有添加成功原因"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-81wecqx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-81wecqx",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "未提交事务"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-gcbn57n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-gcbn57n",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-188j7pb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-188j7pb",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sqlSession.insert(\"user.saveUser\", user);\nsqlSession.commit();\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-gybloiu",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315125432.png\" alt=\"image-20220315125427217\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830005217-gybloiu",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-14530up",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-14530up",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更新"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-23mwyfd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-23mwyfd",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 修改 --\u003e\n  \u003cupdate id=\"updateUser\" parameterType=\"com.terwergreen.pojo.User\"\u003e\n  update user set username=#{username} where id=#{id}\n\u003c/update\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-wcntem8",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315150958.png\" alt=\"image-20220315150953028\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830005217-wcntem8",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-y3lbvjq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-y3lbvjq",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "删除"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-cakal74",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-cakal74",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 删除 --\u003e\n\u003cupdate id=\"deleteUser\" parameterType=\"java.lang.Integer\"\u003e\ndelete from user where id=#{id}\n\u003c/update\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-ovfvex2",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315151955.png\" alt=\"image-20220315151950983\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830005217-ovfvex2",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-95f0873",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-95f0873",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "备注：只有一个参数的时候，参数名的占位符可以是任意字符，例如下面的语句也是正常的"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-b24mkfm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-b24mkfm",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 删除 --\u003e\n\u003cupdate id=\"deleteUser\" parameterType=\"java.lang.Integer\"\u003e\ndelete from user where id=#{abc}\n\u003c/update\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-qxtqcws",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220830005217-qxtqcws",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyBatis的Dao层实现"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-1csozmz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220830005217-1csozmz",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "传统开发方式"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-i4v81tx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220830005217-i4v81tx",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"ID": "20220830005217-5e7sd3p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220830005217-5e7sd3p",
+						"updated": "20220830005217"
+					},
+					"Children": [
+						{
+							"ID": "20220830005217-t81swr1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830005217-t81swr1",
+								"updated": "20220830005217"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "定义Dao层接口"
+								}
+							]
+						},
+						{
+							"ID": "20220830005217-m825pzx",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-group\u003e",
+							"Properties": {
+								"id": "20220830005217-m825pzx",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-l1au6tt",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+							"Properties": {
+								"id": "20220830005217-l1au6tt",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-hd7n81t",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830005217-hd7n81t",
+								"updated": "20220830005217"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "a290bGlu"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 用户Dao层接口\n *\n * @name: IUserDao\n * @author: terwer\n * @date: 2022-05-08 20:53\n */\ninterface IUserDao {\n    /**\n     * 查询所有用户\n     */\n    @Throws(IOException::class)\n    fun findAll(): List\u003cUser?\u003e?\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830005217-jgccb1f",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830005217-jgccb1f",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-uq6xvmh",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Java\"\u003e",
+							"Properties": {
+								"id": "20220830005217-uq6xvmh",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-98y86l3",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830005217-98y86l3",
+								"updated": "20220830005217"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 用户Dao层接口\n *\n * @name: IUserDao\n * @author: terwer\n * @date: 2022-03-16 20:53\n **/\npublic interface IUserDao {\n    /**\n     * 查询所有用户\n     */\n    public List\u003cUser\u003e findAll() throws IOException;\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830005217-mo709sl",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830005217-mo709sl",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-7ri3b4w",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-group\u003e",
+							"Properties": {
+								"id": "20220830005217-7ri3b4w",
+								"updated": "20220830005217"
+							}
+						}
+					]
+				},
+				{
+					"ID": "20220830005217-vya4sui",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220830005217-vya4sui",
+						"updated": "20220830005217"
+					},
+					"Children": [
+						{
+							"ID": "20220830005217-eofl3l2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830005217-eofl3l2",
+								"updated": "20220830005217"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DaoImpl实现"
+								}
+							]
+						},
+						{
+							"ID": "20220830005217-6wlvkht",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-group\u003e",
+							"Properties": {
+								"id": "20220830005217-6wlvkht",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-ryqkad7",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+							"Properties": {
+								"id": "20220830005217-ryqkad7",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-t24fnz0",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830005217-t24fnz0",
+								"updated": "20220830005217"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "a290bGlu"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 用户Dao层实现类\n *\n * @name: UserDaoImpl\n * @author: terwer\n * @date: 2022-05-08 20:54\n */\nclass UserDaoImpl : IUserDao {\n    @Throws(IOException::class)\n    override fun findAll(): List\u003cUser\u003e {\n        val resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\")\n        val sqlSessionFactory = SqlSessionFactoryBuilder().build(resourceAsStream)\n        val sqlSession = sqlSessionFactory.openSession()\n        val userList = sqlSession.selectList\u003cUser\u003e(\"user.findAll\")\n\n        // 关闭资源\n        sqlSession.close()\n        return userList\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830005217-k0vxx2h",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830005217-k0vxx2h",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-k8emjzh",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Java\"\u003e",
+							"Properties": {
+								"id": "20220830005217-k8emjzh",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-mvfz5uu",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830005217-mvfz5uu",
+								"updated": "20220830005217"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 用户Dao层实现类\n *\n * @name: UserDaoImpl\n * @author: terwer\n * @date: 2022-03-16 20:54\n **/\npublic class UserDaoImpl implements IUserDao {\n    @Override\n    public List\u003cUser\u003e findAll() throws IOException {\n        InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n\n        SqlSession sqlSession = sqlSessionFactory.openSession();\n        List\u003cUser\u003e userList = sqlSession.selectList(\"user.findAll\");\n\n        // 关闭资源\n        sqlSession.close();\n        return userList;\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830005217-8ercpdu",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830005217-8ercpdu",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-b2oqw7w",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-group\u003e",
+							"Properties": {
+								"id": "20220830005217-b2oqw7w",
+								"updated": "20220830005217"
+							}
+						}
+					]
+				},
+				{
+					"ID": "20220830005217-p5w4e46",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220830005217-p5w4e46",
+						"updated": "20220830005217"
+					},
+					"Children": [
+						{
+							"ID": "20220830005217-jdk3js6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830005217-jdk3js6",
+								"updated": "20220830005217"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "测试"
+								}
+							]
+						},
+						{
+							"ID": "20220830005217-18s7t8d",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-group\u003e",
+							"Properties": {
+								"id": "20220830005217-18s7t8d",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-rgsw7eo",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+							"Properties": {
+								"id": "20220830005217-rgsw7eo",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-0l7opgy",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830005217-0l7opgy",
+								"updated": "20220830005217"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "a290bGlu"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// ===============\n// Dao层常规方式\n@Test\n@Throws(IOException::class)\nfun test5() {\n    val userDao: IUserDao = UserDaoImpl()\n    val userList = userDao.findAll()\n    for (user in userList) {\n        println(user)\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830005217-p8pfo5s",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830005217-p8pfo5s",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-2znk3ul",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003ccode-block title=\"Java\"\u003e",
+							"Properties": {
+								"id": "20220830005217-2znk3ul",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-mhszfh7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220830005217-mhszfh7",
+								"updated": "20220830005217"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "@Test\npublic void test5() throws Exception{\n    IUserDao userDao = new UserDaoImpl();\n    List\u003cUser\u003e all = userDao.findAll();\n\n    for (User user : all) {\n        System.out.println(user);\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220830005217-v9xkk95",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-block\u003e",
+							"Properties": {
+								"id": "20220830005217-v9xkk95",
+								"updated": "20220830005217"
+							}
+						},
+						{
+							"ID": "20220830005217-moa6vnz",
+							"Type": "NodeHTMLBlock",
+							"Data": "\u003c/code-group\u003e",
+							"Properties": {
+								"id": "20220830005217-moa6vnz",
+								"updated": "20220830005217"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-qq9q5zf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220830005217-qq9q5zf",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代理开发方式"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-zgfz5dy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-zgfz5dy",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mapper 接口开发方法只需要程序员编写Mapper 接口(相当于Dao 接口)，由Mybatis 框架根据接口定义创建接"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-12e9c5g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-12e9c5g",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "口的动态代理对象，代理对象的方法体同上边Dao接口实现类方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-ekku2uq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-ekku2uq",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " Mapper 接口开发需要遵循以下规范:"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-jku7eqc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-jku7eqc",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "1) Mapper.xml"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "文件中的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "namespace"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "与"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "mapper"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "接口的全限定名相同"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-he350a9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-he350a9",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2) Mapper"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "接口方法名和"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Mapper.xml"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "中定义的每个"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "statement"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "id"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "相同"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-ja72nao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-ja72nao",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "3) Mapper"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "接口方法的输入参数类型和"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "mapper.xml"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "中定义的每个"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "sql"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "parameterType"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的类型相同"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-egowtbu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-egowtbu",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "4) Mapper"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "接口方法的输出参数类型和"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "mapper.xml"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "中定义的每个"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "sql"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "resultType"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的类型相同"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-9zcy5ic",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-9zcy5ic",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编写UserMapper接口"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-nryp25m",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317105202.png\" alt=\"image-20220317105157019\" style=\"zoom:50%;\" /\u003e",
+			"Properties": {
+				"id": "20220830005217-nryp25m",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-733kud4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-733kud4",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试代理方式"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-vopni1n",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220830005217-vopni1n",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-9hz00i2",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220830005217-9hz00i2",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-s5akzrn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-s5akzrn",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// ===============\n// Dao层代理开发方式\n@Test\n@Throws(IOException::class)\nfun test5() {\n    val resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\")\n    val sqlSessionFactory = SqlSessionFactoryBuilder().build(resourceAsStream)\n    val sqlSession = sqlSessionFactory.openSession()\n    val userDao = sqlSession.getMapper(IUserDao::class.java)\n    val userList = userDao.findAll()\n    for (user in userList) {\n        println(user)\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-nkhvblp",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830005217-nkhvblp",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-8zrwyqj",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220830005217-8zrwyqj",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-24fiait",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830005217-24fiait",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// ===============\n// Dao层代理开发方式\n@Test\npublic void test5() throws IOException {\n  InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n  SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n\n  SqlSession sqlSession = sqlSessionFactory.openSession();\n  IUserDao userDao = sqlSession.getMapper(IUserDao.class);\n\n  List\u003cUser\u003e userList = userDao.findAll();\n\n  for (User user : userList) {\n    System.out.println(user);\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830005217-i2lauls",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220830005217-i2lauls",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-aijsd9t",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220830005217-aijsd9t",
+				"updated": "20220830005217"
+			}
+		},
+		{
+			"ID": "20220830005217-n1s50sw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830005217-n1s50sw",
+				"updated": "20220830005217"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220317102917399"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317102942.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220830005239-r2merrr",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220830005239-r2merrr",
+				"updated": "20220830005257"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220830005257-34qa2bo",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220830005257-34qa2bo",
+						"updated": "20220830005257"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史"
+						}
+					]
+				},
+				{
+					"ID": "20220830005257-plb7wmw",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220830005257-plb7wmw",
+						"updated": "20220830005257"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/08 feat:新增Kotlin支持。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830004451-cya12m4",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003ccode-group\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003120-1htqn7q",
+				"updated": "20220830003120"
+			}
+		},
+		{
+			"ID": "20220830004451-zyl3bz5",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003ccode-block title=\"Kotlin\" active\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003120-585ab15",
+				"updated": "20220830003120"
+			}
+		},
+		{
+			"ID": "20220830004451-n0amda1",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003c/code-block\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003120-hemnvvb",
+				"updated": "20220830003120"
+			}
+		},
+		{
+			"ID": "20220830004451-i3bvlx3",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003ccode-block title=\"Java\"\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003120-gxdlnb7",
+				"updated": "20220830003120"
+			}
+		},
+		{
+			"ID": "20220830004451-83gb8al",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003c/code-block\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003120-32wl6o9",
+				"updated": "20220830003120"
+			}
+		},
+		{
+			"ID": "20220830004451-uc7xrlv",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003c/code-group\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003120-26k2wwy",
+				"updated": "20220830003120"
+			}
+		},
+		{
+			"ID": "20220830004451-nx2www4",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003ccode-group\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003231-8tnjpr8",
+				"updated": "20220830003231"
+			}
+		},
+		{
+			"ID": "20220830004451-euumb9p",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003ccode-block title=\"Kotlin\" active\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003231-iwetqlp",
+				"updated": "20220830003231"
+			}
+		},
+		{
+			"ID": "20220830004451-1ueoi52",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003c/code-block\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003231-zrlq46l",
+				"updated": "20220830003231"
+			}
+		},
+		{
+			"ID": "20220830004451-ccsiuc4",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003ccode-block title=\"Java\"\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003231-s9jydmx",
+				"updated": "20220830003231"
+			}
+		},
+		{
+			"ID": "20220830004451-jtsiz9i",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003c/code-block\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003231-6b8vcu2",
+				"updated": "20220830003231"
+			}
+		},
+		{
+			"ID": "20220830004451-gu8101x",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003c/code-group\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830003231-x68a3vi",
+				"updated": "20220830003231"
+			}
+		},
+		{
+			"ID": "20220830004451-ylqdlhe",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003ccode-group\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830004402-opx2ufu",
+				"updated": "20220830004402"
+			}
+		},
+		{
+			"ID": "20220830004451-qyntkiy",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003ccode-block title=\"Kotlin\" active\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830004402-rt4x63k",
+				"updated": "20220830004402"
+			}
+		},
+		{
+			"ID": "20220830004451-2wyi4sw",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003c/code-block\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830004402-bi4wnu5",
+				"updated": "20220830004402"
+			}
+		},
+		{
+			"ID": "20220830004451-d1r34ib",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003ccode-block title=\"Java\"\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830004402-7eaoysh",
+				"updated": "20220830004402"
+			}
+		},
+		{
+			"ID": "20220830004451-l18sa52",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003c/code-block\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830004402-dtkmq5r",
+				"updated": "20220830004402"
+			}
+		},
+		{
+			"ID": "20220830004451-if57huo",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003cdiv\u003e\n\u003c/code-group\u003e\n\u003c/div\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220830004402-7tfx1ot",
+				"updated": "20220830004402"
+			}
+		}
+	]
+}
