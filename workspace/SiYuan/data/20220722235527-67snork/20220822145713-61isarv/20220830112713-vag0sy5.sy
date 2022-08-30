@@ -11,7 +11,7 @@
 		"id": "20220830112713-vag0sy5",
 		"tags": "framework,mybatis,query,mybatis-10",
 		"title": "241.MyBatis复杂映射开发之一对一查询",
-		"updated": "20220830114508"
+		"updated": "20220830212712"
 	},
 	"Children": [
 		{
@@ -1216,7 +1216,8 @@
 			"Type": "NodeBlockquote",
 			"Properties": {
 				"id": "20220830113047-hiw2ksx",
-				"updated": "20220830113104"
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220830212712"
 			},
 			"Children": [
 				{
@@ -1228,26 +1229,12 @@
 					"Type": "NodeParagraph",
 					"Properties": {
 						"id": "20220830113104-m0336fd",
-						"updated": "20220830113104"
+						"updated": "20220830212712"
 					},
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "文章更新历史"
-						}
-					]
-				},
-				{
-					"ID": "20220830113104-4173nig",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220830113104-4173nig",
-						"updated": "20220830113104"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "2022/05/08 feat:新增Kotlin支持。"
+							"Data": "文章更新历史\n2022/05/08 feat:新增Kotlin支持"
 						}
 					]
 				}

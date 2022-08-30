@@ -9,9 +9,10 @@
 		"custom-slug": "myBatis-basic-and-advanced-applications",
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/210.MyBatis的基本介绍及优势.md",
 		"id": "20220829235951-inzn47s",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830000123-2s49nm5\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830000132-e5kcpyg\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:463,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830000123-p1rb356\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:29,\u0026amp;quot;focusEnd\u0026amp;quot;:29}",
 		"tags": "mybatis,framework,basic,mybatis-6",
 		"title": "210.MyBatis的基本介绍及优势",
-		"updated": "20220830000703"
+		"updated": "20220830212548"
 	},
 	"Children": [
 		{
@@ -625,47 +626,25 @@
 			"Type": "NodeBlockquote",
 			"Properties": {
 				"id": "20220830000132-e5kcpyg",
-				"updated": "20220830000139"
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220830212548"
 			},
 			"Children": [
 				{
 					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e ",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "\u003e"
 				},
 				{
 					"ID": "20220830000123-p1rb356",
 					"Type": "NodeParagraph",
 					"Properties": {
 						"id": "20220830000123-p1rb356",
-						"updated": "20220830000139"
+						"updated": "20220830212548"
 					},
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "文章更新历史",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
-				},
-				{
-					"ID": "20220830000123-hpql4f9",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220830000123-hpql4f9",
-						"updated": "20220830000123"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "2022/05/08 feat:调整目录结构。",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "文章更新历史\n2022/05/08 feat:调整目录结构"
 						}
 					]
 				}

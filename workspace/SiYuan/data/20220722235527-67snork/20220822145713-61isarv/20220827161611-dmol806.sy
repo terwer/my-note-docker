@@ -15,10 +15,10 @@
 		"custom-wordpress-wp2-post-id": "4246",
 		"custom-yuque-post-id": "90869895",
 		"id": "20220827161611-dmol806",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220827161617-jnfbtnh\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220827161626-3p3fkh4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1646,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220827162036-nn9h4a8\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:14,\u0026amp;quot;focusEnd\u0026amp;quot;:14}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220827161617-jnfbtnh\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220827161626-3p3fkh4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:2085,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220827161617-jnfbtnh\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "数据库,mybatis,jdbc,problem,问题,framework,mybatis-1",
 		"title": "110.JDBC的问题分析",
-		"updated": "20220827162036"
+		"updated": "20220830211438"
 	},
 	"Children": [
 		{
@@ -388,52 +388,25 @@
 			"Type": "NodeBlockquote",
 			"Properties": {
 				"id": "20220827161626-3p3fkh4",
-				"updated": "20220827162036"
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220830211438"
 			},
 			"Children": [
-				{
-					"ID": "20220827162121-cb48v0u",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220827162121-cb48v0u",
-						"updated": "20220827162126"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "文章更新历史"
-						}
-					]
-				},
 				{
 					"Type": "NodeBlockquoteMarker",
 					"Data": "\u003e"
 				},
 				{
-					"ID": "20220827162036-tvl9d8k",
+					"ID": "20220827162121-cb48v0u",
 					"Type": "NodeParagraph",
 					"Properties": {
-						"id": "20220827162036-tvl9d8k",
-						"updated": "20220827162036"
+						"id": "20220827162121-cb48v0u",
+						"updated": "20220830211438"
 					},
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "2022/03/06 校对完成"
-						}
-					]
-				},
-				{
-					"ID": "20220827162036-nn9h4a8",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220827162036-nn9h4a8",
-						"updated": "20220827162036"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "2022/03/16 初稿。"
+							"Data": "文章更新历史\n2022/03/16 校对完成\n2022/03/06 初稿"
 						}
 					]
 				}

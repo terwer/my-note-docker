@@ -20,6 +20,9 @@
             "toolbar-theme-location-record": {
                 "default": false
             },
+            "toolbar-theme-style-itemtext": {
+                "default": false
+            },
             "toolbar-theme-style-tabbar": {
                 "default": false
             },

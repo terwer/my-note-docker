@@ -1,0 +1,40 @@
+{
+	"ID": "20220830200000-5efwhe2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220830200000-5efwhe2",
+		"title": "文章更新历史",
+		"updated": "20220830211209"
+	},
+	"Children": [
+		{
+			"ID": "20220830200000-2lpwlo4",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220830200000-2lpwlo4",
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220830211209"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220830200011-egh4ta5",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220830200011-egh4ta5",
+						"updated": "20220830211209"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史\n2022-08-30 feat:初稿"
+						}
+					]
+				}
+			]
+		}
+	]
+}

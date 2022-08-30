@@ -9,9 +9,10 @@
 		"custom-slug": "mybatis-annotation-develop",
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/310.MyBatis常用注解及基本增删改查的注解实现.md",
 		"id": "20220830171242-2by3ixn",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830171346-2oz46po\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830171346-7jhyst4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:446}",
 		"tags": "mybatis,annotation,framework,mybatis-13",
 		"title": "310.MyBatis常用注解及基本增删改查的注解实现",
-		"updated": "20220830172140"
+		"updated": "20220830212752"
 	},
 	"Children": [
 		{
@@ -880,7 +881,8 @@
 			"Type": "NodeBlockquote",
 			"Properties": {
 				"id": "20220830171801-skqvii0",
-				"updated": "20220830171927"
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220830212752"
 			},
 			"Children": [
 				{
@@ -892,30 +894,23 @@
 					"Type": "NodeParagraph",
 					"Properties": {
 						"id": "20220830171805-awpyynh",
-						"updated": "20220830171810"
+						"updated": "20220830212752"
 					},
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "文章更新历史"
-						}
-					]
-				},
-				{
-					"ID": "20220830171810-7wownrb",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220830171810-7wownrb",
-						"updated": "20220830171927"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "2022-08-30 feat:初稿"
+							"Data": "文章更新历史\n2022-08-30 feat:初稿"
 						}
 					]
 				}
 			]
+		},
+		{
+			"ID": "20220830193150-cho68z8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830193150-cho68z8"
+			}
 		}
 	]
 }

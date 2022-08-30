@@ -9,9 +9,10 @@
 		"custom-slug": "mybatis-complex-mapping-development-of-many-to-many-queries",
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/243.MyBatis复杂映射开发之多对多查询.md",
 		"id": "20220830135741-h5sabo0",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830135747-4kt8zai\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830185333-2epz5em\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830135747-4kt8zai\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:8,\u0026amp;quot;focusEnd\u0026amp;quot;:8}",
 		"tags": "mybatis,framework,多对多,many-to-many,mybatis-12",
 		"title": "243.MyBatis复杂映射开发之多对多查询",
-		"updated": "20220830141029"
+		"updated": "20220830212744"
 	},
 	"Children": [
 		{
@@ -998,7 +999,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220830135748-a7pfnmc",
-				"updated": "20220830135747"
+				"updated": "20220830185129"
 			},
 			"Children": [
 				{
@@ -1140,7 +1141,8 @@
 			"Type": "NodeBlockquote",
 			"Properties": {
 				"id": "20220830135748-ia7l039",
-				"updated": "20220830135747"
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220830212744"
 			},
 			"Children": [
 				{
@@ -1152,44 +1154,23 @@
 					"Type": "NodeParagraph",
 					"Properties": {
 						"id": "20220830135748-yovqjp0",
-						"updated": "20220830135747"
+						"updated": "20220830212744"
 					},
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "文章更新历史"
-						}
-					]
-				},
-				{
-					"ID": "20220830135748-mc8orqn",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220830135748-mc8orqn",
-						"updated": "20220830135747"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "2022/05/08 feat:新增Kotlin支持。"
-						}
-					]
-				},
-				{
-					"ID": "20220830135748-uc8k1aj",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220830135748-uc8k1aj",
-						"updated": "20220830135747"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "2022/05/04 feat:初稿。"
+							"Data": "文章更新历史\n2022/05/08 feat:新增Kotlin支持\n2022/05/04 feat:初稿"
 						}
 					]
 				}
 			]
+		},
+		{
+			"ID": "20220830185333-2epz5em",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830185333-2epz5em"
+			}
 		}
 	]
 }

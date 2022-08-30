@@ -15,10 +15,10 @@
 		"custom-wordpress-wp2-post-id": "4247",
 		"custom-yuque-post-id": "90875390",
 		"id": "20220827161711-d80s1iz",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220827184146-umino29\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220827185550-xpz4z9r\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:932.5}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220827184146-umino29\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220827184159-j9mx2cp\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1519,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220827184146-dyhdaha\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:57,\u0026amp;quot;focusEnd\u0026amp;quot;:57}",
 		"tags": "custom,dao,framework,persistence,mybatis,mybatis-2",
 		"title": "121.自定义持久层框架的设计思路",
-		"updated": "20220828114213"
+		"updated": "20220830211531"
 	},
 	"Children": [
 		{
@@ -1449,79 +1449,40 @@
 			]
 		},
 		{
+			"ID": "20220830212454-7qbshzt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830212454-7qbshzt"
+			}
+		},
+		{
 			"ID": "20220827184159-j9mx2cp",
 			"Type": "NodeBlockquote",
 			"Properties": {
 				"id": "20220827184159-j9mx2cp",
-				"updated": "20220827184146"
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220830211531"
 			},
 			"Children": [
 				{
 					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e ",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "\u003e"
 				},
 				{
 					"ID": "20220827184146-dyhdaha",
 					"Type": "NodeParagraph",
 					"Properties": {
 						"id": "20220827184146-dyhdaha",
-						"updated": "20220827184211"
+						"updated": "20220830211531"
 					},
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "文章更新历史",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
-				},
-				{
-					"ID": "20220827184146-owdufov",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220827184146-owdufov",
-						"updated": "20220827184146"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "2022/05/08 feat:新增 Kotlin 版代码实现 。",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
-				},
-				{
-					"ID": "20220827184146-t8h0egm",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220827184146-t8h0egm",
-						"updated": "20220827184146"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "2022/03/14 feat:初稿。",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "文章更新历史\n2022/05/08 feat:新增 Kotlin 版代码实现\n2022/03/14 feat:初稿"
 						}
 					]
 				}
 			]
-		},
-		{
-			"ID": "20220827185550-xpz4z9r",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220827185550-xpz4z9r"
-			}
 		}
 	]
 }
