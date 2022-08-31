@@ -6,13 +6,15 @@
 		"custom-desc": "mybatis的常用注解注解可以减少mapper文件的编写常用注解如下_@insert_实现新增@update_实现更新@delete_实现删除@select_实现查询@result_实现结果集封装@results_可以和@result一起使用封装多个结果集@one_实现一对一结果集封装@many_实现多对多结果集封装mybatis的增删改查数据库配置依旧保存不变jdbcproperties#新版驱动名称发生了改变#jdbcdriver=commysqljdbcdriverjdbcdriver=commy",
 		"custom-jvue-post-id": "8016",
 		"custom-kms-post-id": "182ee0cfecf451490aab5544952b329a",
+		"custom-liandi-post-id": "1661917665843",
 		"custom-slug": "mybatis-annotation-develop",
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/310.MyBatis常用注解及基本增删改查的注解实现.md",
+		"custom-yuque-post-id": "91288551",
 		"id": "20220830171242-2by3ixn",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830171346-2oz46po\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830171346-7jhyst4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:446}",
 		"tags": "mybatis,annotation,framework,mybatis-13",
 		"title": "310.MyBatis常用注解及基本增删改查的注解实现",
-		"updated": "20220831001114"
+		"updated": "20220831123908"
 	},
 	"Children": [
 		{
@@ -988,10 +990,21 @@
 			]
 		},
 		{
-			"ID": "20220830193150-cho68z8",
-			"Type": "NodeParagraph",
+			"ID": "20220831123141-uv6llu8",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
 			"Properties": {
-				"id": "20220830193150-cho68z8"
+				"id": "20220831123141-uv6llu8",
+				"updated": "20220831123141"
+			}
+		},
+		{
+			"ID": "20220831123141-tnqg398",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220831123141-tnqg398",
+				"updated": "20220831123141"
 			}
 		}
 	]
