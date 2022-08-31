@@ -1,0 +1,72 @@
+{
+	"ID": "20220831131637-zdnmp2m",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220831131637-zdnmp2m",
+		"title": "temp",
+		"updated": "20220831141037"
+	},
+	"Children": [
+		{
+			"ID": "20220831131644-pfjwfjd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220831131644-pfjwfjd",
+				"updated": "20220831131644"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "fun test\u003cUser\u003e(){\n\tprintln(\"Hello\")\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220831131644-wnrcf5j",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220831131644-wnrcf5j",
+				"updated": "20220831131644"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public void test\u003cUser\u003e(){\n\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220831141037-1ud2kge",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220831141037-1ud2kge"
+			}
+		}
+	]
+}
