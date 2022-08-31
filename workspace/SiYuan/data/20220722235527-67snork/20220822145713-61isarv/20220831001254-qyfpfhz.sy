@@ -1,0 +1,564 @@
+{
+	"ID": "20220831001254-qyfpfhz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220831001254-qyfpfhz",
+		"title": "320.MyBatis的注解实现复杂映射开发",
+		"updated": "20220831003658"
+	},
+	"Children": [
+		{
+			"ID": "20220831002305-pqons5x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220831002305-pqons5x",
+				"updated": "20220831002329"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "xml 配置方式实现复杂映射回顾",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220831002330-0okqw2j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220831002330-0okqw2j",
+				"updated": "20220831002346"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/20220831002257.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220831001343-odzcnfn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220831001343-odzcnfn",
+				"updated": "20220831001756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现复杂映射我们之前可以在映射文件中通过配置来实现，使用注解开发后，我们可以通过 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "@Results",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 注解，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "@Result",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 注解，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "@One",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 注解和 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "@Many",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 注解组合完成复杂关系的配置。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220831002506-xazcegu",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|",
+				"id": "20220831002506-xazcegu",
+				"updated": "20220831003658"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "注解"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1",
+								"rowspan": "2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "@Results"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\" rowspan=\"2\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1",
+								"rowspan": "2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代替的是标签 \u003cResultMap\u003e，该注解中可以使用单个的 @Result 注解，也可以使用 @Result 集合。"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "使用方式："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "@Results({@Result(), @Result()})"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 或者 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "@Results(@Result())"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\" rowspan=\"2\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"class": "fn__none",
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\" class=\"fn__none\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"class": "fn__none",
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\" class=\"fn__none\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1",
+								"rowspan": "2"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\" rowspan=\"2\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1",
+								"rowspan": "2"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\" rowspan=\"2\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"class": "fn__none"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: class=\"fn__none\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"class": "fn__none"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: class=\"fn__none\"}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220831001338-2c7asry",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220831001338-2c7asry",
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220830200000"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20220831001338-nb3tdl1",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220831001338-nb3tdl1",
+						"updated": "20220830200011"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeSoftBreak",
+							"Data": "\n",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2022-08-30 feat:初稿",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220831001546-4jx5gir",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220831001546-4jx5gir",
+				"updated": "20220831001546"
+			}
+		}
+	]
+}

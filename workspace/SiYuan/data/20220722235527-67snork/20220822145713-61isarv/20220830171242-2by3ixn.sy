@@ -12,7 +12,7 @@
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830171346-2oz46po\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830171346-7jhyst4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:446}",
 		"tags": "mybatis,annotation,framework,mybatis-13",
 		"title": "310.MyBatis常用注解及基本增删改查的注解实现",
-		"updated": "20220830212752"
+		"updated": "20220831001114"
 	},
 	"Children": [
 		{
@@ -818,6 +818,88 @@
 				{
 					"Type": "NodeCodeBlockCode",
 					"Data": "// sqlSession = sqlSessionFactory.openSession();\n// 这样也是可以的，这样的话后面就不用每次都设置了\nsqlSession = sqlSessionFactory.openSession(true);\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830231737-bo8l25a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830231737-bo8l25a",
+				"updated": "20220830231739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改MyBatis的核心配置文件，我们使用了注解替代的映射文件，所以我们只需要加载使用了注解的Mapper接口\n即可"
+				}
+			]
+		},
+		{
+			"ID": "20220830231810-9f8e9za",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830231810-9f8e9za",
+				"updated": "20220831001114"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 引入映射配置文件 --\u003e\n\u003cmappers\u003e\n   \u003cmapper class=\"com.terwergreen.mapper.UserMapper\"/\u003e\n\u003c/mappers\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220830231746-eij97r6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830231746-eij97r6",
+				"updated": "20220830231809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者指定扫描包含映射关系的接口所在的包也可以"
+				}
+			]
+		},
+		{
+			"ID": "20220830231814-9zp1zvw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220830231814-9zp1zvw",
+				"updated": "20220831000931"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 引入映射配置文件 --\u003e\n\u003cmappers\u003e\n    \u003cpackage name=\"com.terwergreen.mapper\"/\u003e\n\u003c/mappers\u003e\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
