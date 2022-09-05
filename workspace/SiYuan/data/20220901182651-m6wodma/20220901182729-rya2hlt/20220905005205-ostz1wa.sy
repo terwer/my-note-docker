@@ -1,0 +1,284 @@
+{
+	"ID": "20220905005205-ostz1wa",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "打开刚刚设计的报表点击工具栏的预览图标​这时候会弹出浏览器打开链接第一次需要我们设计管理员账户和密码然后设置数据库连接。我这里设置的是mysql。注意_数据库要提前新建好。默认是finedb编码采用utf。设置完成后会进行数据导入需要耐心等待。初始化之后会进入登录界面输入我们刚刚设置的登录密码登录即可。默认的后台地址是http_localhost_webrootdecision预览效果如下_​",
+		"custom-slug": "sailing-soft-report-initialization-e63xu",
+		"custom-wordpress-post-id": "4210",
+		"id": "20220905005205-ostz1wa",
+		"tags": "设置,登录,设计,帆软,报表,FineReport",
+		"title": "002.帆软报表初始化",
+		"updated": "20220905012023"
+	},
+	"Children": [
+		{
+			"ID": "20220905005205-1augqgo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905005205-1augqgo",
+				"updated": "20220905005445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "打开刚刚设计的报表，点击工具栏的预览图标",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905005445-qm757ck",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905005445-qm757ck",
+				"updated": "20220905005446"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20220905005354.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905005450-nl1syx8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905005450-nl1syx8",
+				"updated": "20220905005523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这时候会弹出浏览器，打开链接，第一次需要我们设计管理员账户和密码，然后设置数据库连接。我这里设置的是 MySQL。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905005524-hs589ej",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905005524-hs589ej",
+				"updated": "20220905012023"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意： 数据库要提前新建好。默认是 finedb，编码采用 utf8。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220905005609-l1h42sl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905005609-l1h42sl",
+				"updated": "20220905005623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置完成后，会进行数据导入，需要耐心等待。"
+				}
+			]
+		},
+		{
+			"ID": "20220905005624-0zbpyff",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905005624-0zbpyff",
+				"updated": "20220905005650"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "初始化之后，会进入登录界面，输入我们刚刚设置的登录密码登录即可。"
+				}
+			]
+		},
+		{
+			"ID": "20220905005650-qs6v7mg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905005650-qs6v7mg",
+				"updated": "20220905005734"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认的后台地址是"
+				}
+			]
+		},
+		{
+			"ID": "20220905005735-z63nn18",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905005735-z63nn18",
+				"updated": "20220905005738"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "http://localhost:8075/webroot/decision"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905005739-gyu4eor",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905005739-gyu4eor",
+				"updated": "20220905011010"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "预览效果如下："
+				}
+			]
+		},
+		{
+			"ID": "20220905011010-1v3yj9m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905011010-1v3yj9m",
+				"updated": "20220905011101"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20220905011048.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

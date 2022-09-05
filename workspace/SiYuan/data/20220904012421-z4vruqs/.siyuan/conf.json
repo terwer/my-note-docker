@@ -1,0 +1,10 @@
+{
+  "name": "014.文学艺术",
+  "sort": 0,
+  "icon": "1f375",
+  "closed": false,
+  "refCreateSavePath": "",
+  "createDocNameTemplate": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": ""
+}

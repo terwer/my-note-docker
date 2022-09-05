@@ -1,0 +1,128 @@
+{
+	"ID": "20220905103419-p6x8bpz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "条件属性顾名思义就是指当满足一定条件时修改属性值finereport报表中很多地方都可以运用到条件属性比如说满足条件隐藏行列修改显示样式等等​https_helpfanruancomfinereportdocviewhtml",
+		"custom-slug": "condition-attribute-z7n7ps",
+		"custom-wordpress-post-id": "4215",
+		"id": "20220905103419-p6x8bpz",
+		"tags": "条件,属性,帆软,报表,FineReport",
+		"title": "007.条件属性",
+		"updated": "20220905121226"
+	},
+	"Children": [
+		{
+			"ID": "20220905103654-345tn0s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905103654-345tn0s",
+				"updated": "20220905121118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "条件属性，顾名思义，就是指当满足一定条件时，修改属性值，FineReport报表中很多地方都可以运用到"
+				}
+			]
+		},
+		{
+			"ID": "20220905121118-q3ztj72",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905121118-q3ztj72"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "条件属性，比如说满足条件隐藏行列，修改显示样式，等等"
+				}
+			]
+		},
+		{
+			"ID": "20220905121225-8fndjqo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905121225-8fndjqo",
+				"updated": "20220905121226"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20220905121209.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220905121142-siyssjx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905121142-siyssjx",
+				"updated": "20220905121153"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://help.fanruan.com/finereport/doc-view-218.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://help.fanruan.com/finereport/doc-view-218.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905121142-fab7qhz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905121142-fab7qhz",
+				"updated": "20220905121150"
+			}
+		}
+	]
+}

@@ -8,8 +8,10 @@
 		"custom-kms-post-id": "182ea50d8b0a282f74701eb452bb4272",
 		"custom-slug": "use-getmapper-to-optimize-the-custom-persistence-layer-framework",
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/124.使用getMapper方式对自定义持久层框架进行优化.md",
+		"custom-wordpress-post-id": "4199",
+		"custom-wordpress-wp2-post-id": "4257",
 		"id": "20220829234359-100j1k3",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220829234519-y3gdxd3\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220829234720-x26rnum\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:3469,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220829234519-gnflz9u\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:33,\u0026amp;quot;focusEnd\u0026amp;quot;:33}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220829234519-y3gdxd3\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220829234720-x26rnum\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220829234519-gnflz9u\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:33,\u0026amp;quot;focusEnd\u0026amp;quot;:33}",
 		"tags": "custom,dao,persistence,framework,mybatis,mybatis-5,mapper",
 		"title": "124.使用getMapper方式对自定义持久层框架进行优化",
 		"updated": "20220830212438"

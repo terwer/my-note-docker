@@ -1,0 +1,1125 @@
+{
+	"ID": "20220903142740-y82qmsj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "谢谢您您是第位访客。侃侃我自己一直以来我都一直很难用一个固定的词语来描述我自己。或许在我的初中甚至小学同学眼里我是一个勤奋好学循规蹈矩的好学生_在我的高中同学眼里我是一个埋头书海自生自灭的梦想者_以致现在我自诩为架构菜鸟（幻想着成为装逼架构师呵呵）文学爱好者我的新浪博客（遇到过文学高手不敢妄自称大呵呵）至于别人怎么评价我笔者无需过分纠结…人生在世有些事情有些选择是不需要理由的。年轻就该去探索去尝试。人生最大的悲哀不是失败而是甘于现状因为他一开始就失败了。",
+		"custom-slug": "guestbook",
+		"custom-wordpress-post-id": "3998",
+		"id": "20220903142740-y82qmsj",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220903142827-nztndu9\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220903145622-f4ezaku\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:388,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220903142827-lo2iwcq\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "留言,guest,guestbook",
+		"title": "002.留言板",
+		"updated": "20220903190528"
+	},
+	"Children": [
+		{
+			"ID": "20220903142827-nztndu9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-nztndu9",
+				"updated": "20220903142827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "谢谢您，您是第 12696 位访客。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-0rqum42",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220903142827-0rqum42",
+				"updated": "20220903142849"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "侃侃我自己",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142840-njcwucg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142840-njcwucg",
+				"updated": "20220903144239"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一直以来，我都一直很难用一个固定的词语来描述我自己。或许在我的初中甚至小学同学眼里，我是一个勤奋好学，循规蹈矩的好学生；在我的高中同学眼里，我是一个埋头书海，自生自灭的梦想者；以致现在，我自诩为架构菜鸟（幻想着成为装逼架构师，呵呵），1/8 文学爱好者（遇到过文学高手，不敢妄自称大，呵呵），至于别人怎么评价我，笔者无需过分纠结…",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-gnhxd4r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-gnhxd4r",
+				"updated": "20220903142827"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "人生在世，有些事情，有些选择，是不需要理由的。年轻就该去探索，去尝试。人生最大的悲哀不是失败，而是甘于现状，因为他一开始就失败了。",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-dbebur2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220903142827-dbebur2",
+				"updated": "20220903144247"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "笔者简历",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-tnpxlp8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-tnpxlp8",
+				"updated": "20220903144701"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2014 年 7 月 1 日毕业于湖北省长江大学软件工程，在 互联网金融，互联网教育，知识管理、知识图谱、AI 大数据领域有丰富的工作经验。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903144322-f93vy6l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903144322-f93vy6l",
+				"updated": "20220903144322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "专注于项目架构、性能优化、算法研究。在 Web 开发领域有深入研究，熟练 Java、GO、NodeJS，目前专注于后端开发。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-5qvo9xc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220903142827-5qvo9xc",
+				"updated": "20220903144329"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "网站简介",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903144329-vgrn09e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220903144329-vgrn09e",
+				"updated": "20220903144723"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "网站简介",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903144337-1k4o1li",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903144337-1k4o1li",
+				"updated": "20220903144534"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浅海拾贝（",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "https://www.terwer.space",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "），2022 年更换至今，2014 年叫特维博客（",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "http://www.terwer.com",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "），原新价值网(",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Www.xinValue.Com",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ")成立于 2011 年 9 月 10 日,先后进行了多次升级及变更,终于在 2011 年 9 月 30 日全新亮相!",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-lo2iwcq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-lo2iwcq",
+				"updated": "20220903142827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "19 岁萌生想法，20 岁创立新价值网，面对未来，作为草根站长的我们，一切虚位以待。。。。。。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-p2uftsh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220903142827-p2uftsh",
+				"updated": "20220903144748"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "浅海拾贝[特维博客（原新价值网）]大事记",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-zypvwue",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-zypvwue",
+				"updated": "20220903142827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2011 年 9 月 9 日-新价值网开始酝酿，采用网钛文章管理系统开始前期部署。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-0ycvln2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-0ycvln2",
+				"updated": "20220903142827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2011 年 9 月 10 日-新价值网正式上线。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-4bkqdvu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-4bkqdvu",
+				"updated": "20220903142827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2011 年 9 月 11 日-百度谷歌正式收录。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-grixx6g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-grixx6g",
+				"updated": "20220903142827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2011 年 9 月 30 日-新价值网升级完成，全新亮相，首页耳目一新，清爽简洁。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-j7rzkg7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-j7rzkg7",
+				"updated": "20220903144820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2012 年 4 月 6 日-域名（",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "http://www.xinValue.Com",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）顺利通过备案，正式启用域名   ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Www.xinValue.Com",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-1xefyox",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-1xefyox",
+				"updated": "20220903142827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2012 年 5 月 3 日-新价值网谷歌 PR 值升为 1。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-s0rzqql",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-s0rzqql",
+				"updated": "20220903144901"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2012 年 11 月 24 日-新价值网转移到织梦 DedeCMS，开始新的探索。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903144902-six85x5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903144902-six85x5",
+				"updated": "20220903145042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2013 年 7 月 2 日，新价值网转战 Wordpress，新起点，新跨越！",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-0adbhav",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-0adbhav",
+				"updated": "20220903151211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2013 年 10 月 17 日，新价值网推出 iphone 客户端和 Android 客户端 。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-s7oa7l7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-s7oa7l7",
+				"updated": "20220903150931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2013 年 11 月 23 日，新价值网搜索（",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "http://Search.xinValue.Com",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ）上线，支持本博客站内搜索，关键字自动完成，全网视频搜索及无广告在线观看。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-vya1ltu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-vya1ltu",
+				"updated": "20220903150853"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2013 年 12 月 17 日，心情随笔上线（",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "http://Www.xinValue.Com/diary",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-y2qnc5g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-y2qnc5g",
+				"updated": "20220903150923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2013 年 12 月 23 日，新价值网推出影视网站：纯纯影视（",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "http://tvnoad.com",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903145125-bzbvrgq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903145125-bzbvrgq",
+				"updated": "20220903145508"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2013 年 12 月 24 日，新价值网谷歌 PR 值升为 2。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903145508-0tfor23",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903145508-0tfor23",
+				"updated": "20220903150903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2014 年 8 月 24 日，新价值网更新为特维博客，域名更换为：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "http://www.terwer.com",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-f5yvfgt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903142827-f5yvfgt",
+				"updated": "20220903142827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2015 年 06 月 14 日，全新主题 Terwer1.0。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903151226-95tns46",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903151226-95tns46",
+				"updated": "20220903151321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2018 年 02 月 03 日，启用自己研发的 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeLink",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "jvue",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/terwer/jvue",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903150009-kqq4z5c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903150009-kqq4z5c",
+				"updated": "20220903150039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022 年 8 月 31 日，回归 Wordpress，启用 Begin 主题。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903142827-d5bee6f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220903142827-d5bee6f",
+				"updated": "20220903145951"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "笔者的联系方式",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220903145951-w6mtshy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903145951-w6mtshy",
+				"updated": "20220903145951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "QQ：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeLink",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "点击这里给我发消息",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://wpa.qq.com/msgrd?v=3\u0026uin=1035136784\u0026site=qq\u0026menu=yes",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "邮箱：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeLink",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "youweics@163.com",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "youweics@163.com",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220903145622-f4ezaku",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220903145622-f4ezaku",
+				"updated": "20220903145622"
+			}
+		}
+	]
+}

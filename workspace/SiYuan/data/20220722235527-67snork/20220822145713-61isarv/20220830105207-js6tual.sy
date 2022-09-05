@@ -8,8 +8,10 @@
 		"custom-kms-post-id": "182ecc44fefb6d2cee704874eb6a8bef",
 		"custom-slug": "mybatis-basic-process-and-configuration-file-analysis",
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/230.Mybatis基本流程及配置文件解析.md",
+		"custom-wordpress-post-id": "4202",
 		"custom-yuque-post-id": "91164767",
 		"id": "20220830105207-js6tual",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830105327-gafnm5o\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830105327-o0qxl4u\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830105327-gafnm5o\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "配置,事务,mybatis,config,cfg,mybatis-9,framework",
 		"title": "230.Mybatis基本流程及配置文件解析",
 		"updated": "20220830212650"

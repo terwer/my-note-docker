@@ -1,0 +1,1862 @@
+{
+	"ID": "20220905122012-0eu1hns",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "java平台javase_javaplatformstandardeditionjavase是一个计算平台用于为桌面和服务器环境开发和部署可移植代码。javase以前称为javaplatformstandardedition(jse)。javame_javaplatformmicroeditionjavame是一个计算平台用于为嵌入式和移动设备（微控制器传感器网关移动电话个人数字助理电视机顶盒打印机）开发和部署可移植代码。javame以前称为javaplatformmicroedition或jme。截至年",
+		"custom-slug": "java-se-platform-and-jdk",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/001.Java_SE之Java_SE平台与JDK.md",
+		"custom-wordpress-post-id": "4044",
+		"id": "20220905122012-0eu1hns",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220905122249-mmgjilp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220905122339-4kt2xrj\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220905122303-34mva91\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:6,\u0026amp;quot;focusEnd\u0026amp;quot;:6}",
+		"tags": "平台,版本,jdk,javase,java,kotlin",
+		"title": "001.Java_SE之Java_SE平台与JDK",
+		"updated": "20220905123036"
+	},
+	"Children": [
+		{
+			"ID": "20220905122249-mmgjilp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220905122249-mmgjilp",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java平台"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-qxymgvu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-qxymgvu",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Java SE"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://en.wikipedia.org/wiki/Java_Platform,_Standard_Edition"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：Java Platform, Standard Edition"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-petlcag",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-petlcag",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java SE是一个计算平台，用于为桌面和服务器环境开发和部署可移植代码。 Java SE 以前称为 Java 2 Platform, Standard Edition (J2SE)。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-j892sxc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-j892sxc",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Java ME"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "： Java Platform, Micro Edition"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-m02uks7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-m02uks7",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " Java ME 是一个计算平台，用于为嵌入式和移动设备（微控制器、传感器、网关、移动电话、个人数字助理、电视机顶盒、打印机）开发和部署可移植代码。 Java ME 以前称为 Java 2 Platform、Micro Edition 或 J2ME。 截至 2006 年 12 月 22 日，Java ME 源代码在 GNU 通用公共许可证下获得许可，并以项目名称 phoneME 发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-blijb6r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-blijb6r",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Java EE"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://zh.wikipedia.org/wiki/Jakarta_EE"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：Java Platform Enterprise Edition"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-ruzv3i0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-ruzv3i0",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JavaEE是Java平台企业版，之前称为Java 2 Platform, Enterprise Edition (J2EE)，2018年3月更名为"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Jakarta EE"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-mzctkzg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220905122249-mzctkzg",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java的历史与版本"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-dkgf5mg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-dkgf5mg",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java是由Sun公司推出的（2010年初被Oracle公司收购）。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-hegm4mb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-hegm4mb",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "收购价格：74亿美金"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-elk0t5u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-elk0t5u",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "J2SE、J2ME、J2EE"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-ez1tydq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-ez1tydq",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JDK：Java Development Kit （Java开发必备）"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-bvq18lb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-bvq18lb",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JRE：Java Runtime Environment （Java执行环境）"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-9olanc1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-9olanc1",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JDK包含了JRE。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-fnwrtuf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-fnwrtuf",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "JDK版本历史"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-khefvd5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-khefvd5",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Jdk 1.4"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-jco5u15",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-jco5u15",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "jdk 1.5(5.0)：Tiger，老虎"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-nyj821t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-nyj821t",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "jdk 1.6(6.0)：Mustang，野马"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-l0t4ybq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-l0t4ybq",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "jdk 1.7(7.0): Dolphin，海豚"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-qxpxi97",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-qxpxi97",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "jdk 1.8(8.0) LTS"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-0yw5ox4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-0yw5ox4",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "java 11 LTS"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-r8yx01o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-r8yx01o",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "java 17 LTS"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-di6dxrm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-di6dxrm",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "版本历史"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-f0yusv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-f0yusv8",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#JDK_Alpha_%E5%92%8C_Beta"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#JDK_Alpha_%E5%92%8C_Beta"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-rbp7v1m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-rbp7v1m",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.wdbyte.com/java/java-17/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.wdbyte.com/java/java-17/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-9lr4blp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220905122249-9lr4blp",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Kotlin/JDK的下载、安装与运行"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-zyj7zha",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905122249-zyj7zha",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载Kotlin"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-ha8rait",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-ha8rait",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://kotlinlang.org/docs/command-line.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://kotlinlang.org/docs/command-line.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-vnpspga",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905122249-vnpspga",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载JDK"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-ve9hvid",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-ve9hvid",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.oracle.com/java/technologies/downloads/archive/"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.oracle.com/java/technologies/downloads/archive/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-qpx27fo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-qpx27fo",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前兼容性和使用最广泛的是JDK8："
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-ycw32jx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-ycw32jx",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-lz4m5gq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905122249-lz4m5gq",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装Kotlin/JDK"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-7ip6uz5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-7ip6uz5",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装直接根据官网提示安装即可，主要是设置环境变量。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-ue80cef",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220905122249-ue80cef",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"ID": "20220905122248-oe4p765",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220905122248-oe4p765",
+						"updated": "20220905122248"
+					},
+					"Children": [
+						{
+							"ID": "20220905122249-uem95z8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-uem95z8",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Kotlin环境变量"
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-pu0thyg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-pu0thyg",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Mac直接用Homebrew安装"
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-s3y39ln",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220905122249-s3y39ln",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "brew update\nbrew install kotlin\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-wv5l6zm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-wv5l6zm",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装日志如下："
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-4ru7wgk",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220905122249-4ru7wgk",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "==\u003e Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/openjdk-18.0.1.monterey.bottle.tar.gz\n######################################################################## 100.0%\n==\u003e Downloading https://mirrors.ustc.edu.cn/homebrew-bottles/kotlin-1.6.21.all.bottle.tar.gz\n######################################################################## 100.0%\n==\u003e Installing dependencies for kotlin: openjdk\n==\u003e Installing kotlin dependency: openjdk\n==\u003e Pouring openjdk-18.0.1.monterey.bottle.tar.gz\n🍺  /usr/local/Cellar/openjdk/18.0.1: 641 files, 307.7MB\n==\u003e Installing kotlin\n==\u003e Pouring kotlin-1.6.21.all.bottle.tar.gz\n🍺  /usr/local/Cellar/kotlin/1.6.21: 115 files, 75.9MB\n==\u003e Running `brew cleanup kotlin`...\nDisable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.\nHide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-av6269k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-av6269k",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输入 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "kotlin -version"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，可以检测环境变量："
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-ol354n1",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220905122249-ol354n1",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "➜  ~ kotlin -version\nKotlin version 1.6.21-release-334 (JRE 11.0.12+8-LTS-237)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220905122248-yqn4n0m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220905122248-yqn4n0m",
+						"updated": "20220905122248"
+					},
+					"Children": [
+						{
+							"ID": "20220905122249-2j9gb3q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-2j9gb3q",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java环境变量"
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-pf1er45",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-pf1er45",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设定环境变量（可以是用户变量，也可以是系统变量），指向JDK安装目录中的bin目录"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "通过运行，输入cmd打开命令行窗口，输入 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "java –version"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，显示出Java版本信息"
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-3a2z1gg",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220905122249-3a2z1gg",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "➜  ~ java -version\njava version \"11.0.12\" 2021-07-20 LTS\nJava(TM) SE Runtime Environment 18.9 (build 11.0.12+8-LTS-237)\nJava HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.12+8-LTS-237, mixed mode)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-fa06hvh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905122249-fa06hvh",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "运行第一个Kotlin/Java程序"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-rgfcev6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-rgfcev6",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接下来就可以编写Kotlin/Java程序了。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-occ2vs0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-occ2vs0",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以直接使用windows记事本来编写Kotlin/Java程序，也可以使用Editplus，UltraEdit等高级文本编辑工具编写Java程序，还可以使用专业的IDE（Integrated Development Environment）编写。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-m813m3s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220905122249-m813m3s",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用InteliJ IDEA IDE实现"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-odmhhz5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-odmhhz5",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://kotlinlang.org/docs/getting-started.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://kotlinlang.org/docs/getting-started.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-zm0djd5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220905122249-zm0djd5",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "记事本实现"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-9atjoje",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-9atjoje",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用记事本实现一个Hello World的Kotlin或者Java程序。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-2wgrw9q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-2wgrw9q",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mac可以用以下命令创建一个Kotlin或者java文件："
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-viblide",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220905122249-viblide",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-fw2rp2v",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220905122249-fw2rp2v",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-d4ahtiq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220905122249-d4ahtiq",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd ~\nvim hello.kt\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-31kk5cq",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220905122249-31kk5cq",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-wdgiohk",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220905122249-wdgiohk",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-nqksqdb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220905122249-nqksqdb",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd ~\nvim HelloWorld.java\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-cnyiou2",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220905122249-cnyiou2",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-m2b05ol",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220905122249-m2b05ol",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-mpibxyb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-mpibxyb",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后写上如下代码："
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-hmdyj9r",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-group\u003e",
+			"Properties": {
+				"id": "20220905122249-hmdyj9r",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-017qz77",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Kotlin\" active\u003e",
+			"Properties": {
+				"id": "20220905122249-017qz77",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-96bnvm0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220905122249-96bnvm0",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "fun main(){\n  println(\"Hello, World!\")\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-ifciiec",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220905122249-ifciiec",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-xjrj5mh",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003ccode-block title=\"Java\"\u003e",
+			"Properties": {
+				"id": "20220905122249-xjrj5mh",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-tcofkvv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220905122249-tcofkvv",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "class HelloWorld{\n  public static void main(String[] args){\n    System.out.println(\"Hello World!\");\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-gsssgc2",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-block\u003e",
+			"Properties": {
+				"id": "20220905122249-gsssgc2",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-03l070l",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/code-group\u003e",
+			"Properties": {
+				"id": "20220905122249-03l070l",
+				"updated": "20220905122249"
+			}
+		},
+		{
+			"ID": "20220905122249-d3lomju",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-d3lomju",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所有的Kotlin代码，其后缀都是以kt结尾；所有的Java代码，其后缀都是以java结尾。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-njz7v62",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-njz7v62",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Kotlin/Java程序的执行过程分为两步："
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-nthjnoc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-nthjnoc",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编译"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-1b2y9ft",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-1b2y9ft",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "执行"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-9khtg8j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-9khtg8j",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Class文件是字节码文件，程序最终执行的就是这个字节码（bytecode）文件。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-xfbi5rg",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220905122249-xfbi5rg",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"ID": "20220905122248-ce76b4e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220905122248-ce76b4e",
+						"updated": "20220905122248"
+					},
+					"Children": [
+						{
+							"ID": "20220905122249-dpyvwpr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-dpyvwpr",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Kotlin编译"
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-chra00g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-chra00g",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编译命令："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "kotlinc hello.kt"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-vanm3ih",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-vanm3ih",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行命令："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "kotlin HelloKt"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-j7f6pjk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-j7f6pjk",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image-20220509000006471"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://cdn.jsdelivr.net/gh/terwer/upload/img/20220509000006.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220905122248-il1ntx1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220905122248-il1ntx1",
+						"updated": "20220905122248"
+					},
+					"Children": [
+						{
+							"ID": "20220905122249-o20cij2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-o20cij2",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java编译"
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-cn19lsd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-cn19lsd",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编译命令："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "javac HelloWorld.java"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-1rp49kx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-1rp49kx",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行命令："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "java HelloWorld"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（注意，Test后面没有.class）"
+								}
+							]
+						},
+						{
+							"ID": "20220905122249-s4hciwi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220905122249-s4hciwi",
+								"updated": "20220905122249"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image-20220501192947243"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://cdn.jsdelivr.net/gh/terwer/upload/img/image-20220501192947243.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-mevr58u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905122249-mevr58u",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java跨平台与Java虚拟机"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-rrz0c7v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-rrz0c7v",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java是跨平台的语言，真正执行的不是二进制代码，而是字节码。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-a25yv4s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-a25yv4s",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JVM（Java Virtual Machine，Java虚拟机）"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-sxqvhkw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-sxqvhkw",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java是跨平台的，而JVM不是跨平台的（JVM是由C语言编写的）"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-d5t3iv9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122249-d5t3iv9",
+				"updated": "20220905122249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java之所以能够做到跨平台，本质原因在于JVM不是跨平台的。"
+				}
+			]
+		},
+		{
+			"ID": "20220905122249-jw66yzs",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220905122249-jw66yzs",
+				"style": "color: var(--b3-card-success-color); background-color: var(--b3-card-success-background);",
+				"updated": "20220905122303"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220905122303-34mva91",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220905122303-34mva91",
+						"updated": "20220905122303"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史"
+						}
+					]
+				},
+				{
+					"ID": "20220905122307-46c7lku",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220905122307-46c7lku"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/08 feat:新增Kotlin语言支持。"
+						}
+					]
+				},
+				{
+					"ID": "20220905122310-p79mzpk",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220905122310-p79mzpk",
+						"updated": "20220905122313"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/01 feat:添加最新JDK版本信息。"
+						}
+					]
+				},
+				{
+					"ID": "20220905122313-totidbw",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220905122313-totidbw"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2011/10/22 feat:初稿。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905122339-4kt2xrj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905122339-4kt2xrj"
+			}
+		}
+	]
+}

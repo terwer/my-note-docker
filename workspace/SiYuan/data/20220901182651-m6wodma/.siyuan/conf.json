@@ -1,0 +1,10 @@
+{
+  "name": "013.效率工具",
+  "sort": 0,
+  "icon": "26f7",
+  "closed": false,
+  "refCreateSavePath": "",
+  "createDocNameTemplate": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": ""
+}

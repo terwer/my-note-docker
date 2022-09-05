@@ -1,0 +1,134 @@
+{
+	"ID": "20220905013832-0h42u5q",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "选中模板重复与冻结​注意_重复与冻结是配合使用的。​",
+		"custom-slug": "repeat-and-freeze-1h0pqs",
+		"custom-wordpress-post-id": "4212",
+		"id": "20220905013832-0h42u5q",
+		"tags": "重复,冻结,帆软,FineReport",
+		"title": "004.重复与冻结",
+		"updated": "20220905020303"
+	},
+	"Children": [
+		{
+			"ID": "20220905013832-l0yyq33",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905013832-l0yyq33",
+				"updated": "20220905013851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选中模板-\u003e重复与冻结"
+				}
+			]
+		},
+		{
+			"ID": "20220905013851-ixo6hnz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905013851-ixo6hnz",
+				"updated": "20220905013852"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20220905013820.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220905013902-13lo94y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905013902-13lo94y",
+				"updated": "20220905013920"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：重复与冻结是配合使用的。"
+				}
+			]
+		},
+		{
+			"ID": "20220905013920-x1vnjq3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905013920-x1vnjq3",
+				"updated": "20220905020303"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/screenshot-20220905-014344.gif"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220905014824-se6r7ra",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905014824-se6r7ra"
+			}
+		}
+	]
+}

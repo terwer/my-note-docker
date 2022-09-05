@@ -9,9 +9,10 @@
 		"custom-liandi-post-id": "1661917665843",
 		"custom-slug": "mybatis-annotation-develop",
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/310.MyBatis常用注解及基本增删改查的注解实现.md",
+		"custom-wordpress-post-id": "4207",
 		"custom-yuque-post-id": "91288551",
 		"id": "20220830171242-2by3ixn",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830171346-2oz46po\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830171346-7jhyst4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:446}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830171346-2oz46po\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830171346-7jhyst4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:446,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830171346-2oz46po\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "mybatis,annotation,framework,mybatis-13",
 		"title": "310.MyBatis常用注解及基本增删改查的注解实现",
 		"updated": "20220831123908"

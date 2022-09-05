@@ -1,0 +1,180 @@
+{
+	"ID": "20220902154955-qi6dbxj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220902154955-qi6dbxj",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220902155002-nmdonte\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220902155755-48kqukt\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220902155755-48kqukt\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "2022-09-02-周报",
+		"updated": "20220902155800"
+	},
+	"Children": [
+		{
+			"ID": "20220902155002-nmdonte",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155002-nmdonte",
+				"updated": "20220902155002"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、文档协同缺陷修复"
+				}
+			]
+		},
+		{
+			"ID": "20220902155002-wvfybpr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155002-wvfybpr",
+				"updated": "20220902155539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#170704【文档协同-修复】文档协同知识助手优化问题"
+				}
+			]
+		},
+		{
+			"ID": "20220902155002-lg23zhk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155002-lg23zhk",
+				"updated": "20220902155002"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#170704【文档协同-修复】文档协同知识助手优化问题"
+				}
+			]
+		},
+		{
+			"ID": "20220902155553-m007515",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155553-m007515",
+				"updated": "20220902155719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#171942【文档协同-修复】个人文档和团队文档的名称很长时，列表页面显示异常"
+				}
+			]
+		},
+		{
+			"ID": "20220902155557-1rs4gvv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155557-1rs4gvv",
+				"updated": "20220902155722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#171885【文档协同-修复】文档协同的知识助手的用户姓名和我的收藏的知识标题有英文括号()时，显示乱码"
+				}
+			]
+		},
+		{
+			"ID": "20220902155601-f8xoo5m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155601-f8xoo5m",
+				"updated": "20220902155724"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172159【日常缺陷】 【文档协同-修复】回收站的文档详情页不应该出现如下图的内容"
+				}
+			]
+		},
+		{
+			"ID": "20220902155604-a8v7qy3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155604-a8v7qy3",
+				"updated": "20220902155725"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172362【日常缺陷】 【文档协同-修复】第一次进入文档协同首页时总计和本月数据文字不显示"
+				}
+			]
+		},
+		{
+			"ID": "20220902155607-t2w6ubx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155607-t2w6ubx",
+				"updated": "20220902155727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172472【文档协同】未出库知识仓库时，点击系统中的”沉淀“按钮，弹窗提示”成果沉淀至知识库，请联系客服开通知识仓库！”"
+				}
+			]
+		},
+		{
+			"ID": "20220902155610-m2wswst",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155610-m2wswst",
+				"updated": "20220902155730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172651【文档协同-修复】知识助手搜索结果要显示命中内容，蓝色显示"
+				}
+			]
+		},
+		{
+			"ID": "20220902155732-dmyh0yj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155732-dmyh0yj"
+			}
+		},
+		{
+			"ID": "20220902155002-70sw9ea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155002-70sw9ea",
+				"updated": "20220902155758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、日常缺陷处理\n#171872【日常缺陷】【知识仓库】定义属性为组织架构，文档选择部门后，列表筛选此部门却不显示文档(多选时)"
+				}
+			]
+		},
+		{
+			"ID": "20220902155746-f72s7c1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155746-f72s7c1",
+				"updated": "20220902155800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172891【日常缺陷】【知识问答】收藏报错"
+				}
+			]
+		},
+		{
+			"ID": "20220902155755-48kqukt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220902155755-48kqukt"
+			}
+		}
+	]
+}

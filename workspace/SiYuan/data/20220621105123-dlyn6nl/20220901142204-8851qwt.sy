@@ -1,0 +1,970 @@
+{
+	"ID": "20220901142204-8851qwt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220901142204-8851qwt",
+		"title": "思源笔记和obsidian的双链对比",
+		"updated": "20220901142204"
+	},
+	"Children": [
+		{
+			"ID": "20220901142204-g2drepw",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220901142204-g2drepw",
+				"updated": "20220901142204"
+			}
+		},
+		{
+			"ID": "20220901142204-kr2vcgl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220901142204-kr2vcgl",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"ID": "20220901142204-cn6xkpt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901142204-cn6xkpt",
+						"updated": "20220901142204"
+					},
+					"Children": [
+						{
+							"ID": "20220901142204-wlmeb02",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901142204-wlmeb02",
+								"updated": "20220901142204"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://zhuanlan.zhihu.com/p/413291933 - 知乎专栏"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://zhuanlan.zhihu.com/p/413291933"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901142204-ia9ti8u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901142204-ia9ti8u",
+						"updated": "20220901142204"
+					},
+					"Children": [
+						{
+							"ID": "20220901142204-m6rl688",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901142204-m6rl688",
+								"updated": "20220901142204"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最近obsidian各种吹嘘，依然成为宇宙第一笔记软件了，都看不下去了。 obsidian携带20+的插件情况下，跟思源对下主题颜值和双链呼出对比。 obsidian公认最强的blue topaz主题无改默认。 思源笔记：wahle主题暗色，…"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220901142204-w52ugk0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220901142204-w52ugk0",
+						"updated": "20220901142204"
+					},
+					"Children": [
+						{
+							"ID": "20220901142204-7eqssum",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220901142204-7eqssum",
+								"updated": "20220901142204"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2022-09-01 14:22:04"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-8j76euf",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220901142204-8j76euf",
+				"updated": "20220901142204"
+			}
+		},
+		{
+			"ID": "20220901142204-1m7mndu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-1m7mndu",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最近obsidian各种吹嘘，依然成为宇宙第一笔记软件了，都看不下去了。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-6b1r40v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-6b1r40v",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "obsidian携带20+的插件情况下，跟思源对下主题颜值和双链呼出对比。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-abg9lpw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-abg9lpw",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "obsidian公认最强的blue topaz主题无改默认。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-82xk4gp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-82xk4gp",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-0b912f94af317237505f7d502167b9c2_b-20220901142204-a7xr3hg.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-7l64g37",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-7l64g37",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思源笔记：wahle主题暗色，不开自定义。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-guh52hb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-guh52hb",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-8823bdeb3cd695fdafe2d047f8f9f37c_b-20220901142204-4aoa5at.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-uawd5cv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-uawd5cv",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "白色主题就不比了，obsidian会输的更惨。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-wvo4ryw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-wvo4ryw",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "笔者体验，在obsidian，早上写了4000多字后，就再也写不下去了，主要是因为这些汉语和网址编码，图片及#  .这些特殊字符的别扭。而且blue topaz的字体确实有些别扭，四角锋芒逼人啊。我寻字体的时候，发现视频教学里老师们弄得楷体之类字体也特别丑。本来我以为是微软雅黑能解决这个问题，但是后来发现貌似间距也有关系。我还装了easy typing的插件，也没有多少改善。===字体的问题，今天改成最好的了，但是网址和图片的乱码无法解决。看着糟心。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-7flk1pb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-7flk1pb",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "相反思源的块编辑，跟Notion的手感类似，每次写起来有种轻松而意犹未尽的感觉。不像语雀那么整篇留白的压迫，整篇干净，而有条理。用/还可以呼起，完全不用考虑用什么md语法去润色。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-3w6kmsa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-3w6kmsa",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-c9d7cc38ba6188eb480ff6bab0304631_b-20220901142204-sgkpiz8.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-vr8z9im",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-vr8z9im",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-3aac2e70dfd70371da0d4b800eb196ae_b-20220901142204-zoxeicr.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-50kk3zr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-50kk3zr",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "双链操作"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-6786y18",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-6786y18",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-a3582e09f0b4dc94b6fc0cca86ab05de_b-20220901142204-5sd91jd.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-wkdg82k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-wkdg82k",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-1e05e45693a4fdab0f3340962a39813d_b-20220901142204-ag5myrx.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-25fua8y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-25fua8y",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "obsidian的双链只能到标题，想深入就需要^进一步"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-d23zfax",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-d23zfax",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-a312f19ebd78a0ea0cfba85be1ab49c2_b-20220901142204-0ghe6eb.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-kscl1ij",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-kscl1ij",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-41ce9cbceb180f4182515f732d8ee9f5_b-20220901142204-aw51kbp.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-md14knl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-md14knl",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "插入后变为[[认知觉醒#^1cee03]]，不知道后面这个是啥，不写别名omo!"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-2xz66hb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-2xz66hb",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-01d8e0318ef3e577dce2eb058595400d_b-20220901142204-v82b3pi.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-06aq5mq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-06aq5mq",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "笔者测试，思源[[呼出后，要比搜索后quickadd+temp插件的所谓一键必达要快一些，极限情况下，不思考狂粘贴和输入。输入体验也是思源要更好一些。但是用到高深处，估计obsidian的插件更加灵活，能实现各种小众而刁钻的骚操作。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-d158opo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-d158opo",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "说datav，埋首查半天资料，看看这个挂件，做这个大概花了不到10分钟吧。SQL语法还是默认随便写的。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-md0ps1y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-md0ps1y",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-e3cf895dfcb9d26d64a96a56c2e5f32a_b-20220901142204-6j3nzv7.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-jphkvec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-jphkvec",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "obsidian中，datav的基础汇总，其实花了几倍于上面的时间，最终出图是这样子的。这个水准，大概是15年前，很多人学静态页面表格的调色呈现水平。也不谈苹果的上色了，容易被打脸。谈不上美不美，总感觉好像复古流。但是B格又不够复古，总像个半成品。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-ti9olas",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-ti9olas",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-f48be3ca62f7d4920f0fe0f38a100622_b-20220901142204-prj1lye.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-89rmicz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-89rmicz",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-4e2bf070ae2ba167daae8fe46dbea0e4_b-20220901142204-oqq86vv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-ail6ds9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-ail6ds9",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前不是那个好，那个不好的问题，关键是obsidian很难用，一幅插图说明一切。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-spdkage",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-spdkage",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9月25号汇总体验："
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-t4d5eow",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-t4d5eow",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "没有所见即所得，我忍了，没有就没有吧。可能是ob的特色。我把输入框同步到预览框，自己催眠下自己，OK！"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-rn7dees",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-rn7dees",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因ob解决不了复制vscode代码进去格式错乱的问题，只能忍痛了，确实也没有办法的事情。从vs-code复制思源语雀notion/txt都没事，复制到ob就缩进全乱了。起初怀疑ad和高亮插件冲突，查obsidian的插件，说是vscode的问题，于是vscode里调了半天也没解决。  //这个问题谁能指导一下？"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-fjl7a77",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-fjl7a77",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我尝试用网上抓取Markdown文件，发现无论何种方法，导入ob后，表格都莫名消失了。而思源一键下发就没事，语雀notion更强。这个锅倒是可以甩给markdown本身。//有什么插件能实现？"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-npkhi9d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-npkhi9d",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "确实如同大佬所说，人家基础功能，他得用好几个插件才能实现得了功能，而且插件也常常有冲突，体验根本没法比。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-mmpvd9r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-mmpvd9r",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上次说思源不能起别名，是我说浅薄了。仔细读了帮助文档，是可以起的。思源的引用块别名，((和[[后，用鼠标右键点击，出来个提示框，直接输入别名，简单粗暴。"
+				}
+			]
+		},
+		{
+			"ID": "20220901142204-5gnh6m7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220901142204-5gnh6m7",
+				"updated": "20220901142204"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-20a11161a9641cb60489b176534642fc_b-20220901142204-6nuxf4f.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

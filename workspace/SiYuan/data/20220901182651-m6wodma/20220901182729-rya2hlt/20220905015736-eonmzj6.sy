@@ -1,0 +1,58 @@
+{
+	"ID": "20220905015736-eonmzj6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "https_helpfanruancomfinereportdocviewhtml",
+		"custom-slug": "cross-report-z1xreoq",
+		"custom-wordpress-post-id": "4213",
+		"id": "20220905015736-eonmzj6",
+		"tags": "交叉,报表,帆软,FineReport",
+		"title": "005.交叉报表",
+		"updated": "20220905101424"
+	},
+	"Children": [
+		{
+			"ID": "20220905015736-jnvpuo6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905015736-jnvpuo6",
+				"updated": "20220905015825"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://help.fanruan.com/finereport10.0/doc-view-2107.html"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://help.fanruan.com/finereport10.0/doc-view-2107.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905101424-7fjgrs1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905101424-7fjgrs1"
+			}
+		}
+	]
+}
