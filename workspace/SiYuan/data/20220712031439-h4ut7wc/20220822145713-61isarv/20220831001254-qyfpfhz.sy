@@ -8,9 +8,10 @@
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/320.MyBatis的注解实现复杂映射开发.md",
 		"custom-wordpress-post-id": "4206",
 		"id": "20220831001254-qyfpfhz",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220831232542-7b8qtuh\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220831233329-q1v45j1\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:13703,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220901004639-j034ps5\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:1033,\u0026amp;quot;focusEnd\u0026amp;quot;:1033}",
 		"tags": "注解,mybatis,complex,framework,mybatis-14,mapping",
 		"title": "320.MyBatis的注解实现复杂映射开发",
-		"updated": "20220901004818"
+		"updated": "20220906001557"
 	},
 	"Children": [
 		{
@@ -2230,8 +2231,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "调用过程分析"
+					"Data": "调用过程分析",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -2245,44 +2256,80 @@
 			"Children": [
 				{
 					"Type": "NodeStrong",
-					"Data": "strong",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
 							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeImage",
-							"Data": "span",
+							"Properties": {
+								"id": ""
+							},
 							"Children": [
 								{
-									"Type": "NodeBang"
+									"Type": "NodeBang",
+									"Data": "!",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
-									"Type": "NodeOpenBracket"
+									"Type": "NodeOpenBracket",
+									"Data": "[",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeLinkText",
-									"Data": "image-20220901002006366"
+									"Data": "image-20220901002006366",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
-									"Type": "NodeCloseBracket"
+									"Type": "NodeCloseBracket",
+									"Data": "]",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
-									"Type": "NodeOpenParen"
+									"Type": "NodeOpenParen",
+									"Data": "(",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeLinkDest",
-									"Data": "https://img1.terwer.space/20220901002012.png"
+									"Data": "https://img1.terwer.space/20220901002012.png",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
-									"Type": "NodeCloseParen"
+									"Type": "NodeCloseParen",
+									"Data": ")",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						},
 						{
 							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				}
@@ -2482,6 +2529,11 @@
 			"ID": "20220901000457-bmjgh12",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220901000457-bmjgh12",
 				"updated": "20220901003107"
@@ -2489,19 +2541,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "c3Fs"
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "select * from user;\nselect * from orders where uid=查询出用户的id;\n"
+					"Data": "select * from user;\nselect * from orders where uid=查询出用户的id;\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3282,8 +3348,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "修改 User 实体"
+					"Data": "修改 User 实体",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3291,6 +3367,11 @@
 			"ID": "20220901000816-ry5dlnr",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220901000816-ry5dlnr",
 				"updated": "20220901000820"
@@ -3298,19 +3379,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "amF2YQ=="
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "/**\n * 订单\n *\n * @name: Order\n * @author: terwer\n * @date: 2022-03-17 17:42\n **/\npublic class Order {\n    private Integer id;\n    private String orderTime;\n    private Double total;\n\n    // 代表当前订单属于哪一个用户\n    private User user;\n\n    public Integer getId() {\n        return id;\n    }\n\n    public void setId(Integer id) {\n        this.id = id;\n    }\n\n    public String getOrderTime() {\n        return orderTime;\n    }\n\n    public void setOrderTime(String orderTime) {\n        this.orderTime = orderTime;\n    }\n\n    public Double getTotal() {\n        return total;\n    }\n\n    public void setTotal(Double total) {\n        this.total = total;\n    }\n\n    public User getUser() {\n        return user;\n    }\n\n    public void setUser(User user) {\n        this.user = user;\n    }\n\n    @Override\n    public String toString() {\n        return \"Order{\" +\n                \"id=\" + id +\n                \", orderTime='\" + orderTime + '\\'' +\n                \", total=\" + total +\n                \", user=\" + user +\n                '}';\n    }\n}\n"
+					"Data": "/**\n * 订单\n *\n * @name: Order\n * @author: terwer\n * @date: 2022-03-17 17:42\n **/\npublic class Order {\n    private Integer id;\n    private String orderTime;\n    private Double total;\n\n    // 代表当前订单属于哪一个用户\n    private User user;\n\n    public Integer getId() {\n        return id;\n    }\n\n    public void setId(Integer id) {\n        this.id = id;\n    }\n\n    public String getOrderTime() {\n        return orderTime;\n    }\n\n    public void setOrderTime(String orderTime) {\n        this.orderTime = orderTime;\n    }\n\n    public Double getTotal() {\n        return total;\n    }\n\n    public void setTotal(Double total) {\n        this.total = total;\n    }\n\n    public User getUser() {\n        return user;\n    }\n\n    public void setUser(User user) {\n        this.user = user;\n    }\n\n    @Override\n    public String toString() {\n        return \"Order{\" +\n                \"id=\" + id +\n                \", orderTime='\" + orderTime + '\\'' +\n                \", total=\" + total +\n                \", user=\" + user +\n                '}';\n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3318,6 +3413,11 @@
 			"ID": "20220901000545-219s170",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220901000545-219s170",
 				"updated": "20220901000732"
@@ -3325,19 +3425,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "amF2YQ=="
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "/**\n * 用户\n *\n * @name: User\n * @author: terwer\n * @date: 2022-05-25 13:25\n **/\npublic class User {\n    private Integer id;\n    private String username;\n\n    // 代表当前用户具备那些订单\n    private List\u003cOrder\u003e orderList;\n\n    public Integer getId() {\n        return id;\n    }\n\n    public void setId(Integer id) {\n        this.id = id;\n    }\n\n    public String getUsername() {\n        return username;\n    }\n\n    public void setUsername(String username) {\n        this.username = username;\n    }\n\n    public List\u003cOrder\u003e getOrderList() {\n        return orderList;\n    }\n\n    public void setOrderList(List\u003cOrder\u003e orderList) {\n        this.orderList = orderList;\n    }\n\n    @Override\n    public String toString() {\n        return \"User{\" +\n                \"id=\" + id +\n                \", username='\" + username + '\\'' +\n                \", orderList=\" + orderList +\n                '}';\n    }\n}\n"
+					"Data": "/**\n * 用户\n *\n * @name: User\n * @author: terwer\n * @date: 2022-05-25 13:25\n **/\npublic class User {\n    private Integer id;\n    private String username;\n\n    // 代表当前用户具备那些订单\n    private List\u003cOrder\u003e orderList;\n\n    public Integer getId() {\n        return id;\n    }\n\n    public void setId(Integer id) {\n        this.id = id;\n    }\n\n    public String getUsername() {\n        return username;\n    }\n\n    public void setUsername(String username) {\n        this.username = username;\n    }\n\n    public List\u003cOrder\u003e getOrderList() {\n        return orderList;\n    }\n\n    public void setOrderList(List\u003cOrder\u003e orderList) {\n        this.orderList = orderList;\n    }\n\n    @Override\n    public String toString() {\n        return \"User{\" +\n                \"id=\" + id +\n                \", username='\" + username + '\\'' +\n                \", orderList=\" + orderList +\n                '}';\n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3351,8 +3465,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "创建IUserMapper接口"
+					"Data": "创建 IUserMapper 接口",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3360,6 +3484,11 @@
 			"ID": "20220901000917-thuy4h2",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220901000917-thuy4h2",
 				"updated": "20220901002421"
@@ -3367,19 +3496,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "amF2YQ=="
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "/**\n * 用户映射\n *\n * @name: IUserMapper\n * @author: terwer\n * @date: 2022-05-25 13:27\n **/\npublic interface IUserMapper {\n    /**\n     * 查询用户和订单\n     *\n     * @return\n     */\n    List\u003cUser\u003e findUserAndOrder();\n}\n"
+					"Data": "/**\n * 用户映射\n *\n * @name: IUserMapper\n * @author: terwer\n * @date: 2022-05-25 13:27\n **/\npublic interface IUserMapper {\n    /**\n     * 查询用户和订单\n     *\n     * @return\n     */\n    List\u003cUser\u003e findUserAndOrder();\n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3393,8 +3536,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "使用注解配置Mapper"
+					"Data": "使用注解配置 Mapper",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3402,6 +3555,11 @@
 			"ID": "20220901004316-me2a3ig",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220901004316-me2a3ig",
 				"updated": "20220901004358"
@@ -3409,19 +3567,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "amF2YQ=="
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "/**\n * 用户映射\n *\n * @name: IUserMapper\n * @author: terwer\n * @date: 2022-05-25 13:27\n **/\npublic interface IUserMapper {\n    /**\n     * 查询用户和订单\n     *\n     * @return\n     */\n    @Results({\n            @Result(property = \"id\", column = \"id\"),\n            @Result(property = \"username\", column = \"username\"),\n            @Result(property = \"orderList\", column = \"id\", many = @Many(select = \"com.terwergreen.mapper.IOrderMapper.findOrderByUid\"), javaType = List.class)\n    })\n    @Select(\"select * from user\")\n    List\u003cUser\u003e findUserAndOrder();\n}\n"
+					"Data": "/**\n * 用户映射\n *\n * @name: IUserMapper\n * @author: terwer\n * @date: 2022-05-25 13:27\n **/\npublic interface IUserMapper {\n    /**\n     * 查询用户和订单\n     *\n     * @return\n     */\n    @Results({\n            @Result(property = \"id\", column = \"id\"),\n            @Result(property = \"username\", column = \"username\"),\n            @Result(property = \"orderList\", column = \"id\", many = @Many(select = \"com.terwergreen.mapper.IOrderMapper.findOrderByUid\"), javaType = List.class)\n    })\n    @Select(\"select * from user\")\n    List\u003cUser\u003e findUserAndOrder();\n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3429,6 +3601,11 @@
 			"ID": "20220901004403-h64tm76",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220901004403-h64tm76",
 				"updated": "20220901004420"
@@ -3436,19 +3613,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "amF2YQ=="
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "/**\n * 订单映射\n *\n * @name: IUserMapper\n * @author: terwer\n * @date: 2022-03-17 17:54\n **/\npublic interface IOrderMapper {\n    @Select(\"select * from orders where uid=#{uid}\")\n    public List\u003cOrder\u003e findOrderByUid(Integer uid);\n}\n"
+					"Data": "/**\n * 订单映射\n *\n * @name: IUserMapper\n * @author: terwer\n * @date: 2022-03-17 17:54\n **/\npublic interface IOrderMapper {\n    @Select(\"select * from orders where uid=#{uid}\")\n    public List\u003cOrder\u003e findOrderByUid(Integer uid);\n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3462,8 +3653,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "测试结果"
+					"Data": "测试结果",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3471,6 +3672,11 @@
 			"ID": "20220901004437-duklscp",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220901004437-duklscp",
 				"updated": "20220901004626"
@@ -3478,19 +3684,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "amF2YQ=="
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "public class IUserMapperTest {\n\n    private IUserMapper userMapper;\n    private SqlSession sqlSession;\n\n    @Before\n    public void before() throws Exception {\n        System.out.println(\"before...\");\n        InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n        sqlSession = sqlSessionFactory.openSession();\n        // 这样也是可以的，这样的话后面就不用每次都设置了\n        // sqlSession = sqlSessionFactory.openSession(true);\n        userMapper = sqlSession.getMapper(IUserMapper.class);\n    }\n\n    @Test\n    public void testGetUserOrders() {\n        List\u003cUser\u003e userAndOrder = userMapper.findUserAndOrder();\n        userAndOrder.forEach(user -\u003e {\n            System.out.println(user);\n        });\n    }\n}\n"
+					"Data": "public class IUserMapperTest {\n\n    private IUserMapper userMapper;\n    private SqlSession sqlSession;\n\n    @Before\n    public void before() throws Exception {\n        System.out.println(\"before...\");\n        InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n        sqlSession = sqlSessionFactory.openSession();\n        // 这样也是可以的，这样的话后面就不用每次都设置了\n        // sqlSession = sqlSessionFactory.openSession(true);\n        userMapper = sqlSession.getMapper(IUserMapper.class);\n    }\n\n    @Test\n    public void testGetUserOrders() {\n        List\u003cUser\u003e userAndOrder = userMapper.findUserAndOrder();\n        userAndOrder.forEach(user -\u003e {\n            System.out.println(user);\n        });\n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3504,7 +3724,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "结果如下："
+					"Data": "结果如下：",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3512,6 +3735,11 @@
 			"ID": "20220901004639-j034ps5",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cGxhaW50ZXh0",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220901004639-j034ps5",
 				"updated": "20220901004713"
@@ -3519,19 +3747,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "cGxhaW50ZXh0"
+					"CodeBlockInfo": "cGxhaW50ZXh0",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "Opening JDBC Connection\nCreated connection 98394724.\nSetting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5dd6264]\n==\u003e  Preparing: select * from user\n==\u003e Parameters: \n\u003c==    Columns: id, username, password, birthday\n\u003c==        Row: 1, lucy, 123, 2019-12-12\n====\u003e  Preparing: select * from orders where uid=?\n====\u003e Parameters: 1(Integer)\n\u003c====    Columns: id, ordertime, total, uid\n\u003c====        Row: 1, 2019-12-12, 3000.0, 1\n\u003c====        Row: 2, 2019-12-12, 4000.0, 1\n\u003c====      Total: 2\n\u003c==        Row: 2, tom, 123, 2019-12-12\n====\u003e  Preparing: select * from orders where uid=?\n====\u003e Parameters: 2(Integer)\n\u003c====    Columns: id, ordertime, total, uid\n\u003c====        Row: 3, 2019-12-12, 5000.0, 2\n\u003c====      Total: 1\n\u003c==        Row: 8, 测试2, null, null\n====\u003e  Preparing: select * from orders where uid=?\n====\u003e Parameters: 8(Integer)\n\u003c====      Total: 0\n\u003c==        Row: 9, 测试3, null, null\n====\u003e  Preparing: select * from orders where uid=?\n====\u003e Parameters: 9(Integer)\n\u003c====      Total: 0\n\u003c==      Total: 4\nUser{id=1, username='lucy', orderList=[Order{id=1, orderTime='2019-12-12', total=3000.0, user=null}, Order{id=2, orderTime='2019-12-12', total=4000.0, user=null}]}\nUser{id=2, username='tom', orderList=[Order{id=3, orderTime='2019-12-12', total=5000.0, user=null}]}\nUser{id=8, username='测试2', orderList=[]}\nUser{id=9, username='测试3', orderList=[]}\n\nProcess finished with exit code 0\n"
+					"Data": "Opening JDBC Connection\nCreated connection 98394724.\nSetting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5dd6264]\n==\u003e  Preparing: select * from user\n==\u003e Parameters: \n\u003c==    Columns: id, username, password, birthday\n\u003c==        Row: 1, lucy, 123, 2019-12-12\n====\u003e  Preparing: select * from orders where uid=?\n====\u003e Parameters: 1(Integer)\n\u003c====    Columns: id, ordertime, total, uid\n\u003c====        Row: 1, 2019-12-12, 3000.0, 1\n\u003c====        Row: 2, 2019-12-12, 4000.0, 1\n\u003c====      Total: 2\n\u003c==        Row: 2, tom, 123, 2019-12-12\n====\u003e  Preparing: select * from orders where uid=?\n====\u003e Parameters: 2(Integer)\n\u003c====    Columns: id, ordertime, total, uid\n\u003c====        Row: 3, 2019-12-12, 5000.0, 2\n\u003c====      Total: 1\n\u003c==        Row: 8, 测试2, null, null\n====\u003e  Preparing: select * from orders where uid=?\n====\u003e Parameters: 8(Integer)\n\u003c====      Total: 0\n\u003c==        Row: 9, 测试3, null, null\n====\u003e  Preparing: select * from orders where uid=?\n====\u003e Parameters: 9(Integer)\n\u003c====      Total: 0\n\u003c==      Total: 4\nUser{id=1, username='lucy', orderList=[Order{id=1, orderTime='2019-12-12', total=3000.0, user=null}, Order{id=2, orderTime='2019-12-12', total=4000.0, user=null}]}\nUser{id=2, username='tom', orderList=[Order{id=3, orderTime='2019-12-12', total=5000.0, user=null}]}\nUser{id=8, username='测试2', orderList=[]}\nUser{id=9, username='测试3', orderList=[]}\n\nProcess finished with exit code 0\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3545,32 +3787,1108 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "多对多查询"
+					"Data": "多对多查询",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
-			"ID": "20220901004818-8nms81z",
+			"ID": "20220905194423-61iqa47",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905194423-61iqa47",
+				"updated": "20220905194520"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "多对多查询的模型",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905234048-412nq82",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220901004818-8nms81z"
-			}
+				"id": "20220905234048-412nq82",
+				"updated": "20220905234159"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户表和角色表的关系为，一个用户有多个角色，一个角色被多个用户使用。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905194521-1plmf52",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cGxhbnR1bWw=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220905194521-1plmf52",
+				"style": "text-align: left;",
+				"updated": "20220905194912"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startuml\n\n!include https://unpkg.com/plantuml-style-c4@latest/core.puml\n' uncomment the following line and comment the first to use locally\n'!include core.puml\n\nleft to right direction\n\nclass sys_role {\n   rolename: varchar(255)\n   roleDesc: varchar(255)\n   id: int(11)\n}\nclass sys_user_role {\n   userid: int(11)\n   roleid: int(11)\n}\nclass user {\n   username: varchar(50)\n   password: varchar(50)\n   birthday: varchar(50)\n   id: int(11)\n}\n\nsys_user_role  -[#595959,plain]-^  sys_role      : \u0026quot;roleid:id\u0026quot;\nsys_user_role  -[#595959,plain]-^  user          : \u0026quot;userid:id\u0026quot;\n@enduml\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905234304-y4qfqs0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905234304-y4qfqs0",
+				"updated": "20220905234311"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "多对多查询需求",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905234311-19hfunp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905234311-19hfunp",
+				"updated": "20220905234840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查询用户的同时查询该用户对应的角色。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905234347-e39r3ra",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905234347-e39r3ra",
+				"updated": "20220905234358"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "多对多查询的语句",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905234358-86yvanx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220905234358-86yvanx",
+				"updated": "20220905235331"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "select * from user;\nselect * from sys_role r,sys_user_role ur where r.id=ur.roleid and ur.userid=用户的id\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905235409-vbk3jvs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220905235409-vbk3jvs",
+				"updated": "20220905235415"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查询结果如下：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905235404-tpivyz1",
+			"Type": "NodeTable",
+			"Data": "|id|rolename|roleDesc|userid|roleid|\n| :-| :-------| :-------| :-----| :-----|\n|1|CTO|CTO|1|1|\n|2|CEO|CEO|1|2|",
+			"TableAligns": [
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"Properties": {
+				"colgroup": "||||",
+				"id": "20220905235404-tpivyz1",
+				"updated": "20220905235404"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "id",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "rolename",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "roleDesc",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "userid",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "roleid",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CTO",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CTO",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CEO",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CEO",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220905235510-2vo8z4h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220905235510-2vo8z4h",
+				"updated": "20220905235517"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "代码实现",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220905235517-829s68y",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220905235517-829s68y",
+				"updated": "20220906001015"
+			},
+			"Children": [
+				{
+					"ID": "20220906000952-p2zxyie",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220906000952-p2zxyie",
+						"updated": "20220906001015"
+					},
+					"Children": [
+						{
+							"ID": "20220906000952-63eo0av",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906000952-63eo0av",
+								"updated": "20220906001005"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建 User 实体和 Role 实体",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220906001005-fmivuck",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220906001005-fmivuck",
+								"updated": "20220906001015"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 用户\n *\n * @name: User\n * @author: terwer\n * @date: 2022-05-25 13:25\n **/\npublic class User {\n    private Integer id;\n    private String username;\n\n    // 代表当前用户具备那些订单\n    private List\u003cOrder\u003e orderList;\n\n\n    // 代表当前用户具备的那些角色\n    private List\u003cRole\u003e roleList;\n\n    public Integer getId() {\n        return id;\n    }\n\n    public void setId(Integer id) {\n        this.id = id;\n    }\n\n    public String getUsername() {\n        return username;\n    }\n\n    public void setUsername(String username) {\n        this.username = username;\n    }\n\n    public List\u003cOrder\u003e getOrderList() {\n        return orderList;\n    }\n\n    public void setOrderList(List\u003cOrder\u003e orderList) {\n        this.orderList = orderList;\n    }\n\n    public List\u003cRole\u003e getRoleList() {\n        return roleList;\n    }\n\n    public void setRoleList(List\u003cRole\u003e roleList) {\n        this.roleList = roleList;\n    }\n\n    @Override\n    public String toString() {\n        return \"User{\" +\n                \"id=\" + id +\n                \", username='\" + username + '\\'' +\n                \", orderList=\" + orderList +\n                \", roleList=\" + roleList +\n                '}';\n    }\n}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220906001028-iztdde0",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220906001028-iztdde0",
+				"updated": "20220906001230"
+			},
+			"Children": [
+				{
+					"ID": "20220906001321-qlejkdl",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220906001321-qlejkdl",
+						"updated": "20220906001230"
+					},
+					"Children": [
+						{
+							"ID": "20220906001321-6axdaui",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906001321-6axdaui",
+								"updated": "20220906001321"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建 IRoleMapper",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220906001412-kpbvpsi",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220906001412-kpbvpsi",
+								"updated": "20220906001428"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 角色映射\n *\n * @name: IRoleMapper\n * @author: terwer\n * @date: 2022-09-06 00:04\n **/\npublic interface  IRoleMapper {\n    @Select(\"select * from sys_role r,sys_user_role ur where r.id=ur.roleid and ur.userid=#{userId}\")\n    List\u003cRole\u003e findRolesByUserId(Integer userId);\n}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220906001227-a9p6ays",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220906001227-a9p6ays",
+								"updated": "20220906001230"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 角色\n *\n * @name: Role\n * @author: terwer\n * @date: 2022-05-12 14:14\n **/\npublic class Role {\n    private Integer id;\n    private String rolename;\n\n    @Override\n    public String toString() {\n        return \"Role{\" +\n                \"id=\" + id +\n                \", rolename='\" + rolename + '\\'' +\n                '}';\n    }\n}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220906001140-bgjynjg",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220906001140-bgjynjg",
+				"updated": "20220906001446"
+			},
+			"Children": [
+				{
+					"ID": "20220906001311-beis393",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220906001311-beis393",
+						"updated": "20220906001446"
+					},
+					"Children": [
+						{
+							"ID": "20220906001311-npvixl0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906001311-npvixl0",
+								"updated": "20220906001311"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修改 IUserMapper",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220906001211-lt75tyn",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220906001211-lt75tyn",
+								"updated": "20220906001251"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 用户映射\n *\n * @name: IUserMapper\n * @author: terwer\n * @date: 2022-05-25 13:27\n **/\npublic interface IUserMapper {\n    @Results({\n            @Result(property = \"id\", column = \"id\"),\n            @Result(property = \"username\", column = \"username\"),\n            @Result(property = \"roleList\", column = \"id\", javaType = List.class,\n                    many = @Many(select = \"com.terwergreen.mapper.IRoleMapper.findRolesByUserId\"))\n    })\n    @Select(\"select * from user\")\n    List\u003cUser\u003e findUserAndRole();\n}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220906001503-olc0ar8",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220906001503-olc0ar8",
+				"updated": "20220906001551"
+			},
+			"Children": [
+				{
+					"ID": "20220906001511-qt5qep3",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220906001511-qt5qep3",
+						"updated": "20220906001551"
+					},
+					"Children": [
+						{
+							"ID": "20220906001511-x0ch14m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906001511-x0ch14m",
+								"updated": "20220906001525"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加测试方法",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220906001519-09g9d86",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220906001519-09g9d86",
+								"updated": "20220906001551"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public class IUserMapperTest {\n\n    private IUserMapper userMapper;\n    private SqlSession sqlSession;\n\n    @Before\n    public void before() throws Exception {\n        System.out.println(\"before...\");\n        InputStream resourceAsStream = Resources.getResourceAsStream(\"sqlMapConfig.xml\");\n        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);\n        sqlSession = sqlSessionFactory.openSession();\n        // 这样也是可以的，这样的话后面就不用每次都设置了\n        // sqlSession = sqlSessionFactory.openSession(true);\n        userMapper = sqlSession.getMapper(IUserMapper.class);\n    }\n\n    @Test\n    public void testFindUserAndRole() {\n        userMapper.findUserAndRole().forEach(user -\u003e {\n            System.out.println(user);\n        });\n    }\n}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220906001601-veryc2f",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220906001601-veryc2f",
+				"updated": "20220906001634"
+			},
+			"Children": [
+				{
+					"ID": "20220906001603-47p170i",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220906001603-47p170i",
+						"updated": "20220906001634"
+					},
+					"Children": [
+						{
+							"ID": "20220906001603-ln2rsa9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906001603-ln2rsa9",
+								"updated": "20220906001607"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "效果如下",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220906001608-gj82y88",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "cGxhaW50ZXh0",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220906001608-gj82y88",
+								"updated": "20220906001634"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cGxhaW50ZXh0",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@51e5fc98]\n==\u003e  Preparing: select * from user\n==\u003e Parameters: \n\u003c==    Columns: id, username, password, birthday\n\u003c==        Row: 1, lucy, 123, 2019-12-12\n====\u003e  Preparing: select * from sys_role r,sys_user_role ur where r.id=ur.roleid and ur.userid=?\n====\u003e Parameters: 1(Integer)\n\u003c====    Columns: id, rolename, roleDesc, userid, roleid\n\u003c====        Row: 1, CTO, CTO, 1, 1\n\u003c====        Row: 2, CEO, CEO, 1, 2\n\u003c====      Total: 2\n\u003c==        Row: 2, tom, 123, 2019-12-12\n====\u003e  Preparing: select * from sys_role r,sys_user_role ur where r.id=ur.roleid and ur.userid=?\n====\u003e Parameters: 2(Integer)\n\u003c====    Columns: id, rolename, roleDesc, userid, roleid\n\u003c====        Row: 1, CTO, CTO, 2, 1\n\u003c====        Row: 2, CEO, CEO, 2, 2\n\u003c====      Total: 2\n\u003c==        Row: 8, 测试2, null, null\n====\u003e  Preparing: select * from sys_role r,sys_user_role ur where r.id=ur.roleid and ur.userid=?\n====\u003e Parameters: 8(Integer)\n\u003c====      Total: 0\n\u003c==        Row: 9, 测试3, null, null\n====\u003e  Preparing: select * from sys_role r,sys_user_role ur where r.id=ur.roleid and ur.userid=?\n====\u003e Parameters: 9(Integer)\n\u003c====      Total: 0\n\u003c==      Total: 4\nUser{id=1, username='lucy', orderList=null, roleList=[Role{id=1, rolename='CTO'}, Role{id=2, rolename='CEO'}]}\nUser{id=2, username='tom', orderList=null, roleList=[Role{id=1, rolename='CTO'}, Role{id=2, rolename='CEO'}]}\nUser{id=8, username='测试2', orderList=null, roleList=[]}\nUser{id=9, username='测试3', orderList=null, roleList=[]}\n\nProcess finished with exit code 0\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"ID": "20220831233226-mzhnsck",
 			"Type": "NodeBlockquote",
 			"Properties": {
 				"id": "20220831233226-mzhnsck",
-				"updated": "20220831233226"
+				"style": "color: var(--b3-card-success-color); background-color: var(--b3-card-success-background);",
+				"updated": "20220906001557"
 			},
 			"Children": [
 				{
 					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e ",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "\u003e"
 				},
 				{
 					"ID": "20220831233226-fmbrlb6",
@@ -3582,10 +4900,7 @@
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "文章更新历史",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "文章更新历史"
 						}
 					]
 				},
@@ -3599,10 +4914,7 @@
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "2022-08-30 feat:初稿",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "2022-08-30 feat:初稿"
 						}
 					]
 				}

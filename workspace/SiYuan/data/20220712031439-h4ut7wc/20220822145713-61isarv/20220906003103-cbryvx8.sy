@@ -1,0 +1,391 @@
+{
+	"ID": "20220906003103-cbryvx8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "15643854",
+		"custom-desc": "缓存回顾缓存就是内存中的数据常常来自对数据库查询结果的保存。使用缓存可以避免频繁与数据库交互进而提高响应速度。mybatis对缓存的支持mybatis也提供了对缓存的支持分为一级缓存和二级缓存。可以用下面的图来理解_​一级缓存是sqlsession级别的缓存。在操作数据库时需要构造sqlsession对象在对象中有一个hashmap的数据结构用于存储缓存数据。不同的sqlsession之间缓存的数据区域（hashmap）是不同的。二级缓存是mapper级别的缓存。多个sqlsession操作同一个mapp",
+		"custom-slug": "the-concept-of-mybatis-cache-nfdfh",
+		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/410.MyBatis缓存的概念.md",
+		"custom-wordpress-post-id": "4242",
+		"custom-wordpress-wp2-post-id": "4258",
+		"custom-yuque-post-id": "92030742",
+		"id": "20220906003103-cbryvx8",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220906003425-o85j9e2\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220908093630-86k1u2i\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:36}",
+		"tags": "缓存,二级缓存,数据库,数据,mybatis,一级缓存",
+		"title": "410.MyBatis缓存的概念",
+		"updated": "20220908093630"
+	},
+	"Children": [
+		{
+			"ID": "20220906003425-o85j9e2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220906003425-o85j9e2",
+				"updated": "20220906003432"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "缓存回顾",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906003103-tdld4iv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906003103-tdld4iv",
+				"updated": "20220906003309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "缓存就是内存中的数据，常常来自对数据库查询结果的保存。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906003321-4jkldo7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906003321-4jkldo7",
+				"updated": "20220906003345"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用缓存可以避免频繁与数据库交互，进而提高响应速度。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906003346-ghd94vq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220906003346-ghd94vq",
+				"updated": "20220906003440"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "MyBatis 对缓存的支持",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906003440-bymvc0r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906003440-bymvc0r",
+				"updated": "20220906003615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyBatis 也提供了对缓存的支持，分为 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "一级缓存",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 和 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "二级缓存",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。可以用下面的图来理解：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906003616-juywwlu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906003616-juywwlu",
+				"updated": "20220906003616"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20220906003601.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906003701-v4gpgro",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20220906003701-v4gpgro",
+				"updated": "20220906004035"
+			},
+			"Children": [
+				{
+					"ID": "20220906003704-qegk6oo",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220906003704-qegk6oo",
+						"updated": "20220906003917"
+					},
+					"Children": [
+						{
+							"ID": "20220906003704-exkdel6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906003704-exkdel6",
+								"updated": "20220906003917"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一级缓存是 SqlSession 级别的缓存。在操作数据库时，需要构造 SqlSession 对象，在对象中有一个 HashMap 的数据结构用于存储缓存数据。不同的 SqlSession 之间缓存的数据区域（HashMap）是不同的。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220906003714-n98fwlb",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220906003714-n98fwlb",
+						"updated": "20220906004035"
+					},
+					"Children": [
+						{
+							"ID": "20220906003714-8m73g5u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220906003714-8m73g5u",
+								"updated": "20220906004035"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "二级缓存是 Mapper 级别的缓存。多个 SqlSession 操作同一个 Mapper 的 sql 语句，多个 SqlSession 可以共用二级缓存，二级缓存是跨 SqlSession 的。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220906004054-gy02qw0",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220906004054-gy02qw0",
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220906004102"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220906004054-j4nfypu",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220906004054-j4nfypu",
+						"updated": "20220906004102"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史\n2022-09-06 feat:初稿"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220908093630-86k1u2i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220908093630-86k1u2i"
+			}
+		}
+	]
+}

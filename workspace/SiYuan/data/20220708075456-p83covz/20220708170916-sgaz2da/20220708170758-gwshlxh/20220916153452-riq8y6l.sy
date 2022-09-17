@@ -1,0 +1,263 @@
+{
+	"ID": "20220916153452-riq8y6l",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220916153452-riq8y6l",
+		"title": "2022-09-09-周报 (Duplicated 2022-09-16 15:34:52)",
+		"updated": "20220916153728"
+	},
+	"Children": [
+		{
+			"ID": "20220916153452-0s0xa03",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153452-0s0xa03",
+				"updated": "20220909142724"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、需求开发"
+				}
+			]
+		},
+		{
+			"ID": "20220916153452-6ohl77s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153452-6ohl77s",
+				"updated": "20220909142746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172972 【文档协同】后台配置增加集成设置，可对是否启用在线编辑进行设置"
+				}
+			]
+		},
+		{
+			"ID": "20220916153452-xce7qge",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153452-xce7qge"
+			}
+		},
+		{
+			"ID": "20220916153452-py7jghz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153452-py7jghz",
+				"updated": "20220909142733"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、缺陷修复"
+				}
+			]
+		},
+		{
+			"ID": "20220916153505-rm5ua67",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153505-rm5ua67",
+				"updated": "20220916153538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172981【专项缺陷】 【文档协同-修复】模板的查看页和回收站的模板详情页右上角没有关闭按钮，体验不好"
+				}
+			]
+		},
+		{
+			"ID": "20220916153511-scyilbp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153511-scyilbp",
+				"updated": "20220916153546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173542【关键任务缺陷】【文档协同-修复】无服务后，上传团队文档时，没有给参与者发送待办上传团队文档时，没有给参与者发送待阅"
+				}
+			]
+		},
+		{
+			"ID": "20220916153513-gn6658h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153513-gn6658h",
+				"updated": "20220916153554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173541【KMS16.0.7.R回归测试 - 文档协同】上传团队文档时，没有给参与者发送待办"
+				}
+			]
+		},
+		{
+			"ID": "20220916153514-rp7e9wj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153514-rp7e9wj",
+				"updated": "20220916153603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173758【关键任务缺陷】 【文档协同-修复】关闭服务时，可以通过新建模板和新建文档的链接进入新建页面创建文档"
+				}
+			]
+		},
+		{
+			"ID": "20220916153515-pvg6vk4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153515-pvg6vk4",
+				"updated": "20220916153610"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173538【关键任务缺陷】【文档协同-修复】关闭服务提供商后，进入文档和模板详情页，显示一片灰色"
+				}
+			]
+		},
+		{
+			"ID": "20220916153516-mzg1tgy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153516-mzg1tgy",
+				"updated": "20220916153617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173135【KMS16.0.7.R回归测试 - 维基知识库】全文导出摘要内容不展示"
+				}
+			]
+		},
+		{
+			"ID": "20220916153517-h9bv22l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153517-h9bv22l",
+				"updated": "20220916153624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173661【KMS16.0.7.R回归测试 - 维基知识库】维基导入的文本解析成功后，全文导出跳到了空白页面"
+				}
+			]
+		},
+		{
+			"ID": "20220916153518-oykuwqk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153518-oykuwqk",
+				"updated": "20220916153637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173129【KMS16.0.7.R回归测试 - 维基知识库】全文导出-导出项选择页面按钮错位，导出项未居中"
+				}
+			]
+		},
+		{
+			"ID": "20220916153518-4al2mmw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153518-4al2mmw",
+				"updated": "20220916153644"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173132【KMS16.0.7.R回归测试 - 维基知识库】全文导出的文档目录与维基不一致"
+				}
+			]
+		},
+		{
+			"ID": "20220916153521-yis7uog",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153521-yis7uog",
+				"updated": "20220916153652"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173130【KMS16.0.7.R回归测试 - 维基知识库】全文导出内容与维基知识不符"
+				}
+			]
+		},
+		{
+			"ID": "20220916153523-bdypsy3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153523-bdypsy3",
+				"updated": "20220916153659"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173985【关键任务缺陷】 【文档协同-修复】添加提示"
+				}
+			]
+		},
+		{
+			"ID": "20220916153524-n5w5k0b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153524-n5w5k0b",
+				"updated": "20220916153707"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173757【关键任务缺陷】 【文档协同-修复】关闭服务时，团队文档新增参与者时，默认是可编辑状态"
+				}
+			]
+		},
+		{
+			"ID": "20220916153525-2aarin8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153525-2aarin8",
+				"updated": "20220916153716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173117【KMS16.0.7.R回归测试 - 文档协同】知识助手查看维基导入的维基时，页面没有显示维基解析的附件"
+				}
+			]
+		},
+		{
+			"ID": "20220916153526-unhn96n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153526-unhn96n",
+				"updated": "20220916153723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173675【KMS16.0.7.R回归测试 - 文档协同】鼠标光标从下往上滑，显示异常"
+				}
+			]
+		},
+		{
+			"ID": "20220916153728-5j8qdbz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916153728-5j8qdbz"
+			}
+		}
+	]
+}

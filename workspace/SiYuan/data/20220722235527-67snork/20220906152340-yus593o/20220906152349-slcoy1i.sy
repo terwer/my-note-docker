@@ -1,0 +1,616 @@
+{
+	"ID": "20220906152349-slcoy1i",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16662721",
+		"custom-desc": "pip官网_https_pypiorgprojectpip你可以通过以下命令来判断是否已安装_pipversion#pythonx版本命令pipversion#pythonx版本命令https_pippypaioenstableinstallation安装pip和pipcurlhttps_bootstrappypaiogetpippyogetpippy#下载安装脚本sudopythongetpippy#运行安装脚本注意_用哪个版本的python运行安装脚本pip就被关联到哪个版本如果是python则执行以",
+		"custom-slug": "install-and-upgrade-pip-and-pip3-1slqod",
+		"custom-wordpress-post-id": "4244",
+		"id": "20220906152349-slcoy1i",
+		"tags": "python,pip,pip3",
+		"title": "001.安装和升级pip与pip3",
+		"updated": "20220906153504"
+	},
+	"Children": [
+		{
+			"ID": "20220906153317-6co0zqg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906153317-6co0zqg",
+				"updated": "20220906153317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "pip 官网：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeLink",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://pypi.org/project/pip/",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://pypi.org/project/pip/",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220906153317-qd2dn5d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906153317-qd2dn5d",
+				"updated": "20220906153317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你可以通过以下命令来判断是否已安装：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906153317-i3pkhge",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220906153317-i3pkhge",
+				"updated": "20220906153321"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pip --version     # Python2.x 版本命令\npip3 --version    # Python3.x 版本命令\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906153226-jyhg8u9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906153226-jyhg8u9",
+				"updated": "20220906153242"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "https://pip.pypa.io/en/stable/installation/",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://pip.pypa.io/en/stable/installation/",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220906153418-fkqma4a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220906153418-fkqma4a",
+				"updated": "20220906153426"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "安装 pip 和 pip3",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906153407-gicz65l",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220906153407-gicz65l",
+				"updated": "20220906153429"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py   # 下载安装脚本\n$ sudo python get-pip.py    # 运行安装脚本\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906153407-aaxr89k",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220906153407-aaxr89k",
+				"updated": "20220906153432"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20220906153407-pyq6h5i",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220906153407-pyq6h5i",
+						"updated": "20220906153407"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "注意：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 用哪个版本的 Python 运行安装脚本，pip 就被关联到哪个版本，如果是 Python3 则执行以下命令：",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"ID": "20220906153407-29b49x5",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"CodeBlockFenceChar": 96,
+					"CodeBlockFenceLen": 3,
+					"CodeBlockOpenFence": "YGBg",
+					"CodeBlockInfo": "YmFzaA==",
+					"CodeBlockCloseFence": "YGBg",
+					"Properties": {
+						"id": "20220906153407-29b49x5",
+						"updated": "20220906153432"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```",
+							"CodeBlockFenceLen": 3,
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "YmFzaA==",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "$ sudo python3 get-pip.py    # 运行安装脚本。\n",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```",
+							"CodeBlockFenceLen": 3,
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"ID": "20220906153407-5kmck7i",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220906153407-5kmck7i",
+						"updated": "20220906153407"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "一般情况 pip 对应的是 Python 2.7，pip3 对应的是 Python 3.x。",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220906153407-e4xccji",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906153407-e4xccji",
+				"updated": "20220906153407"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "部分 Linux 发行版可直接用包管理器安装 pip，如 Debian 和 Ubuntu：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906153407-0qosz6v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220906153407-0qosz6v",
+				"updated": "20220906153441"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo apt-get install python-pip\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906152349-jjqv3ol",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220906152349-jjqv3ol",
+				"updated": "20220906153247"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "升级 pip",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906153148-lkbeib5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220906153148-lkbeib5",
+				"updated": "20220906153216"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "python -m pip install --upgrade pip\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906153135-ay0udei",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220906153135-ay0udei",
+				"updated": "20220906153250"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "升级 pip3",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906153205-1080fe7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220906153205-1080fe7",
+				"updated": "20220906153219"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "python3 -m pip install --upgrade pip\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220906153250-eionq04",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906153250-eionq04",
+				"updated": "20220906153250"
+			}
+		}
+	]
+}

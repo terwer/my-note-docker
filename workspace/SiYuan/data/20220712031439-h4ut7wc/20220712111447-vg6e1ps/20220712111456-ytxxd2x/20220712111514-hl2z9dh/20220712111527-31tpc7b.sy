@@ -2,9 +2,16 @@
 	"ID": "20220712111527-31tpc7b",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "15730289",
+		"custom-conf-post-id": "11763717",
+		"custom-desc": "前言springdatajpapartofthelargerspringdatafamilymakesiteasytoeasilyimplementjpabasedrepositoriesthismoduledealswithenhancedsupportforjpabaseddataaccesslayersitmakesiteasiertobuildspringpoweredapplicationsthatusedataaccesstechnologiesimplementingadataaccessl",
+		"custom-slug": "springdatajpa-introduction-zmtgjh",
+		"custom-wordpress-post-id": "4250",
+		"custom-yuque-post-id": "93229223",
 		"id": "20220712111527-31tpc7b",
-		"title": "001.Spring Data JPA入门",
-		"updated": "20220712112058"
+		"tags": "spring,spring-data,jpa,spring-data-jpa,dao,数据层",
+		"title": "001.Spring-Data-JPA入门",
+		"updated": "20220916005607"
 	},
 	"Children": [
 		{
@@ -17,8 +24,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "前言"
+					"Data": "前言",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -32,7 +49,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Spring Data JPA, part of the larger Spring Data family, makes it easy to easily implement JPA based repositories. This module deals with enhanced support for JPA based data access layers. It makes it easier to build Spring-powered applications that use data access technologies."
+					"Data": "Spring Data JPA, part of the larger Spring Data family, makes it easy to easily implement JPA based repositories. This module deals with enhanced support for JPA based data access layers. It makes it easier to build Spring-powered applications that use data access technologies.",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -46,7 +66,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Implementing a data access layer of an application has been cumbersome for quite a while. Too much boilerplate code has to be written to execute simple queries as well as perform pagination, and auditing. Spring Data JPA aims to significantly improve the implementation of data access layers by reducing the effort to the amount that’s actually needed. As a developer you write your repository interfaces, including custom finder methods, and Spring will provide the implementation automatically."
+					"Data": "Implementing a data access layer of an application has been cumbersome for quite a while. Too much boilerplate code has to be written to execute simple queries as well as perform pagination, and auditing. Spring Data JPA aims to significantly improve the implementation of data access layers by reducing the effort to the amount that’s actually needed. As a developer you write your repository interfaces, including custom finder methods, and Spring will provide the implementation automatically.",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -60,15 +83,31 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "特性"
+					"Data": "特性",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220712031801-n4987lc",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220712031801-n4987lc",
 				"updated": "20220712112058"
@@ -77,9 +116,13 @@
 				{
 					"ID": "20220712031801-kczs2si",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220712031801-kczs2si",
@@ -96,7 +139,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Sophisticated support to build repositories based on Spring and JPA"
+									"Data": "Sophisticated support to build repositories based on Spring and JPA",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -105,9 +151,13 @@
 				{
 					"ID": "20220712031801-9hkpj2f",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220712031801-9hkpj2f",
@@ -124,37 +174,67 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Support for "
+									"Data": "Support for ",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeLink",
-									"Data": "span",
+									"Properties": {
+										"id": ""
+									},
 									"Children": [
 										{
-											"Type": "NodeOpenBracket"
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
 											"Type": "NodeLinkText",
-											"Data": "Querydsl"
+											"Data": "Querydsl",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
-											"Type": "NodeCloseBracket"
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
-											"Type": "NodeOpenParen"
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "http://www.querydsl.com/"
+											"Data": "http://www.querydsl.com/",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
-											"Type": "NodeCloseParen"
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": " predicates and thus type-safe JPA queries"
+									"Data": " predicates and thus type-safe JPA queries",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -163,12 +243,17 @@
 				{
 					"ID": "20220712111950-9y15f0f",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220712111950-9y15f0f"
+						"id": "20220712111950-9y15f0f",
+						"updated": "20220712111950"
 					},
 					"Children": [
 						{
@@ -181,7 +266,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Transparent auditing of domain class"
+									"Data": "Transparent auditing of domain class",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -190,12 +278,17 @@
 				{
 					"ID": "20220712111953-ofsbsft",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220712111953-ofsbsft"
+						"id": "20220712111953-ofsbsft",
+						"updated": "20220712111953"
 					},
 					"Children": [
 						{
@@ -208,7 +301,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Pagination support, dynamic query execution, ability to integrate custom data access code"
+									"Data": "Pagination support, dynamic query execution, ability to integrate custom data access code",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -217,12 +313,17 @@
 				{
 					"ID": "20220712112014-rnz59rx",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220712112014-rnz59rx"
+						"id": "20220712112014-rnz59rx",
+						"updated": "20220712112014"
 					},
 					"Children": [
 						{
@@ -235,27 +336,47 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Validation of "
+									"Data": "Validation of ",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeCodeSpan",
-									"Data": "code",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
 									"Children": [
 										{
-											"Type": "NodeCodeSpanOpenMarker"
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
 											"Type": "NodeCodeSpanContent",
-											"Data": "@Query"
+											"Data": "@Query",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
-											"Type": "NodeCodeSpanCloseMarker"
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": " annotated queries at bootstrap time"
+									"Data": " annotated queries at bootstrap time",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -264,12 +385,17 @@
 				{
 					"ID": "20220712112027-veu6d63",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220712112027-veu6d63"
+						"id": "20220712112027-veu6d63",
+						"updated": "20220712112027"
 					},
 					"Children": [
 						{
@@ -282,7 +408,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Support for XML based entity mapping"
+									"Data": "Support for XML based entity mapping",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -291,9 +420,13 @@
 				{
 					"ID": "20220712112040-226czie",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220712112040-226czie",
@@ -310,21 +443,38 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "JavaConfig based repository configuration by introducing "
+									"Data": "JavaConfig based repository configuration by introducing ",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeCodeSpan",
-									"Data": "code",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
 									"Children": [
 										{
-											"Type": "NodeCodeSpanOpenMarker"
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
 											"Type": "NodeCodeSpanContent",
-											"Data": "@EnableJpaRepositories"
+											"Data": "@EnableJpaRepositories",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
-											"Type": "NodeCodeSpanCloseMarker"
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
 										}
 									]
 								}
@@ -333,6 +483,272 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20220916003728-ira34f5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220916003728-ira34f5",
+				"updated": "20220916004047"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "介绍",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916004048-cgbw11l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916004048-cgbw11l",
+				"updated": "20220916005152"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Spring Data Jpa 是应用于 Dao 层的一个 ORM 框架，用于简化数据库层开发。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916005155-jfchhvb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916005155-jfchhvb",
+				"updated": "20220916005333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作用和 MyBatis 框架一样，但是在使用方式和底层机制上不同。最大的区别点是，Spring Data Jp 在进行 Dao 层开发的时候，很多场景不需要写 sql 语句即可实现，由 Spring 提供。"
+				}
+			]
+		},
+		{
+			"ID": "20220916005346-s0z2kub",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220916005346-s0z2kub",
+				"updated": "20220916005349"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概览"
+				}
+			]
+		},
+		{
+			"ID": "20220916005350-tgi5q35",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220916005350-tgi5q35",
+				"updated": "20220916005607"
+			},
+			"Children": [
+				{
+					"ID": "20220916005351-7atmsiz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220916005351-7atmsiz",
+						"updated": "20220916005351"
+					},
+					"Children": [
+						{
+							"ID": "20220916005351-ghwg18t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220916005351-ghwg18t",
+								"updated": "20220916005408"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Spring Data Jpa介绍回顾"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220916005408-0cgxg15",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220916005408-0cgxg15"
+					},
+					"Children": [
+						{
+							"ID": "20220916005408-7lw7iz9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220916005408-7lw7iz9",
+								"updated": "20220916005436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Spring Data Jpa、Jpa规范和Hibernate之间的关系"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220916005436-15cpyau",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220916005436-15cpyau",
+						"updated": "20220916005607"
+					},
+					"Children": [
+						{
+							"ID": "20220916005436-xjuyfm9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220916005436-xjuyfm9",
+								"updated": "20220916005501"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于案例实现Spring Data Jpa的应用"
+								}
+							]
+						},
+						{
+							"ID": "20220916005549-g321tuj",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220916005549-g321tuj",
+								"updated": "20220916005607"
+							},
+							"Children": [
+								{
+									"ID": "20220916005551-qd2bdbu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220916005551-qd2bdbu",
+										"updated": "20220916005551"
+									},
+									"Children": [
+										{
+											"ID": "20220916005551-7v0c6gs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220916005551-7v0c6gs",
+												"updated": "20220916005554"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用步骤"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220916005554-m67g3rm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220916005554-m67g3rm",
+										"updated": "20220916005607"
+									},
+									"Children": [
+										{
+											"ID": "20220916005554-2emgbd2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220916005554-2emgbd2",
+												"updated": "20220916005607"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "接口方法、使用方式"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220916005501-j80jx69",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220916005501-j80jx69"
+					},
+					"Children": [
+						{
+							"ID": "20220916005501-d0fmh01",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220916005501-d0fmh01",
+								"updated": "20220916005516"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Spring Data Jpa实现源码分析"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220916005517-2f6w0ec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916005517-2f6w0ec"
+			}
 		}
 	]
 }

@@ -1,0 +1,95 @@
+{
+	"ID": "20220906202418-mkmqet9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220906202418-mkmqet9",
+		"title": "004.扩展点的定义与使用",
+		"updated": "20220906202533"
+	},
+	"Children": [
+		{
+			"ID": "20220906202418-29e61lu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220906202418-29e61lu",
+				"updated": "20220906202438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义"
+				}
+			]
+		},
+		{
+			"ID": "20220906202438-hwaxymy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220906202438-hwaxymy",
+				"updated": "20220906202511"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 文档协同平台类型扩展定义 --\u003e\n    \u003cextension-point id=\"com.landray.kmss.kms.cooperate.platform\"\u003e\n        \u003citem name=\"config\"\u003e\n            \u003cparam\n                name=\"jsp\"\n                kind=\"filepath\"\n                required=\"true\"\n                pattern=\"^.*?\\.(jsp)$\"\u003e\n                \u003cdescription\u003e\n                    必填，配置页面URL路径\n                    存放在/模块名/配置页面.jsp，文件类型为jsp\n                    例:/sys/notify/config.jsp\n                \u003c/description\u003e\n            \u003c/param\u003e\n            \u003cparam\n                name=\"order\"\n                kind=\"int\"\n                default=\"99\"\u003e\n                \u003cdescription\u003e\n                    可选，同类配置排序号\n                \u003c/description\u003e\n            \u003c/param\u003e\n            \u003cdescription\u003e文档协同平台配置\u003c/description\u003e\n        \u003c/item\u003e\n        \u003citem name=\"platform\"\u003e\n            \u003cparam\n                name=\"type\"\n                kind=\"string\"\u003e\n                \u003cdescription\u003e\n                   平台名称\n                \u003c/description\u003e\n            \u003c/param\u003e\n            \u003cparam\n                name=\"fdModelName\"\n                kind=\"string\"\u003e\n                \u003cdescription\u003e\n                   模块名称\n                \u003c/description\u003e\n            \u003c/param\u003e\n            \u003cparam\n                name=\"formBeanName\"\n                kind=\"string\"\u003e\n                \u003cdescription\u003e\n                   对应的form\n                \u003c/description\u003e\n            \u003c/param\u003e\n            \u003cparam\n                name=\"jspEditPath\"\n                kind=\"filepath\"\n                required=\"true\"\n                pattern=\"^.*?\\.(jsp)$\"\u003e\n                \u003cdescription\u003e\n                    必填，配置编辑页URL路径\n                    存放在/模块名/配置页面.jsp，文件类型为jsp\n                    例:/sys/notify/config.jsp\n                \u003c/description\u003e\n            \u003c/param\u003e\n            \u003cparam\n                name=\"jspViewPath\"\n                kind=\"filepath\"\n                required=\"true\"\n                pattern=\"^.*?\\.(jsp)$\"\u003e\n                \u003cdescription\u003e\n                    必填，配置查看页URL路径\n                    存放在/模块名/配置页面.jsp，文件类型为jsp\n                    例:/sys/notify/config.jsp\n                \u003c/description\u003e\n            \u003c/param\u003e\n            \u003cdescription\u003e\n                对应平台的具体配置\n            \u003c/description\u003e\n        \u003c/item\u003e\n        \u003cdescription\u003e文档协同平台类型定义\u003c/description\u003e\n    \u003c/extension-point\u003e\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220906202446-k4xxiv9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220906202446-k4xxiv9",
+				"updated": "20220906202452"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用"
+				}
+			]
+		},
+		{
+			"ID": "20220906202452-yqdgwnh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220906202452-yqdgwnh",
+				"updated": "20220906202533"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "   \u003c!-- wps --\u003e\n    \u003cextension point=\"com.landray.kmss.kms.cooperate.platform\"\u003e\n        \u003citem name=\"config\"\u003e\n            \u003cparam name=\"jsp\" value=\"/kms/cooperate/plugins/wps/wps_config.jsp\"/\u003e\n            \u003cparam name=\"order\" value=\"1\"/\u003e\n        \u003c/item\u003e\n\n        \u003citem name=\"platform\"\u003e\n            \u003cparam name=\"type\" value=\"wps\"/\u003e\n            \u003cparam name=\"fdModelName\" value=\"com.landray.kmss.kms.cooperate.model.KmsCooperateDoc\"/\u003e\n            \u003cparam name=\"formBeanName\" value=\"kmsCooperateDocForm\"/\u003e\n\n            \u003cparam name=\"jspEditPath\" value=\"/kms/cooperate/plugins/wps/wps_edit.jsp\"/\u003e\n            \u003cparam name=\"jspViewPath\" value=\"/kms/cooperate/plugins/wps/wps_view.jsp\"/\u003e\n        \u003c/item\u003e\n        \u003citem name=\"platform\"\u003e\n            \u003cparam name=\"type\" value=\"wps\"/\u003e\n            \u003cparam name=\"fdModelName\" value=\"com.landray.kmss.kms.cooperate.model.KmsCooperateTmpl\"/\u003e\n            \u003cparam name=\"formBeanName\" value=\"kmsCooperateTmplForm\"/\u003e\n\n            \u003cparam name=\"jspEditPath\" value=\"/kms/cooperate/plugins/wps/wps_edit.jsp\"/\u003e\n            \u003cparam name=\"jspViewPath\" value=\"/kms/cooperate/plugins/wps/wps_view.jsp\"/\u003e\n        \u003c/item\u003e\n    \u003c/extension\u003e\n\n    \u003c!-- 石墨文档 --\u003e\n    \u003cextension point=\"com.landray.kmss.kms.cooperate.platform\"\u003e\n        \u003citem name=\"config\"\u003e\n            \u003cparam name=\"jsp\" value=\"/kms/cooperate/plugins/shimo/shimo_config.jsp\"/\u003e\n            \u003cparam name=\"order\" value=\"2\"/\u003e\n        \u003c/item\u003e\n\n        \u003citem name=\"platform\"\u003e\n            \u003cparam name=\"name\" value=\"shimo\"/\u003e\n            \u003cparam name=\"fdModelName\" value=\"com.landray.kmss.kms.cooperate.model.KmsCooperateDoc\"/\u003e\n            \u003cparam name=\"formBeanName\" value=\"kmsCooperateDocForm\"/\u003e\n\n            \u003cparam name=\"jspEditPath\" value=\"/kms/cooperate/plugins/shimo/shimo_edit.jsp\"/\u003e\n            \u003cparam name=\"jspViewPath\" value=\"/kms/cooperate/plugins/shimo/shimo_view.jsp\"/\u003e\n        \u003c/item\u003e\n        \u003citem name=\"platform\"\u003e\n            \u003cparam name=\"name\" value=\"shimo\"/\u003e\n            \u003cparam name=\"fdModelName\" value=\"com.landray.kmss.kms.cooperate.model.KmsCooperateTmpl\"/\u003e\n            \u003cparam name=\"formBeanName\" value=\"kmsCooperateTmplForm\"/\u003e\n\n            \u003cparam name=\"jspEditPath\" value=\"/kms/cooperate/plugins/shimo/shimo_edit.jsp\"/\u003e\n            \u003cparam name=\"jspViewPath\" value=\"/kms/cooperate/plugins/shimo/shimo_view.jsp\"/\u003e\n        \u003c/item\u003e\n    \u003c/extension\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

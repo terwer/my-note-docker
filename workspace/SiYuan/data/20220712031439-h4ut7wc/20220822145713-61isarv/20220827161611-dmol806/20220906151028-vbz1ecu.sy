@@ -1,0 +1,19 @@
+{
+	"ID": "20220906151028-vbz1ecu",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220906151028-vbz1ecu",
+		"title": "420.MyBatis的一级缓存",
+		"updated": "20220906175156"
+	},
+	"Children": [
+		{
+			"ID": "20220906151028-uuy57rf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220906151028-uuy57rf",
+				"updated": "20220906175156"
+			}
+		}
+	]
+}

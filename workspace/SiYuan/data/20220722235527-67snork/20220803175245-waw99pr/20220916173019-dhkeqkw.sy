@@ -1,0 +1,1098 @@
+{
+	"ID": "20220916173019-dhkeqkw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16700929",
+		"custom-conf-post-id": "11894791",
+		"custom-desc": "docker的http部署配置集成mysql的版本version_services_db_image_mysql_volumes_data_varlibmysqlports__restart_environment_mysql_root_password_wordpressmysql_database_wordpressmysql_user_wordpressmysql_password_wordpresswordpress_depends_on_dbimage_wordpress_ports__rest",
+		"custom-slug": "docker-s-wordpress-enables-https-jv469",
+		"custom-vuepress-slug": "docs/003.经验分享/063.docker的WordPress启用https.md",
+		"custom-wordpress-post-id": "4252",
+		"id": "20220916173019-dhkeqkw",
+		"tags": "部署,使用,docker,docker-compose,https,wordpress,ssl",
+		"title": "006.docker的WordPress启用https",
+		"updated": "20220916183141"
+	},
+	"Children": [
+		{
+			"ID": "20220916173019-5wgtm9e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220916173019-5wgtm9e",
+				"updated": "20220916173144"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "docker 的 http 部署配置",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916173144-gykn4hy",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220916173144-gykn4hy",
+				"updated": "20220916182545"
+			},
+			"Children": [
+				{
+					"ID": "20220916173146-ukagrmk",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220916173146-ukagrmk",
+						"updated": "20220916182508"
+					},
+					"Children": [
+						{
+							"ID": "20220916173146-pnfz2h7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220916173146-pnfz2h7",
+								"updated": "20220916173152"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "集成 MySQL 的版本",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220916173203-rue7zl9",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220916173203-rue7zl9",
+								"updated": "20220916182508"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eWFtbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "version: '3.3'\nservices:\n   db:\n     image: mysql:5.7.38\n     volumes:\n      - ./data:/var/lib/mysql\n     ports:\n      - \"3307:3306\"\n     restart: \"no\"\n     environment:\n       MYSQL_ROOT_PASSWORD: wordpress\n       MYSQL_DATABASE: wordpress\n       MYSQL_USER: wordpress\n       MYSQL_PASSWORD: wordpress\n\n   wordpress:\n     depends_on:\n       - db\n     image: wordpress:6.0.2\n     ports:\n       - \"8000:80\"\n     restart: \"no\"\n     environment:\n       WORDPRESS_DB_HOST: \"db:3306\"\n       WORDPRESS_DB_USER: \"wordpress\"\n       WORDPRESS_DB_PASSWORD: \"wordpress\"\n       WORDPRESS_DEBUG: 1\n     volumes:\n      - ./wordpress:/var/www/html\n      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220916173152-wotsx2r",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220916173152-wotsx2r",
+						"updated": "20220916182545"
+					},
+					"Children": [
+						{
+							"ID": "20220916173152-2ipvcbe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220916173152-2ipvcbe",
+								"updated": "20220916173159"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 rds 版本的 mysql",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220916173200-6tu7tmk",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220916173200-6tu7tmk",
+								"updated": "20220916182545"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eWFtbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "version: '3.3'\nservices:\n   wordpress:\n     image: wordpress:6.0.2\n     ports:\n       - \"80:80\"\n     restart: \"no\"\n     environment:\n       WORDPRESS_DB_HOST: \"${MYSQL_HOST}:${MYSQL_PORT}\"\n       WORDPRESS_DB_NAME: \"${MYSQL_DB_NAME}\"\n       WORDPRESS_DB_USER: \"${MYSQL_USERNAME}\"\n       WORDPRESS_DB_PASSWORD: \"${MYSQL_PASSWORD}\"\n       # WORDPRESS_DEBUG: 1\n     volumes:\n      - ./wordpress:/var/www/html\n      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220916173218-uo70y4w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220916173218-uo70y4w",
+				"updated": "20220916173245"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "启用 https",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916173245-m003lqx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916173245-m003lqx",
+				"updated": "20220916173722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "先增加端口和 ssl 证书映射",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916173722-o5q6tt5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eWFtbA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220916173722-o5q6tt5",
+				"updated": "20220916173730"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "version: '3.3'\nservices:\n   wordpress:\n     image: wordpress:6.0.2\n     ports:\n       - \"80:80\"\n       - \"443:443\"\n     restart: \"no\"\n     environment:\n       WORDPRESS_DB_HOST: \"${MYSQL_HOST}:${MYSQL_PORT}\"\n       WORDPRESS_DB_NAME: \"${MYSQL_DB_NAME}\"\n       WORDPRESS_DB_USER: \"${MYSQL_USERNAME}\"\n       WORDPRESS_DB_PASSWORD: \"${MYSQL_PASSWORD}\"\n       # WORDPRESS_DEBUG: 1\n     volumes:\n      - ./wordpress:/var/www/html\n      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini\n      - ./ssl:/ssl\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916173744-lms67sq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916173744-lms67sq",
+				"updated": "20220916182350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "进入 wordpress 容器，加载 apache 的 ssl 模块。"
+				}
+			]
+		},
+		{
+			"ID": "20220916173754-l8vwc8u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220916173754-l8vwc8u",
+				"updated": "20220916174259"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[root@instance]# docker exec -it wordpress bash\nroot@0f05292f2238:/var/www/html# a2enmod ssl\nConsidering dependency setenvif for ssl:\nModule setenvif already enabled\nConsidering dependency mime for ssl:\nModule mime already enabled\nConsidering dependency socache_shmcb for ssl:\nEnabling module socache_shmcb.\nEnabling module ssl.\nSee /usr/share/doc/apache2/README.Debian.gz on how to configure SSL and create self-signed certificates.\nTo activate the new configuration, you need to run:\n  service apache2 restart\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916174332-u9gvoku",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220916174332-u9gvoku",
+				"updated": "20220916182353"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编辑容器中的 ssl 文件"
+				}
+			]
+		},
+		{
+			"ID": "20220916173814-hzwya4o",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220916173814-hzwya4o",
+				"updated": "20220916174543"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "root@0f05292f2238:/var/www/html# vim /etc/apache2/sites-available/default-ssl.conf\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916173814-2lkynwv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916173814-2lkynwv",
+				"updated": "20220916174523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "容器中没有 vim，我们先把文件拷贝出来，然后在映射进去",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916174524-1uhwagd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220916174524-1uhwagd",
+				"updated": "20220916174525"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "root@0f05292f2238:/var/www/html# cp /etc/apache2/sites-available/default-ssl.conf /ssl/default-ssl.conf\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916173814-uji3rex",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916173814-uji3rex",
+				"updated": "20220916175229"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ssl 证书和私钥",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916175229-pqdsv7k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916175229-pqdsv7k",
+				"updated": "20220916175232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "找到 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "SSLCertificateFile 和 SSLCertificateKeyFile",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 这两个配置项，改成把私钥和证书",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916173814-bmeoqxb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHJvcGVydGllcw==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220916173814-bmeoqxb",
+				"updated": "20220916175955"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#   A self-signed (snakeoil) certificate can be created by installing\n#   the ssl-cert package. See\n#   /usr/share/doc/apache2/README.Debian.gz for more info.\n#   If both key and certificate are stored in the same file, only the\n#   SSLCertificateFile directive is needed.\n# SSLCertificateFile\t/etc/ssl/certs/ssl-cert-snakeoil.pem\n# SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key\nSSLCertificateFile\t/ssl/certs/blog.terwergreen.com.pem\nSSLCertificateKeyFile /ssl/certs/blog.terwergreen.com.key\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916173814-ivciu18",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220916173814-ivciu18",
+				"updated": "20220916182359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "强制 http 请求转到 https"
+				}
+			]
+		},
+		{
+			"ID": "20220916182359-989v0dp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916182359-989v0dp",
+				"updated": "20220916182359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编辑  "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "/etc/apache2/sites-available/000-default.conf"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，找到 \u003cVirtualHost *:80\u003e 标签中增加下面的配置："
+				}
+			]
+		},
+		{
+			"ID": "20220916173814-2jull8b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHJvcGVydGllcw==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220916173814-2jull8b",
+				"updated": "20220916180045"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cDirectory \"/var/www/html\"\u003e \n    RewriteEngine   on\n    RewriteBase /\n    # FORCE HTTPS\n    RewriteCond %{HTTPS} !=on\n    RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]\n\u003c/Directory\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916183131-1oidg3p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916183131-1oidg3p",
+				"updated": "20220916183140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里要注意修改文件的位置"
+				}
+			]
+		},
+		{
+			"ID": "20220916183140-9tu6eyc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916183140-9tu6eyc",
+				"updated": "20220916183141"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20220916183108.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220916173815-bcycguy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220916173815-bcycguy",
+				"updated": "20220916181801"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "踩坑",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916181803-das6lyl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916181803-das6lyl",
+				"updated": "20220916181911"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "如果发现没有生效看这里"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220916181811-88kplou",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916181811-88kplou",
+				"updated": "20220916181845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、重建容器需要重新启用 ssl",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916181847-xrociwd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220916181847-xrociwd",
+				"updated": "20220916182627"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "a2enmod ssl\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220916181802-9cx9dde",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220916181802-9cx9dde",
+				"updated": "20220916181815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、从 apache 的配置文件 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "apache2.conf",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 可以看到，apache 只会读取 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "/etc/apache2/sites-enabled",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 目录的配置文件，所以需要把 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "/etc/apache2/sites-available",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 下的 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "default-ssl.conf",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件链接到 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "/etc/apache2/sites-enabled",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 目录下。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220916181802-sxe6d1o",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220916181802-sxe6d1o",
+				"updated": "20220916182624"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "ln -s /etc/apache2/sites-available/default-ssl.conf \\\n/etc/apache2/sites-enabled/default-ssl.conf\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220916182547-ofk4j3x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220916182547-ofk4j3x",
+				"updated": "20220916182600"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最终完整版的配置"
+				}
+			]
+		},
+		{
+			"ID": "20220916182600-fg8bsgq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220916182600-fg8bsgq",
+				"updated": "20220916182621"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "version: '3.3'\nservices:\n   wordpress:\n     image: wordpress:6.0.2\n     ports:\n       - \"80:80\"\n       - \"443:443\"\n     restart: \"no\"\n     environment:\n       WORDPRESS_DB_HOST: \"${MYSQL_HOST}:${MYSQL_PORT}\"\n       WORDPRESS_DB_NAME: \"${MYSQL_DB_NAME}\"\n       WORDPRESS_DB_USER: \"${MYSQL_USERNAME}\"\n       WORDPRESS_DB_PASSWORD: \"${MYSQL_PASSWORD}\"\n       # WORDPRESS_DEBUG: 1\n     volumes:\n      - ./wordpress:/var/www/html\n      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini\n      - ./ssl:/ssl\n      - ./ssl-conf/default-ssl.conf:/etc/apache2/sites-available/default-ssl.conf\n      - ./ssl-conf/000-default.conf:/etc/apache2/sites-available/000-default.conf\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

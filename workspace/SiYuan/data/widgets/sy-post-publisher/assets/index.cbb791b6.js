@@ -8,8 +8,8 @@ var __publicField = (obj, key, value) => {
   __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
   return value;
 };
-var require_index_eda2c487 = __commonJS({
-  "assets/index.eda2c487.js"(exports, module) {
+var require_index_cbb791b6 = __commonJS({
+  "assets/index.cbb791b6.js"(exports, module) {
     const p$2 = function polyfill() {
       const relList = document.createElement("link").relList;
       if (relList && relList.supports && relList.supports("modulepreload")) {
@@ -10920,11 +10920,11 @@ var require_index_eda2c487 = __commonJS({
     function getEnv(key) {
       let env2 = "";
       try {
-        if ({ "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_SIYUAN_DEV_PAGE_ID": "20220723100458-kqacgb2", "VITE_DEBUG_MODE": "false", "BASE_URL": "./", "MODE": "production", "DEV": false, "PROD": true }[key]) {
-          env2 = { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_SIYUAN_DEV_PAGE_ID": "20220723100458-kqacgb2", "VITE_DEBUG_MODE": "false", "BASE_URL": "./", "MODE": "production", "DEV": false, "PROD": true }[key];
+        if ({ "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_DEBUG_MODE": "false", "BASE_URL": "./", "MODE": "production", "DEV": false, "PROD": true }[key]) {
+          env2 = { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_DEBUG_MODE": "false", "BASE_URL": "./", "MODE": "production", "DEV": false, "PROD": true }[key];
         }
       } catch (e2) {
-        logUtil.logWarn(e2);
+        throw new Error(e2);
       }
       return env2;
     }
@@ -10964,7 +10964,7 @@ var require_index_eda2c487 = __commonJS({
       logWarn,
       logError
     };
-    const _hoisted_1$1b = {
+    const _hoisted_1$1c = {
       class: "locale-changer"
     };
     const __default__$1S = {
@@ -10997,7 +10997,7 @@ var require_index_eda2c487 = __commonJS({
           const _component_el_select = resolveComponent("el-select");
           const _component_el_form_item = resolveComponent("el-form-item");
           const _component_el_form = resolveComponent("el-form");
-          return openBlock(), createElementBlock("div", _hoisted_1$1b, [createVNode(_component_el_form, {
+          return openBlock(), createElementBlock("div", _hoisted_1$1c, [createVNode(_component_el_form, {
             "label-width": "120px"
           }, {
             default: withCtx(() => [createVNode(_component_el_form_item, {
@@ -13898,19 +13898,29 @@ var require_index_eda2c487 = __commonJS({
       });
       return lute.MarkdownStr("", md);
     }
-    function mdToHtml(md) {
-      let html = "<h1>No markdown parser,see src/lib/htmlUtil.ts</h1>";
-      html = render(md);
-      return removeWidgetTag(html);
+    function removeTitleNumber(str2) {
+      let newstr = str2;
+      const publisherRegex = /([0-9]*)\./g;
+      newstr = newstr.replace(publisherRegex, "");
+      return newstr;
     }
     function removeWidgetTag(str2) {
+      let newstr = str2;
       const publisherRegex = /<iframe.*src="\/widgets\/publisher.*<\/iframe>/g;
-      str2 = str2.replaceAll(publisherRegex, "");
+      newstr = newstr.replace(publisherRegex, "");
       const syPublisherRegex = /<iframe.*src="\/widgets\/sy-post-publisher.*<\/iframe>/g;
-      str2 = str2.replaceAll(syPublisherRegex, "");
+      newstr = newstr.replace(syPublisherRegex, "");
       const noteAttrRegex = /<iframe.*\/widgets\/Note*\sAttrs.*\/iframe>/g;
-      str2 = str2.replaceAll(noteAttrRegex, "");
-      return str2;
+      newstr = newstr.replace(noteAttrRegex, "");
+      const h1Regex = /<h1.*\/h1>/g;
+      newstr = newstr.replace(h1Regex, "");
+      return newstr;
+    }
+    function removeMdWidgetTag(str2) {
+      let newstr = str2;
+      const mdH1Rehex = /#\s[0-9]+.*/g;
+      newstr = newstr.replace(mdH1Rehex, "");
+      return newstr;
     }
     function parseHtml(html, length, ignore) {
       let allText = filterHtml(html);
@@ -13945,7 +13955,11 @@ var require_index_eda2c487 = __commonJS({
       str2 = str2.toLowerCase();
       return str2;
     }
-    function mdToPlanText(md) {
+    function mdToHtml(md) {
+      const html = render(md);
+      return removeWidgetTag(html);
+    }
+    function mdToPlainText(md) {
       let html = mdToHtml(md);
       html = removeWidgetTag(html);
       return filterHtml(html);
@@ -14175,7 +14189,7 @@ var require_index_eda2c487 = __commonJS({
       return changeTimeZone(datestr, "Asia/Shanghai");
     }
     async function cutWords(words) {
-      words = mdToPlanText(words);
+      words = mdToPlainText(words);
       logUtil.logInfo("\u51C6\u5907\u5F00\u59CB\u5206\u8BCD\uFF0C\u539F\u6587=>", words);
       const v2 = await fetch("https://api.terwer.space/api/jieba?q=" + words);
       let json2 = await v2.json();
@@ -19809,8 +19823,8 @@ var require_index_eda2c487 = __commonJS({
       compositionupdate: (evt) => evt instanceof CompositionEvent,
       compositionend: (evt) => evt instanceof CompositionEvent
     };
-    const _hoisted_1$1a = ["role"];
-    const _hoisted_2$J = ["id", "type", "disabled", "formatter", "parser", "readonly", "autocomplete", "tabindex", "aria-label", "placeholder"];
+    const _hoisted_1$1b = ["role"];
+    const _hoisted_2$K = ["id", "type", "disabled", "formatter", "parser", "readonly", "autocomplete", "tabindex", "aria-label", "placeholder"];
     const _hoisted_3$m = ["id", "tabindex", "disabled", "readonly", "autocomplete", "aria-label", "placeholder"];
     const __default__$1N = {
       name: "ElInput",
@@ -20134,7 +20148,7 @@ var require_index_eda2c487 = __commonJS({
                   onBlur: handleBlur,
                   onChange: handleChange,
                   onKeydown: handleKeydown
-                }), null, 16, _hoisted_2$J),
+                }), null, 16, _hoisted_2$K),
                 createCommentVNode(" suffix slot "),
                 unref(suffixVisible) ? (openBlock(), createElementBlock("span", {
                   key: 1,
@@ -20237,7 +20251,7 @@ var require_index_eda2c487 = __commonJS({
                 class: normalizeClass(unref(nsInput).e("count"))
               }, toDisplayString$1(unref(textLength)) + " / " + toDisplayString$1(unref(attrs).maxlength), 7)) : createCommentVNode("v-if", true)
             ], 64))
-          ], 16, _hoisted_1$1a)), [
+          ], 16, _hoisted_1$1b)), [
             [vShow, _ctx.type !== "hidden"]
           ]);
         };
@@ -22541,8 +22555,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$19 = ["innerHTML"];
-    const _hoisted_2$I = { key: 1 };
+    const _hoisted_1$1a = ["innerHTML"];
+    const _hoisted_2$J = { key: 1 };
     function _sfc_render$C(_ctx, _cache, $props, $setup, $data, $options) {
       const _component_el_tooltip_trigger = resolveComponent("el-tooltip-trigger");
       const _component_el_popper_arrow = resolveComponent("el-popper-arrow");
@@ -22599,7 +22613,7 @@ var require_index_eda2c487 = __commonJS({
                 _ctx.rawContent ? (openBlock(), createElementBlock("span", {
                   key: 0,
                   innerHTML: _ctx.content
-                }, null, 8, _hoisted_1$19)) : (openBlock(), createElementBlock("span", _hoisted_2$I, toDisplayString$1(_ctx.content), 1))
+                }, null, 8, _hoisted_1$1a)) : (openBlock(), createElementBlock("span", _hoisted_2$J, toDisplayString$1(_ctx.content), 1))
               ]),
               _ctx.compatShowArrow ? (openBlock(), createBlock(_component_el_popper_arrow, {
                 key: 0,
@@ -22681,8 +22695,8 @@ var require_index_eda2c487 = __commonJS({
       clear: () => true,
       select: (item) => isObject$7(item)
     };
-    const _hoisted_1$18 = ["aria-expanded", "aria-owns"];
-    const _hoisted_2$H = { key: 0 };
+    const _hoisted_1$19 = ["aria-expanded", "aria-owns"];
+    const _hoisted_2$I = { key: 0 };
     const _hoisted_3$l = ["id", "aria-selected", "onClick"];
     const __default__$1H = {
       name: "ElAutocomplete",
@@ -22923,7 +22937,7 @@ var require_index_eda2c487 = __commonJS({
                   role: "listbox"
                 }, {
                   default: withCtx(() => [
-                    unref(suggestionLoading) ? (openBlock(), createElementBlock("li", _hoisted_2$H, [
+                    unref(suggestionLoading) ? (openBlock(), createElementBlock("li", _hoisted_2$I, [
                       createVNode(unref(ElIcon), {
                         class: normalizeClass(unref(ns2).is("loading"))
                       }, {
@@ -23006,7 +23020,7 @@ var require_index_eda2c487 = __commonJS({
                     ])
                   } : void 0
                 ]), 1040, ["model-value", "onKeydown"])
-              ], 14, _hoisted_1$18)
+              ], 14, _hoisted_1$19)
             ]),
             _: 3
           }, 8, ["visible", "placement", "popper-class", "teleported", "transition"]);
@@ -23044,7 +23058,7 @@ var require_index_eda2c487 = __commonJS({
     const avatarEmits = {
       error: (evt) => evt instanceof Event
     };
-    const _hoisted_1$17 = ["src", "alt", "srcset"];
+    const _hoisted_1$18 = ["src", "alt", "srcset"];
     const __default__$1G = {
       name: "ElAvatar"
     };
@@ -23093,7 +23107,7 @@ var require_index_eda2c487 = __commonJS({
               srcset: _ctx.srcSet,
               style: normalizeStyle(unref(fitStyle)),
               onError: handleError2
-            }, null, 44, _hoisted_1$17)) : _ctx.icon ? (openBlock(), createBlock(unref(ElIcon), { key: 1 }, {
+            }, null, 44, _hoisted_1$18)) : _ctx.icon ? (openBlock(), createBlock(unref(ElIcon), { key: 1 }, {
               default: withCtx(() => [
                 (openBlock(), createBlock(resolveDynamicComponent(_ctx.icon)))
               ]),
@@ -23126,7 +23140,7 @@ var require_index_eda2c487 = __commonJS({
     const backtopEmits = {
       click: (evt) => evt instanceof MouseEvent
     };
-    const _hoisted_1$16 = ["onClick"];
+    const _hoisted_1$17 = ["onClick"];
     const __default__$1F = {
       name: "ElBacktop"
     };
@@ -23206,7 +23220,7 @@ var require_index_eda2c487 = __commonJS({
                     _: 1
                   }, 8, ["class"])
                 ])
-              ], 14, _hoisted_1$16)) : createCommentVNode("v-if", true)
+              ], 14, _hoisted_1$17)) : createCommentVNode("v-if", true)
             ]),
             _: 3
           }, 8, ["name"]);
@@ -23232,7 +23246,7 @@ var require_index_eda2c487 = __commonJS({
         default: "danger"
       }
     });
-    const _hoisted_1$15 = ["textContent"];
+    const _hoisted_1$16 = ["textContent"];
     const __default__$1E = {
       name: "ElBadge"
     };
@@ -23271,7 +23285,7 @@ var require_index_eda2c487 = __commonJS({
                     unref(ns2).is("dot", _ctx.isDot)
                   ]),
                   textContent: toDisplayString$1(unref(content))
-                }, null, 10, _hoisted_1$15), [
+                }, null, 10, _hoisted_1$16), [
                   [vShow, !_ctx.hidden && (unref(content) || _ctx.isDot)]
                 ])
               ]),
@@ -24359,7 +24373,7 @@ var require_index_eda2c487 = __commonJS({
         return styles;
       });
     }
-    const _hoisted_1$14 = ["aria-disabled", "disabled", "autofocus", "type"];
+    const _hoisted_1$15 = ["aria-disabled", "disabled", "autofocus", "type"];
     const __default__$1B = {
       name: "ElButton"
     };
@@ -24461,7 +24475,7 @@ var require_index_eda2c487 = __commonJS({
             }, [
               renderSlot(_ctx.$slots, "default")
             ], 2)) : createCommentVNode("v-if", true)
-          ], 14, _hoisted_1$14);
+          ], 14, _hoisted_1$15);
         };
       }
     });
@@ -25110,8 +25124,8 @@ var require_index_eda2c487 = __commonJS({
       },
       unlinkPanels: Boolean
     });
-    const _hoisted_1$13 = ["id", "name", "placeholder", "value", "disabled", "readonly"];
-    const _hoisted_2$G = ["id", "name", "placeholder", "value", "disabled", "readonly"];
+    const _hoisted_1$14 = ["id", "name", "placeholder", "value", "disabled", "readonly"];
+    const _hoisted_2$H = ["id", "name", "placeholder", "value", "disabled", "readonly"];
     const __default__$1z = {
       name: "Picker"
     };
@@ -25664,7 +25678,7 @@ var require_index_eda2c487 = __commonJS({
                   onChange: handleStartChange,
                   onFocus: handleFocusInput,
                   onBlur: handleBlurInput
-                }, null, 42, _hoisted_1$13),
+                }, null, 42, _hoisted_1$14),
                 renderSlot(_ctx.$slots, "range-separator", {}, () => [
                   createBaseVNode("span", {
                     class: normalizeClass(unref(nsRange).b("separator"))
@@ -25684,7 +25698,7 @@ var require_index_eda2c487 = __commonJS({
                   onBlur: handleBlurInput,
                   onInput: handleEndInput,
                   onChange: handleEndChange
-                }, null, 42, _hoisted_2$G),
+                }, null, 42, _hoisted_2$H),
                 _ctx.clearIcon ? (openBlock(), createBlock(unref(ElIcon), {
                   key: 1,
                   class: normalizeClass([
@@ -26093,8 +26107,8 @@ var require_index_eda2c487 = __commonJS({
       },
       ...disabledTimeListsProps
     });
-    const _hoisted_1$12 = ["onClick"];
-    const _hoisted_2$F = ["onMouseenter"];
+    const _hoisted_1$13 = ["onClick"];
+    const _hoisted_2$G = ["onMouseenter"];
     const _sfc_main$2i = /* @__PURE__ */ defineComponent({
       __name: "basic-time-spinner",
       props: basicTimeSpinnerProps,
@@ -26309,7 +26323,7 @@ var require_index_eda2c487 = __commonJS({
                       ], 64)) : (openBlock(), createElementBlock(Fragment, { key: 1 }, [
                         createTextVNode(toDisplayString$1(("0" + key).slice(-2)), 1)
                       ], 64))
-                    ], 10, _hoisted_1$12);
+                    ], 10, _hoisted_1$13);
                   }), 128))
                 ]),
                 _: 2
@@ -26363,7 +26377,7 @@ var require_index_eda2c487 = __commonJS({
                     ], 2);
                   }), 128))
                 ], 2)
-              ], 42, _hoisted_2$F);
+              ], 42, _hoisted_2$G);
             }), 128)) : createCommentVNode("v-if", true)
           ], 2);
         };
@@ -26529,7 +26543,7 @@ var require_index_eda2c487 = __commonJS({
         type: definePropType(Array)
       }
     });
-    const _hoisted_1$11 = ["disabled"];
+    const _hoisted_1$12 = ["disabled"];
     const _sfc_main$2g = /* @__PURE__ */ defineComponent({
       __name: "panel-time-range",
       props: panelTimeRangeProps,
@@ -26790,7 +26804,7 @@ var require_index_eda2c487 = __commonJS({
                 class: normalizeClass([unref(nsTime).be("panel", "btn"), "confirm"]),
                 disabled: unref(btnConfirmDisabled),
                 onClick: _cache[1] || (_cache[1] = ($event) => handleConfirm())
-              }, toDisplayString$1(unref(t)("el.datepicker.confirm")), 11, _hoisted_1$11)
+              }, toDisplayString$1(unref(t)("el.datepicker.confirm")), 11, _hoisted_1$12)
             ], 2)
           ], 2)) : createCommentVNode("v-if", true);
         };
@@ -26873,8 +26887,8 @@ var require_index_eda2c487 = __commonJS({
     const dateTableEmits = {
       pick: (value) => isObject$7(value)
     };
-    const _hoisted_1$10 = { key: 0 };
-    const _hoisted_2$E = ["onClick"];
+    const _hoisted_1$11 = { key: 0 };
+    const _hoisted_2$F = ["onClick"];
     const __default__$1y = {
       name: "DateTable"
     };
@@ -26979,7 +26993,7 @@ var require_index_eda2c487 = __commonJS({
             cellspacing: "0",
             cellpadding: "0"
           }, [
-            !_ctx.hideHeader ? (openBlock(), createElementBlock("thead", _hoisted_1$10, [
+            !_ctx.hideHeader ? (openBlock(), createElementBlock("thead", _hoisted_1$11, [
               (openBlock(true), createElementBlock(Fragment, null, renderList(unref(weekDays), (day) => {
                 return openBlock(), createElementBlock("th", { key: day }, toDisplayString$1(day), 1);
               }), 128))
@@ -27008,7 +27022,7 @@ var require_index_eda2c487 = __commonJS({
                           createBaseVNode("span", null, toDisplayString$1(cell.text), 1)
                         ])
                       ], 2)
-                    ], 10, _hoisted_2$E);
+                    ], 10, _hoisted_2$F);
                   }), 128))
                 ], 2);
               }), 128))
@@ -27354,8 +27368,8 @@ var require_index_eda2c487 = __commonJS({
     const carouselEmits = {
       change: (current, prev) => [current, prev].every(isNumber$1)
     };
-    const _hoisted_1$$ = ["onMouseenter", "onMouseleave"];
-    const _hoisted_2$D = ["onMouseenter", "onClick"];
+    const _hoisted_1$10 = ["onMouseenter", "onMouseleave"];
+    const _hoisted_2$E = ["onMouseenter", "onClick"];
     const _hoisted_3$k = { key: 0 };
     const __default__$1v = {
       name: "ElCarousel"
@@ -27654,10 +27668,10 @@ var require_index_eda2c487 = __commonJS({
                   }, [
                     unref(hasLabel) ? (openBlock(), createElementBlock("span", _hoisted_3$k, toDisplayString$1(item.props.label), 1)) : createCommentVNode("v-if", true)
                   ], 2)
-                ], 42, _hoisted_2$D);
+                ], 42, _hoisted_2$E);
               }), 128))
             ], 2)) : createCommentVNode("v-if", true)
-          ], 42, _hoisted_1$$);
+          ], 42, _hoisted_1$10);
         };
       }
     });
@@ -28093,8 +28107,8 @@ var require_index_eda2c487 = __commonJS({
         size: size2
       };
     };
-    const _hoisted_1$_ = ["tabindex", "role", "aria-checked"];
-    const _hoisted_2$C = ["id", "aria-hidden", "name", "tabindex", "disabled", "true-value", "false-value"];
+    const _hoisted_1$$ = ["tabindex", "role", "aria-checked"];
+    const _hoisted_2$D = ["id", "aria-hidden", "name", "tabindex", "disabled", "true-value", "false-value"];
     const _hoisted_3$j = ["id", "aria-hidden", "disabled", "value", "name", "tabindex"];
     const __default__$1t = {
       name: "ElCheckbox"
@@ -28159,7 +28173,7 @@ var require_index_eda2c487 = __commonJS({
                   onChange: _cache[1] || (_cache[1] = (...args) => unref(handleChange) && unref(handleChange)(...args)),
                   onFocus: _cache[2] || (_cache[2] = ($event) => focus.value = true),
                   onBlur: _cache[3] || (_cache[3] = ($event) => focus.value = false)
-                }, null, 42, _hoisted_2$C)), [
+                }, null, 42, _hoisted_2$D)), [
                   [vModelCheckbox, unref(model)]
                 ]) : withDirectives((openBlock(), createElementBlock("input", {
                   key: 1,
@@ -28181,7 +28195,7 @@ var require_index_eda2c487 = __commonJS({
                 createBaseVNode("span", {
                   class: normalizeClass(unref(ns2).e("inner"))
                 }, null, 2)
-              ], 10, _hoisted_1$_),
+              ], 10, _hoisted_1$$),
               unref(hasOwnLabel) ? (openBlock(), createElementBlock("span", {
                 key: 0,
                 class: normalizeClass(unref(ns2).e("label"))
@@ -28198,8 +28212,8 @@ var require_index_eda2c487 = __commonJS({
       }
     });
     var Checkbox = /* @__PURE__ */ _export_sfc$1(_sfc_main$2a, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/checkbox/src/checkbox.vue"]]);
-    const _hoisted_1$Z = ["name", "tabindex", "disabled", "true-value", "false-value"];
-    const _hoisted_2$B = ["name", "tabindex", "disabled", "value"];
+    const _hoisted_1$_ = ["name", "tabindex", "disabled", "true-value", "false-value"];
+    const _hoisted_2$C = ["name", "tabindex", "disabled", "value"];
     const __default__$1s = {
       name: "ElCheckboxButton"
     };
@@ -28246,7 +28260,7 @@ var require_index_eda2c487 = __commonJS({
               onChange: _cache[1] || (_cache[1] = (...args) => unref(handleChange) && unref(handleChange)(...args)),
               onFocus: _cache[2] || (_cache[2] = ($event) => focus.value = true),
               onBlur: _cache[3] || (_cache[3] = ($event) => focus.value = false)
-            }, null, 42, _hoisted_1$Z)), [
+            }, null, 42, _hoisted_1$_)), [
               [vModelCheckbox, unref(model)]
             ]) : withDirectives((openBlock(), createElementBlock("input", {
               key: 1,
@@ -28260,7 +28274,7 @@ var require_index_eda2c487 = __commonJS({
               onChange: _cache[5] || (_cache[5] = (...args) => unref(handleChange) && unref(handleChange)(...args)),
               onFocus: _cache[6] || (_cache[6] = ($event) => focus.value = true),
               onBlur: _cache[7] || (_cache[7] = ($event) => focus.value = false)
-            }, null, 42, _hoisted_2$B)), [
+            }, null, 42, _hoisted_2$C)), [
               [vModelCheckbox, unref(model)]
             ]),
             _ctx.$slots.default || _ctx.label ? (openBlock(), createElementBlock("span", {
@@ -28400,7 +28414,7 @@ var require_index_eda2c487 = __commonJS({
         modelValue
       };
     };
-    const _hoisted_1$Y = ["value", "name", "disabled"];
+    const _hoisted_1$Z = ["value", "name", "disabled"];
     const __default__$1q = {
       name: "ElRadio"
     };
@@ -28446,7 +28460,7 @@ var require_index_eda2c487 = __commonJS({
                 onFocus: _cache[1] || (_cache[1] = ($event) => focus.value = true),
                 onBlur: _cache[2] || (_cache[2] = ($event) => focus.value = false),
                 onChange: handleChange
-              }, null, 42, _hoisted_1$Y), [
+              }, null, 42, _hoisted_1$Z), [
                 [vModelRadio, unref(modelValue)]
               ]),
               createBaseVNode("span", {
@@ -28474,7 +28488,7 @@ var require_index_eda2c487 = __commonJS({
         default: ""
       }
     });
-    const _hoisted_1$X = ["value", "name", "disabled"];
+    const _hoisted_1$Y = ["value", "name", "disabled"];
     const __default__$1p = {
       name: "ElRadioButton"
     };
@@ -28515,7 +28529,7 @@ var require_index_eda2c487 = __commonJS({
               disabled: unref(disabled),
               onFocus: _cache[1] || (_cache[1] = ($event) => focus.value = true),
               onBlur: _cache[2] || (_cache[2] = ($event) => focus.value = false)
-            }, null, 42, _hoisted_1$X), [
+            }, null, 42, _hoisted_1$Y), [
               [vModelRadio, unref(modelValue)]
             ]),
             createBaseVNode("span", {
@@ -28566,7 +28580,7 @@ var require_index_eda2c487 = __commonJS({
       }
     });
     const radioGroupEmits = radioEmits;
-    const _hoisted_1$W = ["id", "aria-label", "aria-labelledby"];
+    const _hoisted_1$X = ["id", "aria-label", "aria-labelledby"];
     const __default__$1o = {
       name: "ElRadioGroup"
     };
@@ -28618,7 +28632,7 @@ var require_index_eda2c487 = __commonJS({
             "aria-labelledby": unref(isLabeledByFormItem) ? unref(formItem).labelId : void 0
           }, [
             renderSlot(_ctx.$slots, "default")
-          ], 10, _hoisted_1$W);
+          ], 10, _hoisted_1$X);
         };
       }
     });
@@ -28761,8 +28775,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$V = ["id", "aria-haspopup", "aria-owns", "aria-expanded", "tabindex"];
-    const _hoisted_2$A = /* @__PURE__ */ createBaseVNode("span", null, null, -1);
+    const _hoisted_1$W = ["id", "aria-haspopup", "aria-owns", "aria-expanded", "tabindex"];
+    const _hoisted_2$B = /* @__PURE__ */ createBaseVNode("span", null, null, -1);
     function _sfc_render$B(_ctx, _cache, $props, $setup, $data, $options) {
       const _component_el_checkbox = resolveComponent("el-checkbox");
       const _component_el_radio = resolveComponent("el-radio");
@@ -28810,7 +28824,7 @@ var require_index_eda2c487 = __commonJS({
         }, {
           default: withCtx(() => [
             createCommentVNode("\n        Add an empty element to avoid render label,\n        do not use empty fragment here for https://github.com/vuejs/vue-next/pull/2485\n      "),
-            _hoisted_2$A
+            _hoisted_2$B
           ]),
           _: 1
         }, 8, ["model-value", "label", "disabled", "onUpdate:modelValue"])) : _ctx.isLeaf && _ctx.node.checked ? (openBlock(), createBlock(_component_el_icon, {
@@ -28844,7 +28858,7 @@ var require_index_eda2c487 = __commonJS({
             _: 1
           }, 8, ["class"]))
         ], 64)) : createCommentVNode("v-if", true)
-      ], 42, _hoisted_1$V);
+      ], 42, _hoisted_1$W);
     }
     var ElCascaderNode = /* @__PURE__ */ _export_sfc$1(_sfc_main$24, [["render", _sfc_render$B], ["__file", "/home/runner/work/element-plus/element-plus/packages/components/cascader-panel/src/node.vue"]]);
     const _sfc_main$23 = defineComponent({
@@ -30029,8 +30043,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$U = { key: 0 };
-    const _hoisted_2$z = ["placeholder"];
+    const _hoisted_1$V = { key: 0 };
+    const _hoisted_2$A = ["placeholder"];
     const _hoisted_3$i = ["onClick"];
     function _sfc_render$y(_ctx, _cache, $props, $setup, $data, $options) {
       const _component_circle_close = resolveComponent("circle-close");
@@ -30140,7 +30154,7 @@ var require_index_eda2c487 = __commonJS({
                   onClose: ($event) => _ctx.deleteTag(tag)
                 }, {
                   default: withCtx(() => [
-                    tag.isCollapseTag === false ? (openBlock(), createElementBlock("span", _hoisted_1$U, toDisplayString$1(tag.text), 1)) : (openBlock(), createBlock(_component_el_tooltip, {
+                    tag.isCollapseTag === false ? (openBlock(), createElementBlock("span", _hoisted_1$V, toDisplayString$1(tag.text), 1)) : (openBlock(), createBlock(_component_el_tooltip, {
                       key: 1,
                       teleported: false,
                       disabled: _ctx.popperVisible || !_ctx.collapseTagsTooltip,
@@ -30197,7 +30211,7 @@ var require_index_eda2c487 = __commonJS({
                 onCompositionstart: _cache[8] || (_cache[8] = (...args) => _ctx.handleComposition && _ctx.handleComposition(...args)),
                 onCompositionupdate: _cache[9] || (_cache[9] = (...args) => _ctx.handleComposition && _ctx.handleComposition(...args)),
                 onCompositionend: _cache[10] || (_cache[10] = (...args) => _ctx.handleComposition && _ctx.handleComposition(...args))
-              }, null, 42, _hoisted_2$z)), [
+              }, null, 42, _hoisted_2$A)), [
                 [vModelText, _ctx.searchInputValue]
               ]) : createCommentVNode("v-if", true)
             ], 2)) : createCommentVNode("v-if", true)
@@ -30556,8 +30570,8 @@ var require_index_eda2c487 = __commonJS({
       },
       disabled: Boolean
     });
-    const _hoisted_1$T = ["aria-expanded", "aria-controls", "aria-describedby"];
-    const _hoisted_2$y = ["id", "tabindex", "onKeypress"];
+    const _hoisted_1$U = ["aria-expanded", "aria-controls", "aria-describedby"];
+    const _hoisted_2$z = ["id", "tabindex", "onKeypress"];
     const _hoisted_3$h = ["id", "aria-hidden", "aria-labelledby"];
     const __default__$1i = {
       name: "ElCollapseItem"
@@ -30634,8 +30648,8 @@ var require_index_eda2c487 = __commonJS({
                   ]),
                   _: 1
                 }, 8, ["class"])
-              ], 42, _hoisted_2$y)
-            ], 8, _hoisted_1$T),
+              ], 42, _hoisted_2$z)
+            ], 8, _hoisted_1$U),
             createVNode(unref(_CollapseTransition), null, {
               default: withCtx(() => [
                 withDirectives(createBaseVNode("div", {
@@ -31256,7 +31270,7 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$S = ["onClick"];
+    const _hoisted_1$T = ["onClick"];
     function _sfc_render$v(_ctx, _cache, $props, $setup, $data, $options) {
       return openBlock(), createElementBlock("div", {
         class: normalizeClass(_ctx.ns.b())
@@ -31277,7 +31291,7 @@ var require_index_eda2c487 = __commonJS({
               createBaseVNode("div", {
                 style: normalizeStyle({ backgroundColor: item.value })
               }, null, 4)
-            ], 10, _hoisted_1$S);
+            ], 10, _hoisted_1$T);
           }), 128))
         ], 2)
       ], 2);
@@ -31353,9 +31367,9 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$R = /* @__PURE__ */ createBaseVNode("div", null, null, -1);
-    const _hoisted_2$x = [
-      _hoisted_1$R
+    const _hoisted_1$S = /* @__PURE__ */ createBaseVNode("div", null, null, -1);
+    const _hoisted_2$y = [
+      _hoisted_1$S
     ];
     function _sfc_render$u(_ctx, _cache, $props, $setup, $data, $options) {
       return openBlock(), createElementBlock("div", {
@@ -31376,7 +31390,7 @@ var require_index_eda2c487 = __commonJS({
             top: _ctx.cursorTop + "px",
             left: _ctx.cursorLeft + "px"
           })
-        }, _hoisted_2$x, 6)
+        }, _hoisted_2$y, 6)
       ], 6);
     }
     var SvPanel = /* @__PURE__ */ _export_sfc$1(_sfc_main$1T, [["render", _sfc_render$u], ["__file", "/home/runner/work/element-plus/element-plus/packages/components/color-picker/src/components/sv-panel.vue"]]);
@@ -31587,7 +31601,7 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$Q = ["id", "aria-label", "aria-labelledby", "aria-description", "tabindex"];
+    const _hoisted_1$R = ["id", "aria-label", "aria-labelledby", "aria-description", "tabindex"];
     function _sfc_render$t(_ctx, _cache, $props, $setup, $data, $options) {
       const _component_hue_slider = resolveComponent("hue-slider");
       const _component_sv_panel = resolveComponent("sv-panel");
@@ -31737,7 +31751,7 @@ var require_index_eda2c487 = __commonJS({
                 ], 6)
               ], 2)
             ], 2)
-          ], 42, _hoisted_1$Q)
+          ], 42, _hoisted_1$R)
         ]),
         _: 1
       }, 8, ["visible", "popper-class"]);
@@ -32247,8 +32261,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$P = ["aria-label"];
-    const _hoisted_2$w = {
+    const _hoisted_1$Q = ["aria-label"];
+    const _hoisted_2$x = {
       key: 0,
       scope: "col"
     };
@@ -32564,7 +32578,7 @@ var require_index_eda2c487 = __commonJS({
               ref: tbodyRef
             }, [
               createBaseVNode("tr", null, [
-                _ctx.showWeekNumber ? (openBlock(), createElementBlock("th", _hoisted_2$w, toDisplayString$1(unref(t)("el.datepicker.week")), 1)) : createCommentVNode("v-if", true),
+                _ctx.showWeekNumber ? (openBlock(), createElementBlock("th", _hoisted_2$x, toDisplayString$1(unref(t)("el.datepicker.week")), 1)) : createCommentVNode("v-if", true),
                 (openBlock(true), createElementBlock(Fragment, null, renderList(unref(WEEKS), (week, key) => {
                   return openBlock(), createElementBlock("th", {
                     key,
@@ -32595,7 +32609,7 @@ var require_index_eda2c487 = __commonJS({
                 ], 2);
               }), 128))
             ], 512)
-          ], 42, _hoisted_1$P);
+          ], 42, _hoisted_1$Q);
         };
       }
     });
@@ -32604,8 +32618,8 @@ var require_index_eda2c487 = __commonJS({
       ...datePickerSharedProps,
       selectionMode: selectionModeWithDefault("month")
     });
-    const _hoisted_1$O = ["aria-label"];
-    const _hoisted_2$v = ["aria-selected", "aria-label", "tabindex", "onKeydown"];
+    const _hoisted_1$P = ["aria-label"];
+    const _hoisted_2$w = ["aria-selected", "aria-label", "tabindex", "onKeydown"];
     const _hoisted_3$f = { class: "cell" };
     const _sfc_main$1L = /* @__PURE__ */ defineComponent({
       __name: "basic-month-table",
@@ -32791,12 +32805,12 @@ var require_index_eda2c487 = __commonJS({
                       createBaseVNode("div", null, [
                         createBaseVNode("span", _hoisted_3$f, toDisplayString$1(unref(t)("el.datepicker.months." + months.value[cell.text])), 1)
                       ])
-                    ], 42, _hoisted_2$v);
+                    ], 42, _hoisted_2$w);
                   }), 128))
                 ]);
               }), 128))
             ], 512)
-          ], 42, _hoisted_1$O);
+          ], 42, _hoisted_1$P);
         };
       }
     });
@@ -32807,8 +32821,8 @@ var require_index_eda2c487 = __commonJS({
       disabledDate,
       parsedValue
     });
-    const _hoisted_1$N = ["aria-label"];
-    const _hoisted_2$u = ["aria-selected", "tabindex", "onKeydown"];
+    const _hoisted_1$O = ["aria-label"];
+    const _hoisted_2$v = ["aria-selected", "tabindex", "onKeydown"];
     const _hoisted_3$e = { class: "cell" };
     const _hoisted_4$a = { key: 1 };
     const _sfc_main$1K = /* @__PURE__ */ defineComponent({
@@ -32895,19 +32909,19 @@ var require_index_eda2c487 = __commonJS({
                         ]
                       }, [
                         createBaseVNode("span", _hoisted_3$e, toDisplayString$1(unref(startYear) + i2 * 4 + j2), 1)
-                      ], 42, _hoisted_2$u)) : (openBlock(), createElementBlock("td", _hoisted_4$a))
+                      ], 42, _hoisted_2$v)) : (openBlock(), createElementBlock("td", _hoisted_4$a))
                     ], 64);
                   }), 64))
                 ]);
               }), 64))
             ], 512)
-          ], 10, _hoisted_1$N);
+          ], 10, _hoisted_1$O);
         };
       }
     });
     var YearTable = /* @__PURE__ */ _export_sfc$1(_sfc_main$1K, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/date-picker/src/date-picker-com/basic-year-table.vue"]]);
-    const _hoisted_1$M = ["onClick"];
-    const _hoisted_2$t = ["aria-label"];
+    const _hoisted_1$N = ["onClick"];
+    const _hoisted_2$u = ["aria-label"];
     const _hoisted_3$d = ["aria-label"];
     const _hoisted_4$9 = ["aria-label"];
     const _hoisted_5$7 = ["aria-label"];
@@ -33317,7 +33331,7 @@ var require_index_eda2c487 = __commonJS({
                     type: "button",
                     class: normalizeClass(unref(ppNs).e("shortcut")),
                     onClick: ($event) => handleShortcutClick(shortcut)
-                  }, toDisplayString$1(shortcut.text), 11, _hoisted_1$M);
+                  }, toDisplayString$1(shortcut.text), 11, _hoisted_1$N);
                 }), 128))
               ], 2)) : createCommentVNode("v-if", true),
               createBaseVNode("div", {
@@ -33381,7 +33395,7 @@ var require_index_eda2c487 = __commonJS({
                         ]),
                         _: 1
                       })
-                    ], 10, _hoisted_2$t),
+                    ], 10, _hoisted_2$u),
                     withDirectives(createBaseVNode("button", {
                       type: "button",
                       "aria-label": unref(t)(`el.datepicker.prevMonth`),
@@ -33627,8 +33641,8 @@ var require_index_eda2c487 = __commonJS({
         t
       };
     };
-    const _hoisted_1$L = ["onClick"];
-    const _hoisted_2$s = ["disabled"];
+    const _hoisted_1$M = ["onClick"];
+    const _hoisted_2$t = ["disabled"];
     const _hoisted_3$c = ["disabled"];
     const _hoisted_4$8 = ["disabled"];
     const _hoisted_5$6 = ["disabled"];
@@ -33978,7 +33992,7 @@ var require_index_eda2c487 = __commonJS({
                     type: "button",
                     class: normalizeClass(unref(ppNs).e("shortcut")),
                     onClick: ($event) => unref(handleShortcutClick)(shortcut)
-                  }, toDisplayString$1(shortcut.text), 11, _hoisted_1$L);
+                  }, toDisplayString$1(shortcut.text), 11, _hoisted_1$M);
                 }), 128))
               ], 2)) : createCommentVNode("v-if", true),
               createBaseVNode("div", {
@@ -34124,7 +34138,7 @@ var require_index_eda2c487 = __commonJS({
                         ]),
                         _: 1
                       })
-                    ], 10, _hoisted_2$s)) : createCommentVNode("v-if", true),
+                    ], 10, _hoisted_2$t)) : createCommentVNode("v-if", true),
                     _ctx.unlinkPanels ? (openBlock(), createElementBlock("button", {
                       key: 1,
                       type: "button",
@@ -34320,8 +34334,8 @@ var require_index_eda2c487 = __commonJS({
         rightYear
       };
     };
-    const _hoisted_1$K = ["onClick"];
-    const _hoisted_2$r = ["disabled"];
+    const _hoisted_1$L = ["onClick"];
+    const _hoisted_2$s = ["disabled"];
     const _hoisted_3$b = ["disabled"];
     const __default__$1c = {
       name: "DatePickerMonthRange"
@@ -34425,7 +34439,7 @@ var require_index_eda2c487 = __commonJS({
                     type: "button",
                     class: normalizeClass(unref(ppNs).e("shortcut")),
                     onClick: ($event) => unref(handleShortcutClick)(shortcut)
-                  }, toDisplayString$1(shortcut.text), 11, _hoisted_1$K);
+                  }, toDisplayString$1(shortcut.text), 11, _hoisted_1$L);
                 }), 128))
               ], 2)) : createCommentVNode("v-if", true),
               createBaseVNode("div", {
@@ -34465,7 +34479,7 @@ var require_index_eda2c487 = __commonJS({
                         ]),
                         _: 1
                       })
-                    ], 10, _hoisted_2$r)) : createCommentVNode("v-if", true),
+                    ], 10, _hoisted_2$s)) : createCommentVNode("v-if", true),
                     createBaseVNode("div", null, toDisplayString$1(unref(leftLabel)), 1)
                   ], 2),
                   createVNode(MonthTable, {
@@ -34692,7 +34706,7 @@ var require_index_eda2c487 = __commonJS({
         default: () => []
       }
     });
-    const _hoisted_1$J = { key: 1 };
+    const _hoisted_1$K = { key: 1 };
     const __default__$1b = {
       name: "ElDescriptionsRow"
     };
@@ -34723,7 +34737,7 @@ var require_index_eda2c487 = __commonJS({
                 }, null, 8, ["cell"]);
               }), 128))
             ])
-          ], 64)) : (openBlock(), createElementBlock("tr", _hoisted_1$J, [
+          ], 64)) : (openBlock(), createElementBlock("tr", _hoisted_1$K, [
             (openBlock(true), createElementBlock(Fragment, null, renderList(_ctx.row, (cell, index2) => {
               return openBlock(), createElementBlock(Fragment, {
                 key: `tr3-${index2}`
@@ -35022,8 +35036,8 @@ var require_index_eda2c487 = __commonJS({
     const dialogContentEmits = {
       close: () => true
     };
-    const _hoisted_1$I = ["aria-label"];
-    const _hoisted_2$q = ["id"];
+    const _hoisted_1$J = ["aria-label"];
+    const _hoisted_2$r = ["id"];
     const __default__$19 = { name: "ElDialogContent" };
     const _sfc_main$1E = /* @__PURE__ */ defineComponent({
       ...__default__$19,
@@ -35079,14 +35093,14 @@ var require_index_eda2c487 = __commonJS({
                   ]),
                   _: 1
                 }, 8, ["class"])
-              ], 10, _hoisted_1$I)) : createCommentVNode("v-if", true)
+              ], 10, _hoisted_1$J)) : createCommentVNode("v-if", true)
             ], 2),
             createBaseVNode("div", {
               id: unref(bodyId),
               class: normalizeClass(unref(ns2).e("body"))
             }, [
               renderSlot(_ctx.$slots, "default")
-            ], 10, _hoisted_2$q),
+            ], 10, _hoisted_2$r),
             _ctx.$slots.footer ? (openBlock(), createElementBlock("footer", {
               key: 0,
               class: normalizeClass(unref(ns2).e("footer"))
@@ -35316,7 +35330,7 @@ var require_index_eda2c487 = __commonJS({
         zIndex: zIndex2
       };
     };
-    const _hoisted_1$H = ["aria-label", "aria-labelledby", "aria-describedby"];
+    const _hoisted_1$I = ["aria-label", "aria-labelledby", "aria-describedby"];
     const __default__$18 = {
       name: "ElDialog"
     };
@@ -35444,7 +35458,7 @@ var require_index_eda2c487 = __commonJS({
                         ]),
                         _: 3
                       }, 8, ["trapped", "onFocusAfterTrapped", "onFocusAfterReleased", "onReleaseRequested"])
-                    ], 42, _hoisted_1$H)
+                    ], 42, _hoisted_1$I)
                   ]),
                   _: 3
                 }, 8, ["mask", "overlay-class", "z-index"]), [
@@ -35563,8 +35577,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$G = ["aria-label", "aria-labelledby", "aria-describedby"];
-    const _hoisted_2$p = ["id"];
+    const _hoisted_1$H = ["aria-label", "aria-labelledby", "aria-describedby"];
+    const _hoisted_2$q = ["id"];
     const _hoisted_3$a = ["aria-label"];
     const _hoisted_4$7 = ["id"];
     function _sfc_render$s(_ctx, _cache, $props, $setup, $data, $options) {
@@ -35631,7 +35645,7 @@ var require_index_eda2c487 = __commonJS({
                             id: _ctx.titleId,
                             role: "heading",
                             class: normalizeClass(_ctx.ns.e("title"))
-                          }, toDisplayString$1(_ctx.title), 11, _hoisted_2$p)) : createCommentVNode("v-if", true)
+                          }, toDisplayString$1(_ctx.title), 11, _hoisted_2$q)) : createCommentVNode("v-if", true)
                         ]) : renderSlot(_ctx.$slots, "title", { key: 1 }, () => [
                           createCommentVNode(" DEPRECATED SLOT ")
                         ]),
@@ -35665,7 +35679,7 @@ var require_index_eda2c487 = __commonJS({
                       }, [
                         renderSlot(_ctx.$slots, "footer")
                       ], 2)) : createCommentVNode("v-if", true)
-                    ], 14, _hoisted_1$G)
+                    ], 14, _hoisted_1$H)
                   ]),
                   _: 3
                 }, 8, ["trapped", "focus-trap-el", "focus-start-el", "onReleaseRequested"])
@@ -36442,7 +36456,7 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$F = ["aria-disabled", "tabindex", "role"];
+    const _hoisted_1$G = ["aria-disabled", "tabindex", "role"];
     function _sfc_render$l(_ctx, _cache, $props, $setup, $data, $options) {
       const _component_el_icon = resolveComponent("el-icon");
       return openBlock(), createElementBlock(Fragment, null, [
@@ -36470,7 +36484,7 @@ var require_index_eda2c487 = __commonJS({
             _: 1
           })) : createCommentVNode("v-if", true),
           renderSlot(_ctx.$slots, "default")
-        ], 16, _hoisted_1$F)
+        ], 16, _hoisted_1$G)
       ], 64);
     }
     var ElDropdownItemImpl = /* @__PURE__ */ _export_sfc$1(_sfc_main$1u, [["render", _sfc_render$l], ["__file", "/home/runner/work/element-plus/element-plus/packages/components/dropdown/src/dropdown-item-impl.vue"]]);
@@ -36642,7 +36656,7 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$E = ["role", "aria-labelledby"];
+    const _hoisted_1$F = ["role", "aria-labelledby"];
     function _sfc_render$j(_ctx, _cache, $props, $setup, $data, $options) {
       return openBlock(), createElementBlock("ul", {
         ref: _ctx.dropdownListWrapperRef,
@@ -36657,7 +36671,7 @@ var require_index_eda2c487 = __commonJS({
         onMousedown: _cache[3] || (_cache[3] = (...args) => _ctx.onMousedown && _ctx.onMousedown(...args))
       }, [
         renderSlot(_ctx.$slots, "default")
-      ], 46, _hoisted_1$E);
+      ], 46, _hoisted_1$F);
     }
     var DropdownMenu = /* @__PURE__ */ _export_sfc$1(_sfc_main$1s, [["render", _sfc_render$j], ["__file", "/home/runner/work/element-plus/element-plus/packages/components/dropdown/src/dropdown-menu.vue"]]);
     const ElDropdown = withInstall(Dropdown, {
@@ -36677,13 +36691,13 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$D = {
+    const _hoisted_1$E = {
       viewBox: "0 0 79 86",
       version: "1.1",
       xmlns: "http://www.w3.org/2000/svg",
       "xmlns:xlink": "http://www.w3.org/1999/xlink"
     };
-    const _hoisted_2$o = ["id"];
+    const _hoisted_2$p = ["id"];
     const _hoisted_3$9 = ["stop-color"];
     const _hoisted_4$6 = ["stop-color"];
     const _hoisted_5$5 = ["id"];
@@ -36724,7 +36738,7 @@ var require_index_eda2c487 = __commonJS({
     const _hoisted_22 = ["fill", "mask"];
     const _hoisted_23 = ["fill"];
     function _sfc_render$i(_ctx, _cache, $props, $setup, $data, $options) {
-      return openBlock(), createElementBlock("svg", _hoisted_1$D, [
+      return openBlock(), createElementBlock("svg", _hoisted_1$E, [
         createBaseVNode("defs", null, [
           createBaseVNode("linearGradient", {
             id: `linearGradient-1-${_ctx.id}`,
@@ -36741,7 +36755,7 @@ var require_index_eda2c487 = __commonJS({
               "stop-color": `var(${_ctx.ns.cssVarBlockName("fill-color-4")})`,
               offset: "100%"
             }, null, 8, _hoisted_4$6)
-          ], 8, _hoisted_2$o),
+          ], 8, _hoisted_2$p),
           createBaseVNode("linearGradient", {
             id: `linearGradient-2-${_ctx.id}`,
             x1: "0%",
@@ -36854,8 +36868,8 @@ var require_index_eda2c487 = __commonJS({
         default: ""
       }
     };
-    const _hoisted_1$C = ["src"];
-    const _hoisted_2$n = { key: 1 };
+    const _hoisted_1$D = ["src"];
+    const _hoisted_2$o = { key: 1 };
     const __default__$16 = {
       name: "ElEmpty"
     };
@@ -36882,14 +36896,14 @@ var require_index_eda2c487 = __commonJS({
                 key: 0,
                 src: _ctx.image,
                 ondragstart: "return false"
-              }, null, 8, _hoisted_1$C)) : renderSlot(_ctx.$slots, "image", { key: 1 }, () => [
+              }, null, 8, _hoisted_1$D)) : renderSlot(_ctx.$slots, "image", { key: 1 }, () => [
                 createVNode(ImgEmpty)
               ])
             ], 6),
             createBaseVNode("div", {
               class: normalizeClass(unref(ns2).e("description"))
             }, [
-              _ctx.$slots.description ? renderSlot(_ctx.$slots, "description", { key: 0 }) : (openBlock(), createElementBlock("p", _hoisted_2$n, toDisplayString$1(unref(emptyDescription)), 1))
+              _ctx.$slots.description ? renderSlot(_ctx.$slots, "description", { key: 0 }) : (openBlock(), createElementBlock("p", _hoisted_2$o, toDisplayString$1(unref(emptyDescription)), 1))
             ], 2),
             _ctx.$slots.default ? (openBlock(), createElementBlock("div", {
               key: 0,
@@ -37398,7 +37412,7 @@ var require_index_eda2c487 = __commonJS({
     var formatRegExp$1 = /%[sdj%]/g;
     var warning = function warning2() {
     };
-    if (typeof browser$1 !== "undefined" && { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_SIYUAN_DEV_PAGE_ID": "20220723100458-kqacgb2", "VITE_DEBUG_MODE": "false" } && false) {
+    if (typeof browser$1 !== "undefined" && { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_DEBUG_MODE": "false" } && false) {
       warning = function warning2(type2, errors2) {
         if (typeof console !== "undefined" && console.warn && typeof ASYNC_VALIDATOR_NO_WARNING === "undefined") {
           if (errors2.every(function(e2) {
@@ -38474,7 +38488,7 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$B = ["role", "aria-labelledby"];
+    const _hoisted_1$C = ["role", "aria-labelledby"];
     const __default__$14 = {
       name: "ElFormItem"
     };
@@ -38756,7 +38770,7 @@ var require_index_eda2c487 = __commonJS({
                 _: 3
               }, 8, ["name"])
             ], 6)
-          ], 10, _hoisted_1$B);
+          ], 10, _hoisted_1$C);
         };
       }
     });
@@ -38798,7 +38812,7 @@ var require_index_eda2c487 = __commonJS({
       close: () => true,
       switch: (index2) => isNumber$1(index2)
     };
-    const _hoisted_1$A = ["src"];
+    const _hoisted_1$B = ["src"];
     const __default__$13 = {
       name: "ElImageViewer"
     };
@@ -39166,7 +39180,7 @@ var require_index_eda2c487 = __commonJS({
                         onLoad: handleImgLoad,
                         onError: handleImgError,
                         onMousedown: handleMouseDown
-                      }, null, 46, _hoisted_1$A)), [
+                      }, null, 46, _hoisted_1$B)), [
                         [vShow, i2 === index2.value]
                       ]);
                     }), 128))
@@ -39238,8 +39252,8 @@ var require_index_eda2c487 = __commonJS({
       close: () => true,
       show: () => true
     };
-    const _hoisted_1$z = ["src", "loading"];
-    const _hoisted_2$m = { key: 0 };
+    const _hoisted_1$A = ["src", "loading"];
+    const _hoisted_2$n = { key: 0 };
     const __default__$12 = {
       name: "ElImage",
       inheritAttrs: false
@@ -39404,7 +39418,7 @@ var require_index_eda2c487 = __commonJS({
               onClick: clickHandler,
               onLoad: handleLoad,
               onError: handleError2
-            }), null, 16, _hoisted_1$z)) : createCommentVNode("v-if", true),
+            }), null, 16, _hoisted_1$A)) : createCommentVNode("v-if", true),
             isLoading.value || hasLoadError.value ? (openBlock(), createElementBlock("div", {
               key: 1,
               class: normalizeClass(unref(ns2).e("wrapper"))
@@ -39433,7 +39447,7 @@ var require_index_eda2c487 = __commonJS({
                 onSwitch: switchViewer
               }, {
                 default: withCtx(() => [
-                  _ctx.$slots.viewer ? (openBlock(), createElementBlock("div", _hoisted_2$m, [
+                  _ctx.$slots.viewer ? (openBlock(), createElementBlock("div", _hoisted_2$n, [
                     renderSlot(_ctx.$slots, "viewer")
                   ])) : createCommentVNode("v-if", true)
                 ]),
@@ -39500,8 +39514,8 @@ var require_index_eda2c487 = __commonJS({
       [INPUT_EVENT]: (val) => isNumber$1(val) || isNil(val),
       [UPDATE_MODEL_EVENT]: (val) => isNumber$1(val) || isNil(val)
     };
-    const _hoisted_1$y = ["aria-label", "onKeydown"];
-    const _hoisted_2$l = ["aria-label", "onKeydown"];
+    const _hoisted_1$z = ["aria-label", "onKeydown"];
+    const _hoisted_2$m = ["aria-label", "onKeydown"];
     const __default__$11 = {
       name: "ElInputNumber"
     };
@@ -39731,7 +39745,7 @@ var require_index_eda2c487 = __commonJS({
                 ]),
                 _: 1
               })
-            ], 42, _hoisted_1$y)), [
+            ], 42, _hoisted_1$z)), [
               [unref(RepeatClick), decrease]
             ]) : createCommentVNode("v-if", true),
             _ctx.controls ? withDirectives((openBlock(), createElementBlock("span", {
@@ -39747,7 +39761,7 @@ var require_index_eda2c487 = __commonJS({
                 ]),
                 _: 1
               })
-            ], 42, _hoisted_2$l)), [
+            ], 42, _hoisted_2$m)), [
               [unref(RepeatClick), increase]
             ]) : createCommentVNode("v-if", true),
             createVNode(unref(ElInput), {
@@ -39800,7 +39814,7 @@ var require_index_eda2c487 = __commonJS({
     const linkEmits = {
       click: (evt) => evt instanceof MouseEvent
     };
-    const _hoisted_1$x = ["href"];
+    const _hoisted_1$y = ["href"];
     const __default__$10 = {
       name: "ElLink"
     };
@@ -39839,7 +39853,7 @@ var require_index_eda2c487 = __commonJS({
               renderSlot(_ctx.$slots, "default")
             ], 2)) : createCommentVNode("v-if", true),
             _ctx.$slots.icon ? renderSlot(_ctx.$slots, "icon", { key: 2 }) : createCommentVNode("v-if", true)
-          ], 10, _hoisted_1$x);
+          ], 10, _hoisted_1$y);
         };
       }
     });
@@ -40825,8 +40839,8 @@ var require_index_eda2c487 = __commonJS({
     const paginationPrevEmits = {
       click: (evt) => evt instanceof MouseEvent
     };
-    const _hoisted_1$w = ["disabled", "aria-disabled"];
-    const _hoisted_2$k = { key: 0 };
+    const _hoisted_1$x = ["disabled", "aria-disabled"];
+    const _hoisted_2$l = { key: 0 };
     const __default__$_ = {
       name: "ElPaginationPrev"
     };
@@ -40845,13 +40859,13 @@ var require_index_eda2c487 = __commonJS({
             "aria-disabled": unref(internalDisabled),
             onClick: _cache[0] || (_cache[0] = ($event) => _ctx.$emit("click", $event))
           }, [
-            _ctx.prevText ? (openBlock(), createElementBlock("span", _hoisted_2$k, toDisplayString$1(_ctx.prevText), 1)) : (openBlock(), createBlock(unref(ElIcon), { key: 1 }, {
+            _ctx.prevText ? (openBlock(), createElementBlock("span", _hoisted_2$l, toDisplayString$1(_ctx.prevText), 1)) : (openBlock(), createBlock(unref(ElIcon), { key: 1 }, {
               default: withCtx(() => [
                 createVNode(unref(arrow_left_default))
               ]),
               _: 1
             }))
-          ], 8, _hoisted_1$w);
+          ], 8, _hoisted_1$x);
         };
       }
     });
@@ -40870,8 +40884,8 @@ var require_index_eda2c487 = __commonJS({
         type: String
       }
     });
-    const _hoisted_1$v = ["disabled", "aria-disabled"];
-    const _hoisted_2$j = { key: 0 };
+    const _hoisted_1$w = ["disabled", "aria-disabled"];
+    const _hoisted_2$k = { key: 0 };
     const __default__$Z = {
       name: "ElPaginationNext"
     };
@@ -40890,13 +40904,13 @@ var require_index_eda2c487 = __commonJS({
             "aria-disabled": unref(internalDisabled),
             onClick: _cache[0] || (_cache[0] = ($event) => _ctx.$emit("click", $event))
           }, [
-            _ctx.nextText ? (openBlock(), createElementBlock("span", _hoisted_2$j, toDisplayString$1(_ctx.nextText), 1)) : (openBlock(), createBlock(unref(ElIcon), { key: 1 }, {
+            _ctx.nextText ? (openBlock(), createElementBlock("span", _hoisted_2$k, toDisplayString$1(_ctx.nextText), 1)) : (openBlock(), createBlock(unref(ElIcon), { key: 1 }, {
               default: withCtx(() => [
                 createVNode(unref(arrow_right_default))
               ]),
               _: 1
             }))
-          ], 8, _hoisted_1$v);
+          ], 8, _hoisted_1$w);
         };
       }
     });
@@ -42082,8 +42096,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$u = { class: "select-trigger" };
-    const _hoisted_2$i = ["disabled", "autocomplete"];
+    const _hoisted_1$v = { class: "select-trigger" };
+    const _hoisted_2$j = ["disabled", "autocomplete"];
     const _hoisted_3$8 = { style: { "height": "100%", "display": "flex", "justify-content": "center", "align-items": "center" } };
     function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
       const _component_el_tag = resolveComponent("el-tag");
@@ -42116,7 +42130,7 @@ var require_index_eda2c487 = __commonJS({
           onShow: _ctx.handleMenuEnter
         }, {
           default: withCtx(() => [
-            createBaseVNode("div", _hoisted_1$u, [
+            createBaseVNode("div", _hoisted_1$v, [
               _ctx.multiple ? (openBlock(), createElementBlock("div", {
                 key: 0,
                 ref: "tags",
@@ -42276,7 +42290,7 @@ var require_index_eda2c487 = __commonJS({
                   onCompositionupdate: _cache[13] || (_cache[13] = (...args) => _ctx.handleComposition && _ctx.handleComposition(...args)),
                   onCompositionend: _cache[14] || (_cache[14] = (...args) => _ctx.handleComposition && _ctx.handleComposition(...args)),
                   onInput: _cache[15] || (_cache[15] = (...args) => _ctx.debouncedQueryChange && _ctx.debouncedQueryChange(...args))
-                }, null, 46, _hoisted_2$i)), [
+                }, null, 46, _hoisted_2$j)), [
                   [vModelText, _ctx.query]
                 ]) : createCommentVNode("v-if", true)
               ], 6)) : createCommentVNode("v-if", true),
@@ -42536,7 +42550,7 @@ var require_index_eda2c487 = __commonJS({
       }
     });
     var Sizes = /* @__PURE__ */ _export_sfc$1(_sfc_main$19, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/pagination/src/components/sizes.vue"]]);
-    const _hoisted_1$t = ["disabled"];
+    const _hoisted_1$u = ["disabled"];
     const __default__$X = {
       name: "ElPaginationJumper"
     };
@@ -42577,7 +42591,7 @@ var require_index_eda2c487 = __commonJS({
               onChange: handleChange
             }, null, 8, ["class", "max", "disabled", "model-value"]),
             createTextVNode(" " + toDisplayString$1(unref(t)("el.pagination.pageClassifier")), 1)
-          ], 10, _hoisted_1$t);
+          ], 10, _hoisted_1$u);
         };
       }
     });
@@ -42588,7 +42602,7 @@ var require_index_eda2c487 = __commonJS({
         default: 1e3
       }
     });
-    const _hoisted_1$s = ["disabled"];
+    const _hoisted_1$t = ["disabled"];
     const __default__$W = {
       name: "ElPaginationTotal"
     };
@@ -42605,7 +42619,7 @@ var require_index_eda2c487 = __commonJS({
             disabled: unref(disabled)
           }, toDisplayString$1(unref(t)("el.pagination.total", {
             total: _ctx.total
-          })), 11, _hoisted_1$s);
+          })), 11, _hoisted_1$t);
         };
       }
     });
@@ -42625,8 +42639,8 @@ var require_index_eda2c487 = __commonJS({
       },
       disabled: Boolean
     });
-    const _hoisted_1$r = ["onKeyup"];
-    const _hoisted_2$h = ["aria-current", "tabindex"];
+    const _hoisted_1$s = ["onKeyup"];
+    const _hoisted_2$i = ["aria-current", "tabindex"];
     const _hoisted_3$7 = ["tabindex"];
     const _hoisted_4$5 = ["aria-current", "tabindex"];
     const _hoisted_5$4 = ["tabindex"];
@@ -42768,7 +42782,7 @@ var require_index_eda2c487 = __commonJS({
               ], "number"]),
               "aria-current": _ctx.currentPage === 1,
               tabindex: unref(tabindex)
-            }, " 1 ", 10, _hoisted_2$h)) : createCommentVNode("v-if", true),
+            }, " 1 ", 10, _hoisted_2$i)) : createCommentVNode("v-if", true),
             showPrevMore.value ? (openBlock(), createElementBlock("li", {
               key: 1,
               class: normalizeClass([
@@ -42821,7 +42835,7 @@ var require_index_eda2c487 = __commonJS({
               "aria-current": _ctx.currentPage === _ctx.pageCount,
               tabindex: unref(tabindex)
             }, toDisplayString$1(_ctx.pageCount), 11, _hoisted_6$1)) : createCommentVNode("v-if", true)
-          ], 42, _hoisted_1$r);
+          ], 42, _hoisted_1$s);
         };
       }
     });
@@ -43447,8 +43461,8 @@ var require_index_eda2c487 = __commonJS({
         default: (percentage) => `${percentage}%`
       }
     });
-    const _hoisted_1$q = ["aria-valuenow"];
-    const _hoisted_2$g = { viewBox: "0 0 100 100" };
+    const _hoisted_1$r = ["aria-valuenow"];
+    const _hoisted_2$h = { viewBox: "0 0 100 100" };
     const _hoisted_3$6 = ["d", "stroke", "stroke-width"];
     const _hoisted_4$4 = ["d", "stroke", "opacity", "stroke-linecap", "stroke-width"];
     const _hoisted_5$3 = { key: 0 };
@@ -43602,7 +43616,7 @@ var require_index_eda2c487 = __commonJS({
               class: normalizeClass(unref(ns2).b("circle")),
               style: normalizeStyle({ height: `${_ctx.width}px`, width: `${_ctx.width}px` })
             }, [
-              (openBlock(), createElementBlock("svg", _hoisted_2$g, [
+              (openBlock(), createElementBlock("svg", _hoisted_2$h, [
                 createBaseVNode("path", {
                   class: normalizeClass(unref(ns2).be("circle", "track")),
                   d: unref(trackPath),
@@ -43637,7 +43651,7 @@ var require_index_eda2c487 = __commonJS({
                 }))
               ])
             ], 6)) : createCommentVNode("v-if", true)
-          ], 10, _hoisted_1$q);
+          ], 10, _hoisted_1$r);
         };
       }
     });
@@ -43731,8 +43745,8 @@ var require_index_eda2c487 = __commonJS({
       [CHANGE_EVENT]: (value) => isNumber$1(value),
       [UPDATE_MODEL_EVENT]: (value) => isNumber$1(value)
     };
-    const _hoisted_1$p = ["id", "aria-label", "aria-labelledby", "aria-valuenow", "aria-valuetext", "aria-valuemax"];
-    const _hoisted_2$f = ["onMousemove", "onClick"];
+    const _hoisted_1$q = ["id", "aria-label", "aria-labelledby", "aria-valuenow", "aria-valuetext", "aria-valuemax"];
+    const _hoisted_2$g = ["onMousemove", "onClick"];
     const __default__$R = {
       name: "ElRate"
     };
@@ -43956,13 +43970,13 @@ var require_index_eda2c487 = __commonJS({
                   ]),
                   _: 2
                 }, 1032, ["class"])
-              ], 42, _hoisted_2$f);
+              ], 42, _hoisted_2$g);
             }), 128)),
             _ctx.showText || _ctx.showScore ? (openBlock(), createElementBlock("span", {
               key: 0,
               class: normalizeClass(unref(ns2).e("text"))
             }, toDisplayString$1(unref(text)), 3)) : createCommentVNode("v-if", true)
-          ], 46, _hoisted_1$p);
+          ], 46, _hoisted_1$q);
         };
       }
     });
@@ -46063,7 +46077,7 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$o = ["aria-selected"];
+    const _hoisted_1$p = ["aria-selected"];
     function _sfc_render$9(_ctx, _cache, $props, $setup, $data, $options) {
       return openBlock(), createElementBlock("li", {
         "aria-selected": _ctx.selected,
@@ -46085,7 +46099,7 @@ var require_index_eda2c487 = __commonJS({
         }, () => [
           createBaseVNode("span", null, toDisplayString$1(_ctx.item.label), 1)
         ])
-      ], 46, _hoisted_1$o);
+      ], 46, _hoisted_1$p);
     }
     var OptionItem = /* @__PURE__ */ _export_sfc$1(_sfc_main$_, [["render", _sfc_render$9], ["__file", "/home/runner/work/element-plus/element-plus/packages/components/select-v2/src/option-item.vue"]]);
     const selectV2InjectionKey = "ElSelectV2Injection";
@@ -47081,8 +47095,8 @@ var require_index_eda2c487 = __commonJS({
         return API2;
       }
     });
-    const _hoisted_1$n = { key: 0 };
-    const _hoisted_2$e = ["id", "autocomplete", "aria-expanded", "aria-labelledby", "disabled", "readonly", "name", "unselectable"];
+    const _hoisted_1$o = { key: 0 };
+    const _hoisted_2$f = ["id", "autocomplete", "aria-expanded", "aria-labelledby", "disabled", "readonly", "name", "unselectable"];
     const _hoisted_3$5 = ["textContent"];
     const _hoisted_4$3 = ["id", "aria-labelledby", "aria-expanded", "autocomplete", "disabled", "name", "readonly", "unselectable"];
     const _hoisted_5$2 = ["textContent"];
@@ -47131,7 +47145,7 @@ var require_index_eda2c487 = __commonJS({
                   _ctx.nsSelectV2.is("disabled", _ctx.selectDisabled)
                 ])
               }, [
-                _ctx.$slots.prefix ? (openBlock(), createElementBlock("div", _hoisted_1$n, [
+                _ctx.$slots.prefix ? (openBlock(), createElementBlock("div", _hoisted_1$o, [
                   renderSlot(_ctx.$slots, "prefix")
                 ])) : createCommentVNode("v-if", true),
                 _ctx.multiple ? (openBlock(), createElementBlock("div", {
@@ -47294,7 +47308,7 @@ var require_index_eda2c487 = __commonJS({
                         _cache[10] || (_cache[10] = withKeys(withModifiers((...args) => _ctx.handleEsc && _ctx.handleEsc(...args), ["stop", "prevent"]), ["esc"])),
                         _cache[11] || (_cache[11] = withKeys(withModifiers((...args) => _ctx.handleDel && _ctx.handleDel(...args), ["stop"]), ["delete"]))
                       ]
-                    }, null, 42, _hoisted_2$e), [
+                    }, null, 42, _hoisted_2$f), [
                       [_directive_model_text, _ctx.states.displayInputValue]
                     ]),
                     _ctx.filterable ? (openBlock(), createElementBlock("span", {
@@ -48132,7 +48146,7 @@ var require_index_eda2c487 = __commonJS({
     const sliderButtonEmits = {
       [UPDATE_MODEL_EVENT]: (value) => isNumber$1(value)
     };
-    const _hoisted_1$m = ["tabindex"];
+    const _hoisted_1$n = ["tabindex"];
     const __default__$M = {
       name: "ElSliderButton"
     };
@@ -48213,7 +48227,7 @@ var require_index_eda2c487 = __commonJS({
               ]),
               _: 1
             }, 8, ["visible", "placement", "popper-class", "disabled"])
-          ], 46, _hoisted_1$m);
+          ], 46, _hoisted_1$n);
         };
       }
     });
@@ -48239,8 +48253,8 @@ var require_index_eda2c487 = __commonJS({
         }, label.value);
       }
     });
-    const _hoisted_1$l = ["id", "role", "aria-label", "aria-labelledby"];
-    const _hoisted_2$d = { key: 1 };
+    const _hoisted_1$m = ["id", "role", "aria-label", "aria-labelledby"];
+    const _hoisted_2$e = { key: 1 };
     const __default__$L = {
       name: "ElSlider"
     };
@@ -48403,7 +48417,7 @@ var require_index_eda2c487 = __commonJS({
                 "aria-disabled": unref(sliderDisabled),
                 "onUpdate:modelValue": unref(setSecondValue)
               }, null, 8, ["model-value", "vertical", "tooltip-class", "placement", "aria-label", "aria-valuemin", "aria-valuemax", "aria-valuenow", "aria-valuetext", "aria-orientation", "aria-disabled", "onUpdate:modelValue"])) : createCommentVNode("v-if", true),
-              _ctx.showStops ? (openBlock(), createElementBlock("div", _hoisted_2$d, [
+              _ctx.showStops ? (openBlock(), createElementBlock("div", _hoisted_2$e, [
                 (openBlock(true), createElementBlock(Fragment, null, renderList(unref(stops), (item, key) => {
                   return openBlock(), createElementBlock("div", {
                     key,
@@ -48450,7 +48464,7 @@ var require_index_eda2c487 = __commonJS({
               "onUpdate:modelValue": unref(setFirstValue),
               onChange: unref(emitChange)
             }, null, 8, ["model-value", "class", "step", "disabled", "controls", "min", "max", "debounce", "size", "onUpdate:modelValue", "onChange"])) : createCommentVNode("v-if", true)
-          ], 42, _hoisted_1$l);
+          ], 42, _hoisted_1$m);
         };
       }
     });
@@ -48985,8 +48999,8 @@ var require_index_eda2c487 = __commonJS({
       [CHANGE_EVENT]: (val) => isBoolean$1(val) || isString$3(val) || isNumber$1(val),
       [INPUT_EVENT]: (val) => isBoolean$1(val) || isString$3(val) || isNumber$1(val)
     };
-    const _hoisted_1$k = ["onClick"];
-    const _hoisted_2$c = ["id", "aria-checked", "aria-disabled", "name", "true-value", "false-value", "disabled", "tabindex", "onKeydown"];
+    const _hoisted_1$l = ["onClick"];
+    const _hoisted_2$d = ["id", "aria-checked", "aria-disabled", "name", "true-value", "false-value", "disabled", "tabindex", "onKeydown"];
     const _hoisted_3$4 = ["aria-hidden"];
     const _hoisted_4$2 = ["aria-hidden"];
     const _hoisted_5$1 = ["aria-hidden"];
@@ -49129,7 +49143,7 @@ var require_index_eda2c487 = __commonJS({
               tabindex: _ctx.tabindex,
               onChange: handleChange,
               onKeydown: withKeys(switchValue, ["enter"])
-            }, null, 42, _hoisted_2$c),
+            }, null, 42, _hoisted_2$d),
             !_ctx.inlinePrompt && (_ctx.inactiveIcon || _ctx.inactiveText) ? (openBlock(), createElementBlock("span", {
               key: 0,
               class: normalizeClass([
@@ -49224,7 +49238,7 @@ var require_index_eda2c487 = __commonJS({
                 "aria-hidden": !unref(checked2)
               }, toDisplayString$1(_ctx.activeText), 9, _hoisted_6)) : createCommentVNode("v-if", true)
             ], 2)) : createCommentVNode("v-if", true)
-          ], 14, _hoisted_1$k);
+          ], 14, _hoisted_1$l);
         };
       }
     });
@@ -50933,8 +50947,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$j = { key: 0 };
-    const _hoisted_2$b = ["disabled"];
+    const _hoisted_1$k = { key: 0 };
+    const _hoisted_2$c = ["disabled"];
     const _hoisted_3$3 = ["label", "onClick"];
     function _sfc_render$7(_ctx, _cache, $props, $setup, $data, $options) {
       const _component_el_checkbox = resolveComponent("el-checkbox");
@@ -50959,7 +50973,7 @@ var require_index_eda2c487 = __commonJS({
         persistent: ""
       }, {
         content: withCtx(() => [
-          _ctx.multiple ? (openBlock(), createElementBlock("div", _hoisted_1$j, [
+          _ctx.multiple ? (openBlock(), createElementBlock("div", _hoisted_1$k, [
             createBaseVNode("div", {
               class: normalizeClass(_ctx.ns.e("content"))
             }, [
@@ -50999,7 +51013,7 @@ var require_index_eda2c487 = __commonJS({
                 disabled: _ctx.filteredValue.length === 0,
                 type: "button",
                 onClick: _cache[1] || (_cache[1] = (...args) => _ctx.handleConfirm && _ctx.handleConfirm(...args))
-              }, toDisplayString$1(_ctx.t("el.table.confirmFilter")), 11, _hoisted_2$b),
+              }, toDisplayString$1(_ctx.t("el.table.confirmFilter")), 11, _hoisted_2$c),
               createBaseVNode("button", {
                 type: "button",
                 onClick: _cache[2] || (_cache[2] = (...args) => _ctx.handleReset && _ctx.handleReset(...args))
@@ -52805,8 +52819,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$i = ["data-prefix"];
-    const _hoisted_2$a = {
+    const _hoisted_1$j = ["data-prefix"];
+    const _hoisted_2$b = {
       ref: "hiddenColumns",
       class: "hidden-columns"
     };
@@ -52846,7 +52860,7 @@ var require_index_eda2c487 = __commonJS({
           class: normalizeClass(_ctx.ns.e("inner-wrapper")),
           style: normalizeStyle(_ctx.tableInnerStyle)
         }, [
-          createBaseVNode("div", _hoisted_2$a, [
+          createBaseVNode("div", _hoisted_2$b, [
             renderSlot(_ctx.$slots, "default")
           ], 512),
           _ctx.showHeader && _ctx.tableLayout === "fixed" ? withDirectives((openBlock(), createElementBlock("div", {
@@ -52974,7 +52988,7 @@ var require_index_eda2c487 = __commonJS({
         }, null, 2), [
           [vShow, _ctx.resizeProxyVisible]
         ])
-      ], 46, _hoisted_1$i);
+      ], 46, _hoisted_1$j);
     }
     var Table = /* @__PURE__ */ _export_sfc$1(_sfc_main$Q, [["render", _sfc_render$6], ["__file", "/home/runner/work/element-plus/element-plus/packages/components/table/src/table.vue"]]);
     const defaultClassNames = {
@@ -56085,7 +56099,7 @@ var require_index_eda2c487 = __commonJS({
       disabled: Boolean,
       lazy: Boolean
     });
-    const _hoisted_1$h = ["id", "aria-hidden", "aria-labelledby"];
+    const _hoisted_1$i = ["id", "aria-hidden", "aria-labelledby"];
     const __default__$G = {
       name: "ElTabPane"
     };
@@ -56142,7 +56156,7 @@ var require_index_eda2c487 = __commonJS({
             "aria-labelledby": `tab-${unref(paneName)}`
           }, [
             renderSlot(_ctx.$slots, "default")
-          ], 10, _hoisted_1$h)), [
+          ], 10, _hoisted_1$i)), [
             [vShow, unref(active)]
           ]) : createCommentVNode("v-if", true);
         };
@@ -56757,7 +56771,7 @@ var require_index_eda2c487 = __commonJS({
       }
     });
     var ElVisuallyHidden = /* @__PURE__ */ _export_sfc$1(_sfc_main$J, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/visual-hidden/src/visual-hidden.vue"]]);
-    const _hoisted_1$g = ["data-side"];
+    const _hoisted_1$h = ["data-side"];
     const __default__$A = {
       name: "ElTooltipV2Content"
     };
@@ -56852,7 +56866,7 @@ var require_index_eda2c487 = __commonJS({
                 style: normalizeStyle(unref(arrowStyle)),
                 side: unref(side)
               })
-            ], 10, _hoisted_1$g)) : createCommentVNode("v-if", true)
+            ], 10, _hoisted_1$h)) : createCommentVNode("v-if", true)
           ], 4);
         };
       }
@@ -57396,8 +57410,8 @@ var require_index_eda2c487 = __commonJS({
       }
     });
     var TransferPanel = /* @__PURE__ */ _export_sfc$1(_sfc_main$F, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/transfer/src/transfer-panel.vue"]]);
-    const _hoisted_1$f = { key: 0 };
-    const _hoisted_2$9 = { key: 0 };
+    const _hoisted_1$g = { key: 0 };
+    const _hoisted_2$a = { key: 0 };
     const __default__$w = {
       name: "ElTransfer"
     };
@@ -57492,7 +57506,7 @@ var require_index_eda2c487 = __commonJS({
                     ]),
                     _: 1
                   }),
-                  !unref(isUndefined$1)(_ctx.buttonTexts[0]) ? (openBlock(), createElementBlock("span", _hoisted_1$f, toDisplayString$1(_ctx.buttonTexts[0]), 1)) : createCommentVNode("v-if", true)
+                  !unref(isUndefined$1)(_ctx.buttonTexts[0]) ? (openBlock(), createElementBlock("span", _hoisted_1$g, toDisplayString$1(_ctx.buttonTexts[0]), 1)) : createCommentVNode("v-if", true)
                 ]),
                 _: 1
               }, 8, ["class", "disabled", "onClick"]),
@@ -57503,7 +57517,7 @@ var require_index_eda2c487 = __commonJS({
                 onClick: unref(addToRight)
               }, {
                 default: withCtx(() => [
-                  !unref(isUndefined$1)(_ctx.buttonTexts[1]) ? (openBlock(), createElementBlock("span", _hoisted_2$9, toDisplayString$1(_ctx.buttonTexts[1]), 1)) : createCommentVNode("v-if", true),
+                  !unref(isUndefined$1)(_ctx.buttonTexts[1]) ? (openBlock(), createElementBlock("span", _hoisted_2$a, toDisplayString$1(_ctx.buttonTexts[1]), 1)) : createCommentVNode("v-if", true),
                   createVNode(unref(ElIcon), null, {
                     default: withCtx(() => [
                       createVNode(unref(arrow_right_default))
@@ -58643,8 +58657,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$e = ["aria-expanded", "aria-disabled", "aria-checked", "draggable", "data-key"];
-    const _hoisted_2$8 = ["aria-expanded"];
+    const _hoisted_1$f = ["aria-expanded", "aria-disabled", "aria-checked", "draggable", "data-key"];
+    const _hoisted_2$9 = ["aria-expanded"];
     function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
       const _component_el_icon = resolveComponent("el-icon");
       const _component_el_checkbox = resolveComponent("el-checkbox");
@@ -58740,13 +58754,13 @@ var require_index_eda2c487 = __commonJS({
                   onNodeExpand: _ctx.handleChildNodeExpand
                 }, null, 8, ["render-content", "render-after-expand", "show-checkbox", "node", "accordion", "props", "onNodeExpand"]);
               }), 128))
-            ], 10, _hoisted_2$8)), [
+            ], 10, _hoisted_2$9)), [
               [vShow, _ctx.expanded]
             ]) : createCommentVNode("v-if", true)
           ]),
           _: 1
         })
-      ], 42, _hoisted_1$e)), [
+      ], 42, _hoisted_1$f)), [
         [vShow, _ctx.node.visible]
       ]);
     }
@@ -60061,7 +60075,7 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$d = ["aria-expanded", "aria-disabled", "aria-checked", "data-key"];
+    const _hoisted_1$e = ["aria-expanded", "aria-disabled", "aria-checked", "data-key"];
     function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
       var _a2, _b, _c;
       const _component_el_icon = resolveComponent("el-icon");
@@ -60117,7 +60131,7 @@ var require_index_eda2c487 = __commonJS({
           }, null, 8, ["model-value", "indeterminate", "disabled", "onChange"])) : createCommentVNode("v-if", true),
           createVNode(_component_el_node_content, { node: _ctx.node }, null, 8, ["node"])
         ], 6)
-      ], 42, _hoisted_1$d);
+      ], 42, _hoisted_1$e);
     }
     var ElTreeNode = /* @__PURE__ */ _export_sfc$1(_sfc_main$z, [["render", _sfc_render$3], ["__file", "/home/runner/work/element-plus/element-plus/packages/components/tree-v2/src/tree-node.vue"]]);
     const _sfc_main$y = defineComponent({
@@ -60445,8 +60459,8 @@ var require_index_eda2c487 = __commonJS({
     const uploadListEmits = {
       remove: (file) => !!file
     };
-    const _hoisted_1$c = ["onKeydown"];
-    const _hoisted_2$7 = ["src"];
+    const _hoisted_1$d = ["onKeydown"];
+    const _hoisted_2$8 = ["src"];
     const _hoisted_3$2 = ["onClick"];
     const _hoisted_4$1 = ["onClick"];
     const _hoisted_5 = ["onClick"];
@@ -60501,7 +60515,7 @@ var require_index_eda2c487 = __commonJS({
                       class: normalizeClass(unref(nsUpload).be("list", "item-thumbnail")),
                       src: file.url,
                       alt: ""
-                    }, null, 10, _hoisted_2$7)) : createCommentVNode("v-if", true),
+                    }, null, 10, _hoisted_2$8)) : createCommentVNode("v-if", true),
                     _ctx.listType !== "picture" && (file.status === "uploading" || _ctx.listType !== "picture-card") ? (openBlock(), createElementBlock("div", {
                       key: 1,
                       class: normalizeClass(unref(nsUpload).be("list", "item-info"))
@@ -60601,7 +60615,7 @@ var require_index_eda2c487 = __commonJS({
                       ], 10, _hoisted_5)) : createCommentVNode("v-if", true)
                     ], 2)) : createCommentVNode("v-if", true)
                   ])
-                ], 42, _hoisted_1$c);
+                ], 42, _hoisted_1$d);
               }), 128)),
               renderSlot(_ctx.$slots, "append")
             ]),
@@ -60620,7 +60634,7 @@ var require_index_eda2c487 = __commonJS({
     const uploadDraggerEmits = {
       file: (file) => isArray$6(file)
     };
-    const _hoisted_1$b = ["onDrop", "onDragover"];
+    const _hoisted_1$c = ["onDrop", "onDragover"];
     const __default__$u = {
       name: "ElUploadDrag"
     };
@@ -60678,7 +60692,7 @@ var require_index_eda2c487 = __commonJS({
             onDragleave: _cache[0] || (_cache[0] = withModifiers(($event) => dragover.value = false, ["prevent"]))
           }, [
             renderSlot(_ctx.$slots, "default")
-          ], 42, _hoisted_1$b);
+          ], 42, _hoisted_1$c);
         };
       }
     });
@@ -60714,8 +60728,8 @@ var require_index_eda2c487 = __commonJS({
         default: NOOP
       }
     });
-    const _hoisted_1$a = ["onKeydown"];
-    const _hoisted_2$6 = ["name", "multiple", "accept"];
+    const _hoisted_1$b = ["onKeydown"];
+    const _hoisted_2$7 = ["name", "multiple", "accept"];
     const __default__$t = {
       name: "ElUploadContent",
       inheritAttrs: false
@@ -60871,8 +60885,8 @@ var require_index_eda2c487 = __commonJS({
               onChange: handleChange,
               onClick: _cache[0] || (_cache[0] = withModifiers(() => {
               }, ["stop"]))
-            }, null, 42, _hoisted_2$6)
-          ], 42, _hoisted_1$a);
+            }, null, 42, _hoisted_2$7)
+          ], 42, _hoisted_1$b);
         };
       }
     });
@@ -61706,8 +61720,8 @@ var require_index_eda2c487 = __commonJS({
         return 0;
       return prev.vm.exposeProxy.bottom;
     };
-    const _hoisted_1$9 = ["id"];
-    const _hoisted_2$5 = ["innerHTML"];
+    const _hoisted_1$a = ["id"];
+    const _hoisted_2$6 = ["innerHTML"];
     const __default__$r = {
       name: "ElMessage"
     };
@@ -61819,7 +61833,7 @@ var require_index_eda2c487 = __commonJS({
                     createBaseVNode("p", {
                       class: normalizeClass(unref(ns2).e("content")),
                       innerHTML: _ctx.message
-                    }, null, 10, _hoisted_2$5)
+                    }, null, 10, _hoisted_2$6)
                   ], 2112))
                 ]),
                 _ctx.showClose ? (openBlock(), createBlock(unref(ElIcon), {
@@ -61832,7 +61846,7 @@ var require_index_eda2c487 = __commonJS({
                   ]),
                   _: 1
                 }, 8, ["class", "onClick"])) : createCommentVNode("v-if", true)
-              ], 46, _hoisted_1$9), [
+              ], 46, _hoisted_1$a), [
                 [vShow, visible.value]
               ])
             ]),
@@ -62208,8 +62222,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$8 = ["aria-label", "aria-describedby"];
-    const _hoisted_2$4 = ["aria-label"];
+    const _hoisted_1$9 = ["aria-label", "aria-describedby"];
+    const _hoisted_2$5 = ["aria-label"];
     const _hoisted_3$1 = ["id"];
     function _sfc_render$1(_ctx, _cache, $props, $setup, $data, $options) {
       const _component_el_icon = resolveComponent("el-icon");
@@ -62296,7 +62310,7 @@ var require_index_eda2c487 = __commonJS({
                             ]),
                             _: 1
                           }, 8, ["class"])
-                        ], 42, _hoisted_2$4)) : createCommentVNode("v-if", true)
+                        ], 42, _hoisted_2$5)) : createCommentVNode("v-if", true)
                       ], 2)) : createCommentVNode("v-if", true),
                       createBaseVNode("div", {
                         id: _ctx.contentId,
@@ -62399,7 +62413,7 @@ var require_index_eda2c487 = __commonJS({
                   ]),
                   _: 3
                 }, 8, ["trapped", "focus-trap-el", "focus-start-el", "onReleaseRequested"])
-              ], 42, _hoisted_1$8)
+              ], 42, _hoisted_1$9)
             ]),
             _: 3
           }, 8, ["z-index", "overlay-class", "mask"]), [
@@ -62675,8 +62689,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const _hoisted_1$7 = ["id"];
-    const _hoisted_2$3 = ["textContent"];
+    const _hoisted_1$8 = ["id"];
+    const _hoisted_2$4 = ["textContent"];
     const _hoisted_3 = { key: 0 };
     const _hoisted_4 = ["innerHTML"];
     function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -62713,7 +62727,7 @@ var require_index_eda2c487 = __commonJS({
               createBaseVNode("h2", {
                 class: normalizeClass(_ctx.ns.e("title")),
                 textContent: toDisplayString$1(_ctx.title)
-              }, null, 10, _hoisted_2$3),
+              }, null, 10, _hoisted_2$4),
               withDirectives(createBaseVNode("div", {
                 class: normalizeClass(_ctx.ns.e("content")),
                 style: normalizeStyle(!!_ctx.title ? void 0 : { margin: 0 })
@@ -62739,7 +62753,7 @@ var require_index_eda2c487 = __commonJS({
                 _: 1
               }, 8, ["class", "onClick"])) : createCommentVNode("v-if", true)
             ], 2)
-          ], 46, _hoisted_1$7), [
+          ], 46, _hoisted_1$8), [
             [vShow, _ctx.visible]
           ])
         ]),
@@ -63037,7 +63051,7 @@ var require_index_eda2c487 = __commonJS({
         const userBlog = new UserBlog();
         userBlog.blogid = API_TYPE_CONSTANTS.API_TYPE_SIYUAN;
         userBlog.blogName = API_TYPE_CONSTANTS.API_TYPE_SIYUAN;
-        userBlog.url = { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_SIYUAN_DEV_PAGE_ID": "20220723100458-kqacgb2", "VITE_DEBUG_MODE": "false" }.SIYUAN_API_URL || "";
+        userBlog.url = { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_DEBUG_MODE": "false" }.SIYUAN_API_URL || "";
         result.push(userBlog);
         return result;
       }
@@ -63102,6 +63116,9 @@ var require_index_eda2c487 = __commonJS({
       }
       async deletePost(postid) {
         return Promise.resolve(false);
+      }
+      async getCategories() {
+        return Promise.resolve([]);
       }
     }
     async function getWidgetId() {
@@ -64942,7 +64959,7 @@ var require_index_eda2c487 = __commonJS({
     var debugEnviron;
     function debuglog(set2) {
       if (isUndefined(debugEnviron))
-        debugEnviron = { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_SIYUAN_DEV_PAGE_ID": "20220723100458-kqacgb2", "VITE_DEBUG_MODE": "false" }.NODE_DEBUG || "";
+        debugEnviron = { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_OPT_PWD": "123456", "VITE_DEBUG_MODE": "false" }.NODE_DEBUG || "";
       set2 = set2.toUpperCase();
       if (!debugs[set2]) {
         if (new RegExp("\\b" + set2 + "\\b", "i").test(debugEnviron)) {
@@ -72981,12 +72998,34 @@ var require_index_eda2c487 = __commonJS({
     const NEW_POST = "metaWeblog.newPost";
     const EDIT_POST = "metaWeblog.editPost";
     const DELETE_POST = "blogger.deletePost";
+    const GET_CATEGORIES = "metaWeblog.getCategories";
+    const GET_POST = "metaWeblog.getPost";
     const METAWEBLOG_METHOD_CONSTANTS = {
       GET_USERS_BLOGS,
       NEW_POST,
       EDIT_POST,
-      DELETE_POST
+      DELETE_POST,
+      GET_CATEGORIES,
+      GET_POST
     };
+    class CategoryInfo {
+      constructor() {
+        __publicField(this, "categoryId");
+        __publicField(this, "parentId");
+        __publicField(this, "description");
+        __publicField(this, "categoryDescription");
+        __publicField(this, "categoryName");
+        __publicField(this, "htmlUrl");
+        __publicField(this, "rssUrl");
+        this.categoryId = "";
+        this.parentId = "0";
+        this.description = "";
+        this.categoryDescription = "";
+        this.categoryName = "";
+        this.htmlUrl = "";
+        this.rssUrl = "";
+      }
+    }
     class MetaWeblogApi {
       constructor(apiType) {
         __publicField(this, "apiType");
@@ -73020,7 +73059,20 @@ var require_index_eda2c487 = __commonJS({
         return Promise.resolve([]);
       }
       async getPost(postid, username, password) {
-        return Promise.resolve(new Post());
+        let result = new Post();
+        try {
+          let ret = await this.xmlrpcClient.methodCallEntry(METAWEBLOG_METHOD_CONSTANTS.GET_POST, [postid, username, password]);
+          logUtil.logInfo("getCategories ret=>", ret);
+          const dataObj = JSON.parse(ret) || [];
+          if (dataObj.faultCode) {
+            logUtil.logError("\u8BF7\u6C42\u5206\u7C7B\u5F02\u5E38\uFF0C\u9519\u8BEF\u4FE1\u606F\u5982\u4E0B\uFF1A", dataObj.faultString);
+          }
+          logUtil.logInfo("\u83B7\u53D6\u7684\u6587\u7AE0\u4FE1\u606F\uFF0CdataObj=>", dataObj);
+          result.categories = dataObj.categories;
+        } catch (e2) {
+          logUtil.logError("\u6587\u7AE0\u4FE1\u606F\u83B7\u53D6\u5931\u8D25", e2);
+        }
+        return result;
       }
       async newPost(blogid, username, password, post, publish) {
         if (!publish) {
@@ -73093,6 +73145,28 @@ var require_index_eda2c487 = __commonJS({
         }
         return postObj;
       }
+      async getCategories(blogid, username, password) {
+        let result = [];
+        try {
+          let ret = await this.xmlrpcClient.methodCallEntry(METAWEBLOG_METHOD_CONSTANTS.GET_CATEGORIES, [this.apiType, username, password]);
+          logUtil.logInfo("getCategories ret=>", ret);
+          const dataObj = JSON.parse(ret) || [];
+          if (dataObj.faultCode) {
+            logUtil.logError("\u8BF7\u6C42\u5206\u7C7B\u5F02\u5E38\uFF0C\u9519\u8BEF\u4FE1\u606F\u5982\u4E0B\uFF1A", dataObj.faultString);
+          }
+          const dataArr = JSON.parse(ret) || [];
+          logUtil.logInfo("\u83B7\u53D6\u7684\u5206\u7C7B\u4FE1\u606F\uFF0CdataArr=>", dataArr);
+          dataArr.forEach((item) => {
+            const cat = new CategoryInfo();
+            cat.description = item.description;
+            cat.categoryId = item.categoryId;
+            result.push(cat);
+          });
+        } catch (e2) {
+          logUtil.logError("\u5206\u7C7B\u83B7\u53D6\u5931\u8D25", e2);
+        }
+        return result;
+      }
     }
     class MetaWeblogApiAdaptor {
       constructor(apiType) {
@@ -73143,6 +73217,11 @@ var require_index_eda2c487 = __commonJS({
       async deletePost(postid) {
         return await this.metaWeblogApi.deletePost(this.appkey, postid, this.username, this.password, true);
       }
+      async getCategories() {
+        const cats = await this.metaWeblogApi.getCategories(this.appkey, this.username, this.password);
+        logUtil.logInfo("\u83B7\u53D6\u5206\u7C7B\u5217\u8868=>", cats);
+        return cats;
+      }
     }
     class JVueApiAdaptor extends MetaWeblogApiAdaptor {
       constructor() {
@@ -73183,6 +73262,9 @@ var require_index_eda2c487 = __commonJS({
       }
       async newPost(post, publish) {
         throw new Error("\u8BE5\u529F\u80FD\u672A\u5B9E\u73B0\uFF0C\u8BF7\u5728\u5B50\u7C7B\u91CD\u5199\u8BE5\u65B9\u6CD5");
+      }
+      async getCategories() {
+        return Promise.resolve([]);
       }
     }
     const version = "3.7.2";
@@ -73864,7 +73946,12 @@ var require_index_eda2c487 = __commonJS({
       async deletePost(postid) {
         return await this.apiAdaptor.deletePost(postid);
       }
+      async getCategories() {
+        return await this.apiAdaptor.getCategories();
+      }
     }
+    const _hoisted_1$7 = /* @__PURE__ */ createTextVNode("Markdown");
+    const _hoisted_2$3 = /* @__PURE__ */ createTextVNode("HTML");
     const __default__$q = {
       name: "MetaweblogSetting"
     };
@@ -73889,10 +73976,13 @@ var require_index_eda2c487 = __commonJS({
         const {
           t
         } = useI18n_1();
+        const ptype_md = parseInt(PageType.Markdown.toString());
+        parseInt(PageType.Html.toString());
         const home2 = ref("");
         const apiUrl = ref("");
         const username = ref("");
         const password = ref("");
+        const ptype = ref(ptype_md);
         const isLoading = ref(false);
         const apiStatus = ref(false);
         const blogName = ref("");
@@ -73936,6 +74026,7 @@ var require_index_eda2c487 = __commonJS({
           cfg.apiUrl = apiUrl.value;
           cfg.apiStatus = apiStatus.value;
           cfg.blogName = blogName.value;
+          cfg.pageType = ptype.value;
           setJSONConf(props.apiType, cfg);
           if (hideTip != true) {
             ElMessage.success(t("main.opt.success"));
@@ -73955,6 +74046,7 @@ var require_index_eda2c487 = __commonJS({
             password.value = conf.password;
             apiStatus.value = conf.apiStatus;
             blogName.value = conf.blogName;
+            ptype.value = conf.pageType;
           }
         };
         onMounted(async () => {
@@ -73964,6 +74056,8 @@ var require_index_eda2c487 = __commonJS({
           const _component_el_alert = resolveComponent("el-alert");
           const _component_el_input = resolveComponent("el-input");
           const _component_el_form_item = resolveComponent("el-form-item");
+          const _component_el_radio = resolveComponent("el-radio");
+          const _component_el_radio_group = resolveComponent("el-radio-group");
           const _component_el_button = resolveComponent("el-button");
           const _component_el_form = resolveComponent("el-form");
           return openBlock(), createBlock(_component_el_form, {
@@ -74007,6 +74101,30 @@ var require_index_eda2c487 = __commonJS({
                 modelValue: apiUrl.value,
                 "onUpdate:modelValue": _cache[3] || (_cache[3] = ($event) => apiUrl.value = $event)
               }, null, 8, ["modelValue"])]),
+              _: 1
+            }, 8, ["label"]), createVNode(_component_el_form_item, {
+              label: _ctx.$t("setting.blog.pageType")
+            }, {
+              default: withCtx(() => [createVNode(_component_el_radio_group, {
+                modelValue: ptype.value,
+                "onUpdate:modelValue": _cache[4] || (_cache[4] = ($event) => ptype.value = $event),
+                class: "ml-4"
+              }, {
+                default: withCtx(() => [createVNode(_component_el_radio, {
+                  label: 0,
+                  size: "large"
+                }, {
+                  default: withCtx(() => [_hoisted_1$7]),
+                  _: 1
+                }), createVNode(_component_el_radio, {
+                  label: 1,
+                  size: "large"
+                }, {
+                  default: withCtx(() => [_hoisted_2$3]),
+                  _: 1
+                })]),
+                _: 1
+              }, 8, ["modelValue"])]),
               _: 1
             }, 8, ["label"]), createVNode(_component_el_form_item, null, {
               default: withCtx(() => [createVNode(_component_el_button, {
@@ -76047,6 +76165,7 @@ var require_index_eda2c487 = __commonJS({
         const isLoading = ref(false);
         const apiStatus = ref(false);
         const blogName = ref("");
+        const blogid = ref("");
         const tokenSettingUrl = ref("");
         const apiTypeInfo = ref(t("setting.blog.platform.support.common") + props.apiType + " ");
         const valiConf = async () => {
@@ -76063,6 +76182,7 @@ var require_index_eda2c487 = __commonJS({
               cfg.blogName = userBlog.blogName;
               blogName.value = userBlog.blogName;
               cfg.blogid = userBlog.blogid;
+              blogid.value = userBlog.blogid;
               setJSONConf(props.apiType, cfg);
             } else {
               cfg.apiStatus = false;
@@ -76090,6 +76210,7 @@ var require_index_eda2c487 = __commonJS({
           cfg.apiUrl = apiUrl.value;
           cfg.apiStatus = apiStatus.value;
           cfg.blogName = blogName.value;
+          cfg.blogid = blogid.value;
           setJSONConf(props.apiType, cfg);
           if (hideTip != true) {
             ElMessage.success(t("main.opt.success"));
@@ -76110,6 +76231,7 @@ var require_index_eda2c487 = __commonJS({
             token.value = conf.token || "";
             apiStatus.value = conf.apiStatus || false;
             blogName.value = conf.blogName || "";
+            blogid.value = conf.blogid || "";
             tokenSettingUrl.value = conf.tokenSettingUrl || "";
           }
         };
@@ -76325,7 +76447,7 @@ var require_index_eda2c487 = __commonJS({
         super("http://localhost:8000", "http://localhost:8000/xmlrpc.php", "", "");
         this.posidKey = POSTID_KEY_CONSTANTS.WORDPRESS_POSTID_KEY;
         this.previewUrl = "/?p=[postid]";
-        this.pageType = PageType.Html;
+        this.pageType = PageType.Markdown;
       }
     }
     const __default__$h = {
@@ -77101,7 +77223,7 @@ var require_index_eda2c487 = __commonJS({
           logUtil.logInfo(isOk);
           convertAttrToYAML();
           const data = await getPageMd(siyuanData.value.pageId);
-          const md = removeWidgetTag(data.content);
+          const md = removeMdWidgetTag(data.content);
           vuepressData.value.vuepressContent = md;
           vuepressData.value.vuepressFullContent = vuepressData.value.formatter + "\n" + vuepressData.value.vuepressContent;
           isPublished.value = getPublishStatus(API_TYPE_CONSTANTS.API_TYPE_VUEPRESS, siyuanData.value.meta);
@@ -77136,10 +77258,11 @@ var require_index_eda2c487 = __commonJS({
           isSlugLoading.value = true;
           const page = await getPage(siyuanData.value.pageId);
           logUtil.logInfo("page=>", page);
-          const title2 = page.content;
-          logUtil.logInfo("title=>", title2);
+          let fmtTitle = page.content;
+          fmtTitle = mdFileToTitle(fmtTitle);
+          logUtil.logInfo("fmtTitle=>", fmtTitle);
           if (formData.value.checkList.length > 0) {
-            const result = await zhSlugify(title2);
+            const result = await zhSlugify(fmtTitle);
             logUtil.logInfo("result=>", result);
             if (result) {
               formData.value.customSlug = result;
@@ -77147,7 +77270,7 @@ var require_index_eda2c487 = __commonJS({
               ElMessage.success(t("main.opt.failure"));
             }
           } else {
-            formData.value.customSlug = await pingyinSlugify(title2);
+            formData.value.customSlug = await pingyinSlugify(fmtTitle);
           }
           if (slugHashEnabled.value) {
             const newstr = page.content + new Date().toISOString();
@@ -77166,7 +77289,7 @@ var require_index_eda2c487 = __commonJS({
           isDescLoading.value = true;
           const data = await getPageMd(siyuanData.value.pageId);
           const md = data.content;
-          let html = mdToHtml(md);
+          let html = mdToPlainText(md);
           formData.value.desc = parseHtml(html, CONSTANTS.MAX_PREVIEW_LENGTH, true);
           isDescLoading.value = false;
           if (hideTip != true) {
@@ -77348,7 +77471,7 @@ var require_index_eda2c487 = __commonJS({
               logUtil.logWarn("\u6587\u7AE0\u8BB2\u53D1\u5E03\u4E8E\u4EE5\u4E0B\u8DEF\u5F84=>", docPath);
             }
             const data = await getPageMd(siyuanData.value.pageId);
-            const md = removeWidgetTag(data.content);
+            const md = removeMdWidgetTag(data.content);
             const mdContent = vuepressData.value.formatter + "\n" + md;
             vuepressData.value.vuepressContent = md;
             vuepressData.value.vuepressFullContent = mdContent;
@@ -77844,6 +77967,10 @@ var require_index_eda2c487 = __commonJS({
             dynamicTags: [],
             inputVisible: false
           },
+          cat: {
+            categorySelected: [],
+            categoryList: []
+          },
           categories: ["\u9ED8\u8BA4\u5206\u7C7B"]
         });
         const siyuanData = reactive({
@@ -77886,13 +78013,35 @@ var require_index_eda2c487 = __commonJS({
             }
           }
           isPublished.value = getPublishStatus(props.apiType, siyuanData.meta);
+          const metaweblogCfg = getJSONConf(props.apiType);
+          const api = new API(props.apiType);
+          let catData = [];
           if (isPublished.value) {
-            const metaweblogCfg = getJSONConf(props.apiType);
             const meta = siyuanData.meta;
             formData.postid = meta[metaweblogCfg.posidKey];
             const postUrl = metaweblogCfg.previewUrl.replace("[postid]", formData.postid);
             previewUrl.value = pathJoin(metaweblogCfg.home, postUrl);
+            const post = await api.getPost(formData.postid.toString());
+            catData = post.categories;
+            logUtil.logInfo("postid=>", formData.postid);
+            logUtil.logInfo("post=>", post);
+            logUtil.logInfo("\u521D\u59CB\u5316\u9009\u62E9\u8FC7\u7684\u5206\u7C7B,catData=>", catData);
           }
+          const catInfo = await api.getCategories();
+          logUtil.logInfo("catInfo=>", catInfo);
+          let catArr = [];
+          if (catInfo && catInfo.length && catInfo.length > 0) {
+            catInfo.forEach((item) => {
+              const cat = {
+                value: item.description,
+                label: item.description
+              };
+              catArr.push(cat);
+            });
+            formData.cat.categoryList = catArr;
+          }
+          formData.cat.categorySelected = catData;
+          formData.categories = catData;
           apiStatus.value = conf.apiStatus;
         };
         onMounted(async () => {
@@ -77948,8 +78097,8 @@ var require_index_eda2c487 = __commonJS({
           isDescLoading.value = true;
           const data = await getPageMd(siyuanData.pageId);
           const md = data.content;
-          let html = mdToHtml(md);
-          formData.desc = parseHtml(html, CONSTANTS.MAX_PREVIEW_LENGTH, true);
+          const plainText = mdToPlainText(md);
+          formData.desc = parseHtml(plainText, CONSTANTS.MAX_PREVIEW_LENGTH, true);
           isDescLoading.value = false;
           if (hideTip != true) {
             ElMessage.success(t("main.opt.success"));
@@ -78006,6 +78155,19 @@ var require_index_eda2c487 = __commonJS({
             ElMessage.success(t("main.opt.success"));
           }
         };
+        const handleCatNodeClick = (event, data, node, nodeItem) => {
+        };
+        const handleCatNodeCheck = (data, status) => {
+          console.log("data=>", data);
+          console.log("status=>", status);
+          let cats = [];
+          const values = status.checkedKeys;
+          values.forEach((item) => {
+            cats.push(item.toString());
+          });
+          formData.categories = cats;
+          logUtil.logInfo(" formData.categories=>", formData.categories);
+        };
         const oneclickAttr = async (hideTip) => {
           isGenLoading.value = true;
           await makeSlug(true);
@@ -78028,15 +78190,14 @@ var require_index_eda2c487 = __commonJS({
             await oneclickAttr(true);
             const metaweblogCfg = getJSONConf(props.apiType);
             const api = new API(props.apiType);
-            let fmtTitle = formData.title;
-            if (fmtTitle.indexOf(".") > -1) {
-              fmtTitle = fmtTitle.replace(/\d*\./g, "");
-            }
+            let fmtTitle = removeTitleNumber(formData.title);
             const data = await getPageMd(siyuanData.pageId);
             const md = removeWidgetTag(data.content);
             let content = md;
             if (PageType.Html == metaweblogCfg.pageType) {
-              content = render(md);
+              content = mdToHtml(md);
+            } else {
+              content = removeMdWidgetTag(content);
             }
             const post = new Post();
             post.title = fmtTitle;
@@ -78124,6 +78285,7 @@ var require_index_eda2c487 = __commonJS({
           const _component_el_checkbox_group = resolveComponent("el-checkbox-group");
           const _component_el_date_picker = resolveComponent("el-date-picker");
           const _component_el_tag = resolveComponent("el-tag");
+          const _component_el_tree_select = resolveComponent("el-tree-select");
           const _component_el_form = resolveComponent("el-form");
           const _component_el_main = resolveComponent("el-main");
           const _component_el_container = resolveComponent("el-container");
@@ -78272,8 +78434,7 @@ var require_index_eda2c487 = __commonJS({
                     placeholder: _ctx.$t("main.create.time.placeholder")
                   }, null, 8, ["modelValue", "placeholder"])]),
                   _: 1
-                }, 8, ["label"])) : createCommentVNode("", true), editMode.value ? (openBlock(), createBlock(_component_el_form_item, {
-                  key: 8,
+                }, 8, ["label"])) : createCommentVNode("", true), createVNode(_component_el_form_item, {
                   label: _ctx.$t("main.tag")
                 }, {
                   default: withCtx(() => [(openBlock(true), createElementBlock(Fragment, null, renderList(formData.tag.dynamicTags, (tag) => {
@@ -78307,8 +78468,8 @@ var require_index_eda2c487 = __commonJS({
                     _: 1
                   }))]),
                   _: 1
-                }, 8, ["label"])) : createCommentVNode("", true), editMode.value ? (openBlock(), createBlock(_component_el_form_item, {
-                  key: 9
+                }, 8, ["label"]), editMode.value ? (openBlock(), createBlock(_component_el_form_item, {
+                  key: 8
                 }, {
                   default: withCtx(() => [createVNode(_component_el_button, {
                     type: "primary",
@@ -78319,8 +78480,33 @@ var require_index_eda2c487 = __commonJS({
                     _: 1
                   }, 8, ["loading"])]),
                   _: 1
-                })) : createCommentVNode("", true), editMode.value ? (openBlock(), createBlock(_component_el_form_item, {
-                  key: 10
+                })) : createCommentVNode("", true), createVNode(_component_el_form_item, {
+                  label: _ctx.$t("main.cat"),
+                  style: {
+                    "width": "100%"
+                  }
+                }, {
+                  default: withCtx(() => [createVNode(_component_el_tree_select, {
+                    style: {
+                      "width": "100%"
+                    },
+                    modelValue: formData.cat.categorySelected,
+                    "onUpdate:modelValue": _cache[7] || (_cache[7] = ($event) => formData.cat.categorySelected = $event),
+                    data: formData.cat.categoryList,
+                    multiple: "",
+                    "tag-type": "info",
+                    "check-on-click-node": true,
+                    "render-after-expand": false,
+                    "show-checkbox": "",
+                    placeholder: _ctx.$t("main.cat.select"),
+                    "empty-text": _ctx.$t("main.cat.empty"),
+                    "no-data-text": _ctx.$t("main.cat.empty"),
+                    onNodeClick: handleCatNodeClick,
+                    onCheck: handleCatNodeCheck
+                  }, null, 8, ["modelValue", "data", "placeholder", "empty-text", "no-data-text"])]),
+                  _: 1
+                }, 8, ["label"]), editMode.value ? (openBlock(), createBlock(_component_el_form_item, {
+                  key: 9
                 }, {
                   default: withCtx(() => [createVNode(_component_el_button, {
                     type: "primary",
@@ -78385,8 +78571,8 @@ var require_index_eda2c487 = __commonJS({
         };
       }
     });
-    const MetaweblogMain_vue_vue_type_style_index_0_scoped_4387f4a1_lang = "";
-    const MetaweblogMain = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-4387f4a1"]]);
+    const MetaweblogMain_vue_vue_type_style_index_0_scoped_b231e6a5_lang = "";
+    const MetaweblogMain = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-b231e6a5"]]);
     const __default__$c = {
       name: "JVueMain",
       components: {
@@ -78579,10 +78765,13 @@ var require_index_eda2c487 = __commonJS({
           isSlugLoading.value = true;
           const page = await getPage(siyuanData.pageId);
           logUtil.logInfo("page=>", page);
-          const title2 = page.content;
-          logUtil.logInfo("title=>", title2);
+          let fmtTitle = page.content;
+          if (fmtTitle.indexOf(".") > -1) {
+            fmtTitle = fmtTitle.replace(/\d*\./g, "");
+          }
+          logUtil.logInfo("fmtTitle=>", fmtTitle);
           if (formData.checkList.length > 0) {
-            const result = await zhSlugify(title2);
+            const result = await zhSlugify(fmtTitle);
             logUtil.logInfo("result=>", result);
             if (result) {
               formData.customSlug = result;
@@ -78590,7 +78779,7 @@ var require_index_eda2c487 = __commonJS({
               ElMessage.success(t("main.opt.failure"));
             }
           } else {
-            formData.customSlug = await pingyinSlugify(title2);
+            formData.customSlug = await pingyinSlugify(fmtTitle);
           }
           if (slugHashEnabled.value) {
             const newstr = page.content + new Date().toISOString();
@@ -78609,7 +78798,7 @@ var require_index_eda2c487 = __commonJS({
           isDescLoading.value = true;
           const data = await getPageMd(siyuanData.pageId);
           const md = data.content;
-          let html = mdToHtml(md);
+          let html = mdToPlainText(md);
           formData.desc = parseHtml(html, CONSTANTS.MAX_PREVIEW_LENGTH, true);
           isDescLoading.value = false;
           if (hideTip != true) {
@@ -78689,14 +78878,17 @@ var require_index_eda2c487 = __commonJS({
             await oneclickAttr(true);
             const commonblogCfg = getJSONConf(props.apiType);
             const api = new API(props.apiType);
+            let fmtTitle = removeTitleNumber(formData.title);
             const data = await getPageMd(siyuanData.pageId);
-            const md = removeWidgetTag(data.content);
+            const md = removeMdWidgetTag(data.content);
             let content = md;
             if (PageType.Html == commonblogCfg.pageType) {
-              content = render(md);
+              content = mdToHtml(md);
+            } else {
+              content = removeMdWidgetTag(content);
             }
             const post = new Post();
-            post.title = formData.title;
+            post.title = fmtTitle;
             post.wp_slug = formData.customSlug;
             post.description = content;
             post.categories = formData.categories;
@@ -79713,6 +79905,9 @@ var require_index_eda2c487 = __commonJS({
       "main.tag": "\u6587\u7AE0\u6807\u7B7E",
       "main.tag.new": "\u65B0\u6807\u7B7E",
       "main.auto.fetch.tag": "\u81EA\u52A8\u63D0\u53D6\u6807\u7B7E",
+      "main.cat": "\u6587\u7AE0\u5206\u7C7B",
+      "main.cat.empty": "\u6682\u65E0\u5206\u7C7B",
+      "main.cat.select": "\u8BF7\u9009\u62E9\u5206\u7C7B",
       "main.yaml.formatter": "YAML Formatter",
       "main.siyuan.to.yaml": "\u601D\u6E90\u5C5E\u6027\u8F6CYAML",
       "main.yaml.to.siyuan": "YAML\u8F6C\u601D\u6E90\u5C5E\u6027",
@@ -79774,6 +79969,7 @@ var require_index_eda2c487 = __commonJS({
       "setting.blog.username": "\u8D26\u53F7",
       "setting.blog.password": "\u5BC6\u7801",
       "setting.blog.apiurl": "API\u5730\u5740",
+      "setting.blog.pageType": "\u53D1\u5E03\u683C\u5F0F",
       "setting.blog.validate": "\u9A8C\u8BC1",
       "setting.blog.save": "\u4FDD\u5B58",
       "setting.blog.vali": "\u9A8C\u8BC1",
@@ -79883,6 +80079,9 @@ var require_index_eda2c487 = __commonJS({
       "main.tag": "Post tag",
       "main.tag.new": "New tag",
       "main.auto.fetch.tag": "Auto fetch tag",
+      "main.cat": "Category",
+      "main.cat.empty": "No Category",
+      "main.cat.select": "Please select category",
       "main.yaml.formatter": "YAML Formatter",
       "main.siyuan.to.yaml": "Siyuan attr to YAML",
       "main.yaml.to.siyuan": "YAML to Siyuan attr",
@@ -79942,6 +80141,7 @@ var require_index_eda2c487 = __commonJS({
       "setting.blog.username": "Username",
       "setting.blog.password": "Password",
       "setting.blog.apiurl": "API Url",
+      "setting.blog.pageType": "Page Type",
       "setting.blog.validate": "Validate",
       "setting.blog.save": "Save",
       "setting.blog.vali": "Validate",
@@ -80033,4 +80233,4 @@ var require_index_eda2c487 = __commonJS({
     app.mount("#app");
   }
 });
-export default require_index_eda2c487();
+export default require_index_cbb791b6();
