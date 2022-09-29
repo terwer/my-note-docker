@@ -1,5 +1,6 @@
 {
 	"ID": "20220702214124-rl3ruoz",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "mac最小化窗口的方法使用快捷键commandoptionh可以实现快速隐藏除当前应用程序之外所有程序窗口的目的。使用快捷键commandoptionmh可以实现快速隐藏所有应用程序窗口的目的。",
@@ -28,34 +29,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "Command+Option+H",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Command+Option+H"
 				},
 				{
 					"Type": "NodeText",
@@ -65,33 +44,12 @@
 					}
 				},
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "隐藏",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "隐藏"
 				},
 				{
 					"Type": "NodeText",
@@ -101,34 +59,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "Command+Option+M+H",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Command+Option+M+H"
 				},
 				{
 					"Type": "NodeText",
@@ -138,33 +74,12 @@
 					}
 				},
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "隐藏",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "隐藏"
 				},
 				{
 					"Type": "NodeText",

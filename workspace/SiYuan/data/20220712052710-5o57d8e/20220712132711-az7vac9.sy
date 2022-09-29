@@ -1,5 +1,6 @@
 {
 	"ID": "20220712132711-az7vac9",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "pnpm安装electron报错解决方案自定义镜像地址和版本解决pnpmconfigsetregistryhttps_registrynpmmirrorcompnpmconfigsetelectron_mirror=https_cdnnpmmirrorcombinarieselectronpnpmconfigsetelectron_custom_dir=参考_https_githubcomelectronelectronissues",
@@ -76,30 +77,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/electron/electron/issues/22792"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/electron/electron/issues/22792"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/electron/electron/issues/22792",
+					"TextMarkTextContent": "https://github.com/electron/electron/issues/22792"
 				}
 			]
 		},

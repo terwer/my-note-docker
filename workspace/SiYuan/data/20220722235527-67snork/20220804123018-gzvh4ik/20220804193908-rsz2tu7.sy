@@ -1,5 +1,6 @@
 {
 	"ID": "20220804193908-rsz2tu7",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "这是最新的一篇测试文章基本语法粗体粗体测试粗体测试代码块publicstaticvoidmain(){systemoutprintln(}",
@@ -48,22 +49,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "粗体测试"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "粗体测试"
 				}
 			]
 		},
@@ -76,20 +64,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "**粗体测试**"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "**粗体测试**"
 				}
 			]
 		},

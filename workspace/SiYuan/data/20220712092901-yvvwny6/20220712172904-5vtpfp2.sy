@@ -1,5 +1,6 @@
 {
 	"ID": "20220712172904-5vtpfp2",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220712172904-5vtpfp2",
@@ -31,37 +32,11 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "设置块属性"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/siyuan-note/siyuan/blob/master/API_zh_CN.md#%E8%AE%BE%E7%BD%AE%E5%9D%97%E5%B1%9E%E6%80%A7"
-						},
-						{
-							"Type": "NodeLinkSpace"
-						},
-						{
-							"Type": "NodeLinkTitle",
-							"Data": "设置块属性"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/siyuan-note/siyuan/blob/master/API_zh_CN.md#%E8%AE%BE%E7%BD%AE%E5%9D%97%E5%B1%9E%E6%80%A7",
+					"TextMarkATitle": "设置块属性",
+					"TextMarkTextContent": "设置块属性"
 				}
 			]
 		},
@@ -74,37 +49,11 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "导出Markdown文本"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/siyuan-note/siyuan/blob/master/API_zh_CN.md#%E5%AF%BC%E5%87%BA-markdown-%E6%96%87%E6%9C%AC"
-						},
-						{
-							"Type": "NodeLinkSpace"
-						},
-						{
-							"Type": "NodeLinkTitle",
-							"Data": "导出Markdown文本"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/siyuan-note/siyuan/blob/master/API_zh_CN.md#%E5%AF%BC%E5%87%BA-markdown-%E6%96%87%E6%9C%AC",
+					"TextMarkATitle": "导出Markdown文本",
+					"TextMarkTextContent": "导出Markdown文本"
 				}
 			]
 		},

@@ -1,5 +1,6 @@
 {
 	"ID": "20220822221025-munpqmj",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220822221025-munpqmj",
@@ -251,22 +252,9 @@
 									"Data": " "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "父子加载器并非继承关系，也就是说子加载器不一定是继承了父加载器。"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "父子加载器并非继承关系，也就是说子加载器不一定是继承了父加载器。"
 								}
 							]
 						}
@@ -404,44 +392,18 @@
 									"Data": "定义类加载器：如果某个类加载器能够加载一个类，那么该类加载器就称作： "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "定义类加载器"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "定义类加载器"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " ；定义类加载器及其所有子加载器都称作： "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "初始类加载器"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "初始类加载器"
 								},
 								{
 									"Type": "NodeText",

@@ -1,8 +1,10 @@
 {
 	"ID": "20220822113211-1wmrr3v",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220822113211-1wmrr3v",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220822113327-gl0ed3n\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220822113327-rmnzhow\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220822113327-gl0ed3n\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"title": "中文版发版说明",
 		"updated": "20220822113329"
 	},
@@ -35,22 +37,9 @@
 					"Data": "将思源笔记的文章发布到支持的开放平台的"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "思源笔记挂件"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "思源笔记挂件"
 				}
 			]
 		},
@@ -81,30 +70,10 @@
 					"Data": "同时提供了一个 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "统一通用的API适配器"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/terwer/src-sy-post-publisher/blob/main/src/lib/api.ts"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/blob/main/src/lib/api.ts",
+					"TextMarkTextContent": "统一通用的API适配器"
 				},
 				{
 					"Type": "NodeText",
@@ -210,20 +179,9 @@
 									"Data": "博客园-延期到v0.0.2版本，"
 								},
 								{
-									"Type": "NodeStrikethrough",
-									"Data": "s",
-									"Children": [
-										{
-											"Type": "NodeStrikethrough2OpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "预计2022-10-31发布"
-										},
-										{
-											"Type": "NodeStrikethrough2CloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "预计2022-10-31发布"
 								},
 								{
 									"Type": "NodeText",
@@ -263,20 +221,9 @@
 									"Data": "链滴社区-延期到v0.0.2版本，"
 								},
 								{
-									"Type": "NodeStrikethrough",
-									"Data": "s",
-									"Children": [
-										{
-											"Type": "NodeStrikethrough2OpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "预计2022-10-31发布"
-										},
-										{
-											"Type": "NodeStrikethrough2CloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "预计2022-10-31发布"
 								},
 								{
 									"Type": "NodeText",
@@ -316,20 +263,9 @@
 									"Data": "语雀-延期到v0.0.2版本，"
 								},
 								{
-									"Type": "NodeStrikethrough",
-									"Data": "s",
-									"Children": [
-										{
-											"Type": "NodeStrikethrough2OpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "预计2022-10-31发布"
-										},
-										{
-											"Type": "NodeStrikethrough2CloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "预计2022-10-31发布"
 								},
 								{
 									"Type": "NodeText",
@@ -365,30 +301,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "点击这里查看开发进度"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/users/terwer/projects/1/views/1"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/users/terwer/projects/1/views/1",
+					"TextMarkTextContent": "点击这里查看开发进度"
 				}
 			]
 		},
@@ -444,30 +360,10 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "#15"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/terwer/src-sy-post-publisher/issues/15"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/15",
+									"TextMarkTextContent": "#15"
 								},
 								{
 									"Type": "NodeText",
@@ -512,30 +408,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#18"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/18"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/18",
+													"TextMarkTextContent": "#18"
 												},
 												{
 													"Type": "NodeText",
@@ -571,30 +447,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#24"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/24"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/24",
+													"TextMarkTextContent": "#24"
 												},
 												{
 													"Type": "NodeText",
@@ -630,30 +486,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#25"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/25"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/25",
+													"TextMarkTextContent": "#25"
 												},
 												{
 													"Type": "NodeText",
@@ -689,30 +525,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#38"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/38"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/38",
+													"TextMarkTextContent": "#38"
 												},
 												{
 													"Type": "NodeText",
@@ -748,30 +564,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#39"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/39"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/39",
+													"TextMarkTextContent": "#39"
 												},
 												{
 													"Type": "NodeText",
@@ -807,60 +603,20 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#40"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/40"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/40",
+													"TextMarkTextContent": "#40"
 												},
 												{
 													"Type": "NodeText",
 													"Data": " 发布到Confluence，需要配合我的另一个 "
 												},
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "适配器项目"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/node-metaweblog-api-adaptor"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/node-metaweblog-api-adaptor",
+													"TextMarkTextContent": "适配器项目"
 												},
 												{
 													"Type": "NodeText",
@@ -896,30 +652,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#41"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/41"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/41",
+													"TextMarkTextContent": "#41"
 												},
 												{
 													"Type": "NodeText",
@@ -955,30 +691,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#42"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/42"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/42",
+													"TextMarkTextContent": "#42"
 												},
 												{
 													"Type": "NodeText",
@@ -1014,30 +730,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#43"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/43"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/43",
+													"TextMarkTextContent": "#43"
 												},
 												{
 													"Type": "NodeText",
@@ -1073,30 +769,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#44"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/44"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/44",
+													"TextMarkTextContent": "#44"
 												},
 												{
 													"Type": "NodeText",
@@ -1142,30 +818,10 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "#19"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/terwer/src-sy-post-publisher/issues/19"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/19",
+									"TextMarkTextContent": "#19"
 								},
 								{
 									"Type": "NodeText",
@@ -1263,40 +919,18 @@
 													"Data": "3、修复 octokit 在 vite 构建报错问题，替换 "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "node-fetch"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "node-fetch"
 												},
 												{
 													"Type": "NodeText",
 													"Data": " 为 "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "isomorphic-fetch"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "isomorphic-fetch"
 												}
 											]
 										}
@@ -1355,20 +989,9 @@
 													"Data": "5、耗时的按钮操作添加 "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "loading"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "loading"
 												}
 											]
 										}
@@ -1705,30 +1328,10 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "#13"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/terwer/src-sy-post-publisher/issues/13"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/13",
+									"TextMarkTextContent": "#13"
 								},
 								{
 									"Type": "NodeText",
@@ -1782,50 +1385,19 @@
 					"Data": "项目使用了 Vue 3 的 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "\u003cscript setup\u003e"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;script setup\u0026gt;"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "，可以查看文档 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "script setup docs"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup",
+					"TextMarkTextContent": "script setup docs"
 				},
 				{
 					"Type": "NodeText",
@@ -1878,60 +1450,20 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "VS Code"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://code.visualstudio.com/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://code.visualstudio.com/",
+									"TextMarkTextContent": "VS Code"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " + "
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "Volar"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://marketplace.visualstudio.com/items?itemName=Vue.volar"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://marketplace.visualstudio.com/items?itemName=Vue.volar",
+									"TextMarkTextContent": "Volar"
 								}
 							]
 						}
@@ -2257,30 +1789,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Vercel CLI"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://vercel.com/docs/cli#introduction/installing-the-cli"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://vercel.com/docs/cli#introduction/installing-the-cli",
+					"TextMarkTextContent": "Vercel CLI"
 				}
 			]
 		}

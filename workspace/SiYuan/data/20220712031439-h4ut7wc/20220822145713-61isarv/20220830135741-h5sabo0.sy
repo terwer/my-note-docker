@@ -1,5 +1,6 @@
 {
 	"ID": "20220830135741-h5sabo0",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16639124",
@@ -1004,22 +1005,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "一对一配置:使用做配置"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "一对一配置:使用做配置"
 				}
 			]
 		},
@@ -1032,22 +1020,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "一对多配置:使用+做配置"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "一对多配置:使用+做配置"
 				}
 			]
 		},
@@ -1060,22 +1035,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "多对多配置:使用+做配置"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "多对多配置:使用+做配置"
 				}
 			]
 		},
@@ -1103,37 +1065,11 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "mybatis-multitable"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/terwer/senior-java-engineer-road/tree/master/p7-skill/framework/mybatis/mybatis-multitable"
-						},
-						{
-							"Type": "NodeLinkSpace"
-						},
-						{
-							"Type": "NodeLinkTitle",
-							"Data": "mybatis-multitable"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/senior-java-engineer-road/tree/master/p7-skill/framework/mybatis/mybatis-multitable",
+					"TextMarkATitle": "mybatis-multitable",
+					"TextMarkTextContent": "mybatis-multitable"
 				}
 			]
 		},

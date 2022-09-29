@@ -1,5 +1,6 @@
 {
 	"ID": "20220707005131-4854y4a",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220707005131-4854y4a",
@@ -42,54 +43,13 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://artalk.js.org/guide/backend/install.html#%E4%BD%BF%E7%94%A8-docker",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://artalk.js.org/guide/backend/install.html#%E4%BD%BF%E7%94%A8-docker",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://artalk.js.org/guide/backend/install.html#%E4%BD%BF%E7%94%A8-docker",
+					"TextMarkTextContent": "https://artalk.js.org/guide/backend/install.html#%E4%BD%BF%E7%94%A8-docker"
 				}
 			]
 		},
@@ -136,54 +96,13 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://talk.terwergreen.com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://talk.terwergreen.com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://talk.terwergreen.com",
+					"TextMarkTextContent": "https://talk.terwergreen.com"
 				}
 			]
 		},
@@ -380,33 +299,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker",
-							"Data": "~~",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "注意：由于 Artalk 使用了 window ，下面的同步加载会导致 node 构建失败，不要使用",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker",
-							"Data": "~~",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "s",
+					"TextMarkTextContent": "注意：由于 Artalk 使用了 window ，下面的同步加载会导致 node 构建失败，不要使用"
 				}
 			]
 		},

@@ -1,5 +1,6 @@
 {
 	"ID": "20220830002958-646e0ck",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16637935",
@@ -10,9 +11,10 @@
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/220.MyBatis的基本使用.md",
 		"custom-wordpress-post-id": "4201",
 		"id": "20220830002958-646e0ck",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830005217-ikwcgnq\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830004402-7eaoysh\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:8933,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830003120-gxdlnb7\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "mybatis,basic,use,framework,mybatis-8",
 		"title": "220.MyBatis的基本使用",
-		"updated": "20220830212619"
+		"updated": "20220924195524"
 	},
 	"Children": [
 		{
@@ -43,30 +45,10 @@
 					"Data": "Mybatis的官网："
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://mybatis.org/mybatis-3/"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://mybatis.org/mybatis-3/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://mybatis.org/mybatis-3/",
+					"TextMarkTextContent": "https://mybatis.org/mybatis-3/"
 				}
 			]
 		},
@@ -514,25 +496,58 @@
 			]
 		},
 		{
-			"ID": "20220830005217-yxxjjyq",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315123042.png\" alt=\"image-20220315122806775\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924195217-8t2ahd3",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830005217-yxxjjyq",
-				"updated": "20220830005217"
-			}
+				"id": "20220924195217-8t2ahd3",
+				"updated": "20220924195239"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220315123042.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830005217-ftlu6mi",
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220830005217-ftlu6mi",
-				"updated": "20220830005217"
+				"updated": "20220924195231"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "乱码解决"
+					"Data": "!乱码解决"
 				}
 			]
 		},
@@ -591,13 +606,46 @@
 			]
 		},
 		{
-			"ID": "20220830005217-czdatja",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315123048.png\" alt=\"image-20220315123004020\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924195252-joloa74",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830005217-czdatja",
-				"updated": "20220830005217"
-			}
+				"id": "20220924195252-joloa74",
+				"updated": "20220924195308"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220315123048.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830005217-jgq8tpl",
@@ -641,13 +689,46 @@
 			]
 		},
 		{
-			"ID": "20220830005217-va4s2h5",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315125151.png\" alt=\"image-20220315125147149\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924195320-val6ocr",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830005217-va4s2h5",
-				"updated": "20220830005217"
-			}
+				"id": "20220924195320-val6ocr",
+				"updated": "20220924195339"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220315125151.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830005217-ikwcgnq",
@@ -672,22 +753,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "未提交事务"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "未提交事务"
 				}
 			]
 		},
@@ -733,13 +801,46 @@
 			]
 		},
 		{
-			"ID": "20220830005217-gybloiu",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315125432.png\" alt=\"image-20220315125427217\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924195350-d9esyg4",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830005217-gybloiu",
-				"updated": "20220830005217"
-			}
+				"id": "20220924195350-d9esyg4",
+				"updated": "20220924195404"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220315125432.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830005217-14530up",
@@ -783,13 +884,46 @@
 			]
 		},
 		{
-			"ID": "20220830005217-wcntem8",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315150958.png\" alt=\"image-20220315150953028\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924195413-5y4xmgc",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830005217-wcntem8",
-				"updated": "20220830005217"
-			}
+				"id": "20220924195413-5y4xmgc",
+				"updated": "20220924195424"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220315150958.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830005217-y3lbvjq",
@@ -833,13 +967,46 @@
 			]
 		},
 		{
-			"ID": "20220830005217-ovfvex2",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220315151955.png\" alt=\"image-20220315151950983\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924195433-8stqcss",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830005217-ovfvex2",
-				"updated": "20220830005217"
-			}
+				"id": "20220924195433-8stqcss",
+				"updated": "20220924195446"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220315151955.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830005217-95f0873",
@@ -1409,66 +1576,27 @@
 					"Data": " "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "1) Mapper.xml"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "1) Mapper.xml"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "文件中的"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "namespace"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "namespace"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "与"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "mapper"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "mapper"
 				},
 				{
 					"Type": "NodeText",
@@ -1489,88 +1617,36 @@
 					"Data": " "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "2) Mapper"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "2) Mapper"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "接口方法名和"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Mapper.xml"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Mapper.xml"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "中定义的每个"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "statement"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "statement"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "的"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "id"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "id"
 				},
 				{
 					"Type": "NodeText",
@@ -1591,88 +1667,36 @@
 					"Data": " "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "3) Mapper"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "3) Mapper"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "接口方法的输入参数类型和"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "mapper.xml"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "mapper.xml"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "中定义的每个"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "sql"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "sql"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "的"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "parameterType"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "parameterType"
 				},
 				{
 					"Type": "NodeText",
@@ -1693,88 +1717,36 @@
 					"Data": " "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "4) Mapper"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "4) Mapper"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "接口方法的输出参数类型和"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "mapper.xml"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "mapper.xml"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "中定义的每个"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "sql"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "sql"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "的"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "resultType"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "resultType"
 				},
 				{
 					"Type": "NodeText",
@@ -1797,13 +1769,46 @@
 			]
 		},
 		{
-			"ID": "20220830005217-nryp25m",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317105202.png\" alt=\"image-20220317105157019\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924195506-36fv61g",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830005217-nryp25m",
-				"updated": "20220830005217"
-			}
+				"id": "20220924195506-36fv61g",
+				"updated": "20220924195511"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317105202.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830005217-733kud4",

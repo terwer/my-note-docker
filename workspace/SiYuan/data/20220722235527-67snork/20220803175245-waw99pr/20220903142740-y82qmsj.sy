@@ -1,5 +1,6 @@
 {
 	"ID": "20220903142740-y82qmsj",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "谢谢您您是第位访客。侃侃我自己一直以来我都一直很难用一个固定的词语来描述我自己。或许在我的初中甚至小学同学眼里我是一个勤奋好学循规蹈矩的好学生_在我的高中同学眼里我是一个埋头书海自生自灭的梦想者_以致现在我自诩为架构菜鸟（幻想着成为装逼架构师呵呵）文学爱好者我的新浪博客（遇到过文学高手不敢妄自称大呵呵）至于别人怎么评价我笔者无需过分纠结…人生在世有些事情有些选择是不需要理由的。年轻就该去探索去尝试。人生最大的悲哀不是失败而是甘于现状因为他一开始就失败了。",
@@ -80,33 +81,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "人生在世，有些事情，有些选择，是不需要理由的。年轻就该去探索，去尝试。人生最大的悲哀不是失败，而是甘于现状，因为他一开始就失败了。",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "人生在世，有些事情，有些选择，是不需要理由的。年轻就该去探索，去尝试。人生最大的悲哀不是失败，而是甘于现状，因为他一开始就失败了。"
 				}
 			]
 		},
@@ -235,34 +215,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "https://www.terwer.space",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "https://www.terwer.space"
 				},
 				{
 					"Type": "NodeText",
@@ -272,34 +230,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "http://www.terwer.com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "http://www.terwer.com"
 				},
 				{
 					"Type": "NodeText",
@@ -309,34 +245,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "Www.xinValue.Com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Www.xinValue.Com"
 				},
 				{
 					"Type": "NodeText",
@@ -473,34 +387,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "http://www.xinValue.Com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "http://www.xinValue.Com"
 				},
 				{
 					"Type": "NodeText",
@@ -510,34 +402,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "Www.xinValue.Com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Www.xinValue.Com"
 				},
 				{
 					"Type": "NodeText",
@@ -632,34 +502,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "http://Search.xinValue.Com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "http://Search.xinValue.Com"
 				},
 				{
 					"Type": "NodeText",
@@ -686,34 +534,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "http://Www.xinValue.Com/diary",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "http://Www.xinValue.Com/diary"
 				},
 				{
 					"Type": "NodeText",
@@ -740,34 +566,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "http://tvnoad.com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "http://tvnoad.com"
 				},
 				{
 					"Type": "NodeText",
@@ -811,34 +615,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "http://www.terwer.com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "http://www.terwer.com"
 				},
 				{
 					"Type": "NodeText",
@@ -882,54 +664,13 @@
 					}
 				},
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "jvue",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/terwer/jvue",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/jvue",
+					"TextMarkTextContent": "jvue"
 				},
 				{
 					"Type": "NodeText",
@@ -998,54 +739,13 @@
 					}
 				},
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "点击这里给我发消息",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "http://wpa.qq.com/msgrd?v=3\u0026uin=1035136784\u0026site=qq\u0026menu=yes",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://wpa.qq.com/msgrd?v=3\u0026uin=1035136784\u0026site=qq\u0026menu=yes",
+					"TextMarkTextContent": "点击这里给我发消息"
 				},
 				{
 					"Type": "NodeSoftBreak",
@@ -1062,54 +762,13 @@
 					}
 				},
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "youweics@163.com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "youweics@163.com",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "youweics@163.com",
+					"TextMarkTextContent": "youweics@163.com"
 				}
 			]
 		},

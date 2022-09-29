@@ -1,5 +1,6 @@
 {
 	"ID": "20220921115715-v9owjav",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220921115715-v9owjav",
@@ -16,30 +17,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/terwer/lowcode-engine"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/terwer/lowcode-engine"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/lowcode-engine",
+					"TextMarkTextContent": "https://github.com/terwer/lowcode-engine"
 				}
 			]
 		},

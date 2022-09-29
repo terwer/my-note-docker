@@ -1,5 +1,6 @@
 {
 	"ID": "20220801234427-cdr8vqg",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "nextjs组件使用泛型类型传递异步数据定义类型typepageprops={hello_stringpage_anyrandom_any}返回属性https_githubcomvercelnextjsblobcanaryexamplescmswordpresspagesindexjsexportconstgetstaticprops_getstaticprops{constpageid=vtfmdmletpage=awaitgetpage(pageid)if(!page){page={}}return{",

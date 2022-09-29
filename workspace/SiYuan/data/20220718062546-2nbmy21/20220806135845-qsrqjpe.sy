@@ -1,5 +1,6 @@
 {
 	"ID": "20220806135845-qsrqjpe",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "后端服务coros预检请求验证问题探究问题引入目前在vitevue的项目中使用fetchapi调用siyuan的api时候如果加上api鉴权就会返回cors错误如下_​根据https_developermozillaorgenusdocsglossarypreflight_request这篇文章的理解在检测到cors跨域复杂请求（例如post等）时候会发送一个options的预检请求请求会返回下一个请求允许的header和method检测请求可以看到可以看到思源服务端返回的accesscontrolreq",
@@ -674,30 +675,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://blog.csdn.net/root_miss/article/details/82740399"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://blog.csdn.net/root_miss/article/details/82740399"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://blog.csdn.net/root_miss/article/details/82740399",
+					"TextMarkTextContent": "https://blog.csdn.net/root_miss/article/details/82740399"
 				}
 			]
 		},
@@ -710,30 +691,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request",
+					"TextMarkTextContent": "https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request"
 				}
 			]
 		},
@@ -746,30 +707,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://stackoverflow.com/questions/29418478/go-gin-framework-cors"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://stackoverflow.com/questions/29418478/go-gin-framework-cors"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://stackoverflow.com/questions/29418478/go-gin-framework-cors",
+					"TextMarkTextContent": "https://stackoverflow.com/questions/29418478/go-gin-framework-cors"
 				}
 			]
 		},

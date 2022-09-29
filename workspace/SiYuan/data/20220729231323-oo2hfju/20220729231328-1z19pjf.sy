@@ -1,11 +1,12 @@
 {
 	"ID": "20220729231328-1z19pjf",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220729231328-1z19pjf",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220729231328-iux2uqv\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220729231328-iux2uqv\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220729231328-iux2uqv\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220729231328-iux2uqv\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220928114707-14a8xbb\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220928114707-14a8xbb\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"title": "sy-post-publisher",
-		"updated": "20220729231338"
+		"updated": "20220928114707"
 	},
 	"Children": [
 		{
@@ -13,7 +14,22 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220729231328-iux2uqv",
-				"updated": "20220729231328"
+				"updated": "20220928114707"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher",
+					"TextMarkTextContent": "https://github.com/terwer/src-sy-post-publisher"
+				}
+			]
+		},
+		{
+			"ID": "20220928114707-14a8xbb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220928114707-14a8xbb"
 			}
 		}
 	]

@@ -1,5 +1,6 @@
 {
 	"ID": "20220906223315-z8o4zt1",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16663636",
@@ -11,25 +12,39 @@
 		"custom-wordpress-post-id": "4247",
 		"custom-yuque-post-id": "93076809",
 		"id": "20220906223315-z8o4zt1",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220923132553-atq57pj\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220915224414-3zvjx2t\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220923132553-atq57pj\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "查询,缓存,mybatis,一级缓存",
 		"title": "420.MyBatis的一级缓存",
-		"updated": "20220916211057"
+		"updated": "20220912224157"
 	},
 	"Children": [
 		{
-			"ID": "20220906223315-xpd8sj0",
+			"ID": "20220923132553-atq57pj",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220906223315-xpd8sj0",
-				"updated": "20220906223337"
+				"id": "20220923132553-atq57pj",
+				"updated": "20220923132649"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "在 MyBatis 中，一级缓存是默认开启的。",
+					"Data": "在 MyBatis 中，"
+				},
+				{
+					"Type": "NodeTextMark",
 					"Properties": {
-						"id": ""
-					}
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "一级缓存是默认开启的"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
 				}
 			]
 		},
@@ -60,18 +75,8 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## ",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
 					"Type": "NodeText",
-					"Data": "场景一",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "场景一"
 				}
 			]
 		},
@@ -279,18 +284,8 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## ",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
 					"Type": "NodeText",
-					"Data": "场景二",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "场景二"
 				}
 			]
 		},
@@ -1027,22 +1022,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "cache 的创建时机"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "cache 的创建时机"
 				}
 			]
 		},
@@ -1272,34 +1254,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "configuration.getEnvironmen().getId()",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "configuration.getEnvironmen().getId()"
 				},
 				{
 					"Type": "NodeText",
@@ -1309,34 +1269,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "sqlMapConfig.xml",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "sqlMapConfig.xml"
 				},
 				{
 					"Type": "NodeText",
@@ -1403,22 +1341,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "一级缓存的使用"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "一级缓存的使用"
 				}
 			]
 		},
@@ -1431,34 +1356,13 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": "",
 						"style": "color: var(--b3-font-color1);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "一级缓存更多是用于查询操作，毕竟一级缓存也叫做查询缓存。",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "一级缓存更多是用于查询操作，毕竟一级缓存也叫做查询缓存。"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
@@ -1642,10 +1546,12 @@
 			]
 		},
 		{
-			"ID": "20220916211057-qsy5ohi",
-			"Type": "NodeParagraph",
+			"ID": "20220923001228-5y8bdkv",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1090px; height: 500px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
-				"id": "20220916211057-qsy5ohi"
+				"id": "20220923001228-5y8bdkv",
+				"updated": "20220923001228"
 			}
 		}
 	]

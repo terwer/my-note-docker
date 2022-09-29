@@ -1,5 +1,6 @@
 {
 	"ID": "20220707212817-f9odo31",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "用户自定义类加载器探秘myclassloader自定义类加载器@name_myclassloader@author_terwer@date__publicclassmyclassloaderextendsclassloader{类加载器的名字privatestringname_加载类的路径privatestringpath=class文件的扩展名privatefinalstringfiletype=publicstringgetpath(){returnpath_}publicvoidsetpath(st",

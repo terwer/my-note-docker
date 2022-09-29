@@ -1,5 +1,6 @@
 {
 	"ID": "20220830143328-2vdlpyk",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220830143328-2vdlpyk",
@@ -186,30 +187,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/markushedvall/plantuml-encoder"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/markushedvall/plantuml-encoder"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/markushedvall/plantuml-encoder",
+					"TextMarkTextContent": "https://github.com/markushedvall/plantuml-encoder"
 				}
 			]
 		},
@@ -319,30 +300,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://zhuanlan.zhihu.com/p/111014448"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://zhuanlan.zhihu.com/p/111014448"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zhuanlan.zhihu.com/p/111014448",
+					"TextMarkTextContent": "https://zhuanlan.zhihu.com/p/111014448"
 				}
 			]
 		},

@@ -1,5 +1,6 @@
 {
 	"ID": "20220817155014-slxmb1p",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220817155014-slxmb1p",
@@ -117,20 +118,9 @@
 					"Data": "使用 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "vite-plugin-require-transform"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "vite-plugin-require-transform"
 				},
 				{
 					"Type": "NodeText",
@@ -301,25 +291,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"style": "color: var(--b3-font-color1);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "注意：这里有坑，官方默认的方法会报错，必须使用我上面的使用方法。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "注意：这里有坑，官方默认的方法会报错，必须使用我上面的使用方法。"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
@@ -351,30 +328,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/WarrenJones/vite-plugin-require-transform/issues/10"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/WarrenJones/vite-plugin-require-transform/issues/10"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/WarrenJones/vite-plugin-require-transform/issues/10",
+					"TextMarkTextContent": "https://github.com/WarrenJones/vite-plugin-require-transform/issues/10"
 				}
 			]
 		}

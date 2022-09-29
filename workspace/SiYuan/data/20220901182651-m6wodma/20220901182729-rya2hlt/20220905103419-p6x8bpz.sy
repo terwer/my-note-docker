@@ -1,5 +1,6 @@
 {
 	"ID": "20220905103419-p6x8bpz",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "条件属性顾名思义就是指当满足一定条件时修改属性值finereport报表中很多地方都可以运用到条件属性比如说满足条件隐藏行列修改显示样式等等​https_helpfanruancomfinereportdocviewhtml",
@@ -90,30 +91,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://help.fanruan.com/finereport/doc-view-218.html"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://help.fanruan.com/finereport/doc-view-218.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://help.fanruan.com/finereport/doc-view-218.html",
+					"TextMarkTextContent": "https://help.fanruan.com/finereport/doc-view-218.html"
 				}
 			]
 		},

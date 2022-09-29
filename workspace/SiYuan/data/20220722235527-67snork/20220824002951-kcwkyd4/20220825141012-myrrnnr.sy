@@ -1,5 +1,6 @@
 {
 	"ID": "20220825141012-myrrnnr",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220825141012-myrrnnr",
@@ -16,30 +17,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/nuxt/framework/discussions/5131"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/nuxt/framework/discussions/5131"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/nuxt/framework/discussions/5131",
+					"TextMarkTextContent": "https://github.com/nuxt/framework/discussions/5131"
 				}
 			]
 		},

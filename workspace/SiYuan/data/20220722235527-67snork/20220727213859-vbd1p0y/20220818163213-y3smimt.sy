@@ -1,5 +1,6 @@
 {
 	"ID": "20220818163213-y3smimt",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16606517",
@@ -135,20 +136,9 @@
 					"Data": "那么，解决方案就是我们今天要学习的 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "vitest"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "vitest"
 				},
 				{
 					"Type": "NodeText",

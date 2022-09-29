@@ -1,5 +1,6 @@
 {
 	"ID": "20220708165704-n20geag",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_publish_status\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_post_password\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:false}]",
@@ -74,40 +75,18 @@
 									"Data": "直接拷贝"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/Users/terwer/Documents/eclipse-java/rtc"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/Users/terwer/Documents/eclipse-java/rtc"
 								},
 								{
 									"Type": "NodeText",
 									"Data": "目录下的所有文件到\n"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/Users/terwer/Documents/app/eclipse/jee-2022-03/Eclipse.app/Contents/Eclipse"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/Users/terwer/Documents/app/eclipse/jee-2022-03/Eclipse.app/Contents/Eclipse"
 								},
 								{
 									"Type": "NodeText",
@@ -352,30 +331,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://git.landray.com.cn/"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://git.landray.com.cn/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://git.landray.com.cn/",
+					"TextMarkTextContent": "https://git.landray.com.cn/"
 				}
 			]
 		},
@@ -432,30 +391,10 @@
 					"Data": "@所有人：\n为规范研发账号密码安全，现对所有git账号密码重置，请使用新的密码登录git及进行相关操作\n您的账号为：tangyw\n密码为： 9lQnrsXnKlFg0K6f\n您也可以通过以下链接修改密码：\n"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://product.landray.com.cn/prod/account/prod_account/prodAccount.do?method=view"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://product.landray.com.cn/prod/account/prod_account/prodAccount.do?method=view"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://product.landray.com.cn/prod/account/prod_account/prodAccount.do?method=view",
+					"TextMarkTextContent": "https://product.landray.com.cn/prod/account/prod_account/prodAccount.do?method=view"
 				}
 			]
 		}

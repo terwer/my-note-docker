@@ -1,5 +1,6 @@
 {
 	"ID": "20220829234359-100j1k3",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16637870",
@@ -456,30 +457,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "mybatis-proxy/custom-persistence"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/terwer/senior-java-engineer-road/tree/mybatis-proxy/p7-skill/framework/mybatis/custom-persistence"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/senior-java-engineer-road/tree/mybatis-proxy/p7-skill/framework/mybatis/custom-persistence",
+					"TextMarkTextContent": "mybatis-proxy/custom-persistence"
 				}
 			]
 		},
@@ -507,30 +488,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "mybatis-normal/custom-persistence"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/terwer/senior-java-engineer-road/tree/mybatis-normal/p7-skill/framework/mybatis/custom-persistence"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/senior-java-engineer-road/tree/mybatis-normal/p7-skill/framework/mybatis/custom-persistence",
+					"TextMarkTextContent": "mybatis-normal/custom-persistence"
 				}
 			]
 		},

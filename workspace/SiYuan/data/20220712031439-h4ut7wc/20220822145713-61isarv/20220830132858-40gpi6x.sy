@@ -1,5 +1,6 @@
 {
 	"ID": "20220830132858-40gpi6x",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16639012",
@@ -10,10 +11,10 @@
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/242.MyBatis复杂映射开发之一对多查询.md",
 		"custom-wordpress-post-id": "4204",
 		"id": "20220830132858-40gpi6x",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830132904-nsxnmv4\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830132904-0ozw5p6\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:3920,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830132904-1dvru8l\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830132904-nsxnmv4\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220924201622-a2oshva\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220924201622-a2oshva\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "mybatis,framework,one-to-many,mapping,mybatis-11",
 		"title": "242.MyBatis复杂映射开发之一对多查询",
-		"updated": "20220830212727"
+		"updated": "20220924201622"
 	},
 	"Children": [
 		{
@@ -60,13 +61,46 @@
 			]
 		},
 		{
-			"ID": "20220830132904-1dvru8l",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220327141112.png\" alt=\"image-20220327140747656\"  /\u003e",
+			"ID": "20220924201529-04cv7ri",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830132904-1dvru8l",
-				"updated": "20220830132904"
-			}
+				"id": "20220924201529-04cv7ri",
+				"updated": "20220924201543"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220327141112.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830132904-fps5kt9",
@@ -937,13 +971,46 @@
 			]
 		},
 		{
-			"ID": "20220830132904-ne1fpme",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220328001602.png\" alt=\"image-20220328001551782\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924201556-u2piup5",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830132904-ne1fpme",
-				"updated": "20220830132904"
-			}
+				"id": "20220924201556-u2piup5",
+				"updated": "20220924201614"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220328001602.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830132904-0ozw5p6",
@@ -973,6 +1040,13 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20220924201622-a2oshva",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220924201622-a2oshva"
+			}
 		}
 	]
 }

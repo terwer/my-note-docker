@@ -1,0 +1,336 @@
+{
+	"ID": "20220925160007-s72xlup",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16729263",
+		"custom-desc": "backgroundjs的配置chromeruntimeonmessageaddlistener((requestsendersendresponse)={switch(requesttype){casefetchchromexmlrpc_(async()={constresponse=awaitfetch(requestapiurlrequestfetchcorsparams)_constrestext=awaitresponsetext()consolelog(restext)sendresponse",
+		"custom-slug": "chrome-plug-in-development-background_js-supports-cross-domain-requests-and-return-async-and-await-processing-z1siwqd",
+		"custom-vuepress-slug": "docs/002.前端开发/021.Chrome插件开发background_js支持跨域请求与返回async和await的处理.md",
+		"custom-wordpress-post-id": "4259",
+		"id": "20220925160007-s72xlup",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220925160007-rows80z\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220925160418-rtixt5j\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1687,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220925160301-2flxbdb\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:2286,\u0026amp;quot;focusEnd\u0026amp;quot;:2286}",
+		"tags": "请求,自定义,chrome,extension,插件,async",
+		"title": "021.Chrome插件开发background_js支持跨域请求与返回async和await的处理",
+		"updated": "20220925160427"
+	},
+	"Children": [
+		{
+			"ID": "20220925160007-rows80z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220925160007-rows80z",
+				"updated": "20220925160055"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "background.js的配置"
+				}
+			]
+		},
+		{
+			"ID": "20220925160056-bc3smd5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220925160056-bc3smd5",
+				"updated": "20220925160118"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "chrome.runtime.onMessage.addListener((request, sender, sendResponse) =\u003e {\n    switch (request.type) {\n        case 'fetchChromeXmlrpc':\n            (async () =\u003e {\n                const response = await fetch(request.apiUrl, request.fetchCORSParams);\n                const resText = await response.text()\n                // console.log(\"chrome.runtime.onMessage.addListener fetchChromeXmlrpc response:\", resText)\n                sendResponse(resText);\n            })();\n            break;\n        case 'fetchChromeJson':\n            (async () =\u003e {\n                const response = await fetch(request.apiUrl, request.fetchCORSOptions);\n                const resJson = await response.json()\n                console.log(\"chrome.runtime.onMessage.addListener fetchChromeJson response:\", resJson)\n                sendResponse(resJson);\n            })();\n            break;\n        // 你可以定义任意内容，使用sendResponse()来返回它\n        case 'test':\n            sendResponse({'msg': 'test'});\n            break;\n    }\n\n    return true; // keep the messaging channel open for sendResponse\n});\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220925160119-6lnvamj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220925160119-6lnvamj",
+				"updated": "20220925160126"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "minifist的权限"
+				}
+			]
+		},
+		{
+			"ID": "20220925160127-x1awt0f",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220925160127-x1awt0f",
+				"updated": "20220925160148"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "  \"host_permissions\": [ \"*://*/*\" ],\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220925160150-jhs8ulx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220925160150-jhs8ulx",
+				"updated": "20220925160154"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "完整的minifist"
+				}
+			]
+		},
+		{
+			"ID": "20220925160154-5v2a8xi",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220925160154-5v2a8xi",
+				"updated": "20220925160203"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"name\": \"思源笔记辅助工具\",\n  \"version\": \"1.0.0\",\n  \"manifest_version\": 3,\n  \"author\": \"terwer\",\n  \"description\": \"思源笔记辅助工具，支持博客式只读浏览，多平台文章发布。\",\n  \"background\": {\n    \"service_worker\": \"background.js\"\n  },\n  \"permissions\": [\n    \"activeTab\",\n    \"scripting\"\n  ],\n  \"host_permissions\": [ \"*://*/*\" ],\n  \"web_accessible_resources\": [\n    {\n      \"resources\": [\n        \"blog/index.html\",\n        \"detail/index.html\",\n        \"index.html\"\n      ],\n      \"matches\": [\n        \"\u003call_urls\u003e\"\n      ]\n    }\n  ],\n  \"action\": {\n    \"default_popup\": \"blog/index.html\"\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220925160205-bsykx9m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220925160205-bsykx9m",
+				"updated": "20220925160228"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后台请求结果封装"
+				}
+			]
+		},
+		{
+			"ID": "20220925160228-jj2oiz0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220925160228-jj2oiz0",
+				"updated": "20220925160246"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * 向Chrome发送消息\n * @param message 消息\n */\nexport function sendChromeMessage(message: any) {\n    return new Promise((resolve) =\u003e {\n        // @ts-ignore\n        chrome.runtime.sendMessage(message, resolve)\n    })\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220925160248-exy47y5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220925160248-exy47y5",
+				"updated": "20220925160253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解析请求数据"
+				}
+			]
+		},
+		{
+			"ID": "20220925160253-srowjvh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220925160253-srowjvh",
+				"updated": "20220925160415"
+			},
+			"Children": [
+				{
+					"ID": "20220925160256-irydhnr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220925160256-irydhnr",
+						"updated": "20220925160415"
+					},
+					"Children": [
+						{
+							"ID": "20220925160256-ed7klwq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220925160256-ed7klwq",
+								"updated": "20220925160258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "xmlrpc"
+								}
+							]
+						},
+						{
+							"ID": "20220925160301-2flxbdb",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220925160301-2flxbdb",
+								"updated": "20220925160415"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 自定义xmlrpc的请求与解析，解决apache xmlrpc的扩展问题\n * @param apiUrl\n * @param reqMethod\n * @param reqParams\n */\nexport async function fetchCustom(apiUrl: string, reqMethod: string, reqParams: Array\u003cstring\u003e) {\n    let ret\n\n    try {\n        const methodBodyXml = Serializer.serializeMethodCall(reqMethod, reqParams, \"utf8\")\n\n        // const response = await fetch(apiUrl, {\n        //     method: \"POST\",\n        //     headers: {\n        //         \"content-type\": \"text/xml\"\n        //     },\n        //     body: methodBodyXml\n        // })\n\n        const fetchCORSParams = {\n            method: \"POST\",\n            headers: {\n                \"content-type\": \"text/xml\"\n            },\n            body: methodBodyXml\n        }\n\n        const resXml = await sendChromeMessage({\n            // 里面的值应该可以自定义，用于判断哪个请求之类的\n            type: 'fetchChromeXmlrpc',\n            apiUrl: apiUrl, // 需要请求的url\n            fetchCORSParams: fetchCORSParams\n        });\n        logUtil.logInfo(\"fetchChromeXmlrpc resXml=\u003e\", resXml)\n\n        const parseResult: any = xmlParser.parse(resXml)\n        logUtil.logInfo(\"parseResult=\u003e\", parseResult)\n\n        const resJson = parseResult.methodResponse || {}\n        logUtil.logInfo(\"resJson=\u003e\", JSON.stringify(resJson))\n\n        return resJson\n    } catch (e: any) {\n        throw new Error(e)\n    }\n\n    return ret\n}\n\n/**\n * 兼容Chrome插件的xmlrpc API\n * @param apiUrl 端点\n * @param reqMethod 方法\n * @param reqParams 参数\n */\nprivate async fetchChromeCORS(apiUrl: string, reqMethod: string, reqParams: Array\u003cstring\u003e): Promise\u003cstring\u003e {\n    let result\n    logUtil.logInfo(\"fetchChrome apiUrl=\u003e\")\n    logUtil.logInfo(apiUrl)\n\n    const fetchCORSParams = {\n        reqMethod: reqMethod,\n        reqParams: reqParams\n    }\n    logUtil.logInfo(\"fetchChrome fetchCORSParams=\u003e\")\n    logUtil.logInfo(fetchCORSParams)\n\n    result = await fetchCustom(apiUrl, reqMethod, reqParams)\n    if (!result || result == \"\") {\n        throw new Error(\"请求错误或者返回结果为空\")\n    }\n    logUtil.logInfo(\"fetchCustom result=\u003e\", result)\n\n    // @ts-ignore\n    // const resText = await chrome.runtime.sendMessage({\n    //     // 里面的值应该可以自定义，用于判断哪个请求之类的\n    //     type: 'fetchChromeXmlrpc',\n    //     apiUrl: apiUrl, // 需要请求的url\n    //     fetchCORSParams: fetchCORSParams\n    // });\n    return result\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220925160258-158rpm8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220925160258-158rpm8",
+						"updated": "20220925160350"
+					},
+					"Children": [
+						{
+							"ID": "20220925160258-bkht9s8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220925160258-bkht9s8",
+								"updated": "20220925160300"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "json"
+								}
+							]
+						},
+						{
+							"ID": "20220925160327-ny34mkt",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220925160327-ny34mkt",
+								"updated": "20220925160350"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/**\n * 请求中转支持Chrome插件跨域\n * @param apiUrl 请求地址\n * @param fetchOptions 请求参数\n * @param formJson 可选，发送form请求才需要\n */\nprivate async fetchChromeCORS(apiUrl: string, fetchOptions: RequestInit, formJson?: any[]): Promise\u003cstring\u003e {\n    let result\n    logUtil.logInfo(\"fetchChrome apiUrl=\u003e\")\n    logUtil.logInfo(apiUrl)\n\n    const fetchCORSOptions = fetchOptions\n    // 如果是form请求，进行转换\n    if (formJson) {\n        // 将formJson转换为formData\n        const form = new URLSearchParams();\n        formJson.forEach((item: any) =\u003e {\n            form.append(item.key, item.value)\n        })\n        fetchCORSOptions.body = form\n    }\n    logUtil.logInfo(\"fetchChrome apiUrl=\u003e\", fetchCORSOptions)\n\n    const resJson = await sendChromeMessage({\n        // 里面的值应该可以自定义，用于判断哪个请求之类的\n        type: 'fetchChromeJson',\n        apiUrl: apiUrl, // 需要请求的url\n        fetchCORSOptions: fetchCORSOptions\n    });\n    logUtil.logInfo(\"fetchChromeJson resJson=\u003e\", resJson)\n\n    // @ts-ignore\n    return resJson;\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220925160418-rtixt5j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220925160418-rtixt5j",
+				"updated": "20220925160427"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "到此，完美实现。"
+				}
+			]
+		}
+	]
+}

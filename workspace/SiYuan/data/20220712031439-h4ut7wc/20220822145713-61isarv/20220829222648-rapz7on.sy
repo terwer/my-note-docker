@@ -1,20 +1,17 @@
 {
 	"ID": "20220829222648-rapz7on",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16637839",
 		"custom-desc": "代码实现续核心执行引擎executor的实现执行器的实现@name_simpleexecutor@author_terwer@date__classsimpleexecutor_executor{@throws(exception__class)overridefunquery(configuration_configurationmappedstatement_mappedstatementvarargparams_any)_list{注册驱动获取链接valconnection=configuratio",
-		"custom-jvue-post-id": "8008",
-		"custom-kms-post-id": "182ea452d91797f9d78011a4b499872f",
 		"custom-slug": "code-implementation-of-custom-persistence-layer-framework-2",
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/123.自定义持久层框架的代码实现二.md",
-		"custom-wordpress-post-id": "4153",
-		"custom-yuque-post-id": "91130023",
 		"id": "20220829222648-rapz7on",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220829223039-n8k4ahl\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220829223559-e6cbaiq\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:5595,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220829223039-9qdh768\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:499,\u0026amp;quot;focusEnd\u0026amp;quot;:499}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220829223039-n8k4ahl\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220829223559-e6cbaiq\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:4986,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220829223039-lugmgcm\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:2,\u0026amp;quot;focusEnd\u0026amp;quot;:2}",
 		"tags": "custom,dao,framework,persistence,mybatis,mybatis-4",
 		"title": "123.自定义持久层框架的代码实现二",
-		"updated": "20220830211836"
+		"updated": "20220924152555"
 	},
 	"Children": [
 		{
@@ -281,11 +278,11 @@
 			]
 		},
 		{
-			"ID": "20220829233555-v7p783g",
+			"ID": "20220924152536-bciehvl",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220829233555-v7p783g",
-				"updated": "20220829233609"
+				"id": "20220924152536-bciehvl",
+				"updated": "20220924152555"
 			},
 			"Children": [
 				{
@@ -386,30 +383,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "custom-persistence"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/terwer/senior-java-engineer-road/tree/master/p7-skill/framework/mybatis/custom-persistence"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/senior-java-engineer-road/tree/master/p7-skill/framework/mybatis/custom-persistence",
+					"TextMarkTextContent": "custom-persistence"
 				}
 			]
 		},

@@ -1,5 +1,6 @@
 {
 	"ID": "20220716192533-ytak3af",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "docker配置nginx支持httpsdockercompsoe的完整配置dockercomposeyml#构建dockercompose项目#dockercomposeloglevelinfoupbuild#dockercomposeloglevelinfoupdbuildversion_services_terwernginx_image_terwernginx_container_name_terwernginxbuild_context_terwernginxdockerfile_dockerf",

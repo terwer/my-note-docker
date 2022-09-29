@@ -1,5 +1,6 @@
 {
 	"ID": "20220720121644-d6sz2f2",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220720121644-d6sz2f2",
@@ -30,30 +31,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://www.52pojie.cn/thread-1660995-1-1.html"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://www.52pojie.cn/thread-1660995-1-1.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.52pojie.cn/thread-1660995-1-1.html",
+					"TextMarkTextContent": "https://www.52pojie.cn/thread-1660995-1-1.html"
 				}
 			]
 		},
@@ -66,25 +47,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"style": "color: var(--b3-font-color1);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "已过期"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "已过期"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",

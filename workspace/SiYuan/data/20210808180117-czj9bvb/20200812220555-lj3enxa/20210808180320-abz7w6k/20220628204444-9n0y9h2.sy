@@ -1,11 +1,11 @@
 {
 	"ID": "20220628204444-9n0y9h2",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220628204444-9n0y9h2",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220628204444-yil2u2m\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220901133149-fiy34nq\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:190,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220630211108-wlwci62\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:2,\u0026amp;quot;focusEnd\u0026amp;quot;:2}",
 		"title": "优化排版",
-		"updated": "20220901133149"
+		"updated": "20220916195228"
 	},
 	"Children": [
 		{
@@ -38,15 +38,21 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220628204604-qom7yyl",
-				"updated": "20220628205230"
+				"updated": "20220916195228"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "为了快速记录内容，我们时常会忽略一些排版细节，比如行内代码前后或者加粗前后缺少空格、中文和西文之间缺少空格。",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "为了快速记录内容，我们时常会忽略一些排版细节，比如"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "search-mark",
+					"TextMarkTextContent": "行"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "级代码前后或者加粗前后缺少空格、中文和西文之间缺少空格。"
 				}
 			]
 		},
@@ -105,31 +111,12 @@
 					}
 				},
 				{
-					"Type": "NodeKbd",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeKbdOpenMarker",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "...",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeKbdCloseMarker",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "kbd",
+					"TextMarkTextContent": "..."
 				},
 				{
 					"Type": "NodeText",
@@ -139,31 +126,12 @@
 					}
 				},
 				{
-					"Type": "NodeKbd",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeKbdOpenMarker",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "优化排版",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeKbdCloseMarker",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "kbd",
+					"TextMarkTextContent": "优化排版"
 				},
 				{
 					"Type": "NodeText",
@@ -180,7 +148,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220628205832-odovge3",
-				"updated": "20220628210303"
+				"updated": "20220916195220"
 			},
 			"Children": [
 				{
@@ -192,7 +160,7 @@
 					},
 					"Properties": {
 						"id": "20220628205833-kmfuhsp",
-						"updated": "20220628205833"
+						"updated": "20220916195218"
 					},
 					"Children": [
 						{
@@ -200,12 +168,17 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220628205833-iu4yxrq",
-								"updated": "20220628205855"
+								"updated": "20220916195218"
 							},
 							"Children": [
 								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "search-mark",
+									"TextMarkTextContent": "行"
+								},
+								{
 									"Type": "NodeText",
-									"Data": "行内代码"
+									"Data": "级代码"
 								}
 							]
 						}
@@ -220,7 +193,7 @@
 					},
 					"Properties": {
 						"id": "20220628205855-jp2ks1q",
-						"updated": "20220628210128"
+						"updated": "20220916195220"
 					},
 					"Children": [
 						{
@@ -228,12 +201,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220628205855-1gfuu51",
-								"updated": "20220628210245"
+								"updated": "20220916195220"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "行内公式"
+									"Data": "行级公式"
 								}
 							]
 						}
@@ -518,13 +491,6 @@
 					"Data": "进行回滚。"
 				}
 			]
-		},
-		{
-			"ID": "20220901133149-fiy34nq",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220901133149-fiy34nq"
-			}
 		}
 	]
 }

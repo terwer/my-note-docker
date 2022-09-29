@@ -1,5 +1,6 @@
 {
 	"ID": "20220716231441-fz7p86f",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220716231441-fz7p86f",
@@ -170,30 +171,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://www.cnblogs.com/oukele/p/12869137.html"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://www.cnblogs.com/oukele/p/12869137.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.cnblogs.com/oukele/p/12869137.html",
+					"TextMarkTextContent": "https://www.cnblogs.com/oukele/p/12869137.html"
 				}
 			]
 		},

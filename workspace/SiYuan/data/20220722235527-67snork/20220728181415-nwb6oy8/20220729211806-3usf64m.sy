@@ -1,5 +1,6 @@
 {
 	"ID": "20220729211806-3usf64m",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "vue的script和seup模式下ref的使用elinputvif=ref=vmodel=class=size=@keyupenter=@blur=注意变量名称与ref的名称保持一致就能自动获取tagrefinputconsttagrefinput=ref()_consttagshowinput=()={formdatavaluetaginputvisible=true刷新数据需要nexttickthisrefstagrefinputfocus()nexttick(()={tagrefinputvalu",
@@ -62,20 +63,9 @@
 					"Data": "Vue2 直接使用 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "this.$refs.tagRefInput.focus()"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "this.$refs.tagRefInput.focus()"
 				},
 				{
 					"Type": "NodeText",

@@ -1,5 +1,6 @@
 {
 	"ID": "20220715200116-ziq7i82",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;tags\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
@@ -310,78 +311,22 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://terwer.terwergreen.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://terwer.terwergreen.com"
-										},
-										{
-											"Type": "NodeLinkSpace"
-										},
-										{
-											"Type": "NodeLinkTitle",
-											"Data": "https://terwer.terwergreen.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://terwer.terwergreen.com",
+									"TextMarkATitle": "https://terwer.terwergreen.com",
+									"TextMarkTextContent": "https://terwer.terwergreen.com"
 								},
 								{
 									"Type": "NodeBr",
 									"Data": "br"
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://v4.terwergreen.com"
-										},
-										{
-											"Type": "NodeBr",
-											"Data": "br"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://v4.terwergreen.com\u003cbr/\u003e"
-										},
-										{
-											"Type": "NodeLinkSpace"
-										},
-										{
-											"Type": "NodeLinkTitle",
-											"Data": "https://v4.terwergreen.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://v4.terwergreen.com\u003cbr/\u003e",
+									"TextMarkATitle": "https://v4.terwergreen.com",
+									"TextMarkTextContent": "https://v4.terwergreen.com"
 								}
 							]
 						}
@@ -406,78 +351,18 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://terwer.terwergreen.com/api"
-										},
-										{
-											"Type": "NodeBr",
-											"Data": "br"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://terwer.terwergreen.com/api\u003cbr/\u003e"
-										},
-										{
-											"Type": "NodeLinkSpace"
-										},
-										{
-											"Type": "NodeLinkTitle",
-											"Data": "https://terwer.terwergreen.com/api"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://terwer.terwergreen.com/api\u003cbr/\u003e",
+									"TextMarkATitle": "https://terwer.terwergreen.com/api",
+									"TextMarkTextContent": "https://terwer.terwergreen.com/api"
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://v4.terwergreen.com/api"
-										},
-										{
-											"Type": "NodeBr",
-											"Data": "br"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://v4.terwergreen.com/api"
-										},
-										{
-											"Type": "NodeLinkSpace"
-										},
-										{
-											"Type": "NodeLinkTitle",
-											"Data": "https://v4.terwergreen.com/api"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://v4.terwergreen.com/api",
+									"TextMarkATitle": "https://v4.terwergreen.com/api",
+									"TextMarkTextContent": "https://v4.terwergreen.com/api"
 								}
 							]
 						}
@@ -502,37 +387,11 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://talk.terwergreen.com:8003"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://talk.terwergreen.com:8003"
-										},
-										{
-											"Type": "NodeLinkSpace"
-										},
-										{
-											"Type": "NodeLinkTitle",
-											"Data": "https://talk.terwergreen.com:8003"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://talk.terwergreen.com:8003",
+									"TextMarkATitle": "https://talk.terwergreen.com:8003",
+									"TextMarkTextContent": "https://talk.terwergreen.com:8003"
 								}
 							]
 						}
@@ -557,37 +416,11 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://siyuan.terwergreen.com:9000"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://siyuan.terwergreen.com:9000"
-										},
-										{
-											"Type": "NodeLinkSpace"
-										},
-										{
-											"Type": "NodeLinkTitle",
-											"Data": "https://siyuan.terwergreen.com:9000"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://siyuan.terwergreen.com:9000",
+									"TextMarkATitle": "https://siyuan.terwergreen.com:9000",
+									"TextMarkTextContent": "https://siyuan.terwergreen.com:9000"
 								}
 							]
 						}
@@ -612,37 +445,11 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "http://terwer.terwergreen.com:9999/plantuml/svg/~1"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "http://terwer.terwergreen.com:9999/plantuml/svg/~1"
-										},
-										{
-											"Type": "NodeLinkSpace"
-										},
-										{
-											"Type": "NodeLinkTitle",
-											"Data": "http://terwer.terwergreen.com:9999/plantuml/svg/~1"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "http://terwer.terwergreen.com:9999/plantuml/svg/~1",
+									"TextMarkATitle": "http://terwer.terwergreen.com:9999/plantuml/svg/~1",
+									"TextMarkTextContent": "http://terwer.terwergreen.com:9999/plantuml/svg/~1"
 								}
 							]
 						}
@@ -760,74 +567,18 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://terwergreen.com"
-										},
-										{
-											"Type": "NodeBr",
-											"Data": "br"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://terwergreen.com"
-										},
-										{
-											"Type": "NodeLinkSpace"
-										},
-										{
-											"Type": "NodeLinkTitle",
-											"Data": "https://terwergreen.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://terwergreen.com",
+									"TextMarkATitle": "https://terwergreen.com",
+									"TextMarkTextContent": "https://terwergreen.com"
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://www.terwergreen.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://www.terwergreen.com"
-										},
-										{
-											"Type": "NodeLinkSpace"
-										},
-										{
-											"Type": "NodeLinkTitle",
-											"Data": "https://www.terwergreen.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.terwergreen.com",
+									"TextMarkATitle": "https://www.terwergreen.com",
+									"TextMarkTextContent": "https://www.terwergreen.com"
 								}
 							]
 						}

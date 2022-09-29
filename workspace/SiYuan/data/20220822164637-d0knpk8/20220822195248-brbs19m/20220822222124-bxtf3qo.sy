@@ -1,5 +1,6 @@
 {
 	"ID": "20220822222124-bxtf3qo",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16627247",
@@ -271,34 +272,13 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": "",
 						"style": "color: var(--b3-font-color1);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "上面一个 object 转换为 Sample 会报 Class Not Found Exception，下面通过反射调用的可以正常打印结果。",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "上面一个 object 转换为 Sample 会报 Class Not Found Exception，下面通过反射调用的可以正常打印结果。"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",

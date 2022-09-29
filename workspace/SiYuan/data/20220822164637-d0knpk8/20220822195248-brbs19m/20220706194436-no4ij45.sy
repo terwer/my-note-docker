@@ -1,5 +1,6 @@
 {
 	"ID": "20220706194436-no4ij45",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "类加载器的父亲委托机制深度详解类加载器类加载器的父亲委托机制类加载器的父亲委托机制（parentdelegation）父子加载器不是继承关系子加载器不一定要继承父加载器。定义类加载器_如果某个类加载器能够加载一个类那么该加载器称为定义类加载器定义类加载器及其所有子类加载器都称做初始类加载器。当生成一个自定义的类加载器的实例时如果没有指定它的父加载器那么系统类加载器将成为该类加载器的父类加载器。类加载器的命名空间运行时包创建用户自定义的类加载器",
@@ -394,25 +395,12 @@
 					"Data": "定义类加载器：如果某个类加载器能够加载一个类，那么该加载器称为"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"style": "color: var(--b3-font-color1);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "定义类加载器"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "定义类加载器"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
@@ -423,25 +411,12 @@
 					"Data": "，定义类加载器及其所有子类加载器都称做"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"style": "color: var(--b3-font-color1);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "初始类加载器"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "初始类加载器"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",

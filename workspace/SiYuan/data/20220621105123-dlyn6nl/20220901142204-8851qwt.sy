@@ -1,5 +1,6 @@
 {
 	"ID": "20220901142204-8851qwt",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220901142204-8851qwt",
@@ -45,30 +46,10 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "https://zhuanlan.zhihu.com/p/413291933 - 知乎专栏"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://zhuanlan.zhihu.com/p/413291933"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zhuanlan.zhihu.com/p/413291933",
+									"TextMarkTextContent": "https://zhuanlan.zhihu.com/p/413291933 - 知乎专栏"
 								}
 							]
 						}

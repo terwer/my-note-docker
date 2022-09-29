@@ -1,5 +1,6 @@
 {
 	"ID": "20220804215109-50r7z1w",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "使用服务端缓存对getserversideprops进行缓存方法如下_thisvalueisconsideredfreshfortenseconds(smaxage=)ifarequestisrepeatedwithinthenextsecondsthepreviouslycachedvaluewillstillbefreshiftherequestisrepeatedbeforesecondsthecachedvaluewillbestalebutstillrender(stalewhilerevali",
@@ -98,30 +99,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props#caching-with-server-side-rendering-ssr"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props#caching-with-server-side-rendering-ssr"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props#caching-with-server-side-rendering-ssr",
+					"TextMarkTextContent": "https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props#caching-with-server-side-rendering-ssr"
 				}
 			]
 		},

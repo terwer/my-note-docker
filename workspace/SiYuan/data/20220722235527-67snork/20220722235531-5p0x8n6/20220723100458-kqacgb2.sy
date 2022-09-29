@@ -1,5 +1,6 @@
 {
 	"ID": "20220723100458-kqacgb2",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16606370",
@@ -383,30 +384,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/intlify/vue-i18n-next/issues/350"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/intlify/vue-i18n-next/issues/350"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/intlify/vue-i18n-next/issues/350",
+					"TextMarkTextContent": "https://github.com/intlify/vue-i18n-next/issues/350"
 				}
 			]
 		},
@@ -419,30 +400,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://stackoverflow.com/questions/56854403/vue-i18n-how-to-keep-language-after-refresh-access-i18n-locale-in-js-runtime"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://stackoverflow.com/questions/56854403/vue-i18n-how-to-keep-language-after-refresh-access-i18n-locale-in-js-runtime"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://stackoverflow.com/questions/56854403/vue-i18n-how-to-keep-language-after-refresh-access-i18n-locale-in-js-runtime",
+					"TextMarkTextContent": "https://stackoverflow.com/questions/56854403/vue-i18n-how-to-keep-language-after-refresh-access-i18n-locale-in-js-runtime"
 				}
 			]
 		},

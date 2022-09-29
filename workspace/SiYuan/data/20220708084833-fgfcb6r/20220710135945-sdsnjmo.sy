@@ -1,5 +1,6 @@
 {
 	"ID": "20220710135945-sdsnjmo",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_publish_status\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_post_password\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:false}]",
@@ -30,20 +31,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "atlassian"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "atlassian"
 				}
 			]
 		},
@@ -56,22 +46,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "confluence"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "confluence"
 				}
 			]
 		},
@@ -84,22 +61,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "terwer/105036"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "terwer/105036"
 				}
 			]
 		},
@@ -112,22 +76,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "jira"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "jira"
 				}
 			]
 		},
@@ -140,22 +91,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "terwer/105036"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "terwer/105036"
 				}
 			]
 		},
@@ -169,20 +107,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "MySQL数据库"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "MySQL数据库"
 				}
 			]
 		},
@@ -195,22 +122,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "root/123456"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "root/123456"
 				}
 			]
 		},
@@ -223,22 +137,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "terwer/105036"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "terwer/105036"
 				}
 			]
 		},
@@ -266,22 +167,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "terwer/CBGtyw105036"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "terwer/CBGtyw105036"
 				}
 			]
 		},
@@ -336,20 +224,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "mysql_openEuler"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "mysql_openEuler"
 				}
 			]
 		},
@@ -362,22 +239,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "root/123456"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "root/123456"
 				}
 			]
 		},
@@ -420,30 +284,10 @@
 					"Data": "**远程链接关防火墙      **  **\n**"
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "http://wiki.terwergreen.com:8090/pages/viewpage.action?pageId=2523171#%E9%98%B2%E7%81%AB%E5%A2%99"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "http://wiki.terwergreen.com:8090/pages/viewpage.action?pageId=2523171#%E9%98%B2%E7%81%AB%E5%A2%99"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://wiki.terwergreen.com:8090/pages/viewpage.action?pageId=2523171#%E9%98%B2%E7%81%AB%E5%A2%99",
+					"TextMarkTextContent": "http://wiki.terwergreen.com:8090/pages/viewpage.action?pageId=2523171#%E9%98%B2%E7%81%AB%E5%A2%99"
 				}
 			]
 		},
@@ -457,20 +301,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "nginx_openEuler"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "nginx_openEuler"
 				}
 			]
 		},
@@ -483,22 +316,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "卸载"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "卸载"
 				}
 			]
 		},
@@ -538,20 +358,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "RockyLinux"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "RockyLinux"
 				}
 			]
 		},
@@ -564,22 +373,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "root/CBGtyw105036"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "root/CBGtyw105036"
 				}
 			]
 		},
@@ -592,22 +388,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "terwer/CBGtyw105036"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "terwer/CBGtyw105036"
 				}
 			]
 		},
@@ -621,20 +404,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Fedora"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "Fedora"
 				}
 			]
 		},
@@ -647,22 +419,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "root/CBGtyw105036"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "root/CBGtyw105036"
 				}
 			]
 		},
@@ -675,22 +434,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "terwer/CBGtyw105036"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "terwer/CBGtyw105036"
 				}
 			]
 		},
@@ -704,20 +450,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "本地Mac使用homebrew安装的Nginx"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "本地Mac使用homebrew安装的Nginx"
 				}
 			]
 		}

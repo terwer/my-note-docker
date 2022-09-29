@@ -1,5 +1,6 @@
 {
 	"ID": "20220724172444-16a2oc1",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16611555",
@@ -86,20 +87,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "或者全局安装"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "或者全局安装"
 				}
 			]
 		},
@@ -139,20 +129,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeUnderline",
-					"Data": "u",
-					"Children": [
-						{
-							"Type": "NodeUnderlineOpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "注意：全局安装需要把yarn的全局目录添加到Windows的path，查找path命令如下"
-						},
-						{
-							"Type": "NodeUnderlineCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "u",
+					"TextMarkTextContent": "注意：全局安装需要把yarn的全局目录添加到Windows的path，查找path命令如下"
 				}
 			]
 		},
@@ -192,20 +171,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "不建议全局安装，很多时候以来都成问题"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "不建议全局安装，很多时候以来都成问题"
 				}
 			]
 		},
@@ -411,30 +379,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://babeljs.io/docs/en/babel-preset-env"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://babeljs.io/docs/en/babel-preset-env"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://babeljs.io/docs/en/babel-preset-env",
+					"TextMarkTextContent": "https://babeljs.io/docs/en/babel-preset-env"
 				}
 			]
 		},

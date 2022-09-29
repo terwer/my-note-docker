@@ -1,0 +1,155 @@
+{
+	"ID": "20220928005206-8knscjg",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16736606",
+		"custom-desc": "重启mysqlservicemysqlstopservicemysqlstartservicemysqlrestart创建mysql用户并允许远程访问createuserterwer@%identifiedby_grantallprivilegesontoterwer@%withgrantoption_flushprivileges_关闭防火墙systemctlstopfirewalld_systemctlstopiptables_‍",
+		"custom-metaweblog-osc-post-id": "5580996",
+		"custom-slug": "mysql-related-matters-zd1a1z",
+		"custom-vuepress-slug": "docs/003.经验分享/64.MySQL相关事项.md",
+		"custom-wordpress-post-id": "4261",
+		"custom-yuque-post-id": "95364040_terwer/note",
+		"id": "20220928005206-8knscjg",
+		"tags": "重启,创建,用户,允许,远程",
+		"title": "64.MySQL相关事项",
+		"updated": "20220928030245"
+	},
+	"Children": [
+		{
+			"ID": "20220928005531-zh04ouv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220928005531-zh04ouv",
+				"updated": "20220928005540"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "重启MySQL"
+				}
+			]
+		},
+		{
+			"ID": "20220928005541-z1ptf7w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220928005541-z1ptf7w",
+				"updated": "20220928005724"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "service mysql stop\nservice mysql start\n\nservice mysql restart\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220928005603-4yb0vvn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220928005603-4yb0vvn",
+				"updated": "20220928005623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建MySQL用户并允许远程访问"
+				}
+			]
+		},
+		{
+			"ID": "20220928005206-rq6ry7m",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220928005206-rq6ry7m",
+				"updated": "20220928005222"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "CREATE USER 'terwer'@'%' IDENTIFIED BY '123456';\nGRANT ALL PRIVILEGES ON *.* TO 'terwer'@'%' WITH GRANT OPTION;\nflush privileges;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220928005222-wp096g8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220928005222-wp096g8",
+				"updated": "20220928005520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关闭防火墙"
+				}
+			]
+		},
+		{
+			"ID": "20220928005520-y8yjbog",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220928005520-y8yjbog",
+				"updated": "20220928005527"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "systemctl stop firewalld;\nsystemctl stop iptables;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220928030245-pd92064",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1145px; height: 660px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220928030245-pd92064",
+				"updated": "20220928030245"
+			}
+		}
+	]
+}

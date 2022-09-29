@@ -1,5 +1,6 @@
 {
 	"ID": "20220902182130-vc4204e",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "实现代码chkcontainer{display_inlineblock_position_relative_cursor_pointer_fontsize_px_}hidethedefaultcheckboxchkcontainerinput{visibility_hidden_cursor_pointer_}createacustomcheckboxchkcontainermark{position_absolute_top__left__height_px_width_px_backgroundco",

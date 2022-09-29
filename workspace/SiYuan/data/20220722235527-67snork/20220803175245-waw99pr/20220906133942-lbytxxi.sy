@@ -1,5 +1,6 @@
 {
 	"ID": "20220906133942-lbytxxi",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "精华strutsspringhibernate_配置步骤net日志记录框架lognet使用总结java系列javase系列java学习笔记_【】win下jdk的下载与安装第一个java程序的编译与执行java学习笔记_【】centos下jdk的下载与安装第一个java程序的编译与执行重拾java学习笔记_java中的关键字重拾java学习笔记_【】用java在记事本中写一个最简单的helloworld程序java学习笔记【】一个简单的applet程序重拾java学习笔记_【】重温gui形式的hellowo",
@@ -51,30 +52,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Struts2.3.4.1 Spring3.2.3 Hibernate4.1.9_配置步骤"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/ssh2.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/ssh2.html",
+					"TextMarkTextContent": "Struts2.3.4.1 Spring3.2.3 Hibernate4.1.9_配置步骤"
 				}
 			]
 		},
@@ -87,30 +68,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": ".NET日志记录框架Log4Net使用总结"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/net-log4net-logging-framework-summary.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/net-log4net-logging-framework-summary.html",
+					"TextMarkTextContent": ".NET日志记录框架Log4Net使用总结"
 				}
 			]
 		},
@@ -157,30 +118,10 @@
 					"Data": "1 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Java学习笔记001：【1.1】Win7下JDK的下载与安装、第一个Java程序的编译与执行"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/java-learning-notes-001-1-0-introduction-to-java-se-download-and-install-jdk-first-compilation-and-execution-of-java-programs-java-programs.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/java-learning-notes-001-1-0-introduction-to-java-se-download-and-install-jdk-first-compilation-and-execution-of-java-programs-java-programs.html",
+					"TextMarkTextContent": "Java学习笔记001：【1.1】Win7下JDK的下载与安装、第一个Java程序的编译与执行"
 				}
 			]
 		},
@@ -211,30 +152,10 @@
 					"Data": "1 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "重拾Java学习笔记001:java中的关键字"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/java-keywords-in-the-study-notes-001.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/java-keywords-in-the-study-notes-001.html",
+					"TextMarkTextContent": "重拾Java学习笔记001:java中的关键字"
 				}
 			]
 		},
@@ -251,30 +172,10 @@
 					"Data": "2 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "重拾Java学习笔记001:【1.1】用Java在记事本中写一个最简单的HelloWorld程序"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/java-again-learn-note-001-1-1-in-notepad-write-a-simple-helloworld-java-program.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/java-again-learn-note-001-1-1-in-notepad-write-a-simple-helloworld-java-program.html",
+					"TextMarkTextContent": "重拾Java学习笔记001:【1.1】用Java在记事本中写一个最简单的HelloWorld程序"
 				}
 			]
 		},
@@ -291,30 +192,10 @@
 					"Data": "3 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Java学习笔记001-【1.2】一个简单的Applet程序"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/a-simple-applet.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/a-simple-applet.html",
+					"TextMarkTextContent": "Java学习笔记001-【1.2】一个简单的Applet程序"
 				}
 			]
 		},
@@ -331,30 +212,10 @@
 					"Data": "4 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "重拾Java学习笔记001:【1.3】重温GUI形式的Hello world"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/java-again-learn-note-001-1-3-reliving-gui-hello-world.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/java-again-learn-note-001-1-3-reliving-gui-hello-world.html",
+					"TextMarkTextContent": "重拾Java学习笔记001:【1.3】重温GUI形式的Hello world"
 				}
 			]
 		},
@@ -371,30 +232,10 @@
 					"Data": "5 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "重拾Java学习笔记002：java中的注解深度剖析"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/back-to-java-study-notes-002java-notes-in-depth-analysis.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/back-to-java-study-notes-002java-notes-in-depth-analysis.html",
+					"TextMarkTextContent": "重拾Java学习笔记002：java中的注解深度剖析"
 				}
 			]
 		},
@@ -425,30 +266,10 @@
 					"Data": "7 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "重拾Java学习笔记004：Java泛型高级进阶"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/restore-java-study-notes-004java-a-generic-high-advanced.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/restore-java-study-notes-004java-a-generic-high-advanced.html",
+					"TextMarkTextContent": "重拾Java学习笔记004：Java泛型高级进阶"
 				}
 			]
 		},
@@ -465,30 +286,10 @@
 					"Data": "8 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "重拾Java学习笔记005：解读Java中的Object类"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/restore-java-learning-notes-005-interpretation-of-object-classes-in-java.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/restore-java-learning-notes-005-interpretation-of-object-classes-in-java.html",
+					"TextMarkTextContent": "重拾Java学习笔记005：解读Java中的Object类"
 				}
 			]
 		},
@@ -651,30 +452,10 @@
 					"Data": "050 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Spring学习笔记050:Spring MVC入门:Hello World"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/spring-learning-notes-050-getting-started-with-spring-mvc-hello-worldo.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/spring-learning-notes-050-getting-started-with-spring-mvc-hello-worldo.html",
+					"TextMarkTextContent": "Spring学习笔记050:Spring MVC入门:Hello World"
 				}
 			]
 		},
@@ -763,30 +544,10 @@
 					"Data": "024 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Android学习笔记004： Android 进程生命周期 Process Lifecycle"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/android-learning-notes-004-android-process-life-cycle.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/android-learning-notes-004-android-process-life-cycle.html",
+					"TextMarkTextContent": "Android学习笔记004： Android 进程生命周期 Process Lifecycle"
 				}
 			]
 		},
@@ -845,30 +606,10 @@
 					"Data": "028 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Android模拟器（AVD）快捷键"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/android-emulator-avd-shortcuts.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/android-emulator-avd-shortcuts.html",
+					"TextMarkTextContent": "Android模拟器（AVD）快捷键"
 				}
 			]
 		},
@@ -900,30 +641,10 @@
 					"Data": "1 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Asp .Net Mvc4学习笔记010：ASP.NET MVC 的依赖注入"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/asp-net-mvc4-study-notes-004-asp-net-mvc-dependency-injection.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/asp-net-mvc4-study-notes-004-asp-net-mvc-dependency-injection.html",
+					"TextMarkTextContent": "Asp .Net Mvc4学习笔记010：ASP.NET MVC 的依赖注入"
 				}
 			]
 		},
@@ -998,30 +719,10 @@
 					"Data": "004 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "c#学习笔记004：Object类详解"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/c学习笔记004：object类详解.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/c学习笔记004：object类详解.html",
+					"TextMarkTextContent": "c#学习笔记004：Object类详解"
 				}
 			]
 		},
@@ -1038,30 +739,10 @@
 					"Data": "005 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "c#学习笔记005：Byte数据类型"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/c-learning-notes-005byte-data-types.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/c-learning-notes-005byte-data-types.html",
+					"TextMarkTextContent": "c#学习笔记005：Byte数据类型"
 				}
 			]
 		},
@@ -1078,50 +759,21 @@
 					"Data": "006 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "c"
-						},
-						{
-							"Type": "NodeTag",
-							"Data": "span",
-							"Children": [
-								{
-									"Type": "NodeTagOpenMarker"
-								},
-								{
-									"Type": "NodeText",
-									"Data": "学习笔记006：c"
-								},
-								{
-									"Type": "NodeTagCloseMarker"
-								}
-							]
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "中const与readonly区别"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/learning-csharp-note-006-c-difference-between-const-and-readonly.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/learning-csharp-note-006-c-difference-between-const-and-readonly.html",
+					"TextMarkTextContent": "c"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/learning-csharp-note-006-c-difference-between-const-and-readonly.html",
+					"TextMarkTextContent": "中const与readonly区别"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a tag",
+					"TextMarkTextContent": "学习笔记006：c"
 				}
 			]
 		},
@@ -1168,30 +820,10 @@
 					"Data": "001 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": ".NET Core 5学习笔记001：拥抱开源时代"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/net-core-5-learn-note-001-embracing-the-open-source-era.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/net-core-5-learn-note-001-embracing-the-open-source-era.html",
+					"TextMarkTextContent": ".NET Core 5学习笔记001：拥抱开源时代"
 				}
 			]
 		},
@@ -1268,30 +900,10 @@
 					"Data": "1 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "《SQL必知必会》阅读笔记"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/the-sql-must-know-it-will-read-the-notes.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/the-sql-must-know-it-will-read-the-notes.html",
+					"TextMarkTextContent": "《SQL必知必会》阅读笔记"
 				}
 			]
 		},
@@ -1336,30 +948,10 @@
 					"Data": "22 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "SQL Server学习笔记022：多表关联批量更新"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/sql-server-learning-note-022-associated-bulk-updates.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/sql-server-learning-note-022-associated-bulk-updates.html",
+					"TextMarkTextContent": "SQL Server学习笔记022：多表关联批量更新"
 				}
 			]
 		},
@@ -1376,30 +968,10 @@
 					"Data": "23 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "SQL Server学习笔记023：批量插入"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/sql-server-learning-notes-023-bulk-insert.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/sql-server-learning-notes-023-bulk-insert.html",
+					"TextMarkTextContent": "SQL Server学习笔记023：批量插入"
 				}
 			]
 		},
@@ -1416,30 +988,10 @@
 					"Data": "24 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "SQL Server学习笔记024：构造分隔字符串并联合成临时表"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/sql-server-learning-note-024-and-jointly-constructing-a-delimited-string-into-a-temporary-table.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/sql-server-learning-note-024-and-jointly-constructing-a-delimited-string-into-a-temporary-table.html",
+					"TextMarkTextContent": "SQL Server学习笔记024：构造分隔字符串并联合成临时表"
 				}
 			]
 		},
@@ -1484,30 +1036,10 @@
 					"Data": "27 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "SQL Server学习笔记027：多行转换为一行"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/sql-server-learning-notes-027-multiple-rows-into-one.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/sql-server-learning-notes-027-multiple-rows-into-one.html",
+					"TextMarkTextContent": "SQL Server学习笔记027：多行转换为一行"
 				}
 			]
 		},
@@ -1524,30 +1056,10 @@
 					"Data": "28 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "SQL Server学习笔记028：SQL Server实现Split函数将字符串分隔转换成数据表"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/sql-server-implement-a-split-function-to-convert-a-string-to-separate-the-data-table.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/sql-server-implement-a-split-function-to-convert-a-string-to-separate-the-data-table.html",
+					"TextMarkTextContent": "SQL Server学习笔记028：SQL Server实现Split函数将字符串分隔转换成数据表"
 				}
 			]
 		},
@@ -1564,30 +1076,10 @@
 					"Data": "29 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "SQL Server学习笔记029：SQL Server使用表变量解决不能在函数内使用临时表的问题"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/sql-server-solution-not-within-a-function-using-table-variables-use-temporary-table-problems.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/sql-server-solution-not-within-a-function-using-table-variables-use-temporary-table-problems.html",
+					"TextMarkTextContent": "SQL Server学习笔记029：SQL Server使用表变量解决不能在函数内使用临时表的问题"
 				}
 			]
 		},
@@ -1604,30 +1096,10 @@
 					"Data": "30 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "SQL Server学习笔记030：深入理解SQL Server之nolock关键字"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/understanding-sql-server-keyword-nolock.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/understanding-sql-server-keyword-nolock.html",
+					"TextMarkTextContent": "SQL Server学习笔记030：深入理解SQL Server之nolock关键字"
 				}
 			]
 		},
@@ -1644,30 +1116,10 @@
 					"Data": "31 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "SQL Server学习笔记031：SQL Server使用常见误区"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/sql-server-uses-common-errors.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/sql-server-uses-common-errors.html",
+					"TextMarkTextContent": "SQL Server学习笔记031：SQL Server使用常见误区"
 				}
 			]
 		},
@@ -1684,30 +1136,10 @@
 					"Data": "32 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "SQL Server学习笔记032：SQL SERVER使用游标构造SkuMap"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/sql-server-uses-a-cursor-structure-skumap.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/sql-server-uses-a-cursor-structure-skumap.html",
+					"TextMarkTextContent": "SQL Server学习笔记032：SQL SERVER使用游标构造SkuMap"
 				}
 			]
 		},
@@ -1792,30 +1224,10 @@
 					"Data": "040 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Entityframework中使用LINQ比较日期和时间"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/use-entityframework-linq-to-compare-date-and-time.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/use-entityframework-linq-to-compare-date-and-time.html",
+					"TextMarkTextContent": "Entityframework中使用LINQ比较日期和时间"
 				}
 			]
 		},
@@ -1928,30 +1340,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Winform学习笔记004：窗口最小化"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/winform-study-notes-004-windows-minimize.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/winform-study-notes-004-windows-minimize.html",
+					"TextMarkTextContent": "Winform学习笔记004：窗口最小化"
 				}
 			]
 		},
@@ -1964,30 +1356,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Winform学习笔记005：Winform中打开网页"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/winform-study-notes-open-page-in-005winform.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/winform-study-notes-open-page-in-005winform.html",
+					"TextMarkTextContent": "Winform学习笔记005：Winform中打开网页"
 				}
 			]
 		},
@@ -2000,30 +1372,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Winform学习笔记006：菜单鼠标移入移出效果"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/winform-study-notes-006-menu-move-the-mouse-to-move-the-effects.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/winform-study-notes-006-menu-move-the-mouse-to-move-the-effects.html",
+					"TextMarkTextContent": "Winform学习笔记006：菜单鼠标移入移出效果"
 				}
 			]
 		},
@@ -2036,30 +1388,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Winform学习笔记007：菜单点击切换事件"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/winform-note-007-menu-click-the-toggle-event.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/winform-note-007-menu-click-the-toggle-event.html",
+					"TextMarkTextContent": "Winform学习笔记007：菜单点击切换事件"
 				}
 			]
 		},
@@ -2106,30 +1438,10 @@
 					"Data": "001 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "JavaScript/JQuery插件化开发001:开篇"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/javascript-jquery-plugin-development-001-introduction.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/javascript-jquery-plugin-development-001-introduction.html",
+					"TextMarkTextContent": "JavaScript/JQuery插件化开发001:开篇"
 				}
 			]
 		},
@@ -2310,30 +1622,10 @@
 					"Data": "001 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Libcurl学习笔记001：初探libcurl"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/libcurl-note-001-study-on-libcurl.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/libcurl-note-001-study-on-libcurl.html",
+					"TextMarkTextContent": "Libcurl学习笔记001：初探libcurl"
 				}
 			]
 		},
@@ -2365,30 +1657,10 @@
 					"Data": "001 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "浅谈HTML5之viewport标签"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/talking-about-the-viewport-of-the-html5-tag.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/talking-about-the-viewport-of-the-html5-tag.html",
+					"TextMarkTextContent": "浅谈HTML5之viewport标签"
 				}
 			]
 		},
@@ -2572,30 +1844,10 @@
 					"Data": "001 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Xpshop2012的下载安装与配置"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/001-xpshop2012-the-download-installation-and-configuration.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/001-xpshop2012-the-download-installation-and-configuration.html",
+					"TextMarkTextContent": "Xpshop2012的下载安装与配置"
 				}
 			]
 		},
@@ -2622,30 +1874,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "003 XpShop数据库分析之Orders表：Orders"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/xpshop-analysis-003-database-orders-table-orders.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/xpshop-analysis-003-database-orders-table-orders.html",
+					"TextMarkTextContent": "003 XpShop数据库分析之Orders表：Orders"
 				}
 			]
 		},
@@ -2658,30 +1890,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "101 XpVShop的整体结构分析"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/101-xpvshop的整体结构分析.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/101-xpvshop的整体结构分析.html",
+					"TextMarkTextContent": "101 XpVShop的整体结构分析"
 				}
 			]
 		},
@@ -2797,30 +2009,10 @@
 					"Data": "电商平台实战020："
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "电商平台实战之门店防伪码需求解决方案"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/e-commerce-platform-to-store-the-security-code-of-the-actual-demand-solutions.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/e-commerce-platform-to-store-the-security-code-of-the-actual-demand-solutions.html",
+					"TextMarkTextContent": "电商平台实战之门店防伪码需求解决方案"
 				}
 			]
 		},
@@ -2837,30 +2029,10 @@
 					"Data": "电商平台实战021："
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "电商平台实战之门店库存分配策略"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/actual-store-inventory-allocation-strategy-of-e-commerce-platform.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/actual-store-inventory-allocation-strategy-of-e-commerce-platform.html",
+					"TextMarkTextContent": "电商平台实战之门店库存分配策略"
 				}
 			]
 		},
@@ -2877,30 +2049,10 @@
 					"Data": "电商平台实战022："
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "电商平台实战之库存与ERP对接解决方案"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/e-commerce-platform-to-combat-the-stock-dock-with-the-erp-solution.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/e-commerce-platform-to-combat-the-stock-dock-with-the-erp-solution.html",
+					"TextMarkTextContent": "电商平台实战之库存与ERP对接解决方案"
 				}
 			]
 		},
@@ -3091,30 +2243,10 @@
 					"Data": "001 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Spring MVC入门:Hello World"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/spring-learning-notes-050-getting-started-with-spring-mvc-hello-worldo.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/spring-learning-notes-050-getting-started-with-spring-mvc-hello-worldo.html",
+					"TextMarkTextContent": "Spring MVC入门:Hello World"
 				}
 			]
 		},
@@ -3330,30 +2462,10 @@
 									"Data": "4.1 "
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "初探Wordpress XML-RPC api"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "/study-on-the-wordpress-xml-rpc-api.html"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "/study-on-the-wordpress-xml-rpc-api.html",
+									"TextMarkTextContent": "初探Wordpress XML-RPC api"
 								}
 							]
 						}
@@ -3409,30 +2521,10 @@
 									"Data": "5.1 "
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "OneBlog开发系列之欢迎页面"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "/oneblog-development-series-of-the-welcome-page.html"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "/oneblog-development-series-of-the-welcome-page.html",
+									"TextMarkTextContent": "OneBlog开发系列之欢迎页面"
 								},
 								{
 									"Type": "NodeBr",

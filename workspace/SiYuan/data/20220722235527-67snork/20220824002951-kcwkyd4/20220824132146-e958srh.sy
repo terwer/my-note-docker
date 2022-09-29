@@ -1,5 +1,6 @@
 {
 	"ID": "20220824132146-e958srh",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220824132146-e958srh",
@@ -17,54 +18,13 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://v3.nuxtjs.org/guide/deploy/providers/vercel/",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://v3.nuxtjs.org/guide/deploy/providers/vercel/",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://v3.nuxtjs.org/guide/deploy/providers/vercel/",
+					"TextMarkTextContent": "https://v3.nuxtjs.org/guide/deploy/providers/vercel/"
 				}
 			]
 		},
@@ -203,34 +163,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "nuxt.config.js",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "nuxt.config.js"
 				},
 				{
 					"Type": "NodeText",
@@ -359,34 +297,13 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": "",
 						"style": "color: var(--b3-font-color1);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "build 目录必须是",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "build 目录必须是"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
@@ -536,53 +453,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://dev.to/mihaiandrei97/nuxt3-app-serverless-api-on-vercel-53dm",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkTextContent": "https://dev.to/mihaiandrei97/nuxt3-app-serverless-api-on-vercel-53dm"
 				}
 			]
 		},

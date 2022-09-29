@@ -1,5 +1,6 @@
 {
 	"ID": "20220817160201-l1hbzje",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16596225",
@@ -65,22 +66,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "vite-下一代前端工具"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "vite-下一代前端工具"
 				}
 			]
 		},
@@ -227,25 +215,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"style": "color: var(--b3-font-color7);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "不鼓励在浏览器项目中使用 Node.js 内置和全局变量（es util 或 process），但有时您需要使用一些依赖包来使用它们。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "不鼓励在浏览器项目中使用 Node.js 内置和全局变量（es util 或 process），但有时您需要使用一些依赖包来使用它们。"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
@@ -294,20 +269,9 @@
 					"Data": "这是 Vite 配置文件："
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "vite.config.js"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "vite.config.js"
 				}
 			]
 		},
@@ -390,30 +354,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://medium.com/@ftaioli/using-node-js-builtin-modules-with-vite-6194737c2cd2"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://medium.com/@ftaioli/using-node-js-builtin-modules-with-vite-6194737c2cd2"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://medium.com/@ftaioli/using-node-js-builtin-modules-with-vite-6194737c2cd2",
+					"TextMarkTextContent": "https://medium.com/@ftaioli/using-node-js-builtin-modules-with-vite-6194737c2cd2"
 				}
 			]
 		},
@@ -426,30 +370,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/vitejs/vite/issues/9511"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/vitejs/vite/issues/9511"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/vitejs/vite/issues/9511",
+					"TextMarkTextContent": "https://github.com/vitejs/vite/issues/9511"
 				}
 			]
 		},

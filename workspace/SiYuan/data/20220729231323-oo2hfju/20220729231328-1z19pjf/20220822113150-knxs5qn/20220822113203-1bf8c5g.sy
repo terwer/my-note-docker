@@ -1,8 +1,10 @@
 {
 	"ID": "20220822113203-1bf8c5g",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220822113203-1bf8c5g",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220822113402-3b8ga2u\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220822113402-9fq1k81\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220822113402-3b8ga2u\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"title": "发版说明",
 		"updated": "20220822113405"
 	},
@@ -63,30 +65,10 @@
 					"Data": "ALso provide a "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "common API adaptor"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/terwer/src-sy-post-publisher/blob/main/src/lib/api.ts"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/blob/main/src/lib/api.ts",
+					"TextMarkTextContent": "common API adaptor"
 				},
 				{
 					"Type": "NodeText",
@@ -112,30 +94,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "中文版说明"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "README-zh_CN.md"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "README-zh_CN.md",
+					"TextMarkTextContent": "中文版说明"
 				}
 			]
 		},
@@ -228,20 +190,9 @@
 									"Data": "Cnblogs-relay on v0.0.2 version，"
 								},
 								{
-									"Type": "NodeStrikethrough",
-									"Data": "s",
-									"Children": [
-										{
-											"Type": "NodeStrikethrough2OpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "will release on 2022-10-31"
-										},
-										{
-											"Type": "NodeStrikethrough2CloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "will release on 2022-10-31"
 								},
 								{
 									"Type": "NodeText",
@@ -281,20 +232,9 @@
 									"Data": "Liandi-relay on v0.0.2 version，"
 								},
 								{
-									"Type": "NodeStrikethrough",
-									"Data": "s",
-									"Children": [
-										{
-											"Type": "NodeStrikethrough2OpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "will release on 2022-10-31"
-										},
-										{
-											"Type": "NodeStrikethrough2CloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "will release on 2022-10-31"
 								},
 								{
 									"Type": "NodeText",
@@ -334,20 +274,9 @@
 									"Data": "Yueque-relay on v0.0.2 version，"
 								},
 								{
-									"Type": "NodeStrikethrough",
-									"Data": "s",
-									"Children": [
-										{
-											"Type": "NodeStrikethrough2OpenMarker"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "will release on 2022-10-31"
-										},
-										{
-											"Type": "NodeStrikethrough2CloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "s",
+									"TextMarkTextContent": "will release on 2022-10-31"
 								},
 								{
 									"Type": "NodeText",
@@ -449,30 +378,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Click here to view development progress"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/users/terwer/projects/1/views/1"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/users/terwer/projects/1/views/1",
+					"TextMarkTextContent": "Click here to view development progress"
 				}
 			]
 		},
@@ -528,30 +437,10 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "#15"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/terwer/src-sy-post-publisher/issues/15"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/15",
+									"TextMarkTextContent": "#15"
 								},
 								{
 									"Type": "NodeText",
@@ -596,30 +485,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#18"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/18"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/18",
+													"TextMarkTextContent": "#18"
 												},
 												{
 													"Type": "NodeText",
@@ -655,60 +524,20 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#24"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/24"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/24",
+													"TextMarkTextContent": "#24"
 												},
 												{
 													"Type": "NodeText",
 													"Data": " Non-pendant server version, you need to pass the document ID. It is recommended to cooperate with my other work "
 												},
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "node-siyuan"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/node-siyuan"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/node-siyuan",
+													"TextMarkTextContent": "node-siyuan"
 												},
 												{
 													"Type": "NodeText",
@@ -744,30 +573,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#25"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/25"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/25",
+													"TextMarkTextContent": "#25"
 												},
 												{
 													"Type": "NodeText",
@@ -803,30 +612,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#38"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/38"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/38",
+													"TextMarkTextContent": "#38"
 												},
 												{
 													"Type": "NodeText",
@@ -862,30 +651,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#39"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/39"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/39",
+													"TextMarkTextContent": "#39"
 												},
 												{
 													"Type": "NodeText",
@@ -921,60 +690,20 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#40"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/40"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/40",
+													"TextMarkTextContent": "#40"
 												},
 												{
 													"Type": "NodeText",
 													"Data": " Published to Confluence, you need to cooperate with my project "
 												},
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "node-metaweblog-api-adaptor"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/node-metaweblog-api-adaptor"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/node-metaweblog-api-adaptor",
+													"TextMarkTextContent": "node-metaweblog-api-adaptor"
 												}
 											]
 										}
@@ -1006,30 +735,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#41"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/41"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/41",
+													"TextMarkTextContent": "#41"
 												},
 												{
 													"Type": "NodeText",
@@ -1065,30 +774,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#42"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/42"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/42",
+													"TextMarkTextContent": "#42"
 												},
 												{
 													"Type": "NodeText",
@@ -1124,30 +813,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#43"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/43"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/43",
+													"TextMarkTextContent": "#43"
 												},
 												{
 													"Type": "NodeText",
@@ -1183,30 +852,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "#44"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "https://github.com/terwer/src-sy-post-publisher/issues/44"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/44",
+													"TextMarkTextContent": "#44"
 												},
 												{
 													"Type": "NodeText",
@@ -1252,30 +901,10 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "#19"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/terwer/src-sy-post-publisher/issues/19"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/19",
+									"TextMarkTextContent": "#19"
 								},
 								{
 									"Type": "NodeText",
@@ -1373,40 +1002,18 @@
 													"Data": "3、Fix Octokit to build an error in vite, replace "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "node-fetch"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "node-fetch"
 												},
 												{
 													"Type": "NodeText",
 													"Data": " as "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "isomorphic-fetch"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "isomorphic-fetch"
 												}
 											]
 										}
@@ -1465,20 +1072,9 @@
 													"Data": "5、Time-consuming button operation add "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "loading"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "loading"
 												}
 											]
 										}
@@ -1815,30 +1411,10 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "#13"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://github.com/terwer/src-sy-post-publisher/issues/13"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher/issues/13",
+									"TextMarkTextContent": "#13"
 								},
 								{
 									"Type": "NodeText",
@@ -1878,50 +1454,19 @@
 					"Data": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "\u003cscript setup\u003e"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;script setup\u0026gt;"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " SFCs, check out the "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "script setup docs"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup",
+					"TextMarkTextContent": "script setup docs"
 				},
 				{
 					"Type": "NodeText",
@@ -1974,60 +1519,20 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "VS Code"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://code.visualstudio.com/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://code.visualstudio.com/",
+									"TextMarkTextContent": "VS Code"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " + "
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "Volar"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://marketplace.visualstudio.com/items?itemName=Vue.volar"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://marketplace.visualstudio.com/items?itemName=Vue.volar",
+									"TextMarkTextContent": "Volar"
 								}
 							]
 						}
@@ -2049,20 +1554,9 @@
 					"Data": "Type Support For "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": ".vue"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".vue"
 				},
 				{
 					"Type": "NodeText",
@@ -2083,60 +1577,27 @@
 					"Data": "Since TypeScript cannot handle type information for "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": ".vue"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".vue"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": ".vue"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".vue"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " imports (for example to get props validation when using manual "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "h(...)"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "h(...)"
 				},
 				{
 					"Type": "NodeText",
@@ -2182,60 +1643,27 @@
 									"Data": "Run "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Extensions: Show Built-in Extensions"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Extensions: Show Built-in Extensions"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " from VS Code's command palette, look for "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "TypeScript and JavaScript Language Features"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "TypeScript and JavaScript Language Features"
 								},
 								{
 									"Type": "NodeText",
 									"Data": ", then right click and select "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Disable (Workspace)"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Disable (Workspace)"
 								},
 								{
 									"Type": "NodeText",
@@ -2272,20 +1700,9 @@
 									"Data": "Reload the VS Code window by running "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Developer: Reload Window"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Developer: Reload Window"
 								},
 								{
 									"Type": "NodeText",
@@ -2310,30 +1727,10 @@
 					"Data": "You can learn more about Take Over mode "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "here"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/johnsoncodehk/volar/discussions/471"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/johnsoncodehk/volar/discussions/471",
+					"TextMarkTextContent": "here"
 				},
 				{
 					"Type": "NodeText",
@@ -2631,30 +2028,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "Vercel CLI"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://vercel.com/docs/cli#introduction/installing-the-cli"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://vercel.com/docs/cli#introduction/installing-the-cli",
+					"TextMarkTextContent": "Vercel CLI"
 				}
 			]
 		}

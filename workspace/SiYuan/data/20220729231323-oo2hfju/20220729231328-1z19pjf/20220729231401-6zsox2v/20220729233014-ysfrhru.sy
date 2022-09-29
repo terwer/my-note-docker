@@ -1,26 +1,18 @@
 {
 	"ID": "20220729233014-ysfrhru",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "中文版发版说明sypostpublisher将思源笔记的文章发布到支持的开放平台的思源笔记挂件目前支持vuepress~~以及种博客平台标准metaweblogapi和基于wordpress的xmlrpc远程调用api（延期到v）~~支持平台[x]vuepressv版本支持发布[]博客园延期到v版本预计发布[]链滴社区延期到v版本预计发布[]语雀延期到v版本预计发布vuetypescriptvite项目使用vue框架typescript开发语言vite作为构建工具。项目使用了vue的可以查看文档scrip",
 		"custom-slug": "chinese-version-publishing-description",
 		"custom-vuepress-slug": "chinese-version-publishing-description",
 		"id": "20220729233014-ysfrhru",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220729233036-xbyq3e1\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220729233036-vz6jact\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220729233036-xbyq3e1\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:17}",
 		"tags": "发布,支持,延期,版本,预计",
 		"title": "中文版发版说明",
 		"updated": "20220729233252"
 	},
 	"Children": [
-		{
-			"ID": "20220729233252-5zb4xrx",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1167px; height: 833px;\"\u003e\u003c/iframe\u003e",
-			"Properties": {
-				"id": "20220729233252-5zb4xrx",
-				"style": "text-align: left;",
-				"updated": "20220729233252"
-			}
-		},
 		{
 			"ID": "20220729233036-xbyq3e1",
 			"Type": "NodeHeading",
@@ -49,22 +41,9 @@
 					"Data": "将思源笔记的文章发布到支持的开放平台的"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "思源笔记挂件"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "思源笔记挂件"
 				}
 			]
 		},
@@ -81,20 +60,9 @@
 					"Data": "目前支持 Vuepress "
 				},
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "以及 2 种博客平台标准、metaweblog api 和基于 Wordpress 的 xmlrpc 远程调用 api （延期到v0.0.2）"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "以及 2 种博客平台标准、metaweblog api 和基于 Wordpress 的 xmlrpc 远程调用 api （延期到v0.0.2）"
 				}
 			]
 		},
@@ -297,50 +265,19 @@
 					"Data": "项目使用了 Vue 3 的 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "\u003cscript setup\u003e"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;script setup\u0026gt;"
 				},
 				{
 					"Type": "NodeText",
 					"Data": "，可以查看文档 "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "script setup docs"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup",
+					"TextMarkTextContent": "script setup docs"
 				},
 				{
 					"Type": "NodeText",
@@ -393,60 +330,20 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "VS Code"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://code.visualstudio.com/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://code.visualstudio.com/",
+									"TextMarkTextContent": "VS Code"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " + "
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "Volar"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://marketplace.visualstudio.com/items?itemName=Vue.volar"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://marketplace.visualstudio.com/items?itemName=Vue.volar",
+									"TextMarkTextContent": "Volar"
 								}
 							]
 						}

@@ -1,5 +1,6 @@
 {
 	"ID": "20220906153253-k122jfs",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16662735",
@@ -9,7 +10,7 @@
 		"id": "20220906153253-k122jfs",
 		"tags": "虚拟环境,python,venv,virtualenv",
 		"title": "002.Pipenv vs Virtualenv vs Conda environment",
-		"updated": "20220906155724"
+		"updated": "20220923122858"
 	},
 	"Children": [
 		{
@@ -264,34 +265,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "python3.6",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "python3.6"
 				},
 				{
 					"Type": "NodeText",
@@ -308,7 +287,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20220906153614-n42u9io",
-				"updated": "20220906154509"
+				"updated": "20220923122829"
 			},
 			"Children": [
 				{
@@ -321,11 +300,69 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "virtualenv -p /usr/bin/python3 venv\n"
+					"Data": "# virtualenv -p /usr/bin/python3 venv\nvirtualenv -p /usr/local/bin/python3 venv\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
 					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220923122809-9j7g7ap",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923122809-9j7g7ap",
+				"updated": "20220923122858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们只能用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "/usr/local/bin/python3"
+				}
+			]
+		},
+		{
+			"ID": "20220923122843-nrh26ni",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923122843-nrh26ni",
+				"updated": "20220923122855"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "/usr/bin/python3"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 是 mac 自带版本，不能更改"
+				}
+			]
+		},
+		{
+			"ID": "20220923122843-sxfwmlm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923122843-sxfwmlm",
+				"updated": "20220923122847"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://stackoverflow.com/questions/41992104/usr-bin-python-vs-usr-local-bin-python",
+					"TextMarkTextContent": "https://stackoverflow.com/questions/41992104/usr-bin-python-vs-usr-local-bin-python"
 				}
 			]
 		},
@@ -450,33 +487,12 @@
 					}
 				},
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "每次开启虚拟环境之前要去虚拟环境所在目录下的 bin 目录下 source 一下 activate",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "每次开启虚拟环境之前要去虚拟环境所在目录下的 bin 目录下 source 一下 activate"
 				},
 				{
 					"Type": "NodeText",
@@ -584,33 +600,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "注意：修改.bashrc 还是.zshrc 取决于你使用的那种 shell。",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "注意：修改.bashrc 还是.zshrc 取决于你使用的那种 shell。"
 				}
 			]
 		},
@@ -654,34 +649,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "workon",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "workon"
 								},
 								{
 									"Type": "NodeText",
@@ -719,34 +692,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "mkvirtualenv xxx",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mkvirtualenv xxx"
 								},
 								{
 									"Type": "NodeText",
@@ -784,34 +735,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "workon xxx",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "workon xxx"
 								},
 								{
 									"Type": "NodeText",
@@ -849,34 +778,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "deactivate",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "deactivate"
 								},
 								{
 									"Type": "NodeText",
@@ -914,34 +821,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "rmvirtualenv xxx",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "rmvirtualenv xxx"
 								},
 								{
 									"Type": "NodeText",
@@ -979,34 +864,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "lsvirtualenv",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "lsvirtualenv"
 								},
 								{
 									"Type": "NodeText",
@@ -1044,34 +907,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "cdvirtualenv",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "cdvirtualenv"
 								},
 								{
 									"Type": "NodeText",
@@ -1109,34 +950,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "cdsitepackages",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "cdsitepackages"
 								},
 								{
 									"Type": "NodeText",
@@ -1174,34 +993,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "lssitepackages",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "lssitepackages"
 								},
 								{
 									"Type": "NodeText",

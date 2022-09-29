@@ -1,5 +1,6 @@
 {
 	"ID": "20220903170048-siwh1ny",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "今天尝试着做wp插件搜了下资料随便写了个例子代码很简单?phppluginname_新价值网测试插件pluginuri_http_wwwxinvaluecomaboutmedescription_新价值网致力于电脑技术软件编程源码分享网站建设等领域秉承“新技术！新价值！”的理念力求创建一个高质量的技术交流平台！version_author_terwerauthoruri_http_wwwxinvaluecomechohttp_wwwxinvaluecom_?但是在安装的时候报了下面这样的错误_这个插件在启",
@@ -158,33 +159,12 @@
 					}
 				},
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "UTF-8",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "UTF-8"
 				},
 				{
 					"Type": "NodeText",
@@ -194,33 +174,12 @@
 					}
 				},
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "切记不能按 BOM 保存",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "切记不能按 BOM 保存"
 				},
 				{
 					"Type": "NodeText",

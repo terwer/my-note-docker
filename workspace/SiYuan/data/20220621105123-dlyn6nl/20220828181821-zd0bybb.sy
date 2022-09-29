@@ -1,5 +1,6 @@
 {
 	"ID": "20220828181821-zd0bybb",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "helloworld欢迎使用wordpress。这是您的第一篇文章。编辑或删除它然后开始写作吧！",

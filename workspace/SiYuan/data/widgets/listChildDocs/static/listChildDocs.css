@@ -2,6 +2,14 @@
     background-image: url("./icon.png");
 }
 
+#setting {
+    background-image: url("./iconSetting.png");
+    background-size: 80%;
+    border: 0px;
+    width: 1.5em;
+    height: 1.5em;
+}
+
 button,
 select,
 input {
@@ -20,16 +28,19 @@ input {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    min-width: 15px;
     background-color: #f0f0f022;
     /* background-color:darkslategray;
     color: white; */
 }
 
 #autoMode {
-    width: auto;
-    height: auto;
-    text-align: center;
-    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    /* box-sizing: border-box; */
+    /* text-align: center;
+    display: inline-block; */
 }
 
 .upperbar>* {
@@ -50,6 +61,20 @@ input {
     color: #4CB0F9;
 }
 
+#listcolumn {
+    border-style: dashed;
+    border-color: purple;
+}
+
+/* #listcolumn:focus{
+    border: 2px dashed purple
+} */
+/* select:hover,
+button:hover,
+input:hover {
+    border-width: 2px;
+} */
+
 #updateTime {
     margin-left: 0.5em;
     /* color: darkgray; */
@@ -64,6 +89,11 @@ input {
     width: 100%;
     display: flex;
     text-align: center;
+    margin-top: 5px;
+}
+
+.upperbardiv {
+    display: block;
 }
 
 .button_dark {
@@ -71,8 +101,18 @@ input {
     color: white;
 }
 
+.linksList {
+    margin-top: 0px;
+}
+
 .linksListItem {
     padding: 4px 0px;
+}
+
+.iconpic {
+    width: 18px;
+    height: 18px;
+    vertical-align: bottom;
 }
 
 .childDocLinks,
@@ -98,16 +138,19 @@ input {
     text-align: center;
 }
 
+#linksContainer {
+    column-fill: balance;
+    clear: both;
+}
+
 body {
     padding: 0;
     border: 0;
     margin: 0;
     width: 100%;
     height: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: white; */
 }
 
 .app {

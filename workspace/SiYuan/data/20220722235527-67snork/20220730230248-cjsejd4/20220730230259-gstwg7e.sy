@@ -1,5 +1,6 @@
 {
 	"ID": "20220730230259-gstwg7e",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "ts定义接口与实现类定义接口vuepress配置接口exportinterfaceivuepresscfg{github用户名githubuser_stringgithub仓库名称githubrepo_stringgithub个人token令牌githubtoken_string文章存储的默认目录（相对于仓库根目录的相对路径例如_docs_posts）defaultpath?_string默认提交信息defaultmsg?_string作者author_string邮箱email_string}定义类im",

@@ -1,5 +1,6 @@
 {
 	"ID": "20220705211421-2wb1f5d",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "编译常量classloader类系统类加载器深度探析类的初始化类的初始化步骤类的初始化时机例子_@name_finaltest@author_terwer@date__publicclasstest{publicstaticvoidmain(string[]args){systemoutprintln(finaltestx)_}}classfinaltest{publicstaticfinalintx=_static{systemoutprintln(}}运行结果@name_test@author_ter",

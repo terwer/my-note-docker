@@ -1,5 +1,6 @@
 {
 	"ID": "20220705214739-syqommn",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "idea自定义生成注释与作者版权信息文章更新历史feat_提供更好的办法直接添加到fileheader里面。生成类注释打开preferenceseditorclass在此添加的话你每次创建类的时候会弹两次框第二次是让你输入description的内容了代码如下{description}@name_{name}@author_{user}@date_{year}{month}{day}{hour}_{minute}接口(interface)枚举(enum)注解(annotation)的注释同理。生成效果id",
@@ -569,34 +570,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "/*c+Tab",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "/*c+Tab"
 				},
 				{
 					"Type": "NodeText",

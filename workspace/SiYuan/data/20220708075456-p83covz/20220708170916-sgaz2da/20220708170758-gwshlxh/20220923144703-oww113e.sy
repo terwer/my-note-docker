@@ -1,0 +1,271 @@
+{
+	"ID": "20220923144703-oww113e",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220923144703-oww113e",
+		"title": "2022-09-23-周报",
+		"updated": "20220923145737"
+	},
+	"Children": [
+		{
+			"ID": "20220923144703-i3pconl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923144703-i3pconl",
+				"updated": "20220909142724"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、需求开发"
+				}
+			]
+		},
+		{
+			"ID": "20220923144703-fg22lcv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923144703-fg22lcv",
+				"updated": "20220909142746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172972 【文档协同】后台配置增加集成设置，可对是否启用在线编辑进行设置"
+				}
+			]
+		},
+		{
+			"ID": "20220923144703-8ft1190",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923144703-8ft1190"
+			}
+		},
+		{
+			"ID": "20220923145506-c2rr5iq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145506-c2rr5iq",
+				"updated": "20220923145512"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、服务单修复"
+				}
+			]
+		},
+		{
+			"ID": "20220923145513-6xibnog",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145513-6xibnog",
+				"updated": "20220923145536"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174010 服务问题单库(EKP/KMS/FS) - 【服务问题单】学习服务引用删除定时任务报错"
+				}
+			]
+		},
+		{
+			"ID": "20220923145542-4pvi1ii",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145542-4pvi1ii"
+			}
+		},
+		{
+			"ID": "20220923144703-xaaxwz9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923144703-xaaxwz9",
+				"updated": "20220923145504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、缺陷修复"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-zdhj3ud",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-zdhj3ud",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173726【KMS16.0.7.R回归测试 - 文档协同】当超管删除他人创建的团队文档时，在超管和文档创建人的回收站均有该记录，同时给文档创建人发送待阅通知：”系统管理员XXX删除了您创建的团队文档《》，请知悉！“"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-1wimfsj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-1wimfsj",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174388【关键任务缺陷】【文档协同-修复】关闭服务后，每次设置参与者的权限为可阅读，确定后重新打开都变成可使用"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-ecskr86",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-ecskr86",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174389【关键任务缺陷】【文档协同-修复】无wps文档中台时，回收站的文档、模板和团队下的文档可以下载和拷贝"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-gmjc32b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-gmjc32b",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174574【关键任务缺陷】【文档协同-修复】关闭服务时，上传的模板和文档的可使用者，在详情页不能下载、拷贝、打印文档"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-9vqo1kq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-9vqo1kq",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172972【文档协同】后台配置增加集成设置，可对是否启用在线编辑进行设置"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-s2jgb4w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-s2jgb4w",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173703 【KMS16.0.7.R回归测试 - 文档协同】指定范围分享的分享人退出共享后时，我的分享列表的分享人列的姓名后面出现红色的“（已退出）”字体"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-hj8yn2w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-hj8yn2w",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#170072【知识仓库】新建/编辑知识时，当手动替换作者时，所属部门和岗位一并自动替换为作者所属的部门和岗位"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-0um10b6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-0um10b6",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173726【KMS16.0.7.R回归测试 - 文档协同】当超管删除他人创建的团队文档时，在超管和文档创建人的回收站均有该记录，同时给文档创建人发送待阅通知：”系统管理员XXX删除了您创建的团队文档《》，请知悉！“"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-ztbb9m9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-ztbb9m9",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173117【KMS16.0.7.R回归测试 - 文档协同】知识助手查看维基导入的维基时，页面没有显示维基解析的附件"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-p809wpo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-p809wpo",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173538【关键任务缺陷】【文档协同-修复】关闭服务提供商后，进入文档和模板详情页，显示一片灰色"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-oarapmj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-oarapmj",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173675【KMS16.0.7.R回归测试 - 文档协同】鼠标光标从下往上滑，显示异常"
+				}
+			]
+		},
+		{
+			"ID": "20220923145525-otmnrcr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145525-otmnrcr",
+				"updated": "20220923145525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172644 V16.0.7.R研发项目 - 【日常缺陷】【文档协同】插入HTML的方法会执行两次"
+				}
+			]
+		},
+		{
+			"ID": "20220923145737-jdd3ntf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923145737-jdd3ntf"
+			}
+		}
+	]
+}

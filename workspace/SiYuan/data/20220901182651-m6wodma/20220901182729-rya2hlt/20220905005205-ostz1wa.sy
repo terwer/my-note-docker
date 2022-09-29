@@ -1,5 +1,6 @@
 {
 	"ID": "20220905005205-ostz1wa",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "打开刚刚设计的报表点击工具栏的预览图标​这时候会弹出浏览器打开链接第一次需要我们设计管理员账户和密码然后设置数据库连接。我这里设置的是mysql。注意_数据库要提前新建好。默认是finedb编码采用utf。设置完成后会进行数据导入需要耐心等待。初始化之后会进入登录界面输入我们刚刚设置的登录密码登录即可。默认的后台地址是http_localhost_webrootdecision预览效果如下_​",
@@ -122,25 +123,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"style": "color: var(--b3-font-color11);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "注意： 数据库要提前新建好。默认是 finedb，编码采用 utf8。"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "注意： 数据库要提前新建好。默认是 finedb，编码采用 utf8。"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
@@ -199,29 +187,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "http://localhost:8075/webroot/decision"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkTextContent": "http://localhost:8075/webroot/decision"
 				}
 			]
 		},

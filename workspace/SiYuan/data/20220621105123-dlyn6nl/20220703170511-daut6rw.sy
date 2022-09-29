@@ -1,5 +1,6 @@
 {
 	"ID": "20220703170511-daut6rw",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "macbigsur安装cocoapods切换homebrew为中科大源#替换各个源gitc(brewrepo)remoteseturloriginhttps_mirrorsustceducnbrewgitgitc(brewrepohomebrewcore)remoteseturloriginhttps_mirrorsustceducnhomebrewcoregitgitc(brewrepohomebrewcask)remoteseturloriginhttps_mirrorsustceducnhomebr",
@@ -460,34 +461,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "pod",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "pod"
 				},
 				{
 					"Type": "NodeText",
@@ -889,54 +868,13 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/",
+					"TextMarkTextContent": "https://blog.devtang.com/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/"
 				}
 			]
 		},

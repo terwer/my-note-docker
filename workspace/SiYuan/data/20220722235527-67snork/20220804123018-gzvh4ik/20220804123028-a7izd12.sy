@@ -1,5 +1,6 @@
 {
 	"ID": "20220804123028-a7izd12",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "上手reactbootstrap安装yarnaddreactbootstrapbootstrap参考https_reactbootstrapgithubiogettingstartedintroduction",
@@ -77,30 +78,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://react-bootstrap.github.io/getting-started/introduction/"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://react-bootstrap.github.io/getting-started/introduction/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://react-bootstrap.github.io/getting-started/introduction/",
+					"TextMarkTextContent": "https://react-bootstrap.github.io/getting-started/introduction/"
 				}
 			]
 		},

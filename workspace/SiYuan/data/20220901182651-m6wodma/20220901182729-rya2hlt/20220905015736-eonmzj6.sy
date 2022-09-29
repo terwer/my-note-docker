@@ -1,5 +1,6 @@
 {
 	"ID": "20220905015736-eonmzj6",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "https_helpfanruancomfinereportdocviewhtml",
@@ -21,30 +22,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://help.fanruan.com/finereport10.0/doc-view-2107.html"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://help.fanruan.com/finereport10.0/doc-view-2107.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://help.fanruan.com/finereport10.0/doc-view-2107.html",
+					"TextMarkTextContent": "https://help.fanruan.com/finereport10.0/doc-view-2107.html"
 				}
 			]
 		},

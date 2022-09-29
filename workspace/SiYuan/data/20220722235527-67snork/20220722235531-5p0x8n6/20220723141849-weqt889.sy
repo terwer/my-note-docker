@@ -1,5 +1,6 @@
 {
 	"ID": "20220723141849-weqt889",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "自动导入https_githubcomantfuunpluginvuecomponentsyarnaddunpluginvuecomponentsd目前idea有bug参考https_youtrackjetbrainscomissueweb",
@@ -22,30 +23,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/antfu/unplugin-vue-components"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/antfu/unplugin-vue-components"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/antfu/unplugin-vue-components",
+					"TextMarkTextContent": "https://github.com/antfu/unplugin-vue-components"
 				}
 			]
 		},
@@ -113,30 +94,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://youtrack.jetbrains.com/issue/WEB-52214"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://youtrack.jetbrains.com/issue/WEB-52214"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://youtrack.jetbrains.com/issue/WEB-52214",
+					"TextMarkTextContent": "https://youtrack.jetbrains.com/issue/WEB-52214"
 				}
 			]
 		},

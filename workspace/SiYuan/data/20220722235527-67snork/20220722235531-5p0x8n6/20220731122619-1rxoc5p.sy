@@ -1,5 +1,6 @@
 {
 	"ID": "20220731122619-1rxoc5p",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "表单校验模板js代码import{reactiveref}fromvue_import{forminstanceformrules}fromelementplus_import{usein}fromvuein_const{t}=usein()constformsize=ref(default)constformref=ref()constformdata=ref({githubuser_})construles=reactive({githubuser_[{required_truemessage_()=",
@@ -124,20 +125,9 @@
 					"Data": "其中，formData 使用 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "reactive"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "reactive"
 				},
 				{
 					"Type": "NodeText",

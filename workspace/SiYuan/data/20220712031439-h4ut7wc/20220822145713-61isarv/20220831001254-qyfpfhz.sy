@@ -1,5 +1,6 @@
 {
 	"ID": "20220831001254-qyfpfhz",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16656374",
@@ -122,34 +123,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "@Results",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "@Results"
 				},
 				{
 					"Type": "NodeText",
@@ -159,34 +138,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "@Result",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "@Result"
 				},
 				{
 					"Type": "NodeText",
@@ -196,34 +153,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "@One",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "@One"
 				},
 				{
 					"Type": "NodeText",
@@ -233,34 +168,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "@Many",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "@Many"
 				},
 				{
 					"Type": "NodeText",
@@ -389,34 +302,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "@Results({@Result(), @Result()})",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@Results({@Result(), @Result()})"
 								},
 								{
 									"Type": "NodeText",
@@ -426,34 +317,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "@Results(@Result())",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@Results(@Result())"
 								}
 							]
 						}
@@ -556,34 +425,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "@Result(one=@One)()",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@Result(one=@One)()"
 								},
 								{
 									"Type": "NodeText",
@@ -606,34 +453,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "@Result(many=@many)()",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@Result(many=@many)()"
 								},
 								{
 									"Type": "NodeText",
@@ -724,34 +549,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "@Result(column=\"\", property=\"\", one=(select=\"\"))",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@Result(column=\u0026quot;\u0026quot;, property=\u0026quot;\u0026quot;, one=(select=\u0026quot;\u0026quot;))"
 								}
 							]
 						}
@@ -809,34 +612,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "@Result(property=\"\", column=\"\", many=@many(select=\"\"))",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@Result(property=\u0026quot;\u0026quot;, column=\u0026quot;\u0026quot;, many=@many(select=\u0026quot;\u0026quot;))"
 								}
 							]
 						}
@@ -2255,83 +2036,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeImage",
-							"Properties": {
-								"id": ""
-							},
-							"Children": [
-								{
-									"Type": "NodeBang",
-									"Data": "!",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeOpenBracket",
-									"Data": "[",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeLinkText",
-									"Data": "image-20220901002006366",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeCloseBracket",
-									"Data": "]",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeOpenParen",
-									"Data": "(",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeLinkDest",
-									"Data": "https://img1.terwer.space/20220901002012.png",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeCloseParen",
-									"Data": ")",
-									"Properties": {
-										"id": ""
-									}
-								}
-							]
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "image-20220901002006366"
 				}
 			]
 		},

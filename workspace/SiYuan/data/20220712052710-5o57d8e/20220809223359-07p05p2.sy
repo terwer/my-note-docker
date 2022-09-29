@@ -1,5 +1,6 @@
 {
 	"ID": "20220809223359-07p05p2",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "win导入deepin到wsl准备工作首先要确保开启了hyperv注意_virtulbox与这个冲突。方法_控制面板打开或者关闭windows功能打开虚拟化bootcamp可以尝试下面的命令bcdeditsethypervisorlaunchtypeautostart导入deepin下载导入包导入deepinexeinstallbackupextvhdxgz验证c_softwarewsldistrosdeepinwsllist适用于linux的windows子系统分发版_debian(默认)deepin设",
@@ -72,22 +73,9 @@
 									"Data": "首先要确保开启了Hyper-V，"
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "注意：VirtulBox与这个冲突"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "注意：VirtulBox与这个冲突"
 								},
 								{
 									"Type": "NodeText",
@@ -217,30 +205,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://pan.baidu.com/s/1mx5UPFLkrVaLfCRXmfSv_w?pwd=8888"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://pan.baidu.com/s/1mx5UPFLkrVaLfCRXmfSv_w?pwd=8888"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.baidu.com/s/1mx5UPFLkrVaLfCRXmfSv_w?pwd=8888",
+					"TextMarkTextContent": "https://pan.baidu.com/s/1mx5UPFLkrVaLfCRXmfSv_w?pwd=8888"
 				},
 				{
 					"Type": "NodeBr",
@@ -438,30 +406,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://blog.csdn.net/sinat_14817045/article/details/124286821"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/MicrosoftDocs/WSL/issues/436"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/MicrosoftDocs/WSL/issues/436",
+					"TextMarkTextContent": "https://blog.csdn.net/sinat_14817045/article/details/124286821"
 				}
 			]
 		},
@@ -474,30 +422,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://github.com/MicrosoftDocs/WSL/issues/436"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/MicrosoftDocs/WSL/issues/436"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/MicrosoftDocs/WSL/issues/436",
+					"TextMarkTextContent": "https://github.com/MicrosoftDocs/WSL/issues/436"
 				}
 			]
 		},

@@ -1,5 +1,6 @@
 {
 	"ID": "20220708165834-l3ydafw",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "ekp统一测试环境v_环境_url_登录账号_sftp地址_sftp账号_________vrelease___ssh___rootlandray~__vdevelop__admin#@!_ssh___rootlandray~__vsmokeflow___ssh___rootlandray~_数据库hibernateconnectiondriverclass=commicrosoftsqlserverjdbcsqlserverdriverhibernateconnectionpassword=landra",
@@ -146,30 +147,10 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "9564"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "http://exp.landray.com.cn:9564/index.jsp"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "http://exp.landray.com.cn:9564/index.jsp",
+									"TextMarkTextContent": "9564"
 								}
 							]
 						},
@@ -225,30 +206,10 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "8082"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "http://exp.landray.com.cn:8082/index.jsp"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "http://exp.landray.com.cn:8082/index.jsp",
+									"TextMarkTextContent": "8082"
 								}
 							]
 						},
@@ -304,30 +265,10 @@
 							"Data": "td",
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "8081"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "http://exp.landray.com.cn:8081/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "http://exp.landray.com.cn:8081/",
+									"TextMarkTextContent": "8081"
 								}
 							]
 						},

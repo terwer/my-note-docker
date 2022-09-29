@@ -1,5 +1,6 @@
 {
 	"ID": "20220801221738-5ijrpnd",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "创建第一个nextjs项目yarncreatenextapp用typescript初始化yarncreatenextapptypescript",

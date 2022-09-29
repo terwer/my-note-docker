@@ -1,5 +1,6 @@
 {
 	"ID": "20220803175250-i9m228d",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "htaccess可用版本后台访问地址http_localhost_wpadmin前台访问地址http_localhost_htaccess配置根目录新建htaccess文件wordpress可用#beginwordpressrewriteengineonrewriterule[e=http_authorization_%{http_authorization}]rewritebaserewriterule^indexphp[l]rewritecond%{request_filename}!frewrite",
@@ -147,34 +148,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": ".htaccess",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".htaccess"
 				},
 				{
 					"Type": "NodeText",

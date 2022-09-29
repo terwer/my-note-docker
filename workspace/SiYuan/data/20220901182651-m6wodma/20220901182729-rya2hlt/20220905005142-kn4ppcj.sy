@@ -1,5 +1,6 @@
 {
 	"ID": "20220905005142-kn4ppcj",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "帆软介绍官网https_wwwfinereportcom​工具介绍​帆软帮助文档_https_helpfanruancomfinereport报表类型​https_helpfanruancomfinereportdocviewhtml报表制作流程​https_helpfanruancomfinereportdocviewhtml第一个demo文件普通报表然后新建数据库查询输入查询语句selectfromsales_basic点击预览​",
@@ -50,30 +51,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://www.finereport.com/"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://www.finereport.com/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.finereport.com/",
+					"TextMarkTextContent": "https://www.finereport.com/"
 				}
 			]
 		},
@@ -199,30 +180,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://help.fanruan.com/finereport10.0/"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://help.fanruan.com/finereport10.0/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://help.fanruan.com/finereport10.0/",
+					"TextMarkTextContent": "https://help.fanruan.com/finereport10.0/"
 				}
 			]
 		},
@@ -292,30 +253,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://help.fanruan.com/finereport10.0/doc-view-1337.html"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://help.fanruan.com/finereport10.0/doc-view-1337.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://help.fanruan.com/finereport10.0/doc-view-1337.html",
+					"TextMarkTextContent": "https://help.fanruan.com/finereport10.0/doc-view-1337.html"
 				}
 			]
 		},
@@ -385,30 +326,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://help.fanruan.com/finereport10.0/doc-view-101.html"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://help.fanruan.com/finereport10.0/doc-view-101.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://help.fanruan.com/finereport10.0/doc-view-101.html",
+					"TextMarkTextContent": "https://help.fanruan.com/finereport10.0/doc-view-101.html"
 				}
 			]
 		},

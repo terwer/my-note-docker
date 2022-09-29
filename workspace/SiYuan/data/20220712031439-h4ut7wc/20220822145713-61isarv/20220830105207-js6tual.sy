@@ -1,5 +1,6 @@
 {
 	"ID": "20220830105207-js6tual",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16638684",
@@ -11,10 +12,10 @@
 		"custom-wordpress-post-id": "4202",
 		"custom-yuque-post-id": "91164767",
 		"id": "20220830105207-js6tual",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830105327-doeujdp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830212650-rarw1go\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:7996}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830105327-gafnm5o\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830105327-ztp39z4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830105327-0o788fz\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "配置,事务,mybatis,config,cfg,mybatis-9,framework",
 		"title": "230.Mybatis基本流程及配置文件解析",
-		"updated": "20220830212650"
+		"updated": "20220924200352"
 	},
 	"Children": [
 		{
@@ -134,13 +135,46 @@
 			]
 		},
 		{
-			"ID": "20220830105327-9kni0d9",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317110557.png\" alt=\"image-20220317110551420\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924200052-1hf87a5",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830105327-9kni0d9",
-				"updated": "20220830105327"
-			}
+				"id": "20220924200052-1hf87a5",
+				"updated": "20220924200112"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317110557.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830105327-ap1z9ib",
@@ -213,13 +247,46 @@
 			]
 		},
 		{
-			"ID": "20220830105327-f6p9alp",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317110917.png\" alt=\"image-20220317110912040\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924200125-z1lqvsv",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830105327-f6p9alp",
-				"updated": "20220830105327"
-			}
+				"id": "20220924200125-z1lqvsv",
+				"updated": "20220924200138"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317110917.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830105327-36f2bkl",
@@ -234,20 +301,9 @@
 					"Data": "事务管理器（ "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "transactionManager"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "transactionManager"
 				},
 				{
 					"Type": "NodeText",
@@ -296,40 +352,18 @@
 					"Data": "默认情况下会关闭链接，然而一些容器不希望这样，需要配置 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "closeConnection"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "closeConnection"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " 的属性为 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "false"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "false"
 				},
 				{
 					"Type": "NodeText",
@@ -350,20 +384,9 @@
 					"Data": "数据源（ "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "DataSource"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "DataSource"
 				},
 				{
 					"Type": "NodeText",
@@ -752,20 +775,9 @@
 					"Data": "习惯性将数据量配置信息单独配置在 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "jdbc.properties"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "jdbc.properties"
 				},
 				{
 					"Type": "NodeText",
@@ -828,13 +840,46 @@
 			]
 		},
 		{
-			"ID": "20220830105327-nifyczm",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317133052.png\" alt=\"image-20220317133039702\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924200151-nd9v49c",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830105327-nifyczm",
-				"updated": "20220830105327"
-			}
+				"id": "20220924200151-nd9v49c",
+				"updated": "20220924200207"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317133052.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830105327-eep8ylr",
@@ -845,33 +890,53 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "注意顺序：properties必须在最前面，否则会报如下错误"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "注意顺序：properties必须在最前面，否则会报如下错误"
 				}
 			]
 		},
 		{
-			"ID": "20220830105327-44imj9s",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317133515.png\" alt=\"image-20220317133510592\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924200216-h37o8ar",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830105327-44imj9s",
-				"updated": "20220830105327"
-			}
+				"id": "20220924200216-h37o8ar",
+				"updated": "20220924200229"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317133515.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830105327-ktkqqre",
@@ -929,13 +994,46 @@
 			]
 		},
 		{
-			"ID": "20220830105327-439nf1a",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317135141.png\" alt=\"image-20220317135136062\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924200239-nqm2mdo",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830105327-439nf1a",
-				"updated": "20220830105327"
-			}
+				"id": "20220924200239-nqm2mdo",
+				"updated": "20220924200251"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317135141.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830105327-b7khdnj",
@@ -950,40 +1048,18 @@
 					"Data": "配置typeAliases，为 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "com.terwergreen.pojo.User"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "com.terwergreen.pojo.User"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " 指定别名 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "user"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "user"
 				}
 			]
 		},
@@ -1042,13 +1118,46 @@
 			]
 		},
 		{
-			"ID": "20220830105327-uivpw2n",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317135454.png\" alt=\"image-20220317135448999\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924200259-6hg8mig",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830105327-uivpw2n",
-				"updated": "20220830105327"
-			}
+				"id": "20220924200259-6hg8mig",
+				"updated": "20220924200314"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317135454.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830105327-klpfere",
@@ -1065,13 +1174,46 @@
 			]
 		},
 		{
-			"ID": "20220830105327-1v9os21",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317135848.png\" alt=\"image-20220317135843506\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924200322-t4qmlfp",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830105327-1v9os21",
-				"updated": "20220830105327"
-			}
+				"id": "20220924200322-t4qmlfp",
+				"updated": "20220924200340"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317135848.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830105327-jj5rtde",
@@ -1127,22 +1269,9 @@
 					"Data": "批量起别名：该包下所有类本身的类名，"
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "不区分大小写"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "不区分大小写"
 				}
 			]
 		},
@@ -1217,20 +1346,9 @@
 					"Data": "动态SQL之 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "\u003cif\u003e"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;if\u0026gt;"
 				}
 			]
 		},
@@ -1289,20 +1407,9 @@
 					"Data": "动态SQL之 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "where"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "where"
 				}
 			]
 		},
@@ -1495,20 +1602,9 @@
 					"Data": "动态SQL之 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "foreach"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "foreach"
 				}
 			]
 		},
@@ -1525,20 +1621,9 @@
 					"Data": "循环执行SQL的拼接动作。例如："
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "select * from user where id in(1,2,4)"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "select * from user where id in(1,2,4)"
 				}
 			]
 		},
@@ -1768,20 +1853,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "\u003cforeach\u003e"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;foreach\u0026gt;"
 				},
 				{
 					"Type": "NodeText",
@@ -2227,6 +2301,13 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20220924200352-9ay851q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220924200352-9ay851q"
+			}
 		}
 	]
 }

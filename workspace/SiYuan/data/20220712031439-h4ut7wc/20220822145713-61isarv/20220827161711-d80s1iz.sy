@@ -1,5 +1,6 @@
 {
 	"ID": "20220827161711-d80s1iz",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16006136",
@@ -720,34 +721,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "sqlMapConfig.xml",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "sqlMapConfig.xml"
 				},
 				{
 					"Type": "NodeText",
@@ -757,34 +736,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "mapper.xml",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "mapper.xml"
 				},
 				{
 					"Type": "NodeText",
@@ -811,34 +768,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "mapper.xml",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "mapper.xml"
 				},
 				{
 					"Type": "NodeText",
@@ -987,34 +922,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "InputStream getResourceAsStream(String path)",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "InputStream getResourceAsStream(String path)"
 								}
 							]
 						}
@@ -1069,34 +982,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "sqlMapConfig.xml",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "sqlMapConfig.xml"
 								},
 								{
 									"Type": "NodeText",
@@ -1123,34 +1014,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "mapper.xml",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mapper.xml"
 								},
 								{
 									"Type": "NodeText",
@@ -1209,20 +1078,9 @@
 									"Data": "创建类：sqlSessionFactoryBuilder 类，方法 "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "build(InputStream in)"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "build(InputStream in)"
 								}
 							]
 						},
@@ -1304,20 +1162,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "openSession()"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "openSession()"
 								},
 								{
 									"Type": "NodeText",
@@ -1482,20 +1329,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "query(Configuration configuration, MappedStatement mappedStatement, Object... params)"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "query(Configuration configuration, MappedStatement mappedStatement, Object... params)"
 								},
 								{
 									"Type": "NodeText",

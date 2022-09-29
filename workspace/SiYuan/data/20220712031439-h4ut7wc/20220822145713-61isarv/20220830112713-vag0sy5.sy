@@ -1,5 +1,6 @@
 {
 	"ID": "20220830112713-vag0sy5",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16638769",
@@ -10,10 +11,10 @@
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/241.MyBatis复杂映射开发之一对一查询.md",
 		"custom-wordpress-post-id": "4203",
 		"id": "20220830112713-vag0sy5",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830113036-5nzer7z\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830113105-jvx8iux\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:7115,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830113036-5nzer7z\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830113036-5nzer7z\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830113105-jvx8iux\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830113105-jvx8iux\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "framework,mybatis,query,mybatis-10",
 		"title": "241.MyBatis复杂映射开发之一对一查询",
-		"updated": "20220830212712"
+		"updated": "20220924201108"
 	},
 	"Children": [
 		{
@@ -46,13 +47,47 @@
 			]
 		},
 		{
-			"ID": "20220830113036-z8ocia3",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/image-20220317170627431.png\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924200908-w0v6xbn",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830113036-z8ocia3",
-				"updated": "20220830114508"
-			}
+				"id": "20220924200908-w0v6xbn",
+				"style": "text-align: left;",
+				"updated": "20220924200923"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/image-20220317170627431.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830113036-cuelk62",
@@ -81,20 +116,9 @@
 					"Data": "对应的sql语句："
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "select * from orders o,user u where o.uid=u.id "
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "select * from orders o,user u where o.uid=u.id "
 				}
 			]
 		},
@@ -531,22 +555,88 @@
 			]
 		},
 		{
-			"ID": "20220830113036-vg72kj4",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317185145.png\" alt=\"image-20220317184728374\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924200955-79rkf5d",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830113036-vg72kj4",
-				"updated": "20220830113036"
-			}
+				"id": "20220924200955-79rkf5d",
+				"updated": "20220924201012"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317185145.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
-			"ID": "20220830113036-z2l1rq7",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317185151.png\" alt=\"image-20220317185134760\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924201022-0f6z3cc",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830113036-z2l1rq7",
-				"updated": "20220830113036"
-			}
+				"id": "20220924201022-0f6z3cc",
+				"updated": "20220924201036"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317185151.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830113036-5yy3akf",
@@ -1035,22 +1125,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "另外一种配置方法"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "另外一种配置方法"
 				}
 			]
 		},
@@ -1205,13 +1282,46 @@
 			}
 		},
 		{
-			"ID": "20220830113036-w6us2uo",
-			"Type": "NodeHTMLBlock",
-			"Data": "\u003cimg src=\"https://img1.terwer.space/20220317184429.png\" alt=\"image-20220317184422603\" style=\"zoom:50%;\" /\u003e",
+			"ID": "20220924201057-3lprsqu",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220830113036-w6us2uo",
-				"updated": "20220830113036"
-			}
+				"id": "20220924201057-3lprsqu",
+				"updated": "20220924201108"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/20220317184429.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		},
 		{
 			"ID": "20220830113047-hiw2ksx",

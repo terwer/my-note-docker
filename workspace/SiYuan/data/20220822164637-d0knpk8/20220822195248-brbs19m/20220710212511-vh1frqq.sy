@@ -1,5 +1,6 @@
 {
 	"ID": "20220710212511-vh1frqq",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "自定义类加载器与jvm内置加载器交互详析java指定class路径javacp_myclasspathtest定义类加载器如果某个类加载器能够加载一个类那么该类加载器称为_定义类加载器。定义类加载器及其所有子类加载器称为_初始类加载器。当生成一个自定义类加载器的实例时如果没有指定它的父类加载器那么系统类加载器就成为该类加载器的父加载器。​",
@@ -102,25 +103,12 @@
 					"Data": "如果某个类加载器能够加载一个类，那么该类加载器称为："
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"style": "color: var(--b3-font-color1);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "定义类加载器"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "定义类加载器"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
@@ -145,25 +133,12 @@
 					"Data": "定义类加载器及其所有子类加载器称为："
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"style": "color: var(--b3-font-color1);"
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "初始类加载器"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "初始类加载器"
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",

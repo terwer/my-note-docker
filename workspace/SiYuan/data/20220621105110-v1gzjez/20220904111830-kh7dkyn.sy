@@ -1,5 +1,6 @@
 {
 	"ID": "20220904111830-kh7dkyn",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "人生小悟大学是否有成就取决于醒悟的早晚醒悟的程度醒悟的方向记住_机会总是留给有准备的人。忽略表面的浮华追求深层的高度这是你走向有品位的人的开始。",
@@ -34,22 +35,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "1.大学，是否有成就，取决于醒悟的早晚，醒悟的程度，醒悟的方向，记住：机会总是留给有准备的人。2012/01/08"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "1.大学，是否有成就，取决于醒悟的早晚，醒悟的程度，醒悟的方向，记住：机会总是留给有准备的人。2012/01/08"
 				}
 			]
 		},
@@ -62,22 +50,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "2.忽略表面的浮华，追求深层的高度，这是你走向有品位的人的开始。2011/01/09"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "2.忽略表面的浮华，追求深层的高度，这是你走向有品位的人的开始。2011/01/09"
 				}
 			]
 		},

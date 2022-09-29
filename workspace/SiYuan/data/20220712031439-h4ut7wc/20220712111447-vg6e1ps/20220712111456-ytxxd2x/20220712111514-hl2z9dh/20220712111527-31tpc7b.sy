@@ -1,5 +1,6 @@
 {
 	"ID": "20220712111527-31tpc7b",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "15730289",
@@ -180,54 +181,13 @@
 									}
 								},
 								{
-									"Type": "NodeLink",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "Querydsl",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "http://www.querydsl.com/",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "a",
+									"TextMarkAHref": "http://www.querydsl.com/",
+									"TextMarkTextContent": "Querydsl"
 								},
 								{
 									"Type": "NodeText",
@@ -342,34 +302,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "@Query",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@Query"
 								},
 								{
 									"Type": "NodeText",
@@ -449,34 +387,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "@EnableJpaRepositories",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "@EnableJpaRepositories"
 								}
 							]
 						}

@@ -1,5 +1,6 @@
 {
 	"ID": "20220905134724-vals049",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "参数设置语法如下_selectfromsales_basicwhere={if(len(sale)=)}​",

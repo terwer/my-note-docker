@@ -1,5 +1,6 @@
 {
 	"ID": "20220731124626-bzppv2f",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "vue的reactive和ref的区别首先我们都知道ref函数和reactive函数都是用来定义响应式数据_但是reactive更适合定义复杂的数据类型（jsonarr）ref适合定义基本数据类型（可接收基本数据类型和对象）一句话_使用场景ref简单数据reactive复杂数据ref取数据需要加value参考https_juejincnpost",
@@ -117,54 +118,13 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://juejin.cn/post/7013326406444646407",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://juejin.cn/post/7013326406444646407",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://juejin.cn/post/7013326406444646407",
+					"TextMarkTextContent": "https://juejin.cn/post/7013326406444646407"
 				}
 			]
 		}

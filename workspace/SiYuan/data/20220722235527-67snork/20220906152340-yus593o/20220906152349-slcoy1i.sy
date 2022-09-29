@@ -1,5 +1,6 @@
 {
 	"ID": "20220906152349-slcoy1i",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16662721",
@@ -28,54 +29,13 @@
 					}
 				},
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://pypi.org/project/pip/",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://pypi.org/project/pip/",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pypi.org/project/pip/",
+					"TextMarkTextContent": "https://pypi.org/project/pip/"
 				}
 			]
 		},
@@ -151,54 +111,13 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://pip.pypa.io/en/stable/installation/",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://pip.pypa.io/en/stable/installation/",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pip.pypa.io/en/stable/installation/",
+					"TextMarkTextContent": "https://pip.pypa.io/en/stable/installation/"
 				}
 			]
 		},
@@ -297,33 +216,12 @@
 					},
 					"Children": [
 						{
-							"Type": "NodeStrong",
+							"Type": "NodeTextMark",
 							"Properties": {
 								"id": ""
 							},
-							"Children": [
-								{
-									"Type": "NodeStrongA6kOpenMarker",
-									"Data": "**",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeText",
-									"Data": "注意：",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeStrongA6kCloseMarker",
-									"Data": "**",
-									"Properties": {
-										"id": ""
-									}
-								}
-							]
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "注意："
 						},
 						{
 							"Type": "NodeText",

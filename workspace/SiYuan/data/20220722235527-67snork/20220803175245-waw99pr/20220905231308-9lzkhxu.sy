@@ -1,5 +1,6 @@
 {
 	"ID": "20220905231308-9lzkhxu",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "由于目前php操作dom生成html还没找到好办法因此我只是在内容末尾添加并生成plantuml。代码实现代码如下_plantuml相关函数functionappendhtml(domnodeparentsource){tmpdoc=newdomdocument()_tmpdocforeach(tmpdocchildnodesasnode){node=parentparent}}functionencodep(text){data=utf_encode(text)_compressed=gzdeflate",
@@ -112,30 +113,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "/mybatis-s-annotation-achieves-complex-mapping-development-z1l39xe.html"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "/mybatis-s-annotation-achieves-complex-mapping-development-z1l39xe.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "/mybatis-s-annotation-achieves-complex-mapping-development-z1l39xe.html",
+					"TextMarkTextContent": "/mybatis-s-annotation-achieves-complex-mapping-development-z1l39xe.html"
 				}
 			]
 		},

@@ -1,5 +1,6 @@
 {
 	"ID": "20220906154917-z6bjr8m",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16662744",
@@ -202,30 +203,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "https://learnpython.com/blog/python-requirements-file/"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://learnpython.com/blog/python-requirements-file/"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://learnpython.com/blog/python-requirements-file/",
+					"TextMarkTextContent": "https://learnpython.com/blog/python-requirements-file/"
 				}
 			]
 		},

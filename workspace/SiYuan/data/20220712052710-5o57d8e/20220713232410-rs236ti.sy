@@ -1,5 +1,6 @@
 {
 	"ID": "20220713232410-rs236ti",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "idea开启go模块ideagoland类似配置goproxy=https_goproxycn",

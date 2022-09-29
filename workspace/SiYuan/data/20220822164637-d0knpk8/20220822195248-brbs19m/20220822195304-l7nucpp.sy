@@ -1,5 +1,6 @@
 {
 	"ID": "20220822195304-l7nucpp",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "深入详解jvm之类加载器深度剖析深入详解jvm之类加载器深度剖析classloader（类加载器）java程序的生命周期类的加载连接与初始化java对类的使用方式类的加载加载类的方式ps_有用的小技巧classloader（类加载器）java程序的生命周期​类的加载连接与初始化​​java对类的使用方式​​​类的加载​加载类的方式​​ps_有用的小技巧解决防盗链问题。默认cnblogs图片引用会出现https_stevenoceangithubiominioimageservehtml图片参数看这里htt",
@@ -44,30 +45,10 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "深入详解JVM之类加载器深度剖析"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "#深入详解jvm之类加载器深度剖析"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "#深入详解jvm之类加载器深度剖析",
+									"TextMarkTextContent": "深入详解JVM之类加载器深度剖析"
 								}
 							]
 						},
@@ -101,30 +82,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "ClassLoader（类加载器）"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "#classloader（类加载器）"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "#classloader（类加载器）",
+													"TextMarkTextContent": "ClassLoader（类加载器）"
 												}
 											]
 										},
@@ -158,30 +119,10 @@
 															},
 															"Children": [
 																{
-																	"Type": "NodeLink",
-																	"Data": "span",
-																	"Children": [
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "Java程序的生命周期"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "#java程序的生命周期"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "#java程序的生命周期",
+																	"TextMarkTextContent": "Java程序的生命周期"
 																}
 															]
 														}
@@ -208,30 +149,10 @@
 															},
 															"Children": [
 																{
-																	"Type": "NodeLink",
-																	"Data": "span",
-																	"Children": [
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "类的加载、连接与初始化"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "#类的加载、连接与初始化"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "#类的加载、连接与初始化",
+																	"TextMarkTextContent": "类的加载、连接与初始化"
 																}
 															]
 														}
@@ -258,30 +179,10 @@
 															},
 															"Children": [
 																{
-																	"Type": "NodeLink",
-																	"Data": "span",
-																	"Children": [
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "Java对类的使用方式"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "#java对类的使用方式"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "#java对类的使用方式",
+																	"TextMarkTextContent": "Java对类的使用方式"
 																}
 															]
 														}
@@ -312,30 +213,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "类的加载"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "#类的加载"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "#类的加载",
+													"TextMarkTextContent": "类的加载"
 												}
 											]
 										},
@@ -369,30 +250,10 @@
 															},
 															"Children": [
 																{
-																	"Type": "NodeLink",
-																	"Data": "span",
-																	"Children": [
-																		{
-																			"Type": "NodeOpenBracket"
-																		},
-																		{
-																			"Type": "NodeLinkText",
-																			"Data": "加载类的方式"
-																		},
-																		{
-																			"Type": "NodeCloseBracket"
-																		},
-																		{
-																			"Type": "NodeOpenParen"
-																		},
-																		{
-																			"Type": "NodeLinkDest",
-																			"Data": "#加载类的方式"
-																		},
-																		{
-																			"Type": "NodeCloseParen"
-																		}
-																	]
+																	"Type": "NodeTextMark",
+																	"TextMarkType": "a",
+																	"TextMarkAHref": "#加载类的方式",
+																	"TextMarkTextContent": "加载类的方式"
 																}
 															]
 														}
@@ -423,30 +284,10 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeLink",
-													"Data": "span",
-													"Children": [
-														{
-															"Type": "NodeOpenBracket"
-														},
-														{
-															"Type": "NodeLinkText",
-															"Data": "PS：有用的小技巧"
-														},
-														{
-															"Type": "NodeCloseBracket"
-														},
-														{
-															"Type": "NodeOpenParen"
-														},
-														{
-															"Type": "NodeLinkDest",
-															"Data": "#ps：有用的小技巧"
-														},
-														{
-															"Type": "NodeCloseParen"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "#ps：有用的小技巧",
+													"TextMarkTextContent": "PS：有用的小技巧"
 												}
 											]
 										}

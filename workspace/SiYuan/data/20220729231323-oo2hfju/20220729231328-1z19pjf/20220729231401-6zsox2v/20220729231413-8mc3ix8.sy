@@ -1,8 +1,10 @@
 {
 	"ID": "20220729231413-8mc3ix8",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220729231413-8mc3ix8",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220729233054-8mr5bxx\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220729233054-3pcdeih\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220729233054-8mr5bxx\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"title": "发版说明",
 		"updated": "20220729233054"
 	},
@@ -49,20 +51,9 @@
 					"Data": "At present, it supports vuepress "
 				},
 				{
-					"Type": "NodeStrikethrough",
-					"Data": "s",
-					"Children": [
-						{
-							"Type": "NodeStrikethrough2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "and two open API standard blog platforms, \u003ccode\u003emetaweblog api\u003c/code\u003e and \u003ccode\u003exmlrpc\u003c/code\u003e remote call API based on \u003ccode\u003ewordpress\u003c/code\u003e ( will release in v0.0.2)"
-						},
-						{
-							"Type": "NodeStrikethrough2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "s",
+					"TextMarkTextContent": "and two open API standard blog platforms, \u0026lt;code\u0026gt;metaweblog api\u0026lt;/code\u0026gt; and \u0026lt;code\u0026gt;xmlrpc\u0026lt;/code\u0026gt; remote call API based on \u0026lt;code\u0026gt;wordpress\u0026lt;/code\u0026gt; ( will release in v0.0.2)"
 				}
 			]
 		},
@@ -75,30 +66,10 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "中文版说明"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "README-zh_CN.md"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "README-zh_CN.md",
+					"TextMarkTextContent": "中文版说明"
 				}
 			]
 		},
@@ -287,50 +258,19 @@
 					"Data": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "\u003cscript setup\u003e"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;script setup\u0026gt;"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " SFCs, check out the "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "script setup docs"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup",
+					"TextMarkTextContent": "script setup docs"
 				},
 				{
 					"Type": "NodeText",
@@ -383,60 +323,20 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "VS Code"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://code.visualstudio.com/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://code.visualstudio.com/",
+									"TextMarkTextContent": "VS Code"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " + "
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "Volar"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://marketplace.visualstudio.com/items?itemName=Vue.volar"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://marketplace.visualstudio.com/items?itemName=Vue.volar",
+									"TextMarkTextContent": "Volar"
 								}
 							]
 						}
@@ -458,20 +358,9 @@
 					"Data": "Type Support For "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": ".vue"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".vue"
 				},
 				{
 					"Type": "NodeText",
@@ -492,60 +381,27 @@
 					"Data": "Since TypeScript cannot handle type information for "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": ".vue"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".vue"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": ".vue"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".vue"
 				},
 				{
 					"Type": "NodeText",
 					"Data": " imports (for example to get props validation when using manual "
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"Data": "code",
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker"
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "h(...)"
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "h(...)"
 				},
 				{
 					"Type": "NodeText",
@@ -591,60 +447,27 @@
 									"Data": "Run "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Extensions: Show Built-in Extensions"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Extensions: Show Built-in Extensions"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " from VS Code's command palette, look for "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "TypeScript and JavaScript Language Features"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "TypeScript and JavaScript Language Features"
 								},
 								{
 									"Type": "NodeText",
 									"Data": ", then right click and select "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Disable (Workspace)"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Disable (Workspace)"
 								},
 								{
 									"Type": "NodeText",
@@ -681,20 +504,9 @@
 									"Data": "Reload the VS Code window by running "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Developer: Reload Window"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Developer: Reload Window"
 								},
 								{
 									"Type": "NodeText",
@@ -719,30 +531,10 @@
 					"Data": "You can learn more about Take Over mode "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "here"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://github.com/johnsoncodehk/volar/discussions/471"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/johnsoncodehk/volar/discussions/471",
+					"TextMarkTextContent": "here"
 				},
 				{
 					"Type": "NodeText",

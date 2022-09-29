@@ -1,5 +1,6 @@
 {
 	"ID": "20220708165128-7rypbi7",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "序号平台用户名密码身份证身份证张月身份证宝微信公众号youweics@comcbgtyw微信天涯剑客蓝鸟qq雨后荷塘yxcqtyw梦海ggjjmm天涯剑客bbvv佛系少年cbgtyw开图号cbgtyw八图司机btsj二图司机tywmicrosoft账户youweics@sinacom（次）cbgtywyouweics@outlookcom（次）youweics@com（主）央行征信terwertyw央行征信张月zhangycszygooglecbgtyw@gmailcomcbgtywtwitterface",
@@ -7,14 +8,14 @@
 		"custom-post-password": "105036",
 		"custom-publish-status": "secret",
 		"custom-slug": "platform-account-z2w1t71",
-		"custom-vuepress-slug": "secret/001.个人/001.平台账号.md",
+		"custom-vuepress-slug": "docs/_posts/平台账号.md",
 		"custom-wordpress-post-id": "4195",
 		"custom-wordpress-wp2-post-id": "4256",
 		"id": "20220708165128-7rypbi7",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220708165418-fa4xpue\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220714164045-3dfwzfe\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
-		"tags": "平台,账号",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220708165418-touu2bn\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220714164045-3dfwzfe\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:3100,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220708165418-xxdzpgl\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:49,\u0026amp;quot;focusEnd\u0026amp;quot;:49}",
+		"tags": "平台,账号,身份证,网易,天涯,剑客,司机",
 		"title": "平台账号",
-		"updated": "20220805123154"
+		"updated": "20220928142636"
 	},
 	"Children": [
 		{
@@ -258,30 +259,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "youweics@163.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:youweics@163.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:youweics@163.com",
+									"TextMarkTextContent": "youweics@163.com"
 								}
 							]
 						},
@@ -738,30 +719,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "youweics@sina.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:youweics@sina.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:youweics@sina.com",
+									"TextMarkTextContent": "youweics@sina.com"
 								},
 								{
 									"Type": "NodeText",
@@ -802,30 +763,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "youweics@outlook.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:youweics@outlook.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:youweics@outlook.com",
+									"TextMarkTextContent": "youweics@outlook.com"
 								},
 								{
 									"Type": "NodeText",
@@ -998,30 +939,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "cbgtyw@gmail.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:cbgtyw@gmail.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:cbgtyw@gmail.com",
+									"TextMarkTextContent": "cbgtyw@gmail.com"
 								}
 							]
 						},
@@ -1190,30 +1111,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "youweics@sina.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:youweics@sina.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:youweics@sina.com",
+									"TextMarkTextContent": "youweics@sina.com"
 								}
 							]
 						},
@@ -1262,30 +1163,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "youweics@163.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:youweics@163.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:youweics@163.com",
+									"TextMarkTextContent": "youweics@163.com"
 								}
 							]
 						},
@@ -1322,30 +1203,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "yuezhangcs@163.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:yuezhangcs@163.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:yuezhangcs@163.com",
+									"TextMarkTextContent": "yuezhangcs@163.com"
 								}
 							]
 						},
@@ -1394,22 +1255,9 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Mac"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Mac"
 								},
 								{
 									"Type": "NodeText",
@@ -1444,22 +1292,9 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "手机"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "手机"
 								},
 								{
 									"Type": "NodeText",
@@ -1494,22 +1329,9 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Jira"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Jira"
 								},
 								{
 									"Type": "NodeText",
@@ -1752,30 +1574,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "youweics@163.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:youweics@163.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:youweics@163.com",
+									"TextMarkTextContent": "youweics@163.com"
 								}
 							]
 						},
@@ -1956,30 +1758,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "youweics@sina.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:youweics@163.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:youweics@163.com",
+									"TextMarkTextContent": "youweics@sina.com"
 								}
 							]
 						},
@@ -2022,30 +1804,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "youweics@163.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:youweics@163.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:youweics@163.com",
+									"TextMarkTextContent": "youweics@163.com"
 								}
 							]
 						},
@@ -2098,30 +1860,10 @@
 									"Data": "terwergreen/"
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "youweics@sina.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:youweics@sina.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:youweics@sina.com",
+									"TextMarkTextContent": "youweics@sina.com"
 								}
 							]
 						},
@@ -2358,30 +2100,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "terwer@aliyun.com"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "mailto:terwer@aliyun.com"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "mailto:terwer@aliyun.com",
+									"TextMarkTextContent": "terwer@aliyun.com"
 								}
 							]
 						},
@@ -2468,30 +2190,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "jenkins home"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "http://terwer.terwergreen.com:8080/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "http://terwer.terwergreen.com:8080/",
+									"TextMarkTextContent": "jenkins home"
 								}
 							]
 						},
@@ -2925,30 +2627,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "sonatype "
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://issues.sonatype.org/login.jsp"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://issues.sonatype.org/login.jsp",
+									"TextMarkTextContent": "sonatype "
 								}
 							]
 						},
@@ -2997,30 +2679,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "独角兽资源站"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://www.itdjs.com/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.itdjs.com/",
+									"TextMarkTextContent": "独角兽资源站"
 								}
 							]
 						},
@@ -3069,30 +2731,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "MacV"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://www.macv.com/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.macv.com/",
+									"TextMarkTextContent": "MacV"
 								}
 							]
 						},
@@ -3141,30 +2783,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "IT课站"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://www.itkz.net/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.itkz.net/",
+									"TextMarkTextContent": "IT课站"
 								}
 							]
 						},
@@ -3213,30 +2835,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "cnzz/友盟"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://www.umeng.com/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.umeng.com/",
+									"TextMarkTextContent": "cnzz/友盟"
 								}
 							]
 						},
@@ -3285,30 +2887,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "Ideone"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://ideone.com/"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://ideone.com/",
+									"TextMarkTextContent": "Ideone"
 								}
 							]
 						},
@@ -3357,30 +2939,10 @@
 							"TableCellAlign": 1,
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "tool.lu"
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://tool.lu/coderunner"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://tool.lu/coderunner",
+									"TextMarkTextContent": "tool.lu"
 								}
 							]
 						},
@@ -3745,12 +3307,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220708165418-jm9q5zy",
-				"updated": "20220708165418"
+				"updated": "20220928142634"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "GitHub个人令牌"
+					"Data": "sy-post-publisher"
 				}
 			]
 		},
@@ -3760,7 +3322,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20220708165418-xxdzpgl",
-				"updated": "20220708165418"
+				"updated": "20220928142636"
 			},
 			"Children": [
 				{
@@ -3768,51 +3330,12 @@
 					"Data": "```"
 				},
 				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0"
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "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\n"
-				},
-				{
-					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
-				}
-			]
-		},
-		{
-			"ID": "20220708165418-p7fg2sb",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220708165418-p7fg2sb",
-				"updated": "20220708165418"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "Android Studio"
-				}
-			]
-		},
-		{
-			"ID": "20220708165418-vp85huw",
-			"Type": "NodeCodeBlock",
-			"IsFencedCodeBlock": true,
-			"Properties": {
-				"id": "20220708165418-vp85huw",
-				"updated": "20220708165418"
-			},
-			"Children": [
-				{
-					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
-				},
-				{
-					"Type": "NodeCodeBlockFenceInfoMarker"
-				},
-				{
-					"Type": "NodeCodeBlockCode",
-					"Data": "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\n"
+					"Data": "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\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",

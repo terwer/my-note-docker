@@ -1,5 +1,6 @@
 {
 	"ID": "20220727213906-fg8wm5y",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "初始化项目依赖版本_col_col_col______node_v___yarn___新建项目yarncreatevitesypostpublisher将思源笔记的文章发布到支持的开放平台的思源笔记挂件目前支持vuepress以及种博客平台标准metaweblogapi和基于wordpress的xmlrpc远程调用apivuetypescriptvite项目使用vue框架typescript开发语言vite作为构建工具。项目使用了vue的可以查看文档scriptsetupdocs了解更多。推荐开发工具vs",
@@ -343,33 +344,12 @@
 					}
 				},
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "思源笔记挂件",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "思源笔记挂件"
 				}
 			]
 		},
@@ -448,34 +428,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "\u003cscript setup\u003e",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;script setup\u0026gt;"
 				},
 				{
 					"Type": "NodeText",
@@ -485,54 +443,13 @@
 					}
 				},
 				{
-					"Type": "NodeLink",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkText",
-							"Data": "script setup docs",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup",
+					"TextMarkTextContent": "script setup docs"
 				},
 				{
 					"Type": "NodeText",
@@ -608,54 +525,13 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "VS Code",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://code.visualstudio.com/",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://code.visualstudio.com/",
+									"TextMarkTextContent": "VS Code"
 								},
 								{
 									"Type": "NodeText",
@@ -665,54 +541,13 @@
 									}
 								},
 								{
-									"Type": "NodeLink",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeLinkText",
-											"Data": "Volar",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://marketplace.visualstudio.com/items?itemName=Vue.volar",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://marketplace.visualstudio.com/items?itemName=Vue.volar",
+									"TextMarkTextContent": "Volar"
 								}
 							]
 						}
