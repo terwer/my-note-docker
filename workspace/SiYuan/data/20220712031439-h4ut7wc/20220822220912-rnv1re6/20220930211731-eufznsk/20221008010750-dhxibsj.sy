@@ -1,0 +1,740 @@
+{
+	"ID": "20221008010750-dhxibsj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "java发布于年月日。java版本是切换到新的个月发布周期以来的第二个长期支持（lts）版本（第一个是java）[]。主要特性这次更新共带来个新功能。openjdkjava文档_https_openjdkjavanetprojectsjdkjep描述jep恢复始终严格的浮点语义jep增强的伪随机数生成器jep使用新的macos渲染库jep支持macosaarch架构jep删除已启用的appletapijep更强的封装jdk内部封装jepswitch模式匹配（预览）jep移除rmiactivationjep",
+		"custom-slug": "java_17-10uhjn",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/900.《Java语言新特性》/019.Java_17-LTS.md",
+		"custom-wordpress-post-id": "4288",
+		"id": "20221008010750-dhxibsj",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221008010750-9b1hj77\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221008011821-pmysqgf\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221008011637-9bpgxku\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:303,\u0026amp;quot;focusEnd\u0026amp;quot;:303}",
+		"tags": "下载,发布,版本,支持,封装,jdk,java,jdk17,java17,javase",
+		"title": "019.Java_17-LTS",
+		"updated": "20221008012131"
+	},
+	"Children": [
+		{
+			"ID": "20221008010750-9b1hj77",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008010750-9b1hj77",
+				"updated": "20221008011607"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 17 发布于 2021 年 9 月 14 日。Java 17 版本是切换到新的 6 个月发布周期以来的第二个",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/wiki/%E9%95%BF%E6%9C%9F%E6%94%AF%E6%8C%81",
+					"TextMarkATitle": "长期支持",
+					"TextMarkTextContent": "长期支持"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（LTS）版本（第一个是 Java 11） ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-285",
+					"TextMarkTextContent": "[285]"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008010810-ejmavin",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221008010810-ejmavin",
+				"updated": "20221008010831"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "主要特性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008010832-isej9lu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008010832-isej9lu",
+				"updated": "20221008011535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这次更新共带来 14 个新功能。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008011637-6krz7tq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011637-6krz7tq",
+				"updated": "20221008011637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OpenJDK Java 17 文档：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://openjdk.java.net/projects/jdk/17/",
+					"TextMarkTextContent": "https://openjdk.java.net/projects/jdk/17/"
+				}
+			]
+		},
+		{
+			"ID": "20221008011637-9bpgxku",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|",
+				"id": "20221008011637-9bpgxku",
+				"updated": "20221008011923"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "JEP"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 306"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/306",
+									"TextMarkTextContent": "恢复始终严格的浮点语义"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 356"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/356",
+									"TextMarkTextContent": "增强的伪随机数生成器"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 382"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/382",
+									"TextMarkTextContent": "使用新的 macOS 渲染库"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 391"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/391",
+									"TextMarkTextContent": "支持 macOS/AArch64 架构"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 398"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/398",
+									"TextMarkTextContent": "删除已启用的 Applet API"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 403"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/403",
+									"TextMarkTextContent": "更强的封装 JDK 内部封装"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 406"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/406",
+									"TextMarkTextContent": "Switch 模式匹配（预览）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 407"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/407",
+									"TextMarkTextContent": "移除 RMI Activation"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 409"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/409",
+									"TextMarkTextContent": "密封类"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 410"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/410",
+									"TextMarkTextContent": "JEP 401：移除实验性的 AOT 和 JIT 编译器"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 411"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/411",
+									"TextMarkTextContent": "弃用 Security Manager"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 412"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/412",
+									"TextMarkTextContent": "外部函数和内存 API（孵化器）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 414"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/414",
+									"TextMarkTextContent": "Vector API（第二孵化器）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 415"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://openjdk.java.net/jeps/415",
+									"TextMarkTextContent": "指定上下文的反序列化过滤器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221008011656-5lkkp9a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221008011656-5lkkp9a",
+				"updated": "20221008011702"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 17 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008011703-9sh3o4k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221008011703-9sh3o4k",
+				"updated": "20221008011710"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Oracle 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008011711-adsujrc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011711-adsujrc",
+				"updated": "20221008011726"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html",
+					"TextMarkTextContent": "https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html"
+				}
+			]
+		},
+		{
+			"ID": "20221008011726-srpa5h8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221008011726-srpa5h8",
+				"updated": "20221008011744"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "adoptium 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008011736-mplgkgk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011736-mplgkgk",
+				"updated": "20221008011747"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://adoptium.net/zh-CN/temurin/releases/?version=17",
+					"TextMarkTextContent": "https://adoptium.net/zh-CN/temurin/releases/?version=17"
+				}
+			]
+		},
+		{
+			"ID": "20221008011805-xlhxfik",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221008011805-xlhxfik",
+				"updated": "20221008011813"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "amazon corretto 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008011745-ud2p77i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011745-ud2p77i",
+				"updated": "20221008011816"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html",
+					"TextMarkTextContent": "https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html"
+				}
+			]
+		},
+		{
+			"ID": "20221008011821-pmysqgf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011821-pmysqgf",
+				"updated": "20221008011821"
+			}
+		}
+	]
+}

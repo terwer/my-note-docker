@@ -1,0 +1,2452 @@
+{
+	"ID": "20221007202118-5dgq04x",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "java于年月日发布[][]包含了一些原本被项目在java却延迟的功能。[]这些功能改进在jdkenhancementproposals(jeps)的指导下得到了集成。[]主要特性jsrjep_lambda项目[]中提供的语言级匿名函数支持（官方称为lambda表达式非官方亦称闭包)）_添加默认方法（虚拟扩展组件方法）[][][]以允许在不破坏兼容性的情况下向现有接口中新增方法。java社群中曾经有过针对是否要加入lambda表达式支持的辩论。稍后sun公司宣布lambda表达式将会包含在java中并请社",
+		"custom-slug": "java_8-z23halb",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/900.《Java语言新特性》/010.Java_8-LTS.md",
+		"custom-wordpress-post-id": "4279",
+		"id": "20221007202118-5dgq04x",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221007202200-qpd9b7j\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221008011154-h8esaeb\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1591,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221008011154-h8esaeb\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "方法,默认,支持,表达式,jdk,jdk8,java,java8,javase,项目",
+		"title": "010.Java_8-LTS",
+		"updated": "20221008011154"
+	},
+	"Children": [
+		{
+			"ID": "20221007202200-qpd9b7j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007202200-qpd9b7j",
+				"updated": "20221007202401"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 8 于 2014 年 3 月 18 日发布， ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-Java_8-188",
+					"TextMarkTextContent": "[188]"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-189",
+					"TextMarkTextContent": "[189]"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 包含了一些原本被项目在 Java 7 却延迟的功能。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-190",
+					"TextMarkTextContent": "[190]"
+				}
+			]
+		},
+		{
+			"ID": "20221007202200-pul86p8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007202200-pul86p8",
+				"updated": "20221007202405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这些功能改进在 JDK Enhancement Proposals (JEPs) 的指导下得到了集成。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-191",
+					"TextMarkTextContent": "[191]"
+				}
+			]
+		},
+		{
+			"ID": "20221007202205-9q0bftf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007202205-9q0bftf",
+				"updated": "20221007202212"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "主要特性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007202200-jadlk4l",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221007202200-jadlk4l",
+				"updated": "20221007203438"
+			},
+			"Children": [
+				{
+					"ID": "20221007202200-p43kje6",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007202200-p43kje6",
+						"updated": "20221007202512"
+					},
+					"Children": [
+						{
+							"ID": "20221007202200-4in6y82",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007202200-4in6y82",
+								"updated": "20221007203326"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JSR 335，JEP 126：Lambda 项目 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-192",
+									"TextMarkTextContent": "[192]"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 中提供的语言级",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0",
+									"TextMarkATitle": "匿名函数",
+									"TextMarkTextContent": "匿名函数"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "支持（官方称为 lambda 表达式，非官方亦称",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/%E9%97%AD%E5%8C%85_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6)",
+									"TextMarkTextContent": "闭包"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " \"闭包 (计算机科学)\")）；添加默认方法（虚拟扩展组件方法） ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-goetz_interface_evolution-193",
+									"TextMarkTextContent": "[193]"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "  ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-194",
+									"TextMarkTextContent": "[194]"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-195",
+									"TextMarkTextContent": "[195]"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，以允许在不破坏兼容性的情况下向现有接口中新增方法。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221007203339-u4zm8cv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007203339-u4zm8cv",
+								"updated": "20221007203339"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java 社群中曾经有过针对是否要加入 lambda 表达式支持的辩论。稍后 Sun 公司宣布 lambda 表达式将会包含在 Java 中，并请社群协助改善该特性。支持 lambda 表达式使得针对流中元素的函数式操作成为可能，由此可以实现由 MapReduce 启发的函数式集合操作。默认方法允许 API 作者添加新的方法到现有接口上，而不会破坏旧的代码中。默认方法还使得多重继承的行为 （不是状态）成为可能，但默认方法的设计意图并非在此。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007202200-774aief",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007202200-774aief",
+						"updated": "20221007202200"
+					},
+					"Children": [
+						{
+							"ID": "20221007202200-kuuqhag",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007202200-kuuqhag",
+								"updated": "20221007202200"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JSR 223，JEP 174：Nashorn 项目，一个 JavaScript 运行时，它允许开发人员在应用程序中嵌入 JavaScript 代码",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007202200-kducm86",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007202200-kducm86",
+						"updated": "20221007203356"
+					},
+					"Children": [
+						{
+							"ID": "20221007202200-jsvd0kh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007202200-jsvd0kh",
+								"updated": "20221007203356"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JSR 308，JEP 104：在 Java 类型上的注解",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-196",
+									"TextMarkTextContent": "[196]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007202200-gt17nw5",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007202200-gt17nw5",
+						"updated": "20221007203404"
+					},
+					"Children": [
+						{
+							"ID": "20221007202200-p4yh6po",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007202200-p4yh6po",
+								"updated": "20221007203404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无符号整数算术",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-197",
+									"TextMarkTextContent": "[197]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007202200-j2cmq3w",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007202200-j2cmq3w",
+						"updated": "20221007203410"
+					},
+					"Children": [
+						{
+							"ID": "20221007202200-yj3weel",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007202200-yj3weel",
+								"updated": "20221007203410"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JSR 337，JEP 120：重复注解",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-198",
+									"TextMarkTextContent": "[198]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007202200-u49mbt0",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007202200-u49mbt0",
+						"updated": "20221007203416"
+					},
+					"Children": [
+						{
+							"ID": "20221007202200-rkpnaf5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007202200-rkpnaf5",
+								"updated": "20221007203416"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JSR 310，JEP 150：日期和时间 API ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-199",
+									"TextMarkTextContent": "[199]"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，基于 Joda-Time 日期时间处理库的实现。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007202200-7yi6w6g",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007202200-7yi6w6g",
+						"updated": "20221007203421"
+					},
+					"Children": [
+						{
+							"ID": "20221007202200-btzijfc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007202200-btzijfc",
+								"updated": "20221007203421"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 178：静态链接 JNI 程序库",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-200",
+									"TextMarkTextContent": "[200]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007202200-gk8nv9z",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007202200-gk8nv9z",
+						"updated": "20221007203431"
+					},
+					"Children": [
+						{
+							"ID": "20221007202200-jlf02kt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007202200-jlf02kt",
+								"updated": "20221007203431"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 153：执行 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/JavaFX",
+									"TextMarkATitle": "JavaFX",
+									"TextMarkTextContent": "JavaFX"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 应用程序（直接执行 JavaFX 的应用程序的 JAR 包）",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-201",
+									"TextMarkTextContent": "[201]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007202200-yr5hcim",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007202200-yr5hcim",
+						"updated": "20221007203438"
+					},
+					"Children": [
+						{
+							"ID": "20221007202200-buvtt98",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007202200-buvtt98",
+								"updated": "20221007203438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 122：移除了虚拟机内存管理中的永久世代",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-202",
+									"TextMarkTextContent": "[202]"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221007202200-3avqkse",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007202200-3avqkse",
+				"updated": "20221007203450"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 8 不再支持 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/wiki/Windows_XP",
+					"TextMarkATitle": "Windows XP",
+					"TextMarkTextContent": "Windows XP[203]"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，但 JDK 8 第 25 版更新仍然可以在 Windows XP 安装和运行。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-204",
+					"TextMarkTextContent": "[204]"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 先前 JDK 8 的更新版本可以在 XP 中运行，但必须通过强制解压安装程序来进行安装。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007202200-zgmcowa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007202200-zgmcowa",
+				"updated": "20221007203455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2014 年 10 月后，Java 8 成为官方网站上默认的下载版本。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-205",
+					"TextMarkTextContent": "[205]"
+				}
+			]
+		},
+		{
+			"ID": "20221007203725-lt96rfu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007203725-lt96rfu",
+				"updated": "20221007203732"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 8 更新",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007203733-xvc5hnp",
+			"Type": "NodeTable",
+			"Data": "|版本|发布日期|重点|\n| :------------------------| :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n|Java SE 8|2014-03-18|初始版本|\n|Java SE 8 Update 5[206]|2014-04-15|使用“*”在 Caller-Allowable-Codebase 属性中; 11 个漏洞的修补|\n|Java SE 8 Update 11[207]|2014-07-15|Java 依赖性分析工具（Java Dependency Analysis Tool）; Java 控制台选项以禁用赞助者; JAR 文件属性 – Entry-Point; JAXP 处理限制属性 – maxElementDepth; 18 个安全性漏洞修补,[208] 15 个漏洞修补|\n|Java SE 8 Update 20[209]|2014-08-19|669 个漏洞修补，[210] JMC 5.4, 字符串重复数据删除（默认为不激活）|\n|Java SE 8 Update 25[211]|2014-10-14|10 个漏洞修补|\n|Java SE 8 Update 31[212]|2015-01-19|26 个漏洞修补; SSLv3 默认为禁用|\n|Java SE 8 Update 40[213]|2015-03-03|645 个漏洞修补[214] 加入“存储器压力”的概念来协助指出有多少的系统存储器还能够使用（低压 = 高存储器, 高压 = 低存储器）|\n|Java SE 8 Update 45[215]|2015-04-14|13 个漏洞修补|\n|Java SE 8 Update 51[216]|2015-07-14|增加对 WIndows 平台的原生沙盒的支持（默认为禁用）; 另外还有 25 个安全性修补,14 个漏洞修补|\n|Java SE 8 Update 60[217]|2015-08-18|480 个漏洞修补[218]|\n|Java SE 8 Update 65[219]|2015-10-20|25 个安全性修补, 3 个漏洞修补|\n|Java SE 8 Update 66[220]|2015-11-16|15 个漏洞修补|\n|Java SE 8 Update 71[221]|2016-01-19|8 个安全性修补, 5 个漏洞修补[222]|\n|Java SE 8 Update 72|2016-01-19|8 个安全性修补, 5 个漏洞修补, 许多的增强|\n|Java SE 8 Update 73[223]|2016-02-03|1 个安全性修补|\n|Java SE 8 Update 74[224]|2016-02-03|1 个安全性修补|\n|Java SE 8 Update 77[225]|2016-03-23|1 个安全性修补|\n|Java SE 8 Update 91[226]|2016-04-19|9 个安全性修补, 4 个漏洞修补和增强|\n|Java SE 8 Update 92[227]|2016-04-19|来自 8u91 的安全性和漏洞修补, 再加上 76 个额外的漏洞消补; 推出 ExitOnOutOfMemoryError 和 CrashOnOutOfMemoryError 标签|\n|Java SE 8 Update 101[228]|2016-07-19|来自 8u92 的安全性和漏洞修补, 再加上 9 个额外的漏洞消补|\n|Java SE 8 Update 102[229]|2016-07-19|来自 8u101 的安全性和漏洞修补, 再加上 118 个额外的漏洞消补|\n|Java SE 8 Update 111[230]|2016-10-18|安全性修补和 9 个漏洞修补|\n|Java SE 8 Update 112[231]|2016-10-18|新增功能和 139 个漏洞修补在 8u111|",
+			"TableAligns": [
+				1,
+				2,
+				1
+			],
+			"Properties": {
+				"colgroup": "||",
+				"id": "20221007203733-xvc5hnp",
+				"updated": "20221007203735"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "版本",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 2,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "发布日期",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "重点",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2014-03-18",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始版本",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 5[206]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2014-04-15",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用“*”在 Caller-Allowable-Codebase 属性中; 11 个漏洞的修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 11[207]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2014-07-15",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java 依赖性分析工具（Java Dependency Analysis Tool）; Java 控制台选项以禁用赞助者; JAR 文件属性 – Entry-Point; JAXP 处理限制属性 – maxElementDepth; 18 个安全性漏洞修补,[208] 15 个漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 20[209]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2014-08-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "669 个漏洞修补，[210] JMC 5.4, 字符串重复数据删除（默认为不激活）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 25[211]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2014-10-14",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "10 个漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 31[212]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2015-01-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "26 个漏洞修补; SSLv3 默认为禁用",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 40[213]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2015-03-03",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "645 个漏洞修补[214] 加入“存储器压力”的概念来协助指出有多少的系统存储器还能够使用（低压 = 高存储器, 高压 = 低存储器）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 45[215]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2015-04-14",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "13 个漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 51[216]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2015-07-14",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "增加对 WIndows 平台的原生沙盒的支持（默认为禁用）; 另外还有 25 个安全性修补,14 个漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 60[217]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2015-08-18",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "480 个漏洞修补[218]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 65[219]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2015-10-20",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "25 个安全性修补, 3 个漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 66[220]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2015-11-16",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "15 个漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 71[221]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-01-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "8 个安全性修补, 5 个漏洞修补[222]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 72",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-01-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "8 个安全性修补, 5 个漏洞修补, 许多的增强",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 73[223]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-02-03",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1 个安全性修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 74[224]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-02-03",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1 个安全性修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 77[225]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-03-23",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1 个安全性修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 91[226]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-04-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "9 个安全性修补, 4 个漏洞修补和增强",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 92[227]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-04-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "来自 8u91 的安全性和漏洞修补, 再加上 76 个额外的漏洞消补; 推出 ExitOnOutOfMemoryError 和 CrashOnOutOfMemoryError 标签",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 101[228]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-07-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "来自 8u92 的安全性和漏洞修补, 再加上 9 个额外的漏洞消补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 102[229]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-07-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "来自 8u101 的安全性和漏洞修补, 再加上 118 个额外的漏洞消补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 111[230]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-10-18",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安全性修补和 9 个漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 8 Update 112[231]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2016-10-18",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新增功能和 139 个漏洞修补在 8u111",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221007202605-boo8f7w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007202605-boo8f7w",
+				"updated": "20221007202610"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "参考",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007202610-8tr13p5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007202610-8tr13p5",
+				"updated": "20221007202638"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.wdbyte.com/java8/comparator/",
+					"TextMarkTextContent": "Java 8 新特性"
+				}
+			]
+		},
+		{
+			"ID": "20221007202214-62i9hfv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007202214-62i9hfv",
+				"updated": "20221007202219"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 8 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008011020-4m94ef2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221008011020-4m94ef2",
+				"updated": "20221008011027"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Oracle 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007202220-lqdsi3g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007202220-lqdsi3g",
+				"updated": "20221007202326"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html",
+					"TextMarkTextContent": "https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html"
+				}
+			]
+		},
+		{
+			"ID": "20221008011115-wlfhv5m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221008011115-wlfhv5m",
+				"updated": "20221008011151"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "adoptium 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008011118-g88wkpw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011118-g88wkpw",
+				"updated": "20221008011154"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://adoptium.net/zh-CN/temurin/releases/?version=8",
+					"TextMarkTextContent": "https://adoptium.net/zh-CN/temurin/releases/?version=8"
+				}
+			]
+		},
+		{
+			"ID": "20221007202327-5gb57br",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221007202327-5gb57br",
+				"updated": "20221008011041"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Amazon corretto 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008011031-46ifk76",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011031-46ifk76",
+				"updated": "20221008011105"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html",
+					"TextMarkTextContent": "https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html"
+				}
+			]
+		},
+		{
+			"ID": "20221008011154-h8esaeb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011154-h8esaeb",
+				"updated": "20221008011154"
+			}
+		}
+	]
+}

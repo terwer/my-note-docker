@@ -1,0 +1,758 @@
+{
+	"ID": "20221007233935-c9o4pk2",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "jdk于年月日发布。主要特性该版本包含较多新特性例如_jep_shenandoah_一个实验性的低延迟垃圾收集器[]jep_细粒度性能评审包[]jep_switch表达式（预览阶段）[]jep_jvmconstantsapi[]jep_仅保留一个aarch平台的移植[]jep_默认类数据共享归档[]jep_针对g提供可中止的混合垃圾收集[]jep_针对g及时释放已申请但未使用的内存[]java更新版本发布日期重点javase[]初始版本javase[]日本新年号名称和安全性修补javase[]移除功能和设",
+		"custom-slug": "java_12-2umfc3",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/900.《Java语言新特性》/014.Java_12.md",
+		"custom-wordpress-post-id": "4283",
+		"id": "20221007233935-c9o4pk2",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221007234029-4aiss0l\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221007234143-a92hopa\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221007234137-2yiiag3\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "版本,发布,特性,垃圾,jdk,jdk12,java,java12,javase,一个",
+		"title": "014.Java_12",
+		"updated": "20221007234259"
+	},
+	"Children": [
+		{
+			"ID": "20221007234029-4aiss0l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007234029-4aiss0l",
+				"updated": "20221007234029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JDK 12 于 2019 年 3 月 19 日发布。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007234037-3qfhxan",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007234037-3qfhxan",
+				"updated": "20221007234043"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "主要特性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007234036-jbnrijr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007234036-jbnrijr",
+				"updated": "20221007234036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该版本包含较多新特性，例如：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007234029-qym1hd7",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221007234029-qym1hd7",
+				"updated": "20221007234259"
+			},
+			"Children": [
+				{
+					"ID": "20221007234029-1yq07nq",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007234029-1yq07nq",
+						"updated": "20221007234214"
+					},
+					"Children": [
+						{
+							"ID": "20221007234029-nnp1f3v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007234029-nnp1f3v",
+								"updated": "20221007234214"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 189：Shenandoah：一个实验性的低延迟垃圾收集器"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-262",
+									"TextMarkTextContent": "[262]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007234029-5cvwwxe",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007234029-5cvwwxe",
+						"updated": "20221007234218"
+					},
+					"Children": [
+						{
+							"ID": "20221007234029-to09ubz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007234029-to09ubz",
+								"updated": "20221007234218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 230：细粒度性能评审包"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-263",
+									"TextMarkTextContent": "[263]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007234029-akrpw5m",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007234029-akrpw5m",
+						"updated": "20221007234224"
+					},
+					"Children": [
+						{
+							"ID": "20221007234029-kmb8a2z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007234029-kmb8a2z",
+								"updated": "20221007234224"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 325：Switch 表达式（预览阶段）"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-264",
+									"TextMarkTextContent": "[264]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007234029-e8epmf2",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007234029-e8epmf2",
+						"updated": "20221007234236"
+					},
+					"Children": [
+						{
+							"ID": "20221007234029-w4a2ipp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007234029-w4a2ipp",
+								"updated": "20221007234236"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 334：JVM Constants API"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-265",
+									"TextMarkTextContent": "[265]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007234029-poif1fu",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007234029-poif1fu",
+						"updated": "20221007234243"
+					},
+					"Children": [
+						{
+							"ID": "20221007234029-si7wz2g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007234029-si7wz2g",
+								"updated": "20221007234243"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 340：仅保留一个 AArch64 平台的移植"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-266",
+									"TextMarkTextContent": "[266]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007234029-jeft5h8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007234029-jeft5h8",
+						"updated": "20221007234247"
+					},
+					"Children": [
+						{
+							"ID": "20221007234029-6uwqob9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007234029-6uwqob9",
+								"updated": "20221007234247"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 341：默认类数据共享归档"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-267",
+									"TextMarkTextContent": "[267]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007234029-6925wmt",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007234029-6925wmt",
+						"updated": "20221007234254"
+					},
+					"Children": [
+						{
+							"ID": "20221007234029-m7e8hgd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007234029-m7e8hgd",
+								"updated": "20221007234254"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 344：针对 G1，提供可中止的混合垃圾收集"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-268",
+									"TextMarkTextContent": "[268]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007234029-pec4d3r",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007234029-pec4d3r",
+						"updated": "20221007234259"
+					},
+					"Children": [
+						{
+							"ID": "20221007234029-hfx71qp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007234029-hfx71qp",
+								"updated": "20221007234259"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 346：针对 G1，及时释放已申请但未使用的内存"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-269",
+									"TextMarkTextContent": "[269]"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221007234046-mib4pt4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007234046-mib4pt4",
+				"updated": "20221007234135"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 12 更新",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007234126-6kbovsv",
+			"Type": "NodeTable",
+			"Data": "|版本|发布日期|重点|\n| :--------------| :--------: | :-------------------------|\n|Java SE 12[\u003cspan data-type=\"a\" data-href=\"https://zh.wikipedia.org/zh-cn/Java版本歷史#cite_note-270\"\u003e270]\u003c/span\u003e|2019-03-19|初始版本|\n|Java SE 12.0.1[\u003cspan data-type=\"a\" data-href=\"https://zh.wikipedia.org/zh-cn/Java版本歷史#cite_note-:2-271\"\u003e271]\u003c/span\u003e|2019-04-16|日本新年号名称和安全性修补|\n|Java SE 12.0.2[\u003cspan data-type=\"a\" data-href=\"https://zh.wikipedia.org/zh-cn/Java版本歷史#cite_note-:2-271\"\u003e271]\u003c/span\u003e|2019-07-16|移除功能和设置|",
+			"TableAligns": [
+				1,
+				2,
+				1
+			],
+			"Properties": {
+				"colgroup": "||",
+				"id": "20221007234126-6kbovsv",
+				"updated": "20221007234126"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "版本",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 2,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "发布日期",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "重点",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 12[",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java版本歷史#cite_note-270",
+									"TextMarkTextContent": "270]"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2019-03-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始版本",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 12.0.1[",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java版本歷史#cite_note-:2-271",
+									"TextMarkTextContent": "271]"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2019-04-16",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "日本新年号名称和安全性修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 12.0.2[",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java版本歷史#cite_note-:2-271",
+									"TextMarkTextContent": "271]"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2019-07-16",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "移除功能和设置",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221007234137-2yiiag3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007234137-2yiiag3",
+				"updated": "20221007234143"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 12 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007234143-a92hopa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007234143-a92hopa",
+				"updated": "20221007234201"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.oracle.com/java/technologies/javase/jdk12-archive-downloads.html",
+					"TextMarkTextContent": "https://www.oracle.com/java/technologies/javase/jdk12-archive-downloads.html"
+				}
+			]
+		}
+	]
+}

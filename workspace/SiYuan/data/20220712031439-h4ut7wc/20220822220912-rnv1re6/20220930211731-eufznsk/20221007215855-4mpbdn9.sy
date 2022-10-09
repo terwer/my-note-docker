@@ -1,0 +1,2147 @@
+{
+	"ID": "20221007215855-4mpbdn9",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "jdk于年月日发布[]。java为什么重要？java是继java之后的第二个lts（longtermsupport）版本。自java起oraclejdk将不再免费提供商业用途。您可以在开发阶段使用它但要在商业上使用它则需要购买许可证。java是最后一个可以下载的免费oraclejdk。oracle从年月开始就停止了对java的支持。您需要支付更多的支持费用。如果不这样做虽然您可以继续使用它但不会获得任何补丁安全更新。自java起oracle将不再为任何单个java版本提供免费的长期支持（lts）。尽管or",
+		"custom-slug": "java_11lts-z2ue7vr",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/900.《Java语言新特性》/013.Java_11-LTS.md",
+		"custom-wordpress-post-id": "4282",
+		"id": "20221007215855-4mpbdn9",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221007220359-i3fvpv0\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221008011318-spf16km\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1979,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221008011318-spf16km\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "修补,安全性,漏洞,功能,发布,jdk,jdk11,java,java11,javase",
+		"title": "013.Java_11-LTS",
+		"updated": "20221008011321"
+	},
+	"Children": [
+		{
+			"ID": "20221007220359-i3fvpv0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007220359-i3fvpv0",
+				"updated": "20221007220415"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JDK 11 于 2018 年 9 月 25 日发布 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-249",
+					"TextMarkTextContent": "[249]"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-n6b6t94",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007225302-n6b6t94",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 11 为什么重要？",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-qb9ygic",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-qb9ygic",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 11 是继 Java 8 之后的第二个 LTS（long-term support）版本。 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "自 Java 11 起，Oracle JDK 将不再免费提供商业用途"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-8ii7c3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-8ii7c3h",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "您可以在开发阶段使用它，但要在商业上使用它，则需要购买许可证。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-xueuk8b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-xueuk8b",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 10 是最后一个可以下载的免费 Oracle JDK。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-3hxr9gr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-3hxr9gr",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Oracle 从 2019 年 1 月开始就停止了对 Java 8 的支持。您需要支付更多的支持费用。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-6bkzxap",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-6bkzxap",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果不这样做，虽然您可以继续使用它，但不会获得任何补丁/ 安全更新。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-oolk963",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20221007225302-oolk963",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20221007225302-ex0tt3b",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221007225302-ex0tt3b",
+						"updated": "20221007225302"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "自 Java 11 起，Oracle 将不再为任何单个 Java 版本提供免费的长期支持（LTS）。",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-4vx01co",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-4vx01co",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "尽管 Oracle JDK 不再免费，但是您始终可以从 Oracle 或其他提供商（例如 AdoptOpenJDK，Azul，IBM，Red Hat 等..）下载 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://openjdk.java.net/",
+					"TextMarkTextContent": "Open JDK"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 构建。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-efmv0ks",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007225302-efmv0ks",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "什么是 LTS Module",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-90hl7hi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-90hl7hi",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从 2017 年开始，Oracle 和 Java 社区宣布了向 Java 的新 6 个月节奏的转变。它已迁移到 Oracle Java SE 产品的长期支持（LTS）模型。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-9tkik8f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-9tkik8f",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "LTS 版本的产品将提供 Oracle 的首要和持续的支持，目标是每三年一次。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-7ohh5in",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-7ohh5in",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个 Java 版本都以一两个主要特性为模型，这些特性驱动了版本的发布。任何障碍都会推迟发布和上市时间。Jigsaw 项目就是 Java 9 的一个主要特性，它多次推迟了发布日期，并且发布时间被推迟了超过 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "1.5"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 年。6 个月一版的发车节奏将让特性紧随。发布的列车每 6 个月有一个时间表。赶上这列火车的特征会被留下，否则他们就等下一班火车。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-hln168z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007225302-hln168z",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Oracle JDK 与 Open JDK",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-3cifoxp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-3cifoxp",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了对开发人员更加友好，Oracle \u0026 Java 社区现在将 OpenJDK 二进制文件作为主要 JDK 进行推广。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-k0n3zpv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-k0n3zpv",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这与早期的 JDK 二进制文件是由 Oracle 专有并由 Oracle 许可的模式相比，很大程度上减轻了人们的负担，因为 Oracle 对重新发布有各种限制。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-6kmkrtw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-6kmkrtw",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然而，Oracle 将继续生产他们的 JDK，但仅限于长期支持版本。这是朝着对云和容器更友好的方向迈出的一步，因为开放 JDK 二进制文件可以作为容器的一部分分发。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225302-xiqbptr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225302-xiqbptr",
+				"updated": "20221007225302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Open JDK 的二进制文件每 6 个月发布一次，而 Oracle JDK 的二进制文件每 3 年发布一次（LTS 版本）。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007220404-hh77rlf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007220404-hh77rlf",
+				"updated": "20221007220408"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "主要特性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007220403-qbzjvbr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007220403-qbzjvbr",
+				"updated": "20221007220403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 11 包含如下更新：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007220359-zd0fhr4",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221007220359-zd0fhr4",
+				"updated": "20221007220359"
+			},
+			"Children": [
+				{
+					"ID": "20221007220359-od8h4dg",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-od8h4dg",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-easilnv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-easilnv",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 181：针对嵌套成员的访问控制",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-4s90b87",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-4s90b87",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-7rkzgkl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-7rkzgkl",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 309：动态类文件常量",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-anxvbul",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-anxvbul",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-30ph6cl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-30ph6cl",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 315：利用 Aarch64 的特有架构改进其上的性能",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-koru49i",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-koru49i",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-2h1dayn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-2h1dayn",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 318：Epsilon：无操作垃圾收集器",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-4q5suxr",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-4q5suxr",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-nngypi2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-nngypi2",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 320：移除 Java EE 和 CORBA 模块",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-k7h1a1o",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-k7h1a1o",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-ytamun1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-ytamun1",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 321：HTTP Client",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-uwo3dsm",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-uwo3dsm",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-yv023r2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-yv023r2",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 323：lambda 参数的局部变量语法",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-xwo5w1s",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-xwo5w1s",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-hd9yfug",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-hd9yfug",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 324：支持 Curve25519 和 Curve 448 密钥",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-eu4aa71",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-eu4aa71",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-gqfrzt3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-gqfrzt3",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 327：Unicode 10",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-vcbkjcu",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-vcbkjcu",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-3h281mt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-3h281mt",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 328：添加 Java 飞行记录器（JFR），其用于创建性能分析记录",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-dcylj1o",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-dcylj1o",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-3zahjy2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-3zahjy2",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 329：ChaCha20 和 Poly1305 加密算法",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-6yswt17",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-6yswt17",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-rb6q5vp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-rb6q5vp",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 330：运行单文件源码程序",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-msiyxej",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-msiyxej",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-lyo8qzd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-lyo8qzd",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 331：低开销堆分析",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-djlekbf",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-djlekbf",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-pdrefwn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-pdrefwn",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 332：支持 TLS 1.3",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-865ybtt",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-865ybtt",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-ld6xoaj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-ld6xoaj",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 333：添加 ZGC（一个可扩展的低延迟垃圾收集器）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-ya324hm",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-ya324hm",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-gwdfr08",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-gwdfr08",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 335：弃用 Nashorn JavaScript 引擎",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007220359-dglrw7o",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221007220359-dglrw7o",
+						"updated": "20221007220359"
+					},
+					"Children": [
+						{
+							"ID": "20221007220359-o11obwg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007220359-o11obwg",
+								"updated": "20221007220359"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP 336：弃用 Pack200 相关的工具及 API",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221007223036-pfxtewa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007223036-pfxtewa",
+				"updated": "20221007223041"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 11 更新",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007223042-z0s01u4",
+			"Type": "NodeTable",
+			"Data": "|版本|发布日期|重点|\n| :-------------------| :--------: | :---------------------------------------------------------------------------|\n|Java SE 11[250]|2018-09-25|初始版本|\n|Java SE 11.0.1[251]|2018-10-16|安全性修补和漏洞修补|\n|Java SE 11.0.2[252]|2019-01-15|安全性修补和漏洞修补|\n|Java SE 11.0.3[253]|2019-04-16|新功能，安全性修补和漏洞修补|\n|Java SE 11.0.4[254]|2019-07-16|新功能，安全性修补和漏洞修补；HotSpot 现在可以正确地侦测 Windows Server 2019|\n|Java SE 11.0.5[255]|2019-10-15|新功能，安全性修补和漏洞修补|\n|Java SE 11.0.6[256]|2020-01-14|新功能，安全性修补和漏洞修补|\n|Java SE 11.0.7[257]|2020-04-14|新功能，安全性修补和漏洞修补|\n|Java SE 11.0.8[258]|2020-07-14|新功能，安全性修补和漏洞修补|\n|Java SE 11.0.9[259]|2020-10-20|新功能，安全性修补和漏洞修补|\n|Java SE 11.0.10[260]|2021-01-19|新功能，安全性修补和漏洞修补|\n|Java SE 11.0.11[261]|2021-04-20|新功能，安全性修补和漏洞修补|",
+			"TableAligns": [
+				1,
+				2,
+				1
+			],
+			"Properties": {
+				"colgroup": "||",
+				"id": "20221007223042-z0s01u4",
+				"updated": "20221007223043"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "版本",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 2,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "发布日期",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "重点",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11[250]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2018-09-25",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始版本",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.1[251]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2018-10-16",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.2[252]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2019-01-15",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.3[253]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2019-04-16",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新功能，安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.4[254]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2019-07-16",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新功能，安全性修补和漏洞修补；HotSpot 现在可以正确地侦测 Windows Server 2019",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.5[255]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2019-10-15",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新功能，安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.6[256]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2020-01-14",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新功能，安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.7[257]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2020-04-14",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新功能，安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.8[258]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2020-07-14",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新功能，安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.9[259]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2020-10-20",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新功能，安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.10[260]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2021-01-19",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新功能，安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 11.0.11[261]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2021-04-20",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新功能，安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221007222937-gllaodt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007222937-gllaodt",
+				"updated": "20221007222942"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "参考",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007222943-93fm1jp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007222943-93fm1jp",
+				"updated": "20221007222946"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.wdbyte.com/2020/03/jdk/jdk11-feature/",
+					"TextMarkTextContent": "https://www.wdbyte.com/2020/03/jdk/jdk11-feature/"
+				}
+			]
+		},
+		{
+			"ID": "20221007225338-8hr9y3t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225338-8hr9y3t",
+				"updated": "20221007225342"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.cnblogs.com/wmyskxz/p/13544669.html",
+					"TextMarkTextContent": "https://www.cnblogs.com/wmyskxz/p/13544669.html"
+				}
+			]
+		},
+		{
+			"ID": "20221007220417-2nblu8y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221007220417-2nblu8y",
+				"updated": "20221007220422"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 11 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225540-gwjesxz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221007225540-gwjesxz",
+				"updated": "20221007225546"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Oracle 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007220423-b5eqheb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007220423-b5eqheb",
+				"updated": "20221007221615"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html",
+					"TextMarkTextContent": "https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html"
+				}
+			]
+		},
+		{
+			"ID": "20221007221616-f0h8t6s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221007221616-f0h8t6s",
+				"updated": "20221007225559"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "adoptium 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221007225551-q8au6bl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221007225551-q8au6bl",
+				"updated": "20221007225602"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://adoptium.net/zh-CN/temurin/releases/?version=11",
+					"TextMarkTextContent": "https://adoptium.net/zh-CN/temurin/releases/?version=11"
+				}
+			]
+		},
+		{
+			"ID": "20221008011248-lc8bw2r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221008011248-lc8bw2r",
+				"updated": "20221008011313"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "amazon corretto 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008011259-g0hsjf6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011259-g0hsjf6",
+				"updated": "20221008011321"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html",
+					"TextMarkTextContent": "https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html"
+				}
+			]
+		},
+		{
+			"ID": "20221008011318-spf16km",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008011318-spf16km",
+				"updated": "20221008011318"
+			}
+		}
+	]
+}

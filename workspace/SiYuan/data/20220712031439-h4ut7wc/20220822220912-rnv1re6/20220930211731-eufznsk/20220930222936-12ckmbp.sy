@@ -1,0 +1,510 @@
+{
+	"ID": "20220930222936-12ckmbp",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "jdk从年发布起至今已历经多年从jdk升级到jdk（october）本节先一起回顾一下jdk的版本变迁和各版本的新特性。版本变迁年月日java语言诞生_年月第一个jdkjdk诞生_年月个最主要的操作系统供应商申明将在其产品中嵌入java技术_年月约万个网页应用了java技术来制作_年月日jdk发布_年月日javaone会议召开参与者逾一万人创当时全球同类会议纪录_年月javadeveloperconnection社区成员超过十万_年月jdk被下载超过次_年月日java企业平台jee发布_年月sun公司发布",
+		"custom-slug": "version-history-zjw4gn",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/《Java语言新特性》/000.版本历史.md",
+		"custom-wordpress-post-id": "4267",
+		"id": "20220930222936-12ckmbp",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220930211731-yp9fuqt\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220930221851-kqdik5h\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1138,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220930211731-yp9fuqt\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "版本,特性,历史,java,jdk",
+		"title": "000.版本历史",
+		"updated": "20220930221851"
+	},
+	"Children": [
+		{
+			"ID": "20220930211731-yp9fuqt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930211731-yp9fuqt",
+				"updated": "20220930211923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JDK 从 1995 年发布起至今已历经 20 多年，从 JDK1.0 升级到 JDK17（October 19, 2021），本节先一起回顾一下 JDK 的版本变迁和各版本的新特性。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-dwakxkb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220930221843-dwakxkb",
+				"updated": "20220930221847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "版本变迁"
+				}
+			]
+		},
+		{
+			"ID": "20220930221847-tm6k58d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221847-tm6k58d",
+				"updated": "20220930221847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1995 年 5 月 23 日，Java 语言诞生；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-mib9hdt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-mib9hdt",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1996 年 1 月，第一个 JDK-JDK1.0 诞生；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-0xctzhi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-0xctzhi",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1996 年 4 月，10 个最主要的操作系统供应商申明将在其产品中嵌入 Java 技术；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-x1hic2g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-x1hic2g",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1996 年 9 月，约 8.3 万个网页应用了 Java 技术来制作；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-vl7og51",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-vl7og51",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1997 年 2 月 18 日，JDK1.1 发布；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-382e9u2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-382e9u2",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1997 年 4 月 2 日，JavaOne 会议召开，参与者逾一万人，创当时全球同类会议纪录；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-qnki8vu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-qnki8vu",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1997 年 9 月，JavaDeveloperConnection 社区成员超过十万；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-8n7qnft",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-8n7qnft",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1998 年 2 月，JDK1.1 被下载超过 2,000,000 次；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-82j9dui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-82j9dui",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1998 年 12 月 8 日，Java 2 企业平台 J2EE 发布；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-3i1ds1h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-3i1ds1h",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1999 年 6 月，SUN 公司发布 Java 三个版本：标准版（J2SE）、企业版（J2EE）和微型版（J2ME）；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-cxkvk3j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-cxkvk3j",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2000 年 5 月 8 日，JDK1.3 发布；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-6czbtjs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-6czbtjs",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2001 年 6 月 5 日，Nokia 宣布到 2003 年将出售 1 亿部支持 Java 的手机；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-r5ky2cv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-r5ky2cv",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2001 年 9 月 24 日，J2EE1.3 发布；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-vt2t3ud",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-vt2t3ud",
+				"updated": "20220930222403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2002 年 2 月 26 日，J2SE1.4 发布，此后 Java 的计算能力有了大幅提升;"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-q50ygxa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-q50ygxa",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2004 年 9 月 30 日，J2SE1.5 发布，成为 Java 语言发展史上的又一里程碑。为了表示该版本的重要性，J2SE1.5 更名为 Java SE 5.0；有诸多重大新特性；代号：Tiger（里程碑版本）"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-zd5x217",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-zd5x217",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2006 年 12 月，SUN 公司发布 JDK6.0；代号: Mustang 此版本持续了 5 年之久才发布新版本，是最经典的版本。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-0rmnets",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-0rmnets",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2009 年 12 月，SUN 公司发布 Java EE 6；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-z3crm4v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-z3crm4v",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2010 年 11 月，由于甲骨文对 Java 社区的不友善，因此 Apache 扬言将退出 JCP；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-79donv5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-79donv5",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2011 年 7 月 28 日，甲骨文发布 Java SE 7；"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-5awedsf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-5awedsf",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2014 年 3 月 18 日，甲骨文发表 Java SE 8。（重大版本 - LTS）"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-0i8hj64",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-0i8hj64",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2017 年 9 月 21 日，JDK9 发布。从 JDK9 开始固定为每半年一个版本，更新内容相应缩减。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-o5z7pb9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-o5z7pb9",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2018 年 3 月 21 日，JDK10 发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-53uhei2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-53uhei2",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2018 年 9 月 25 日，JDK11 发布。（长期维护版本 - LTS）"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-xxpoybq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-xxpoybq",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2019 年 3 月 19 日，JDK12 发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-fx0p7bb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-fx0p7bb",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2019 年 9 月 17 日，JDK13 发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-5yrwupd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-5yrwupd",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2020 年 3 月 17 日，JDK14 发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-ybtazsi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-ybtazsi",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2020 年 9 月 15 日，JDK15 发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-vm9tn1v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-vm9tn1v",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2021 年 3 月 16 日，JDK16 发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-ov0bxuq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221843-ov0bxuq",
+				"updated": "20220930221843"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2021 年 9 月， JDK17 发布。（长期维护版本 - LTS）"
+				}
+			]
+		},
+		{
+			"ID": "20220930222654-yn5hmni",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930222654-yn5hmni",
+				"updated": "20220930222723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022 年 3 月 22 日，JDK18 发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220930222724-rqnm48k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930222724-rqnm48k",
+				"updated": "20220930222802"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2022 年 9 月 20，JDK19 发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220930221843-bn5fgpo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220930221843-bn5fgpo",
+				"updated": "20220930221851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "版本新特性"
+				}
+			]
+		},
+		{
+			"ID": "20220930221851-kqdik5h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930221851-kqdik5h",
+				"updated": "20220930221851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对重要版本的新特性做一下说明。"
+				}
+			]
+		}
+	]
+}

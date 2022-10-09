@@ -3,98 +3,29 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
-		"custom-desc": "idea自定义生成注释与作者版权信息文章更新历史feat_提供更好的办法直接添加到fileheader里面。生成类注释打开preferenceseditorclass在此添加的话你每次创建类的时候会弹两次框第二次是让你输入description的内容了代码如下{description}@name_{name}@author_{user}@date_{year}{month}{day}{hour}_{minute}接口(interface)枚举(enum)注解(annotation)的注释同理。生成效果id",
+		"custom-desc": "生成类注释打开preferenceseditorclass在此添加的话你每次创建类的时候会弹两次框第二次是让你输入description的内容了代码如下{description}@name_{name}@author_{user}@date_{year}{month}{day}{hour}_{minute}接口(interface)枚举(enum)注解(annotation)的注释同理。生成效果idea中其他类的查看效果备注_为什么不用下面的格式_因为下面的格式在另一个类无法查看注释。@name_{nam",
 		"custom-slug": "idea-customized-annotation-and-author-copyright-information",
+		"custom-vuepress-slug": "docs/003.经验分享/054.IDEA自定义生成注释与作者版权信息.md",
+		"custom-wordpress-post-id": "4272",
 		"id": "20220705214739-syqommn",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220705215526-hp2dwmc\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220706092642-0c1u8c1\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220705215530-ovm34by\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220705214741-wbiz45c\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221006180329-5lgqvua\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220705214741-25oi97b\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "author,注释,方法,模板,生成,添加",
-		"title": "IDEA自定义生成注释与作者版权信息",
-		"updated": "20220729195148"
+		"title": "054.IDEA自定义生成注释与作者版权信息",
+		"updated": "20220705214741"
 	},
 	"Children": [
 		{
-			"ID": "20220705215526-hp2dwmc",
-			"Type": "NodeBlockquote",
-			"Properties": {
-				"id": "20220705215526-hp2dwmc",
-				"updated": "20220705215620"
-			},
-			"Children": [
-				{
-					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e ",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
-					"ID": "20220705215530-ovm34by",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220705215530-ovm34by",
-						"updated": "20220705215537"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "文章更新历史",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
-				},
-				{
-					"ID": "20220705215538-idq4qzh",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220705215538-idq4qzh",
-						"updated": "20220705215620"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "2022/07/05 feat:提供更好的办法，直接添加到 file header 里面。",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20220729195148-u1a0un2",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
-			"Properties": {
-				"id": "20220729195148-u1a0un2",
-				"style": "text-align: left;",
-				"updated": "20220729195148"
-			}
-		},
-		{
 			"ID": "20220705214741-wbiz45c",
 			"Type": "NodeHeading",
-			"HeadingLevel": 1,
+			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20220705214741-wbiz45c",
 				"updated": "20220705214741"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "# ",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
 					"Type": "NodeText",
-					"Data": "生成类注释",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "生成类注释"
 				}
 			]
 		},
@@ -239,30 +170,58 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
-					"Data": "span",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
-							"Type": "NodeBang"
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "img"
+							"Data": "img",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "https://img1.terwergreen.com/20220705214622.jpeg"
+							"Data": "https://img1.terwergreen.com/20220705214622.jpeg",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				}
@@ -295,30 +254,58 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
-					"Data": "span",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
-							"Type": "NodeBang"
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "img"
+							"Data": "img",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "https://img1.terwergreen.com/20220705214711.jpeg"
+							"Data": "https://img1.terwergreen.com/20220705214711.jpeg",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				}
@@ -449,30 +436,58 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
-					"Data": "span",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
-							"Type": "NodeBang"
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image-20220705215735838"
+							"Data": "image-20220705215735838",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "https://img1.terwergreen.com/20220705215736.png"
+							"Data": "https://img1.terwergreen.com/20220705215736.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				}
@@ -481,25 +496,15 @@
 		{
 			"ID": "20220705214741-25oi97b",
 			"Type": "NodeHeading",
-			"HeadingLevel": 1,
+			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20220705214741-25oi97b",
 				"updated": "20220705214741"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "# ",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
 					"Type": "NodeText",
-					"Data": "生成方法注释",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "生成方法注释"
 				}
 			]
 		},
@@ -634,9 +639,52 @@
 		},
 		{
 			"ID": "20220706092642-0c1u8c1",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220706092642-0c1u8c1",
+				"style": "color: var(--b3-card-success-color); background-color: var(--b3-card-success-background);",
+				"updated": "20221006180317"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20221006180319-8s17jq5",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221006180319-8s17jq5",
+						"updated": "20221006180319"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史"
+						}
+					]
+				},
+				{
+					"ID": "20221006180319-im1sv03",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221006180319-im1sv03",
+						"updated": "20221006180319"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/07/05 feat:提供更好的办法，直接添加到 file header 里面。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221006180329-5lgqvua",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220706092642-0c1u8c1"
+				"id": "20221006180329-5lgqvua"
 			}
 		}
 	]

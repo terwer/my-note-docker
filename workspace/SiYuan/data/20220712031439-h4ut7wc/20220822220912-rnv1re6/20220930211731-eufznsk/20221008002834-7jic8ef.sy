@@ -1,0 +1,1003 @@
+{
+	"ID": "20221008002834-7jic8ef",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "jdk发布于年月日。主要特性java包含了下方列出的新功能以及“数百个小改进和数千个漏洞修复”[]。jep_使用instanceof的模式匹配（预览）jep_打包工具（孵化中）jep_在g中对不均匀的内存访问（numa）情况下的内存申请优化jep_jfreventstreamingjep_使字节缓冲区能够映射到非易失性存储器上jep_有帮助的nullpointerexceptionsjep_记录类（预览）jep_switch表达式（标准）jep_弃用solaris和sparc平台上的移植版本jep_移除c",
+		"custom-slug": "java_14-1gvcbp",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/900.《Java语言新特性》/016.Java_14.md",
+		"custom-wordpress-post-id": "4285",
+		"id": "20221008002834-7jic8ef",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221008002854-zjj5w7b\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221008002926-rycf5cn\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221008002854-m4o5gxd\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:15,\u0026amp;quot;focusEnd\u0026amp;quot;:15}",
+		"tags": "版本,修补,漏洞,预览,内存,jdk,java,jdk14,java14,javase",
+		"title": "016.Java_14",
+		"updated": "20221008003100"
+	},
+	"Children": [
+		{
+			"ID": "20221008002854-zjj5w7b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008002854-zjj5w7b",
+				"updated": "20221008002854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JDK 14 发布于 2020 年 3 月 17 日。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008002857-foubwuv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221008002857-foubwuv",
+				"updated": "20221008002904"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "主要特性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008002857-fzvcyyl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008002857-fzvcyyl",
+				"updated": "20221008003100"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 14 包含了下方列出的新功能，以及“数百个小改进和数千个漏洞修复” ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-281",
+					"TextMarkTextContent": "[281]"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008002854-3bcz9e7",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221008002854-3bcz9e7",
+				"updated": "20221008002854"
+			},
+			"Children": [
+				{
+					"ID": "20221008002854-30qrzu0",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-30qrzu0",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-ytsts1a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-ytsts1a",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-305：使用 instanceof 的模式匹配（预览）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-b1dwd2m",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-b1dwd2m",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-ug183q9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-ug183q9",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-343：打包工具（孵化中）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-wnizphf",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-wnizphf",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-uvlpz70",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-uvlpz70",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-345：在 G1 中，对不均匀的内存访问（NUMA）情况下的内存申请优化",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-cz35lqi",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-cz35lqi",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-lfjoj9x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-lfjoj9x",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-349：JFR Event Streaming",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-48nlf8s",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-48nlf8s",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-sbh2t2g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-sbh2t2g",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-352：使字节缓冲区能够映射到非易失性存储器上",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-mm1nrui",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-mm1nrui",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-4jk9npr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-4jk9npr",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-358：有帮助的 NullPointerExceptions",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-xoqrhf1",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-xoqrhf1",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-m4o5gxd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-m4o5gxd",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-359：记录类（预览）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-30f9aky",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-30f9aky",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-oz7ty98",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-oz7ty98",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-361：Switch 表达式（标准）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-r4mtqyc",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-r4mtqyc",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-8n814wy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-8n814wy",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-362：弃用 Solaris 和 SPARC 平台上的移植版本",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-vssd4ys",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-vssd4ys",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-v3zzxii",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-v3zzxii",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-363：移除 Concurrent Mark Sweep (CMS) 垃圾收集器",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-4lvy6dv",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-4lvy6dv",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-j42lqf0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-j42lqf0",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-364：适用于 macOS 的 ZGC",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-7d5va3t",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-7d5va3t",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-sbedybk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-sbedybk",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-365：适用于 Windows 的 ZGC",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-mw6vojg",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-mw6vojg",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-nm6u30i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-nm6u30i",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-366：弃用 ParallelScavenge + SerialOld 的垃圾收集器组合",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-qr3ozn8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-qr3ozn8",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-lnulsrd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-lnulsrd",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-367：移除 Pack200 相关的工具及 API",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-n776gxc",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-n776gxc",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-1pw1pvb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-1pw1pvb",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-368：文本块（第二预览版本）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221008002854-grzei4v",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221008002854-grzei4v",
+						"updated": "20221008002854"
+					},
+					"Children": [
+						{
+							"ID": "20221008002854-y8duoei",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221008002854-y8duoei",
+								"updated": "20221008002854"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JEP-370：外部内存访问 API（孵化中）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221008002908-eilktmv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221008002908-eilktmv",
+				"updated": "20221008002914"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 14 更新",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008003034-ed2kml9",
+			"Type": "NodeTable",
+			"Data": "|版本|发布日期|重点|\n| :------------------| :--------: | :-------------------|\n|Java SE 14[282]|2020-03-17|初始版本|\n|Java SE 14.0.1[283]|2020-04-14|安全性修补和漏洞修补|\n|Java SE 14.0.2[284]|2020-07-14|安全性修补和漏洞修补|",
+			"TableAligns": [
+				1,
+				2,
+				1
+			],
+			"Properties": {
+				"colgroup": "||",
+				"id": "20221008003034-ed2kml9",
+				"updated": "20221008003036"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "版本",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 2,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "发布日期",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"TableCellAlign": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "重点",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 14[282]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2020-03-17",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始版本",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 14.0.1[283]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2020-04-14",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"TableAligns": [
+						1,
+						2,
+						1
+					],
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java SE 14.0.2[284]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 2,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2020-07-14",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"TableCellAlign": 1,
+							"Properties": {
+								"id": ""
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安全性修补和漏洞修补",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221008002914-tyxn8sx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221008002914-tyxn8sx",
+				"updated": "20221008002925"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 14 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221008002926-rycf5cn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221008002926-rycf5cn",
+				"updated": "20221008002949"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html",
+					"TextMarkTextContent": "https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html"
+				}
+			]
+		}
+	]
+}

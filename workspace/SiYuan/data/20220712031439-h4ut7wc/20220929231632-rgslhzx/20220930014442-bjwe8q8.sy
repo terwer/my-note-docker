@@ -1,0 +1,108 @@
+{
+	"ID": "20220930014442-bjwe8q8",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220930014442-bjwe8q8",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220930014442-fi4ouz0\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220930015135-pdrctff\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:457,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220930015135-pdrctff\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:4,\u0026amp;quot;focusEnd\u0026amp;quot;:4}",
+		"title": "003.Centos7安装NodeJS",
+		"updated": "20220930015203"
+	},
+	"Children": [
+		{
+			"ID": "20220930014442-fi4ouz0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220930014442-fi4ouz0",
+				"updated": "20220930014553"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo dnf install npm\nsudo npm i n -g\n\nsudo mkdir -p /usr/local/n \u0026\u0026 sudo chown -R $(whoami) /usr/local/n/\nsudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share\n\nn stable\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220930014654-31aepkm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930014654-31aepkm",
+				"updated": "20220930014723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "也可以安装n到当前用户的home目录"
+				}
+			]
+		},
+		{
+			"ID": "20220930014716-rmo6sgl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220930014716-rmo6sgl",
+				"updated": "20220930014818"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "npm i -g n\nN_PREFIX=$HOME/.local n stable\n\n# 环境变量\nexport N_PREFIX=$HOME/.local\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220930015135-pdrctff",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220930015135-pdrctff",
+				"updated": "20220930015203"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "➜  app n stable\n  installing : node-v16.17.1\n       mkdir : /usr/local/n/versions/node/16.17.1\n       fetch : https://nodejs.org/dist/v16.17.1/node-v16.17.1-linux-x64.tar.xz\n     copying : node/16.17.1\n   installed : v16.17.1 (with npm 8.15.0)\n➜  app node -v \nv16.17.1\n➜  app npm -v  \n8.15.0\n\nnpm i -g yarn\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

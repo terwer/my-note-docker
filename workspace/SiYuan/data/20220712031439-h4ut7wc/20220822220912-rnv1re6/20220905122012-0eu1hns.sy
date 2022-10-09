@@ -8,10 +8,10 @@
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/001.Java_SE之Java_SE平台与JDK.md",
 		"custom-wordpress-post-id": "4044",
 		"id": "20220905122012-0eu1hns",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220905122249-mmgjilp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220905122339-4kt2xrj\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220905122303-34mva91\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:6,\u0026amp;quot;focusEnd\u0026amp;quot;:6}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220905122249-mmgjilp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220905122339-4kt2xrj\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:466,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220930210645-a6xjzzf\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:59,\u0026amp;quot;focusEnd\u0026amp;quot;:59}",
 		"tags": "平台,版本,jdk,javase,java,kotlin",
 		"title": "001.Java_SE之Java_SE平台与JDK",
-		"updated": "20220905123036"
+		"updated": "20220930210651"
 	},
 	"Children": [
 		{
@@ -395,6 +395,22 @@
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://www.wdbyte.com/java/java-17/",
 					"TextMarkTextContent": "https://www.wdbyte.com/java/java-17/"
+				}
+			]
+		},
+		{
+			"ID": "20220930210645-a6xjzzf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930210645-a6xjzzf",
+				"updated": "20220930210651"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.oracle.com/java/technologies/downloads/archive/",
+					"TextMarkTextContent": "https://www.oracle.com/java/technologies/downloads/archive/"
 				}
 			]
 		},

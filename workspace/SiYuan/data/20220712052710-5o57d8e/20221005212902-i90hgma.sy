@@ -1,0 +1,608 @@
+{
+	"ID": "20221005212902-i90hgma",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "jdk规范目录javabean是一种特殊的java类主要用于传递数据信息这种java类中的方法主要用于访问私有的字段且方法名符合某种命名规则。一javabeanjavabean命名规则一个javabean类中的方法去掉set或get前缀剩余部分就是属性名如果剩余部分的第二个字母是小写的则把剩余部分的首字母改成小的。getagesetageagegettimesettimetime如果去掉前缀剩余部分的第二个字母为大写则全部大写getcpugetcpu完整示例publicclasstestbean{priv",
+		"custom-slug": "jdk-s-javabean-provincial-mechanism-ztwhd9",
+		"custom-vuepress-slug": "docs/003.经验分享/064.JDK之JavaBean内省机制.md",
+		"custom-wordpress-post-id": "4271",
+		"id": "20221005212902-i90hgma",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221005212933-he2wrl5\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221006174529-7ifnlah\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221006175618-s53f0k9\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "方法,属性,内省,java,bean,jdk",
+		"title": "064.JDK之JavaBean内省机制",
+		"updated": "20221006175625"
+	},
+	"Children": [
+		{
+			"ID": "20221005212933-he2wrl5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-he2wrl5",
+				"updated": "20221006174305"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.cnblogs.com/binarylei/p/10200503.html",
+					"TextMarkTextContent": "JDK 规范目录"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-soqqiz4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-soqqiz4",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JavaBean 是一种特殊的 Java 类，主要用于传递数据信息，这种 Java 类中的方法主要用于访问私有的字段，且方法名符合某种命名规则。"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-xh3skx3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221005212933-xh3skx3",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一、JavaBean"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-alr30l1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221005212933-alr30l1",
+				"updated": "20221006174354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JavaBean 命名规则"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-u3ndjoo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221005212933-u3ndjoo",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"ID": "20221005212933-iv6yz0r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221005212933-iv6yz0r",
+						"updated": "20221005212933"
+					},
+					"Children": [
+						{
+							"ID": "20221005212933-2aan8nn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221005212933-2aan8nn",
+								"updated": "20221006175602"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个 JavaBean 类中的方法，去掉 set 或 get 前缀，剩余部分就是属性名，如果剩余部分的第二个字母是小写的，则把剩余部分的首字母改成小的。\ngetAge/setAge --\u003e age\ngetTime/setTime --\u003e time"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221005212933-kvr8ah9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221005212933-kvr8ah9",
+						"updated": "20221005212933"
+					},
+					"Children": [
+						{
+							"ID": "20221005212933-azr5o8s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221005212933-azr5o8s",
+								"updated": "20221005212933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果去掉前缀，剩余部分的第二个字母为大写，则全部大写\ngetCPU --\u003e getCPU"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221006175618-s53f0k9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221006175618-s53f0k9",
+				"updated": "20221006175625"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "完整示例"
+				}
+			]
+		},
+		{
+			"ID": "20221006175605-562so8w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221006175605-562so8w",
+				"updated": "20221006175614"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public class TestBean {\n    private Integer age;\n    private String time;\n    private String CPU;\n\n    public Integer getAge() {\n        return age;\n    }\n\n    public void setAge(Integer age) {\n        this.age = age;\n    }\n\n    public String getTime() {\n        return time;\n    }\n\n    public void setTime(String time) {\n        this.time = time;\n    }\n\n    public String getCPU() {\n        return CPU;\n    }\n\n    public void setCPU(String CPU) {\n        this.CPU = CPU;\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-w3hfyhk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221005212933-w3hfyhk",
+				"updated": "20221006174359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "什么叫做内省？"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-2p2btpq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-2p2btpq",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 内省主要使用来对 JavaBean 进行操作的，所以当一个类满足了 JavaBean 的条件，就可以使用内省的方式来获取和操作 JavaBean 中的字段值。内省提供了操作 JavaBean 的 API。"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-e2ikszn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-e2ikszn",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 中提供了一套 API 用来访问某个属性的 getter/setter 方法，通过这些 API 可以使你不需要了解这个规则，这些 API 存放于包 java.beans 中，一般的做法是通过类 Introspector 的 getBeanInfo 方法 来获取某个对象的 BeanInfo 信息，然后通过 BeanInfo 来获取属性的描述器(PropertyDescriptor)，通过这个属性描述器就可以获取某个属性对应的 getter/setter 方法，然后我们就可以通过反射机制来调用这些方法。"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-xqg62kz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221005212933-xqg62kz",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二、JDK 内省机制"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-qtkj80w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221005212933-qtkj80w",
+				"updated": "20221006174405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Introspector 类"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-2kocq0c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-2kocq0c",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Introspector 这个类位于 java.beans 包中，该类中的方法都是静态的，可以直接使用类名调用。"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-z2d7inj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221005212933-z2d7inj",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 获取 beanClass 及其所有父类的 BeanInfo\nBeanInfo getBeanInfo(Class\u003c?\u003ebeanClass)\n\n// 获取 beanClass 及其指定到父类 stopClass 的 BeanInfo \nBeanInfo getBeanInfo(Class\u003c?\u003e beanClass, Class\u003c?\u003e stopClass)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-pu8dznu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-pu8dznu",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们可以使用 Introspector 的 getBeanInfo(Class\u003c?\u003e beanClass) 来获取一个 JavaBean 类的 BeanInfo 对象。BeanInfo 有三个常用的属性："
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-9kik8np",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221005212933-9kik8np",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// bean 信息\nBeanDescriptor beanDescriptor = beanInfo.getBeanDescriptor();\n// 属性信息\nPropertyDescriptor[] propertyDescriptors = beanInfo.getPropertyDescriptors();\n// 方法信息\nMethodDescriptor[] methodDescriptors = beanInfo.getMethodDescriptors();\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-p61ev48",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221005212933-p61ev48",
+				"updated": "20221006174411"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PropertyDescriptor 类"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-5grb2md",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-5grb2md",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个类位于 java.beans 包中。"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-4tyr6sz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221005212933-4tyr6sz",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Test\npublic void test() throws Exception {\n    PropertyDescriptor pd = new PropertyDescriptor(\"id\", User.class);\n    System.out.println(pd.getName());\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-6v6i95f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221005212933-6v6i95f",
+				"updated": "20221006174419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PropertyEditor 类"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-atukrf5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-atukrf5",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Spring 中使用 PropertyEditor 向 JavaBean 中注入属性。"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-k27cpsw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221005212933-k27cpsw",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Test\npublic void test1() throws Exception {\n    User user = new User();\n\n    PropertyDescriptor propertyDescriptor = new new PropertyDescriptor(\"id\", User.class);\n    propertyDescriptor.setPropertyEditorClass(IntPropertyEditor.class);\n    PropertyEditor propertyEditor = propertyDescriptor.createPropertyEditor(user);\n\n    propertyEditor.setAsText(\"99\");\n    Method writeMethod = propertyDescriptor.getWriteMethod();\n    writeMethod.invoke(user, propertyEditor.getValue());\n\n    System.out.println(user);\n}\n\n@Test\npublic void test2() throws Exception {\n    User user = new User();\n\n    PropertyDescriptor propertyDescriptor = new new PropertyDescriptor(\"id\", User.class);\n    propertyDescriptor.setPropertyEditorClass(IntPropertyEditor.class);\n    PropertyEditor propertyEditor = propertyDescriptor.createPropertyEditor(user);\n\n    // 这个 evt 实际上就是 propertyEditor 对象\n    propertyEditor.addPropertyChangeListener(evt -\u003e {\n        PropertyEditor source = (PropertyEditor) evt.getSource();\n        Method writeMethod = propertyDescriptor.getWriteMethod();\n        writeMethod.invoke(user, source.getValue());\n    });\n    propertyEditor.setAsText(\"99\");\n    System.out.println(user);\n}\n\n// JDK 中的 PropertyEditor 接口\npublic static class IntPropertyEditor extends PropertyEditorSupport {\n    @Override\n    public void setAsText(String text) throws IllegalArgumentException {\n        setValue(Integer.parseInt(text));\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-c305x0g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221005212933-c305x0g",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三、Apache BeanUtils 工具包"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-t8gf11y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-t8gf11y",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Apache 组织开发了一套用于操作 JavaBean 的 API(内省)。该工具在 commons-beanutils 包中，核心类 BeanUtils："
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-zca511u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221005212933-zca511u",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "setProperty(bean, name, value)\ncopyProperties(target, source)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-1r1gz7g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-1r1gz7g",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以支持 String 到 8 中基本数据类型转换，其他引用数据类型都需要注册转换器 ConvertUtils.register(Converter, Class)"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-eifahjd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-eifahjd",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 BeanUtils 来格式化日期："
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-hxzgfq0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221005212933-hxzgfq0",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public static void main(String[] args) throws Exception {\n      \n    User user = new User();\n  \n    String name = \"zhangsan\";\n    String birthday = \"19801122\";\n  \n    // 注册一个转换器\n    /* 使用匿名内部类来注册转换器\n    ConvertUtils.register(new Converter() {\n      \n        public Object convert(Class beanClass, Object value) {\n            String birthday = (String) value;\n            SimpleDateFormat sdf = new SimpleDateFormat(\"yyyyMMdd\");\n            try {\n                return sdf.parse(birthday);\n            } catch (ParseException e) {\n                return null;\n            }\n        }\n    }, Date.class);\n    */\n   \n    DateConverter converter = new DateConverter();\n    converter.setPatterns(new String[]{\"yyyy-MM-dd\",\"yyyyMMdd\",\"MM/dd/yyyy\"});\n    ConvertUtils.register(converter, Date.class);\n  \n    BeanUtils.setProperty(user, \"name\", name);\n    BeanUtils.setProperty(user, \"birthday\", birthday);\n\n    System.out.println(user);  \n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221005212933-1mj7srx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221005212933-1mj7srx",
+				"updated": "20221005212933"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "参考："
+				}
+			]
+		},
+		{
+			"ID": "20221006174529-7ifnlah",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221006174529-7ifnlah"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "《JavaBean 以及内省技术详解》："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.cnblogs.com/yejiurui/archive/2012/10/06/2712693.html",
+					"TextMarkTextContent": "https://www.cnblogs.com/yejiurui/archive/2012/10/06/2712693.html"
+				}
+			]
+		}
+	]
+}

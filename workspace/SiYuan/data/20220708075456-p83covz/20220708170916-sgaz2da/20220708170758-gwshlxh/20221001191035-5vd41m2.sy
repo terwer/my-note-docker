@@ -1,0 +1,223 @@
+{
+	"ID": "20221001191035-5vd41m2",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221001191035-5vd41m2",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221001191046-4lbceo5\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221001191046-16zejm4\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221001191046-r6xxx7l\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:37,\u0026amp;quot;focusEnd\u0026amp;quot;:37}",
+		"title": "2022-09-30-周报",
+		"updated": "20221001191103"
+	},
+	"Children": [
+		{
+			"ID": "20221001191046-4lbceo5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-4lbceo5",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、服务单修复"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-d38n5do",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-d38n5do",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174010 服务问题单库(EKP/KMS/FS) - 【服务问题单】学习服务引用删除定时任务报错"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-o34dfim",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-o34dfim",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174486【服务问题跟踪单】被引用的课件，在课件查看界面删除会提示被引用了不能删除，如果在课件列表界面操作批量删除，则直接删除成功，导致引用的学习文档会有问题"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-1fnzez6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-1fnzez6",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174931【服务问题单】专家网络模块，在新建专家后，在列表页面查看不到已经新建的专家。"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-33qdgjk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-33qdgjk",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174861【服务问题单】开启集团分级授权，用户为知识评测模块管理员，没有导出功能，admin超管"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-6p8bolk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-6p8bolk",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-y6alrza",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-y6alrza",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、缺陷修复​"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-3b9k4g0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-3b9k4g0",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174482【日常缺陷】【学习管理】课件详情页使用情况报600"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-r6xxx7l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-r6xxx7l",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173060【日常缺陷】【知识问答】收藏成功后，再次点击收藏，控制台报错"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-f885ks3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-f885ks3",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174482【日常缺陷】【学习管理】课件详情页使用情况报600"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-ctl55m3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-ctl55m3",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174931【服务问题单】专家网络模块，在新建专家后，在列表页面查看不到已经新建的专家。"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-ls5fet1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-ls5fet1",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172954【日常缺陷】 【文档协同-修复】ios系统的safari浏览器的我的团队的按钮显示有问题，安卓的没复现问题"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-19z650x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-19z650x",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173060【日常缺陷】【知识问答】收藏成功后，再次点击收藏，控制台报错"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-vu66hna",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-vu66hna",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173703【KMS16.0.7.R回归测试 - 文档协同】指定范围分享的分享人退出共享后时，我的分享列表的分享人列的姓名后面出现红色的“（已退出）”字体"
+				}
+			]
+		},
+		{
+			"ID": "20221001191046-16zejm4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001191046-16zejm4",
+				"updated": "20221001191046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#173112【KMS16.0.7.R回归测试 - 文档协同】知识助手查看知识时，下面没有显示滚轮，只有下滑到最底部才会出现滚轮"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"ID": "20220930211731-eufznsk",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220930211731-eufznsk",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220930222955-vdpt6pk\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220930222955-vdpt6pk\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220930222955-vdpt6pk\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "《Java语言新特性》",
+		"updated": "20220930222955"
+	},
+	"Children": [
+		{
+			"ID": "20220930222955-vdpt6pk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220930222955-vdpt6pk"
+			}
+		}
+	]
+}

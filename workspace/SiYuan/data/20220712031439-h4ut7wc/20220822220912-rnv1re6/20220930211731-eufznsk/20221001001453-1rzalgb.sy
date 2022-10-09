@@ -1,0 +1,879 @@
+{
+	"ID": "20221001001453-1rzalgb",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "年月日发布代号为playground。该版本到jse为止的后续版本被更名为java而版本名称“jse”（java平台标准版）取代jdk以区别jee（java平台企业版）和jme（javaplatformmicroedition）基础平台。这是java的一个非常重要的版本它将java平台的大小增加至原先的三倍在个程序包中达到了个类。主要增加包括_[]主要特性strictfp关键字参考java中不常见的关键字_strictfptransient​主类别中集成了swing)图像化api首次为sun提供的jvm配",
+		"custom-slug": "jdk_12-z1dsxph",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/900.《Java语言新特性》/004.J2SE_1-2.md",
+		"custom-wordpress-post-id": "4273",
+		"id": "20221001001453-1rzalgb",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221006190046-5kmdocz\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221006191613-ojpt1lg\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221006201150-2sdweuq\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:2,\u0026amp;quot;focusEnd\u0026amp;quot;:2}",
+		"tags": "平台,版本,主要,jdk,java,一个,增加",
+		"title": "004.J2SE_1-2",
+		"updated": "20221006211915"
+	},
+	"Children": [
+		{
+			"ID": "20221006190046-5kmdocz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221006190046-5kmdocz",
+				"updated": "20221006191913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1998 年 12 月 8 日发布，代号为 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Playground"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。 该版本到 J2SE 5.0 为止的后续版本被更名为 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Java 2"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，而版本名称“J2SE”（Java 2 平台，标准版）取代 JDK 以区别 J2EE（Java 2 平台，企业版） 和 J2ME（Java 2 Platform，Micro Edition）基础平台。这是 Java 的一个非常重要的版本，它将 Java 平台的大小增加至原先的三倍，在 59 个程序包中达到了 1520 个类。主要增加包括：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-pr12-9",
+					"TextMarkTextContent": "[9]"
+				}
+			]
+		},
+		{
+			"ID": "20221006185807-ethli6w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221006185807-ethli6w",
+				"updated": "20221006185812"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "主要特性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221006190042-4ieii2a",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221006190042-4ieii2a",
+				"updated": "20221006201217"
+			},
+			"Children": [
+				{
+					"ID": "20221006190042-5nkskoa",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190042-5nkskoa",
+						"updated": "20221006201217"
+					},
+					"Children": [
+						{
+							"ID": "20221006190042-ck418ja",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190042-ck418ja",
+								"updated": "20221006190042"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "strictfp"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 关键字",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221006201150-2sdweuq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006201150-2sdweuq",
+								"updated": "20221006201217"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参考 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://blog.csdn.net/luckykapok918/article/details/54135343",
+									"TextMarkTextContent": "java中不常见的关键字：strictfp，transient"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221006190042-fk8y7gd",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190042-fk8y7gd",
+						"updated": "20221006190042"
+					},
+					"Children": [
+						{
+							"ID": "20221006190042-7xca5xl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190042-7xca5xl",
+								"updated": "20221006190042"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "主类别中集成了 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/Swing_(Java)",
+									"TextMarkTextContent": "Swing"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " \"Swing (Java)\")图像化 API",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221006190042-0407cjj",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190042-0407cjj",
+						"updated": "20221006190042"
+					},
+					"Children": [
+						{
+							"ID": "20221006190042-pdg93f5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190042-pdg93f5",
+								"updated": "20221006190042"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首次为 Sun 提供的 JVM 配备 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/%E5%8D%B3%E6%99%82%E7%B7%A8%E8%AD%AF",
+									"TextMarkATitle": "即时编译",
+									"TextMarkTextContent": "JIT(Just In Time)"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "编译器",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221006190042-s41rrrp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190042-s41rrrp",
+						"updated": "20221006190042"
+					},
+					"Children": [
+						{
+							"ID": "20221006190042-t6oxqa8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190042-t6oxqa8",
+								"updated": "20221006190042"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/Java_applet",
+									"TextMarkATitle": "Java applet",
+									"TextMarkTextContent": "Java plug-in"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（即 Java Applet）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221006190042-0wmn3pu",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190042-0wmn3pu",
+						"updated": "20221006190042"
+					},
+					"Children": [
+						{
+							"ID": "20221006190042-zpn3gqz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190042-zpn3gqz",
+								"updated": "20221006190042"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/Java_IDL",
+									"TextMarkATitle": "Java IDL",
+									"TextMarkTextContent": "Java IDL"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，一个与 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/CORBA",
+									"TextMarkATitle": "CORBA",
+									"TextMarkTextContent": "CORBA"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 互通的",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/%E6%8E%A5%E5%8F%A3%E6%8F%8F%E8%BF%B0%E8%AF%AD%E8%A8%80",
+									"TextMarkATitle": "接口描述语言",
+									"TextMarkTextContent": "接口描述语言"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "实现",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221006190042-4dixe3v",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190042-4dixe3v",
+						"updated": "20221006190104"
+					},
+					"Children": [
+						{
+							"ID": "20221006190042-gkt2782",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190042-gkt2782",
+								"updated": "20221006190104"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://zh.wikipedia.org/wiki/Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6",
+									"TextMarkATitle": "Java集合框架",
+									"TextMarkTextContent": "Java集合框架"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，如新增 HashMap 替代旧的 HashTable（常用）;",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221006190213-ux8xaf6",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190213-ux8xaf6",
+						"updated": "20221006190213"
+					},
+					"Children": [
+						{
+							"ID": "20221006190213-7ym3kwv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190213-7ym3kwv",
+								"updated": "20221006190213"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对打包的 Java 文件进行数字签名;",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221006190216-1err0tx",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190216-1err0tx",
+						"updated": "20221006190216"
+					},
+					"Children": [
+						{
+							"ID": "20221006190216-3a59grc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190216-3a59grc",
+								"updated": "20221006190216"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JFC(Java Foundation Classes), 包括 Swing 1.0, 拖放和 Java2D 类库;",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221006190219-4fgbxfw",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190219-4fgbxfw",
+						"updated": "20221006190219"
+					},
+					"Children": [
+						{
+							"ID": "20221006190219-oow8jwa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190219-oow8jwa",
+								"updated": "20221006190219"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "JDBC 中引入可滚动结果集,BLOB,CLOB,批量更新和用户自定义类型;",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221006190222-qbejlf1",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221006190222-qbejlf1",
+						"updated": "20221006190222"
+					},
+					"Children": [
+						{
+							"ID": "20221006190222-lgzn5q9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221006190222-lgzn5q9",
+								"updated": "20221006190222"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Applet 中添加声音支持.",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221001002146-aqhnavm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221001002146-aqhnavm",
+				"updated": "20221001002202"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Java 在 1.2 细分为三个平台",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221001001521-vzn1087",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001001521-vzn1087",
+				"updated": "20221001001521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "As work progressed within Sun Microsystems on Java 1.2, a decision was made to rebrand Java and to make major changes in the way Java was packaged and licensed. Java 1.2 became simply Java 2, although the JDK and JRE versions remained at 1.2. More importantly, however, the Java platform was split into three editions:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221001001532-hoenqc6",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221001001532-hoenqc6",
+				"updated": "20221001001550"
+			},
+			"Children": [
+				{
+					"ID": "20221001001543-y75dbsz",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221001001543-y75dbsz",
+						"updated": "20221001001543"
+					},
+					"Children": [
+						{
+							"ID": "20221001001543-r6wzj4t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221001001543-r6wzj4t",
+								"updated": "20221001001543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "■■ Java 2 Standard Edition (J2SE) is for conventional desktop application development. Swing has been folded into the core Java classes, and a number of new classes have been added to enhance application development even more than what Java 1.1 offered.",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221001001546-b8kptxx",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221001001546-b8kptxx",
+						"updated": "20221001001546"
+					},
+					"Children": [
+						{
+							"ID": "20221001001546-c078rj7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221001001546-c078rj7",
+								"updated": "20221001001546"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "■■ Java 2 Enterprise Edition (J2EE) is a superset of J2SE that is geared toward enterprise programming with an emphasis on server-side development using Enterprise JavaBeans (EJBs), web applications (servlets and JavaServer Pages), CORBA, and Extensible Markup Language (XML).",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221001001550-vu68olf",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221001001550-vu68olf",
+						"updated": "20221001001550"
+					},
+					"Children": [
+						{
+							"ID": "20221001001550-jliunt0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221001001550-jliunt0",
+								"updated": "20221001001550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "■■ Java 2 Micro Edition (J2ME) is a subset of J2SE that is geared toward embedded and handheld devices that cannot support a full J2SE implementation.",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221001001640-tf5sjtl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221001001640-tf5sjtl",
+				"updated": "20221001002129"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "JCP",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221001002129-ooq56ei",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001002129-ooq56ei",
+				"updated": "20221001002138"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 规范由 jcp 主导",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221001002138-0f74ugc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221001002138-0f74ugc",
+				"updated": "20221001002141"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.jcp.org/en/jsr/all?sortBy=date",
+					"TextMarkTextContent": "https://www.jcp.org/en/jsr/all?sortBy=date"
+				}
+			]
+		},
+		{
+			"ID": "20221001002142-1zntm0s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221001002142-1zntm0s",
+				"updated": "20221006191608"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "JDK 1.2 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221006191609-sg2yymt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221006191609-sg2yymt",
+				"updated": "20221006191613"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.oracle.com/java/technologies/java-archive-javase-v12-downloads.html",
+					"TextMarkTextContent": "https://www.oracle.com/java/technologies/java-archive-javase-v12-downloads.html"
+				}
+			]
+		},
+		{
+			"ID": "20221006191613-ojpt1lg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221006191613-ojpt1lg",
+				"updated": "20221006191613"
+			}
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"ID": "20220929231632-rgslhzx",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220929231632-rgslhzx",
+		"title": "005.Linux",
+		"updated": "20220929231638"
+	},
+	"Children": [
+		{
+			"ID": "20220929231638-adoozuu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220929231638-adoozuu"
+			}
+		},
+		{
+			"ID": "20220929231632-kezyqbh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220929231632-kezyqbh",
+				"updated": "20220929231632"
+			}
+		}
+	]
+}
