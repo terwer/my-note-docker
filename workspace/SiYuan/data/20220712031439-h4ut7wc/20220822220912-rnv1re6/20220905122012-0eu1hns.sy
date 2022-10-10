@@ -8,10 +8,10 @@
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/001.Java_SE之Java_SE平台与JDK.md",
 		"custom-wordpress-post-id": "4044",
 		"id": "20220905122012-0eu1hns",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220905122249-mmgjilp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220905122339-4kt2xrj\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:466,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220930210645-a6xjzzf\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:59,\u0026amp;quot;focusEnd\u0026amp;quot;:59}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220905122249-mmgjilp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220905122339-4kt2xrj\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220905122249-mevr58u\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "平台,版本,jdk,javase,java,kotlin",
 		"title": "001.Java_SE之Java_SE平台与JDK",
-		"updated": "20220930210651"
+		"updated": "20221010195359"
 	},
 	"Children": [
 		{
@@ -1229,7 +1229,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220905122249-xfbi5rg",
-				"updated": "20220905122249"
+				"updated": "20221010195359"
 			},
 			"Children": [
 				{
@@ -1241,7 +1241,7 @@
 					},
 					"Properties": {
 						"id": "20220905122248-ce76b4e",
-						"updated": "20220905122248"
+						"updated": "20221010195340"
 					},
 					"Children": [
 						{
@@ -1301,7 +1301,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220905122249-j7f6pjk",
-								"updated": "20220905122249"
+								"updated": "20221010195340"
 							},
 							"Children": [
 								{
@@ -1326,7 +1326,7 @@
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://cdn.jsdelivr.net/gh/terwer/upload/img/20220509000006.png"
+											"Data": "https://img1.terwer.space/20220509000006.png"
 										},
 										{
 											"Type": "NodeCloseParen"
@@ -1350,7 +1350,7 @@
 					},
 					"Properties": {
 						"id": "20220905122248-il1ntx1",
-						"updated": "20220905122248"
+						"updated": "20221010195359"
 					},
 					"Children": [
 						{
@@ -1414,7 +1414,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220905122249-s4hciwi",
-								"updated": "20220905122249"
+								"updated": "20221010195359"
 							},
 							"Children": [
 								{
@@ -1439,7 +1439,7 @@
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://cdn.jsdelivr.net/gh/terwer/upload/img/image-20220501192947243.png"
+											"Data": "https://img1.terwer.space/image-20220501192947243.png"
 										},
 										{
 											"Type": "NodeCloseParen"

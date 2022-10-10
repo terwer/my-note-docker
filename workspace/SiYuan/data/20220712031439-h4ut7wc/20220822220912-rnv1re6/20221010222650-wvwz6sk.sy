@@ -1,0 +1,1343 @@
+{
+	"ID": "20221010222650-wvwz6sk",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "多态_父类型的引用可以指向子类型的对象。parentp=newchild_当使用多态方式调用方法时首先检查父类中是否有sing方法如果没有则编译错误_如果有再去调用子类的sing方法。一共有两种类型的强制类型转换_a)向上类型转换（upcast）_比如说将cat类型转换为animal类型即将子类型转换为父类型。对于向上类型转换不需要显式指定。b)向下类型转换（downcast）_比如将animal类型转换为cat类型。即将父类型转换为子类型。对于向下类型转换必须要显式指定（必须要使用强制类型转换）。抽象类",
+		"custom-slug": "java-polymorphism-and-static-keyword",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/013.Java_SE_Lesson_2：多态与static关键字.md",
+		"custom-wordpress-post-id": "4303",
+		"id": "20221010222650-wvwz6sk",
+		"tags": "方法,可以,一个,静态,修饰,static,final",
+		"title": "013.Java_SE_Lesson_2：多态与static和final关键字",
+		"updated": "20221010222707"
+	},
+	"Children": [
+		{
+			"ID": "20221010222655-deazdvb",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221010222655-deazdvb",
+				"updated": "20221010222733"
+			},
+			"Children": [
+				{
+					"ID": "20221010222655-9zymr22",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010222655-9zymr22",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-yc6z7s5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-yc6z7s5",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多态：父类型的引用可以指向子类型的对象。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-mt5hr3u",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010222655-mt5hr3u",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-3nv78u4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-3nv78u4",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Parent p = new Child;当使用多态方式调用方法时，首先检查父类中是否有 sing 方法，如果没有则编译错误；如果有，再去调用子类的 sing 方法。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-k94k6q9",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010222655-k94k6q9",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-sm1qjy9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-sm1qjy9",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一共有两种类型的强制类型转换：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010222655-vgdgv7d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-vgdgv7d",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "a)向上类型转换（upcast）：比如说将 Cat 类型转换为 Animal 类型，即将子类型转换为父类型。对于向上类型转换，不需要显式指定。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010222655-trnb2t1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-trnb2t1",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "b)向下类型转换（downcast）：比如将 Animal 类型转换为 Cat 类型。即将父类型转换为子类型。对于向下类型转换，必须要显式指定（必须要使用强制类型转换）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-9kae1bz",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221010222655-9kae1bz",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-y9tt0ao",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-y9tt0ao",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象类（abstract class）：使用了 abstract 关键字所修饰的类叫做抽象类。抽象类无法实例化，也就是说，不能 new 出来一个抽象类的对象（实例）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-ayabvci",
+					"Type": "NodeListItem",
+					"Data": "5",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NQ==",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221010222655-ayabvci",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-gupg4fv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-gupg4fv",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象方法（abstract method）：使用 abstract 关键字所修饰的方法叫做抽象方法。抽象方法需要定义在抽象类中。相对于抽象方法，之前所定义的方法叫做具体方法（有声明，有实现）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-u5qqy81",
+					"Type": "NodeListItem",
+					"Data": "6",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 6,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Ng==",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221010222655-u5qqy81",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-jdisjey",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-jdisjey",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果一个类包含了抽象方法，那么这个类一定是抽象类。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-hxf0n2e",
+					"Type": "NodeListItem",
+					"Data": "7",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 7,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Nw==",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221010222655-hxf0n2e",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-cj6ur90",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-cj6ur90",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果某个类是抽象类，那么该类可以包含具体方法（有声明、有实现）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-fmv4ne4",
+					"Type": "NodeListItem",
+					"Data": "8",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 8,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "OA==",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20221010222655-fmv4ne4",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-nqnzsbz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-nqnzsbz",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果一个类中包含了抽象方法，那么这个类一定要声明成 abstract class，也就是说，该类一定是抽象类；反之，如果某个类是抽象类，那么该类既可以包含抽象方法，也可以包含具体方法。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-g236w9i",
+					"Type": "NodeListItem",
+					"Data": "9",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 9,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "OQ==",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20221010222655-g236w9i",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-v0avthl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-v0avthl",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无论何种情况，只要一个类是抽象类，那么这个类就无法实例化。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-epv613y",
+					"Type": "NodeListItem",
+					"Data": "10",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 10,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTA=",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20221010222655-epv613y",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-vjwbmjj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-vjwbmjj",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在子类继承父类（父类是个抽象类）的情况下，那么该子类必须要实现父类中所定义的所有抽象方法；否则，该子类需要声明成一个 abstract class。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-iaw5gbd",
+					"Type": "NodeListItem",
+					"Data": "11",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 11,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTE=",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20221010222655-iaw5gbd",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-squu1qb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-squu1qb",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口（interface）：接口的地位等同于 class，接口中的所有方法都是抽象方法。在声明接口中的方法时，可以使用 abstract 关键字，也可以不使用。通常情况下，都会省略掉 abstract 关键字。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-tq4m1k8",
+					"Type": "NodeListItem",
+					"Data": "12",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 12,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTI=",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20221010222655-tq4m1k8",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-rujtcsq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-rujtcsq",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以将接口看作是特殊的抽象类（抽象类中可以有具体方法，也可以有抽象方法，而接口中只能有抽象方法，不能有具体方法）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010222655-z21enzh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-z21enzh",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类可以实现接口。实现使用关键字 implements 表示，代表了某个类实现了某个接口。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-6ikklpr",
+					"Type": "NodeListItem",
+					"Data": "13",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 13,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTM=",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20221010222655-6ikklpr",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-qpncjr7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-qpncjr7",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个类实现了某个接口，那么该类必须要实现接口中声明的所有方法。如果该类是个抽象类，那么就无需实现接口中的方法了。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-mft9fl8",
+					"Type": "NodeListItem",
+					"Data": "14",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 14,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTQ=",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20221010222655-mft9fl8",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-uwuqnm3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-uwuqnm3",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java 是单继承的，也就是说某个类只能有唯一一个父类；一个类可以实现多个接口，多个接口之间使用逗号分隔。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-20g24hx",
+					"Type": "NodeListItem",
+					"Data": "15",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 15,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTU=",
+						"Num": 15
+					},
+					"Properties": {
+						"id": "20221010222655-20g24hx",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-rsvm1t0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-rsvm1t0",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "多态：所谓多态，就是父类型的引用可以指向子类型的对象，或者接口类型的引用可以指向实现该接口的类的实例。关于接口与实现接口的类之间的强制类型转换方式与父类和子类之间的强制类型转换方式完全一样。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-k6h7hi1",
+					"Type": "NodeListItem",
+					"Data": "16",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 16,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTY=",
+						"Num": 16
+					},
+					"Properties": {
+						"id": "20221010222655-k6h7hi1",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-7ci9ws2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-7ci9ws2",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "static 关键字：可以用于修饰属性，也可以用于修饰方法，还可以用于修饰类（后面的课程讲）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-9ncay5c",
+					"Type": "NodeListItem",
+					"Data": "17",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 17,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTc=",
+						"Num": 17
+					},
+					"Properties": {
+						"id": "20221010222655-9ncay5c",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-z0wf4cc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-z0wf4cc",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "static 修饰属性：无论一个类生成了多少个对象，所有这些对象共同使用唯一一份静态的成员变量；一个对象对该静态成员变量进行了修改，其他对象的该静态成员变量的值也会随之发生变化。如果一个成员变量是 static 的，",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "那么我们可以通过类名.成员变量名的方式来使用它（推荐使用这种方式）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-hi0i4e4",
+					"Type": "NodeListItem",
+					"Data": "18",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 18,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTg=",
+						"Num": 18
+					},
+					"Properties": {
+						"id": "20221010222655-hi0i4e4",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-7n6298c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-7n6298c",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "static 修饰方法：static 修饰的方法叫做静态方法。对于静态方法来说，可以使用类名.方法名的方式来访问。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-85yntv3",
+					"Type": "NodeListItem",
+					"Data": "19",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 19,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTk=",
+						"Num": 19
+					},
+					"Properties": {
+						"id": "20221010222655-85yntv3",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-44v74b2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-44v74b2",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "静态方法只能继承，不能重写（Override）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010222655-adh2dnf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-adh2dnf",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参考 Oracle 官方文档：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010222655-uyjz307",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-uyjz307",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "https://docs.oracle.com/javase/tutorial/java/IandI/override.html",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-6piqobn",
+					"Type": "NodeListItem",
+					"Data": "20",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 20,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MjA=",
+						"Num": 20
+					},
+					"Properties": {
+						"id": "20221010222655-6piqobn",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-ko49vqz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-ko49vqz",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "final 关键字：final 可以修饰属性、方法、类。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-rofrbdf",
+					"Type": "NodeListItem",
+					"Data": "21",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 21,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MjE=",
+						"Num": 21
+					},
+					"Properties": {
+						"id": "20221010222655-rofrbdf",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-lg6t6e3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-lg6t6e3",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "final 修饰类：当一个类被 final 所修饰时，表示该类是一个终态类，即不能被继承。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-i2w8q7g",
+					"Type": "NodeListItem",
+					"Data": "22",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 22,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MjI=",
+						"Num": 22
+					},
+					"Properties": {
+						"id": "20221010222655-i2w8q7g",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-g5z0f23",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-g5z0f23",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "final 修饰方法：当一个方法被 final 所修饰时，表示该方法是一个终态方法， 即不能被重写（Override）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-d3vgdy7",
+					"Type": "NodeListItem",
+					"Data": "23",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 23,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MjM=",
+						"Num": 23
+					},
+					"Properties": {
+						"id": "20221010222655-d3vgdy7",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-y8xt9g5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-y8xt9g5",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "final 修饰属性：当一个属性被 final 所修饰时，表示该属性不能被改写。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-ju3mv84",
+					"Type": "NodeListItem",
+					"Data": "24",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 24,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MjQ=",
+						"Num": 24
+					},
+					"Properties": {
+						"id": "20221010222655-ju3mv84",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-eghcwb9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-eghcwb9",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当 final 修饰一个原生数据类型时，表示该原生数据类型的值不能发生变化 （比如说不能从 10 变为 20）；如果 final 修饰一个引用类型时，表示该引用类型不能再指向其他对象了，但该引用所指向的对象的内容是可以发生变化的。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-qp6lgyw",
+					"Type": "NodeListItem",
+					"Data": "25",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 25,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MjU=",
+						"Num": 25
+					},
+					"Properties": {
+						"id": "20221010222655-qp6lgyw",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-8xlxbl4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-8xlxbl4",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于 final 类型成员变量，一般来说有两种赋初值方式：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010222655-kuse2yt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-kuse2yt",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "a)在声明 final 类型的成员变量时就赋上初值",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010222655-jpkxn7z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-jpkxn7z",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "b)在声明 final 类型的成员变量时不赋初值，但在类的所有构造方法中都为其赋上初值。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-7ab0qwd",
+					"Type": "NodeListItem",
+					"Data": "26",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 26,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MjY=",
+						"Num": 26
+					},
+					"Properties": {
+						"id": "20221010222655-7ab0qwd",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-cwde88f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-cwde88f",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "static 代码块：静态代码块。静态代码块的作用也是完成一些初始化工作。首先执行静态代码块，然后执行构造方法。静态代码块在类被加载的时候执行， 而构造方法是在生成对象的时候执行；要想调用某个类来生成对象，首先需要将类加载到 Java 虚拟机上（JVM），然后由 JVM 加载这个类来生成对象。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-0kz68hg",
+					"Type": "NodeListItem",
+					"Data": "27",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 27,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Mjc=",
+						"Num": 27
+					},
+					"Properties": {
+						"id": "20221010222655-0kz68hg",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-p0au6bf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-p0au6bf",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类的静态代码块只会执行一次，是在类被加载的时候执行的，因为每个类只会被加载一次，所以静态代码块也只会被执行一次；而构造方法则不然，每次生成一个对象的时候都会调用类的构造方法，所以 new 一次就会调用构造方法一次。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-jxi0e21",
+					"Type": "NodeListItem",
+					"Data": "28",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 28,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Mjg=",
+						"Num": 28
+					},
+					"Properties": {
+						"id": "20221010222655-jxi0e21",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-jfhabqh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-jfhabqh",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果继承体系中既有构造方法，又有静态代码块，那么首先执行最顶层的类的静态代码块，一直执行到最底层类的静态代码块，然后再去执行最顶层类的构造方法，一直执行到最底层类的构造方法。注意：静态代码块只会执行一次。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-44cy68r",
+					"Type": "NodeListItem",
+					"Data": "29",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 29,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "Mjk=",
+						"Num": 29
+					},
+					"Properties": {
+						"id": "20221010222655-44cy68r",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-6cld57z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-6cld57z",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不能在静态方法中访问非静态成员变量；可以在静态方法中访问静态的成员变量。可以在非静态方法中访问静态的成员变量。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-ok10qar",
+					"Type": "NodeListItem",
+					"Data": "30",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 30,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MzA=",
+						"Num": 30
+					},
+					"Properties": {
+						"id": "20221010222655-ok10qar",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-vd2jx5d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-vd2jx5d",
+								"updated": "20221010222655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "总结：静态的只能访问静态的；非静态的可以访问一切。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010222655-636j73a",
+					"Type": "NodeListItem",
+					"Data": "31",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 31,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MzE=",
+						"Num": 31
+					},
+					"Properties": {
+						"id": "20221010222655-636j73a",
+						"updated": "20221010222733"
+					},
+					"Children": [
+						{
+							"ID": "20221010222655-q05m4gp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010222655-q05m4gp",
+								"updated": "20221010222733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不能在静态方法中使用 this 关键字。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010222707-bsgg9tf",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20221010222707-bsgg9tf",
+				"style": "color: var(--b3-card-success-color); background-color: var(--b3-card-success-background);",
+				"updated": "20221010222655"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20221010222655-n2wjrlb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221010222655-n2wjrlb",
+						"updated": "20221010222655"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/08 fix:修改备注。"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,536 @@
+{
+	"ID": "20221010194940-9yauz37",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "windows_notepadeditplusultraeditgvimlinux_vivimgeditjava中的数据类型分为两大类_）原生数据类型（primitivedatatype））引用类型（对象类型）（referencetype）变量与常量_所谓常量就是值不会变化的量_所谓变量就是值可以变化的量。如何定义变量？变量类型变量名_inta_如何为变量赋值？变量名=变量值_a=_=表示赋值将等号右边的值赋给了左边的变量。java中使用==表示相等等价于数学中的=。综合变量定义与赋值。变量类型变量名_变",
+		"custom-slug": "primitive-data-type",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/002.Java_SE_第二讲_原生数据类型.md",
+		"custom-wordpress-post-id": "4292",
+		"id": "20221010194940-9yauz37",
+		"tags": "注释,变量,变量名,表示,类型,javase,datatype,primary",
+		"title": "002.Java_SE_第二讲：原生数据类型",
+		"updated": "20221010200442"
+	},
+	"Children": [
+		{
+			"ID": "20221010194943-q17ru9y",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010194943-q17ru9y",
+				"updated": "20221010200442"
+			},
+			"Children": [
+				{
+					"ID": "20221010194943-0vux0aa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010194943-0vux0aa",
+						"updated": "20221010194943"
+					},
+					"Children": [
+						{
+							"ID": "20221010194943-syms9bz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010194943-syms9bz",
+								"updated": "20221010194943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Windows: notepad, editplus, ultraedit, gvim   Linux: vi, vim, gedit"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010194943-t6vfm01",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010194943-t6vfm01",
+						"updated": "20221010194943"
+					},
+					"Children": [
+						{
+							"ID": "20221010194943-118ld1w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010194943-118ld1w",
+								"updated": "20221010194943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java 中的数据类型分为两大类："
+								}
+							]
+						},
+						{
+							"ID": "20221010195151-ziig02n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010195151-ziig02n",
+								"updated": "20221010195151"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1）原生数据类型 （Primitive Data Type）"
+								}
+							]
+						},
+						{
+							"ID": "20221010195154-pcljncl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010195154-pcljncl",
+								"updated": "20221010195154"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2）引用类型（对象类型） （Reference Type）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010194943-1dvx1js",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010194943-1dvx1js",
+						"updated": "20221010194943"
+					},
+					"Children": [
+						{
+							"ID": "20221010194943-rlfqvbg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010194943-rlfqvbg",
+								"updated": "20221010200357"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "变量与常量：所谓常量，就是值不会变化的量；所谓变量，就是值可以变化的量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010194943-1vrheu8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221010194943-1vrheu8",
+						"updated": "20221010194943"
+					},
+					"Children": [
+						{
+							"ID": "20221010194943-7d339vi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010194943-7d339vi",
+								"updated": "20221010194943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何定义变量？   "
+								}
+							]
+						},
+						{
+							"ID": "20221010200403-prf2xh7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200403-prf2xh7"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "变量类型 变量名;   int a;"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010194943-orkeu0i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221010194943-orkeu0i",
+						"updated": "20221010194943"
+					},
+					"Children": [
+						{
+							"ID": "20221010194943-op18uet",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010194943-op18uet",
+								"updated": "20221010194943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何为变量赋值？\n变量名 = 变量值;\na = 2;\n= 表示赋值，将等号右边的值赋给了左边的变量。\nJava 中使用==表示相等，等价于数学中的=。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010194943-19j3tzc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221010194943-19j3tzc",
+						"updated": "20221010194943"
+					},
+					"Children": [
+						{
+							"ID": "20221010194943-97x0h5p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010194943-97x0h5p",
+								"updated": "20221010194943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "综合变量定义与赋值。\n变量类型 变量名;\n变量名 = 变量值;\nint a;\na = 1;\n可以将上面两个步骤合二为一：\n变量类型 变量名 = 变量值;\nint a = 1;"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010194943-6kt3b95",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221010194943-6kt3b95",
+						"updated": "20221010194943"
+					},
+					"Children": [
+						{
+							"ID": "20221010194943-wulsh07",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010194943-wulsh07",
+								"updated": "20221010200428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "变量名：在 Java 中，变量名以下划线、字母、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "inline-math",
+									"TextMarkInlineMathContent": " 符号开头，并且后跟下划线、字母、"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 符号以及数字。总之，Java 中的变量名不能以数字开头。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010200429-o8wp71i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20221010200429-o8wp71i"
+					},
+					"Children": [
+						{
+							"ID": "20221010200429-ktma1gh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200429-ktma1gh"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java 中的原生数据类型共有 8 种：\n1）整型：使用 int 表示。（32 位）\n2）字节型：使用 byte 表示。（表示-128～127 之间的 256 个整数）。\n3）短整型：使用 short 表示。（16 位）\n4）长整型：使用 long 表示。（64 位）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010194943-4cwevj6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20221010194943-4cwevj6",
+						"updated": "20221010194943"
+					},
+					"Children": [
+						{
+							"ID": "20221010194943-40u2tgd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010194943-40u2tgd",
+								"updated": "20221010200234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关于计算机系统中的数据表示 8位：bit（只有 0，1 两种状态），是计算机系统中的最小数据表示单位。"
+								}
+							]
+						},
+						{
+							"ID": "20221010200221-m4r6hfs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200221-m4r6hfs",
+								"updated": "20221010200229"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字节：byte， "
+								}
+							]
+						},
+						{
+							"ID": "20221010200238-9fifljj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200238-9fifljj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1 byte = 8 bit。   "
+								}
+							]
+						},
+						{
+							"ID": "20221010200242-8s1kn30",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200242-8s1kn30"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1 KB = 1024 Byte （1Kg = 1000g，与计算机系统不同）   "
+								}
+							]
+						},
+						{
+							"ID": "20221010200246-kmlxhqa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200246-kmlxhqa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1 MB = 1024 KB   1 GB = 1024 MB"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010194943-a0glql0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20221010194943-a0glql0",
+						"updated": "20221010200442"
+					},
+					"Children": [
+						{
+							"ID": "20221010194943-pb10u0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010194943-pb10u0a",
+								"updated": "20221010194943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注释。注释是给人看的，不是给计算机看的。"
+								}
+							]
+						},
+						{
+							"ID": "20221010200442-tjuklzw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200442-tjuklzw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java 中共有 3 种类型的注释：   "
+								}
+							]
+						},
+						{
+							"ID": "20221010200300-kk4rqub",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200300-kk4rqub",
+								"updated": "20221010200303"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1）单行注释：以//开头，//后面的所有内容均被当作注释处理。  "
+								}
+							]
+						},
+						{
+							"ID": "20221010200304-omdb8me",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200304-omdb8me"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2）多行注释：以 /* 开头，以 */ 结束，中间的所有内容均被当作注释处理。多行注释来源于\nC/C++。关于多行注释，需要注意的是，多行注释不能嵌套。   "
+								}
+							]
+						},
+						{
+							"ID": "20221010200307-r5mvv15",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010200307-r5mvv15"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3）另一种多行注释。用于产生 Java Doc 帮助文档。暂且不介绍。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010195023-s76utoh",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20221010195023-s76utoh",
+				"style": "color: var(--b3-card-success-color); background-color: var(--b3-card-success-background);",
+				"updated": "20221010195026"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20221010194943-y6jr0y6",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221010194943-y6jr0y6",
+						"updated": "20221010195034"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"ID": "20221010194943-f47ebrk",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221010194943-f47ebrk",
+						"updated": "20221010194943"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/08 fix:修改备注。",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

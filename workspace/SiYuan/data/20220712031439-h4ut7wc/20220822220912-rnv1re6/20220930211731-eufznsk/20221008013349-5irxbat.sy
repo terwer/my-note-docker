@@ -8,9 +8,10 @@
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/900.《Java语言新特性》/021.Java_19.md",
 		"custom-wordpress-post-id": "4290",
 		"id": "20221008013349-5irxbat",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221008013349-x0jrvjt\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221008013521-ib2obu7\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
 		"tags": "下载,带来,特性,模式匹配,预览,java,jdk,jdk19,java19,javase",
 		"title": "021.Java_19",
-		"updated": "20221008013420"
+		"updated": "20221010185116"
 	},
 	"Children": [
 		{
@@ -18,23 +19,24 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221008013349-x0jrvjt",
-				"updated": "20221008013400"
+				"updated": "20221010185116"
 			},
 			"Children": [
 				{
 					"Type": "NodeTextMark",
-					"Properties": {
-						"id": ""
-					},
 					"TextMarkType": "strong",
 					"TextMarkTextContent": "Java 19"
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 在 2022 年 9 月 20 日正式发布，Java 19 不是一个长期支持版本，直到 2023 年 3 月它将被 JDK 20 取代，这次更新共带来 7 个新功能。",
-					"Properties": {
-						"id": ""
-					}
+					"Data": " 在 2022 年 9 月 20 日正式发布，Java 19 不是一个长期支持版本，直到 2023 年 3 月它将被 JDK 20 取代，这次更新共带来 7 个新功能。"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221008012614-p9zzvqr",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "020.Java_18"
 				}
 			]
 		},

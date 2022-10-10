@@ -5,38 +5,72 @@
                 "default": true,
                 "state": true
             },
-            "toolbar-theme-menu-block": {
-                "default": false
-            },
-            "toolbar-theme-style-guides": {
-                "default": false
-            },
-            "toolbar-theme-invert": {
-                "default": false
-            },
-            "toolbar-theme-typewriter-switch": {
-                "default": false
-            },
             "toolbar-theme-location-record": {
                 "default": false
             },
+            "toolbar-theme-menu-block": {
+                "default": false,
+                "state": false
+            },
             "toolbar-theme-style-itemtext": {
-                "default": false
+                "default": false,
+                "state": false
             },
             "toolbar-theme-style-tabbar": {
-                "default": false
+                "default": false,
+                "state": false
+            },
+            "toolbar-theme-style-guides": {
+                "default": false,
+                "state": false
             },
             "toolbar-theme-style-mark": {
-                "default": false
+                "default": false,
+                "state": false
+            },
+            "toolbar-theme-invert": {
+                "default": false,
+                "state": false
+            },
+            "toolbar-theme-typewriter-switch": {
+                "default": false,
+                "state": false
             },
             "toolbar-theme-dock-fold": {
-                "default": false
+                "default": false,
+                "state": true
             },
             "toolbar-theme-readonly": {
-                "default": false
+                "default": false,
+                "state": false
             }
         },
         "location": {},
-        "dock": {}
+        "dock": {
+            "file": {
+                "fold": true
+            },
+            "outline": {
+                "fold": false
+            },
+            "inbox": {
+                "fold": false
+            },
+            "bookmark": {
+                "fold": false
+            },
+            "tag": {
+                "fold": false
+            },
+            "graph": {
+                "fold": false
+            },
+            "globalGraph": {
+                "fold": false
+            },
+            "backlink": {
+                "fold": false
+            }
+        }
     }
 }

@@ -1,0 +1,516 @@
+{
+	"ID": "20221010203356-4yywu1w",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "条件运算符（三元表达式）其形式为_typed=a?b_c_​具体化形式为_intd=轻量级的文本编辑器_ultraediteditplusvivimgvim流程控制语句if的用法为_第一种形式_if(布尔表达式){待执行的代码}第二种形式_if(布尔表达式){待执行的代码}else{待执行的代码}第三种形式_javaif(布尔表达式){待执行的代码}elseif(布尔表达式){待执行的代码}elseif(布尔表达式){待执行的代码}else{待执行的代码}switch语句使用形式为_javaswitch(",
+		"custom-slug": "java-flow-control-statement",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/006.Java_SE_第六讲_流程控制语句.md",
+		"custom-wordpress-post-id": "4296",
+		"id": "20221010203356-4yywu1w",
+		"tags": "执行,代码,表达式,形式,布尔,flow,control,statement",
+		"title": "006.Java_SE_第六讲：流程控制语句",
+		"updated": "20221010204214"
+	},
+	"Children": [
+		{
+			"ID": "20221010203410-5e58z41",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221010203410-5e58z41",
+				"updated": "20221010204214"
+			},
+			"Children": [
+				{
+					"ID": "20221010203410-v4gmkci",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010203410-v4gmkci",
+						"updated": "20221010204214"
+					},
+					"Children": [
+						{
+							"ID": "20221010203410-gju10dz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010203410-gju10dz",
+								"updated": "20221010204213"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "条件运算符（三元表达式），其形式为："
+								}
+							]
+						},
+						{
+							"ID": "20221010204214-5t8kfeq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010204214-5t8kfeq"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "type d = a ? b : c;  "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20221010204145-6t77zew",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010204145-6t77zew",
+								"updated": "20221010204145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "具体化形式为：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010204148-18tvfod",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010204148-18tvfod",
+								"updated": "20221010204151"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "int d = 2 \u0026lt; 1 ? 3 : 4;"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010203410-o6q1991",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010203410-o6q1991",
+						"updated": "20221010203410"
+					},
+					"Children": [
+						{
+							"ID": "20221010203410-uyok7yo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010203410-uyok7yo",
+								"updated": "20221010203410"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "轻量级的文本编辑器：UltraEdit 、Editplus 、vi 、vim 、gvim",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010203410-fqd8apx",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010203410-fqd8apx",
+						"updated": "20221010203410"
+					},
+					"Children": [
+						{
+							"ID": "20221010203410-2q2uzjv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010203410-2q2uzjv",
+								"updated": "20221010203410"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "流程控制语句 if 的用法为：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010203410-o5gdmk8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010203410-o5gdmk8",
+				"updated": "20221010203410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一种形式：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010203829-xlqxfic",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221010203829-xlqxfic",
+				"updated": "20221010203913"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "if(布尔表达式) { \n//待执行的代码 \n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010203410-kbustql",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010203410-kbustql",
+				"updated": "20221010203410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第二种形式：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010203410-wrsr0sd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221010203410-wrsr0sd",
+				"updated": "20221010203901"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "if(布尔表达式) { \n//待执行的代码 \n} else { \n//待执行的代码 \n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010203410-u49tobp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010203410-u49tobp",
+				"updated": "20221010203410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三种形式：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010203410-i6t5dgm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221010203410-i6t5dgm",
+				"updated": "20221010203923"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "java if(布尔表达式) { \n//待执行的代码 \n} else if(布尔表达式) { \n//待执行的代码 \n} else if(布尔表达式) { \n//待执行的代码 \n} else { \n//待执行的代码 \n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010203410-po4quq2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010203410-po4quq2",
+				"updated": "20221010203410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.switch 语句，使用形式为：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010203356-b7r4xch",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221010203356-b7r4xch",
+				"updated": "20221010204101"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "java switch(变量) {//此处的变量类型就目前所学内容来看，只能为4 种类型： byte, short, int, char。 \ncase  常量 1: //待执行的代码 \n  break; \ncase  常量 2: //待执行的代码 \n  break; \ncase  常量 3: //待执行的代码\n  break; \ndefault： //待执行的代码 \n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010203410-fgf4zm6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010203410-fgf4zm6",
+				"updated": "20221010203410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "虽然 case 语句中的 break 是可选的， 但在绝大多数情况下， 如果没有 break，程序的逻 辑就会发生错误，因此， 通常情况下都需要加上 break。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010203447-y9x29sl",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20221010203447-y9x29sl",
+				"style": "color: var(--b3-card-success-color); background-color: var(--b3-card-success-background);",
+				"updated": "20221010203410"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20221010203410-q5mh7xo",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221010203410-q5mh7xo",
+						"updated": "20221010203453"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"ID": "20221010203410-55t9bza",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221010203410-55t9bza",
+						"updated": "20221010203410"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022/05/08 fix:修改备注。",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

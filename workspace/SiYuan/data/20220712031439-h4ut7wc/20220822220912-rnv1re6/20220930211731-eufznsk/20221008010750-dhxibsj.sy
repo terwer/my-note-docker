@@ -8,10 +8,10 @@
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/900.《Java语言新特性》/019.Java_17-LTS.md",
 		"custom-wordpress-post-id": "4288",
 		"id": "20221008010750-dhxibsj",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221008010750-9b1hj77\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221008011821-pmysqgf\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221008011637-9bpgxku\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:303,\u0026amp;quot;focusEnd\u0026amp;quot;:303}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221008010750-9b1hj77\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221008011821-pmysqgf\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221008010750-9b1hj77\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:103,\u0026amp;quot;focusEnd\u0026amp;quot;:103}",
 		"tags": "下载,发布,版本,支持,封装,jdk,java,jdk17,java17,javase",
 		"title": "019.Java_17-LTS",
-		"updated": "20221008012131"
+		"updated": "20221010185009"
 	},
 	"Children": [
 		{
@@ -19,21 +19,15 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221008010750-9b1hj77",
-				"updated": "20221008011607"
+				"updated": "20221010185009"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Java 17 发布于 2021 年 9 月 14 日。Java 17 版本是切换到新的 6 个月发布周期以来的第二个",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "Java 17 发布于 2021 年 9 月 14 日。Java 17 版本是切换到新的 6 个月发布周期以来的第二个"
 				},
 				{
 					"Type": "NodeTextMark",
-					"Properties": {
-						"id": ""
-					},
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://zh.wikipedia.org/wiki/%E9%95%BF%E6%9C%9F%E6%94%AF%E6%8C%81",
 					"TextMarkATitle": "长期支持",
@@ -41,26 +35,24 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "（LTS）版本（第一个是 Java 11） ",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "（LTS）版本（第一个是 Java 11） "
 				},
 				{
 					"Type": "NodeTextMark",
-					"Properties": {
-						"id": ""
-					},
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://zh.wikipedia.org/zh-cn/Java%E7%89%88%E6%9C%AC%E6%AD%B7%E5%8F%B2#cite_note-285",
 					"TextMarkTextContent": "[285]"
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 。",
-					"Properties": {
-						"id": ""
-					}
+					"Data": " 。"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221008012614-p9zzvqr",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "020.Java_18"
 				}
 			]
 		},

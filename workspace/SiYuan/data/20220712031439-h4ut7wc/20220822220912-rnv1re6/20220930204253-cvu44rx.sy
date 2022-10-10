@@ -3,63 +3,563 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "接口中所声明的方法都是抽象方法。接口中的方法都是public​的。接口中也可以定义成员变量。接口中的成员变量都是publicfinalstatic的。一个类不能既是final又是abstract的。因为abstract的主要目的是啥定义一种约定让子类去实现这种约定而final表示该类不能被继承。这样abstract希望该类可以被继承而final明确说明该类不能被继承两者矛盾。因此一个类不能既是final的又是abstract的。desginpattern（设计模式）。单例模式（singleton）publ",
+		"custom-slug": "ava-se-lesson-3-interface_package-and-string",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/014.Java_SE_Lesson_3_接口_包与字符串.md",
+		"custom-wordpress-post-id": "4304",
 		"id": "20220930204253-cvu44rx",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220930205117-pkv79m8\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220930205117-pkv79m8\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220930205121-y29jrks\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
-		"title": "014.Java_SE_Lesson_3：接口、包与字符串",
-		"updated": "20220930205121"
+		"tags": "接口,方法,成员,变量,声明",
+		"title": "014.Java_SE_Lesson_3：接口、单例模式、包与字符串",
+		"updated": "20221010234821"
 	},
 	"Children": [
 		{
-			"ID": "20220930205117-pkv79m8",
+			"ID": "20220930205121-y29jrks",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
 			},
 			"Properties": {
-				"id": "20220930205117-pkv79m8",
-				"updated": "20220930205121"
+				"id": "20220930205121-y29jrks",
+				"updated": "20221010230228"
 			},
 			"Children": [
 				{
-					"ID": "20220930205121-dl99t0c",
+					"ID": "20221010223401-zngsf5y",
 					"Type": "NodeListItem",
+					"Data": "1",
 					"ListData": {
 						"Typ": 1,
+						"Start": 1,
 						"Delimiter": 46,
-						"Marker": "MS4=",
+						"Padding": 3,
+						"Marker": "MQ==",
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20220930205121-dl99t0c",
-						"updated": "20220930205121"
+						"id": "20221010223401-zngsf5y",
+						"updated": "20221010223410"
 					},
 					"Children": [
 						{
-							"ID": "20220930205121-y29jrks",
+							"ID": "20221010223401-29xg2bj",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220930205121-y29jrks",
-								"updated": "20220930205121"
+								"id": "20221010223401-29xg2bj",
+								"updated": "20221010223410"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "接口中所声明的方法都是抽象方法。接口中的方法都是 "
+									"Data": "接口中所声明的方法都是抽象方法。接口中的方法都是 ",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "public"
 								},
 								{
 									"Type": "NodeText",
-									"Data": " 的。"
+									"Data": "​ 的。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010223401-2d0soag",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010223401-2d0soag",
+						"updated": "20221010223419"
+					},
+					"Children": [
+						{
+							"ID": "20221010223401-xltshr8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010223401-xltshr8",
+								"updated": "20221010225644"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口中也可以定义成员变量。",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "接口中的成员变量都是 "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "code text",
+									"TextMarkTextContent": "public"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " ， "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "code text",
+									"TextMarkTextContent": "final"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " ， "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "code text",
+									"TextMarkTextContent": "static"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " 的。"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010223401-g9mc2um",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010223401-g9mc2um",
+						"updated": "20221010230228"
+					},
+					"Children": [
+						{
+							"ID": "20221010223401-q5oi0nc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010223401-q5oi0nc",
+								"updated": "20221010230122"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个类不能既是 final 又是 abstract 的。因为 abstract 的主要目的是啥定义一种约定，让子类去实现这种约定，而 final 表示该类不能被继承。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010230125-h8p39c0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010230125-h8p39c0",
+								"updated": "20221010230213"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这样 abstract 希望该类可以被继承而 final 明确说明该类不能被继承，两者矛盾。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010230215-r0c4bga",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010230215-r0c4bga",
+								"updated": "20221010230228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "因此一个类不能既是 final 的又是 abstract 的。",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
 					]
 				}
 			]
+		},
+		{
+			"ID": "20221010225615-l6fogbc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 4,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "NA==",
+				"Num": 4
+			},
+			"Properties": {
+				"id": "20221010225615-l6fogbc",
+				"updated": "20221010234821"
+			},
+			"Children": [
+				{
+					"ID": "20221010230729-vkwpy65",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221010230729-vkwpy65",
+						"updated": "20221010234821"
+					},
+					"Children": [
+						{
+							"ID": "20221010230729-dh4m4px",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010230729-dh4m4px",
+								"updated": "20221010230729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Desgin Pattern（设计模式）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010230730-j4338wf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010230730-j4338wf",
+								"updated": "20221010234821"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单例模式（Singleton）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221010231710-3ofd097",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221010231710-3ofd097",
+								"updated": "20221010231714"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public class SingletonTest {\n    public static void main(String[] args) {\n        Singleton s1 = Singleton.getInstance();\n        Singleton s2 = Singleton.getInstance();\n\n        System.out.println(s1 == s2);\n    }\n}\n\nclass Singleton {\n    private static Singleton singleton = new Singleton();\n\n    private Singleton() {\n    }\n\n    public static Singleton getInstance() {\n        return singleton;\n    }\n}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010233930-4xfr4r5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010233930-4xfr4r5",
+				"updated": "20221010233943"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010233943-vi758ty",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221010233943-vi758ty",
+				"updated": "20221010233946"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public class SingletonTest {\n    public static void main(String[] args) {\n        Singleton s1 = Singleton.getInstance();\n        Singleton s2 = Singleton.getInstance();\n\n        System.out.println(s1 == s2);\n    }\n}\n\nclass Singleton {\n    private static Singleton singleton;\n\n    private Singleton() {\n    }\n\n    public static Singleton getInstance() {\n        if (null == singleton) {\n            singleton = new Singleton();\n        }\n        return singleton;\n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010234006-rqkr18i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010234006-rqkr18i",
+				"style": "霞鹜文楷\u0026amp;amp;amp;quot;;霞鹜文楷\u0026amp;amp;quot;;font-family: \u0026amp;quot;霞鹜文楷\u0026amp;quot;;",
+				"updated": "20221010234032"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：方式二，在多线程的时候，可能会出现线程不安全，不是单例的情况。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221010234034-1kjlrmq",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20221010234034-1kjlrmq",
+				"style": "color: var(--b3-card-success-color); background-color: var(--b3-card-success-background);",
+				"updated": "20221010234211"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20221010234133-78g07es",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221010234133-78g07es",
+						"updated": "20221010234139"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"ID": "20221010234140-n6o3j6s",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221010234140-n6o3j6s",
+						"updated": "20221010234211"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022-10-10 feat:初稿。",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010234550-6lyod9e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010234550-6lyod9e",
+				"updated": "20221010234550"
+			}
 		}
 	]
 }
