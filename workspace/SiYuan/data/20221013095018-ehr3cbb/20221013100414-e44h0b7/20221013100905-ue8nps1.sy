@@ -1,0 +1,20 @@
+{
+	"ID": "20221013100905-ue8nps1",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221013100905-ue8nps1",
+		"title": "002.线性代数",
+		"updated": "20221013100912"
+	},
+	"Children": [
+		{
+			"ID": "20221013100905-tx3q536",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013100905-tx3q536",
+				"updated": "20221013100905"
+			}
+		}
+	]
+}

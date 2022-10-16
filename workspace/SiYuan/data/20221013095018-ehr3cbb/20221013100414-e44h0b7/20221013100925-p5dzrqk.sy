@@ -1,0 +1,20 @@
+{
+	"ID": "20221013100925-p5dzrqk",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221013100925-p5dzrqk",
+		"title": "004.离散数学",
+		"updated": "20221013100930"
+	},
+	"Children": [
+		{
+			"ID": "20221013100925-lrzsry3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013100925-lrzsry3",
+				"updated": "20221013100925"
+			}
+		}
+	]
+}

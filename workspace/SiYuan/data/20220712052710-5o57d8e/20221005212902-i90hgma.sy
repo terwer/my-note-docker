@@ -110,10 +110,6 @@
 								{
 									"Type": "NodeText",
 									"Data": "一个 JavaBean 类中的方法，去掉 set 或 get 前缀，剩余部分就是属性名，如果剩余部分的第二个字母是小写的，则把剩余部分的首字母改成小的。\ngetAge/setAge --\u003e age\ngetTime/setTime --\u003e time"
-								},
-								{
-									"Type": "NodeBr",
-									"Data": "br"
 								}
 							]
 						}

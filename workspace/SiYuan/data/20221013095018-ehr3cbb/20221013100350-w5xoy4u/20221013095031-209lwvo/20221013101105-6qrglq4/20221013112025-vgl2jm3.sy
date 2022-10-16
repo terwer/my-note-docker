@@ -1,0 +1,597 @@
+{
+	"ID": "20221013112025-vgl2jm3",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221013112025-vgl2jm3",
+		"title": "001.C语言基本概念",
+		"updated": "20221013174143"
+	},
+	"Children": [
+		{
+			"ID": "20221013112025-1w2sx8o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221013112025-1w2sx8o",
+				"updated": "20221013112042"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "第一个 C 语言程序",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112042-cjj5b5r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Yw==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221013112042-cjj5b5r",
+				"updated": "20221013112057"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Yw==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#include \u003cstdio.h\u003e\n\nmain() {\n    printf(\"Hello, World!\\n\");\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112144-8o5ve8d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013112144-8o5ve8d",
+				"updated": "20221013112154"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "保存文件为 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "hello.c"
+				}
+			]
+		},
+		{
+			"ID": "20221013112059-34udrbo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221013112059-34udrbo",
+				"updated": "20221013112129"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "编译",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112129-jj024l1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221013112129-jj024l1",
+				"updated": "20221013112202"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cc hello.c\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112132-1ktlcp1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221013112132-1ktlcp1",
+				"updated": "20221013112135"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "运行",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112135-zeot9aw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221013112135-zeot9aw",
+				"updated": "20221013112341"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "./a.out\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112327-6547k9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013112327-6547k9a",
+				"updated": "20221013112330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如下",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112331-rzphajb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221013112331-rzphajb",
+				"updated": "20221013112346"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "➜  clangcode cc hello.c\nhello.c:3:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]\nmain() {\n^\n1 warning generated.\n➜  clangcode ./a.out   \nHello, World!\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112435-nf3rmwd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221013112435-nf3rmwd",
+				"updated": "20221013112444"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "分析",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112445-l84u5hs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013112445-l84u5hs",
+				"updated": "20221013112608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#include \u003cstdio.h\u003e                    // 包含有关标准库的信息",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112500-qukouqn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013112500-qukouqn",
+				"updated": "20221013112823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "main() {                                  // 定义 main 函数，不接受参数，main 函数的语句包含在花括号中",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "    printf(\"Hello, World!\\n\");        // main 函数调用库函数 printf 打印字符序列，\\n 代表换行符",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112749-0c9y77k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221013112749-0c9y77k",
+				"updated": "20221013112851"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "总结",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112852-c4rt8ve",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013112852-c4rt8ve",
+				"updated": "20221013112905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每一个 C 函数，都由变量和函数组成。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013112906-wtrmldj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013112906-wtrmldj",
+				"updated": "20221013113116"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "printf 不会自动换行，无论多少个 printf 语句。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013113119-oubrrqf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Yw==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221013113119-oubrrqf",
+				"updated": "20221013113351"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Yw==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "printf(\"hello,\");\nprintf(\"world\");\nprintf(\"\\n\");\n\n// 打印结果如下\n// hello,world\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013113359-p0jsptk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013113359-p0jsptk",
+				"updated": "20221013113412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\\n 只代表一个字符。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013113435-gw5v6up",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013113435-gw5v6up",
+				"updated": "20221013113511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类似 \\n 这样的字符为不能打印或者不可见字符提供了通用的扩展机制。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013113521-neuajhk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013113521-neuajhk",
+				"updated": "20221013113528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他的换码序列还有：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221013114722-ey1j46j",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221013114722-ey1j46j",
+				"updated": "20221013114749"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "制表符 \\t\n回退符 \\b\n双引号 \\\"\n反斜杠本身 \\\\\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221013113637-0dt56xv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013113637-0dt56xv",
+				"updated": "20221013114656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：当输入的转义字符不受支持时，会原样输出，且编译和运行都不会报错。"
+				}
+			]
+		}
+	]
+}

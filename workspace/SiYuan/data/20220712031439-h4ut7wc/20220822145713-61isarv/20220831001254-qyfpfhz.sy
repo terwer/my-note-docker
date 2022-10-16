@@ -9,10 +9,10 @@
 		"custom-vuepress-slug": "docs/001.后端开发/002.开源框架/001.MyBatis/320.MyBatis的注解实现复杂映射开发.md",
 		"custom-wordpress-post-id": "4206",
 		"id": "20220831001254-qyfpfhz",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220831232542-7b8qtuh\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220831233329-q1v45j1\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:13703,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220901004639-j034ps5\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:1033,\u0026amp;quot;focusEnd\u0026amp;quot;:1033}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220831232542-7b8qtuh\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220831233329-q1v45j1\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:6962.5,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220831233226-lhm1qf7\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "注解,mybatis,complex,framework,mybatis-14,mapping",
 		"title": "320.MyBatis的注解实现复杂映射开发",
-		"updated": "20220906001557"
+		"updated": "20221013181425"
 	},
 	"Children": [
 		{
@@ -3558,46 +3558,27 @@
 			"ID": "20220905194521-1plmf52",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
-			"CodeBlockFenceChar": 96,
-			"CodeBlockFenceLen": 3,
-			"CodeBlockOpenFence": "YGBg",
-			"CodeBlockInfo": "cGxhbnR1bWw=",
-			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220905194521-1plmf52",
 				"style": "text-align: left;",
-				"updated": "20220905194912"
+				"updated": "20221013181425"
 			},
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "cGxhbnR1bWw=",
-					"Properties": {
-						"id": ""
-					}
+					"CodeBlockInfo": "cGxhbnR1bWw="
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "@startuml\n\n!include https://unpkg.com/plantuml-style-c4@latest/core.puml\n' uncomment the following line and comment the first to use locally\n'!include core.puml\n\nleft to right direction\n\nclass sys_role {\n   rolename: varchar(255)\n   roleDesc: varchar(255)\n   id: int(11)\n}\nclass sys_user_role {\n   userid: int(11)\n   roleid: int(11)\n}\nclass user {\n   username: varchar(50)\n   password: varchar(50)\n   birthday: varchar(50)\n   id: int(11)\n}\n\nsys_user_role  -[#595959,plain]-^  sys_role      : \u0026quot;roleid:id\u0026quot;\nsys_user_role  -[#595959,plain]-^  user          : \u0026quot;userid:id\u0026quot;\n@enduml\n",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "@startuml\n\n!include https://unpkg.com/plantuml-style-c4@latest/core.puml\n' uncomment the following line and comment the first to use locally\n'!include core.puml\n\nleft to right direction\n\nclass sys_role {\n   rolename: varchar(255)\n   roleDesc: varchar(255)\n   id: int(11)\n}\nclass sys_user_role {\n   userid: int(11)\n   roleid: int(11)\n}\nclass user {\n   username: varchar(50)\n   password: varchar(50)\n   birthday: varchar(50)\n   id: int(11)\n}\n\nsys_user_role  -[#595959,plain]-^  sys_role      : \u0026quot;roleid:id\u0026quot;\nsys_user_role  -[#595959,plain]-^  user          : \u0026quot;userid:id\u0026quot;\n@enduml"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				}
 			]
 		},

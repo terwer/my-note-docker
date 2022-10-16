@@ -209,10 +209,6 @@
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://pan.baidu.com/s/1mx5UPFLkrVaLfCRXmfSv_w?pwd=8888",
 					"TextMarkTextContent": "https://pan.baidu.com/s/1mx5UPFLkrVaLfCRXmfSv_w?pwd=8888"
-				},
-				{
-					"Type": "NodeBr",
-					"Data": "br"
 				}
 			]
 		},

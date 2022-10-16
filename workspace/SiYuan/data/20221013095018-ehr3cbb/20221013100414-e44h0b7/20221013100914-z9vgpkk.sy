@@ -1,0 +1,20 @@
+{
+	"ID": "20221013100914-z9vgpkk",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221013100914-z9vgpkk",
+		"title": "003.概率论与数理统计",
+		"updated": "20221013100924"
+	},
+	"Children": [
+		{
+			"ID": "20221013100914-tngdsdu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013100914-tngdsdu",
+				"updated": "20221013100914"
+			}
+		}
+	]
+}

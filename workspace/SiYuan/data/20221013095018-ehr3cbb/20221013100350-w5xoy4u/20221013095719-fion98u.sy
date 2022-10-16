@@ -1,0 +1,64 @@
+{
+	"ID": "20221013095719-fion98u",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221013095719-fion98u",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221013095919-8hwlh4a\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221013100033-2nto6em\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221013100033-2nto6em\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "《学习指南》",
+		"updated": "20221013100033"
+	},
+	"Children": [
+		{
+			"ID": "20221013095919-8hwlh4a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013095919-8hwlh4a",
+				"updated": "20221013095941"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.zhihu.com/question/473267862/answer/2009282852",
+					"TextMarkTextContent": "计算机基础学习顺序是什么"
+				}
+			]
+		},
+		{
+			"ID": "20221013095942-pqpn9fx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221013095942-pqpn9fx",
+				"style": "text-align: left;",
+				"updated": "20221013100033"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bWluZG1hcA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "- C/C++程序设计"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221013100033-2nto6em",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013100033-2nto6em"
+			}
+		}
+	]
+}

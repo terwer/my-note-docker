@@ -1,0 +1,154 @@
+{
+	"ID": "20221015202652-946i86t",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221015202652-946i86t",
+		"title": "016.Java_SE之String类及其源代码剖析",
+		"updated": "20221016205157"
+	},
+	"Children": [
+		{
+			"ID": "20221015222324-pmbthe5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015222324-pmbthe5",
+				"updated": "20221015222554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解："
+				}
+			]
+		},
+		{
+			"ID": "20221015223633-fuiot1g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015223633-fuiot1g",
+				"updated": "20221016205157"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "(1) 记该函数为 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "T=a t^{2}+b t+c \\quad(a \\neq 0) \\quad(a 、 b 、 c \\text { 是常数 })"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，那么表中所有数据满足该函数。取其中三组值，有："
+				}
+			]
+		},
+		{
+			"ID": "20221015222515-nkwhxg2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015222515-nkwhxg2",
+				"updated": "20221015223254"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "\\begin{cases}   {37 = {\\rm{c}}}  \\cr    {37.6 = a + b + c}  \\cr    {38.1 = 4a + 2b + c}  \\cr \\end{cases}"
+				}
+			]
+		},
+		{
+			"ID": "20221015223254-g0tp10p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015223254-g0tp10p",
+				"updated": "20221015223527"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解得 "
+				}
+			]
+		},
+		{
+			"ID": "20221015223304-34efena",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015223304-34efena",
+				"updated": "20221015223520"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "\\begin{cases}   a =-0.05  \\cr    b=0.55  \\cr   c=37  \\cr \\end{cases}"
+				}
+			]
+		},
+		{
+			"ID": "20221015223521-q7ll0ad",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015223521-q7ll0ad",
+				"updated": "20221015223556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以，所求函数为："
+				}
+			]
+		},
+		{
+			"ID": "20221015223557-0fxfn4c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015223557-0fxfn4c",
+				"updated": "20221015223629"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "T =  - 0.05{t^2} + 0.55t + 37"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n"
+				}
+			]
+		},
+		{
+			"ID": "20221015223638-m8qeyjh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015223638-m8qeyjh"
+			}
+		},
+		{
+			"ID": "20221015223637-derhjl3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015223637-derhjl3",
+				"updated": "20221015223735"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "(2) -0.45+1.65+37=37.2"
+				}
+			]
+		},
+		{
+			"ID": "20221015223631-t0ohx39",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015223631-t0ohx39"
+			}
+		}
+	]
+}

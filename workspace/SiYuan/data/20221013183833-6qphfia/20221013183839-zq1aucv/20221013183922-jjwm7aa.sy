@@ -1,0 +1,403 @@
+{
+	"ID": "20221013183922-jjwm7aa",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221013183922-jjwm7aa",
+		"title": "005.部署调度-实例管理",
+		"updated": "20221015110301"
+	},
+	"Children": [
+		{
+			"ID": "20221014153555-7966u6o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014153555-7966u6o",
+				"updated": "20221014153634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、用例图"
+				}
+			]
+		},
+		{
+			"ID": "20221014175855-obfnwl3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221014175855-obfnwl3",
+				"style": "text-align: left;",
+				"updated": "20221015110301"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startuml\n'https://plantuml.com/use-case-diagram\n\n!include https://unpkg.com/plantuml-style-c4@latest/core.puml\n\nleft to right direction\n\n'样式\n'skinparam actorStyle awesome\n'skinparam actorStyle Hollow\n\n'用户定义\nactor 用户 as user\nactor 系统 as sys\nactor 管理员 as admin\n\nadmin \u0026lt;|-- user\n\n'用例定义\n'package 实例操作{\nrectangle 实例操作{\n    usecase 筛选实例 as filterInstance\n    usecase 根据关联项目推荐实例 as recommInstance\n    usecase 购买实例 as buyInstance\n    usecase 请求扣款 as requestAccount\n    usecase 查看我的实例 as listInstance\n}\n\nrectangle 系统响应{\n    usecase 检测账户余额 as checkAccount\n    usecase 执行扣款 as doAccount\n    usecase 添加个人实例信息 as addInstanceInfo\n}\n\nrectangle 关联项目{\n    usecase 请求项目列表 as requestProjectList\n    usecase 选择需要关联的项目 as selectProject\n    usecase 检测项目是否被关联 as checkProject\n    usecase 关联项目 as unionProject\n}\n\n'关系定义\nuser --\u0026gt; filterInstance\nuser --\u0026gt; buyInstance\nuser --\u0026gt; requestAccount\nuser --\u0026gt; listInstance\n\nsys --\u0026gt; checkAccount\nsys --\u0026gt; doAccount\nsys --\u0026gt;addInstanceInfo\n\nuser --\u0026gt; requestProjectList\nuser --\u0026gt; selectProject\nuser --\u0026gt; unionProject\n\nsys --\u0026gt; checkProject\n\nsys --\u0026gt; recommInstance\n\n@enduml"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221014153604-5x8ksmv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014153604-5x8ksmv",
+				"updated": "20221014230859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、泳道图"
+				}
+			]
+		},
+		{
+			"ID": "20221014231737-cxnovv4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221014231737-cxnovv4",
+				"style": "text-align: left;",
+				"updated": "20221014233326"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startuml\n!pragma useVerticalIf on\n\n!include https://unpkg.com/plantuml-style-c4@latest/core.puml\n\n|ui1| 用户界面\n|ui2| 系统后台\n\n|ui1|\nstart \n\nrepeat\n   |ui1|\n   :购买实例;\n   :筛选实例;\n   :选择筛选条件;\n    |ui2|\n    if(关联了项目？)then(是)\n     :展示推荐的实例列表;\n     else(否)\n     :展示默认实例列表;\n     endif\n   |ui1|\n   :跳转实例列表;\n\n\n:选择需要购买的实例;\n\n:触发购买动作;\n\n |ui2|\nif(余额不足？)then(是)\n#red:提示并退出;\nkill\nelse(否)\n:执行扣款;\n\nif(扣款失败？)then(是)\n#red:提示错误并退出;\nkill\nelse(否)\n   |ui1|\n:返回我购买的实例列表;\n\n: 查看实例;\nendif\n\nendif\n\n\n\n  |ui2|\nrepeat while () is (存在可用实例) not (实例可用)\n\n|ui1|\n:结束;\nstop\n\n@enduml"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221014153632-axvzuhi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014153632-axvzuhi",
+				"updated": "20221014231440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、时序图"
+				}
+			]
+		},
+		{
+			"ID": "20221014233338-obud5md",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221014233338-obud5md",
+				"style": "text-align: left;",
+				"updated": "20221014235719"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startuml\nautonumber\n\ntitle 购买实例\n\n!include https://unpkg.com/plantuml-style-c4@latest/core.puml\n\n\nactor 用户 as user\nparticipant 前端 as ui\nqueue 后台 as sys\ndatabase 数据库 as db\n\nuser --\u0026gt; ui:点击购买实例\nui --\u0026gt; sys:请求默认实例列表\nsys --\u0026gt; db:查询默认实例数据\ndb --\u0026gt; sys:返回查询的数据\nsys --\u0026gt;ui:响应数据\nui --\u0026gt; user:展示默认实例列表\n\nuser --\u0026gt; ui:操作筛选\nui --\u0026gt; sys:检测传递数据到后台\nsys --\u0026gt; db:检测是否关联项目\nsys --\u0026gt; db:获取筛选数据\ndb --\u0026gt; sys:返回筛选后的数据\nsys --\u0026gt;ui:响应数据\nui --\u0026gt; user:展示筛选后实例列表\nui --\u0026gt; user:展示筛选后实例列表\n\nuser --\u0026gt; ui:选择实例\nuser --\u0026gt; ui:操作购买\nui --\u0026gt; sys:处理购买操作，包括余额检测，扣款，新增购买信息等\nsys --\u0026gt; ui:返回购买结果\nui --\u0026gt; user:显示购买信息\n\nuser--\u0026gt;ui:查看实例\nui--\u0026gt;user:展示我购买的实例\n\n\n@enduml"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221014235655-urnep6b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014235655-urnep6b"
+			}
+		},
+		{
+			"ID": "20221014235711-cviglw7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221014235711-cviglw7",
+				"style": "text-align: left;",
+				"updated": "20221015000321"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startuml\nautonumber\n\ntitle 关联项目\n\n!include https://unpkg.com/plantuml-style-c4@latest/core.puml\n\n\nactor 用户 as user\nparticipant 前端 as ui\nqueue 后台 as sys\ndatabase 数据库 as db\n\nuser --\u0026gt; ui:点击关联项目\nui --\u0026gt; sys:请求默认项目列表\nsys --\u0026gt; db:查询项目列表数据\ndb --\u0026gt; sys:返回查询的数据\nsys --\u0026gt;ui:响应数据\nui --\u0026gt; user:展示项目列表\n\nuser --\u0026gt; ui:选择项目\nuser --\u0026gt; ui:操作关联\nui --\u0026gt; sys:处理关联操作，包括关联检测，新增关关联信息等\nsys --\u0026gt; ui:返回操作结果\nui --\u0026gt; user:显示示例信息以及项目关联信息\n\n\n@enduml"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221014235711-y18a5qg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014235711-y18a5qg",
+				"updated": "20221014233153"
+			}
+		},
+		{
+			"ID": "20221014153637-26z1roi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014153637-26z1roi",
+				"updated": "20221014231437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、流程图"
+				}
+			]
+		},
+		{
+			"ID": "20221014220325-mco0b9p",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221014220325-mco0b9p",
+				"style": "text-align: left;",
+				"updated": "20221014232506"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startuml\n!pragma useVerticalIf on\n\n!include https://unpkg.com/plantuml-style-c4@latest/core.puml\n\nstart\n\n:开始;\n\nrepeat\n\n:购买实例;\n\n:跳转实例列表;\n\n:筛选实例;\n\nif(关联了项目？)then(是)\n:展示推荐的实例列表;\nelse(否)\n:展示默认实例列表;\nendif\n\n:选择需要购买的实例;\n\n:触发购买动作;\n\nif(余额不足？)then(是)\n#red:提示并退出;\nkill\nelse(否)\n:执行扣款;\n\nif(扣款失败？)then(是)\n#red:提示错误并退出;\nkill\nelse(否)\n:返回我购买的实例列表;\n\n: 查看实例;\nnote right \n\n可以查看已经购买的实例\n\nend note\nendif\n\nendif\n\n:结束;\n\nrepeatwhile(存在可用实例？)\n\nstop\n\nstart\n\n:关联项目;\n\n:展示项目列表;\n\n:选择需要关联的项目;\n\n:确认关联;\n\n:结束;\n\nstop\n\n@enduml"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221014153601-t7oqyky",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014153601-t7oqyky",
+				"updated": "20221014153601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5、思维导图（含文字说明）"
+				}
+			]
+		},
+		{
+			"ID": "20221013201500-3y2wfvv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221013201500-3y2wfvv",
+				"style": "text-align: left;",
+				"updated": "20221013202005"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startmindmap\n\nskinparam backgroundcolor transparent\n\n!include https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/lib/uml/starter-skin.puml\n\n* 实例管理\n\t* 购买实例\n\t\t* 根据项目推荐实例列表\n\t* 关联项目\n\n@endmindmap"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221013201500-bm1t6xp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013201500-bm1t6xp",
+				"updated": "20221013215952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "购买实例："
+				}
+			]
+		},
+		{
+			"ID": "20221013215953-1r9vo1l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013215953-1r9vo1l",
+				"updated": "20221013220055"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、首先进入推荐实例列表页面"
+				}
+			]
+		},
+		{
+			"ID": "20221013220055-3dcitjn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013220055-3dcitjn",
+				"updated": "20221013220204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、如果关联了项目，根据项目进行实例推荐，否则展示所有可用实例列表"
+				}
+			]
+		},
+		{
+			"ID": "20221013220208-5cuzny7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013220208-5cuzny7",
+				"updated": "20221013220238"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、根据实例的筛选项进行筛选，找到需要的实例"
+				}
+			]
+		},
+		{
+			"ID": "20221013220239-opfny70",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013220239-opfny70",
+				"updated": "20221013220302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4、找到自己想要的实例进行购买，触发购买操作。"
+				}
+			]
+		},
+		{
+			"ID": "20221013220309-mqgjez0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013220309-mqgjez0",
+				"updated": "20221013220402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这一块需要与账户进行交互。例如检测余额，如果余额不足提示充值。"
+				}
+			]
+		},
+		{
+			"ID": "20221013220403-71b6qx1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013220403-71b6qx1",
+				"updated": "20221013220503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "购买之后需要对余额进行扣款，并且记录我的实例信息、有效期等。"
+				}
+			]
+		},
+		{
+			"ID": "20221013220103-ecvmwax",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013220103-ecvmwax"
+			}
+		},
+		{
+			"ID": "20221013220104-7zlvwh7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013220104-7zlvwh7",
+				"updated": "20221013220108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关联项目："
+				}
+			]
+		},
+		{
+			"ID": "20221013220108-pbfu7j2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013220108-pbfu7j2",
+				"updated": "20221013220348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将实例与具体的项目进行关联。"
+				}
+			]
+		}
+	]
+}

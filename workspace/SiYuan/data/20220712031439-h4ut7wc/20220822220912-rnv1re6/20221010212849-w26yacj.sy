@@ -937,12 +937,6 @@
 									"Properties": {
 										"id": ""
 									}
-								},
-								{
-									"Type": "NodeBr",
-									"Properties": {
-										"id": ""
-									}
 								}
 							]
 						},
@@ -1422,12 +1416,6 @@
 								{
 									"Type": "NodeText",
 									"Data": "​ 后面只有一个分号， 表示退出方法，返回到方法的调用端。",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeBr",
 									"Properties": {
 										"id": ""
 									}

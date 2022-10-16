@@ -1,0 +1,212 @@
+{
+	"ID": "20221014152217-c3ioadn",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221014152217-c3ioadn",
+		"title": "2022-10-14-周报",
+		"updated": "20221014152927"
+	},
+	"Children": [
+		{
+			"ID": "20221014152256-mwyymer",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152256-mwyymer",
+				"updated": "20221014152924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、需求"
+				}
+			]
+		},
+		{
+			"ID": "20221014152259-k6iqy8o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152259-k6iqy8o",
+				"updated": "20221014152430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172944【文档协同】知识助手增加按分类检索"
+				}
+			]
+		},
+		{
+			"ID": "20221014152404-r0ujfbj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152404-r0ujfbj"
+			}
+		},
+		{
+			"ID": "20221014152217-4hhg2qt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152217-4hhg2qt",
+				"updated": "20221014152254"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、服务单修复"
+				}
+			]
+		},
+		{
+			"ID": "20221014152247-rvrqkgh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152247-rvrqkgh",
+				"updated": "20221014152517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#175165 升级16.0.7后，有知识地图的页面，高度显示异常\n"
+				}
+			]
+		},
+		{
+			"ID": "20221014152549-j0t6mjr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152549-j0t6mjr"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#175280【服务问题单】【考试管理】考试管理无法正常生成试卷，人员点击考试一直加载状态\n"
+				}
+			]
+		},
+		{
+			"ID": "20221014152551-roy1cf1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152551-roy1cf1"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#175506【服务问题单】新建考试活动提示题库中试题数量不够"
+				}
+			]
+		},
+		{
+			"ID": "20221014152452-v921a8h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152452-v921a8h"
+			}
+		},
+		{
+			"ID": "20221014152247-kkyrqp7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152247-kkyrqp7",
+				"updated": "20221014152927"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3、缺陷修复"
+				}
+			]
+		},
+		{
+			"ID": "20221014152520-5kmy0kx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152520-5kmy0kx",
+				"updated": "20221014152544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172924【日常缺陷】 【学习管理-修复】指派给学员的任务完成后，列表页面没有更新学习完成情况和学习进展\n"
+				}
+			]
+		},
+		{
+			"ID": "20221014152547-d7gbhzo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152547-d7gbhzo",
+				"updated": "20221014152855"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#171872【日常缺陷】【知识仓库】定义属性为组织架构，文档选择部门后，列表筛选此部门却不显示文档(多选时)\n"
+				}
+			]
+		},
+		{
+			"ID": "20221014152857-mmoxn65",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152857-mmoxn65",
+				"updated": "20221014152902"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#171129【日常缺陷】【知识仓库】分类设置属性模板后属性模板增添属性，此分类下新建文档或编辑旧文档，新增属性对应筛选失效\n"
+				}
+			]
+		},
+		{
+			"ID": "20221014152903-5k5k8y2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152903-5k5k8y2",
+				"updated": "20221014152908"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#162434【日常缺陷】【维基知识库】维基内表格存在合并单元格时，导出样式改变\n"
+				}
+			]
+		},
+		{
+			"ID": "20221014152909-n1q8mxq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152909-n1q8mxq",
+				"updated": "20221014152914"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#174634【KMS16.0.7.R回归测试 - 考试管理】学员错题库--错题详情页的错误次数统计逻辑问题\n"
+				}
+			]
+		},
+		{
+			"ID": "20221014152916-rwgus1c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152916-rwgus1c"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#175247【日常缺陷】【文档协同-修复】查看团队的页面不能显示必填*号，要规范"
+				}
+			]
+		},
+		{
+			"ID": "20221014152920-8hwpi8v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014152920-8hwpi8v"
+			}
+		}
+	]
+}

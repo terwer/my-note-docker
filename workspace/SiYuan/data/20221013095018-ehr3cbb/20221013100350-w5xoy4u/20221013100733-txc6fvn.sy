@@ -1,0 +1,20 @@
+{
+	"ID": "20221013100733-txc6fvn",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221013100733-txc6fvn",
+		"title": "008.数据库系统原理",
+		"updated": "20221013100741"
+	},
+	"Children": [
+		{
+			"ID": "20221013100733-29br4qa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013100733-29br4qa",
+				"updated": "20221013100733"
+			}
+		}
+	]
+}

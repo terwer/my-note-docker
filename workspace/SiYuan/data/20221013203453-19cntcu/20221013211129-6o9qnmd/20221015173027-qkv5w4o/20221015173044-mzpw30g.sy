@@ -1,0 +1,249 @@
+{
+	"ID": "20221015173044-mzpw30g",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221015173044-mzpw30g",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221015185914-8akdwe7\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221015192635-fdlpvqq\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221015192635-fdlpvqq\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "001.第四章线性方程组1",
+		"updated": "20221015192635"
+	},
+	"Children": [
+		{
+			"ID": "20221015185914-8akdwe7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221015185914-8akdwe7",
+				"updated": "20221015185924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "齐次线性方程组"
+				}
+			]
+		},
+		{
+			"ID": "20221015184521-pabfz43",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015184521-pabfz43",
+				"updated": "20221015184530"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "线性方程组形式："
+				}
+			]
+		},
+		{
+			"ID": "20221015184442-ck3xcql",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015184442-ck3xcql",
+				"updated": "20221015184451"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "\\left\\{\\begin{array}{l}a_{11} x_{1}+\\cdots+a_{1 n} x_{n}=0 \\\\\\ldots \\\\\\operatorname{a_{n1}} x_{1}+\\cdots+{a_{nn}}x_{n}=0\\end{array}\\right."
+				}
+			]
+		},
+		{
+			"ID": "20221015184533-bjy89of",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015184533-bjy89of",
+				"updated": "20221015184538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "矩阵形式"
+				}
+			]
+		},
+		{
+			"ID": "20221015184152-l3enpyd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015184152-l3enpyd",
+				"updated": "20221015184155"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "{Ax = 0}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n"
+				}
+			]
+		},
+		{
+			"ID": "20221015184541-uz7rkdo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015184541-uz7rkdo",
+				"updated": "20221015184548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "向量形式"
+				}
+			]
+		},
+		{
+			"ID": "20221015184156-t0dpl45",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015184156-t0dpl45",
+				"updated": "20221015184204"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "{{x_1}{\\alpha _1} +  \\cdots  + {x_n}{\\alpha _n} = 0}"
+				}
+			]
+		},
+		{
+			"ID": "20221015184312-mq4u55g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015184312-mq4u55g"
+			}
+		},
+		{
+			"ID": "20221015184744-z9x2eea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015184744-z9x2eea",
+				"updated": "20221015185156"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关注的情形"
+				}
+			]
+		},
+		{
+			"ID": "20221015185354-yk16uuh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015185354-yk16uuh",
+				"updated": "20221015185400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对方程组来说"
+				}
+			]
+		},
+		{
+			"ID": "20221015184755-w1sh8p2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015184755-w1sh8p2",
+				"updated": "20221015185850"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "\\left\\{\\begin{array}{l} 1、只有零解 \\\\\\operatorname 2、有非零解 \\end{array}\\right."
+				}
+			]
+		},
+		{
+			"ID": "20221015185134-wvacnzy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015185134-wvacnzy",
+				"updated": "20221015185405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对矩阵来说"
+				}
+			]
+		},
+		{
+			"ID": "20221015185405-0tawd6q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015185405-0tawd6q",
+				"updated": "20221015185840"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "\\left\\{\\begin{array}{l}r(A)=n \\\\\\text r(A)\u003cn\\end{array}\\right."
+				}
+			]
+		},
+		{
+			"ID": "20221015185418-2domufa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015185418-2domufa",
+				"updated": "20221015185500"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对向量来说"
+				}
+			]
+		},
+		{
+			"ID": "20221015185500-pbvhd38",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015185500-pbvhd38",
+				"updated": "20221015185854"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "\\left\\{\\begin{array}{l} {{\\alpha _1} \\cdots {\\alpha _n}} 线性无关 \\\\\\operatorname   {{\\alpha _1} \\cdots {\\alpha _n}}  线性相关 \\end{array}\\right."
+				}
+			]
+		},
+		{
+			"ID": "20221015185840-p9vtrzm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221015185840-p9vtrzm",
+				"updated": "20221015192634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "非齐次线性方程组"
+				}
+			]
+		},
+		{
+			"ID": "20221015192635-fdlpvqq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221015192635-fdlpvqq"
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "015.基础学科",
+  "sort": 0,
+  "icon": "1f6e1",
+  "closed": false,
+  "refCreateSavePath": "",
+  "createDocNameTemplate": "",
+  "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
+  "dailyNoteTemplatePath": ""
+}

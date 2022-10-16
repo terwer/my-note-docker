@@ -576,13 +576,7 @@
 			"Properties": {
 				"id": "20220721160238-e3m1fic",
 				"updated": "20220722125142"
-			},
-			"Children": [
-				{
-					"Type": "NodeBr",
-					"Data": "br"
-				}
-			]
+			}
 		},
 		{
 			"ID": "20220721160238-ms0q7qi",
