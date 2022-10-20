@@ -28,7 +28,9 @@ $btn-w: get($component-size, "small");
     @include component-base($item-type);
     min-height: 0;
     padding: 0 $interval;
+    flex: unset;
 
+    > .fn__flex-1,
     &::after {
       display: none;
     }
@@ -47,7 +49,7 @@ $btn-w: get($component-size, "small");
     }
 
     &__text {
-      min-width: 56px;
+      min-width: 64px;
       @include v-center(get($component-size, $item-type));
     }
 
@@ -97,6 +99,10 @@ $btn-w: get($component-size, "small");
       padding: 0;
       cursor: unset;
 
+      > .fn__flex-1 {
+        display: flex;
+      }
+
       .item__close {
         @include icon-btn("page", $btn-w, 12px, true);
         cursor: pointer;
@@ -122,7 +128,6 @@ $btn-w: get($component-size, "small");
 }
 
 .layout__center {
-  $fn-border-2: 1px solid get($border, 2);
   $item-h: 32px;
   $item-pad: 8px;
 
@@ -143,8 +148,10 @@ $btn-w: get($component-size, "small");
     @include divide(top-bar.$bar-h, -4px);
     height: top-bar.$bar-h;
     position: fixed;
-    z-index: 1;
     top: 0;
+
+    z-index: 1;
+    // opacity: 0;
 
     left: 380px;
     right: 160px;
@@ -157,6 +164,7 @@ $btn-w: get($component-size, "small");
 
   [data-type="wnd"].layout__wnd--active {
     > .fn__flex:first-child {
+      // opacity: 1;
       z-index: 2;
     }
     .item {
@@ -186,6 +194,7 @@ $btn-w: get($component-size, "small");
       height: $item-h;
       position: relative;
       padding: 0 $item-pad;
+      overflow: unset;
 
       &:not(:first-child) {
         @include divide($item-h, -4px);

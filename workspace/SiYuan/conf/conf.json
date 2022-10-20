@@ -1,7 +1,7 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 1,
+    "mode": 0,
     "modeOS": false,
     "darkThemes": [
       "Tsundoku Dark",
@@ -15,12 +15,9 @@
     "lightThemes": [
       "HBuilderX-Light",
       "notion-theme",
-      "Tsundoku Stone",
       "Light-Blue",
       "Tsundoku Light",
-      "白天",
       "pink-room",
-      "Sofill-0.17_2022-10-19 111541",
       "Knowledge Brain",
       "salt",
       "Rem Craft",
@@ -33,7 +30,7 @@
       "blue-dog",
       "OneNote"
     ],
-    "themeDark": "Rem Craft",
+    "themeDark": "midnight",
     "themeLight": "Rem Craft",
     "themeVer": "2.2.2",
     "icons": [
@@ -249,119 +246,13 @@
                     {
                       "children": {
                         "action": "",
-                        "blockId": "20221019003957-jstpp74",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221019003957-jstpp74",
-                        "scrollAttr": {
-                          "endId": "20221019010119-v3xh7p0",
-                          "scrollTop": 297,
-                          "startId": "20221019003957-39d6gg1"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "020.常量与Java集合框架"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "",
-                        "blockId": "20221013211146-ju1hzkr",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221013211146-ju1hzkr",
-                        "scrollAttr": {
-                          "endId": "20221015165114-8l0qj1g",
-                          "focusEnd": 3,
-                          "focusId": "20221015161653-l35owsm",
-                          "focusStart": 3,
-                          "scrollTop": 1753.5,
-                          "startId": "20221013211146-r3hsby1"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "001.第一章_极限与连续"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221018222659-rillyot",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221018222659-rillyot",
-                        "scrollAttr": {
-                          "endId": "20221019003000-hafagwk",
-                          "focusEnd": 158,
-                          "focusId": "20221018231536-56ooynn",
-                          "focusStart": 158,
-                          "scrollTop": 2060,
-                          "startId": "20221018222659-xlvudz0"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "019.Java数组的查找方式及二分查找"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221020004945-eotvjyt",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221020004945-eotvjyt",
-                        "scrollAttr": {
-                          "endId": "20221020014104-gvqvuw8",
-                          "focusEnd": 0,
-                          "focusId": "20221020004945-49sx33e",
-                          "focusStart": 0,
-                          "scrollTop": 0,
-                          "startId": "20221020004945-49sx33e"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "001.Struts2-2概述与MVC模式深度剖析"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221020013021-6z0rqxf",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221020013021-6z0rqxf",
-                        "scrollAttr": {
-                          "endId": "20221020015220-z6o2r2w",
-                          "focusEnd": 8,
-                          "focusId": "20221020015247-mhyaurl",
-                          "focusStart": 8,
-                          "scrollTop": 0,
-                          "startId": "20221020015236-fzg6pgq"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "001.HTML常见标签深入详解"
-                    },
-                    {
-                      "children": {
-                        "action": "",
                         "blockId": "20220830213706-snhydbw",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "rootId": "20220830213706-snhydbw",
                         "scrollAttr": {
                           "endId": "20220830215059-bicpv8b",
-                          "focusEnd": 7,
-                          "focusId": "20220830213730-blfys1z",
-                          "focusStart": 7,
-                          "scrollTop": 657,
+                          "scrollTop": 0,
                           "startId": "20220830213706-23xkum6"
                         }
                       },
@@ -371,46 +262,26 @@
                       "title": "020.Web字体（Webfont）简介_TTF_OTF_WOFF_EOT以及SVG"
                     },
                     {
+                      "active": true,
                       "children": {
                         "action": "",
-                        "blockId": "20221020012919-tgj2x8r",
+                        "blockId": "20220831001254-qyfpfhz",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "rootId": "20221020012919-tgj2x8r",
+                        "rootId": "20220831001254-qyfpfhz",
                         "scrollAttr": {
-                          "endId": "20221020012919-7q700x5",
-                          "focusEnd": 0,
-                          "focusId": "20221020012919-7q700x5",
-                          "focusStart": 0,
+                          "endId": "20220831233329-q1v45j1",
+                          "focusEnd": 4,
+                          "focusId": "20220831232542-eai2kbs",
+                          "focusStart": 4,
                           "scrollTop": 0,
-                          "startId": "20221020012919-7q700x5"
+                          "startId": "20220831232542-7b8qtuh"
                         }
                       },
                       "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "006.Java Web"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221020010808-ygp9rgz",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221020010808-ygp9rgz",
-                        "scrollAttr": {
-                          "endId": "20221020010808-66mrz88",
-                          "focusEnd": 0,
-                          "focusId": "20221020010808-66mrz88",
-                          "focusStart": 0,
-                          "scrollTop": 0,
-                          "startId": "20221020010808-66mrz88"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "003.Struts6"
+                      "title": "320.MyBatis的注解实现复杂映射开发"
                     }
                   ],
                   "height": "",
@@ -573,6 +444,7 @@
   },
   "readonly": false,
   "localIPs": [
+    "192.168.3.60",
     "10.211.55.2",
     "10.37.129.2",
     "127.0.0.1"

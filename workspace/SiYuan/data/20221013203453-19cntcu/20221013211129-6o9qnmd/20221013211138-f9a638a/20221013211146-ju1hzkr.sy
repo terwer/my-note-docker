@@ -6,7 +6,7 @@
 		"id": "20221013211146-ju1hzkr",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221013211146-r3hsby1\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221015165114-8l0qj1g\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:2268,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221015164345-x2wmpq6\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"title": "001.第一章_极限与连续",
-		"updated": "20221020180928"
+		"updated": "20221020204837"
 	},
 	"Children": [
 		{
@@ -59,7 +59,7 @@
 			},
 			"Properties": {
 				"id": "20221013221529-s208x20",
-				"updated": "20221020180928"
+				"updated": "20221020204837"
 			},
 			"Children": [
 				{
@@ -73,7 +73,7 @@
 					},
 					"Properties": {
 						"id": "20221013221531-m48kz5h",
-						"updated": "20221020180928"
+						"updated": "20221020204837"
 					},
 					"Children": [
 						{
@@ -311,7 +311,7 @@
 							},
 							"Properties": {
 								"id": "20221014000521-13lmhoc",
-								"updated": "20221020175206"
+								"updated": "20221020204837"
 							},
 							"Children": [
 								{
@@ -609,7 +609,7 @@
 									},
 									"Properties": {
 										"id": "20221015152117-e62ti5s",
-										"updated": "20221015170750"
+										"updated": "20221020204837"
 									},
 									"Children": [
 										{
@@ -617,17 +617,13 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20221015152117-g9vuhxg",
-												"updated": "20221015153320"
+												"updated": "20221020204837"
 											},
 											"Children": [
 												{
 													"Type": "NodeTextMark",
 													"TextMarkType": "inline-math",
 													"TextMarkInlineMathContent": "y = {a^x}(a \u003e 1)"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "\n"
 												}
 											]
 										},
