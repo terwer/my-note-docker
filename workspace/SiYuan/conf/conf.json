@@ -1,0 +1,651 @@
+{
+  "logLevel": "debug",
+  "appearance": {
+    "mode": 1,
+    "modeOS": false,
+    "darkThemes": [
+      "Tsundoku Dark",
+      "notion-theme",
+      "midnight",
+      "Dark-Blue",
+      "Oir-Dark",
+      "Rem Craft",
+      "Dark+"
+    ],
+    "lightThemes": [
+      "HBuilderX-Light",
+      "notion-theme",
+      "Tsundoku Stone",
+      "Light-Blue",
+      "Tsundoku Light",
+      "白天",
+      "pink-room",
+      "Sofill-0.17_2022-10-19 111541",
+      "Knowledge Brain",
+      "salt",
+      "Rem Craft",
+      "daylight",
+      "Sofill-",
+      "BluePrint From Tsundoku",
+      "Chrome-A4",
+      "Zhang-Light",
+      "Dark+",
+      "blue-dog",
+      "OneNote"
+    ],
+    "themeDark": "Rem Craft",
+    "themeLight": "Rem Craft",
+    "themeVer": "2.2.2",
+    "icons": [
+      "ant",
+      "notion-icon",
+      "material"
+    ],
+    "icon": "material",
+    "iconVer": "1.4.0",
+    "nativeEmoji": false,
+    "codeBlockThemeLight": "vs",
+    "codeBlockThemeDark": "base16/dracula",
+    "lang": "zh_CN",
+    "customCSS": false,
+    "themeJS": true,
+    "closeButtonBehavior": 0,
+    "hideStatusBar": false
+  },
+  "langs": [
+    {
+      "label": "English",
+      "name": "en_US"
+    },
+    {
+      "label": "Español",
+      "name": "es_ES"
+    },
+    {
+      "label": "Français",
+      "name": "fr_FR"
+    },
+    {
+      "label": "繁體中文",
+      "name": "zh_CHT"
+    },
+    {
+      "label": "简体中文",
+      "name": "zh_CN"
+    }
+  ],
+  "lang": "zh_CN",
+  "fileTree": {
+    "alwaysSelectOpenedFile": true,
+    "openFilesUseCurrentTab": false,
+    "refCreateSavePath": "",
+    "createDocNameTemplate": "",
+    "maxListCount": 512,
+    "maxOpenTabCount": 8,
+    "allowCreateDeeper": false,
+    "removeDocWithoutConfirm": false,
+    "closeTabsOnStart": false,
+    "sort": 4
+  },
+  "tag": {
+    "sort": 4
+  },
+  "editor": {
+    "fontSize": 16,
+    "fontFamily": "霞鹜文楷",
+    "codeSyntaxHighlightLineNum": true,
+    "codeTabSpaces": 0,
+    "codeLineWrap": false,
+    "codeLigatures": false,
+    "displayBookmarkIcon": true,
+    "displayNetImgMark": true,
+    "generateHistoryInterval": 10,
+    "historyRetentionDays": 30,
+    "emoji": [
+      "1f3d3",
+      "1f42c",
+      "1f6e1",
+      "1f375",
+      "26f7",
+      "1f415",
+      "1fa82",
+      "1f9fa",
+      "1f9e1",
+      "1f4a0",
+      "1f4bb",
+      "1f4cc",
+      "1f3dd",
+      "1f9f1",
+      "1f42d",
+      "1f424",
+      "1f407",
+      "1f436",
+      "1f3f9",
+      "1f3bb",
+      "1f3a8",
+      "1f680",
+      "1f374"
+    ],
+    "virtualBlockRef": false,
+    "virtualBlockRefExclude": "",
+    "blockRefDynamicAnchorTextMaxLen": 96,
+    "plantUMLServePath": "https://www.plantuml.com/plantuml/svg/~1",
+    "fullWidth": true,
+    "katexMacros": "{}",
+    "readOnly": false,
+    "embedBlockBreadcrumb": false
+  },
+  "export": {
+    "paragraphBeginningSpace": false,
+    "addTitle": true,
+    "blockRefMode": 4,
+    "blockEmbedMode": 1,
+    "blockRefTextLeft": "",
+    "blockRefTextRight": "",
+    "tagOpenMarker": "#",
+    "tagCloseMarker": "#",
+    "fileAnnotationRefMode": 0,
+    "pandocBin": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan/temp/pandoc/bin/pandoc"
+  },
+  "graph": {
+    "maxBlocks": 10240,
+    "local": {
+      "dailyNote": false,
+      "type": {
+        "tag": false,
+        "paragraph": false,
+        "heading": false,
+        "math": false,
+        "code": false,
+        "table": false,
+        "list": false,
+        "listItem": false,
+        "blockquote": false,
+        "super": false
+      },
+      "d3": {
+        "nodeSize": 16,
+        "linkWidth": 8,
+        "lineOpacity": 0.36,
+        "centerStrength": 0.015,
+        "collideRadius": 600,
+        "collideStrength": 0.08,
+        "linkDistance": 400,
+        "arrow": true
+      }
+    },
+    "global": {
+      "minRefs": 0,
+      "dailyNote": false,
+      "type": {
+        "tag": false,
+        "paragraph": false,
+        "heading": false,
+        "math": false,
+        "code": false,
+        "table": false,
+        "list": false,
+        "listItem": false,
+        "blockquote": false,
+        "super": false
+      },
+      "d3": {
+        "nodeSize": 16,
+        "linkWidth": 8,
+        "lineOpacity": 0.36,
+        "centerStrength": 0.015,
+        "collideRadius": 600,
+        "collideStrength": 0.08,
+        "linkDistance": 400,
+        "arrow": true
+      }
+    }
+  },
+  "uiLayout": {
+    "bottom": [],
+    "hideDock": false,
+    "layout": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "instance": "Wnd"
+            },
+            {
+              "children": [],
+              "instance": "Wnd",
+              "resize": "lr"
+            }
+          ],
+          "direction": "lr",
+          "instance": "Layout",
+          "size": "0px",
+          "type": "top"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "instance": "Wnd"
+                },
+                {
+                  "children": [],
+                  "instance": "Wnd",
+                  "resize": "tb"
+                }
+              ],
+              "direction": "tb",
+              "instance": "Layout",
+              "size": "369px",
+              "type": "left"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221015202652-946i86t",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221015202652-946i86t",
+                        "scrollAttr": {
+                          "endId": "20221017222140-pd59ihr",
+                          "focusEnd": 295,
+                          "focusId": "20221016233343-f443mrs",
+                          "focusStart": 295,
+                          "scrollTop": 1612,
+                          "startId": "20221016222300-4l42u0w"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "016.Java_SE之String类及其源代码剖析"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221019003957-jstpp74",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221019003957-jstpp74",
+                        "scrollAttr": {
+                          "endId": "20221019010119-v3xh7p0",
+                          "focusEnd": 2,
+                          "focusId": "20221019005513-e5srl00",
+                          "focusStart": 2,
+                          "scrollTop": 3646,
+                          "startId": "20221019003957-39d6gg1"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "020.常量与Java集合框架"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20221018222659-rillyot",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221018222659-rillyot",
+                        "scrollAttr": {
+                          "endId": "20221019003000-hafagwk",
+                          "focusEnd": 0,
+                          "focusId": "20221019003000-hafagwk",
+                          "focusStart": 0,
+                          "scrollTop": 2060,
+                          "startId": "20221018222659-xlvudz0"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "019.Java数组的查找方式及二分查找"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221020004945-eotvjyt",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221020004945-eotvjyt",
+                        "scrollAttr": {
+                          "endId": "20221020014104-gvqvuw8",
+                          "focusEnd": 3,
+                          "focusId": "20221020014104-gvqvuw8",
+                          "focusStart": 3,
+                          "scrollTop": 0,
+                          "startId": "20221020004945-49sx33e"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "001.Struts2-2概述与MVC模式深度剖析"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221020013021-6z0rqxf",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221020013021-6z0rqxf",
+                        "scrollAttr": {
+                          "endId": "20221020015220-z6o2r2w",
+                          "focusEnd": 8,
+                          "focusId": "20221020015247-mhyaurl",
+                          "focusStart": 8,
+                          "scrollTop": 0,
+                          "startId": "20221020015236-fzg6pgq"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "001.HTML常见标签深入详解"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20220830213706-snhydbw",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20220830213706-snhydbw",
+                        "scrollAttr": {
+                          "endId": "20220830215059-bicpv8b",
+                          "focusEnd": 7,
+                          "focusId": "20220830213730-blfys1z",
+                          "focusStart": 7,
+                          "scrollTop": 657,
+                          "startId": "20220830213706-23xkum6"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "020.Web字体（Webfont）简介_TTF_OTF_WOFF_EOT以及SVG"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221020012919-tgj2x8r",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221020012919-tgj2x8r",
+                        "scrollAttr": {
+                          "endId": "20221020012919-7q700x5",
+                          "focusEnd": 0,
+                          "focusId": "20221020012919-7q700x5",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20221020012919-7q700x5"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "006.Java Web"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221020010808-ygp9rgz",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221020010808-ygp9rgz",
+                        "scrollAttr": {
+                          "endId": "20221020010808-66mrz88",
+                          "focusEnd": 0,
+                          "focusId": "20221020010808-66mrz88",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20221020010808-66mrz88"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "003.Struts6"
+                    }
+                  ],
+                  "height": "",
+                  "instance": "Wnd",
+                  "width": ""
+                }
+              ],
+              "direction": "lr",
+              "instance": "Layout",
+              "resize": "lr",
+              "size": "auto",
+              "type": "center"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "instance": "Wnd"
+                },
+                {
+                  "children": [],
+                  "instance": "Wnd",
+                  "resize": "tb"
+                }
+              ],
+              "direction": "tb",
+              "instance": "Layout",
+              "resize": "lr",
+              "size": "0px",
+              "type": "right"
+            }
+          ],
+          "direction": "lr",
+          "instance": "Layout",
+          "resize": "tb",
+          "size": "auto",
+          "type": "normal"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "instance": "Wnd"
+            },
+            {
+              "children": [],
+              "instance": "Wnd",
+              "resize": "lr"
+            }
+          ],
+          "direction": "lr",
+          "instance": "Layout",
+          "resize": "tb",
+          "size": "0px",
+          "type": "bottom"
+        }
+      ],
+      "direction": "tb",
+      "instance": "Layout",
+      "type": "normal"
+    },
+    "left": [
+      [
+        {
+          "hotkeyLangId": "fileTree",
+          "icon": "iconFiles",
+          "show": true,
+          "size": {
+            "height": 0,
+            "width": 369
+          },
+          "type": "file"
+        },
+        {
+          "hotkeyLangId": "outline",
+          "icon": "iconAlignCenter",
+          "show": false,
+          "size": {
+            "height": 0,
+            "width": 240
+          },
+          "type": "outline"
+        },
+        {
+          "hotkeyLangId": "inbox",
+          "icon": "iconInbox",
+          "show": false,
+          "size": {
+            "height": 0,
+            "width": 252
+          },
+          "type": "inbox"
+        }
+      ],
+      [
+        {
+          "hotkeyLangId": "bookmark",
+          "icon": "iconBookmark",
+          "show": false,
+          "size": {
+            "height": 0,
+            "width": 240
+          },
+          "type": "bookmark"
+        },
+        {
+          "hotkeyLangId": "tag",
+          "icon": "iconTags",
+          "show": false,
+          "size": {
+            "height": 0,
+            "width": 240
+          },
+          "type": "tag"
+        }
+      ]
+    ],
+    "right": [
+      [
+        {
+          "hotkeyLangId": "graphView",
+          "icon": "iconGraph",
+          "show": false,
+          "size": {
+            "height": 0,
+            "width": 360
+          },
+          "type": "graph"
+        },
+        {
+          "hotkeyLangId": "globalGraph",
+          "icon": "iconGlobalGraph",
+          "show": false,
+          "size": {
+            "height": 0,
+            "width": 491
+          },
+          "type": "globalGraph"
+        }
+      ],
+      [
+        {
+          "hotkeyLangId": "backlinks",
+          "icon": "iconLink",
+          "show": false,
+          "size": {
+            "height": 0,
+            "width": 360
+          },
+          "type": "backlink"
+        }
+      ]
+    ],
+    "top": []
+  },
+  "userData": "",
+  "account": {
+    "displayTitle": true,
+    "displayVIP": true
+  },
+  "readonly": false,
+  "localIPs": [
+    "10.211.55.2",
+    "10.37.129.2",
+    "127.0.0.1"
+  ],
+  "accessAuthCode": "",
+  "system": {
+    "id": "73C2A36A-4EC9-506D-AD05-90621F13A64A",
+    "kernelVersion": "2.4.3",
+    "os": "darwin",
+    "container": "std",
+    "isMicrosoftStore": false,
+    "isInsider": false,
+    "homeDir": "/Users/terwer",
+    "workspaceDir": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan",
+    "appDir": "/Applications/SiYuan.app/Contents/Resources",
+    "confDir": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan/conf",
+    "dataDir": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan/data",
+    "networkServe": true,
+    "networkProxy": {
+      "scheme": "",
+      "host": "",
+      "port": ""
+    },
+    "uploadErrLog": false,
+    "downloadInstallPkg": false
+  },
+  "keymap": {},
+  "sync": {
+    "cloudName": "main",
+    "enabled": false,
+    "mode": 1,
+    "synced": 0,
+    "stat": "",
+    "generateConflictDoc": false
+  },
+  "search": {
+    "document": true,
+    "heading": true,
+    "list": true,
+    "listItem": true,
+    "codeBlock": true,
+    "mathBlock": true,
+    "table": true,
+    "blockquote": true,
+    "superBlock": true,
+    "paragraph": true,
+    "htmlBlock": true,
+    "limit": 64,
+    "caseSensitive": false,
+    "name": true,
+    "alias": true,
+    "memo": true,
+    "custom": false,
+    "backlinkMentionName": true,
+    "backlinkMentionAlias": false,
+    "backlinkMentionAnchor": true,
+    "backlinkMentionDoc": true,
+    "virtualRefName": true,
+    "virtualRefAlias": false,
+    "virtualRefAnchor": true,
+    "virtualRefDoc": true
+  },
+  "stat": {
+    "docCount": 378
+  },
+  "api": {
+    "token": "gzgovkf5fcou52rk"
+  },
+  "repo": {
+    "key": null
+  },
+  "newbie": false
+}

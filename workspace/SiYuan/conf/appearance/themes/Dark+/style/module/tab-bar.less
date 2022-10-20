@@ -1,0 +1,102 @@
+/* 页签 */
+
+
+/* .fn__flex-column.fn__flex.fn__flex-1 .layout-tab-bar { */
+.layout-tab-bar {
+    background-color: var(--custom-tab-bar-background-color);
+    flex-wrap: var(--custom-tab-bar-flex-wrap);
+
+    .item {
+        /* 页签项 */
+        flex: none;
+        background-color: transparent;
+        border: 2px solid var(--b3-list-hover) !important;
+        border-radius: var(--custom-border-radius);
+        box-shadow: none !important;
+        min-height: var(--custom-tab-bar-min-height);
+        box-sizing: border-box;
+
+        .item__icon {
+            /* 页签项图标 */
+            padding-left: 8px;
+
+            svg,
+            img {
+                width: var(--custom-tab-bar-icon-size);
+                height: var(--custom-tab-bar-icon-size);
+            }
+        }
+
+        .item__text {
+            /* 页签项文本 */
+            min-width: 0;
+        }
+
+        .item__close {
+            padding: 4px !important;
+
+            // 标签栏右侧新建按钮
+            &[data-type="new"],
+            // 标签栏右侧切换按钮
+            &[data-type="more"] {
+                margin: 0 4px;
+            }
+
+            svg {
+                &:hover {
+                    /* 页签项关闭图标 */
+                    color: var(--b3-theme-surface);
+                    background-color: var(--b3-theme-on-surface);
+                }
+            }
+        }
+
+        &.item--focus {
+            /* 被选中的页签项 */
+            background-color: var(--b3-list-hover);
+            box-shadow: none;
+            border-color: var(--b3-list-hover) !important;
+            border-bottom-color: var(--custom-striking-color) !important;
+            border-radius: var(--custom-border-radius);
+
+            +.item {
+                border-left-color: var(--b3-list-hover) !important;
+            }
+
+            .layout__wnd--active &,
+            .b3-dialog__container & {
+                /* 多窗口被选中的页签项 & 集市被选中的页签项 */
+                box-shadow: none;
+                border-color: var(--custom-striking-color) !important;
+                border-radius: var(--custom-border-radius);
+            }
+
+        }
+
+        &:not(.item--pin) {
+            /* 非钉住的页签项 */
+            min-width: var(--custom-tab-bar-item-min-width);
+
+            .item__text {
+                &:not(span:nth-last-of-type(2)) {
+                    /* 非钉住标签的非末尾项页签项文本 */
+                    padding-right: 0;
+                }
+            }
+        }
+
+        &.item--pin {
+            .item__text {
+                /* 钉住的标签页文本全部显示 */
+                width: auto;
+                max-width: none;
+                display: flex !important;
+            }
+        }
+
+        &:last-child:not(.item--readonly) {
+            /* 移除控件与文档页签之间的距离 */
+            margin: 0;
+        }
+    }
+}

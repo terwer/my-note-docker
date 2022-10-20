@@ -1,0 +1,7 @@
+/* ——————————————————————缩短无序列表底上下边距（blue-dog主题专属）———————————————————— */
+.protyle-wysiwyg [data-node-id].li>[data-node-id] {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+

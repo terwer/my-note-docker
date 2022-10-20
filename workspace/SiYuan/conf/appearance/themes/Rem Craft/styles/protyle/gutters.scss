@@ -1,0 +1,34 @@
+@use "../common" as *;
+
+$tran: 0px;
+$w: 24px;
+$svg-w: 12px;
+$h: 28px;
+$mar: 4px;
+
+//块标识按钮
+.protyle-gutters {
+  transform: translateX(0 - $tran);
+  border-right: $tran solid transparent;
+
+  &[style*="width"] {
+    width: 24px + $mar + $tran !important;
+  }
+
+  button {
+    @include item-tran("page");
+    @include svg-div($w, $svg-w, $h);
+    border-radius: get($radius, "small");
+    color: get($text, "disabled");
+    margin-right: $mar;
+
+    &:hover {
+      color: get($text, "secondary");
+    }
+
+    &[data-type="fold"] {
+      @include svg-div($w, 8px, $h, $important: true);
+      margin-right: $mar;
+    }
+  }
+}

@@ -1,7 +1,8 @@
 .idea/
 .DS_Store
 workspace/SiYuan/backup/
-workspace/SiYuan/conf/
+# conf应该提交否则没有笔记本和主题
+# workspace/SiYuan/conf/
 workspace/SiYuan/history/
 workspace/SiYuan/sync/
 workspace/SiYuan/temp/
