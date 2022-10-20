@@ -3,10 +3,12 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16798387",
 		"custom-desc": "接口中所声明的方法都是抽象方法。接口中的方法都是public​的。接口中也可以定义成员变量。接口中的成员变量都是publicfinalstatic的。一个类不能既是final又是abstract的。因为abstract的主要目的是啥定义一种约定让子类去实现这种约定而final表示该类不能被继承。这样abstract希望该类可以被继承而final明确说明该类不能被继承两者矛盾。因此一个类不能既是final的又是abstract的。desginpattern（设计模式）。单例模式（singleton）publ",
 		"custom-slug": "ava-se-lesson-3-interface_package-and-string",
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/014.Java_SE_Lesson_3_接口_包与字符串.md",
 		"custom-wordpress-post-id": "4304",
+		"custom-yuque-post-id": "96955751_terwer/note",
 		"id": "20220930204253-cvu44rx",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220930205117-pkv79m8\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220930205117-pkv79m8\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220930205121-y29jrks\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "接口,方法,成员,变量,声明",

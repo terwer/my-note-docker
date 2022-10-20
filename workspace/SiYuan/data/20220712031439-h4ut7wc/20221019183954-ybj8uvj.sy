@@ -1,0 +1,21 @@
+{
+	"ID": "20221019183954-ybj8uvj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221019183954-ybj8uvj",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221019183954-at71q0j\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019183954-at71q0j\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221019183954-at71q0j\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "008.Hibernate",
+		"updated": "20221020012929"
+	},
+	"Children": [
+		{
+			"ID": "20221019183954-at71q0j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019183954-at71q0j",
+				"updated": "20221019183954"
+			}
+		}
+	]
+}

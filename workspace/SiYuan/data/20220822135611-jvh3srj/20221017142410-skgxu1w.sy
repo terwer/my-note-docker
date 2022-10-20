@@ -1,0 +1,20 @@
+{
+	"ID": "20221017142410-skgxu1w",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221017142410-skgxu1w",
+		"title": "002.Oracle",
+		"updated": "20221017142415"
+	},
+	"Children": [
+		{
+			"ID": "20221017142410-2o7o7j5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142410-2o7o7j5",
+				"updated": "20221017142410"
+			}
+		}
+	]
+}

@@ -3,10 +3,12 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16798310",
 		"custom-desc": "关系运算符_大于（=）关系运算的结果是个boolean值。逻辑运算符_重点讲解两个逻辑运算符本身也返回一个boolean值。）逻辑与_使用表示逻辑与是个双目运算符（即有两个操作数的运算符）只有当两个操作数都为真的时候结果才为真_其余情况结果均为假。逻辑与表示的并且的意思。）逻辑或_使用__表示逻辑或也是个双目运算符只有当两个操作数都为假的时候结果才为假_其余情况结果均为真。逻辑或表示或者的意思。关于逻辑运算符的短路特性。）逻辑与_如果第一个操作数为false那么结果肯定就是false所以在这种情况下将不会",
 		"custom-slug": "java_se-1iyv6l",
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/005.Java_SE_第五讲_运算符续.md",
 		"custom-wordpress-post-id": "4295",
+		"custom-yuque-post-id": "96953403_terwer/note",
 		"id": "20221010202841-zcyr0zk",
 		"tags": "逻辑,结果,运算符,操作数,运算,operator,continue",
 		"title": "005.Java_SE_第五讲：运算符续",

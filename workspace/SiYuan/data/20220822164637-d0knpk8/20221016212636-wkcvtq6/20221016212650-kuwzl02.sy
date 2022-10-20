@@ -1,0 +1,714 @@
+{
+	"ID": "20221016212650-kuwzl02",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "java知识体系java新特性介绍lambda表达式介绍使用lambda表达式代替内部类lambda表达式的作用外部迭代与内部迭代javalambda表达式语法详解函数式接口详解传递值与传递行为stream深度解析sreamapi详解串行流与并行流stream构成stream源生成方式stream操作类型stream转换optional详解默认方法详解方法与构造方法引用predicate接口详解function接口详解consumer接口剖析filter介绍mapreduce详解中间操作与终止操作新的da",
+		"custom-slug": "java8-knowledge-system-8d2df",
+		"custom-vuepress-slug": "docs/012.新笔记/008.JDK8新思路/001.Java8知识体系.md",
+		"id": "20221016212650-kuwzl02",
+		"tags": "详解,表达式,接口,介绍,操作",
+		"title": "001.Java8知识体系",
+		"updated": "20221016212715"
+	},
+	"Children": [
+		{
+			"ID": "20221016212650-p5ot61l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221016212650-p5ot61l",
+				"updated": "20221016212715"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java8知识体系"
+				}
+			]
+		},
+		{
+			"ID": "20221016212715-ujj31z0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221016212715-ujj31z0",
+				"updated": "20221016212715"
+			},
+			"Children": [
+				{
+					"ID": "20221016212715-ui1cdqp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-ui1cdqp",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-6qf16e8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-6qf16e8",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java8新特性介绍"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-mup9qme",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-mup9qme",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-t0b5emi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-t0b5emi",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Lambda表达式介绍"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-qsggp1n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-qsggp1n",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-zwh1h5s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-zwh1h5s",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用Lambda表达式代替内部类"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-k00zjf1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-k00zjf1",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-2ry1f1o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-2ry1f1o",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Lambda表达式的作用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-5lotbdy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-5lotbdy",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-kv9cp38",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-kv9cp38",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "外部迭代与内部迭代"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-tg44k7l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-tg44k7l",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-962wqyz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-962wqyz",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java Lambda表达式语法详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-sr7ns3b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-sr7ns3b",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-z9pfycf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-z9pfycf",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "函数式接口详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-dy4nv7n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-dy4nv7n",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-9p6usnp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-9p6usnp",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "传递值与传递行为"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-jfam5d1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-jfam5d1",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-itw9nsk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-itw9nsk",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Stream深度解析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-umt25sz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-umt25sz",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-ldt2oku",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-ldt2oku",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Sream API详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-03ql82j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-03ql82j",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-hr1ltks",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-hr1ltks",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "串行流与并行流"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-wl74c0v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-wl74c0v",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-h94k7zc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-h94k7zc",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Stream构成"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-913fsdq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-913fsdq",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-5cm9eyx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-5cm9eyx",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Stream源生成方式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-hqlsf5y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-hqlsf5y",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-mfrzyq5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-mfrzyq5",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Stream操作类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-scyyf35",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-scyyf35",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-lsw4sda",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-lsw4sda",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Stream转换"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-9bv909m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-9bv909m",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-0l6zsd6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-0l6zsd6",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Optional详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-6glh4g4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-6glh4g4",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-gwbkgxv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-gwbkgxv",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "默认方法详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-x4tlnbs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-x4tlnbs",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-esszaqw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-esszaqw",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "方法与构造方法引用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-w5c3nst",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-w5c3nst",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-rkdajlk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-rkdajlk",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Predicate接口详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-knk1ms2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-knk1ms2",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-rpvgl5j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-rpvgl5j",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Function接口详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-ods98bm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-ods98bm",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-e9m3qy7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-e9m3qy7",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Consumer接口剖析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-ze72ddg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-ze72ddg",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-z5fd07m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-z5fd07m",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Filter介绍"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-20mu7li",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-20mu7li",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-xpihp21",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-xpihp21",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Map-reduce详解，中间操作与终止操作"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016212715-j0unbam",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221016212715-j0unbam",
+						"updated": "20221016212715"
+					},
+					"Children": [
+						{
+							"ID": "20221016212715-cb0u45s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016212715-cb0u45s",
+								"updated": "20221016212715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新的Date API分析\n"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

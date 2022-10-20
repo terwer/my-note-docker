@@ -3,10 +3,12 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16798372",
 		"custom-desc": "如果一个类包含了属性与方法那么该类的每一个对象都具有自己的属性但无论一个类有多少个对象这些对象共享同一个方法。关于方法参数传递的总结_对于java中的方法参数传递无论传递的是原生数据类型还是引用类型统一是传值（passbyvalue​）。什么类型的引用就能指向什么类型的对象比如people类型的引用就能指向people类型的对象但不能指向student类型的对象。比如_valpeople=people()正确valpeople=student()错误peoplepeople=newpeople()_正确p",
 		"custom-slug": "java-object-oriented-encapsulation-continued-two",
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/011.Java_SE_第十一讲_面向对象之封装续二.md",
 		"custom-wordpress-post-id": "4301",
+		"custom-yuque-post-id": "96955130_terwer/note",
 		"id": "20221010215344-qppc5xo",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221010215349-5f08vcf\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221010215540-ygzy5fz\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:315,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221010215612-pscrgnx\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "构造方法,对象,参数,类型,一个,面向对象,oop,object",

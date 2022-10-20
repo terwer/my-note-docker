@@ -1,0 +1,1179 @@
+{
+	"ID": "20221017145542-oor3mkc",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "一前言oraclec中新增加了可插入数据库的概念即pdb（pluggabledatabase）允许一个容器数据库即cdb（containerdatabase）承载多个可插入数据库pdb。cdb相当于操作系统调用并管理各个pdbpdb相当于真正提供业务需求的数据库实例。在pdb中创建用户与之前相同但在cdb中创建用户与之前有所不同下面会详细说明。默认会安装一个名字为orcl​的pdb。查看pdb~sqlplussysassysdbasqlshowpdbs）打开sqlplus以system用户登录注意输入密码",
+		"custom-slug": "oracle12c-creates-table-space-user-2sfkbm",
+		"custom-vuepress-slug": "docs/011.数据库/002.Oracle/004.Oracle12c创建表空间、用户.md",
+		"custom-wordpress-post-id": "4310",
+		"custom-yuque-post-id": "97030999_terwer/note",
+		"id": "20221017145542-oor3mkc",
+		"tags": "创建,用户,数据库,空间,注意,oracle,表空间,tablespace",
+		"title": "004.Oracle12c创建表空间、用户",
+		"updated": "20221017155536"
+	},
+	"Children": [
+		{
+			"ID": "20221017145635-4w43jk2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017145635-4w43jk2",
+				"updated": "20221017145648"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "一、前言",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017145644-rxg1ki0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017145644-rxg1ki0",
+				"updated": "20221017153707"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Oracle 12c 中新增加了可插入数据库的概念，即 PDB（Pluggable Database），允许一个容器数据库 ，即 CDB （Container Database）承载多个可插入数据库 PDB 。CDB 相当于操作系统，调用并管理各个 PDB ，PDB 相当于真正提供业务需求的数据库实例。在 PDB 中创建用户与之前相同，但在 CDB 中创建用户与之前有所不同，下面会详细说明。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017153721-uraqia3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153721-uraqia3",
+				"updated": "20221017153735"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认会安装一个名字为 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "ORCL"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 的 pdb。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017152945-qfx73v7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017152945-qfx73v7",
+				"updated": "20221017153438"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "查看 pdb",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017153438-j2r8xbi",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017153438-j2r8xbi",
+				"updated": "20221017153506"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "~ sqlplus sys/123456 as sysdba\n\u003eSQL show pdbs\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017152945-6e92fdy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017152945-6e92fdy",
+				"updated": "20221017152945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1）打开 SQL Plus, 以 system 用户登录，注意输入密码后面加入“as sysdba”;",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017152945-51r77ht",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017152945-51r77ht",
+				"updated": "20221017152945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是如果创建普通用户则会提示“ORA-65096：公用用户名或角色名无效”。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017152945-kxwn42e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017152945-kxwn42e",
+				"updated": "20221017152945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输入",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017152945-2ixlun4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017152945-2ixlun4",
+				"updated": "20221017152958"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "show con_name\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017152945-tbpmvaw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017152945-tbpmvaw",
+				"updated": "20221017152945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以看出当前容器为 CDB。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017152945-ftxceac",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017152945-ftxceac",
+				"updated": "20221017152945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2）输入以下代码，启动 PDB 数据库：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017152945-hb70hq0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017152945-hb70hq0",
+				"updated": "20221017153747"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " alter session set container=ORCL; \n -- startup;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-0wmc7cq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017145635-0wmc7cq",
+				"updated": "20221017145654"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "二、创建表空间",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017145924-krnp1p8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017145924-krnp1p8",
+				"updated": "20221017145924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CDB 与 PDB 之间的表空间是不能相互使用的，需要单独创建",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017153624-rqnwpoq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153624-rqnwpoq",
+				"updated": "20221017153757"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "注意：这里需要切换 session， 参考第一步第2小步。"
+				}
+			]
+		},
+		{
+			"ID": "20221017154041-i18ms1z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017154041-i18ms1z",
+				"updated": "20221017154048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意目录"
+				}
+			]
+		},
+		{
+			"ID": "20221017154045-ajmrfux",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221017154045-ajmrfux",
+				"updated": "20221017155153"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd /opt/oracle/oradata\nmkdir ORCLPDB\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017155216-2sm4u8b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221017155216-2sm4u8b",
+				"updated": "20221017155229"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " alter session set container=ORCL; \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-7onsaah",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221017145635-7onsaah",
+				"updated": "20221017145703"
+			},
+			"Children": [
+				{
+					"ID": "20221017145635-jcs4exd",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017145635-jcs4exd",
+						"updated": "20221017145703"
+					},
+					"Children": [
+						{
+							"ID": "20221017145635-iq3l97p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017145635-iq3l97p",
+								"updated": "20221017145703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建临时表空间",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-aiocrpa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221017145635-aiocrpa",
+				"updated": "20221017155432"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "--  alter session set container=ORCL; \nCREATE TEMPORARY tablespace my_temp tempfile '/opt/oracle/oradata/orclpdb/my_temp.dbf' SIZE 50m autoextend ON NEXT 50m maxsize 20480m extent management LOCAL;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-xglwzvw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 2,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "Mg==",
+				"Num": 2
+			},
+			"Properties": {
+				"id": "20221017145635-xglwzvw",
+				"updated": "20221017145710"
+			},
+			"Children": [
+				{
+					"ID": "20221017145635-ptz83r8",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017145635-ptz83r8",
+						"updated": "20221017145710"
+					},
+					"Children": [
+						{
+							"ID": "20221017145635-1xk733g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017145635-1xk733g",
+								"updated": "20221017145710"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建数据表空间",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-7t8di98",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221017145635-7t8di98",
+				"updated": "20221017155436"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "--  alter session set container=ORCL; \nCREATE tablespace my_data logging datafile '/opt/oracle/oradata/orclpdb/my_data.dbf' SIZE 50m autoextend ON NEXT 50m maxsize 20480m extent management LOCAL;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-gzzhqtn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017145635-gzzhqtn",
+				"updated": "20221017145715"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "三、创建用户",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-xbkek27",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221017145635-xbkek27",
+				"updated": "20221017145635"
+			},
+			"Children": [
+				{
+					"ID": "20221017145635-ew37d33",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017145635-ew37d33",
+						"updated": "20221017145635"
+					},
+					"Children": [
+						{
+							"ID": "20221017145635-p8kha07",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017145635-p8kha07",
+								"updated": "20221017145635"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建用户",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-x1zb087",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017145635-x1zb087",
+				"updated": "20221017151045"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "-- CDB下创建用户需要加上c##或C##才能创建成功（c##xxx整体是用户名）\nCREATE USER c##xxx IDENTIFIED BY 密码\nDEFAULT tablespace 数据表空间\nTEMPORARY tablespace 临时表空间;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-vmqk3ml",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017145635-vmqk3ml",
+				"updated": "20221017151422"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "-- PDB 下创建用户按之前的方式就行\nCREATE USER xxx IDENTIFIED BY 密码\nDEFAULT tablespace 数据表空间\nTEMPORARY tablespace 临时表空间;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-22y0t0e",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 2,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "Mg==",
+				"Num": 2
+			},
+			"Properties": {
+				"id": "20221017145635-22y0t0e",
+				"updated": "20221017145635"
+			},
+			"Children": [
+				{
+					"ID": "20221017145635-slvopdr",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017145635-slvopdr",
+						"updated": "20221017145635"
+					},
+					"Children": [
+						{
+							"ID": "20221017145635-u4tpugz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017145635-u4tpugz",
+								"updated": "20221017145635"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "赋予权限",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-8ifel9c",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017145635-8ifel9c",
+				"updated": "20221017151229"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "GRANT CONNECT,resource,dba TO terwer;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017151347-rv9lfgq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151347-rv9lfgq",
+				"updated": "20221017151351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017151352-rrr2n0r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221017151352-rrr2n0r",
+				"updated": "20221017155536"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "--  alter session set container=ORCL; \ncreate user kms15 identified by 123456 default tablespace my_data temporary tablespace my_temp; \ngrant CONNECT,resource,dba to kms15;\n\n--  alter session set container=ORCL; \ncreate user kms16 identified by 123456 default tablespace my_data temporary tablespace my_temp;\ngrant CONNECT,resource,dba to kms16;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-vojo4js",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017145635-vojo4js",
+				"updated": "20221017145721"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "四、删除表空间、用户",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-au4khrc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221017145635-au4khrc",
+				"updated": "20221017145724"
+			},
+			"Children": [
+				{
+					"ID": "20221017145635-v2drfq3",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017145635-v2drfq3",
+						"updated": "20221017145724"
+					},
+					"Children": [
+						{
+							"ID": "20221017145635-o1m5sfp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017145635-o1m5sfp",
+								"updated": "20221017145724"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除表空间",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-7axx0bg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017145635-7axx0bg",
+				"updated": "20221017151236"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "-- 删除空的表空间，但是不包含物理文件\nDROP tablespace 表空间名称;\n\n-- 删除空表空间，包含物理文件\nDROP tablespace 表空间名称 INCLUDING datafiles;\n\n-- 删除非空表空间，但是不包含物理文件\nDROP tablespace 表空间名称 INCLUDING contents;\n\n--删除非空表空间，包含物理文件\nDROP tablespace 表空间名称 INCLUDING contents AND datafiles;\n\n--如果其他表空间中的表有外键等约束关联到了本表空间中表的字段，需要加上CASCADE CONSTRAINTS\nDROP tablespace 表空间名称 INCLUDING contents AND datafiles CASCADE CONSTRAINTS;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-40ioopv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 2,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "Mg==",
+				"Num": 2
+			},
+			"Properties": {
+				"id": "20221017145635-40ioopv",
+				"updated": "20221017145635"
+			},
+			"Children": [
+				{
+					"ID": "20221017145635-romehez",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017145635-romehez",
+						"updated": "20221017145635"
+					},
+					"Children": [
+						{
+							"ID": "20221017145635-dvda7id",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017145635-dvda7id",
+								"updated": "20221017145635"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除用户",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017145635-3rv6wcy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017145635-3rv6wcy",
+				"updated": "20221017151242"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "-- 只是删除此用户\nDROP USER 用户名;\n\n-- 会删除此用户及此用户关联的所有表和视图\nDROP USER 用户名 CASCADE;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}

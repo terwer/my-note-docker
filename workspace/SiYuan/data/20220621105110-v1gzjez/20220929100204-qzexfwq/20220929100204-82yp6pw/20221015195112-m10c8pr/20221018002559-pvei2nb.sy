@@ -1,0 +1,29 @@
+{
+	"ID": "20221018002559-pvei2nb",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221018002559-pvei2nb",
+		"title": "2022-10-18",
+		"updated": "20221018002702"
+	},
+	"Children": [
+		{
+			"ID": "20221018002559-ycr6p6i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018002559-ycr6p6i",
+				"updated": "20221018002702"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MySQL 的 Group by 与 oracle 的 Group by 是有区别的。MySQL 或默认取第一行，Oracle 直接报错，部署 Group by 表达式，Oracle 更严格。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}

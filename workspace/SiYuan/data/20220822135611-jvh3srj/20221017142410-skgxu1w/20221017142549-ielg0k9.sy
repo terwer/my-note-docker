@@ -1,0 +1,2601 @@
+{
+	"ID": "20221017142549-ielg0k9",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "10502717",
+		"custom-desc": "下载地址_http_wwworaclecomtechnetworkdatabaseenterpriseeditiondownloadsindexhtmlhttps_wwworaclecomtechnetworkdatabaseenterpriseeditiondownloadsoracleclinuxhtml整个过程下载可能会比较慢最好是抓取下载链接然后使用wget下载例如​[root@terwergreenopt]#wgethttps_downloadoraclecomotnlinuxoraclecli",
+		"custom-slug": "centos76-install-oracle12c-11dy4t",
+		"custom-vuepress-slug": "docs/011.数据库/002.Oracle/001.CentOS_7-6_安装Oracle_12c.md",
+		"custom-wordpress-post-id": "4307",
+		"custom-yuque-post-id": "96991654_terwer/note",
+		"id": "20221017142549-ielg0k9",
+		"tags": "下载,地址,oracle,centos,linux,oracle12c,整个,过程,可能",
+		"title": "001.CentOS_7-6_安装Oracle_12c",
+		"type": "doc",
+		"updated": "20221017143848"
+	},
+	"Children": [
+		{
+			"ID": "20221017142550-26vmktr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142550-26vmktr",
+				"updated": "20221017142550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载地址：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142551-ngp63gv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142551-ngp63gv",
+				"updated": "20221017142551"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html\n\nhttps://www.oracle.com/technetwork/database/enterprise-edition/downloads/oracle12c-linux-12201-3608234.html\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142552-0k7ruz4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142552-0k7ruz4",
+				"updated": "20221017142552"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "整个过程下载可能会比较慢，最好是抓取下载链接，然后使用wget下载，例如"
+				}
+			]
+		},
+		{
+			"ID": "20221017143350-gyl5ylz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017143350-gyl5ylz",
+				"updated": "20221017143351"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221017143331.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221017142554-goadirc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142554-goadirc",
+				"updated": "20221017142554"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[root@terwergreen opt]# wget https://download.oracle.com/otn/linux/oracle12c/122010/linuxx64_12201_database.zip?AuthParam=1552132547_497757efbab4cd9c91b5d9c3fde56635\n--2019-03-09 19:55:16--  https://download.oracle.com/otn/linux/oracle12c/122010/linuxx64_12201_database.zip?AuthParam=1552132547_497757efbab4cd9c91b5d9c3fde56635\n正在解析主机 download.oracle.com (download.oracle.com)... 104.127.201.249\n正在连接 download.oracle.com (download.oracle.com)|104.127.201.249|:443... 已连接。\n已发出 HTTP 请求，正在等待回应... 200 OK\n长度：3453696911 (3.2G) [application/zip]\n正在保存至: “linuxx64_12201_database.zip?AuthParam=1552132547_497757efbab4cd9c91b5d9c3fde56635”\n\n78% [================================================================================\u003e                       ] 2,711,796,149 10.8MB/s 剩余 71s    \n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142555-v0wi4ng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142555-v0wi4ng",
+				"updated": "20221017142555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.root身份安装依赖包：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142556-6joufju",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142556-6joufju",
+				"updated": "20221017142556"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yum -y install binutils compat-libcap1 compat-libstdc++-33 compat-libstdc++-33*.i686 elfutils-libelf-devel gcc gc\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142557-bp4c2a5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142557-bp4c2a5",
+				"updated": "20221017142557"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.建立用户和组：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142558-cyztzpd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142558-cyztzpd",
+				"updated": "20221017142558"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "groupadd oinstall  \ngroupadd dba  \ngroupadd oper  \nuseradd -g oinstall -G dba,oper oracle  \necho \"123456\" | passwd --stdin oracle #oracle用户的登录密码，后续登录要用，记着。\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142559-ib8t2i7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142559-ib8t2i7",
+				"updated": "20221017142559"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.创建安装目录：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142560-ps2493e",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142560-ps2493e",
+				"updated": "20221017142560"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "mkdir -p /orcl/app/oracle/product/12.1.0/db_1  \nchown -R oracle:oinstall /orcl/app  \nchmod -R 775 /orcl/app\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142561-rqt3b2t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142561-rqt3b2t",
+				"updated": "20221017142561"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.修改内核参数",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "vim /etc/sysctl.conf"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，添加：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142562-7xwunt7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142562-7xwunt7",
+				"updated": "20221017142562"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "fs.aio-max-nr = 1048576  \nfs.file-max = 6815744  \nkernel.shmall = 2097152  \nkernel.shmmax = 1200000000    \nkernel.shmmni = 4096  \nkernel.sem = 250 32000 100 128  \nnet.ipv4.ip_local_port_range = 9000 65500  \nnet.core.rmem_default = 262144  \nnet.core.rmem_max = 4194304  \nnet.core.wmem_default = 262144  \nnet.core.wmem_max = 1048576\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142563-fw5scnz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142563-fw5scnz",
+				"updated": "20221017142563"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "改好后，使之生效",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "sysctl -p"
+				}
+			]
+		},
+		{
+			"ID": "20221017142564-412pnd5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142564-412pnd5",
+				"updated": "20221017142564"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另外 上面的",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "kernel.shmmax = 1200000000"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "可能会有问题,后面咱们再说。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142565-epzagen",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142565-epzagen",
+				"updated": "20221017142565"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者你直接现在就写成",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "4098955264"
+				}
+			]
+		},
+		{
+			"ID": "20221017142566-698fpq0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142566-698fpq0",
+				"updated": "20221017142566"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.改文件限制：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "vim /etc/security/limits.conf"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，添加：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142567-dq4p8dd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142567-dq4p8dd",
+				"updated": "20221017142567"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "oracle soft nproc 2047  \noracle hard nproc 16384  \noracle soft nofile 1024  \noracle hard nofile 65536  \noracle soft stack 10240\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142568-c5g8sbw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142568-c5g8sbw",
+				"updated": "20221017142568"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：修改此文件是即时生效的，但可能要重登录后再看",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142569-fer2gvp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142569-fer2gvp",
+				"updated": "20221017142569"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.以及",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "vim /etc/pam.d/login"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，添加：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142570-dnsnetz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142570-dnsnetz",
+				"updated": "20221017142570"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "session required pam_limits.so\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142571-d2nmjn9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142571-d2nmjn9",
+				"updated": "20221017142571"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.修改ulimit：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "vim /etc/profile"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，添加：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142572-426u676",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142572-426u676",
+				"updated": "20221017142572"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "if [ $USER = \"oracle\" ]; then  \nif [ $SHELL = \"/bin/ksh\" ]; then  \nulimit -p 16384  \nulimit -n 65536a  \nelse  \nulimit -u 16384 -n 65536  \nfi  \nfi\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142573-xh3orj8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142573-xh3orj8",
+				"updated": "20221017142573"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8.修改环境变量。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "vim ~oracle/.bash_profile"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，添加：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142574-ky7qqrk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142574-ky7qqrk",
+				"updated": "20221017142574"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "ORACLE_BASE=/orcl/app/oracle  \nORACLE_HOME=$ORACLE_BASE/product/12.1.0/db_1  \nORACLE_SID=orcl  \nexport ORACLE_BASE ORACLE_HOME ORACLE_SID  \nPATH=$ORACLE_HOME/bin:$PATH  \nexport PATH  \n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142575-jnti47n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142575-jnti47n",
+				"updated": "20221017142575"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9.用",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "yum remove *openjdk* "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "把系统自带的openjdk卸载，再安装",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142576-6sfg2lr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142576-6sfg2lr",
+				"updated": "20221017142576"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "sun jdk：rpm -ivh jdk-8u144-linux-x64.rpm"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142577-qar17ir",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142577-qar17ir",
+				"updated": "20221017142577"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载地址: ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html",
+					"TextMarkTextContent": "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
+				}
+			]
+		},
+		{
+			"ID": "20221017142578-pxljznl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142578-pxljznl",
+				"updated": "20221017142578"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装参考：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.cnblogs.com/tangyouwei/p/10080840.html ",
+					"TextMarkTextContent": "https://www.cnblogs.com/tangyouwei/p/10080840.html"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 和 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.cnblogs.com/stulzq/p/9286878.html",
+					"TextMarkTextContent": "https://www.cnblogs.com/stulzq/p/9286878.html"
+				}
+			]
+		},
+		{
+			"ID": "20221017142579-rqclg0l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142579-rqclg0l",
+				"updated": "20221017142579"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（openjdk环境安装oracle GUI会报class not found的错）。然后$\u003ejava -version检查一下安装是否成功。上述工作完成后，建议重启系统。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142580-5j0ufph",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142580-5j0ufph",
+				"updated": "20221017142580"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "10.以oracle用户登录，开始安装：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142581-0ol4oil",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142581-0ol4oil",
+				"updated": "20221017142581"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yum install unzip\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142582-82et2u1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142582-82et2u1",
+				"updated": "20221017142582"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://www.cnblogs.com/a9999/p/6957280.html",
+					"TextMarkTextContent": "设置swap分区"
+				}
+			]
+		},
+		{
+			"ID": "20221017142583-cl8krfb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142583-cl8krfb",
+				"updated": "20221017142583"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "安装xdpyinfo",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142584-by0luis",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142584-by0luis",
+				"updated": "20221017142584"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yum install -y xdpyinfo\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142585-409d1bz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142585-409d1bz",
+				"updated": "20221017142585"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装oracle报错must be configured to display at least 256 colors Failed",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "https://blog.csdn.net/xiegh2014/article/details/45077149",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142586-0uzulz8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142586-0uzulz8",
+				"updated": "20221017142586"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、先执行 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "xhost +"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "export DISPLAY=:0.0"
+				}
+			]
+		},
+		{
+			"ID": "20221017142587-3kw8bg9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142587-3kw8bg9",
+				"updated": "20221017142587"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.alibabacloud.com/help/zh/faq-detail/41227.htm#ECSCentOS7",
+					"TextMarkTextContent": "为 CentOS 7 实例图形化桌面"
+				}
+			]
+		},
+		{
+			"ID": "20221017142588-cw7jrgg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142588-cw7jrgg",
+				"updated": "20221017142588"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://blog.51cto.com/hunkz/1559677",
+					"TextMarkTextContent": "CentOS7 运行级别的切换（命令行和窗口的切换）"
+				}
+			]
+		},
+		{
+			"ID": "20221017142589-83gzohm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142589-83gzohm",
+				"updated": "20221017142589"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 命令行\nsystemctl set-default multi-user.target\n# 窗口\nsystemctl set-default graphical.target\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142590-bkv23mb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142590-bkv23mb",
+				"updated": "20221017142590"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "su  oracle  \ncd /orcl/app/oracle  \nunzip linuxx64_12201_database.zip \nexport LANG=\"en_US\"  \ncd /orcl/app/oracle/database  \n./runInstaller\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142591-fnuut0g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142591-fnuut0g",
+				"updated": "20221017142591"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注：下载好的Oracle要放到/orcl/app/oracle目录下，/orcl/app/oracle/下是2个目录：product和database。解压后的安装文件放在database下。然后就会出现安装界面，配置过程从略。需要注意的是字符集要选择unicode。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142592-44vfhpj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142592-44vfhpj",
+				"updated": "20221017142592"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "EM",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142593-jrxbaco",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142593-jrxbaco",
+				"updated": "20221017142593"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "EM Express",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://localhost:5500/em/",
+					"TextMarkTextContent": "https://localhost:5500/em/"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "sys",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "123456",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "sysdba",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142594-g910z8t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142594-g910z8t",
+				"updated": "20221017142594"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "sqlplus登录",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142595-p3d2bpa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142595-p3d2bpa",
+				"updated": "20221017142595"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "lsnrctl start\t打开监听\n$ sqlplus /nolog\t进入sql命令行\nSQL\u003e conn /as sysdba\t切换权限\nSQL\u003e startup\t启动数据库\nSQL\u003e shutdown immediate\t停止数据库\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142596-t2ixbjm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142596-t2ixbjm",
+				"updated": "20221017142596"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启动12c数据库",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142597-uxunjf3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142597-uxunjf3",
+				"updated": "20221017142597"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Oracle12c重启",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142598-soyva0q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142598-soyva0q",
+				"updated": "20221017142598"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#进入到oracle的安装目录",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "cd $ORACLE_HOME/bin",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "#重启监听器",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "lsnrctl start",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142599-uajakbj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142599-uajakbj",
+				"updated": "20221017142599"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "查看数据库状态",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142600-040voq7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142600-040voq7",
+				"updated": "20221017142600"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "lsnrctl status",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "echo $ORACLE_SID",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "export ORACLE_SID=orcl",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "然后再执行启动命令：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "sqlplus / as sysdba",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "SQL\u003e startup",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142601-lk4n47f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142601-lk4n47f",
+				"updated": "20221017142601"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "更简单的启动方法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142602-331wlnz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142602-331wlnz",
+				"updated": "20221017142602"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "dbstart $ORACLE_HOME_LISTNER\ndbshut $ORACLE_HOME_LISTNER\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142603-1tjp719",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142603-1tjp719",
+				"updated": "20221017142603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "http://lizhe.name/node/111",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142604-n3ibcmf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142604-n3ibcmf",
+				"updated": "20221017142604"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "oracle12c EM的配置和使用",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142605-cbeprqz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142605-cbeprqz",
+				"updated": "20221017142605"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://blog.csdn.net/rarlyf/article/details/21542321",
+					"TextMarkTextContent": "https://blog.csdn.net/rarlyf/article/details/21542321"
+				}
+			]
+		},
+		{
+			"ID": "20221017142606-isau9i5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142606-isau9i5",
+				"updated": "20221017142606"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "安装样例数据库",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142607-ubc5w95",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142607-ubc5w95",
+				"updated": "20221017142607"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://docs.oracle.com/database/121/COMSC/installation.htm#COMSC001",
+					"TextMarkTextContent": "https://docs.oracle.com/database/121/COMSC/installation.htm#COMSC001"
+				}
+			]
+		},
+		{
+			"ID": "20221017142608-9ydatvj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142608-9ydatvj",
+				"updated": "20221017142608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.oracle.com/technetwork/database/enterprise-edition/downloads/index-092322.html",
+					"TextMarkTextContent": "https://www.oracle.com/technetwork/database/enterprise-edition/downloads/index-092322.html"
+				}
+			]
+		},
+		{
+			"ID": "20221017142609-7bx4byw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142609-7bx4byw",
+				"updated": "20221017142609"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者官方 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/oracle/db-sample-schemas/releases/tag/v12.1.0.2",
+					"TextMarkTextContent": "https://github.com/oracle/db-sample-schemas/releases/tag/v12.1.0.2"
+				}
+			]
+		},
+		{
+			"ID": "20221017142610-mny57nh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142610-mny57nh",
+				"updated": "20221017142610"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "sys账户登录",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142611-us4h1oc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142611-us4h1oc",
+				"updated": "20221017142611"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sqlplus sys/123456 as sysdba\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142612-f6owedl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017142612-f6owedl",
+				"updated": "20221017142612"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "安装步骤",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142613-sjhg6dd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142613-sjhg6dd",
+				"updated": "20221017142613"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "wget https://github.com/oracle/db-sample-schemas/archive/v12.1.0.2.zip\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142614-8h7sxb2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142614-8h7sxb2",
+				"updated": "20221017142614"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sqlplus system/123456\nsqlplus system/123456@localhost:1521/orcl\nsqlplus system/123456@39.104.66.135:1521/orcl\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142615-kywdnvl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142615-kywdnvl",
+				"updated": "20221017142615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "http://www.ituring.com.cn/book/1329",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142616-xtonvmf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017142616-xtonvmf",
+				"updated": "20221017142616"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Oracle 12c特殊处理",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142617-cfvd69u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142617-cfvd69u",
+				"updated": "20221017142617"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "alter session set \"_ORACLE_SCRIPT\"=true;  \n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142618-32xb8mz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142618-32xb8mz",
+				"updated": "20221017142618"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://stackoverflow.com/questions/33330968/error-ora-65096-invalid-common-user-or-role-name-in-oracle",
+					"TextMarkTextContent": "https://stackoverflow.com/questions/33330968/error-ora-65096-invalid-common-user-or-role-name-in-oracle"
+				}
+			]
+		},
+		{
+			"ID": "20221017142619-end6rgm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142619-end6rgm",
+				"updated": "20221017142619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142620-bhqrlja",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142620-bhqrlja",
+				"updated": "20221017142620"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "CREATE USER hr IDENTIFIED BY 123456;\nCREATE USER oe IDENTIFIED BY 123456;\nCREATE USER pm IDENTIFIED BY 123456;\nCREATE USER ix IDENTIFIED BY 123456;\nCREATE USER sh IDENTIFIED BY 123456;\nCREATE USER bi IDENTIFIED BY 123456;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142621-zh9cay1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142621-zh9cay1",
+				"updated": "20221017142621"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@mksample 123456 123456 123456 123456 123456 123456 123456 123456 users temp /orcl/app/oracle/product/12.1.0/db_1/rdbms/log/ localhost:1521/orcl\n@mksample 123456 123456 123456 123456 123456 123456 123456 123456 users temp /orcl/app/oracle/product/12.1.0/db_1/rdbms/log/ 39.104.66.135:1521/orcl\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142622-dt06hvx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142622-dt06hvx",
+				"updated": "20221017143848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "完整命令"
+				}
+			]
+		},
+		{
+			"ID": "20221017142623-xs9dwdm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142623-xs9dwdm",
+				"updated": "20221017142623"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sqlplus system/123456@localhost:1521/orcl\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142624-8t1v03q",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142624-8t1v03q",
+				"updated": "20221017142624"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "alter session set \"_ORACLE_SCRIPT\"=true;  \nCREATE USER hr IDENTIFIED BY 123456;\nCREATE USER oe IDENTIFIED BY 123456;\nCREATE USER pm IDENTIFIED BY 123456;\nCREATE USER ix IDENTIFIED BY 123456;\nCREATE USER sh IDENTIFIED BY 123456;\nCREATE USER bi IDENTIFIED BY 123456;\n@mksample 123456 123456 123456 123456 123456 123456 123456 123456 users temp /orcl/app/oracle/product/12.1.0/db_1/rdbms/log/ localhost:1521/orcl\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142625-vulgjns",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142625-vulgjns",
+				"updated": "20221017142625"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "无监听解决",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142626-5x0pg7a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142626-5x0pg7a",
+				"updated": "20221017142626"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# listener.ora Network Configuration File: /orcl/app/oracle/product/12.1.0/db_1/network/admin/listener.ora\n# Generated by Oracle configuration tools.\n\nSID_LIST_LISTENER =\n  (SID_LIST =\n    (SID_DESC =\n      (SID_NAME = PLSExtProc)\n      (ORACLE_HOME = /orcl/app/oracle/product/12.1.0/db_1)\n      (PROGRAM = extproc)\n    )\n    (SID_DESC =\n      (GLOBAL_DBNAME = ORCL)\n      (ORACLE_HOME = /orcl/app/oracle/product/12.1.0/db_1)\n      (SID_NAME = ORCL)\n    )\n  )\n\nLISTENER =\n  (DESCRIPTION_LIST =\n    (DESCRIPTION =\n      (ADDRESS = (PROTOCOL = TCP)(HOST = terwergreen)(PORT = 1521))\n      (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521))\n    )\n  )\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142627-p8j7kt0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017142627-p8j7kt0",
+				"updated": "20221017142627"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "环境变量设置",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142628-167lsvo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221017142628-167lsvo",
+				"updated": "20221017142628"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# oracle\nexport ORACLE_HOME=/orcl/app/oracle/product/12.1.0/db_1\nexport PATH=$ORACLE_HOME/bin:$PATH\nexport ORACLE_SID=orcl\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017142929-3npqr8k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017142929-3npqr8k"
+			}
+		}
+	]
+}

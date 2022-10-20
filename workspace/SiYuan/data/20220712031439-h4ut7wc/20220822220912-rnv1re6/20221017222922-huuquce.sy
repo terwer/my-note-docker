@@ -1,0 +1,1354 @@
+{
+	"ID": "20221017222922-huuquce",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16801265",
+		"custom-desc": "包装类（wrapperclass）。针对原生数据类型的包装。包装类（个）都位于javalang​包下。java中的个包装类分别是_byteshortintegerlongfloatdoublecharacterboolean。他们的使用方式都是一样的可以实现原生数据类型和包装类额双向转换。数组（array）_相同类型数据的集合叫做数组。如何定义数组_type[]变量名=newtype[数组中元素的个数]_按照下列方式定义长度为的数组_int[]a=newint[]_或者inta[]=newint[]_数组",
+		"custom-slug": "packaging-class-and-array-2l6rfo",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/017.包装类与数组.md",
+		"custom-wordpress-post-id": "4311",
+		"custom-yuque-post-id": "97068181_terwer/note",
+		"id": "20221017222922-huuquce",
+		"tags": "数组,包装,二维,使用,定义,类,class,array",
+		"title": "017.包装类与数组",
+		"updated": "20221018222612"
+	},
+	"Children": [
+		{
+			"ID": "20221017222922-aep9cwc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221017222922-aep9cwc",
+				"updated": "20221017224320"
+			},
+			"Children": [
+				{
+					"ID": "20221017222928-tbpjfzi",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017222928-tbpjfzi",
+						"updated": "20221017224320"
+					},
+					"Children": [
+						{
+							"ID": "20221017222928-wgf2xzb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017222928-wgf2xzb",
+								"updated": "20221017222944"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "包装类（Wrapper Class）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221017223036-wqbwhls",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017223036-wqbwhls",
+								"updated": "20221017224216"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "针对原生数据类型的包装。 包装类（8 个）都位于 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "java.lang"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 包下。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221017224203-8pk4y8c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017224203-8pk4y8c",
+								"updated": "20221017224320"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "java 中的 8 个包装类分别是：Byte，Short，Integer，Long，Float，Double，Character，Boolean。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221017224221-kr8bbu0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017224221-kr8bbu0",
+								"updated": "20221017224247"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "他们的使用方式都是一样的，可以实现原生数据类型和包装类额双向转换。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017223101-eifmycn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 2,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "Mg==",
+				"Num": 2
+			},
+			"Properties": {
+				"id": "20221017223101-eifmycn",
+				"updated": "20221017231744"
+			},
+			"Children": [
+				{
+					"ID": "20221017224604-jyy7y6k",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017224604-jyy7y6k",
+						"updated": "20221017224604"
+					},
+					"Children": [
+						{
+							"ID": "20221017224604-2q6m81n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017224604-2q6m81n",
+								"updated": "20221017224653"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组（Array）：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "strong text",
+									"TextMarkTextContent": "相同类型"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 数据的集合叫做数组。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017224658-o4kt3u5",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221017224658-o4kt3u5",
+						"updated": "20221017231744"
+					},
+					"Children": [
+						{
+							"ID": "20221017224658-61gzzf1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017224658-61gzzf1",
+								"updated": "20221017224703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何定义数组：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221017224704-6t8g5mv",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221017224704-6t8g5mv",
+								"updated": "20221017231744"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "type[] 变量名 = new type[数组中元素的个数 ]; \n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221017231609-gw1eknz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017231609-gw1eknz",
+								"updated": "20221017231636"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "按照下列方式定义长度为 10 的数组：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221017231636-zjt34mc",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221017231636-zjt34mc",
+								"updated": "20221017231717"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "int[] a = new int[10]; // 或者\nint a[] = new int[10];\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017231257-gzg9lx4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 4,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "NA==",
+				"Num": 4
+			},
+			"Properties": {
+				"id": "20221017231257-gzg9lx4",
+				"updated": "20221017232509"
+			},
+			"Children": [
+				{
+					"ID": "20221017231259-dzhrce0",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221017231259-dzhrce0",
+						"updated": "20221017231259"
+					},
+					"Children": [
+						{
+							"ID": "20221017231259-l2wjjsk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017231259-l2wjjsk",
+								"updated": "20221017231343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组中的元素索引是从 0 开始的。对于数组来说，最大的索引 == 数组的长度 - 1 。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017231343-21b2kxk",
+					"Type": "NodeListItem",
+					"Data": "5",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NQ==",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221017231343-21b2kxk",
+						"updated": "20221017232509"
+					},
+					"Children": [
+						{
+							"ID": "20221017231343-wkhqbcr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017231343-wkhqbcr",
+								"updated": "20221017232445"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "定义数组的第三种方式：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221017232402-4wezkpt",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221017232402-4wezkpt",
+								"updated": "20221017232509"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "type[] 变量名 = new type[]{逗号分隔的初始化值列表}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017232517-m5i061d",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 6,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "Ng==",
+				"Num": 6
+			},
+			"Properties": {
+				"id": "20221017232517-m5i061d",
+				"updated": "20221017233224"
+			},
+			"Children": [
+				{
+					"ID": "20221017232939-hrhhtnp",
+					"Type": "NodeListItem",
+					"Data": "6",
+					"ListData": {
+						"Typ": 1,
+						"Start": 6,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Ng==",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221017232939-hrhhtnp",
+						"updated": "20221017233224"
+					},
+					"Children": [
+						{
+							"ID": "20221017232939-iavrp5r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017232939-iavrp5r",
+								"updated": "20221017233010"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java 中的每个数组都有一个 length 属性，他表示数组的长度。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221017233146-ulcntfu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017233146-ulcntfu",
+								"updated": "20221017233224"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "length 属性是 public，final，int 的。数组长度一旦确定，就不能改变大小。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017235119-8ouxm31",
+			"Type": "NodeIFrame",
+			"Data": "\u003ciframe width=\"800\" height=\"500\" frameborder=\"0\" src=\"https://pythontutor.com/iframe-embed.html#code=public%20class%20YourClassNameHere%20%7B%0A%20%20%20%20public%20static%20void%20main%28String%5B%5D%20args%29%20%7B%0A%20%20%20%20%20%20%20%20int%5B%5D%20a%20%3D%20new%20int%5B4%5D%3B%0A%20%20%20%20%20%20%20%20System.out.println%28a%5B0%5D%29%3B%0A%20%20%20%20%7D%0A%7D\u0026amp;codeDivHeight=400\u0026amp;codeDivWidth=350\u0026amp;cumulative=false\u0026amp;curInstr=4\u0026amp;heapPrimitives=nevernest\u0026amp;origin=opt-frontend.js\u0026amp;py=java\u0026amp;rawInputLstJSON=%5B%5D\u0026amp;textReferences=false\" data-src=\"https://pythontutor.com/iframe-embed.html#code=public%20class%20YourClassNameHere%20%7B%0A%20%20%20%20public%20static%20void%20main%28String%5B%5D%20args%29%20%7B%0A%20%20%20%20%20%20%20%20int%5B%5D%20a%20%3D%20new%20int%5B4%5D%3B%0A%20%20%20%20%20%20%20%20System.out.println%28a%5B0%5D%29%3B%0A%20%20%20%20%7D%0A%7D\u0026amp;codeDivHeight=400\u0026amp;codeDivWidth=350\u0026amp;cumulative=false\u0026amp;curInstr=4\u0026amp;heapPrimitives=nevernest\u0026amp;origin=opt-frontend.js\u0026amp;py=java\u0026amp;rawInputLstJSON=%5B%5D\u0026amp;textReferences=false\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221017235119-8ouxm31",
+				"style": "text-align: left;",
+				"updated": "20221017235257"
+			}
+		},
+		{
+			"ID": "20221018000526-2lpjg0c",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 7,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "Nw==",
+				"Num": 7
+			},
+			"Properties": {
+				"id": "20221018000526-2lpjg0c",
+				"updated": "20221018000700"
+			},
+			"Children": [
+				{
+					"ID": "20221018000529-wgtc3x0",
+					"Type": "NodeListItem",
+					"Data": "7",
+					"ListData": {
+						"Typ": 1,
+						"Start": 7,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Nw==",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221018000529-wgtc3x0",
+						"updated": "20221018000700"
+					},
+					"Children": [
+						{
+							"ID": "20221018000529-qwkhpdi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018000529-qwkhpdi",
+								"updated": "20221018000619"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "两个数组的比较不能使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "=="
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ，也不能使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "equals"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ，要使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Arrays.equals"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221018000622-ltrh6ou",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221018000622-ltrh6ou",
+								"updated": "20221018000700"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "int[] a = {1, 2, 3};\nint[] b = {1, 2, 3};\nSystem.out.println(a==b);\nSystem.out.println(a.equals(b));\nSystem.out.println(Arrays.equals(a, b));\n\n// false\n// false\n// true\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018001021-9j39qlf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018001021-9j39qlf",
+				"updated": "20221018001604"
+			},
+			"Children": [
+				{
+					"ID": "20221018001025-uer0l4e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20221018001025-uer0l4e",
+						"updated": "20221018001604"
+					},
+					"Children": [
+						{
+							"ID": "20221018001025-kd0fd68",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018001025-kd0fd68",
+								"updated": "20221018001201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "int a[] = new int[10]"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ，其中 a 是一个引用。它指向了上次的数组对象的首地址，数组中每个元素都是 int 类型，其中仅放数据值本身。"
+								}
+							]
+						},
+						{
+							"ID": "20221018001601-24dww47",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018001601-24dww47",
+								"updated": "20221018001604"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221018001418.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018005926-5bfjrdu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018005926-5bfjrdu",
+				"updated": "20221018005745"
+			},
+			"Children": [
+				{
+					"ID": "20221018005929-boh1vtj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20221018005929-boh1vtj",
+						"updated": "20221018005745"
+					},
+					"Children": [
+						{
+							"ID": "20221018005929-ckqz02x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018005929-ckqz02x",
+								"updated": "20221018005936"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下列代码的内存布局"
+								}
+							]
+						},
+						{
+							"ID": "20221018005910-oa4sfy9",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221018005910-oa4sfy9",
+								"updated": "20221018005920"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "Person[] p = new Person[3];\n\np[0] = new Person(10);\np[1] = new Person(20);\np[2] = new Person(30);\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20221018005740-04g92bq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018005740-04g92bq",
+								"updated": "20221018005745"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221018005721.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018005749-x2xe4yx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018005749-x2xe4yx",
+				"updated": "20221018013649"
+			},
+			"Children": [
+				{
+					"ID": "20221018010013-zim8z4x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20221018010013-zim8z4x",
+						"updated": "20221018010013"
+					},
+					"Children": [
+						{
+							"ID": "20221018010013-n8c1djj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018010013-n8c1djj",
+								"updated": "20221018010729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "二维数组。二维数组是一种平面的二维结构，本质上是数组的数组。"
+								}
+							]
+						},
+						{
+							"ID": "20221018011512-2k7o73b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018011512-2k7o73b",
+								"updated": "20221018011526"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "例如下列数组，实际的存储"
+								}
+							]
+						},
+						{
+							"ID": "20221018011527-zyjqfhi",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221018011527-zyjqfhi",
+								"updated": "20221018011609"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "int[][] i = new int[2][3];\n\nSystem.out.println(i instanceof Object);\nSystem.out.println(i[0] instanceof Object);\nSystem.out.println(i[0] instanceof int[]);\n\n// true\n// true\n// true\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20221018011534-h8vwjea",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018011534-h8vwjea",
+								"updated": "20221018011535"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221018011456.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221018010730-jsyl0ue",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20221018010730-jsyl0ue",
+						"updated": "20221018013649"
+					},
+					"Children": [
+						{
+							"ID": "20221018010730-jl7kj3u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018010730-jl7kj3u",
+								"updated": "20221018013553"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "二维数组中初始化为偶数"
+								}
+							]
+						},
+						{
+							"ID": "20221018013554-w3bb3fk",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221018013554-w3bb3fk",
+								"updated": "20221018013556"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "int idx = 0;\nfor (int k = 0; k \u003c 2; k++) {\n    for (int j = 0; j \u003c 3; j++) {\n        i[k][j] = 2 * (idx + 1);\n        idx++;\n    }\n}\n\nfor (int[] ints : i) {\n    for (int anInt : ints) {\n        System.out.println(anInt);\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20221018013614-zu42af0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018013614-zu42af0",
+								"updated": "20221018013617"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如图："
+								}
+							]
+						},
+						{
+							"ID": "20221018013617-xuzwgqr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018013617-xuzwgqr",
+								"updated": "20221018013649"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221018013632.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018013609-p04smty",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018013609-p04smty",
+				"updated": "20221018020112"
+			},
+			"Children": [
+				{
+					"ID": "20221018014506-d28n7gl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20221018014506-d28n7gl",
+						"updated": "20221018020112"
+					},
+					"Children": [
+						{
+							"ID": "20221018014506-x5su3fl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018014506-x5su3fl",
+								"updated": "20221018014522"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "二维数组的定义和初始化"
+								}
+							]
+						},
+						{
+							"ID": "20221018014522-nhb94oz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221018014522-nhb94oz",
+								"updated": "20221018020112"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "/*\nint[][] a = new int[3][];\na[0] = new int[2];\na[1] = new int[3];\na[2] = new int[1];\n*/\n\n// int[][] a = new int[][3];\n\nint[][] a = new int[][]{{1, 2, 3}, {4, 5}};\n\nfor (int[] ints : a) {\n    for (int anInt : ints) {\n        System.out.print(anInt + \" \");\n    }\n    System.out.println();\n}\n\n// 1 2 3 \n// 4 5 \n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018222612-ahiesgq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018222612-ahiesgq"
+			},
+			"Children": [
+				{
+					"ID": "20221018020709-taxe5b3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20221018020709-taxe5b3",
+						"updated": "20221018020710"
+					},
+					"Children": [
+						{
+							"ID": "20221018020709-naj2ttj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018020709-naj2ttj",
+								"updated": "20221018020710"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Arrays"
+								}
+							]
+						},
+						{
+							"ID": "20221018213219-gfv891u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018213219-gfv891u",
+								"updated": "20221018213238"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Arrays.equals"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221018213241-g1yfuzc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20221018213241-g1yfuzc"
+					},
+					"Children": [
+						{
+							"ID": "20221018213241-p8qr3mv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018213241-p8qr3mv",
+								"updated": "20221018213302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "System.arrayCopy"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221018213302-z84ufpg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20221018213302-z84ufpg"
+					},
+					"Children": [
+						{
+							"ID": "20221018213302-p4evh67",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018213302-p4evh67",
+								"updated": "20221018213516"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三维数组。type[][][] a = new type[2][3][4]"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

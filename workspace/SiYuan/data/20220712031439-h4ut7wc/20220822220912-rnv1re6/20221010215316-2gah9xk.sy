@@ -3,10 +3,12 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16798377",
 		"custom-desc": "注意_方法的返回值对重载没有任何影响。类是一种抽象的概念对象是类的一种具体表示形式是具体的概念。先有类然后由类来生成对象（object）。对象又叫做实例（instance）。类由两大部分构成_属性以及方法。属性一般用名词来表示方法一般用动词来表示。如果一个java源文件中定义了多个类那么这些类中最多只能有一个类是public的换句话说定义的多个类可以都不是public的。在java中进行方法的参数传递时无论传递的是原生数据类型还是引用类型参数传递方式统一是传值（passbyvalue）。java中没有传引",
 		"custom-slug": "java-object-oriented-advanced",
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/012.Java_SE_Lesson_1_面向对象高级.md",
 		"custom-wordpress-post-id": "4302",
+		"custom-yuque-post-id": "96955369_terwer/note",
 		"id": "20221010215316-2gah9xk",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221010215316-riumixu\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221010220335-an1otiw\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221010220223-smt8j6m\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "方法,子类,构造方法,对象,参数,面向对象,高级,senior",

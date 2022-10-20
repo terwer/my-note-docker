@@ -12,8 +12,8 @@
 		"custom-yuque-post-id": "91242339",
 		"id": "20220830213706-snhydbw",
 		"tags": "字体,浏览器,web,font,web-font,font-family,font-face",
-		"title": "020.Web字体简介_TTF_OTF_WOFF_EOT以及SVG",
-		"updated": "20220830224916"
+		"title": "020.Web字体（Webfont）简介_TTF_OTF_WOFF_EOT以及SVG",
+		"updated": "20220830213938"
 	},
 	"Children": [
 		{
@@ -350,18 +350,12 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "字体转换网址：",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "字体转换网址："
 				},
 				{
 					"Type": "NodeTextMark",
-					"Properties": {
-						"id": ""
-					},
 					"TextMarkType": "a",
-					"TextMarkAHref": "https://link.segmentfault.com/?enc=vRAqytXjalzR8W9mie2Xjw%3D%3D.zStI%2BED01SXJMzaYar4OXaRcBHrSs7qn5zsdaVF%2BGzwiQFTEwd9x4WQ3eM30vofY",
+					"TextMarkAHref": "https://onlinefontconverter.com/",
 					"TextMarkTextContent": "https://onlinefontconverter.com/"
 				}
 			]

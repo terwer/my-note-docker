@@ -3,10 +3,12 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16798319",
 		"custom-desc": "条件运算符（三元表达式）其形式为_typed=a?b_c_​具体化形式为_intd=轻量级的文本编辑器_ultraediteditplusvivimgvim流程控制语句if的用法为_第一种形式_if(布尔表达式){待执行的代码}第二种形式_if(布尔表达式){待执行的代码}else{待执行的代码}第三种形式_javaif(布尔表达式){待执行的代码}elseif(布尔表达式){待执行的代码}elseif(布尔表达式){待执行的代码}else{待执行的代码}switch语句使用形式为_javaswitch(",
 		"custom-slug": "java-flow-control-statement",
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/006.Java_SE_第六讲_流程控制语句.md",
 		"custom-wordpress-post-id": "4296",
+		"custom-yuque-post-id": "96953861_terwer/note",
 		"id": "20221010203356-4yywu1w",
 		"tags": "执行,代码,表达式,形式,布尔,flow,control,statement",
 		"title": "006.Java_SE_第六讲：流程控制语句",

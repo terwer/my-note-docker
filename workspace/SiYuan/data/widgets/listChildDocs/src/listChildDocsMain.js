@@ -349,6 +349,11 @@ async function __main(initmode = false){
                 $(".childDocLinks").addClass("childDocLinks_dark");
             }
         }
+        //issue #13 挂件自动高度
+        if (setting.autoHeight && myPrinter.write2file == 0){
+            console.log("挂件高度应当设为",$("body").outerHeight());
+            window.frameElement.style.height = $("body").outerHeight() + 35 + "px";
+        }
         // __refreshAppearance();
     }catch(err){
         console.error(err);
@@ -541,13 +546,13 @@ document.getElementById("setting").onclick=function(){
 __init();
 
 try {
-    //用于监视深色模式变化
+    // TODO: 监视深色模式变化
     if (checkOs()){
         mutationObserver2.observe($(window.parent.document).find("#barThemeMode").get(0), {"attributes": true, "attributeFilter": ["aria-label"]});
     }
+    // window.top.addEventListener("change", ()=>{console.log("changed")});
     
 }catch(err){
     console.error(err);
-    printError(err.message,false);
     console.warn("监视外观切换事件失败");
 }

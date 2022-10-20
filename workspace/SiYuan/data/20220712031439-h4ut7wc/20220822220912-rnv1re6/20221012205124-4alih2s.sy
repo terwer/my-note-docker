@@ -3,10 +3,12 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16798396",
 		"custom-desc": "相等性的比较（==）对于原生数据类型比较的是左右两边的值是否相等对于引用类型来说比较的是左右两边的引用是否指向同一个对象或者说左右两边的引用地址是否相同。javalangobject类javalang包在使用时无需显式导入编译时由编译器帮助我们导入。api（applicationprogramminginterface）应用编程接口。tostring当打印引用时实际上会打印引入所指对象的tostring()方法的返回值。因为每个类都直接或者间接的继承自object而object类中定义了tostring(",
 		"custom-slug": "java_se-object-class-detailed-explanation-1feegn",
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/015.Java_SE之Object类详解.md",
 		"custom-wordpress-post-id": "4305",
+		"custom-yuque-post-id": "96955986_terwer/note",
 		"id": "20221012205124-4alih2s",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221012205124-oro5jae\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221013014105-iou4ckq\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221012222146-a9bkca7\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:523,\u0026amp;quot;focusEnd\u0026amp;quot;:523}",
 		"tags": "引用,进制,比较,左右,两边,对象",

@@ -1,0 +1,20 @@
+{
+	"ID": "20221020015105-sfjvi2x",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221020015105-sfjvi2x",
+		"title": "009.XML",
+		"updated": "20221020015116"
+	},
+	"Children": [
+		{
+			"ID": "20221020015105-4zxxii5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020015105-4zxxii5",
+				"updated": "20221020015105"
+			}
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"ID": "20221019194400-h93cm7q",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221019194400-h93cm7q",
+		"title": "002.Struts2",
+		"updated": "20221019194405"
+	},
+	"Children": [
+		{
+			"ID": "20221019194400-he2hcvf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019194400-he2hcvf",
+				"updated": "20221019194400"
+			}
+		}
+	]
+}

@@ -3,151 +3,1886 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16798516",
+		"custom-desc": "字符串特性​string​​是常量其对象一旦创建就无法改变。当使用​​​拼接字符串时会生成新的string​​​对象而不是向原有的string​​​对象追加内容。查看字节码javapjavapccomterwergreenstrstringnewtestjava源代码publicclassstringnewtest{publicstaticvoidmain(string[]args){stringstr=newstring(}}字节码_➜javasetestgit_(master)✗javapcconst",
+		"custom-slug": "analysis-of-the-string-class-and-its-source-code-of-java_se-bf1cv",
+		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/016.Java_SE之String类及其源代码剖析.md",
+		"custom-wordpress-post-id": "4306",
+		"custom-yuque-post-id": "96960450_terwer/note",
 		"id": "20221015202652-946i86t",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221016222300-4l42u0w\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221017222140-pd59ihr\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1524,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221017222140-pd59ihr\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "对象,字符串,字节,特性,常量,string",
 		"title": "016.Java_SE之String类及其源代码剖析",
-		"updated": "20221016205157"
+		"updated": "20221017222140"
 	},
 	"Children": [
 		{
-			"ID": "20221015222324-pmbthe5",
-			"Type": "NodeParagraph",
+			"ID": "20221016222300-4l42u0w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221015222324-pmbthe5",
-				"updated": "20221015222554"
+				"id": "20221016222300-4l42u0w",
+				"updated": "20221016222306"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "解："
-				}
-			]
-		},
-		{
-			"ID": "20221015223633-fuiot1g",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221015223633-fuiot1g",
-				"updated": "20221016205157"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "(1) 记该函数为 "
-				},
-				{
-					"Type": "NodeTextMark",
-					"TextMarkType": "inline-math",
-					"TextMarkInlineMathContent": "T=a t^{2}+b t+c \\quad(a \\neq 0) \\quad(a 、 b 、 c \\text { 是常数 })"
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "，那么表中所有数据满足该函数。取其中三组值，有："
+					"Data": "字符串特性",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
-			"ID": "20221015222515-nkwhxg2",
-			"Type": "NodeParagraph",
+			"ID": "20221016210844-nk1iiac",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
 			"Properties": {
-				"id": "20221015222515-nkwhxg2",
-				"updated": "20221015223254"
+				"id": "20221016210844-nk1iiac",
+				"updated": "20221016221402"
 			},
 			"Children": [
 				{
-					"Type": "NodeTextMark",
-					"TextMarkType": "inline-math",
-					"TextMarkInlineMathContent": "\\begin{cases}   {37 = {\\rm{c}}}  \\cr    {37.6 = a + b + c}  \\cr    {38.1 = 4a + 2b + c}  \\cr \\end{cases}"
+					"ID": "20221016221243-v7qo4es",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221016221243-v7qo4es",
+						"updated": "20221016221243"
+					},
+					"Children": [
+						{
+							"ID": "20221016221243-3o7g9fj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016221243-3o7g9fj",
+								"updated": "20221016221411"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "String"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 是常量，其对象一旦创建就无法改变。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221016221304-p9p481l",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221016221304-p9p481l",
+						"updated": "20221016221402"
+					},
+					"Children": [
+						{
+							"ID": "20221016221304-c7nyxvj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016221304-c7nyxvj",
+								"updated": "20221016221402"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "+"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 拼接字符串时，会生成新的 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "String"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 对象，而不是向原有的 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "String"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 对象追加内容。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
 				}
 			]
 		},
 		{
-			"ID": "20221015223254-g0tp10p",
-			"Type": "NodeParagraph",
+			"ID": "20221016232509-hbazly7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221015223254-g0tp10p",
-				"updated": "20221015223527"
+				"id": "20221016232509-hbazly7",
+				"updated": "20221016232514"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "解得 "
-				}
-			]
-		},
-		{
-			"ID": "20221015223304-34efena",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221015223304-34efena",
-				"updated": "20221015223520"
-			},
-			"Children": [
-				{
-					"Type": "NodeTextMark",
-					"TextMarkType": "inline-math",
-					"TextMarkInlineMathContent": "\\begin{cases}   a =-0.05  \\cr    b=0.55  \\cr   c=37  \\cr \\end{cases}"
-				}
-			]
-		},
-		{
-			"ID": "20221015223521-q7ll0ad",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221015223521-q7ll0ad",
-				"updated": "20221015223556"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "所以，所求函数为："
-				}
-			]
-		},
-		{
-			"ID": "20221015223557-0fxfn4c",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221015223557-0fxfn4c",
-				"updated": "20221015223629"
-			},
-			"Children": [
-				{
-					"Type": "NodeTextMark",
-					"TextMarkType": "inline-math",
-					"TextMarkInlineMathContent": "T =  - 0.05{t^2} + 0.55t + 37"
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "\n"
+					"Data": "查看字节码",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
-			"ID": "20221015223638-m8qeyjh",
-			"Type": "NodeParagraph",
+			"ID": "20221016232514-fnueafs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20221015223638-m8qeyjh"
-			}
+				"id": "20221016232514-fnueafs",
+				"updated": "20221016232524"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "javap",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
 		},
 		{
-			"ID": "20221015223637-derhjl3",
+			"ID": "20221016232529-mo9zv81",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221016232529-mo9zv81",
+				"updated": "20221016232634"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "javap -c com.terwergreen.str.StringNewTest\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221016233353-cs8wurh",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221015223637-derhjl3",
-				"updated": "20221015223735"
+				"id": "20221016233353-cs8wurh",
+				"updated": "20221016233404"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "(2) -0.45+1.65+37=37.2"
+					"Data": "java 源代码",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
-			"ID": "20221015223631-t0ohx39",
+			"ID": "20221016233405-x5ahb1n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221016233405-x5ahb1n",
+				"updated": "20221016233419"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public class StringNewTest {\n    public static void main(String[] args) {\n        String str = new String(\"abc\");\n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221016233356-yjm7r0r",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221015223631-t0ohx39"
+				"id": "20221016233356-yjm7r0r",
+				"updated": "20221016233402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "字节码：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221016233343-f443mrs",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221016233343-f443mrs",
+				"updated": "20221016233347"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "➜  javase-test git:(master) ✗ javap -c -constants com.terwergreen.str.StringNewTest\nCompiled from \"StringNewTest.java\"\npublic class com.terwergreen.str.StringNewTest {\n  public com.terwergreen.str.StringNewTest();\n    Code:\n       0: aload_0\n       1: invokespecial #8                  // Method java/lang/Object.\"\u003cinit\u003e\":()V\n       4: return\n\n  public static void main(java.lang.String[]);\n    Code:\n       0: new           #16                 // class java/lang/String\n       3: ldc           #18                 // String abc\n       5: invokespecial #20                 // Method java/lang/String.\"\u003cinit\u003e\":(Ljava/lang/String;)V\n       8: return\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221016232519-vrofg9y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221016232519-vrofg9y",
+				"updated": "20221016232527"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "idea",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221016232528-iad073l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016232528-iad073l",
+				"updated": "20221016232606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选中 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".class"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 文件，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "View-\u0026gt;Show bytecode"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221016222231-fqdmg0v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221016222231-fqdmg0v",
+				"updated": "20221016222239"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "字符串池",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221016222239-1zi0gtr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016222239-1zi0gtr",
+				"updated": "20221016222250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "String Pool（字符串池）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221016222311-jmrfeiv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221016222311-jmrfeiv",
+				"updated": "20221016223553"
+			},
+			"Children": [
+				{
+					"ID": "20221016223236-c61s9id",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221016223236-c61s9id",
+						"updated": "20221016223553"
+					},
+					"Children": [
+						{
+							"ID": "20221016223236-8tzotbe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016223236-8tzotbe",
+								"updated": "20221016223236"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "String s = \u0026quot;aaa\u0026quot;;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​ 采用字面值的方式赋值",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221016223547-7ca400r",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20221016223547-7ca400r",
+								"updated": "20221016223553"
+							},
+							"Children": [
+								{
+									"ID": "20221016223553-ghqxncg",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221016223553-ghqxncg",
+										"updated": "20221016223553"
+									},
+									"Children": [
+										{
+											"ID": "20221016223553-c27fmab",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221016223553-c27fmab",
+												"updated": "20221016223553"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "查找 Spring Pool 中是否存在 \"aaa\" 这个对象，如果不存在，则在 Spring Pool 中创建一个 \"aaa\" 对象，然后将 Spring Pool 中的这个 \"aaa\" 对象的地址返回来，赋给变量 s ，这样 s 会指向 String Pool 中的这个 \"aaa\" 字符串对象。",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221016223558-4mzpt4r",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221016223558-4mzpt4r",
+										"updated": "20221016223558"
+									},
+									"Children": [
+										{
+											"ID": "20221016223558-35n2f95",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221016223558-35n2f95",
+												"updated": "20221016223558"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果存在，则不创建任何对象，直接将 Spring pool 中的这个 \"aaa\" 对象地址返回来，赋给 s 引用。",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221016223128-864nken",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221016223128-864nken",
+				"updated": "20221016230927"
+			},
+			"Children": [
+				{
+					"ID": "20221016223305-ytsfium",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221016223305-ytsfium",
+						"updated": "20221016230927"
+					},
+					"Children": [
+						{
+							"ID": "20221016223305-cksnal9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221016223305-cksnal9",
+								"updated": "20221016223526"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String s = new String(\"aaa\");"
+								}
+							]
+						},
+						{
+							"ID": "20221016223530-9hm3bdi",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20221016223530-9hm3bdi",
+								"updated": "20221016230927"
+							},
+							"Children": [
+								{
+									"ID": "20221016223538-g4af80i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221016223538-g4af80i",
+										"updated": "20221016223538"
+									},
+									"Children": [
+										{
+											"ID": "20221016223538-a90ttvt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221016223538-a90ttvt",
+												"updated": "20221016230441"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "首先在 String Pool 中查找有没有 \"aaa\" 这个字符串对象，如果有，则不在 String Pool 中再去创建 \"aaa\" 这个对象了，直接在堆中（heap）创建一个 \"aaa\" 字符串对象，然后将堆中的这个 \"aaa\" 字符串对象返回来，付给 s 引用，导致 s 指向了堆中创建的这个 \"aaa\" 字符串对象。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221016230744-miwocgo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221016230744-miwocgo",
+										"updated": "20221016230927"
+									},
+									"Children": [
+										{
+											"ID": "20221016230744-qfsy3vv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221016230744-qfsy3vv",
+												"updated": "20221016230927"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果没有，则首先在 String Pool 中创建一个 \"aaa\" 对象，然后再在堆中（heap）创建一个 \"aaa\" 对象，然后将堆中的这个 \"aaa\" 对象返回来，付给 s 引用，导致 s 指向了堆中所创建的这个 \"aaa\" 对象。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221016232501-yr5mx2n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221016232501-yr5mx2n",
+				"updated": "20221016235658"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "intern",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221016235659-i32sjg8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016235659-i32sjg8",
+				"updated": "20221017000026"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017000027-o5lrksz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017000027-o5lrksz",
+				"updated": "20221017000051"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-3.10",
+					"TextMarkTextContent": "https://docs.oracle.com/javase/specs/jls/se8/html/jls-3.html#jls-3.10"
+				}
+			]
+		},
+		{
+			"ID": "20221017000052-a7yqq5b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017000052-a7yqq5b",
+				"updated": "20221017002031"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://docs.oracle.com/javase/specs/jls/se17/html/jls-3.html#jls-StringLiteral",
+					"TextMarkTextContent": "https://docs.oracle.com/javase/specs/jls/se17/html/jls-3.html#jls-StringLiteral"
+				}
+			]
+		},
+		{
+			"ID": "20221017002031-2a9eyt9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017002031-2a9eyt9",
+				"updated": "20221017004229"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "参考",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017013526-wt3i15l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017013526-wt3i15l",
+				"updated": "20221017013538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "各个版本的 JDK 文档下载地址",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017004230-dlgsn7r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017004230-dlgsn7r",
+				"updated": "20221017013520"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Links to JDK documentation"
+				}
+			]
+		},
+		{
+			"ID": "20221017004230-09g0w6w",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||",
+				"id": "20221017004230-09g0w6w",
+				"updated": "20221017013615"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Java SE"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Download"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Web"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Other"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_19",
+									"TextMarkTextContent": "19"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " (current)"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.oracle.com/java/technologies/javase-jdk19-doc-downloads.html",
+									"TextMarkTextContent": "Downloads page"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/19/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/19/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_17",
+									"TextMarkTextContent": "18"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.oracle.com/java/technologies/javase-jdk18-doc-downloads.html",
+									"TextMarkTextContent": "Downloads page"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/18/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/18/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_17",
+									"TextMarkTextContent": "17"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ("
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Long-term_support",
+									"TextMarkTextContent": "LTS"
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html",
+									"TextMarkTextContent": "Downloads page"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/17/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/17/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_16",
+									"TextMarkTextContent": "16"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "no longer available"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/16/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/16/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_15",
+									"TextMarkTextContent": "15"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "no longer available"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/15/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/15/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_14",
+									"TextMarkTextContent": "14"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "no longer available"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/14/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/14/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_13",
+									"TextMarkTextContent": "13"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "no longer available"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/13/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/13/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_12",
+									"TextMarkTextContent": "12"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "no longer available"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/12/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/12/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_11",
+									"TextMarkTextContent": "11"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ("
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Long-term_support",
+									"TextMarkTextContent": "LTS"
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.oracle.com/java/technologies/javase-jdk11-doc-downloads.html",
+									"TextMarkTextContent": "Downloads page"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/en/java/javase/11/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "http://docs.oracle.com/javase/11/docs/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_10",
+									"TextMarkTextContent": "10"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "no longer available"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/10/docs/api/overview-summary.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/10/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_9",
+									"TextMarkTextContent": "9"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "no longer available"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/9/docs/api/overview-summary.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/9/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_8",
+									"TextMarkTextContent": "8"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ("
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Long-term_support",
+									"TextMarkTextContent": "LTS"
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html",
+									"TextMarkTextContent": "Downloads page"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/8/docs/api/index.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/8/",
+									"TextMarkTextContent": "Platform home"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/8/docs/",
+									"TextMarkTextContent": "Doc home"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_7",
+									"TextMarkTextContent": "7"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "no longer available"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/7/docs/api/overview-summary.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/7/docs/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history#Java_6",
+									"TextMarkTextContent": "6"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "no longer available"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/6/docs/api/overview-summary.html",
+									"TextMarkTextContent": "Javadoc"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.oracle.com/javase/6/docs/",
+									"TextMarkTextContent": "Doc home"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017004230-omc9ghr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017004230-omc9ghr",
+				"updated": "20221017004230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "By the way, a ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://en.wikipedia.org/wiki/Java_version_history",
+					"TextMarkTextContent": "history of Java SE versions"
+				},
+				{
+					"Type": "NodeText",
+					"Data": ".",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221017222131-l45yqpa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017222131-l45yqpa",
+				"updated": "20221017222135"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "历史版本"
+				}
+			]
+		},
+		{
+			"ID": "20221017222136-71kgyxr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017222136-71kgyxr",
+				"updated": "20221017222139"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://javadoc.allimant.org/",
+					"TextMarkTextContent": "https://javadoc.allimant.org/"
+				}
+			]
+		},
+		{
+			"ID": "20221017222140-pd59ihr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017222140-pd59ihr"
 			}
 		}
 	]

@@ -3,10 +3,12 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16798252",
 		"custom-desc": "java平台javase_javaplatformstandardeditionjavase是一个计算平台用于为桌面和服务器环境开发和部署可移植代码。javase以前称为javaplatformstandardedition(jse)。javame_javaplatformmicroeditionjavame是一个计算平台用于为嵌入式和移动设备（微控制器传感器网关移动电话个人数字助理电视机顶盒打印机）开发和部署可移植代码。javame以前称为javaplatformmicroedition或jme。截至年",
 		"custom-slug": "java-se-platform-and-jdk",
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/001.Java_SE之Java_SE平台与JDK.md",
 		"custom-wordpress-post-id": "4044",
+		"custom-yuque-post-id": "96950932_terwer/note",
 		"id": "20220905122012-0eu1hns",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220905122249-mmgjilp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220905122339-4kt2xrj\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220905122249-mevr58u\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "平台,版本,jdk,javase,java,kotlin",

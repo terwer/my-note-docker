@@ -1,0 +1,20 @@
+{
+	"ID": "20221019194324-r5auhrj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221019194324-r5auhrj",
+		"title": "007.Struts",
+		"updated": "20221020012925"
+	},
+	"Children": [
+		{
+			"ID": "20221019194324-itd0o41",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019194324-itd0o41",
+				"updated": "20221019194324"
+			}
+		}
+	]
+}
