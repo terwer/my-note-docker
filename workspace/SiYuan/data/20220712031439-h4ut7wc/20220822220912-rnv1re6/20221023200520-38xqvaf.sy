@@ -1,0 +1,20 @@
+{
+	"ID": "20221023200520-38xqvaf",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221023200520-38xqvaf",
+		"title": "023.LinkedList源代码深入剖析",
+		"updated": "20221023201252"
+	},
+	"Children": [
+		{
+			"ID": "20221023200520-tm5bp7v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221023200520-tm5bp7v",
+				"updated": "20221023200520"
+			}
+		}
+	]
+}

@@ -244,7 +244,6 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "action": "",
                         "blockId": "20221021222848-vlyagor",
@@ -253,10 +252,10 @@
                         "rootId": "20221021222848-vlyagor",
                         "scrollAttr": {
                           "endId": "20221022111642-2tetyig",
-                          "focusEnd": 11,
+                          "focusEnd": 74,
                           "focusId": "20221023194319-9mawhz0",
-                          "focusStart": 11,
-                          "scrollTop": 6555.5,
+                          "focusStart": 74,
+                          "scrollTop": 6560,
                           "startId": "20221022020116-acsbbvk"
                         }
                       },
@@ -264,6 +263,28 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "022.ArrayList深入分析"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20221023200520-38xqvaf",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221023200520-38xqvaf",
+                        "scrollAttr": {
+                          "endId": "20221023200520-tm5bp7v",
+                          "focusEnd": 0,
+                          "focusId": "20221023200520-tm5bp7v",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20221023200520-tm5bp7v"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "023.LinkedList源代码深入剖析"
                     }
                   ],
                   "height": "",
@@ -488,7 +509,7 @@
     "virtualRefDoc": true
   },
   "stat": {
-    "docCount": 393
+    "docCount": 394
   },
   "api": {
     "token": "gzgovkf5fcou52rk"

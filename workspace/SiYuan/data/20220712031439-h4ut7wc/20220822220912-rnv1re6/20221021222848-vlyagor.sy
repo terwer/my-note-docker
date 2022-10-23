@@ -1417,13 +1417,7 @@
 			"ID": "20221023132223-peyd18o",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1,
-				"Tight": true,
-				"Start": 4,
-				"Delimiter": 46,
-				"Padding": 3,
-				"Marker": "NA==",
-				"Num": 4
+				"Typ": 1
 			},
 			"Properties": {
 				"id": "20221023132223-peyd18o",
@@ -1433,14 +1427,10 @@
 				{
 					"ID": "20221023132228-rterg8v",
 					"Type": "NodeListItem",
-					"Data": "4",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 4,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "NA==",
+						"Marker": "NC4=",
 						"Num": 4
 					},
 					"Properties": {
@@ -1458,10 +1448,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "对于 ArrayList 元素的删除操作，需要将被删除元素的后续元素向前移动，代价较高。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "对于 ArrayList 元素的删除操作，需要将被删除元素的后续元素向前移动，代价较高。"
 								}
 							]
 						}
@@ -1470,14 +1457,10 @@
 				{
 					"ID": "20221023132842-kcuyqjz",
 					"Type": "NodeListItem",
-					"Data": "5",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 5,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "NQ==",
+						"Marker": "NS4=",
 						"Num": 5
 					},
 					"Properties": {
@@ -1495,10 +1478,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "集合当中只能防止对象的引用，无法放置原生数据类型，在 JDK1.5 以前，我们需要使用原生数据类型的包装类才能加入到集合当中。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "集合当中只能防止对象的引用，无法放置原生数据类型，在 JDK1.5 以前，我们需要使用原生数据类型的包装类才能加入到集合当中。"
 								}
 							]
 						}
@@ -1507,14 +1487,10 @@
 				{
 					"ID": "20221023194319-q89e1bv",
 					"Type": "NodeListItem",
-					"Data": "6",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 6,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "Ng==",
+						"Marker": "Ni4=",
 						"Num": 6
 					},
 					"Properties": {
@@ -1535,34 +1511,6 @@
 									"Data": "集合当中放置的都是  Object 类型， 因此取出来的也是 Object 类型，因此必须要使用强制类型转换将其转换为真正的类型（放置进去的类型）。"
 								}
 							]
-						}
-					]
-				},
-				{
-					"ID": "20221023194450-e7pnjsj",
-					"Type": "NodeListItem",
-					"Data": "7",
-					"ListData": {
-						"Typ": 1,
-						"Tight": true,
-						"Start": 7,
-						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "Nw==",
-						"Num": 7
-					},
-					"Properties": {
-						"id": "20221023194450-e7pnjsj",
-						"updated": "20221023194450"
-					},
-					"Children": [
-						{
-							"ID": "20221023194450-jot0lfp",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20221023194450-jot0lfp",
-								"updated": "20221023194450"
-							}
 						}
 					]
 				}
