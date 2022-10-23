@@ -1,0 +1,45 @@
+{
+	"ID": "20221021220227-exj92k3",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221021220227-exj92k3",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221021220227-bx7v6b8\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221021220255-3nldb96\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221021220227-bx7v6b8\u0026quot;,\u0026quot;focusStart\u0026quot;:7,\u0026quot;focusEnd\u0026quot;:68}",
+		"title": "030.JDK相关下载",
+		"updated": "20221021221634"
+	},
+	"Children": [
+		{
+			"ID": "20221021220227-bx7v6b8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021220227-bx7v6b8",
+				"updated": "20221021221634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "jdk1.6 链接: "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.baidu.com/s/1aMAlGWV1mJBVb4lIp0O7rg",
+					"TextMarkTextContent": "https://pan.baidu.com/s/1aMAlGWV1mJBVb4lIp0O7rg"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 提取码: dstc"
+				}
+			]
+		},
+		{
+			"ID": "20221021220255-3nldb96",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021220255-3nldb96",
+				"updated": "20221021220255"
+			}
+		}
+	]
+}

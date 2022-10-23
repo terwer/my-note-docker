@@ -3,12 +3,17 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16819167",
+		"custom-desc": "配置#https_helpaliyuncomdocument_detailhtml#https协议默认端口号为需要使用其他端口时您可以在此处自定义。serverport=#https_docsoraclecomenjavajavasedocsspecssecuritystandardnameshtml#keystoretypes#您需要使用实际的证书名称替换domain_namepfx。serversslkeystore=classpath_vpfx#填写pfxpasswordtxt文件内的密码。serv",
 		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;tags\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
 		"custom-slug": "spring-boot-config-https",
+		"custom-vuepress-slug": "docs/003.经验分享/070.SpringBoot中https的配置.md",
+		"custom-wordpress-post-id": "4337",
+		"custom-yuque-post-id": "97650332_terwer/note",
 		"id": "20220716221314-ksplob7",
-		"tags": "spring",
-		"title": "SpringBoot中https的配置",
-		"updated": "20220716221409"
+		"tags": "spring,https,spring-boot",
+		"title": "070.SpringBoot中https的配置",
+		"updated": "20221023185645"
 	},
 	"Children": [
 		{
@@ -20,6 +25,21 @@
 				"style": "text-align: left;",
 				"updated": "20220716232013"
 			}
+		},
+		{
+			"ID": "20221023185616-mbygm7y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221023185616-mbygm7y",
+				"updated": "20221023185620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置"
+				}
+			]
 		},
 		{
 			"ID": "20220716141314-8zfh5l6",
@@ -51,7 +71,7 @@
 		{
 			"ID": "20220716221332-oahhwga",
 			"Type": "NodeHeading",
-			"HeadingLevel": 1,
+			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20220716221332-oahhwga",
 				"updated": "20220716221336"

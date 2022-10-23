@@ -10,7 +10,7 @@
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220924223854-v2r6jgh\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220925005920-b9jrt14\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220925223832-kp1poeh\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:4,\u0026amp;quot;focusEnd\u0026amp;quot;:4}",
 		"tags": "测试,二级缓存",
 		"title": "430.MyBatis的二级缓存",
-		"updated": "20221012100812"
+		"updated": "20221020220147"
 	},
 	"Children": [
 		{
@@ -208,18 +208,8 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "### ",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
 					"Type": "NodeText",
-					"Data": "开启二级缓存",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "开启二级缓存"
 				}
 			]
 		},

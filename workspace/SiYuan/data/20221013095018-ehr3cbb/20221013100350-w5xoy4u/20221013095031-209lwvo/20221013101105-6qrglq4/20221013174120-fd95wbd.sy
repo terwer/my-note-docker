@@ -5,24 +5,42 @@
 	"Properties": {
 		"id": "20221013174120-fd95wbd",
 		"title": "002.变量与算术表达式",
-		"updated": "20221014125212"
+		"updated": "20221021133827"
 	},
 	"Children": [
 		{
-			"ID": "20221014125110-7jguk62",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/SuperDraw\" data-src=\"/widgets/SuperDraw\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1069px; height: 538px;\"\u003e\u003c/iframe\u003e",
+			"ID": "20221021133718-ckb91o3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
 			"Properties": {
-				"id": "20221014125110-7jguk62",
+				"id": "20221021133718-ckb91o3",
 				"style": "text-align: left;",
-				"updated": "20221014125110"
-			}
+				"updated": "20221021133827"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startuml\n\ntop to bottom direction\n\n!include https://unpkg.com/plantuml-style-c4@latest/core.puml\n\nskinparam linetype polyline\n\nclass node6 as \u0026quot;@vue/.../runtime-core.d.ts\u0026quot; {\n   nextTick: \n   onBeforeMount: \n}\nclass node0 as \u0026quot;constants/apiStatusConstants.ts\u0026quot; {\n   API_STATUS_CONSTANTS: \n}\nclass node17 as \u0026quot;constants/apiTypeConstants.ts\u0026quot; {\n   API_TYPE_CONSTANTS: \n}\nclass node16 as \u0026quot;constants/constants.ts\u0026quot; {\n   CONSTANTS: \n}\nclass node5 as \u0026quot;constants/postidKeyConstants.ts\u0026quot; {\n   POSTID_KEY_CONSTANTS: \n}\nclass node4 as \u0026quot;constants/siyuanPageConstants.ts\u0026quot; {\n   SIYUAN_PAGE_ATTR_KEY: \n}\nclass node1 as \u0026quot;copy-to-clipboard/index.d.ts\u0026quot;\nclass node8 as \u0026quot;element-plus/.../index.d.ts\u0026quot; {\n   ElMessage: \n}\nclass node15 as \u0026quot;element-plus/.../index.d.ts\u0026quot; {\n   ElMessageBox: \n}\nclass node7 as \u0026quot;lib/config.ts\u0026quot; {\n   getBooleanConf: \n   getJSONConf: \n}\nclass node14 as \u0026quot;lib/htmlUtil.ts\u0026quot; {\n   mdToHtml: \n   mdToPlainText: \n   parseHtml: \n   removeMdWidgetTag: \n   removeWidgetTag: \n}\nclass node10 as \u0026quot;lib/logUtil.ts\u0026quot;\nclass node19 as \u0026quot;lib/publishUtil.ts\u0026quot; {\n   getApiParams: \n}\nclass node11 as \u0026quot;lib/util.ts\u0026quot; {\n   covertStringToDate: \n   cutWords: \n   formatIsoToZhDate: \n   formatNumToZhDate: \n   getPublishStatus: \n   isEmptyString: \n   jiebaToHotWords: \n   obj2yaml: \n   pingyinSlugify: \n   yaml2Obj: \n   zhSlugify: \n}\nclass node20 as \u0026quot;main/VuepressMain.vue\u0026quot; {\n   API_STATUS_CONSTANTS: \n   API_TYPE_CONSTANTS: \n   CONSTANTS: \n   ElMessage: \n   ElMessageBox: \n   IVuepressCfg: \n   POSTID_KEY_CONSTANTS: \n   SIYUAN_PAGE_ATTR_KEY: \n   copy: \n   covertStringToDate: \n   cutWords: \n   deletePage: \n   formatIsoToZhDate: \n   formatNumToZhDate: \n   getApiParams: \n   getBooleanConf: \n   getJSONConf: \n   getPage: \n   getPageAttrs: \n   getPageId: \n   getPageMd: \n   getPageTreeNode: \n   getPublishStatus: \n   isEmptyString: \n   jiebaToHotWords: \n   logUtil: \n   mdToHtml: \n   mdToPlainText: \n   nextTick: \n   obj2yaml: \n   onBeforeMount: \n   parseHtml: \n   pingyinSlugify: \n   publishPage: \n   ref: \n   removeMdWidgetTag: \n   removeWidgetTag: \n   setPageAttrs: \n   shortHash: \n   useI18n: \n   watch: \n   yaml2Obj: \n   zhSlugify: \n}\nclass node9 as \u0026quot;shorthash2/.../index.d.ts\u0026quot;\nclass node2 as \u0026quot;siyuan/siyuanUtil.ts\u0026quot; {\n   getPage: \n   getPageAttrs: \n   getPageId: \n   getPageMd: \n   setPageAttrs: \n}\nclass node3 as \u0026quot;vue-i18n/.../vue-i18n.d.ts\u0026quot; {\n   useI18n: \n}\nclass node13 as \u0026quot;vue/.../vue.d.ts\u0026quot; {\n   ref: \n   watch: \n}\nclass node18 as \u0026quot;vuepress/IVuepressCfg.ts\u0026quot; {\n   IVuepressCfg: \n}\nclass node12 as \u0026quot;vuepress/v1.ts\u0026quot; {\n   deletePage: \n   getPageTreeNode: \n   publishPage: \n}\n\nnode20  \u0026lt;-[#595959,plain]-  node6  \nnode20  \u0026lt;-[#595959,plain]-  node6  \nnode20  \u0026lt;-[#595959,plain]-  node0  \nnode20  \u0026lt;-[#595959,plain]-  node17 \nnode20  \u0026lt;-[#595959,plain]-  node16 \nnode20  \u0026lt;-[#595959,plain]-  node5  \nnode20  \u0026lt;-[#595959,plain]-  node4  \nnode20  \u0026lt;-[#595959,plain]-  node1  \nnode20  \u0026lt;-[#595959,plain]-  node8  \nnode20  \u0026lt;-[#595959,plain]-  node15 \nnode20  \u0026lt;-[#595959,plain]-  node7  \nnode20  \u0026lt;-[#595959,plain]-  node7  \nnode20  \u0026lt;-[#595959,plain]-  node14 \nnode20  \u0026lt;-[#595959,plain]-  node14 \nnode20  \u0026lt;-[#595959,plain]-  node14 \nnode20  \u0026lt;-[#595959,plain]-  node14 \nnode20  \u0026lt;-[#595959,plain]-  node14 \nnode20  \u0026lt;-[#595959,plain]-  node10 \nnode20  \u0026lt;-[#595959,plain]-  node19 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node11 \nnode20  \u0026lt;-[#595959,plain]-  node9  \nnode20  \u0026lt;-[#595959,plain]-  node2  \nnode20  \u0026lt;-[#595959,plain]-  node2  \nnode20  \u0026lt;-[#595959,plain]-  node2  \nnode20  \u0026lt;-[#595959,plain]-  node2  \nnode20  \u0026lt;-[#595959,plain]-  node2  \nnode20  \u0026lt;-[#595959,plain]-  node3  \nnode20  \u0026lt;-[#595959,plain]-  node13 \nnode20  \u0026lt;-[#595959,plain]-  node13 \nnode20  \u0026lt;-[#595959,plain]-  node18 \nnode20  \u0026lt;-[#595959,plain]-  node12 \nnode20  \u0026lt;-[#595959,plain]-  node12 \nnode20  \u0026lt;-[#595959,plain]-  node12 \n\n@enduml"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
 		},
 		{
-			"ID": "20221014125212-msz2wgc",
+			"ID": "20221021133719-2fy3syk",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221014125212-msz2wgc"
+				"id": "20221021133719-2fy3syk"
 			}
 		}
 	]

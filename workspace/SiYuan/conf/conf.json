@@ -30,9 +30,9 @@
       "blue-dog",
       "OneNote"
     ],
-    "themeDark": "midnight",
-    "themeLight": "Rem Craft",
-    "themeVer": "2.2.2",
+    "themeDark": "Tsundoku Dark",
+    "themeLight": "Tsundoku Light",
+    "themeVer": "1.4.2",
     "icons": [
       "ant",
       "notion-icon",
@@ -90,7 +90,7 @@
   "editor": {
     "fontSize": 16,
     "fontFamily": "霞鹜文楷",
-    "codeSyntaxHighlightLineNum": true,
+    "codeSyntaxHighlightLineNum": false,
     "codeTabSpaces": 0,
     "codeLineWrap": false,
     "codeLigatures": false,
@@ -99,10 +99,10 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f375",
       "1f3d3",
       "1f42c",
       "1f6e1",
-      "1f375",
       "26f7",
       "1f415",
       "1fa82",
@@ -244,44 +244,26 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "",
-                        "blockId": "20220830213706-snhydbw",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20220830213706-snhydbw",
-                        "scrollAttr": {
-                          "endId": "20220830215059-bicpv8b",
-                          "scrollTop": 0,
-                          "startId": "20220830213706-23xkum6"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "020.Web字体（Webfont）简介_TTF_OTF_WOFF_EOT以及SVG"
-                    },
-                    {
                       "active": true,
                       "children": {
                         "action": "",
-                        "blockId": "20220831001254-qyfpfhz",
+                        "blockId": "20221021222848-vlyagor",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "rootId": "20220831001254-qyfpfhz",
+                        "rootId": "20221021222848-vlyagor",
                         "scrollAttr": {
-                          "endId": "20220831233329-q1v45j1",
-                          "focusEnd": 4,
-                          "focusId": "20220831232542-eai2kbs",
-                          "focusStart": 4,
-                          "scrollTop": 0,
-                          "startId": "20220831232542-7b8qtuh"
+                          "endId": "20221022111642-2tetyig",
+                          "focusEnd": 11,
+                          "focusId": "20221023194319-9mawhz0",
+                          "focusStart": 11,
+                          "scrollTop": 6555.5,
+                          "startId": "20221022020116-acsbbvk"
                         }
                       },
                       "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "320.MyBatis的注解实现复杂映射开发"
+                      "title": "022.ArrayList深入分析"
                     }
                   ],
                   "height": "",
@@ -361,7 +343,7 @@
           "show": false,
           "size": {
             "height": 0,
-            "width": 240
+            "width": 279
           },
           "type": "outline"
         },
@@ -445,8 +427,6 @@
   "readonly": false,
   "localIPs": [
     "192.168.3.60",
-    "10.211.55.2",
-    "10.37.129.2",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
@@ -508,7 +488,7 @@
     "virtualRefDoc": true
   },
   "stat": {
-    "docCount": 378
+    "docCount": 393
   },
   "api": {
     "token": "gzgovkf5fcou52rk"

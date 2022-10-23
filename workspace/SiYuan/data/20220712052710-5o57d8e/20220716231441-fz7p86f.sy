@@ -3,10 +3,17 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16819025",
+		"custom-desc": "生成验证码验证码工具类@name_verificationcode@author_terwer@date__publicclassverificationcode{privatestaticfinalstring[]randomstr={随机生成验证码@returnpublicstaticmapgetverificationcode(){returngetverificationcodewithstr(null)_}利用给定的字符串生成验证码@paramstr指定的字符串@returnpublicstat",
+		"custom-slug": "java-generate-verification-code-picture-z1it1vl",
+		"custom-vuepress-slug": "docs/003.经验分享/069.Java生成验证码图片.md",
+		"custom-wordpress-post-id": "4334",
+		"custom-yuque-post-id": "97646384_terwer/note",
 		"id": "20220716231441-fz7p86f",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220718092237-pc0c67m\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220716231507-16e12u6\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220718092237-pc0c67m\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
-		"title": "Java生成验证码图片",
-		"updated": "20220718092322"
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220718092237-pc0c67m\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220716231507-16e12u6\u0026quot;,\u0026quot;scrollTop\u0026quot;:2752,\u0026quot;focusId\u0026quot;:\u0026quot;20220718092237-pc0c67m\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"tags": "验证码,生成,字符串,随机,内存,java,code",
+		"title": "069.Java生成验证码图片",
+		"updated": "20221023174912"
 	},
 	"Children": [
 		{

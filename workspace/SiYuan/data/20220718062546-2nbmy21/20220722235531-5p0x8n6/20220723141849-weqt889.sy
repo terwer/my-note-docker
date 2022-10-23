@@ -1,0 +1,105 @@
+{
+	"ID": "20220723141849-weqt889",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "自动导入https_githubcomantfuunpluginvuecomponentsyarnaddunpluginvuecomponentsd目前idea有bug参考https_youtrackjetbrainscomissueweb",
+		"custom-metaweblog-test1-post-id": "46",
+		"custom-slug": "automatically-import-i9hp2",
+		"custom-vuepress-slug": "test-slug2rrrr",
+		"id": "20220723141849-weqt889",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220723141849-junwdca\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220723141906-8ahvu6d\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220723141906-8ahvu6d\u0026quot;,\u0026quot;focusStart\u0026quot;:46,\u0026quot;focusEnd\u0026quot;:46}",
+		"tags": "自动,导入,目前,参考,h",
+		"title": "003.自动导入",
+		"updated": "20220723141927"
+	},
+	"Children": [
+		{
+			"ID": "20220723141849-junwdca",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220723141849-junwdca",
+				"updated": "20220723141951"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/antfu/unplugin-vue-components",
+					"TextMarkTextContent": "https://github.com/antfu/unplugin-vue-components"
+				}
+			]
+		},
+		{
+			"ID": "20220723141856-nhrhgq7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220723141856-nhrhgq7",
+				"updated": "20220723142017"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn add unplugin-vue-components -D\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220723141858-tshklyw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220723141858-tshklyw",
+				"updated": "20220723141903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前IDEA有bug"
+				}
+			]
+		},
+		{
+			"ID": "20220723141904-t9330dn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220723141904-t9330dn",
+				"updated": "20220723141905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20220723141906-8ahvu6d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220723141906-8ahvu6d",
+				"updated": "20220723141927"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://youtrack.jetbrains.com/issue/WEB-52214",
+					"TextMarkTextContent": "https://youtrack.jetbrains.com/issue/WEB-52214"
+				}
+			]
+		}
+	]
+}

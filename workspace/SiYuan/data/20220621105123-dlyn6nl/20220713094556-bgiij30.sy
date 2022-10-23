@@ -1,0 +1,21 @@
+{
+	"ID": "20220713094556-bgiij30",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220713094556-bgiij30",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220713014556-u3nnhyo\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220713014556-u3nnhyo\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220713014556-u3nnhyo\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "varchar2000在编码为utf8mb4会导致row size too large",
+		"updated": "20220713014626"
+	},
+	"Children": [
+		{
+			"ID": "20220713014556-u3nnhyo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220713014556-u3nnhyo",
+				"updated": "20220713014556"
+			}
+		}
+	]
+}

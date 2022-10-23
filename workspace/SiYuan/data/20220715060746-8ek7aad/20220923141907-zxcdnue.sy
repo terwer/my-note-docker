@@ -1,0 +1,107 @@
+{
+	"ID": "20220923141907-zxcdnue",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220923141907-zxcdnue",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220923143329-1yhaaog\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220923143435-8xs5bl1\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220923143329-0c794ie\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "知识复习",
+		"updated": "20220923143624"
+	},
+	"Children": [
+		{
+			"ID": "20220923143329-1yhaaog",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220923143329-1yhaaog",
+				"updated": "20220923143329"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "🚴 随机复习"
+				}
+			]
+		},
+		{
+			"ID": "20220923143329-dpdotrb",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220923143329-dpdotrb",
+				"updated": "20220923143511"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220923143329-1kbc5qr",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220923143329-1kbc5qr",
+						"updated": "20220923143511"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "距离 "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "code",
+							"TextMarkTextContent": "2022-12-31"
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 还剩 "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "code",
+							"TextMarkTextContent": "-265"
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 天，加油！"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220923143329-0c794ie",
+			"Type": "NodeBlockQueryEmbed",
+			"Properties": {
+				"id": "20220923143329-0c794ie",
+				"updated": "20220923143624"
+			},
+			"Children": [
+				{
+					"Type": "NodeOpenBrace"
+				},
+				{
+					"Type": "NodeOpenBrace"
+				},
+				{
+					"Type": "NodeBlockQueryEmbedScript",
+					"Data": "SELECT * FROM blocks where type = 'd' and root_id != '20220923141907-zxcdnue' and path not like '%daily%' ORDER BY random() LIMIT 1"
+				},
+				{
+					"Type": "NodeCloseBrace"
+				},
+				{
+					"Type": "NodeCloseBrace"
+				}
+			]
+		},
+		{
+			"ID": "20220923143435-8xs5bl1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220923143435-8xs5bl1"
+			}
+		}
+	]
+}

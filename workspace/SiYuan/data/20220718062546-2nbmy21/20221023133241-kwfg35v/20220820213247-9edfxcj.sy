@@ -1,0 +1,87 @@
+{
+	"ID": "20220820213247-9edfxcj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16818949",
+		"custom-desc": "@tsignoreimportdotenvfromdotenvimportpathfrompath_初始化测试环境变量exportconstinittestenv=()={const__dirname=pathdirname(importmetaurl)_constenvpath=pathrelative(processcwd()pathjoin(__dirnameenvdevelopmentlocal))replace()consolelog(envpath)dotenvconfig({path_env",
+		"custom-slug": "dotenv-load-variable-z2tw9iy",
+		"custom-vuepress-slug": "docs/002.前端开发/027.dotenv加载变量.md",
+		"custom-wordpress-post-id": "4332",
+		"custom-yuque-post-id": "97644635_terwer/note",
+		"id": "20220820213247-9edfxcj",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220820213249-cpv0ahx\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220820213421-63onbrm\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220820213249-cpv0ahx\u0026quot;,\u0026quot;focusStart\u0026quot;:47,\u0026quot;focusEnd\u0026quot;:47}",
+		"tags": "测试,初始化,环境变量,另外,文件,env,dotenv",
+		"title": "027.dotenv加载变量",
+		"updated": "20221023171911"
+	},
+	"Children": [
+		{
+			"ID": "20220820213249-cpv0ahx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220820213249-cpv0ahx"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// @ts-ignore\nimport dotenv from 'dotenv'\nimport path from 'path';\n\n/**\n * 初始化测试环境变量\n */\nexport const initTestEnv = () =\u003e {\n    const __dirname = path.dirname(import.meta.url);\n    const envPath = path.relative(process.cwd(), path.join(__dirname, '../.env.development.local')).replace(\"file:\\\\\", \"\")\n    // console.log(envPath)\n    dotenv.config({path: envPath});\n    // console.log(process.env.VITE_LIANDI_API_URL)\n    console.log(\"env loaded.\")\n}"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220820213409-pcijxnd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220820213409-pcijxnd",
+				"updated": "20220820213429"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另外 ts-node测试单文件的方法"
+				}
+			]
+		},
+		{
+			"ID": "20220820213421-63onbrm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220820213421-63onbrm",
+				"updated": "20220820213426"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "  \"test-script\": \"node --experimental-specifier-resolution=node --loader ts-node/esm test/test.ts\",\n  \"testEsm-script\": \"ts-node-esm --experimental-specifier-resolution=node test/test.ts\",\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

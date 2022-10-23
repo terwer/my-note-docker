@@ -3,10 +3,17 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16819229",
+		"custom-desc": "idea安装插件直接idea搜索plantuml即可mac安装brewinstallgraphvizps_收藏一个写的很好的homebrew脚本binzshcplantuml编解码https_githubcommarkushedvallplantumlencoder编码varplantumlencoder=require(plantumlencoder)varencoded=plantumlencoderencode(ab_hello)consolelog(encoded)srjgjldmibbmicto",
+		"custom-slug": "plantuml-with-graphviz-2d1rfp",
+		"custom-vuepress-slug": "docs/003.经验分享/073.plantuml配合graphviz.md",
+		"custom-wordpress-post-id": "4342",
+		"custom-yuque-post-id": "97652010_terwer/note",
 		"id": "20220830143328-2vdlpyk",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830143411-ozca7m6\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830144308-iyh43qv\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:320,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830150839-jk3oz0x\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:2,\u0026amp;quot;focusEnd\u0026amp;quot;:2}",
-		"title": "plantuml配合graphviz",
-		"updated": "20220830150855"
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220830143411-ozca7m6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220830144308-iyh43qv\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220830150839-jk3oz0x\u0026quot;,\u0026quot;focusStart\u0026quot;:2,\u0026quot;focusEnd\u0026quot;:2}",
+		"tags": "安装,插件,直接,搜索,graphviz",
+		"title": "073.plantuml配合graphviz",
+		"updated": "20221023192229"
 	},
 	"Children": [
 		{

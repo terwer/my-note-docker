@@ -1,0 +1,109 @@
+{
+	"ID": "20220730230259-gstwg7e",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "ts定义接口与实现类定义接口vuepress配置接口exportinterfaceivuepresscfg{github用户名githubuser_stringgithub仓库名称githubrepo_stringgithub个人token令牌githubtoken_string文章存储的默认目录（相对于仓库根目录的相对路径例如_docs_posts）defaultpath?_string默认提交信息defaultmsg?_string作者author_string邮箱email_string}定义类im",
+		"custom-metaweblog-test1-post-id": "42",
+		"custom-slug": "ts-definition-interface-and-implementation-class-11njjf",
+		"id": "20220730230259-gstwg7e",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220730233155-ymrp2tt\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220730233143-myy5wge\u0026quot;,\u0026quot;scrollTop\u0026quot;:1430,\u0026quot;focusId\u0026quot;:\u0026quot;20220730233155-ymrp2tt\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"tags": "定义,接口,配置,仓库,默认",
+		"title": "001.ts定义接口与实现类",
+		"updated": "20221023172216"
+	},
+	"Children": [
+		{
+			"ID": "20220730233155-ymrp2tt",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220730233155-ymrp2tt",
+				"style": "text-align: left;",
+				"updated": "20220730233155"
+			}
+		},
+		{
+			"ID": "20220730230259-8yn2pej",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730230259-8yn2pej",
+				"updated": "20220730233150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义接口"
+				}
+			]
+		},
+		{
+			"ID": "20220730233131-k9fi74i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730233131-k9fi74i",
+				"updated": "20220731111548"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * Vuepress配置接口\n */\nexport interface IVuepressCfg {\n    /**\n     * Github用户名\n     */\n    githubUser: string\n    /**\n     * Github仓库名称\n     */\n    githubRepo: string\n    /**\n     * Github个人Token令牌\n     */\n    githubToken: string\n    /**\n     * 文章存储的默认目录（相对于仓库根目录的相对路径，例如：docs/_posts/）\n     */\n    defaultPath?: string\n    /**\n     * 默认提交信息\n     */\n    defaultMsg?: string\n    /**\n     * 作者\n     */\n    author: string\n    /**\n     * 邮箱\n     */\n    email: string\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220730233136-cme3e57",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220730233136-cme3e57",
+				"updated": "20220730233142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义类"
+				}
+			]
+		},
+		{
+			"ID": "20220730233143-myy5wge",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220730233143-myy5wge",
+				"updated": "20220731111559"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import {IVuepressCfg} from \"./IVuepressCfg\";\n\n/**\n * Vuepress配置类\n */\nexport class VuepressCfg implements IVuepressCfg {\n    constructor(public githubUser: string,\n                public githubRepo: string,\n                public githubToken: string,\n                public defaultPath: string,\n                public defaultMsg: string,\n                public author: string,\n                public email: string) {\n        this.githubUser = githubUser;\n        this.githubRepo = githubRepo;\n        this.githubToken = githubToken;\n        this.defaultPath = defaultPath;\n        this.defaultMsg = defaultMsg;\n        this.author = author;\n        this.email = email\n    }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

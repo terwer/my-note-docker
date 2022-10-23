@@ -1,0 +1,42 @@
+{
+	"ID": "20220804140848-p290q55",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "nextjs的css神器clsxhttps_githubcomlukeedclsx",
+		"custom-metaweblog-test1-post-id": "54",
+		"custom-slug": "nextjs-s-css-artifact-clsx-z1u6uah",
+		"id": "20220804140848-p290q55",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220804140848-t4nyi5k\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220824000357-fc6ykq2\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220804140848-t4nyi5k\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"tags": "next,css",
+		"title": "001.Next.js的css神器clsx",
+		"updated": "20221023171756"
+	},
+	"Children": [
+		{
+			"ID": "20220804140848-t4nyi5k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804140848-t4nyi5k",
+				"updated": "20220804140942"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/lukeed/clsx",
+					"TextMarkTextContent": "https://github.com/lukeed/clsx"
+				}
+			]
+		},
+		{
+			"ID": "20220824000357-fc6ykq2",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220824000357-fc6ykq2",
+				"updated": "20220824000357"
+			}
+		}
+	]
+}

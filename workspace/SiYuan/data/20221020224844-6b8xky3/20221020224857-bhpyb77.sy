@@ -1,0 +1,191 @@
+{
+	"ID": "20221020224857-bhpyb77",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221020224857-bhpyb77",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221020224857-7cne1hx\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221020233308-v61m4b2\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221020224857-7cne1hx\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "001.XP",
+		"updated": "20221020233308"
+	},
+	"Children": [
+		{
+			"ID": "20221020224857-7cne1hx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020224857-7cne1hx",
+				"updated": "20221020224915"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "XP 绝版 Firefox",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221020224916-wrwyzvr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020224916-wrwyzvr",
+				"updated": "20221020224921"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://ftp.mozilla.org/pub/firefox/releases/52.9.0esr/win32/zh-CN/",
+					"TextMarkTextContent": "https://ftp.mozilla.org/pub/firefox/releases/52.9.0esr/win32/zh-CN/"
+				}
+			]
+		},
+		{
+			"ID": "20221020231447-x93z5gb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020231447-x93z5gb",
+				"updated": "20221020231447"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Visual Studio 6.0 Enterprise (English)",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221020231458-dz3833d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020231458-dz3833d",
+				"updated": "20221020231504"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://archive.org/details/en_vs6_ent",
+					"TextMarkTextContent": "https://archive.org/details/en_vs6_ent"
+				}
+			]
+		},
+		{
+			"ID": "20221020231504-hcbpspe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020231504-hcbpspe",
+				"updated": "20221020231535"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "MSDN Library October 2001",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221020231524-7iklcar",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020231524-7iklcar",
+				"updated": "20221020231538"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://archive.org/details/MSDN_Library_October_2001",
+					"TextMarkTextContent": "https://archive.org/details/MSDN_Library_October_2001"
+				}
+			]
+		},
+		{
+			"ID": "20221020231553-3sorg2o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020231553-3sorg2o",
+				"updated": "20221020233154"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "备用下载"
+				}
+			]
+		},
+		{
+			"ID": "20221020233155-ncrrsj9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020233155-ncrrsj9",
+				"updated": "20221020233308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链接: "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.baidu.com/s/13Id369vplCYcsyZTwmJTWw",
+					"TextMarkTextContent": "https://pan.baidu.com/s/13Id369vplCYcsyZTwmJTWw"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 提取码: kf5s"
+				}
+			]
+		},
+		{
+			"ID": "20221020233308-v61m4b2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020233308-v61m4b2"
+			}
+		}
+	]
+}

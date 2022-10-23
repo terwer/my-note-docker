@@ -7,11 +7,7 @@
 
 ## 主题特色介绍
 
-Windows 端效果
-
-<p><img src="https://user-images.githubusercontent.com/83791825/196888509-cdab80ee-e68d-4bd3-a46a-c1d4fbb7893a.png"/></p>
-
-[Android 端效果](https://user-images.githubusercontent.com/83791825/196648028-95580051-0f5a-493d-88c8-7ff3a200ce2a.jpg)
+<p><img src="https://user-images.githubusercontent.com/83791825/196950046-492cf9ee-14b3-4ba0-995d-2e2323acb9e4.png"/></p>
 
 ### 轻量化简洁风绛亽特色思源笔记主题
 
@@ -35,13 +31,28 @@ Sofill- 适合哪些人：12~34岁非色弱人群；青少年请在家长指导�
 
 ## 集市更新版本日志
 
-> v0.20 ▶ v0.22
+> v0.22 ▶ v0.24
 
 版本说明：
 
 * 包含【适配】标签的版本，建议更新思源至适配版本后再更新主题，否则可能存在适配问题；声明为【构建】标签的版本，**建议手动删除旧版本后再下载**（更新只会替换已有文件，不会删除不再引用的文件）
 * 集市更新版本推送前会专门适配 Android 端，暂无 Mac 端可供适配
 * [主题版本更新的详细信息](https://github.com/Hi-Windom/winsay/releases)  |  [关注后续版本开发动态](https://github.com/Hi-Windom/winsay/milestones)
+
+### 0.24 Release for 2210累计更新
+
+> 2022-10-20 released
+
+<p><img src="https://img.shields.io/badge/%E9%80%82%E9%85%8D-2.4.3-green"/></p>
+
+改进优化：
+
+1. [代码块样式调整 · Issue #69 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/69)
+2. [字体面板调整 · Issue #44 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/44)
+
+缺陷修复：
+
+1. [Mac 端左上角图标错位 · Issue #67 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/67)
 
 ### 0.22 Release for 2210累计更新
 
@@ -87,56 +98,6 @@ Sofill- 适合哪些人：12~34岁非色弱人群；青少年请在家长指导�
 文档相关：
 
 1. [主题预览图显示优化 · Issue #51 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/51)
-
-### 0.18 Release for 2210累计更新
-
-> 2022-10-19 released
-
-<p><img src="https://img.shields.io/badge/%E9%80%82%E9%85%8D-2.4.1-green"/>
-<img src="https://img.shields.io/badge/%E4%B8%8D%E5%85%BC%E5%AE%B9-2.4.2+-red"/>
-<img src="https://img.shields.io/badge/-%E6%9E%84%E5%BB%BA-yellow"/></p>
-
-#### 建议手动删除旧版本后再下载喔
-
-引入特性：
-
-1. [iframe右下角拖拽调整样式美化 · Issue #40 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/40)
-
-改进优化：
-
-1. [删除线改为红色 · Issue #41 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/41)
-2. [部分颜色显示效果优化 · Issue #42 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/42)
-3. [多级折叠标题样式适配 Android 端 · Issue #37 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/37)
-
-文档相关：
-
-1. [README.md 添加展示图片 · Issue #38 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/38)
-2. [更换主题预览图 · Issue #15 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/15)
-
-### 0.16 Release for 2210累计更新
-
-> 2022-10-18 released
-
-引入特性：
-
-1. [嵌入内容块样式优化-添加阴影效果 · Issue #19 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/19)
-2. [超级块添加聚焦样式 · Issue #21 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/21)
-3. [添加标题折叠样式 · Issue #26 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/26)
-4. [任务列表样式美化 · Issue #18 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/18)
-5. [删除线样式优化 · Issue #20 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/20)
-
-改进优化：
-
-1. [只显示文档创建日期 · Issue #17 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/17)
-2. [修改标签页字重 · Issue #25 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/25)
-3. [优化块级清除样式按钮显示效果 · Issue #31 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/31)
-4. [优化右上角窗口关闭按钮焦点样式 · Issue #14 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/14)
-5. [搜索击中高亮颜色应显著区分于文档标记文本颜色 · Issue #28 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/28)
-6. [全屏模式下【更多】按钮调整 · Issue #32 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/32) （注意：这个不属于主题问题，思源官方后续版本解决这个问题后 Sofill- 主题可能出现适配问题）
-
-缺陷修复：
-
-1. [标签样式在标题中显示异常 · Issue #22 · Hi-Windom/winsay (github.com)](https://github.com/Hi-Windom/winsay/issues/22)
 
 ## 鸣谢
 

@@ -3,9 +3,16 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16812788",
+		"custom-desc": "第一个c语言程序#includemain(){printf(}保存文件为helloc编译cchelloc运行aout如下➜clangcodecchellochelloc___warning_typespecifiermissingdefaultstoint[wimplicitint]main(){^warninggenerated➜clangcodeaouthelloworld!分析#include包含有关标准库的信息main(){定义main函数不接受参数main函数的语句包含在花括号中printf(m",
+		"custom-slug": "c-language-basic-structure-1my3ua",
+		"custom-vuepress-slug": "docs/018.基础学科/001.《C程序设计语言》/001.C语言基本结构.md",
+		"custom-wordpress-post-id": "4324",
+		"custom-yuque-post-id": "97461019_terwer/note",
 		"id": "20221013112025-vgl2jm3",
-		"title": "001.C语言基本概念",
-		"updated": "20221013174143"
+		"tags": "第一个,语言,程序,c,cpp",
+		"title": "001.C语言基本结构",
+		"updated": "20221021110013"
 	},
 	"Children": [
 		{
@@ -556,6 +563,11 @@
 			"ID": "20221013114722-ey1j46j",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cGxhaW50ZXh0",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20221013114722-ey1j46j",
 				"updated": "20221013114749"
@@ -563,19 +575,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "cGxhaW50ZXh0"
+					"CodeBlockInfo": "cGxhaW50ZXh0",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "制表符 \\t\n回退符 \\b\n双引号 \\\"\n反斜杠本身 \\\\\n"
+					"Data": "制表符 \\t\n回退符 \\b\n双引号 \\\"\n反斜杠本身 \\\\\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -589,7 +615,308 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "注意：当输入的转义字符不受支持时，会原样输出，且编译和运行都不会报错。"
+					"Data": "注意：当输入的转义字符不受支持时，会原样输出，且编译和运行都不会报错。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021102819-4ornnak",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021102819-4ornnak",
+				"updated": "20221021102824"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "实战",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021102824-yj8rp6u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021102824-yj8rp6u",
+				"updated": "20221021102905"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "VC6",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021102835-r8xddib",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021102835-r8xddib",
+				"updated": "20221021102859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下面三种写法在 Microsoft Visual C++ 6.0 都可以编译通过并执行成功。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021103554-0blpel2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021103554-0blpel2",
+				"updated": "20221021103639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最后一种虽然能运行通过，但是编译有警告 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "warning C4508: 'main' : function should return a value; 'void' return type assumed"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​，前两种写法都不会有警告。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021102830-fyigmp5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021102830-fyigmp5",
+				"updated": "20221021105440"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#include \"stdafx.h\"\n\nint main(int argc, char* argv[]){\n    printf(\"Hello World!\\n\");\n    return 0;\n}\n\n//void main(){\n//    printf(\"hello\\n\");\n//}\n\n//main(){\n//    printf(\"hello\\n\");\n//}\n\n//void print1(){\n//   printf(\"hello in fun\\n\");\n//}\n\n//main(){\n//   print1();\n//}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021105825-az39owq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021105825-az39owq",
+				"updated": "20221021105826"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221021105811.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021103042-tzafko3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021103042-tzafko3",
+				"updated": "20221021103045"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "CMake",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021103047-9v5hgzv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021103047-9v5hgzv",
+				"updated": "20221021103059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cmake 使用 c90 标准也能通过",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021103100-eg6q4q0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Y21ha2U=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221021103100-eg6q4q0",
+				"updated": "20221021103327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y21ha2U=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cmake_minimum_required(VERSION 3.23)\nproject(clangcode C)\n\nset(CMAKE_C_STANDARD 90)\n\nadd_executable(clangcode hello.c)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021103329-20f5g0l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021103329-20f5g0l",
+				"updated": "20221021110013"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221021110003.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
 				}
 			]
 		}

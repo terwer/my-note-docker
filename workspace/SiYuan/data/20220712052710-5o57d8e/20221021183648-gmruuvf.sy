@@ -1,0 +1,1212 @@
+{
+	"ID": "20221021183648-gmruuvf",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16105653",
+		"custom-desc": "默认的mac终端是不支持多个远程链接的也不支持多个tab通过配置使用iterm替换默认终端可以很方便的解决这些需求。下载地址https_itermcomdownloadsstableiterm__zip安装解压后直接拖进应用程序即可。配置管理多个远程链接并支持自动登录自动登录安装sshpass下载_http_sourceforgenetprojectssshpassfiles如果嫌慢可以使用我的阿里云osshttps_staticrsterwerosscnbeijingaliyuncscomlibsshp",
+		"custom-slug": "mac-use-iterm2-replace-default-termial",
+		"custom-vuepress-slug": "docs/003.经验分享/001.Mac使用iTerm2代替默认终端.md",
+		"custom-wordpress-post-id": "4080",
+		"custom-yuque-post-id": "97520804_terwer/note",
+		"id": "20221021183648-gmruuvf",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221021183755-gg9fiun\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221021185948-pj6ahy9\u0026quot;,\u0026quot;scrollTop\u0026quot;:1510,\u0026quot;focusId\u0026quot;:\u0026quot;20221021190009-5solvwk\u0026quot;,\u0026quot;focusStart\u0026quot;:37,\u0026quot;focusEnd\u0026quot;:37}",
+		"tags": "mac,terminal,实用技巧,多个,配置,打开,默认,终端",
+		"title": "001.Mac使用iTerm2代替默认终端",
+		"updated": "20221021190036"
+	},
+	"Children": [
+		{
+			"ID": "20221021183755-gg9fiun",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021183755-gg9fiun",
+				"updated": "20221021183755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认的 Mac 终端是不支持多个远程链接的，也不支持多个 tab，通过配置使用 iTerm2 替换默认终端可以很方便的解决这些需求。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-xib8zyy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021183755-xib8zyy",
+				"updated": "20221021183755"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "下载地址",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-eyhb7pm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021183755-eyhb7pm",
+				"updated": "20221021184200"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://iterm2.com/downloads/stable/iTerm2-3_4_15.zip",
+					"TextMarkTextContent": "https://iterm2.com/downloads/stable/iTerm2-3_4_15.zip"
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-4hal6vy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021183755-4hal6vy",
+				"updated": "20221021183755"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "安装",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-97ejaxo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021183755-97ejaxo",
+				"updated": "20221021184206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解压后，直接拖进应用程序即可。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-n2x393g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021183755-n2x393g",
+				"updated": "20221021184319"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "配置管理多个远程链接并支持自动登录",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184342-0q4of7d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021184342-0q4of7d",
+				"updated": "20221021184345"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "自动登录",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-ir8ljal",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221021183755-ir8ljal",
+				"updated": "20221021183755"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "安装 sshpass",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-ewehkps",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021183755-ewehkps",
+				"updated": "20221021184222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://sourceforge.net/projects/sshpass/files/",
+					"TextMarkTextContent": "http://sourceforge.net/projects/sshpass/files/"
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-grf3zxm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021183755-grf3zxm",
+				"updated": "20221021183755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果嫌慢，可以使用我的阿里云 OSS",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-5xrtn7y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021183755-5xrtn7y",
+				"updated": "20221021184229"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/lib/sshpass/sshpass-1.09.tar.gz",
+					"TextMarkTextContent": "https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/lib/sshpass/sshpass-1.09.tar.gz"
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-hyai84t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021183755-hyai84t",
+				"updated": "20221021183755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解压后，进入 sshpass 目录，执行安装",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-zfga61k",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221021183755-zfga61k",
+				"updated": "20221021184237"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "./configure make make install\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-6i9jos4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021183755-6i9jos4",
+				"updated": "20221021183755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "理论上不会出什么问题，安装好后，执行命令检查是否已经 OK",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-irllu3v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221021183755-irllu3v",
+				"updated": "20221021184243"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sshpass -h\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-qiept2n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221021183755-qiept2n",
+				"updated": "20221021183845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建 profile"
+				}
+			]
+		},
+		{
+			"ID": "20221021185331-bodjwj2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021185331-bodjwj2",
+				"updated": "20221021185356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过 Profiles-\u003eOpen Profiles 打开配置"
+				}
+			]
+		},
+		{
+			"ID": "20221021185400-a61ldyi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021185400-a61ldyi",
+				"updated": "20221021185414"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221021185405.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021185505-gydq57p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021185505-gydq57p",
+				"updated": "20221021185525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "点击 Edit Profiles ，可以在新窗口里面新增Profile"
+				}
+			]
+		},
+		{
+			"ID": "20221021185525-4vc1slt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021185525-4vc1slt",
+				"updated": "20221021185526"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221021185452.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021183847-z37ykdo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021183847-z37ykdo",
+				"updated": "20221021184258"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "添加一个新的 profile，其它没什么好配置的，主要是在 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "General"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 的 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "command"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 中选择使用 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "command"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​，命令就是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "sshpass"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 的执行命令，如：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183755-bpsutdr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221021183755-bpsutdr",
+				"updated": "20221021184302"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/usr/local/bin/sshpass -p '123456' ssh root@127.0.0.1\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021185726-8gaii8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021185726-8gaii8n",
+				"updated": "20221021185727"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221021185710.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021184348-qrobzob",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021184348-qrobzob",
+				"updated": "20221021184354"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "多个远程",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184334-a2936a7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021184334-a2936a7",
+				"updated": "20221021184402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多个远程只需要配置多个 Profile 就可以了。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021183854-tt5zzpa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021183854-tt5zzpa",
+				"updated": "20221021184146"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "配置 Mac 默认终端为 Iterm2",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184304-sypdsfx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021184304-sypdsfx",
+				"updated": "20221021184443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意到有很多小伙伴还不会把终端默认设置为 Iterm2，我这里说一下。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184458-l97flum",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021184458-l97flum",
+				"updated": "20221021184528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们可以新建一个测试文件 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "test.sh"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ ,",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184528-9537wc9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221021184528-9537wc9",
+				"updated": "20221021184546"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd ~/Downloads/test.sh\ntouch test.sh\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184547-hrth5x2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021184547-hrth5x2",
+				"updated": "20221021184627"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221021184618.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184633-v2nv9en",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021184633-v2nv9en",
+				"updated": "20221021184741"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后右键-\u003e 打开方式-\u003e 其他。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184755-0dkwf9l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021184755-0dkwf9l",
+				"updated": "20221021184809"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221021184722.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184907-bbmhejs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021184907-bbmhejs",
+				"updated": "20221021184940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在应用程序里面找到 Item，选中，然后勾选 始终以此方式打开。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184926-wzqybhq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021184926-wzqybhq",
+				"updated": "20221021184927"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221021184859.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021184941-asxgzr9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021184941-asxgzr9",
+				"updated": "20221021185100"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这样以后打开 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".sh"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 文件默认就是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Item2"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 了。如果希望打开 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".command"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 文件，方法同理。新建一个 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".command"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 文件，然后选择始终打开即可。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021185100-6saclp4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021185100-6saclp4",
+				"updated": "20221021185133"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果还有问题，可发邮件至 youweics@163.com ，或者直接给我留言。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221021185948-pj6ahy9",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20221021185948-pj6ahy9",
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20221021190036"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20221021185948-kl1dz07",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221021185948-kl1dz07",
+						"updated": "20221021190035"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史\n2022-07-09 feat:初稿。"
+						}
+					]
+				},
+				{
+					"ID": "20221021190009-5solvwk",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221021190009-5solvwk",
+						"updated": "20221021190036"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022-10-21 feat:新增设置默认终端的方法，补充部分操作截图。"
+						}
+					]
+				}
+			]
+		}
+	]
+}
