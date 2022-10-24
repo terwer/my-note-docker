@@ -4,35 +4,16 @@
     "mode": 0,
     "modeOS": false,
     "darkThemes": [
-      "Tsundoku Dark",
-      "notion-theme",
       "midnight",
-      "Dark-Blue",
-      "Oir-Dark",
-      "Rem Craft",
-      "Dark+"
+      "Rem Craft"
     ],
     "lightThemes": [
-      "HBuilderX-Light",
-      "notion-theme",
-      "Light-Blue",
-      "Tsundoku Light",
-      "pink-room",
-      "Knowledge Brain",
-      "salt",
       "Rem Craft",
-      "daylight",
-      "Sofill-",
-      "BluePrint From Tsundoku",
-      "Chrome-A4",
-      "Zhang-Light",
-      "Dark+",
-      "blue-dog",
-      "OneNote"
+      "daylight"
     ],
-    "themeDark": "Tsundoku Dark",
-    "themeLight": "Tsundoku Light",
-    "themeVer": "1.4.2",
+    "themeDark": "Rem Craft",
+    "themeLight": "Rem Craft",
+    "themeVer": "2.2.2",
     "icons": [
       "ant",
       "notion-icon",
@@ -236,7 +217,7 @@
               ],
               "direction": "tb",
               "instance": "Layout",
-              "size": "369px",
+              "size": "279px",
               "type": "left"
             },
             {
@@ -246,38 +227,16 @@
                     {
                       "children": {
                         "action": "",
-                        "blockId": "20221021222848-vlyagor",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221021222848-vlyagor",
-                        "scrollAttr": {
-                          "endId": "20221022111642-2tetyig",
-                          "focusEnd": 74,
-                          "focusId": "20221023194319-9mawhz0",
-                          "focusStart": 74,
-                          "scrollTop": 6560,
-                          "startId": "20221022020116-acsbbvk"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "022.ArrayList深入分析"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "",
                         "blockId": "20221023200520-38xqvaf",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "rootId": "20221023200520-38xqvaf",
                         "scrollAttr": {
-                          "endId": "20221023200520-tm5bp7v",
+                          "endId": "20221024000442-yy4t95w",
                           "focusEnd": 0,
-                          "focusId": "20221023200520-tm5bp7v",
+                          "focusId": "20221023214347-qn1wuxc",
                           "focusStart": 0,
-                          "scrollTop": 0,
+                          "scrollTop": 484,
                           "startId": "20221023200520-tm5bp7v"
                         }
                       },
@@ -285,6 +244,28 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "023.LinkedList源代码深入剖析"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20221021222848-vlyagor",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221021222848-vlyagor",
+                        "scrollAttr": {
+                          "endId": "20221023232756-951gppj",
+                          "focusEnd": 70,
+                          "focusId": "20221023232756-zo4gb8w",
+                          "focusStart": 70,
+                          "scrollTop": 2460,
+                          "startId": "20221023232756-jc1diod"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "022.ArrayList深入分析"
                     }
                   ],
                   "height": "",
@@ -351,7 +332,7 @@
         {
           "hotkeyLangId": "fileTree",
           "icon": "iconFiles",
-          "show": true,
+          "show": false,
           "size": {
             "height": 0,
             "width": 369
@@ -361,7 +342,7 @@
         {
           "hotkeyLangId": "outline",
           "icon": "iconAlignCenter",
-          "show": false,
+          "show": true,
           "size": {
             "height": 0,
             "width": 279
@@ -447,13 +428,14 @@
   },
   "readonly": false,
   "localIPs": [
-    "192.168.3.60",
+    "10.211.55.2",
+    "10.37.129.2",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
   "system": {
     "id": "73C2A36A-4EC9-506D-AD05-90621F13A64A",
-    "kernelVersion": "2.4.3",
+    "kernelVersion": "2.4.5",
     "os": "darwin",
     "container": "std",
     "isMicrosoftStore": false,

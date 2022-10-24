@@ -4,24 +4,25 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16815193",
-		"custom-desc": "基本方法publicclassarraylisttest{publicstaticvoidmain(string[]args){arraylistarraylist=newarraylist()_arraylistadd(arraylistadd(arraylistadd(arraylistadd(strings=(string)arraylistget()_strings=(string)arraylistget()_strings=(string)arraylistget()_strings=(str",
+		"custom-desc": "基本方法使用由tostring()​方法提供的默认的转换显示类集的内容tostring()​方法是从abstractcollection()​继承下来的。对于例子来说足够但是通常情况下会重写此方法。publicclassarraylisttest{publicstaticvoidmain(string[]args){arraylistarraylist=newarraylist()_arraylistadd(arraylistadd(arraylistadd(arraylistadd(​strings=(",
 		"custom-slug": "arraylist-in-depth-analysis-z18oerm",
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/022.ArrayList深入分析.md",
 		"custom-wordpress-post-id": "4326",
 		"custom-yuque-post-id": "97542732_terwer/note",
 		"id": "20221021222848-vlyagor",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221023232622-4xs4dn7\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221023232632-jsizakq\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221023232632-jsizakq\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"tags": "结果,包装,操作,转换,基本,arraylist,deep,analysis",
 		"title": "022.ArrayList深入分析",
-		"updated": "20221023194550"
+		"updated": "20221023235237"
 	},
 	"Children": [
 		{
-			"ID": "20221021222848-0xkh947",
+			"ID": "20221023232756-jc1diod",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221021222848-0xkh947",
-				"updated": "20221022015319"
+				"id": "20221023232756-jc1diod",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
@@ -41,7 +42,69 @@
 			]
 		},
 		{
-			"ID": "20221022015320-40cqe3l",
+			"ID": "20221023232819-8ld2svz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221023232819-8ld2svz",
+				"updated": "20221023233039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用由 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "toString()"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 方法提供的默认的转换显示类集的内容，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "toString()"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 方法是从 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "AbstractCollection()"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 继承下来的。对于例子来说足够，但是通常情况下会重写此方法。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221023232756-zo4gb8w",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -50,8 +113,8 @@
 			"CodeBlockInfo": "amF2YQ==",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022015320-40cqe3l",
-				"updated": "20221022015328"
+				"id": "20221023232756-zo4gb8w",
+				"updated": "20221023232808"
 			},
 			"Children": [
 				{
@@ -71,7 +134,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "public class ArrayListTest1 {\n\tpublic static void main(String[] args) {\n\t\tArrayList arrayList = new ArrayList();\n\t\tarrayList.add(\"hello\");\n\t\tarrayList.add(\"world\");\n\t\tarrayList.add(\"world\");\n\t\tarrayList.add(\"welcome\");\n\n\t\tString s1 = (String) arrayList.get(0);\n\t\tString s2 = (String) arrayList.get(1);\n\t\tString s3 = (String) arrayList.get(2);\n\t\tString s4 = (String) arrayList.get(3);\n\n\t\tSystem.out.println(s1);\n\t\tSystem.out.println(s2);\n\t\tSystem.out.println(s3);\n\t\tSystem.out.println(s4);\n\n\t\tSystem.out.println(\"-------------\");\n\t\tfor (int i = 0; i \u003c arrayList.size(); i++) {\n\t\t\tSystem.out.println(arrayList.get(i));\n\t\t}\n\n\t\t// arrayList.clear();\n\t\t// System.out.println(arrayList.size());\n\t\t// System.out.println(arrayList.isEmpty());\n\n\t\tarrayList.remove(0);\n\n\t\tSystem.out.println(\"-------------\");\n\t\tfor (int i = 0; i \u003c arrayList.size(); i++) {\n\t\t\tSystem.out.println(arrayList.get(i));\n\t\t}\n\n\t\tarrayList.remove(\"welcome\");\n\t\tSystem.out.println(\"-------------\");\n\t\tfor (int i = 0; i \u003c arrayList.size(); i++) {\n\t\t\tSystem.out.println(arrayList.get(i));\n\t\t}\n\n\t\tSystem.out.println(\"-----------------\");\n\n\t\tarrayList.add(\"aaa\");\n\t\tarrayList.add(\"bbb\");\n\n\t\tSystem.out.println(arrayList.indexOf(\"world\"));\n\t\tSystem.out.println(arrayList.lastIndexOf(\"world\"));\n\t\tSystem.out.println(arrayList.indexOf(\"aaa\"));\n\t}\n}\n",
+					"Data": " public class ArrayListTest1 {\n   public static void main(String[] args) {\n     ArrayList arrayList = new ArrayList();\n     arrayList.add(\"hello\");\n     arrayList.add(\"world\");\n     arrayList.add(\"world\");\n     arrayList.add(\"welcome\");\n ​\n     String s1 = (String) arrayList.get(0);\n     String s2 = (String) arrayList.get(1);\n     String s3 = (String) arrayList.get(2);\n     String s4 = (String) arrayList.get(3);\n ​\n     System.out.println(s1);\n     System.out.println(s2);\n     System.out.println(s3);\n     System.out.println(s4);\n ​\n     System.out.println(\"-------------\");\n     for (int i = 0; i \u003c arrayList.size(); i++) {\n       System.out.println(arrayList.get(i));\n     }\n ​\n     // arrayList.clear();\n     // System.out.println(arrayList.size());\n     // System.out.println(arrayList.isEmpty());\n ​\n     arrayList.remove(0);\n ​\n     System.out.println(\"-------------\");\n     for (int i = 0; i \u003c arrayList.size(); i++) {\n       System.out.println(arrayList.get(i));\n     }\n ​\n     arrayList.remove(\"welcome\");\n     System.out.println(\"-------------\");\n     for (int i = 0; i \u003c arrayList.size(); i++) {\n       System.out.println(arrayList.get(i));\n     }\n ​\n     System.out.println(\"-----------------\");\n ​\n     arrayList.add(\"aaa\");\n     arrayList.add(\"bbb\");\n ​\n     System.out.println(arrayList.indexOf(\"world\"));\n     System.out.println(arrayList.lastIndexOf(\"world\"));\n     System.out.println(arrayList.indexOf(\"aaa\"));\n   }\n }\n",
 					"Properties": {
 						"id": ""
 					}
@@ -87,34 +150,35 @@
 			]
 		},
 		{
-			"ID": "20221022020041-ccmral0",
+			"ID": "20221023232756-fyihqbw",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022020041-ccmral0",
-				"updated": "20221022020045"
+				"id": "20221023232756-fyihqbw",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "结果",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "结果"
 				}
 			]
 		},
 		{
-			"ID": "20221022020045-ljytjrb",
+			"ID": "20221023232756-xdqn059",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
 			"CodeBlockFenceLen": 3,
 			"CodeBlockOpenFence": "YGBg",
-			"CodeBlockInfo": "cGxhaW50ZXh0",
+			"CodeBlockInfo": "amF2YQ==",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022020045-ljytjrb",
-				"updated": "20221022020108"
+				"id": "20221023232756-xdqn059",
+				"updated": "20221023234756"
 			},
 			"Children": [
 				{
@@ -127,14 +191,14 @@
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "cGxhaW50ZXh0",
+					"CodeBlockInfo": "amF2YQ==",
 					"Properties": {
 						"id": ""
 					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "hello\nworld\nworld\nwelcome\n-------------\nhello\nworld\nworld\nwelcome\n-------------\nworld\nworld\nwelcome\n-------------\nworld\nworld\n-----------------\n0\n1\n2\n",
+					"Data": " hello\n world\n world\n welcome\n -------------\n hello\n world\n world\n welcome\n -------------\n world\n world\n welcome\n -------------\n world\n world\n -----------------\n 0\n 1\n 2\n",
 					"Properties": {
 						"id": ""
 					}
@@ -150,12 +214,12 @@
 			]
 		},
 		{
-			"ID": "20221022015331-pc1hlz7",
+			"ID": "20221023232756-toulw18",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221022015331-pc1hlz7",
-				"updated": "20221022015404"
+				"id": "20221023232756-toulw18",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
@@ -175,7 +239,7 @@
 			]
 		},
 		{
-			"ID": "20221022015404-draklmj",
+			"ID": "20221023232756-c8mglrh",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -184,8 +248,8 @@
 			"CodeBlockInfo": "amF2YQ==",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022015404-draklmj",
-				"updated": "20221022020207"
+				"id": "20221023232756-c8mglrh",
+				"updated": "20221023234802"
 			},
 			"Children": [
 				{
@@ -205,7 +269,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "public class ArrayListTest2 {\n\tpublic static void main(String[] args) {\n\t\tArrayList list = new ArrayList();\n\t\tlist.add(\"hello\");\n\t\tlist.add(new Integer(2));\n\t\n\t\tString str = (String)list.get(0);\n\t\tInteger in = (Integer)list.get(1);\n\t\t// String str2 = (String)list.get(1);\n\t\n\t\tSystem.out.println(str);\n\t\tSystem.out.println(in.intValue());\n\t\t// System.err.println(str2);\n\t}\n\n}\n",
+					"Data": " public class ArrayListTest2 {\n   public static void main(String[] args) {\n     ArrayList list = new ArrayList();\n     list.add(\"hello\");\n     list.add(new Integer(2));\n   \n     String str = (String)list.get(0);\n     Integer in = (Integer)list.get(1);\n     // String str2 = (String)list.get(1);\n   \n     System.out.println(str);\n     System.out.println(in.intValue());\n     // System.err.println(str2);\n   }\n ​\n }\n",
 					"Properties": {
 						"id": ""
 					}
@@ -221,24 +285,25 @@
 			]
 		},
 		{
-			"ID": "20221022020116-acsbbvk",
+			"ID": "20221023232756-v81kvzq",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022020116-acsbbvk",
-				"updated": "20221022020217"
+				"id": "20221023232756-v81kvzq",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "结果",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "结果"
 				}
 			]
 		},
 		{
-			"ID": "20221022020217-69ph7ka",
+			"ID": "20221023232756-ii7ezw6",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -247,8 +312,8 @@
 			"CodeBlockInfo": "cGxhaW50ZXh0",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022020217-69ph7ka",
-				"updated": "20221022020221"
+				"id": "20221023232756-ii7ezw6",
+				"updated": "20221023234807"
 			},
 			"Children": [
 				{
@@ -268,7 +333,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "hello\n2\n",
+					"Data": " hello\n 2\n",
 					"Properties": {
 						"id": ""
 					}
@@ -284,12 +349,12 @@
 			]
 		},
 		{
-			"ID": "20221022020306-p1fjq9e",
+			"ID": "20221023232756-4u7whkc",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221022020306-p1fjq9e",
-				"updated": "20221022020345"
+				"id": "20221023232756-4u7whkc",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
@@ -309,7 +374,7 @@
 			]
 		},
 		{
-			"ID": "20221022020313-yz1lv9j",
+			"ID": "20221023232756-gocphfs",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -318,8 +383,8 @@
 			"CodeBlockInfo": "amF2YQ==",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022020313-yz1lv9j",
-				"updated": "20221022020318"
+				"id": "20221023232756-gocphfs",
+				"updated": "20221023234817"
 			},
 			"Children": [
 				{
@@ -339,7 +404,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "public class ArrayListTest3 {\n\n\tpublic static void main(String[] args) {\n\t\tArrayList list = new ArrayList();\n\n\t\tlist.add(new Integer(3));\n\t\tlist.add(new Integer(4));\n\t\tlist.add(new Integer(5));\n\t\tlist.add(new Integer(6));\n\n\t\tint sum = 0;\n\t\tfor (int i = 0; i \u003c list.size(); i++) {\n\t\t\tInteger item = (Integer) list.get(i);\n\t\t\tsum += item.intValue();\n\t\t}\n\n\t\tSystem.out.println(sum);\n\t}\n}\n",
+					"Data": " public class ArrayListTest3 {\n ​\n   public static void main(String[] args) {\n     ArrayList list = new ArrayList();\n ​\n     list.add(new Integer(3));\n     list.add(new Integer(4));\n     list.add(new Integer(5));\n     list.add(new Integer(6));\n ​\n     int sum = 0;\n     for (int i = 0; i \u003c list.size(); i++) {\n       Integer item = (Integer) list.get(i);\n       sum += item.intValue();\n     }\n ​\n     System.out.println(sum);\n   }\n }\n",
 					"Properties": {
 						"id": ""
 					}
@@ -355,24 +420,25 @@
 			]
 		},
 		{
-			"ID": "20221022020321-7ffa0w3",
+			"ID": "20221023232756-bzs7z5n",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022020321-7ffa0w3",
-				"updated": "20221022020323"
+				"id": "20221023232756-bzs7z5n",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "结果",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "结果"
 				}
 			]
 		},
 		{
-			"ID": "20221022020323-h8l031d",
+			"ID": "20221023232756-ktimmd3",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -381,8 +447,8 @@
 			"CodeBlockInfo": "cGxhaW50ZXh0",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022020323-h8l031d",
-				"updated": "20221022020340"
+				"id": "20221023232756-ktimmd3",
+				"updated": "20221023234821"
 			},
 			"Children": [
 				{
@@ -402,7 +468,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "18\n",
+					"Data": " 18\n",
 					"Properties": {
 						"id": ""
 					}
@@ -418,12 +484,12 @@
 			]
 		},
 		{
-			"ID": "20221022015424-dbs3eb1",
+			"ID": "20221023234227-jp3smcg",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221022015424-dbs3eb1",
-				"updated": "20221022015437"
+				"id": "20221023234227-jp3smcg",
+				"updated": "20221023234313"
 			},
 			"Children": [
 				{
@@ -435,7 +501,7 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "ArrayList 与数组之间的转换",
+					"Data": "从数组列表（ArrayList）获得数组（Array）",
 					"Properties": {
 						"id": ""
 					}
@@ -443,7 +509,301 @@
 			]
 		},
 		{
-			"ID": "20221022015438-58fmrc2",
+			"ID": "20221023234315-5w3n735",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221023234315-5w3n735",
+				"updated": "20221023234321"
+			},
+			"Children": [
+				{
+					"ID": "20221023234321-9uvs9xy",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221023234321-9uvs9xy",
+						"updated": "20221023234321"
+					},
+					"Children": [
+						{
+							"ID": "20221023234321-rd09jde",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221023234321-rd09jde",
+								"updated": "20221023234414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当使用 ArrayList 时，有事想要获得一个实际的数组，这个数组包含了列表的内容。可以通过调用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "toArray()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 来实现它。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221023234418-rl5zuqu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221023234418-rl5zuqu",
+								"updated": "20221023234456"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下面是几个为什么可能想讲类集转换成为数组的原因：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221023234457-rapikfr",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20221023234457-rapikfr",
+								"updated": "20221023234459"
+							},
+							"Children": [
+								{
+									"ID": "20221023234459-mbl3l2t",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20221023234459-mbl3l2t",
+										"updated": "20221023234459"
+									},
+									"Children": [
+										{
+											"ID": "20221023234459-dsqx5uz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221023234459-dsqx5uz",
+												"updated": "20221023234531"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对于特定的操作，可以获得更快的处理时间",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221023234531-6cv2sy4",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20221023234531-6cv2sy4",
+										"updated": "20221023234531"
+									},
+									"Children": [
+										{
+											"ID": "20221023234531-5cg7lnm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221023234531-5cg7lnm",
+												"updated": "20221023234619"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "为了给方法传递数组，而方法不必重载去接收类集",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221023234622-g2g6ggt",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20221023234622-g2g6ggt",
+										"updated": "20221023234622"
+									},
+									"Children": [
+										{
+											"ID": "20221023234622-xfqqsba",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221023234622-xfqqsba",
+												"updated": "20221023234658"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "为了将新的基于类集的程序与不认识类集的老程序集成",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221023235022-srw025t",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221023235022-srw025t",
+				"updated": "20221023235237"
+			},
+			"Children": [
+				{
+					"ID": "20221023235026-5mcz50b",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221023235026-5mcz50b",
+						"updated": "20221023235237"
+					},
+					"Children": [
+						{
+							"ID": "20221023235026-3s220d1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221023235026-3s220d1",
+								"updated": "20221023235038"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Arrays.asList()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221023235040-ys924jt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221023235040-ys924jt",
+								"updated": "20221023235237"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "返回一个受指定数组支持的固定大小的列表。（对返回列表的更改会 “直写” 到数组）。此方法同 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Collection.toArray()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 一起，充当了基于数组的 API 与基于 Collection 额 API 之间的桥梁",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221023232756-15pj6ux",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -452,8 +812,8 @@
 			"CodeBlockInfo": "amF2YQ==",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022015438-58fmrc2",
-				"updated": "20221022015617"
+				"id": "20221023232756-15pj6ux",
+				"updated": "20221023234827"
 			},
 			"Children": [
 				{
@@ -473,7 +833,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "public class ArrayListTest4 {\n\n\tpublic static void main(String[] args) {\n\t\tArrayList list = new ArrayList();\n\n\t\tlist.add(new Integer(1));\n\t\tlist.add(new Integer(2));\n\t\tlist.add(new Integer(3));\n\t\tlist.add(new Integer(4));\n\t\tlist.add(new Integer(5));\n\t\tlist.add(new Integer(6));\n\n\t\t/**\n\t\t * 不能将Object[]转换为Integer[]\n\t\t */\n\n\t\t// 这个地方会报错，类型转换异常\n\t\t// Integer[] in = (Integer[]) list.toArray();\n\t\t// for (int i = 0; i \u003c in.length; i++) {\n\t\t// Integer integer = in[i];\n\t\t// System.out.println(integer.intValue());\n\t\t// }\n\n\t\tObject[] in = list.toArray();\n\t\tfor (int i = 0; i \u003c in.length; i++) {\n\t\t\tInteger integer = (Integer) in[i];\n\t\t\tSystem.out.println(integer.intValue());\n\t\t}\n\t}\n\n}\n",
+					"Data": " public class ArrayListTest4 {\n ​\n   public static void main(String[] args) {\n     ArrayList list = new ArrayList();\n ​\n     list.add(new Integer(1));\n     list.add(new Integer(2));\n     list.add(new Integer(3));\n     list.add(new Integer(4));\n     list.add(new Integer(5));\n     list.add(new Integer(6));\n ​\n     /**\n      * 不能将Object[]转换为Integer[]\n      */\n ​\n     // 这个地方会报错，类型转换异常\n     // Integer[] in = (Integer[]) list.toArray();\n     // for (int i = 0; i \u003c in.length; i++) {\n     // Integer integer = in[i];\n     // System.out.println(integer.intValue());\n     // }\n ​\n     Object[] in = list.toArray();\n     for (int i = 0; i \u003c in.length; i++) {\n       Integer integer = (Integer) in[i];\n       System.out.println(integer.intValue());\n     }\n   }\n ​\n }\n",
 					"Properties": {
 						"id": ""
 					}
@@ -489,24 +849,25 @@
 			]
 		},
 		{
-			"ID": "20221022020226-awr6ylx",
+			"ID": "20221023232756-0cf0dfa",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022020226-awr6ylx",
-				"updated": "20221022020400"
+				"id": "20221023232756-0cf0dfa",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "结果",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "结果"
 				}
 			]
 		},
 		{
-			"ID": "20221022020400-wui4auq",
+			"ID": "20221023232756-p8z1cbr",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -515,8 +876,8 @@
 			"CodeBlockInfo": "cGxhaW50ZXh0",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022020400-wui4auq",
-				"updated": "20221022020403"
+				"id": "20221023232756-p8z1cbr",
+				"updated": "20221023234904"
 			},
 			"Children": [
 				{
@@ -536,7 +897,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "1\n2\n3\n4\n5\n6\n",
+					"Data": " 1\n 2\n 3\n 4\n 5\n 6\n",
 					"Properties": {
 						"id": ""
 					}
@@ -552,12 +913,12 @@
 			]
 		},
 		{
-			"ID": "20221022015604-cbxfnoq",
+			"ID": "20221023232756-5fsxfku",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221022015604-cbxfnoq",
-				"updated": "20221022015643"
+				"id": "20221023232756-5fsxfku",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
@@ -577,7 +938,7 @@
 			]
 		},
 		{
-			"ID": "20221022015643-xebq0df",
+			"ID": "20221023232756-jq711k9",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -586,8 +947,8 @@
 			"CodeBlockInfo": "amF2YQ==",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022015643-xebq0df",
-				"updated": "20221022015645"
+				"id": "20221023232756-jq711k9",
+				"updated": "20221023234909"
 			},
 			"Children": [
 				{
@@ -607,7 +968,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "public class ArrayListTest5 {\n\n\tpublic static void main(String[] args) {\n\t\tArrayList list = new ArrayList();\n\t\tlist.add(new Point(2, 3));\n\t\tlist.add(new Point(2, 2));\n\t\tlist.add(list);\n\t\tlist.add(new Point(4, 4));\n\n\n\t\t// for (int i = 0; i \u003c list.size(); i++) {\n\t\t//\tSystem.out.println((Point) list.get(i));\n\t\t// }\n\t\n\t\tSystem.out.println(list.toString());\n\t}\n\n}\n\nclass Point {\n\tint x;\n\tint y;\n\n\tpublic Point(int x, int y) {\n\t\tthis.x = x;\n\t\tthis.y = y;\n\t}\n\n\tpublic String toString() {\n\t\treturn \"x=\" + this.x + \",y=\" + this.y;\n\t}\n\n}\n",
+					"Data": " public class ArrayListTest5 {\n ​\n   public static void main(String[] args) {\n     ArrayList list = new ArrayList();\n     list.add(new Point(2, 3));\n     list.add(new Point(2, 2));\n     list.add(list);\n     list.add(new Point(4, 4));\n ​\n ​\n     // for (int i = 0; i \u003c list.size(); i++) {\n     //  System.out.println((Point) list.get(i));\n     // }\n   \n     System.out.println(list.toString());\n   }\n ​\n }\n ​\n class Point {\n   int x;\n   int y;\n ​\n   public Point(int x, int y) {\n     this.x = x;\n     this.y = y;\n   }\n ​\n   public String toString() {\n     return \"x=\" + this.x + \",y=\" + this.y;\n   }\n ​\n }\n",
 					"Properties": {
 						"id": ""
 					}
@@ -623,24 +984,25 @@
 			]
 		},
 		{
-			"ID": "20221022020409-quawxzt",
+			"ID": "20221023232756-kgepxs5",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022020409-quawxzt",
-				"updated": "20221022020411"
+				"id": "20221023232756-kgepxs5",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "结果",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "结果"
 				}
 			]
 		},
 		{
-			"ID": "20221022020411-ivkkfae",
+			"ID": "20221023232756-csycs0p",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -649,8 +1011,8 @@
 			"CodeBlockInfo": "cGxhaW50ZXh0",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221022020411-ivkkfae",
-				"updated": "20221022020424"
+				"id": "20221023232756-csycs0p",
+				"updated": "20221023234914"
 			},
 			"Children": [
 				{
@@ -670,7 +1032,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "[x=2,y=3, x=2,y=2, (this Collection), x=4,y=4]\n",
+					"Data": " [x=2,y=3, x=2,y=2, (this Collection), x=4,y=4]\n",
 					"Properties": {
 						"id": ""
 					}
@@ -686,12 +1048,12 @@
 			]
 		},
 		{
-			"ID": "20221022105735-y81a2ms",
+			"ID": "20221023232756-6s8agyz",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221022105735-y81a2ms",
-				"updated": "20221022105755"
+				"id": "20221023232756-6s8agyz",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
@@ -711,7 +1073,7 @@
 			]
 		},
 		{
-			"ID": "20221022105745-shsgfeu",
+			"ID": "20221023232756-8z4uqem",
 			"Type": "NodeList",
 			"ListData": {
 				"Typ": 1,
@@ -722,12 +1084,12 @@
 				"Num": 1
 			},
 			"Properties": {
-				"id": "20221022105745-shsgfeu",
-				"updated": "20221022164839"
+				"id": "20221023232756-8z4uqem",
+				"updated": "20221023234937"
 			},
 			"Children": [
 				{
-					"ID": "20221022105748-3riadaq",
+					"ID": "20221023232756-gdvb8pp",
 					"Type": "NodeListItem",
 					"Data": "1",
 					"ListData": {
@@ -739,31 +1101,32 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20221022105748-3riadaq",
-						"updated": "20221022105827"
+						"id": "20221023232756-gdvb8pp",
+						"updated": "20221023232756"
 					},
 					"Children": [
 						{
-							"ID": "20221022105748-abxjb8c",
+							"ID": "20221023232756-qp0j8cf",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022105748-abxjb8c",
-								"updated": "20221022105827"
+								"id": "20221023232756-qp0j8cf",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "集合中存放的依然是对象的引用而不是对象本身。",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
-									}
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "集合中存放的依然是对象的引用而不是对象本身。"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20221022164407-hwgd1ng",
+					"ID": "20221023232756-sn510iu",
 					"Type": "NodeListItem",
 					"Data": "2",
 					"ListData": {
@@ -776,29 +1139,30 @@
 						"Num": 2
 					},
 					"Properties": {
-						"id": "20221022164407-hwgd1ng",
-						"updated": "20221022164839"
+						"id": "20221023232756-sn510iu",
+						"updated": "20221023234925"
 					},
 					"Children": [
 						{
-							"ID": "20221022164407-uiokrce",
+							"ID": "20221023232756-745cfgk",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022164407-uiokrce",
-								"updated": "20221022171644"
+								"id": "20221023232756-745cfgk",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "ArrayList 底层使用数组实现，在 JDK1.6，当使用不带参数的构造方法生成 ArrayList 对象时，实际上会在底层生成一个长度为 10 的 Object 类型数组。",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
-									}
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "ArrayList 底层使用数组实现，在 JDK1.6，当使用不带参数的构造方法生成 ArrayList 对象时，实际上会在底层生成一个长度为 10 的 Object 类型数组。"
 								}
 							]
 						},
 						{
-							"ID": "20221022164806-ej1ugh6",
+							"ID": "20221023232756-x8o5x7p",
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
 							"CodeBlockFenceChar": 96,
@@ -807,8 +1171,8 @@
 							"CodeBlockInfo": "amF2YQ==",
 							"CodeBlockCloseFence": "YGBg",
 							"Properties": {
-								"id": "20221022164806-ej1ugh6",
-								"updated": "20221022164839"
+								"id": "20221023232756-x8o5x7p",
+								"updated": "20221023234920"
 							},
 							"Children": [
 								{
@@ -828,7 +1192,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "/**\n* Constructs an empty list with an initial capacity of ten.\n*/\npublic ArrayList() {\n    this(10);\n}\n",
+									"Data": " /**\n * Constructs an empty list with an initial capacity of ten.\n */\n public ArrayList() {\n     this(10);\n }\n",
 									"Properties": {
 										"id": ""
 									}
@@ -844,11 +1208,11 @@
 							]
 						},
 						{
-							"ID": "20221022171646-5edsozs",
+							"ID": "20221023232756-6knvu72",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022171646-5edsozs",
-								"updated": "20221022172025"
+								"id": "20221023232756-6knvu72",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
@@ -862,11 +1226,11 @@
 							]
 						},
 						{
-							"ID": "20221022172012-57euww4",
+							"ID": "20221023232756-yvox9wn",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022172012-57euww4",
-								"updated": "20221022172043"
+								"id": "20221023232756-yvox9wn",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
@@ -880,7 +1244,7 @@
 							]
 						},
 						{
-							"ID": "20221022165954-b97ls1s",
+							"ID": "20221023232756-eyy5nh2",
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
 							"CodeBlockFenceChar": 96,
@@ -889,8 +1253,8 @@
 							"CodeBlockInfo": "amF2YQ==",
 							"CodeBlockCloseFence": "YGBg",
 							"Properties": {
-								"id": "20221022165954-b97ls1s",
-								"updated": "20221022171141"
+								"id": "20221023232756-eyy5nh2",
+								"updated": "20221023234925"
 							},
 							"Children": [
 								{
@@ -910,7 +1274,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "private static final int DEFAULT_CAPACITY = 10;\nprivate static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};\n\npublic ArrayList() {\n    this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;\n}\n\npublic boolean add(E e) {\n    modCount++;\n    add(e, elementData, size);\n    return true;\n}\n\nprivate void add(E e, Object[] elementData, int s) {\n    if (s == elementData.length)\n        elementData = grow();\n    elementData[s] = e;\n    size = s + 1;\n}\n\nprivate Object[] grow() {\n    return grow(size + 1);\n}\n\nprivate Object[] grow(int minCapacity) {\n    int oldCapacity = elementData.length;\n    if (oldCapacity \u003e 0 || elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {\n        int newCapacity = ArraysSupport.newLength(oldCapacity,\n    \t    minCapacity - oldCapacity, /* minimum growth */\n            oldCapacity \u003e\u003e 1           /* preferred growth */);\n\treturn elementData = Arrays.copyOf(elementData, newCapacity);\n    } else {\n        return elementData = new Object[Math.max(DEFAULT_CAPACITY, minCapacity)];\n    }\n}\n",
+									"Data": " private static final int DEFAULT_CAPACITY = 10;\n private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};\n ​\n public ArrayList() {\n     this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;\n }\n ​\n public boolean add(E e) {\n     modCount++;\n     add(e, elementData, size);\n     return true;\n }\n ​\n private void add(E e, Object[] elementData, int s) {\n     if (s == elementData.length)\n         elementData = grow();\n     elementData[s] = e;\n     size = s + 1;\n }\n ​\n private Object[] grow() {\n     return grow(size + 1);\n }\n ​\n private Object[] grow(int minCapacity) {\n     int oldCapacity = elementData.length;\n     if (oldCapacity \u003e 0 || elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {\n         int newCapacity = ArraysSupport.newLength(oldCapacity,\n           minCapacity - oldCapacity, /* minimum growth */\n             oldCapacity \u003e\u003e 1           /* preferred growth */);\n   return elementData = Arrays.copyOf(elementData, newCapacity);\n     } else {\n         return elementData = new Object[Math.max(DEFAULT_CAPACITY, minCapacity)];\n     }\n }\n",
 									"Properties": {
 										"id": ""
 									}
@@ -926,31 +1290,14 @@
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20221022172808-cho66yv",
-			"Type": "NodeList",
-			"ListData": {
-				"Typ": 1,
-				"Start": 3,
-				"Delimiter": 46,
-				"Padding": 3,
-				"Marker": "Mw==",
-				"Num": 3
-			},
-			"Properties": {
-				"id": "20221022172808-cho66yv",
-				"updated": "20221022192047"
-			},
-			"Children": [
+				},
 				{
-					"ID": "20221022172811-csmyfva",
+					"ID": "20221023232756-2fixxof",
 					"Type": "NodeListItem",
 					"Data": "3",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
 						"Start": 3,
 						"Delimiter": 46,
 						"Padding": 3,
@@ -958,16 +1305,16 @@
 						"Num": 3
 					},
 					"Properties": {
-						"id": "20221022172811-csmyfva",
-						"updated": "20221022192047"
+						"id": "20221023232756-2fixxof",
+						"updated": "20221023234937"
 					},
 					"Children": [
 						{
-							"ID": "20221022172811-j16j2af",
+							"ID": "20221023232756-2pygn4o",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022172811-j16j2af",
-								"updated": "20221022183851"
+								"id": "20221023232756-2pygn4o",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
@@ -987,24 +1334,21 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 方法剖析",
+									"Data": "​​ 方法剖析",
 									"Properties": {
 										"id": ""
 									}
-								}
-							]
-						},
-						{
-							"ID": "20221022190704-np3uvlq",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20221022190704-np3uvlq",
-								"updated": "20221022192047"
-							},
-							"Children": [
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
 								{
 									"Type": "NodeText",
-									"Data": "在 JDK1.6 中，如果增加的元素个数超过了 10 个，那么 ArrayList 底层会生成一个数组，长度为原来数组的 ",
+									"Data": "**在 JDK1.6 中，如果增加的元素个数超过了 10 个，那么 ArrayList 底层会生成一个数组，长度为原来数组的 **",
 									"Properties": {
 										"id": ""
 									}
@@ -1042,7 +1386,7 @@
 							]
 						},
 						{
-							"ID": "20221022172812-58jg4oc",
+							"ID": "20221023232756-r2pwqv5",
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
 							"CodeBlockFenceChar": 96,
@@ -1051,8 +1395,8 @@
 							"CodeBlockInfo": "amF2YQ==",
 							"CodeBlockCloseFence": "YGBg",
 							"Properties": {
-								"id": "20221022172812-58jg4oc",
-								"updated": "20221022172843"
+								"id": "20221023232756-r2pwqv5",
+								"updated": "20221023234929"
 							},
 							"Children": [
 								{
@@ -1072,7 +1416,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "public boolean add(E e) {\n    ensureCapacity(size + 1);  // Increments modCount!!\n    elementData[size++] = e;\n    return true;\n}\n",
+									"Data": " public boolean add(E e) {\n     ensureCapacity(size + 1);  // Increments modCount!!\n     elementData[size++] = e;\n     return true;\n }\n",
 									"Properties": {
 										"id": ""
 									}
@@ -1088,24 +1432,25 @@
 							]
 						},
 						{
-							"ID": "20221022172850-dg64oq6",
+							"ID": "20221023232756-tqhkjtc",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022172850-dg64oq6",
-								"updated": "20221022172900"
+								"id": "20221023232756-tqhkjtc",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "不够扩展 1.5 倍",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
-									}
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "不够扩展 1.5 倍"
 								}
 							]
 						},
 						{
-							"ID": "20221022172918-27s7vwo",
+							"ID": "20221023232756-hk6w32c",
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
 							"CodeBlockFenceChar": 96,
@@ -1114,8 +1459,8 @@
 							"CodeBlockInfo": "amF2YQ==",
 							"CodeBlockCloseFence": "YGBg",
 							"Properties": {
-								"id": "20221022172918-27s7vwo",
-								"updated": "20221022172949"
+								"id": "20221023232756-hk6w32c",
+								"updated": "20221023234933"
 							},
 							"Children": [
 								{
@@ -1135,7 +1480,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "public void ensureCapacity(int minCapacity) {\n\tmodCount++;\n\tint oldCapacity = elementData.length;\n\tif (minCapacity \u003e oldCapacity) {\n\t    Object oldData[] = elementData;\n\t    int newCapacity = (oldCapacity * 3)/2 + 1;\n\t\t    if (newCapacity \u003c minCapacity)\n\t\tnewCapacity = minCapacity;\n\t        // minCapacity is usually close to size, so this is a win:\n\t        elementData = Arrays.copyOf(elementData, newCapacity);\n\t}\n}\n",
+									"Data": " public void ensureCapacity(int minCapacity) {\n   modCount++;\n   int oldCapacity = elementData.length;\n   if (minCapacity \u003e oldCapacity) {\n       Object oldData[] = elementData;\n       int newCapacity = (oldCapacity * 3)/2 + 1;\n         if (newCapacity \u003c minCapacity)\n     newCapacity = minCapacity;\n           // minCapacity is usually close to size, so this is a win:\n           elementData = Arrays.copyOf(elementData, newCapacity);\n   }\n }\n",
 									"Properties": {
 										"id": ""
 									}
@@ -1151,11 +1496,11 @@
 							]
 						},
 						{
-							"ID": "20221022180508-u0dz60q",
+							"ID": "20221023232756-yqld3bp",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022180508-u0dz60q",
-								"updated": "20221022183638"
+								"id": "20221023232756-yqld3bp",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
@@ -1218,28 +1563,29 @@
 							]
 						},
 						{
-							"ID": "20221022174435-8x7yb7r",
+							"ID": "20221023232756-ndkrvxb",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022174435-8x7yb7r",
-								"updated": "20221022174722"
+								"id": "20221023232756-ndkrvxb",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "注意：Java7 以后增长的方式更加优雅，是用 位运算 计算的，效率更高。",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
-									}
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "注意：Java7 以后增长的方式更加优雅，是用 位运算 计算的，效率更高。"
 								}
 							]
 						},
 						{
-							"ID": "20221022175705-k9dv22a",
+							"ID": "20221023232756-cbtwrq8",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022175705-k9dv22a",
-								"updated": "20221022175710"
+								"id": "20221023232756-cbtwrq8",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
@@ -1254,24 +1600,25 @@
 							]
 						},
 						{
-							"ID": "20221022175704-zupl0ru",
+							"ID": "20221023232756-02r8kxk",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022175704-zupl0ru",
-								"updated": "20221022175704"
+								"id": "20221023232756-02r8kxk",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "例如，Java17 的实现如下：",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
-									}
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "例如，Java17 的实现如下："
 								}
 							]
 						},
 						{
-							"ID": "20221022174633-x71k2qt",
+							"ID": "20221023232756-x4wbr0y",
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
 							"CodeBlockFenceChar": 96,
@@ -1280,8 +1627,8 @@
 							"CodeBlockInfo": "amF2YQ==",
 							"CodeBlockCloseFence": "YGBg",
 							"Properties": {
-								"id": "20221022174633-x71k2qt",
-								"updated": "20221022174636"
+								"id": "20221023232756-x4wbr0y",
+								"updated": "20221023234937"
 							},
 							"Children": [
 								{
@@ -1301,7 +1648,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "private Object[] grow(int minCapacity) {\n\tint oldCapacity = elementData.length;\n\tif (oldCapacity \u003e 0 || elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {\n\t\tint newCapacity = ArraysSupport.newLength(oldCapacity,\n\t\t\t\tminCapacity - oldCapacity, /* minimum growth */\n\t\t\t\toldCapacity \u003e\u003e 1           /* preferred growth */);\n\t\treturn elementData = Arrays.copyOf(elementData, newCapacity);\n\t} else {\n\t\treturn elementData = new Object[Math.max(DEFAULT_CAPACITY, minCapacity)];\n\t}\n}\n",
+									"Data": " private Object[] grow(int minCapacity) {\n   int oldCapacity = elementData.length;\n   if (oldCapacity \u003e 0 || elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {\n     int newCapacity = ArraysSupport.newLength(oldCapacity,\n         minCapacity - oldCapacity, /* minimum growth */\n         oldCapacity \u003e\u003e 1           /* preferred growth */);\n     return elementData = Arrays.copyOf(elementData, newCapacity);\n   } else {\n     return elementData = new Object[Math.max(DEFAULT_CAPACITY, minCapacity)];\n   }\n }\n",
 									"Properties": {
 										"id": ""
 									}
@@ -1317,19 +1664,20 @@
 							]
 						},
 						{
-							"ID": "20221022174847-amm3oy3",
+							"ID": "20221023232756-lp0ql71",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022174847-amm3oy3",
-								"updated": "20221022174858"
+								"id": "20221023232756-lp0ql71",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "在线版代码查看：",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
-									}
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "在线版代码查看："
 								},
 								{
 									"Type": "NodeTextMark",
@@ -1343,11 +1691,11 @@
 							]
 						},
 						{
-							"ID": "20221022180452-9vq7cx8",
+							"ID": "20221023232756-ux4ssld",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221022180452-9vq7cx8",
-								"updated": "20221022180454"
+								"id": "20221023232756-ux4ssld",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
@@ -1410,105 +1758,116 @@
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20221023132223-peyd18o",
-			"Type": "NodeList",
-			"ListData": {
-				"Typ": 1
-			},
-			"Properties": {
-				"id": "20221023132223-peyd18o",
-				"updated": "20221023194550"
-			},
-			"Children": [
+				},
 				{
-					"ID": "20221023132228-rterg8v",
+					"ID": "20221023232756-0fwst0l",
 					"Type": "NodeListItem",
+					"Data": "4",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
 						"Delimiter": 46,
-						"Marker": "NC4=",
+						"Padding": 3,
+						"Marker": "NA==",
 						"Num": 4
 					},
 					"Properties": {
-						"id": "20221023132228-rterg8v",
-						"updated": "20221023132228"
+						"id": "20221023232756-0fwst0l",
+						"updated": "20221023232756"
 					},
 					"Children": [
 						{
-							"ID": "20221023132228-60luy11",
+							"ID": "20221023232756-v91eksr",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221023132228-60luy11",
-								"updated": "20221023132840"
+								"id": "20221023232756-v91eksr",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "对于 ArrayList 元素的删除操作，需要将被删除元素的后续元素向前移动，代价较高。"
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "对于 ArrayList 元素的删除操作，需要将被删除元素的后续元素向前移动，代价较高。"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20221023132842-kcuyqjz",
+					"ID": "20221023232756-4onip5m",
 					"Type": "NodeListItem",
+					"Data": "5",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
 						"Delimiter": 46,
-						"Marker": "NS4=",
+						"Padding": 3,
+						"Marker": "NQ==",
 						"Num": 5
 					},
 					"Properties": {
-						"id": "20221023132842-kcuyqjz",
-						"updated": "20221023133120"
+						"id": "20221023232756-4onip5m",
+						"updated": "20221023232756"
 					},
 					"Children": [
 						{
-							"ID": "20221023132842-sawosh5",
+							"ID": "20221023232756-g1hpwx0",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221023132842-sawosh5",
-								"updated": "20221023133120"
+								"id": "20221023232756-g1hpwx0",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "集合当中只能防止对象的引用，无法放置原生数据类型，在 JDK1.5 以前，我们需要使用原生数据类型的包装类才能加入到集合当中。"
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "集合当中只能防止对象的引用，无法放置原生数据类型，在 JDK1.5 以前，我们需要使用原生数据类型的包装类才能加入到集合当中。"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20221023194319-q89e1bv",
+					"ID": "20221023232756-5be0frn",
 					"Type": "NodeListItem",
+					"Data": "6",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 6,
 						"Delimiter": 46,
-						"Marker": "Ni4=",
+						"Padding": 3,
+						"Marker": "Ng==",
 						"Num": 6
 					},
 					"Properties": {
-						"id": "20221023194319-q89e1bv",
-						"updated": "20221023194550"
+						"id": "20221023232756-5be0frn",
+						"updated": "20221023232756"
 					},
 					"Children": [
 						{
-							"ID": "20221023194319-9mawhz0",
+							"ID": "20221023232756-ybfyvho",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221023194319-9mawhz0",
-								"updated": "20221023194550"
+								"id": "20221023232756-ybfyvho",
+								"updated": "20221023232756"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "集合当中放置的都是  Object 类型， 因此取出来的也是 Object 类型，因此必须要使用强制类型转换将其转换为真正的类型（放置进去的类型）。"
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "集合当中放置的都是  Object 类型， 因此取出来的也是 Object 类型，因此必须要使用强制类型转换将其转换为真正的类型（放置进去的类型）。"
 								}
 							]
 						}
@@ -1517,12 +1876,12 @@
 			]
 		},
 		{
-			"ID": "20221022110818-r34cf6k",
+			"ID": "20221023232756-8gzf5i7",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221022110818-r34cf6k",
-				"updated": "20221022110828"
+				"id": "20221023232756-8gzf5i7",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
@@ -1542,28 +1901,29 @@
 			]
 		},
 		{
-			"ID": "20221022110828-4mc47iq",
+			"ID": "20221023232756-jfz1yfi",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022110828-4mc47iq",
-				"updated": "20221022110844"
+				"id": "20221023232756-jfz1yfi",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "eclipse 点击 project-\u003eGenerate javadoc",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "eclipse 点击 project-\u0026gt;Generate javadoc"
 				}
 			]
 		},
 		{
-			"ID": "20221022111010-ey5fo2h",
+			"ID": "20221023232756-3w26oil",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022111010-ey5fo2h",
-				"updated": "20221022111011"
+				"id": "20221023232756-3w26oil",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
@@ -1626,11 +1986,11 @@
 			]
 		},
 		{
-			"ID": "20221022111442-1udmhcs",
+			"ID": "20221023232756-4ybd5al",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022111442-1udmhcs",
-				"updated": "20221022111445"
+				"id": "20221023232756-4ybd5al",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
@@ -1644,50 +2004,52 @@
 			]
 		},
 		{
-			"ID": "20221022111442-t7i4pbs",
+			"ID": "20221023232756-udcs3jz",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022111442-t7i4pbs",
-				"updated": "20221022111442"
+				"id": "20221023232756-udcs3jz",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "给 javadoc.exe 加上编码参数就 OK。",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "给 javadoc.exe 加上编码参数就 OK。"
 				}
 			]
 		},
 		{
-			"ID": "20221022111442-5w6v6zq",
+			"ID": "20221023232756-xrxt1pn",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022111442-5w6v6zq",
-				"updated": "20221022111442"
+				"id": "20221023232756-xrxt1pn",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "具体的：",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "具体的："
 				}
 			]
 		},
 		{
-			"ID": "20221022111442-bqmkg0a",
+			"ID": "20221023232756-wj9n4ag",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022111442-bqmkg0a",
-				"updated": "20221022111507"
+				"id": "20221023232756-wj9n4ag",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "在 Eclipse 里 export 选 JavaDoc，在向导的最后一页的 ",
+					"Data": "**在 Eclipse 里 export 选 JavaDoc，在向导的最后一页的 **",
 					"Properties": {
 						"id": ""
 					}
@@ -1702,7 +2064,7 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "​ 里填上参数即可。",
+					"Data": "​​ 里填上参数即可。",
 					"Properties": {
 						"id": ""
 					}
@@ -1710,19 +2072,20 @@
 			]
 		},
 		{
-			"ID": "20221022111442-7y8cqvi",
+			"ID": "20221023232756-ye9noad",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022111442-7y8cqvi",
-				"updated": "20221022111457"
+				"id": "20221023232756-ye9noad",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "比如项目采用的是 UTF－8 的编码就填：",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "比如项目采用的是 UTF－8 的编码就填："
 				},
 				{
 					"Type": "NodeTextMark",
@@ -1734,7 +2097,7 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "​",
+					"Data": "​​",
 					"Properties": {
 						"id": ""
 					}
@@ -1742,11 +2105,11 @@
 			]
 		},
 		{
-			"ID": "20221022111457-mydknm1",
+			"ID": "20221023232756-ss6llx7",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022111457-mydknm1",
-				"updated": "20221022111635"
+				"id": "20221023232756-ss6llx7",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
@@ -1809,28 +2172,29 @@
 			]
 		},
 		{
-			"ID": "20221022111639-meog2e1",
+			"ID": "20221023232756-gvlxr42",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022111639-meog2e1",
-				"updated": "20221022111641"
+				"id": "20221023232756-gvlxr42",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "效果",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
-					}
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "效果"
 				}
 			]
 		},
 		{
-			"ID": "20221022111642-2tetyig",
+			"ID": "20221023232756-951gppj",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221022111642-2tetyig",
-				"updated": "20221022111908"
+				"id": "20221023232756-951gppj",
+				"updated": "20221023232756"
 			},
 			"Children": [
 				{

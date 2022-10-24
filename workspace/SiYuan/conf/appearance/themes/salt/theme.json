@@ -1,9 +1,0 @@
-{
-  "name": "salt",
-  "author": "Roy",
-  "url": "https://github.com/royc01/salt",
-  "version": "2.4.0",
-  "modes": [
-    "light"
-  ]
-}
