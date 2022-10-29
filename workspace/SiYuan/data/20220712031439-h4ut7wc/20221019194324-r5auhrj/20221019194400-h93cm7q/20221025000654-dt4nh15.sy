@@ -1,0 +1,277 @@
+{
+	"ID": "20221025000654-dt4nh15",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-conf-post-id": "16154625",
+		"custom-desc": "​action​会自动加上action​例如和效果一样。​test",
+		"custom-slug": "struts25-s-unique-features-and-strutspreparendexecute-filters-source-code-analysis-dmout",
+		"id": "20221025000654-dt4nh15",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221025000654-ihnx71x\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221025013930-kducz7d\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221025000654-ihnx71x\u0026quot;,\u0026quot;focusStart\u0026quot;:31,\u0026quot;focusEnd\u0026quot;:31}",
+		"title": "004.Struts2-5的独有特性与StrutsPrepareAndExecute过滤器源码分析",
+		"updated": "20221028183641"
+	},
+	"Children": [
+		{
+			"ID": "20221025000654-ihnx71x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025000654-ihnx71x",
+				"updated": "20221025013929"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "action"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 会自动加上 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": ".action"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ ，例如",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025013817-vve1uoi",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "aHRtbA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221025013817-vve1uoi",
+				"updated": "20221025013909"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cform action=\"login\"\u003e\n\u003c/form\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025013842-krwloiq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025013842-krwloiq",
+				"updated": "20221025013845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "和",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025013859-usdsqas",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "aHRtbA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221025013859-usdsqas",
+				"updated": "20221025013906"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cform action=\"login.action\"\u003e\n\u003c/form\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025013910-gpawtur",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025013910-gpawtur",
+				"updated": "20221025013913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "效果一样。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025013930-kducz7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025013930-kducz7d",
+				"updated": "20221025014019"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221025014003.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221028182637-m6cz2d1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028182637-m6cz2d1",
+				"updated": "20221028182644"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "test"
+				}
+			]
+		},
+		{
+			"ID": "20221028183641-kgfxhgf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028183641-kgfxhgf"
+			}
+		}
+	]
+}

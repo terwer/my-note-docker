@@ -4,11 +4,36 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20221021214151-gihyv7e",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221021214151-f1fs4m8\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221021221802-71kt17p\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221021215512-gw2i95w\u0026quot;,\u0026quot;focusStart\u0026quot;:42,\u0026quot;focusEnd\u0026quot;:42}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221025000916-1eh3bg7\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221021221802-71kt17p\u0026quot;,\u0026quot;scrollTop\u0026quot;:642,\u0026quot;focusId\u0026quot;:\u0026quot;20221025121149-2of4ly0\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "002.Eclipse相关工具下载",
-		"updated": "20221021221810"
+		"updated": "20221025144514"
 	},
 	"Children": [
+		{
+			"ID": "20221025000916-1eh3bg7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025000916-1eh3bg7",
+				"updated": "20221025121200"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "MyEclipse8.6",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
 		{
 			"ID": "20221021214151-f1fs4m8",
 			"Type": "NodeParagraph",
@@ -19,17 +44,264 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "MyEclipse8.6 下载地址：链接: "
+					"Data": "MyEclipse8.6 下载地址：链接: ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://pan.baidu.com/s/1XABCEUwg6NLNThgniAA1mQ",
 					"TextMarkTextContent": "https://pan.baidu.com/s/1XABCEUwg6NLNThgniAA1mQ"
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 提取码: b848"
+					"Data": " 提取码: b848",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025000929-6kjz1qo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025000929-6kjz1qo",
+				"updated": "20221025000935"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyEclipse8.6 破解",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025000936-md39q23",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221025000936-md39q23",
+				"updated": "20221025000938"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\nimport java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\n\npublic class MyEclipseGen {\n\tprivate static final String LL = \"Decompiling this copyrighted software is a violation of both your license agreement and the Digital Millenium Copyright Act of 1998 (http://www.loc.gov/copyright/legislation/dmca.pdf). Under section 1204 of the DMCA, penalties range up to a $500,000 fine or up to five years imprisonment for a first offense. Think about it; pay for a license, avoid prosecution, and feel better about yourself.\";\n\n\tpublic String getSerial(String userId, String licenseNum, String type) {\n\t\tjava.util.Calendar cal = java.util.Calendar.getInstance();\n\t\tcal.add(1, 3);\n\t\tcal.add(6, -1);\n\t\n\t\tjava.text.NumberFormat nf = new java.text.DecimalFormat(\"000\");\n\t\tlicenseNum = nf.format(Integer.valueOf(licenseNum));\n\t\tString verTime = new StringBuilder(\"-\").append(\n\t\t\t\tnew java.text.SimpleDateFormat(\"yyMMdd\").format(cal.getTime()))\n\t\t\t\t.append(\"0\").toString();\n\t\tString need = new StringBuilder(userId.substring(0, 1)).append(type)\n\t\t\t\t.append(\"300\").append(licenseNum).append(verTime).toString();\n\t\tString dx = new StringBuilder(need).append(LL).append(userId)\n\t\t\t\t.toString();\n\t\tint suf = this.decode(dx);\n\t\tString code = new StringBuilder(need).append(String.valueOf(suf))\n\t\t\t\t.toString();\n\t\treturn this.change(code);\n\t}\n\n\tprivate int decode(String s) {\n\t\tint i;\n\t\tchar[] ac;\n\t\tint j;\n\t\tint k;\n\t\ti = 0;\n\t\tac = s.toCharArray();\n\t\tj = 0;\n\t\tk = ac.length;\n\t\twhile (j \u003c k) {\n\t\t\ti = (31 * i) + ac[j];\n\t\t\tj++;\n\t\t}\n\t\treturn Math.abs(i);\n\t}\n\n\tprivate String change(String s) {\n\t\tbyte[] abyte0;\n\t\tchar[] ac;\n\t\tint i;\n\t\tint k;\n\t\tint j;\n\t\tabyte0 = s.getBytes();\n\t\tac = new char[s.length()];\n\t\ti = 0;\n\t\tk = abyte0.length;\n\t\twhile (i \u003c k) {\n\t\t\tj = abyte0[i];\n\t\t\tif ((j \u003e= 48) \u0026\u0026 (j \u003c= 57)) {\n\t\t\t\tj = (((j - 48) + 5) % 10) + 48;\n\t\t\t} else if ((j \u003e= 65) \u0026\u0026 (j \u003c= 90)) {\n\t\t\t\tj = (((j - 65) + 13) % 26) + 65;\n\t\t\t} else if ((j \u003e= 97) \u0026\u0026 (j \u003c= 122)) {\n\t\t\t\tj = (((j - 97) + 13) % 26) + 97;\n\t\t\t}\n\t\t\tac[i] = (char) j;\n\t\t\ti++;\n\t\t}\n\t\treturn String.valueOf(ac);\n\t}\n\n\tpublic MyEclipseGen() {\n\t\tsuper();\n\t}\n\n\tpublic static void main(String[] args) {\n\t\ttry {\n\t\t\t// MyEclipse Standard Subscription --------- YE2MY\n\t\t\t// MyEclipse Professional Subscription ---- YE3MP\n\t\t\t// MyEclipse Blue Subscription --------------- YE3MB\n\t\t\t// MyEclipse for Spring Subscription -------- YE3MS\n\t\t\tString type = \"YE3MB-\";\n\t\t    // String type = \"YE3MS-\";\n\t\t\tSystem.out.println(\"please input register name:\");\n\t\t\tBufferedReader reader = new BufferedReader(new InputStreamReader(\n\t\t\t\t\tSystem.in));\n\t\t\tString userId = null;\n\t\t\tuserId = reader.readLine();\n\t\t\tMyEclipseGen myeclipsegen = new MyEclipseGen();\n\t\t\tString res = myeclipsegen.getSerial(userId, \"5\", type);\n\t\t\tSystem.out.println(\"Serial:\" + res);\n\t\t\treader.readLine();\n\t\t} catch (IOException ex) {\n\t\t}\n\t}\n\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025121149-2of4ly0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025121149-2of4ly0",
+				"updated": "20221025143533"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "MyEclipse 2022.1",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025121419-m9eu5p2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025121419-m9eu5p2",
+				"updated": "20221025121424"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025121220-y2kjvdn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025121220-y2kjvdn",
+				"updated": "20221025121220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " 推荐直接到官网下载，不要去其他地方下载，避免一些被加载了病毒的安装包。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025121220-l2f6gwf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025121220-l2f6gwf",
+				"updated": "20221025121337"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "备用下载与破解包下载：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025121337-dez4g8f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025121337-dez4g8f",
+				"updated": "20221025144514"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链接: "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.baidu.com/s/1gPlSLEJa1jhpQhrvWhI3-g",
+					"TextMarkTextContent": "https://pan.baidu.com/s/1gPlSLEJa1jhpQhrvWhI3-g"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 提取码: xdfd"
+				}
+			]
+		},
+		{
+			"ID": "20221025121431-r3hmro0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025121431-r3hmro0",
+				"updated": "20221025121434"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "破解",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025143608-ise8qg0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025143608-ise8qg0",
+				"updated": "20221025143616"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解压查看 readme.txt",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025000922-i0d5k2r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025000922-i0d5k2r",
+				"updated": "20221025000927"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Eclipse",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -43,17 +315,26 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Eclipse helios：链接: "
+					"Data": "Eclipse helios：链接: ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://pan.baidu.com/s/1NoeSBflyGAzqR1hEUT0bTw",
 					"TextMarkTextContent": "https://pan.baidu.com/s/1NoeSBflyGAzqR1hEUT0bTw"
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 提取码: vyu8"
+					"Data": " 提取码: vyu8",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -61,7 +342,8 @@
 			"ID": "20221021221802-71kt17p",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221021221802-71kt17p"
+				"id": "20221021221802-71kt17p",
+				"updated": "20221021221802"
 			}
 		}
 	]

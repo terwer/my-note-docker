@@ -1,0 +1,21 @@
+{
+	"ID": "20221025095443-kz2xjc2",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221025095443-kz2xjc2",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221025095443-efei8m8\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221025095443-efei8m8\u0026quot;,\u0026quot;scrollTop\u0026quot;:0}",
+		"title": "007.版本控制",
+		"updated": "20221025095456"
+	},
+	"Children": [
+		{
+			"ID": "20221025095443-efei8m8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025095443-efei8m8",
+				"updated": "20221025095443"
+			}
+		}
+	]
+}

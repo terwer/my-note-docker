@@ -1,0 +1,177 @@
+{
+	"ID": "20221028160108-6nrhih7",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221028160108-6nrhih7",
+		"title": "2022-10-28-周报",
+		"updated": "20221028160108"
+	},
+	"Children": [
+		{
+			"ID": "20221028160108-d5sta54",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221028160108-d5sta54",
+				"updated": "20221021152436"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "迭代需求"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-uuvmed4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028160108-uuvmed4",
+				"updated": "20221021152340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172944【文档协同】知识助手增加按分类检索"
+				}
+			]
+		},
+		{
+			"ID": "20221028160133-k77dsub",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028160133-k77dsub",
+				"updated": "20221028160212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#172946【文档协同】PPT和excel写作时，提供知识助手功能，支持文本内容的引用和插入\t"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-tzsmi2k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221028160108-tzsmi2k",
+				"updated": "20221017172113"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目支持"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-njhg6f3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028160108-njhg6f3",
+				"updated": "20221028160154"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TCL项目POC开发"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-vx8hkjb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028160108-vx8hkjb",
+				"updated": "20221028160150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "维基导出图片问题"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-7c98i6i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221028160108-7c98i6i",
+				"updated": "20221021152244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务单"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-516nra4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028160108-516nra4",
+				"updated": "20221021152523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#176005【服务问题单】设置了必修课之后不会直接跳到下一阶段"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-t5qwt4e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221028160108-t5qwt4e",
+				"updated": "20221021152551"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日常缺陷"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-i2qoxim",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028160108-i2qoxim",
+				"updated": "20221021154248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#162434 【日常缺陷】【维基知识库】维基内表格存在合并单元格时，导出样式改变"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-i9kjc7e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028160108-i9kjc7e",
+				"updated": "20221021152639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#175698【日常缺陷】 【知识问答-修复】提问时，只写问题，点击提交失败，一直提示不能为空"
+				}
+			]
+		},
+		{
+			"ID": "20221028160108-4yky6bj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028160108-4yky6bj"
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "-js-custom",
+        "type": "js",
+        "enabled": true,
+        "content": "import('/widgets/custom.js');"
+    },
+    {
+        "name": "-css-custom",
+        "type": "css",
+        "enabled": false,
+        "content": "@import url('/widgets/custom.css');"
+    }
+]

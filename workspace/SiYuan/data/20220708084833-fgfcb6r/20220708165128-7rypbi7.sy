@@ -15,7 +15,7 @@
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220708165418-touu2bn\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220714164045-3dfwzfe\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220708165418-fa4xpue\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"tags": "平台,账号,身份证,网易,天涯,剑客,司机",
 		"title": "002.平台账号",
-		"updated": "20221023180539"
+		"updated": "20221028132905"
 	},
 	"Children": [
 		{
@@ -3349,12 +3349,26 @@
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20220708165418-85jium8",
-				"updated": "20220708165418"
+				"updated": "20221028132550"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Atlassian api token"
+					"Data": "Atlassian  api token"
+				}
+			]
+		},
+		{
+			"ID": "20221028132551-cfjgyre",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028132551-cfjgyre",
+				"updated": "20221028132553"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Confluence token"
 				}
 			]
 		},
@@ -3364,7 +3378,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20220708165418-ildstwc",
-				"updated": "20220708165418"
+				"updated": "20221028132547"
 			},
 			"Children": [
 				{
@@ -3376,7 +3390,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "VEm1KRuRjWyZwrciKudv59AD\n"
+					"Data": "9dHI9AVuoIJz4xrADI0UCCB3\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -3404,7 +3418,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20220708165418-x89zae1",
-				"updated": "20220708165418"
+				"updated": "20221028132604"
 			},
 			"Children": [
 				{
@@ -3417,7 +3431,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "curl -v https://youweics.atlassian.net --user youweics@163.com:VEm1KRuRjWyZwrciKudv59AD\n"
+					"Data": "curl -v https://youweics.atlassian.net --user youweics@163.com:9dHI9AVuoIJz4xrADI0UCCB3\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -3431,7 +3445,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20220708165418-4k3ne6c",
-				"updated": "20220708165418"
+				"updated": "20221028132607"
 			},
 			"Children": [
 				{
@@ -3444,11 +3458,65 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "curl -v https://youweics.atlassian.net/wiki/rest/api/content --user youweics@163.com:VEm1KRuRjWyZwrciKudv59AD\n"
+					"Data": "curl -v https://youweics.atlassian.net/wiki/rest/api/content --user youweics@163.com:9dHI9AVuoIJz4xrADI0UCCB3\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
 					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221028132611-2iqhu79",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028132611-2iqhu79",
+				"updated": "20221028132617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意旧的已失效"
+				}
+			]
+		},
+		{
+			"ID": "20221028132839-0x9bs7n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028132839-0x9bs7n",
+				"updated": "20221028132905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "token获取地址："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://id.atlassian.com/manage-profile/security/api-tokens",
+					"TextMarkTextContent": "https://id.atlassian.com/manage-profile/security/api-tokens"
+				}
+			]
+		},
+		{
+			"ID": "20221028132845-jjzfedb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028132845-jjzfedb",
+				"updated": "20221028132900"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文档："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/",
+					"TextMarkTextContent": "https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/"
 				}
 			]
 		},

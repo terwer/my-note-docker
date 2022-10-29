@@ -1,0 +1,156 @@
+{
+	"ID": "20221026003418-6az7vtr",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221026003418-6az7vtr",
+		"title": "001.Struts1.x简介",
+		"updated": "20221026005559"
+	},
+	"Children": [
+		{
+			"ID": "20221026003418-nuk1mbt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026003418-nuk1mbt",
+				"updated": "20221026003443"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "完整的学习视频",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026003443-vdgerlz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026003443-vdgerlz",
+				"updated": "20221026003447"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV16J411p7LK/?vd_source=5c240a719cf7c62eae82941c3b8c96c3",
+					"TextMarkTextContent": "https://www.bilibili.com/video/BV16J411p7LK/?vd_source=5c240a719cf7c62eae82941c3b8c96c3"
+				}
+			]
+		},
+		{
+			"ID": "20221026003503-mw1mpp9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026003503-mw1mpp9",
+				"updated": "20221026003752"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Struts1 由来",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026003752-74weztc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026003752-74weztc",
+				"updated": "20221026005425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "struts 是 Apache 在 2002 年发布的开源框架，是基于 MVC 实现的 WEB 框架。"
+				}
+			]
+		},
+		{
+			"ID": "20221026005456-4jytfpa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026005456-4jytfpa",
+				"updated": "20221026005503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作为对比："
+				}
+			]
+		},
+		{
+			"ID": "20221026005503-hpreuh9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221026005503-hpreuh9",
+				"updated": "20221026005559"
+			},
+			"Children": [
+				{
+					"ID": "20221026005505-w7pzx15",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221026005505-w7pzx15",
+						"updated": "20221026005559"
+					},
+					"Children": [
+						{
+							"ID": "20221026005505-5f6xmoc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221026005505-5f6xmoc",
+								"updated": "20221026005559"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "考虑一：如果使用标准的开发技术（JSP+Servlet+JavaBean）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221026005418-i2ikk1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026005418-i2ikk1r",
+				"updated": "20221026005418"
+			}
+		}
+	]
+}

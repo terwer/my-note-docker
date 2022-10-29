@@ -10,9 +10,10 @@
 		"custom-wordpress-post-id": "4345",
 		"custom-yuque-post-id": "97675855_terwer/note",
 		"id": "20221023200520-38xqvaf",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221023200520-tm5bp7v\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221024000442-yy4t95w\u0026quot;,\u0026quot;scrollTop\u0026quot;:3328,\u0026quot;focusId\u0026quot;:\u0026quot;20221024004601-tbx0rbj\u0026quot;,\u0026quot;focusStart\u0026quot;:62,\u0026quot;focusEnd\u0026quot;:62}",
 		"tags": "方法,元素,调用,集合,java,linkedlist,collection",
 		"title": "023.LinkedList源代码深入剖析",
-		"updated": "20221024010958"
+		"updated": "20221024004628"
 	},
 	"Children": [
 		{
@@ -3905,7 +3906,12 @@
 						{
 							"ID": "20221024000221-c2uak41",
 							"Type": "NodeList",
-							"ListData": {},
+							"ListData": {
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
 							"Properties": {
 								"id": "20221024000221-c2uak41",
 								"updated": "20221024010958"
@@ -3914,9 +3920,12 @@
 								{
 									"ID": "20221024000224-a768whg",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20221024000224-a768whg",
@@ -3933,16 +3942,25 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "​"
+													"Data": "​",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "Object removeFirst()"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​​"
+													"Data": "​​​",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -3951,9 +3969,13 @@
 								{
 									"ID": "20221024000238-bkttveh",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20221024000238-bkttveh",
@@ -3970,16 +3992,25 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "​"
+													"Data": "​",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "Object removeLast()"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​​"
+													"Data": "​​​",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -3988,9 +4019,13 @@
 								{
 									"ID": "20221024000356-gywo2w4",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20221024000356-gywo2w4",
@@ -4007,7 +4042,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "示例 1"
+													"Data": "示例 1",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										},
@@ -4015,6 +4053,11 @@
 											"ID": "20221024000413-q956fj7",
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
+											"CodeBlockFenceChar": 96,
+											"CodeBlockFenceLen": 3,
+											"CodeBlockOpenFence": "YGBg",
+											"CodeBlockInfo": "amF2YQ==",
+											"CodeBlockCloseFence": "YGBg",
 											"Properties": {
 												"id": "20221024000413-q956fj7",
 												"updated": "20221024000434"
@@ -4022,19 +4065,33 @@
 											"Children": [
 												{
 													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "amF2YQ=="
+													"CodeBlockInfo": "amF2YQ==",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "import java.util.LinkedList;\n\npublic class LinkedListTest1 {\n\n\tpublic static void main(String[] args) {\n\t\tLinkedList list = new LinkedList();\n\n\t\tlist.add(\"F\");\n\t\tlist.add(\"B\");\n\t\tlist.add(\"D\");\n\t\tlist.add(\"E\");\n\t\tlist.add(\"C\");\n\n\t\tlist.addLast(\"Z\");\n\t\tlist.addFirst(\"A\");\n\n\t\tlist.add(1, \"A2\");\n\n\t\tSystem.out.println(\"最初的集合：\" + list);\n\n\t\tlist.remove(\"F\");\n\t\tlist.remove(2);\n\n\t\tSystem.out.println(\"变化之后的集合：\" + list);\n\n\t\tObject value = list.get(2);\n\t\tlist.set(2, (String)value + \"changed\");\n\n\t\tSystem.out.println(\"最后的集合：\" + list);\n\n\t}\n}\n"
+													"Data": "import java.util.LinkedList;\n\npublic class LinkedListTest1 {\n\n\tpublic static void main(String[] args) {\n\t\tLinkedList list = new LinkedList();\n\n\t\tlist.add(\"F\");\n\t\tlist.add(\"B\");\n\t\tlist.add(\"D\");\n\t\tlist.add(\"E\");\n\t\tlist.add(\"C\");\n\n\t\tlist.addLast(\"Z\");\n\t\tlist.addFirst(\"A\");\n\n\t\tlist.add(1, \"A2\");\n\n\t\tSystem.out.println(\"最初的集合：\" + list);\n\n\t\tlist.remove(\"F\");\n\t\tlist.remove(2);\n\n\t\tSystem.out.println(\"变化之后的集合：\" + list);\n\n\t\tObject value = list.get(2);\n\t\tlist.set(2, (String)value + \"changed\");\n\n\t\tSystem.out.println(\"最后的集合：\" + list);\n\n\t}\n}\n",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										},
@@ -4048,43 +4105,70 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "因为 "
+													"Data": "因为 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "LinkedList"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 实现 "
+													"Data": "​​ 实现 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "List"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 接口，调用 "
+													"Data": "​​ 接口，调用 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "add(Object)"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 将项目追加到列表的尾部，如同 "
+													"Data": "​​ 将项目追加到列表的尾部，如同 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "addLast()"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 方法所做的那样。"
+													"Data": "​​ 方法所做的那样。",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										},
@@ -4098,34 +4182,55 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "使用 "
+													"Data": "使用 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "add()"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 方法的 "
+													"Data": "​​ 方法的 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "add(int, Object)"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 形式，插入项目到指定的位置，例如上面例子的 "
+													"Data": "​​ 形式，插入项目到指定的位置，例如上面例子的 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "add(1, \u0026quot;A2\u0026quot;)"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​"
+													"Data": "​​",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										},
@@ -4139,52 +4244,85 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "注意如何通过调用 "
+													"Data": "注意如何通过调用 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "get()"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 和 "
+													"Data": "​​ 和 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "set()"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 方法而使得 "
+													"Data": "​​ 方法而使得 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "LinkedList"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 中的第三个元素发生了改变。为了获得一个元素的当前值，通过 "
+													"Data": "​​ 中的第三个元素发生了改变。为了获得一个元素的当前值，通过 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "get()"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 方法传递存储元素的下标值。为了对这个下标位置赋一个新值，通过 "
+													"Data": "​​ 方法传递存储元素的下标值。为了对这个下标位置赋一个新值，通过 ",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
 													"TextMarkType": "code",
 													"TextMarkTextContent": "set()"
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​​ 传递对应的下标和新值。"
+													"Data": "​​ 传递对应的下标和新值。",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -4193,9 +4331,13 @@
 								{
 									"ID": "20221024010945-ak9a1fw",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20221024010945-ak9a1fw",
@@ -4212,7 +4354,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "运行结果"
+													"Data": "运行结果",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										},
@@ -4220,6 +4365,11 @@
 											"ID": "20221024010951-y0qx7i9",
 											"Type": "NodeCodeBlock",
 											"IsFencedCodeBlock": true,
+											"CodeBlockFenceChar": 96,
+											"CodeBlockFenceLen": 3,
+											"CodeBlockOpenFence": "YGBg",
+											"CodeBlockInfo": "cGxhaW50ZXh0",
+											"CodeBlockCloseFence": "YGBg",
 											"Properties": {
 												"id": "20221024010951-y0qx7i9",
 												"updated": "20221024010958"
@@ -4227,19 +4377,33 @@
 											"Children": [
 												{
 													"Type": "NodeCodeBlockFenceOpenMarker",
-													"Data": "```"
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeBlockFenceInfoMarker",
-													"CodeBlockInfo": "cGxhaW50ZXh0"
+													"CodeBlockInfo": "cGxhaW50ZXh0",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeBlockCode",
-													"Data": "最初的集合：[A, A2, F, B, D, E, C, Z]\n变化之后的集合：[A, A2, D, E, C, Z]\n最后的集合：[A, A2, Dchanged, E, C, Z]\n"
+													"Data": "最初的集合：[A, A2, F, B, D, E, C, Z]\n变化之后的集合：[A, A2, D, E, C, Z]\n最后的集合：[A, A2, Dchanged, E, C, Z]\n",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeBlockFenceCloseMarker",
-													"Data": "```"
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -4254,13 +4418,7 @@
 		{
 			"ID": "20221024000442-yy4t95w",
 			"Type": "NodeList",
-			"ListData": {
-				"Tight": true,
-				"BulletChar": 42,
-				"Padding": 2,
-				"Marker": "Kg==",
-				"Num": -1
-			},
+			"ListData": {},
 			"Properties": {
 				"id": "20221024000442-yy4t95w",
 				"updated": "20221024004628"
@@ -4269,13 +4427,9 @@
 				{
 					"ID": "20221024004532-ep2e5d2",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221024004532-ep2e5d2",
@@ -4291,19 +4445,17 @@
 							},
 							"Children": [
 								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "LinkedList "
 								},
 								{
 									"Type": "NodeText",
-									"Data": " ​是采用双向循环列表实现的。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​​ ​是采用双向循环列表实现的。"
 								}
 							]
 						}
@@ -4312,13 +4464,9 @@
 				{
 					"ID": "20221024004601-vsprsgm",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221024004601-vsprsgm",
@@ -4335,10 +4483,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "利用 LinkedList 实现栈(stack)、队列 (queue)、双向队列(double-ended queue )。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "利用 LinkedList 实现栈(stack)、队列 (queue)、双向队列(double-ended queue )。"
 								}
 							]
 						}

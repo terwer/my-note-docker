@@ -1,0 +1,431 @@
+{
+	"ID": "20221025144546-ndlwzmv",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221025144546-ndlwzmv",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221025144549-l342h4d\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221025175116-3udivkh\u0026quot;,\u0026quot;scrollTop\u0026quot;:1542,\u0026quot;focusId\u0026quot;:\u0026quot;20221025144549-l342h4d\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "003.使用MyEclipse2022-1搭建Struts2-5项目",
+		"updated": "20221025175116"
+	},
+	"Children": [
+		{
+			"ID": "20221025144549-l342h4d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025144549-l342h4d",
+				"updated": "20221025144549"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "MyEclipse 2022.1",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025144549-64g3cyg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025144549-64g3cyg",
+				"updated": "20221025144549"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025144549-bdo38b6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025144549-bdo38b6",
+				"updated": "20221025144549"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " 推荐直接到官网下载，不要去其他地方下载，避免一些被加载了病毒的安装包。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025144549-o3y7um6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025144549-o3y7um6",
+				"updated": "20221025144549"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "备用下载与破解包下载：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025144549-83tf49n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025144549-83tf49n",
+				"updated": "20221025145142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链接: ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.baidu.com/s/1gPlSLEJa1jhpQhrvWhI3-g",
+					"TextMarkTextContent": "https://pan.baidu.com/s/1gPlSLEJa1jhpQhrvWhI3-g"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 请发邮件至 youweics@163.com 获取提取码",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025144549-xddc0hi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025144549-xddc0hi",
+				"updated": "20221025144549"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "破解",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025144549-9zxucmq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025144549-9zxucmq",
+				"updated": "20221025144549"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解压查看 readme.txt",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025145049-u9djce4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025145049-u9djce4",
+				"updated": "20221025145101"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "搭建项目 struts2.5 项目",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025170754-mpmm58q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025170754-mpmm58q",
+				"updated": "20221025170758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.5.30 下载",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025170759-r5ddhu5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025170759-r5ddhu5",
+				"updated": "20221025170802"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://downloads.apache.org/struts/2.5.30/",
+					"TextMarkTextContent": "https://downloads.apache.org/struts/2.5.30/"
+				}
+			]
+		},
+		{
+			"ID": "20221025175041-809n73l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025175041-809n73l",
+				"updated": "20221025175105"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "备注：使用 Eclipse 2022.9 也可以。"
+				}
+			]
+		},
+		{
+			"ID": "20221025145102-dezepk9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025145102-dezepk9",
+				"updated": "20221025145118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考前一篇，本篇主要支出与 2.3 不一样的地方。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025171750-6jvxkwd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025171750-6jvxkwd",
+				"updated": "20221025171804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "struts2.5 的 parpare 和 execute 是两个 filter 了。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025171736-igzi0c9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025171736-igzi0c9",
+				"updated": "20221025171741"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "web.xml 调整",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025171742-msh1vlk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221025171742-msh1vlk",
+				"updated": "20221025171744"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cweb-app xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"http://xmlns.jcp.org/xml/ns/javaee\"\n\txsi:schemaLocation=\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\n\tid=\"struts2\" version=\"4.0\"\u003e\n\t\u003cdisplay-name\u003estruts2\u003c/display-name\u003e\n\n\t\u003cfilter\u003e\n\t\t\u003cfilter-name\u003estruts-prepare\u003c/filter-name\u003e\n\t\t\u003cfilter-class\u003eorg.apache.struts2.dispatcher.filter.StrutsPrepareFilter\u003c/filter-class\u003e\n\t\u003c/filter\u003e\n\n\t\u003cfilter\u003e\n\t\t\u003cfilter-name\u003estruts-execute\u003c/filter-name\u003e\n\t\t\u003cfilter-class\u003eorg.apache.struts2.dispatcher.filter.StrutsExecuteFilter\u003c/filter-class\u003e\n\t\u003c/filter\u003e\n\n\t\u003cfilter-mapping\u003e\n\t\t\u003cfilter-name\u003estruts-prepare\u003c/filter-name\u003e\n\t\t\u003curl-pattern\u003e/*\u003c/url-pattern\u003e\n\t\u003c/filter-mapping\u003e\n\n\t\u003cfilter-mapping\u003e\n\t\t\u003cfilter-name\u003estruts-execute\u003c/filter-name\u003e\n\t\t\u003curl-pattern\u003e/*\u003c/url-pattern\u003e\n\t\u003c/filter-mapping\u003e\n\n\u003c/web-app\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025174814-1rlwnvt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025174814-1rlwnvt",
+				"updated": "20221025174824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "依赖的 jar 包调整",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025174824-6t4yngf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cGxhaW50ZXh0",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221025174824-6t4yngf",
+				"updated": "20221025175015"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "commons-fileupload-1.4.jar\ncommons-io-2.6.jar\ncommons-lang3-3.8.1.jar\ncommons-logging-1.2.jar\nfreemarker-2.3.31.jar\njavassist-3.20.0-GA.jar\njcl-over-slf4j-1.7.6.jar\nlog4j-api-2.12.4.jar\nlog4j-core-2.12.4.jar\nlog4j-jcl-2.12.4.jar\nognl-3.1.29.jar\nslf4j-api-1.7.30.jar\nstruts2-core-2.5.30.jar\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025174830-j5ad0en",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025174830-j5ad0en",
+				"updated": "20221025174835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他的就一模一样了。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221025175116-3udivkh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025175116-3udivkh"
+			}
+		}
+	]
+}

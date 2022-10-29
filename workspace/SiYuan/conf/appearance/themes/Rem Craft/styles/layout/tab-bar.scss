@@ -158,14 +158,18 @@ $btn-w: get($component-size, "small");
     }
   }
 
+  // 解决分屏
   &:has(.layout__resize--lr) {
+    // 分屏后左侧页签栏
     > .fn__flex:first-child > [data-type="wnd"] > .fn__flex:first-child {
       right: 50vw;
     }
     > .layout__resize--lr + .fn__flex {
+      // 分屏后右侧页签栏
       > [data-type="wnd"] > .fn__flex:first-child {
         left: 50vw;
       }
+      // 分屏后右侧聚焦窗口页签栏
       > [data-type="wnd"].layout__wnd--active {
         > .fn__flex:first-child {
           z-index: 2;
@@ -174,15 +178,16 @@ $btn-w: get($component-size, "small");
     }
   }
 
-  .item {
-    -webkit-app-region: no-drag;
-    &--readonly {
-      -webkit-app-region: drag;
-      .item__close {
-        -webkit-app-region: no-drag;
-      }
-    }
-  }
+  // 解决拖拽
+  // .item {
+  //   -webkit-app-region: no-drag;
+  //   &--readonly {
+  //     -webkit-app-region: drag;
+  //     .item__close {
+  //       -webkit-app-region: no-drag;
+  //     }
+  //   }
+  // }
 
   .layout-tab-bar {
     height: top-bar.$bar-h !important;
@@ -192,6 +197,7 @@ $btn-w: get($component-size, "small");
 
     &--readonly {
       min-width: $btn-w * 2 + $fn-space * 3 + $interval * 2 + 2px;
+      -webkit-app-region: drag;
     }
 
     .item {
@@ -273,6 +279,7 @@ $btn-w: get($component-size, "small");
 
         .item__close {
           @include item("base", $important: true);
+          -webkit-app-region: no-drag;
         }
       }
     }

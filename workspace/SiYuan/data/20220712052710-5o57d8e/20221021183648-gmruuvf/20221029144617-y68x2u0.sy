@@ -1,0 +1,218 @@
+{
+	"ID": "20221029144617-y68x2u0",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221029144617-y68x2u0",
+		"title": "074.",
+		"updated": "20221029144744"
+	},
+	"Children": [
+		{
+			"ID": "20221029144625-u246t6z",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221029144625-u246t6z",
+				"updated": "20221029144635"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "brew install gedit\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221029144637-n6xw598",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144637-n6xw598",
+				"updated": "20221029144649"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "报错1："
+				}
+			]
+		},
+		{
+			"ID": "20221029144649-pnivxzo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221029144649-pnivxzo",
+				"updated": "20221029144702"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Error: No such file or directory @ rb_sysopen - /Users/terwer/Library/Caches/Homebrew/downloads/1828f89cde7cb4dd64753500541abb7eeeddc46f439fa952e180e48a693baef0--gsettings-desktop-schemas-42.0.monterey.bottle.tar.gz\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221029144637-afly1wg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144637-afly1wg",
+				"updated": "20221029144704"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决"
+				}
+			]
+		},
+		{
+			"ID": "20221029144704-yfm1x49",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221029144704-yfm1x49",
+				"updated": "20221029144706"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "➜  ~ brew install ca-certificates\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221029144708-ygivbkm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144708-ygivbkm",
+				"updated": "20221029144711"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "报错2："
+				}
+			]
+		},
+		{
+			"ID": "20221029144711-9xlfky1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221029144711-9xlfky1",
+				"updated": "20221029144720"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Error: Your Xcode (14.0.1) is too outdated.\nPlease update to Xcode 14.1 (or delete it).\nXcode can be updated from the App Store.\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221029144722-8321th8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144722-8321th8",
+				"updated": "20221029144727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "按下面的方式解决"
+				}
+			]
+		},
+		{
+			"ID": "20221029144617-snqw60u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144617-snqw60u",
+				"updated": "20221029144622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://github.com/orgs/Homebrew/discussions/3822#discussioncomment-3965318"
+				}
+			]
+		},
+		{
+			"ID": "20221029144740-hz1do49",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144740-hz1do49",
+				"updated": "20221029144743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考："
+				}
+			]
+		},
+		{
+			"ID": "20221029144743-p2jw3gy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144743-p2jw3gy",
+				"updated": "20221029144744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://github.com/orgs/Homebrew/discussions/3822"
+				}
+			]
+		}
+	]
+}

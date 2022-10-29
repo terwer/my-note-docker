@@ -1,0 +1,27 @@
+.protyle-background:has(.protyle-background__icon.fn__none) {min-height: 57px !important;}
+.protyle-title{margin-left:64px !important;margin-right:16px !important;}
+.protyle-wysiwyg{padding-left:64px !important;padding-right:16px !important;}
+
+.b3-typography .code-block .protyle-action .protyle-action__language,
+.protyle-wysiwyg .code-block .protyle-action .protyle-action__language{
+    opacity: 1 !important;
+}
+.b3-typography .code-block .protyle-action .protyle-icon,
+.protyle-wysiwyg .code-block .protyle-action .protyle-icon{
+	/* copy按钮不调整 */
+}
+.b3-typography .hljs, .protyle-wysiwyg .hljs{
+	padding-left: 14px !important;
+	padding-bottom: 14px !important;
+}
+
+.b3-typography div.hljs, .protyle-wysiwyg div.hljs {
+    tab-size: 4 !important;
+}
+
+/* Sofill- */
+/*span[data-type=code] {
+	color: white !important;
+    background-color: var(--b3-theme-primary) !important;
+}
+*/

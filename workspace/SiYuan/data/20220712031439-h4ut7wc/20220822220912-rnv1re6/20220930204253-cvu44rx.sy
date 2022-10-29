@@ -10,10 +10,10 @@
 		"custom-wordpress-post-id": "4304",
 		"custom-yuque-post-id": "96955751_terwer/note",
 		"id": "20220930204253-cvu44rx",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220930205117-pkv79m8\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220930205117-pkv79m8\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220930205121-y29jrks\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220930205121-y29jrks\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221011210622-677izzv\u0026quot;,\u0026quot;scrollTop\u0026quot;:2515,\u0026quot;focusId\u0026quot;:\u0026quot;20221011205446-hv7tbsl\u0026quot;,\u0026quot;focusStart\u0026quot;:4,\u0026quot;focusEnd\u0026quot;:4}",
 		"tags": "接口,方法,成员,变量,声明",
 		"title": "014.Java_SE_Lesson_3：接口、单例模式、包与访问控制",
-		"updated": "20221011215559"
+		"updated": "20221024131519"
 	},
 	"Children": [
 		{
@@ -1053,7 +1053,7 @@
 			},
 			"Properties": {
 				"id": "20221011205339-oq1acyr",
-				"updated": "20221011215559"
+				"updated": "20221024131519"
 			},
 			"Children": [
 				{
@@ -1070,7 +1070,7 @@
 					},
 					"Properties": {
 						"id": "20221011205341-i106gbo",
-						"updated": "20221011205401"
+						"updated": "20221024131519"
 					},
 					"Children": [
 						{
@@ -1119,45 +1119,26 @@
 							"ID": "20221011205446-hv7tbsl",
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
-							"CodeBlockFenceChar": 96,
-							"CodeBlockFenceLen": 3,
-							"CodeBlockOpenFence": "YGBg",
-							"CodeBlockInfo": "amF2YQ==",
-							"CodeBlockCloseFence": "YGBg",
 							"Properties": {
 								"id": "20221011205446-hv7tbsl",
-								"updated": "20221011205452"
+								"updated": "20221024131519"
 							},
 							"Children": [
 								{
 									"Type": "NodeCodeBlockFenceOpenMarker",
-									"Data": "```",
-									"CodeBlockFenceLen": 3,
-									"Properties": {
-										"id": ""
-									}
+									"Data": "```"
 								},
 								{
 									"Type": "NodeCodeBlockFenceInfoMarker",
-									"CodeBlockInfo": "amF2YQ==",
-									"Properties": {
-										"id": ""
-									}
+									"CodeBlockInfo": "amF2YQ=="
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "import aa.bb.*;\nimport aa.bb.cc,*;\n",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "import aa.bb.*;\nimport aa.bb.cc,*;\n"
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",
-									"Data": "```",
-									"CodeBlockFenceLen": 3,
-									"Properties": {
-										"id": ""
-									}
+									"Data": "```"
 								}
 							]
 						}

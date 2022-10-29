@@ -1,0 +1,20 @@
+{
+	"ID": "20221028172626-9q0sw8u",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221028172626-9q0sw8u",
+		"title": "006.WPS相关配置",
+		"updated": "20221028172634"
+	},
+	"Children": [
+		{
+			"ID": "20221028172626-kg5gus2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221028172626-kg5gus2",
+				"updated": "20221028172626"
+			}
+		}
+	]
+}

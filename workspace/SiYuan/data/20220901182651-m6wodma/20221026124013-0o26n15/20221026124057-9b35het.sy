@@ -1,0 +1,724 @@
+{
+	"ID": "20221026124057-9b35het",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16827967",
+		"custom-desc": "起因近期git更新了最新的版本好多小伙伴突然发现无法访问服务器。gitpull的时候命令行会提示git@gitxxxxxcom_permissiondenied(publickeygssapikeyexgssapiwithmicpassword)莫名的提示我还以为git版本有问题。注意_mac​更新到ventura​​也会有此问题。因为git​随着系统升级到了​。➜sshcd~➜~➜~gitversiongitversion(applegit)原因git版本集成了最新的opensshvp版本此版本放弃了历",
+		"custom-slug": "git-2342-permission-denied-after-upgrade",
+		"custom-vuepress-slug": "docs/006.开发流程/002.开发效率/007.git_2_34_1访问服务器报Permission-denied(publickey).md",
+		"custom-wordpress-post-id": "4349",
+		"custom-yuque-post-id": "98122002_terwer/note",
+		"id": "20221026124057-9b35het",
+		"tags": "版本,算法,密钥,支持,服务器,git,permission,deny",
+		"title": "007.git-2_34_1访问服务器报Permission-denied(publickey)",
+		"updated": "20221026130838"
+	},
+	"Children": [
+		{
+			"ID": "20221026124358-2sidmz6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026124358-2sidmz6",
+				"updated": "20221026124358"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "起因",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-py5xcg3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-py5xcg3",
+				"updated": "20221026124717"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "近期 git 更新了最新的 2.34.1 版本，好多小伙伴突然发现无法访问服务器。"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-976lvfw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-976lvfw",
+				"updated": "20221026124720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git pull 的时候命令行会提示"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-77xoia2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cGxhaW50ZXh0",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221026124358-77xoia2",
+				"updated": "20221026124416"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " git@git.xxxxx.com:  Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-8hvye1k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-8hvye1k",
+				"updated": "20221026124722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "莫名的提示，我还以为 git 版本有问题。"
+				}
+			]
+		},
+		{
+			"ID": "20221026130700-qbkb0e9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026130700-qbkb0e9",
+				"updated": "20221026130838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Mac"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 更新到 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Ventura"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "13.0"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 也会有此问题。因为 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 随着系统升级到了 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "2.32.1"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 。"
+				}
+			]
+		},
+		{
+			"ID": "20221026130754-mir87t9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221026130754-mir87t9",
+				"updated": "20221026130810"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "➜  .ssh cd ~/\n➜  ~\n➜  ~ git --version\ngit version 2.32.1 (Apple Git-133)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-y2qe6l2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026124358-y2qe6l2",
+				"updated": "20221026124358"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "原因",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-n72i25p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-n72i25p",
+				"updated": "20221026124727"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "GIT 2.33.1 版本集成了最新的 OpenSSH v8.8p1 版本，此版本放弃了历史相当悠久的 rsa-sha1 的支持。"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 当我们习惯于用命令行"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-5i8m4l2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221026124358-5i8m4l2",
+				"updated": "20221026124420"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " ssh-keygen -t rsa -C \"your_email@example.com\"\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-2lskvfu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-2lskvfu",
+				"updated": "20221026124733"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来创建密钥的时候，要小心了，以后不再支持。"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-vzoydza",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-vzoydza",
+				"updated": "20221026124741"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SHA-1 哈希算法，此前被发现构造前缀碰撞攻击成本已降至低于 5 万美元（实际为 4.5 万美元），因此 OpenSSH 开发团队决定从 8.2 版本禁用 ssh-rsa 公钥签名算法。有一些更好的算法可以替代，包括 RFC8332 RSA SHA-2 签名算法 rsa-sha2-256/512、ssh-ed25519 签名算法与 RFC5656 ECDSA 算法。目前这些算法在 OpenSSH 中都已经支持。"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-gn8gxp0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-gn8gxp0",
+				"updated": "20221026124743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "值得注意的是，一般情况下，如果服务器 OpenSSH 版本大于等于 7.2 ，那么已经支持 ssh-rsa2-256/512 ，用户无需做额外的处理。但是如果服务器版本仍然比较低，就需要更换密钥。"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-xlo7rs6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026124358-xlo7rs6",
+				"updated": "20221026124358"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "解决方法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-y8qeqyd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221026124358-y8qeqyd",
+				"updated": "20221026124358"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "方法 1",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-n0rswfj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-n0rswfj",
+				"updated": "20221026124858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果你急需访问仓库，而暂时不想修改密钥，可以 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "在密钥所在的 .ssh 目录下的 config 文件（没有的话自行创建）添加如下配置即可访问。"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-a9w5doo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cGxhaW50ZXh0",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221026124358-a9w5doo",
+				"updated": "20221026124432"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " Host git.xxx.com\n HostkeyAlgorithms +ssh-rsa \n PubkeyAcceptedAlgorithms +ssh-rsa\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-lxxr121",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-lxxr121",
+				"updated": "20221026124754"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改后的配置"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-6olty0o",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221026124358-6olty0o",
+				"updated": "20221026124459"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " Host git.xxx.com\n   PreferredAuthentications publickey\n   IdentityFile ~/.ssh/id_rsa_mac\n   HostkeyAlgorithms +ssh-rsa\n   PubkeyAcceptedAlgorithms +ssh-rsa\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-726e5h1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221026124358-726e5h1",
+				"updated": "20221026124358"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "方法 2",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-j535md0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-j535md0",
+				"updated": "20221026124807"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "重新生成更安全的密钥"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。 在生成之前，要确定服务器是否支持相应的密钥加密算法。 使用 ECDSA 或者 ED25519 算法替代 RSA 以一个不错的选择"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-xyntc4w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221026124358-xyntc4w",
+				"updated": "20221026124439"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " ssh-keygen -t ed25519 -C \"your@example.email\"\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-zeunmu1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-zeunmu1",
+				"updated": "20221026124812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考文章"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-hz465sp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-hz465sp",
+				"updated": "20221026124510"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://confluence.atlassian.com/bitbucketserverkb/ssh-rsa-key-rejected-with-message-no-mutual-signature-algorithm-1026057701.html",
+					"TextMarkTextContent": "https://confluence.atlassian.com/bitbucketserverkb/ssh-rsa-key-rejected-with-message-no-mutual-signature-algorithm-1026057701.html"
+				}
+			]
+		},
+		{
+			"ID": "20221026124511-s22ry65",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124511-s22ry65"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://git-scm.com/docs/gitfaq#_credentials",
+					"TextMarkTextContent": "https://git-scm.com/docs/gitfaq#_credentials"
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-c33bb0q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221026124358-c33bb0q",
+				"updated": "20221026124358"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "方法 3",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026124358-rnr5lar",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026124358-rnr5lar",
+				"updated": "20221026124451"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "回滚 git 到 2.32 版本。"
+				}
+			]
+		},
+		{
+			"ID": "20221026130622-r12vnsn",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20221026130622-r12vnsn",
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20221026130653"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20221026130622-ufrarif",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221026130622-ufrarif",
+						"updated": "20221026130628"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "文章更新历史\n2022-08-30 feat:初稿。"
+						}
+					]
+				},
+				{
+					"ID": "20221026130629-gzihju1",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221026130629-gzihju1",
+						"updated": "20221026130653"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "2022-10-26 feat:新增Mac更新场景。"
+						}
+					]
+				}
+			]
+		}
+	]
+}

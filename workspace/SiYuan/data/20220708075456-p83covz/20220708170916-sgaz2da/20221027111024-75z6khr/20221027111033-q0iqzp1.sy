@@ -1,0 +1,82 @@
+{
+	"ID": "20221027111033-q0iqzp1",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221027111033-q0iqzp1",
+		"title": "001.记录一次url基本地址获取异常",
+		"updated": "20221027112154"
+	},
+	"Children": [
+		{
+			"ID": "20221027111033-dx85ffe",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221027111033-dx85ffe",
+				"updated": "20221027111042"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 用这个或者直接取admin.do的配置，建议还是获取admin.do配置好一些\n// String basePath = request.getScheme() + \"://\" + request.getServerName() + \":\" + request.getServerPort();\n// if ((request.getServerPort() == 80) || (request.getServerPort() == 443)) {\n//     basePath = request.getScheme() + \"://\" + request.getServerName();\n// }\nString basePath = ResourceUtil.getKmssConfigString(\"kmss.urlPrefix\") ;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221027111104-5rbv8u2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221027111104-5rbv8u2",
+				"updated": "20221027111119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "某些企业为了安全带了 80 端口地址会被禁止，导致图片访问不了，直接取 admin.do 是最好的方案。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221027112154-ge4d4t0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221027112154-ge4d4t0"
+			}
+		}
+	]
+}

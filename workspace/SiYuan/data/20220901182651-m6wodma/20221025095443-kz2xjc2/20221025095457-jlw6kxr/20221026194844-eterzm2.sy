@@ -1,0 +1,838 @@
+{
+	"ID": "20221026194844-eterzm2",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221026194844-eterzm2",
+		"title": "002.创建本地SVN版本库以及将SVN导入GIT",
+		"updated": "20221026195907"
+	},
+	"Children": [
+		{
+			"ID": "20221026195212-aygu0bb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026195212-aygu0bb",
+				"updated": "20221026195212"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "创建本地 SVN",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-zpfwlu1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-zpfwlu1",
+				"updated": "20221026195256"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通常 SVN 作为一种服务，是在服务器上架设，供用户通过网络访问使用。但如果只是自己日常使用，完全可以架设在本机上，不需要启动后台程序，通过文件的方式访问即可。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-5fvys44",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-5fvys44",
+				"updated": "20221026195258"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "建立本地 SVN 非常简单，一行命令即可：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-noj5tok",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221026195212-noj5tok",
+				"updated": "20221026195217"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " TerwerdeMac-Pro:~ terwer$ cd Documents     \n TerwerdeMac-Pro:Documents terwer$ mkdir repos     \n TerwerdeMac-Pro:Documents terwer$ cd repos     \n TerwerdeMac-Pro:repos terwer$ pwd     \n /Users/terwer/Documents/repos\n TerwerdeMac-Pro:repos terwer$ svnadmin create /Users/terwer/Documents/repos\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-fixjwqp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026195212-fixjwqp",
+				"updated": "20221026195212"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "导入项目到 SVN 库",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-2t3i232",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-2t3i232",
+				"updated": "20221026195504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要导入一个项目时："
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-oxiko0h",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221026195212-oxiko0h",
+				"updated": "20221026195331"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " svn import /Users/terwer/Documents/iOSWorkplace/test file:///Users/terwer/Documents/repos\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-2iav8jx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-2iav8jx",
+				"updated": "20221026195501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者导入到远程SVN"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-yd1mq5b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221026195212-yd1mq5b",
+				"updated": "20221026195418"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " svn import /Users/terwer/Documents/iOSWorkplace/test  http://192.168.1.103:81/svn/xxx/project --username=terwer --password=123456 -m \"Init commit\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-n8l27us",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-n8l27us",
+				"updated": "20221026195457"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意要使用绝对路径。"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-nuj5a47",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-nuj5a47",
+				"updated": "20221026195455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果出现 vi 错误，执行下面的命令即可："
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-eebx8gq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221026195212-eebx8gq",
+				"updated": "20221026195229"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " export SVN_EDITOR=vi\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-nsor1pl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026195212-nsor1pl",
+				"updated": "20221026195212"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "使用 GIT 检出项目",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-4hpgi0i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-4hpgi0i",
+				"updated": "20221026195525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "checkout这个项目时： "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "\u0026lt;span data-type=\u0026quot;strong\u0026quot;\u0026gt;git svn clone file:///Users/terwer/Documents/repos\u0026lt;/span\u0026gt; "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "或者"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git svn clone http://192.168.1.103:81/svn/yflcpt/YFStockiOS"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 这时候，可能出现错误："
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-601z3at",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cGxhaW50ZXh0",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221026195212-601z3at",
+				"updated": "20221026195233"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " Can’t locate SVN/Core.pm in @INC (you may need to install the SVN::Core module)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-rhai0u3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-rhai0u3",
+				"updated": "20221026195807"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "大致意思是 Perl 的 SVN 没有正确和 Xcode 中的 SVN 链接起来（升级完 Yosemite 之后可能出现的问题）。我的本地环境 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "MAC OS X Yosemite 10.10.5 (14F27)"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​。链接完后提示另一个错误："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Can’t locate loadable object for module SVN::_Core in @INC"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​。这说明其它组件没有被正确加载，执行另一条链接命令。具体命令如下："
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-h304x79",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221026195212-h304x79",
+				"updated": "20221026195742"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " sudo ln -s /Applications/Xcode.app/Contents/Developer/Library/Perl/5.18/darwin-thread-multi-2level/SVN /System/Library/Perl/Extras/5.18/SVN\n sudo ln -s /Applications/Xcode.app/Contents/Developer/Library/Perl/5.18/darwin-thread-multi-2level/auto/SVN/ /System/Library/Perl/Extras/5.18/auto/SVN\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-xh6tta7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-xh6tta7",
+				"updated": "20221026195543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "重要更新"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-pagai3v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-pagai3v",
+				"updated": "20221026195907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于 OS X EI Capitan，上面方案还是不行，如果提示你找不到相关的原始文件，需要安装下command line tool，通过命令："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "xcode-select --install"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 即可安装。"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-ygktwwa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221026195212-ygktwwa",
+				"updated": "20221026195212"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "添加远程 GIT 地址",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-restg9c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-restg9c",
+				"updated": "20221026195558"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "给本地仓库添加远程地址"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-gxeul6y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221026195212-gxeul6y",
+				"updated": "20221026195733"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " git remote add origin https://git.oschina.net/terwergreen/project.git\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-hvpp081",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221026195212-hvpp081",
+				"updated": "20221026195212"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "设置 origin master 为默认分支",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-4lmqj2i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221026195212-4lmqj2i",
+				"updated": "20221026195249"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " git push --set-upstream origin master\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-2lnjraz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-2lnjraz",
+				"updated": "20221026195603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果设置了上面的，以后直接 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git push"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ ​即可，强制推送可以用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git push --force"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-7dqumew",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221026195212-7dqumew",
+				"updated": "20221026195212"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "用 GIT 操作版本库",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-uvqt2xo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-uvqt2xo",
+				"updated": "20221026195608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开始push，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git push origin master"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-t8zvkuj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-t8zvkuj",
+				"updated": "20221026195615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果 svnproject 中有更新，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git svn fetch"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-gpb1j3y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-gpb1j3y",
+				"updated": "20221026195705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后合并 git-svn 分支到 master 上，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git merge master git-svn"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-pkyr8t6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-pkyr8t6",
+				"updated": "20221026195621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接着，提交，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git add ."
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-588mjta",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-588mjta",
+				"updated": "20221026195624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在接着，提交，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git commit -m\u0026quot;Commit message\u0026quot;"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20221026195212-jjbz85x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026195212-jjbz85x",
+				"updated": "20221026195627"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最后 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "git push origin master"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		}
+	]
+}

@@ -10,10 +10,10 @@
 		"custom-wordpress-post-id": "4326",
 		"custom-yuque-post-id": "97542732_terwer/note",
 		"id": "20221021222848-vlyagor",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221023232622-4xs4dn7\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221023232632-jsizakq\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221023232632-jsizakq\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221023232756-jc1diod\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221023232756-951gppj\u0026quot;,\u0026quot;scrollTop\u0026quot;:89,\u0026quot;focusId\u0026quot;:\u0026quot;20221023232756-xdqn059\u0026quot;,\u0026quot;focusStart\u0026quot;:157,\u0026quot;focusEnd\u0026quot;:157}",
 		"tags": "结果,包装,操作,转换,基本,arraylist,deep,analysis",
 		"title": "022.ArrayList深入分析",
-		"updated": "20221023235237"
+		"updated": "20221024131713"
 	},
 	"Children": [
 		{
@@ -107,45 +107,26 @@
 			"ID": "20221023232756-zo4gb8w",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
-			"CodeBlockFenceChar": 96,
-			"CodeBlockFenceLen": 3,
-			"CodeBlockOpenFence": "YGBg",
-			"CodeBlockInfo": "amF2YQ==",
-			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20221023232756-zo4gb8w",
-				"updated": "20221023232808"
+				"updated": "20221024131538"
 			},
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "amF2YQ==",
-					"Properties": {
-						"id": ""
-					}
+					"CodeBlockInfo": "amF2YQ=="
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": " public class ArrayListTest1 {\n   public static void main(String[] args) {\n     ArrayList arrayList = new ArrayList();\n     arrayList.add(\"hello\");\n     arrayList.add(\"world\");\n     arrayList.add(\"world\");\n     arrayList.add(\"welcome\");\n ​\n     String s1 = (String) arrayList.get(0);\n     String s2 = (String) arrayList.get(1);\n     String s3 = (String) arrayList.get(2);\n     String s4 = (String) arrayList.get(3);\n ​\n     System.out.println(s1);\n     System.out.println(s2);\n     System.out.println(s3);\n     System.out.println(s4);\n ​\n     System.out.println(\"-------------\");\n     for (int i = 0; i \u003c arrayList.size(); i++) {\n       System.out.println(arrayList.get(i));\n     }\n ​\n     // arrayList.clear();\n     // System.out.println(arrayList.size());\n     // System.out.println(arrayList.isEmpty());\n ​\n     arrayList.remove(0);\n ​\n     System.out.println(\"-------------\");\n     for (int i = 0; i \u003c arrayList.size(); i++) {\n       System.out.println(arrayList.get(i));\n     }\n ​\n     arrayList.remove(\"welcome\");\n     System.out.println(\"-------------\");\n     for (int i = 0; i \u003c arrayList.size(); i++) {\n       System.out.println(arrayList.get(i));\n     }\n ​\n     System.out.println(\"-----------------\");\n ​\n     arrayList.add(\"aaa\");\n     arrayList.add(\"bbb\");\n ​\n     System.out.println(arrayList.indexOf(\"world\"));\n     System.out.println(arrayList.lastIndexOf(\"world\"));\n     System.out.println(arrayList.indexOf(\"aaa\"));\n   }\n }\n",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "public class ArrayListTest1 {\n   public static void main(String[] args) {\n     ArrayList arrayList = new ArrayList();\n     arrayList.add(\"hello\");\n     arrayList.add(\"world\");\n     arrayList.add(\"world\");\n     arrayList.add(\"welcome\");\n \n     String s1 = (String) arrayList.get(0);\n     String s2 = (String) arrayList.get(1);\n     String s3 = (String) arrayList.get(2);\n     String s4 = (String) arrayList.get(3);\n \n     System.out.println(s1);\n     System.out.println(s2);\n     System.out.println(s3);\n     System.out.println(s4);\n \n     System.out.println(\"-------------\");\n     for (int i = 0; i \u003c arrayList.size(); i++) {\n       System.out.println(arrayList.get(i));\n     }\n \n     // arrayList.clear();\n     // System.out.println(arrayList.size());\n     // System.out.println(arrayList.isEmpty());\n \n     arrayList.remove(0);\n \n     System.out.println(\"-------------\");\n     for (int i = 0; i \u003c arrayList.size(); i++) {\n       System.out.println(arrayList.get(i));\n     }\n \n     arrayList.remove(\"welcome\");\n     System.out.println(\"-------------\");\n     for (int i = 0; i \u003c arrayList.size(); i++) {\n       System.out.println(arrayList.get(i));\n     }\n \n     System.out.println(\"-----------------\");\n \n     arrayList.add(\"aaa\");\n     arrayList.add(\"bbb\");\n \n     System.out.println(arrayList.indexOf(\"world\"));\n     System.out.println(arrayList.lastIndexOf(\"world\"));\n     System.out.println(arrayList.indexOf(\"aaa\"));\n   }\n}\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				}
 			]
 		},
@@ -171,45 +152,26 @@
 			"ID": "20221023232756-xdqn059",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
-			"CodeBlockFenceChar": 96,
-			"CodeBlockFenceLen": 3,
-			"CodeBlockOpenFence": "YGBg",
-			"CodeBlockInfo": "amF2YQ==",
-			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20221023232756-xdqn059",
-				"updated": "20221023234756"
+				"updated": "20221024131713"
 			},
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "amF2YQ==",
-					"Properties": {
-						"id": ""
-					}
+					"CodeBlockInfo": "cGxhaW50ZXh0"
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": " hello\n world\n world\n welcome\n -------------\n hello\n world\n world\n welcome\n -------------\n world\n world\n welcome\n -------------\n world\n world\n -----------------\n 0\n 1\n 2\n",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "hello\nworld\nworld\nwelcome\n-------------\nhello\nworld\nworld\nwelcome\n-------------\nworld\nworld\nwelcome\n-------------\nworld\nworld\n-----------------\n0\n1\n2\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				}
 			]
 		},
@@ -1085,7 +1047,7 @@
 			},
 			"Properties": {
 				"id": "20221023232756-8z4uqem",
-				"updated": "20221023234937"
+				"updated": "20221024131527"
 			},
 			"Children": [
 				{
@@ -1306,7 +1268,7 @@
 					},
 					"Properties": {
 						"id": "20221023232756-2fixxof",
-						"updated": "20221023234937"
+						"updated": "20221024131527"
 					},
 					"Children": [
 						{
@@ -1621,45 +1583,26 @@
 							"ID": "20221023232756-x4wbr0y",
 							"Type": "NodeCodeBlock",
 							"IsFencedCodeBlock": true,
-							"CodeBlockFenceChar": 96,
-							"CodeBlockFenceLen": 3,
-							"CodeBlockOpenFence": "YGBg",
-							"CodeBlockInfo": "amF2YQ==",
-							"CodeBlockCloseFence": "YGBg",
 							"Properties": {
 								"id": "20221023232756-x4wbr0y",
-								"updated": "20221023234937"
+								"updated": "20221024131527"
 							},
 							"Children": [
 								{
 									"Type": "NodeCodeBlockFenceOpenMarker",
-									"Data": "```",
-									"CodeBlockFenceLen": 3,
-									"Properties": {
-										"id": ""
-									}
+									"Data": "```"
 								},
 								{
 									"Type": "NodeCodeBlockFenceInfoMarker",
-									"CodeBlockInfo": "amF2YQ==",
-									"Properties": {
-										"id": ""
-									}
+									"CodeBlockInfo": "amF2YQ=="
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": " private Object[] grow(int minCapacity) {\n   int oldCapacity = elementData.length;\n   if (oldCapacity \u003e 0 || elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {\n     int newCapacity = ArraysSupport.newLength(oldCapacity,\n         minCapacity - oldCapacity, /* minimum growth */\n         oldCapacity \u003e\u003e 1           /* preferred growth */);\n     return elementData = Arrays.copyOf(elementData, newCapacity);\n   } else {\n     return elementData = new Object[Math.max(DEFAULT_CAPACITY, minCapacity)];\n   }\n }\n",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "private Object[] grow(int minCapacity) {\n   int oldCapacity = elementData.length;\n   if (oldCapacity \u003e 0 || elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {\n     int newCapacity = ArraysSupport.newLength(oldCapacity,\n         minCapacity - oldCapacity, /* minimum growth */\n         oldCapacity \u003e\u003e 1           /* preferred growth */);\n     return elementData = Arrays.copyOf(elementData, newCapacity);\n   } else {\n     return elementData = new Object[Math.max(DEFAULT_CAPACITY, minCapacity)];\n   }\n}\n"
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",
-									"Data": "```",
-									"CodeBlockFenceLen": 3,
-									"Properties": {
-										"id": ""
-									}
+									"Data": "```"
 								}
 							]
 						},

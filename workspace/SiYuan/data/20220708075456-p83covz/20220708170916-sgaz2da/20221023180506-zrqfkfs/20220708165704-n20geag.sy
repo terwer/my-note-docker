@@ -7,9 +7,9 @@
 		"custom-post-password": "105036",
 		"custom-publish-status": "secret",
 		"id": "20220708165704-n20geag",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220805131331-4dtdmgi\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220708165713-g90nbar\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220708165713-37b9mkm\u0026quot;,\u0026quot;focusStart\u0026quot;:62,\u0026quot;focusEnd\u0026quot;:62}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220805131331-4dtdmgi\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221025100056-sy5k2vh\u0026quot;,\u0026quot;scrollTop\u0026quot;:1416,\u0026quot;focusId\u0026quot;:\u0026quot;20221025100056-m484c8c\u0026quot;,\u0026quot;focusStart\u0026quot;:13,\u0026quot;focusEnd\u0026quot;:29}",
 		"title": "002.ekp开发环境汇总",
-		"updated": "20221023180554"
+		"updated": "20221026192028"
 	},
 	"Children": [
 		{
@@ -395,6 +395,119 @@
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://product.landray.com.cn/prod/account/prod_account/prodAccount.do?method=view",
 					"TextMarkTextContent": "https://product.landray.com.cn/prod/account/prod_account/prodAccount.do?method=view"
+				}
+			]
+		},
+		{
+			"ID": "20221025100050-qbj53tt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221025100050-qbj53tt",
+				"updated": "20221026192028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "svn账号"
+				}
+			]
+		},
+		{
+			"ID": "20221025100056-m484c8c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025100056-m484c8c",
+				"updated": "20221025100056"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "账号：tangyw\n密码：AN1XJnaM4kHLMG6r\n环境地址及搭建指南："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view\u0026fdId=14362f25ce9062402351f1147f58c9ab",
+					"TextMarkTextContent": "http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view\u0026amp;fdId=14362f25ce9062402351f1147f58c9ab"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n开发手册地址："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://svn.landray.com.cn/svnrepos/ADP_DOCS",
+					"TextMarkTextContent": "http://svn.landray.com.cn/svnrepos/ADP_DOCS"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n产品学习项目地址："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://svn.landray.com.cn/svnproject/EKP_EXAMPLE",
+					"TextMarkTextContent": "http://svn.landray.com.cn/svnproject/EKP_EXAMPLE"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（trunk下为最新版代码，branches下可选其它版本代码）"
+				}
+			]
+		},
+		{
+			"ID": "20221025100056-0h3l5zx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025100056-0h3l5zx",
+				"updated": "20221025100056"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "许可说明：ekp需要许可才能正常启动，请在开发平台KMSS插件更新许可，操作步骤请查看签名功能使用手册(第3、5章)："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view\u0026fdId=14b72130d670406eb21919f48a0ab7d9",
+					"TextMarkTextContent": "http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view\u0026amp;fdId=14b72130d670406eb21919f48a0ab7d9"
+				}
+			]
+		},
+		{
+			"ID": "20221025100056-m8qs8r3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025100056-m8qs8r3",
+				"updated": "20221025100056"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SVN管理规范与使用指引："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view\u0026fdId=15428d7e632f5cfe160f5124a39b81f3\u0026s_css=default",
+					"TextMarkTextContent": "http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view\u0026amp;fdId=15428d7e632f5cfe160f5124a39b81f3\u0026amp;s_css=default"
+				}
+			]
+		},
+		{
+			"ID": "20221025100056-sy5k2vh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221025100056-sy5k2vh",
+				"updated": "20221025100056"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "库地址说明：直接在eclipse的SVN配置上面的路径"
 				}
 			]
 		}

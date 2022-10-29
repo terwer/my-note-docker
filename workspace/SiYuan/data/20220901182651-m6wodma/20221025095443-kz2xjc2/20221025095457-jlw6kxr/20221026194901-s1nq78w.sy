@@ -1,0 +1,269 @@
+{
+	"ID": "20221026194901-s1nq78w",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221026194901-s1nq78w",
+		"title": "003.SVN忽略文件",
+		"updated": "20221026204003"
+	},
+	"Children": [
+		{
+			"ID": "20221026195015-o3sllm8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026195015-o3sllm8",
+				"updated": "20221026195024"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "忽略文件"
+				}
+			]
+		},
+		{
+			"ID": "20221026194901-l214lnf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221026194901-l214lnf",
+				"updated": "20221026195000"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export SVN_EDITOR=vi\nsvn propedit svn:ignore .\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221026200110-odi7ef3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026200110-odi7ef3",
+				"updated": "20221026200129"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果有子目录的话，用下面的办法："
+				}
+			]
+		},
+		{
+			"ID": "20221026200129-ys7cwkf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026200129-ys7cwkf",
+				"updated": "20221026200153"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://stackoverflow.com/a/6878706/4037224",
+					"TextMarkTextContent": "https://stackoverflow.com/a/6878706/4037224"
+				}
+			]
+		},
+		{
+			"ID": "20221026200122-sg5aaou",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026200122-sg5aaou",
+				"updated": "20221026200122"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Use the "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "--recursive"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ ("
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "-R"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​) flag on "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "svn propset"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ and set the "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "svn:ignore"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ so that it is applied recursively to every sub-folder:"
+				}
+			]
+		},
+		{
+			"ID": "20221026200122-qxfj8ob",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026200122-qxfj8ob",
+				"updated": "20221026200122"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "svn propset svn:ignore -R \u0026lt;mask\u0026gt; \u0026lt;directory or . for current\u0026gt;"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221026200222-s5xal3y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026200222-s5xal3y",
+				"updated": "20221026200224"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如："
+				}
+			]
+		},
+		{
+			"ID": "20221026200225-trmzrlz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221026200225-trmzrlz",
+				"updated": "20221026200253"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "svn propset svn:ignore -R *._min_.js .\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221026195001-u58xvjg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026195001-u58xvjg",
+				"updated": "20221026195007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看提交文件"
+				}
+			]
+		},
+		{
+			"ID": "20221026195007-gjt7yfq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221026195007-gjt7yfq",
+				"updated": "20221026195012"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "svn status\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221026195027-k22w6n7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221026195027-k22w6n7",
+				"updated": "20221026203947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后记"
+				}
+			]
+		},
+		{
+			"ID": "20221026203948-re0e3hx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221026203948-re0e3hx",
+				"updated": "20221026204003"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mac 上好用的 SVN 工具： Smart SVN 。"
+				}
+			]
+		}
+	]
+}
