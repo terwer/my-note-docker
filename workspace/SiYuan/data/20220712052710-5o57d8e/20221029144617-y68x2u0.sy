@@ -1,0 +1,539 @@
+{
+	"ID": "20221029144617-y68x2u0",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221029144617-y68x2u0",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221029144625-u246t6z\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221029161215-f0fkpzn\u0026quot;,\u0026quot;scrollTop\u0026quot;:175,\u0026quot;focusId\u0026quot;:\u0026quot;20221029144704-yfm1x49\u0026quot;,\u0026quot;focusStart\u0026quot;:4,\u0026quot;focusEnd\u0026quot;:4}",
+		"title": "074.Mac安装gedit",
+		"updated": "20221029204410"
+	},
+	"Children": [
+		{
+			"ID": "20221029144625-u246t6z",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221029144625-u246t6z",
+				"updated": "20221029144635"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "brew install gedit\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221029144637-n6xw598",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144637-n6xw598",
+				"updated": "20221029144649"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "报错 1：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221029144649-pnivxzo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221029144649-pnivxzo",
+				"updated": "20221029144702"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Error: No such file or directory @ rb_sysopen - /Users/terwer/Library/Caches/Homebrew/downloads/1828f89cde7cb4dd64753500541abb7eeeddc46f439fa952e180e48a693baef0--gsettings-desktop-schemas-42.0.monterey.bottle.tar.gz\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221029144637-afly1wg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144637-afly1wg",
+				"updated": "20221029144704"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221029144704-yfm1x49",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221029144704-yfm1x49",
+				"updated": "20221029204410"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "brew install ca-certificates\nbrew install gsettings-desktop-schemas\nbrew install libsoup libxml2\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221029144708-ygivbkm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144708-ygivbkm",
+				"updated": "20221029144711"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "报错 2：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221029144711-9xlfky1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221029144711-9xlfky1",
+				"updated": "20221029144720"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Error: Your Xcode (14.0.1) is too outdated.\nPlease update to Xcode 14.1 (or delete it).\nXcode can be updated from the App Store.\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221029144722-8321th8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144722-8321th8",
+				"updated": "20221029144727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "按下面的方式解决",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221029161524-fcb044c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029161524-fcb044c",
+				"updated": "20221029161524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "For those that only had the CLT installed, I did the following which worked.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221029161524-j92berd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221029161524-j92berd",
+				"updated": "20221029161524"
+			},
+			"Children": [
+				{
+					"ID": "20221029161524-lvfr9br",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221029161524-lvfr9br",
+						"updated": "20221029161524"
+					},
+					"Children": [
+						{
+							"ID": "20221029161524-xy0jglh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221029161524-xy0jglh",
+								"updated": "20221029161524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Uninstall the existing CLT",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "sudo rm -rf /Library/Developer/CommandLineTools"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221029161524-26utpq9",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221029161524-26utpq9",
+						"updated": "20221029161524"
+					},
+					"Children": [
+						{
+							"ID": "20221029161524-zsxsa6l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221029161524-zsxsa6l",
+								"updated": "20221029161524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Download the Command Line Tools for Xcode 14.1 Release Candidate 2 (latest as of writing) from here: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://developer.apple.com/download/all/?q=Command%20Line%20Tools%20for%20Xcode",
+									"TextMarkTextContent": "https://developer.apple.com/download/all/?q=Command%20Line%20Tools%20for%20Xcode"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221029161524-i0kidnm",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221029161524-i0kidnm",
+						"updated": "20221029161524"
+					},
+					"Children": [
+						{
+							"ID": "20221029161524-xlqib62",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221029161524-xlqib62",
+								"updated": "20221029161524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Install the downloaded package",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221029161524-kipquo1",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221029161524-kipquo1",
+						"updated": "20221029161524"
+					},
+					"Children": [
+						{
+							"ID": "20221029161524-bb70dej",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221029161524-bb70dej",
+								"updated": "20221029161524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "brew upgrade"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221029144617-snqw60u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144617-snqw60u",
+				"updated": "20221029161211"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/orgs/Homebrew/discussions/3822#discussioncomment-3965318",
+					"TextMarkTextContent": "https://github.com/orgs/Homebrew/discussions/3822#discussioncomment-3965318"
+				}
+			]
+		},
+		{
+			"ID": "20221029144740-hz1do49",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144740-hz1do49",
+				"updated": "20221029144743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221029144743-p2jw3gy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029144743-p2jw3gy",
+				"updated": "20221029161214"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/orgs/Homebrew/discussions/3822",
+					"TextMarkTextContent": "https://github.com/orgs/Homebrew/discussions/3822"
+				}
+			]
+		},
+		{
+			"ID": "20221029161215-f0fkpzn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221029161215-f0fkpzn",
+				"updated": "20221029161215"
+			}
+		}
+	]
+}

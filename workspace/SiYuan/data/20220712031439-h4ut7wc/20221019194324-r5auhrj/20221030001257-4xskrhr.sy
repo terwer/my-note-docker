@@ -1,0 +1,20 @@
+{
+	"ID": "20221030001257-4xskrhr",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221030001257-4xskrhr",
+		"title": "003.Struts25",
+		"updated": "20221030001314"
+	},
+	"Children": [
+		{
+			"ID": "20221030001257-sol39nm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001257-sol39nm",
+				"updated": "20221030001257"
+			}
+		}
+	]
+}

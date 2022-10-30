@@ -1,0 +1,292 @@
+{
+	"ID": "20221030012618-je6ljou",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221030012618-je6ljou",
+		"title": "004.Struts2的类型转换",
+		"updated": "20221030150253"
+	},
+	"Children": [
+		{
+			"ID": "20221030012618-c5s065m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221030012618-c5s065m",
+				"updated": "20221030130846"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "使用标签",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030130846-zly6qio",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030130846-zly6qio",
+				"updated": "20221030140146"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221030131738-nvy7jl4",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "Struts2使用标签库找不到URI:[struts-tags]的taglib[s]问题解决"
+				}
+			]
+		},
+		{
+			"ID": "20221030130900-7oyy4zt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030130900-7oyy4zt",
+				"updated": "20221030131125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新建 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "login2.jsp"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 文件，内容如下：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030131100-djre69x",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221030131100-djre69x",
+				"updated": "20221030131117"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"\n\tpageEncoding=\"UTF-8\"%\u003e\n\u003c%@ taglib prefix=\"s\" uri=\"/struts-tags\" %\u003e\n\n\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003cmeta charset=\"UTF-8\"\u003e\n\u003ctitle\u003eStruts2.3 Login2\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\t\u003cs:form action=\"login\"\u003e\n\t\t\u003cs:textfield name=\"username\" label=\"username\"\u003e\u003c/s:textfield\u003e\n\t\t\u003cs:textfield name=\"password\" label=\"password\"\u003e\u003c/s:textfield\u003e\n\t\t\u003cs:submit label=\"submit\"\u003e\u003c/s:submit\u003e\n\t\u003c/s:form\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030150102-2e95rvc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030150102-2e95rvc",
+				"updated": "20221030150112"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看结果：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030150113-l6k7qer",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030150113-l6k7qer",
+				"updated": "20221030150158"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221030150148.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030150210-vmaeha0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221030150210-vmaeha0",
+				"updated": "20221030150226"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "在 Action 中使用 ActionSupport",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030150233-jmuhr8x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030150233-jmuhr8x",
+				"updated": "20221030150248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "LoginAction3.java"
+				}
+			]
+		},
+		{
+			"ID": "20221030150249-wpf8r3y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221030150249-wpf8r3y",
+				"updated": "20221030150253"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

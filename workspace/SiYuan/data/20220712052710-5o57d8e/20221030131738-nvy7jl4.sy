@@ -1,0 +1,115 @@
+{
+	"ID": "20221030131738-nvy7jl4",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16841158",
+		"custom-conf-post-id": "16515087",
+		"custom-desc": "找到strutscore​的jar​包将其复制到无关文件夹中当作压缩文件解压在其中的metainf​​目录中找到strutstagstld​​文件将其复制到项目中webappwebinf​​目录下然后在webxml​​文件中（之前）添加以下内容_",
+		"custom-slug": "struts2-can-not-find-uri-strutstags-taglib-s-problem-solving-z1gd2lw",
+		"custom-vuepress-slug": "docs/003.经验分享/076.Struts2使用标签库找不到URI:[struts-tags]的taglib[s]问题解决.md",
+		"custom-wordpress-post-id": "4351",
+		"custom-yuque-post-id": "100428559_terwer/note",
+		"id": "20221030131738-nvy7jl4",
+		"tags": "struts2,tablib,标签库,not-found,uri,struts-tags",
+		"title": "076.Struts2使用标签库找不到URI:[struts-tags]的taglib[s]问题解决",
+		"updated": "20221030140125"
+	},
+	"Children": [
+		{
+			"ID": "20221030131738-v7t41nq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030131738-v7t41nq",
+				"updated": "20221030135717"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "找到 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "struts2-core"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 的 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "jar"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 包，将其复制到无关文件夹中，当作压缩文件解压，在其中的 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "META-INF"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 目录中找到 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "struts-tags.tld"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 文件，将其复制到项目中 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "webapp/WEB-INF"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 目录下，然后在 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "web.xml"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 文件中 （之前） 添加以下内容："
+				}
+			]
+		},
+		{
+			"ID": "20221030135536-lhlrmck",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221030135536-lhlrmck",
+				"updated": "20221030140125"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!--配置/struts-tag位置--\u003e\n\u003cjsp-config\u003e\n    \u003ctaglib\u003e\n        \u003ctaglib-uri\u003es\u003c/taglib-uri\u003e\n        \u003ctaglib-location\u003e/WEB-INF/struts-tags.tld\u003c/taglib-location\u003e\n    \u003c/taglib\u003e\n\u003c/jsp-config\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

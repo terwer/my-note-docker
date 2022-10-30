@@ -3,10 +3,18 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16840355",
+		"custom-conf-post-id": "16416778",
+		"custom-desc": "myeclipse下载推荐直接到官网下载不要去其他地方下载避免一些被加载了病毒的安装包。备用下载与破解包下载_链接_https_panbaiducomsgplslejajhpqhrvwhig请发邮件至youweics@com获取提取码破解解压查看readmetxt搭建struts的maven版项目struts下载https_archiveapacheorgdiststrutsstrutsallzip备注_使用eclipse也可以。新建项目注意版本选择_javaee_webjdk_jstl_后面的tomca",
+		"custom-slug": "use-myeclipse20221-to-build-the-maven-version-of-the-struts23-project-z2qh549",
+		"custom-vuepress-slug": "docs/001.后端开发/006.Struts2/003.使用MyEclipse2022-1搭建Maven版本的Struts2-3项目.md",
+		"custom-wordpress-post-id": "4350",
+		"custom-yuque-post-id": "100347445_terwer/note",
 		"id": "20221025144546-ndlwzmv",
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221025144549-l342h4d\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221025175116-3udivkh\u0026quot;,\u0026quot;scrollTop\u0026quot;:1542,\u0026quot;focusId\u0026quot;:\u0026quot;20221025144549-l342h4d\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
-		"title": "003.使用MyEclipse2022-1搭建Struts2-5项目",
-		"updated": "20221025175116"
+		"tags": "下载,推荐,struts,struts2,struts2-3,web,j2ee,javaee,maven,myeclipse",
+		"title": "003.使用MyEclipse2022-1搭建Maven版本的Struts2-3项目",
+		"updated": "20221030012828"
 	},
 	"Children": [
 		{
@@ -174,7 +182,7 @@
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20221025145049-u9djce4",
-				"updated": "20221025145101"
+				"updated": "20221030011538"
 			},
 			"Children": [
 				{
@@ -186,7 +194,7 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "搭建项目 struts2.5 项目",
+					"Data": "搭建 struts2.3 的 Maven 版项目",
 					"Properties": {
 						"id": ""
 					}
@@ -195,15 +203,23 @@
 		},
 		{
 			"ID": "20221025170754-mpmm58q",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20221025170754-mpmm58q",
-				"updated": "20221025170758"
+				"updated": "20221030005920"
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "2.5.30 下载",
+					"Data": "struts 2.3.37 下载",
 					"Properties": {
 						"id": ""
 					}
@@ -215,7 +231,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221025170759-r5ddhu5",
-				"updated": "20221025170802"
+				"updated": "20221030002546"
 			},
 			"Children": [
 				{
@@ -224,8 +240,8 @@
 						"id": ""
 					},
 					"TextMarkType": "a",
-					"TextMarkAHref": "https://downloads.apache.org/struts/2.5.30/",
-					"TextMarkTextContent": "https://downloads.apache.org/struts/2.5.30/"
+					"TextMarkAHref": "https://archive.apache.org/dist/struts/2.3.37/struts-2.3.37-all.zip",
+					"TextMarkTextContent": "https://archive.apache.org/dist/struts/2.3.37/struts-2.3.37-all.zip"
 				}
 			]
 		},
@@ -239,21 +255,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "备注：使用 Eclipse 2022.9 也可以。"
-				}
-			]
-		},
-		{
-			"ID": "20221025145102-dezepk9",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221025145102-dezepk9",
-				"updated": "20221025145118"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "参考前一篇，本篇主要支出与 2.3 不一样的地方。",
+					"Data": "备注：使用 Eclipse 2022.9 也可以。",
 					"Properties": {
 						"id": ""
 					}
@@ -261,16 +263,24 @@
 			]
 		},
 		{
-			"ID": "20221025171750-6jvxkwd",
-			"Type": "NodeParagraph",
+			"ID": "20221030002259-svgp367",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20221025171750-6jvxkwd",
-				"updated": "20221025171804"
+				"id": "20221030002259-svgp367",
+				"updated": "20221030002733"
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "struts2.5 的 parpare 和 execute 是两个 filter 了。",
+					"Data": "新建项目",
 					"Properties": {
 						"id": ""
 					}
@@ -278,16 +288,16 @@
 			]
 		},
 		{
-			"ID": "20221025171736-igzi0c9",
+			"ID": "20221030002313-404pdg4",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221025171736-igzi0c9",
-				"updated": "20221025171741"
+				"id": "20221030002313-404pdg4",
+				"updated": "20221030002317"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "web.xml 调整",
+					"Data": "注意版本选择：",
 					"Properties": {
 						"id": ""
 					}
@@ -295,7 +305,193 @@
 			]
 		},
 		{
-			"ID": "20221025171742-msh1vlk",
+			"ID": "20221030002317-eky4osz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030002317-eky4osz",
+				"updated": "20221030002330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JavaEE：6，Web3.0",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030002330-5pegw71",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030002330-5pegw71",
+				"updated": "20221030002411"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JDK：1.7",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030002339-r178zur",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030002339-r178zur",
+				"updated": "20221030002351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JSTL：1.2.1",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030002448-uehluq6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030002448-uehluq6",
+				"updated": "20221030002505"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后面的 Tomcat 我们使用 Tomcat7",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030002352-tbs80vf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030002352-tbs80vf",
+				"updated": "20221030002407"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": "",
+						"style": "color: var(--b3-font-color1);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "勾上Maven支持"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030002301-rpmb86i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030002301-rpmb86i",
+				"updated": "20221030002302"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221030002220.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030002702-i2jfiz7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221030002702-i2jfiz7",
+				"updated": "20221030002756"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "配置 pom.xml",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030002714-qd8bnsh",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
@@ -304,8 +500,8 @@
 			"CodeBlockInfo": "eG1s",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221025171742-msh1vlk",
-				"updated": "20221025171744"
+				"id": "20221030002714-qd8bnsh",
+				"updated": "20221030005837"
 			},
 			"Children": [
 				{
@@ -325,7 +521,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cweb-app xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"http://xmlns.jcp.org/xml/ns/javaee\"\n\txsi:schemaLocation=\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\n\tid=\"struts2\" version=\"4.0\"\u003e\n\t\u003cdisplay-name\u003estruts2\u003c/display-name\u003e\n\n\t\u003cfilter\u003e\n\t\t\u003cfilter-name\u003estruts-prepare\u003c/filter-name\u003e\n\t\t\u003cfilter-class\u003eorg.apache.struts2.dispatcher.filter.StrutsPrepareFilter\u003c/filter-class\u003e\n\t\u003c/filter\u003e\n\n\t\u003cfilter\u003e\n\t\t\u003cfilter-name\u003estruts-execute\u003c/filter-name\u003e\n\t\t\u003cfilter-class\u003eorg.apache.struts2.dispatcher.filter.StrutsExecuteFilter\u003c/filter-class\u003e\n\t\u003c/filter\u003e\n\n\t\u003cfilter-mapping\u003e\n\t\t\u003cfilter-name\u003estruts-prepare\u003c/filter-name\u003e\n\t\t\u003curl-pattern\u003e/*\u003c/url-pattern\u003e\n\t\u003c/filter-mapping\u003e\n\n\t\u003cfilter-mapping\u003e\n\t\t\u003cfilter-name\u003estruts-execute\u003c/filter-name\u003e\n\t\t\u003curl-pattern\u003e/*\u003c/url-pattern\u003e\n\t\u003c/filter-mapping\u003e\n\n\u003c/web-app\u003e\n",
+					"Data": "\u003cproject xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd\"\u003e\n\t\u003cmodelVersion\u003e4.0.0\u003c/modelVersion\u003e\n\t\u003cgroupId\u003estruts23m\u003c/groupId\u003e\n\t\u003cartifactId\u003estruts23m\u003c/artifactId\u003e\n\t\u003cversion\u003e0.0.1-SNAPSHOT\u003c/version\u003e\n\t\u003cpackaging\u003ewar\u003c/packaging\u003e\n\t\u003cname\u003estruts23m\u003c/name\u003e\n\t\u003cdescription /\u003e\n\t\u003cproperties\u003e\n\t\t\u003cwebVersion\u003e3.0\u003c/webVersion\u003e\n\t\t\u003cproject.build.sourceEncoding\u003eUTF-8\u003c/project.build.sourceEncoding\u003e\n\t\u003c/properties\u003e\n\t\u003cdependencies\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ebean-validator\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0-JBoss-4.0.2\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.enterprise.deploy\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.jms\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.management.j2ee\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.eclipse.persistence\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.persistence\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.0.0\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.resource\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.security.auth.message\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.security.jacc\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.servlet\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.servlet.jsp\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.servlet.jsp.jstl\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e3.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003ejavax.xml.bind\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejaxb-api-osgi\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.2.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003ejavax.ws.rs\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejsr311-api\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e1.1.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish.web\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejstl-impl\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e1.2\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003ejavax.mail\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003email\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e1.4.3\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003ejavax.xml\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ewebservices-api-osgi\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.0.1\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.jboss.weld\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003eweld-osgi-bundle\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e1.0.1-SP3\u003c/version\u003e\n\t\t\t\u003cscope\u003eprovided\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.glassfish.web\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003ejavax.servlet.jsp.jstl\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e1.2.1\u003c/version\u003e\n\t\t\u003c/dependency\u003e\n\n\t\t\u003c!-- struts2 --\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.apache.struts\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003estruts2-core\u003c/artifactId\u003e\n\t\t\t\u003cversion\u003e2.3.37\u003c/version\u003e\n\t\t\u003c/dependency\u003e\n\t\u003c/dependencies\u003e\n\t\u003cbuild\u003e\n\t\t\u003cplugins\u003e\n\t\t\t\u003cplugin\u003e\n\t\t\t\t\u003cartifactId\u003emaven-compiler-plugin\u003c/artifactId\u003e\n\t\t\t\t\u003cversion\u003e2.3.2\u003c/version\u003e\n\t\t\t\t\u003cconfiguration\u003e\n\t\t\t\t\t\u003csource\u003e1.7\u003c/source\u003e\n\t\t\t\t\t\u003ctarget\u003e1.7\u003c/target\u003e\n\t\t\t\t\u003c/configuration\u003e\n\t\t\t\u003c/plugin\u003e\n\t\t\t\u003cplugin\u003e\n\t\t\t\t\u003cartifactId\u003emaven-war-plugin\u003c/artifactId\u003e\n\t\t\t\t\u003cversion\u003e3.2.3\u003c/version\u003e\n\t\t\t\t\u003cconfiguration\u003e\n\t\t\t\t\t\u003cfailOnMissingWebXml\u003efalse\u003c/failOnMissingWebXml\u003e\n\t\t\t\t\u003c/configuration\u003e\n\t\t\t\u003c/plugin\u003e\n\t\t\u003c/plugins\u003e\n\t\u003c/build\u003e\n\u003c/project\u003e\n",
 					"Properties": {
 						"id": ""
 					}
@@ -341,16 +537,24 @@
 			]
 		},
 		{
-			"ID": "20221025174814-1rlwnvt",
-			"Type": "NodeParagraph",
+			"ID": "20221030002747-3id43fp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20221025174814-1rlwnvt",
-				"updated": "20221025174824"
+				"id": "20221030002747-3id43fp",
+				"updated": "20221030005859"
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "依赖的 jar 包调整",
+					"Data": "登录页面 login.jsp",
 					"Properties": {
 						"id": ""
 					}
@@ -358,17 +562,17 @@
 			]
 		},
 		{
-			"ID": "20221025174824-6t4yngf",
+			"ID": "20221030005939-gg0q6c0",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"CodeBlockFenceChar": 96,
 			"CodeBlockFenceLen": 3,
 			"CodeBlockOpenFence": "YGBg",
-			"CodeBlockInfo": "cGxhaW50ZXh0",
+			"CodeBlockInfo": "eG1s",
 			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
-				"id": "20221025174824-6t4yngf",
-				"updated": "20221025175015"
+				"id": "20221030005939-gg0q6c0",
+				"updated": "20221030010003"
 			},
 			"Children": [
 				{
@@ -381,14 +585,14 @@
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "cGxhaW50ZXh0",
+					"CodeBlockInfo": "eG1s",
 					"Properties": {
 						"id": ""
 					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "commons-fileupload-1.4.jar\ncommons-io-2.6.jar\ncommons-lang3-3.8.1.jar\ncommons-logging-1.2.jar\nfreemarker-2.3.31.jar\njavassist-3.20.0-GA.jar\njcl-over-slf4j-1.7.6.jar\nlog4j-api-2.12.4.jar\nlog4j-core-2.12.4.jar\nlog4j-jcl-2.12.4.jar\nognl-3.1.29.jar\nslf4j-api-1.7.30.jar\nstruts2-core-2.5.30.jar\n",
+					"Data": "\u003c%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"\n\tpageEncoding=\"UTF-8\"%\u003e\n\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003cmeta charset=\"UTF-8\"\u003e\n\u003ctitle\u003eStruts2.3 Login\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\t\u003cform action=\"login.action\"\u003e\n\t\tusername:\u003cinput type=\"text\" name=\"username\" /\u003e\u003cbr /\u003e \n\t\tpassword:\u003cinput type=\"password\" name=\"password\" /\u003e\u003cbr /\u003e \n\t\t\u003cinput type=\"submit\" value=\"submit\" /\u003e\n\t\u003c/form\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
 					"Properties": {
 						"id": ""
 					}
@@ -404,16 +608,24 @@
 			]
 		},
 		{
-			"ID": "20221025174830-j5ad0en",
-			"Type": "NodeParagraph",
+			"ID": "20221030010005-wwz80up",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20221025174830-j5ad0en",
-				"updated": "20221025174835"
+				"id": "20221030010005-wwz80up",
+				"updated": "20221030010026"
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "其他的就一模一样了。",
+					"Data": "struts.xml 流程处理",
 					"Properties": {
 						"id": ""
 					}
@@ -421,11 +633,347 @@
 			]
 		},
 		{
-			"ID": "20221025175116-3udivkh",
+			"ID": "20221030010028-t5lupt1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221030010028-t5lupt1",
+				"updated": "20221030010143"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\" ?\u003e\n\u003c!DOCTYPE struts PUBLIC\n\t\"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN\"\n\t\"http://struts.apache.org/dtds/struts-2.3.dtd\"\u003e\n\n\u003cstruts\u003e\n\n\t\u003cpackage name=\"struts2\" extends=\"struts-default\"\u003e\n\t\t\u003caction name=\"login\" class=\"space.terwer.LoginAction\"\u003e\n\t\t\t\u003cresult name=\"success\"\u003e/result.jsp\u003c/result\u003e\n\t\t\u003c/action\u003e\n\t\u003c/package\u003e\n\n\u003c/struts\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030010047-7ox7ggj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221030010047-7ox7ggj",
+				"updated": "20221030010104"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "登录逻辑处理类 LoginAction.java",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030010054-9wrye0c",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221030010054-9wrye0c",
+				"updated": "20221030010125"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package space.terwer;\n\npublic class LoginAction {\n\tprivate String username;\n\tprivate String password;\n\n\tpublic String getUsername() {\n\t\treturn username;\n\t}\n\n\tpublic void setUsername(String username) {\n\t\tthis.username = username;\n\t}\n\n\tpublic String getPassword() {\n\t\treturn password;\n\t}\n\n\tpublic void setPassword(String password) {\n\t\tthis.password = password;\n\t}\n\n\tpublic String execute() {\n\t\treturn \"success\";\n\t}\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030010215-v83y532",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221030010215-v83y532",
+				"updated": "20221030010231"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "结果显示页面 result.jsp",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030010231-oaos4za",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221030010231-oaos4za",
+				"updated": "20221030010321"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"\n    pageEncoding=\"UTF-8\"%\u003e\n\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003cmeta charset=\"UTF-8\"\u003e\n\u003ctitle\u003eStruts2.3 Result\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\tusername:${requestScope.username}\u003cbr /\u003e \n\tpassword:${requestScope.password }\n\u003c/body\u003e\n\u003c/html\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030012703-owh18b4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221030012703-owh18b4",
+				"updated": "20221030012717"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "部署并启动Tomcat"
+				}
+			]
+		},
+		{
+			"ID": "20221030010744-e4rjxt3",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221025175116-3udivkh"
-			}
+				"id": "20221030010744-e4rjxt3",
+				"updated": "20221030012804"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "备注"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221030010748-90xgx1c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030010748-90xgx1c",
+				"updated": "20221030012828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "MyEclipse Tomcat9.0"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 或者自己配置 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Tomcat7"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 运行都可以。推荐使用前者，部署更便捷。成功启动可以看到类似下面的启动日志："
+				}
+			]
+		},
+		{
+			"ID": "20221030012718-xb8dttn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221030012718-xb8dttn",
+				"updated": "20221030012725"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "10月 30, 2022 1:23:52 上午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info\n信息: Parsing configuration file [struts-default.xml]\n10月 30, 2022 1:23:53 上午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info\n信息: Unable to locate configuration files of the name struts-plugin.xml, skipping\n10月 30, 2022 1:23:53 上午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info\n信息: Parsing configuration file [struts-plugin.xml]\n10月 30, 2022 1:23:53 上午 com.opensymphony.xwork2.util.logging.jdk.JdkLogger info\n信息: Parsing configuration file [struts.xml]\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221030010323-uw09unm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030010323-uw09unm",
+				"updated": "20221030010328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "页面效果：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030010440-2r0rxx0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030010440-2r0rxx0",
+				"updated": "20221030010441"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221030010417.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
 		}
 	]
 }

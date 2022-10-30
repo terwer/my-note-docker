@@ -1,0 +1,529 @@
+{
+	"ID": "20221030001329-7caczpx",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221030001329-7caczpx",
+		"title": "001.使用MyEclipse2022-1搭建Struts2-5项目",
+		"updated": "20221030001345"
+	},
+	"Children": [
+		{
+			"ID": "20221030001332-cwfs2cw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221030001332-cwfs2cw",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyEclipse 2022.1"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-6mdjb0p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221030001332-6mdjb0p",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-e0xqs1i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-e0xqs1i",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " 推荐直接到官网下载，不要去其他地方下载，避免一些被加载了病毒的安装包。"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-7x8q6dt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-7x8q6dt",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "备用下载与破解包下载："
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-yllbrg8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-yllbrg8",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链接: "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.baidu.com/s/1gPlSLEJa1jhpQhrvWhI3-g",
+					"TextMarkTextContent": "https://pan.baidu.com/s/1gPlSLEJa1jhpQhrvWhI3-g"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 请发邮件至 youweics@163.com 获取提取码"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-vjs1gyw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221030001332-vjs1gyw",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "破解"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-cymjtdz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-cymjtdz",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解压查看 readme.txt"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-scobajr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221030001332-scobajr",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "搭建项目 struts2.5 项目"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-iazygc4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-iazygc4",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221029233457.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-zqwhig3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-zqwhig3",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.5.30 下载"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-reoc15l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-reoc15l",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://downloads.apache.org/struts/2.5.30/",
+					"TextMarkTextContent": "https://downloads.apache.org/struts/2.5.30/"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-958zpml",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-958zpml",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "备注：使用 Eclipse 2022.9 也可以。"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-drg6k9m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-drg6k9m",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考前一篇，本篇主要支出与 2.3 不一样的地方。"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-2z91sar",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-2z91sar",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "struts2.5 的 parpare 和 execute 是两个 filter 了。"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-0ujalmt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-0ujalmt",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "web.xml 调整"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-zddj3xx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221030001332-zddj3xx",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cweb-app xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n\txmlns=\"http://xmlns.jcp.org/xml/ns/javaee\"\n\txsi:schemaLocation=\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\n\tid=\"struts2\" version=\"4.0\"\u003e\n\t\u003cdisplay-name\u003estruts2\u003c/display-name\u003e\n\n\t\u003cfilter\u003e\n\t\t\u003cfilter-name\u003estruts-prepare\u003c/filter-name\u003e\n\t\t\u003cfilter-class\u003eorg.apache.struts2.dispatcher.filter.StrutsPrepareFilter\u003c/filter-class\u003e\n\t\u003c/filter\u003e\n\n\t\u003cfilter\u003e\n\t\t\u003cfilter-name\u003estruts-execute\u003c/filter-name\u003e\n\t\t\u003cfilter-class\u003eorg.apache.struts2.dispatcher.filter.StrutsExecuteFilter\u003c/filter-class\u003e\n\t\u003c/filter\u003e\n\n\t\u003cfilter-mapping\u003e\n\t\t\u003cfilter-name\u003estruts-prepare\u003c/filter-name\u003e\n\t\t\u003curl-pattern\u003e/*\u003c/url-pattern\u003e\n\t\u003c/filter-mapping\u003e\n\n\t\u003cfilter-mapping\u003e\n\t\t\u003cfilter-name\u003estruts-execute\u003c/filter-name\u003e\n\t\t\u003curl-pattern\u003e/*\u003c/url-pattern\u003e\n\t\u003c/filter-mapping\u003e\n\n\u003c/web-app\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-by061ym",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-by061ym",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "依赖的 jar 包调整"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-yzrfmj9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221030001332-yzrfmj9",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "commons-fileupload-1.4.jar\ncommons-io-2.6.jar\ncommons-lang3-3.8.1.jar\ncommons-logging-1.2.jar\nfreemarker-2.3.31.jar\njavassist-3.20.0-GA.jar\njcl-over-slf4j-1.7.6.jar\nlog4j-api-2.12.4.jar\nlog4j-core-2.12.4.jar\nlog4j-jcl-2.12.4.jar\nognl-3.1.29.jar\nslf4j-api-1.7.30.jar\nstruts2-core-2.5.30.jar\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-19vlczn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-19vlczn",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他的就一模一样了。"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-eontov1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221030001332-eontov1",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "struts 包版本和 tomcat 版本兼容解决问题"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-xbhxkfu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-xbhxkfu",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "struts2-core-2.2.1"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 和 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "tomcat6"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-pbttcb2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-pbttcb2",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "struts2-core-2.3.4"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 和 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "tomcat7"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-gluf9x6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-gluf9x6",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "struts2-core-2.5"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 和 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "tomcat9"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-jdvo7bt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-jdvo7bt",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "struts2-core-6.0"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​​ 和 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "tomcat9"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​​"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-cxj39bu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-cxj39bu",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Tomcat 与 JavaEE 兼容版本见："
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-pd43cl4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-pd43cl4",
+				"updated": "20221030001332"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://tomcat.apache.org/whichversion.html",
+					"TextMarkTextContent": "https://tomcat.apache.org/whichversion.html"
+				}
+			]
+		},
+		{
+			"ID": "20221030001332-k0dc8zz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030001332-k0dc8zz",
+				"updated": "20221030001332"
+			}
+		}
+	]
+}
