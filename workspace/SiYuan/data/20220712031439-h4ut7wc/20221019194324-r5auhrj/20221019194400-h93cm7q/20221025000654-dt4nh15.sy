@@ -3,15 +3,46 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-cnblogs-post-id": "16842204",
 		"custom-conf-post-id": "16154625",
-		"custom-desc": "​action​会自动加上action​例如和效果一样。​test",
+		"custom-desc": "action后缀​action​会自动加上action​例如和效果一样。​其他类型转换loginaction新增两个属性privateintegerage_privatedatedate_publicintegergetage(){returnage_}publicvoidsetage(integerage){thisage=age_}publicdategetdate(){returndate_}publicvoidsetdate(datedate){thisdate=date_}loginjsp年龄_",
+		"custom-kms-post-id": "1843b8736d2f99161f1d13e4ab4846dc",
 		"custom-slug": "struts25-s-unique-features-and-strutspreparendexecute-filters-source-code-analysis-dmout",
+		"custom-vuepress-slug": "docs/001.后端开发/006.Struts2/005.Struts2-3的独有特性与StrutsPrepareAndExecute过滤器源码分析.md",
+		"custom-wordpress-post-id": "4353",
+		"custom-yuque-post-id": "100509292_terwer/note",
 		"id": "20221025000654-dt4nh15",
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221025000654-ihnx71x\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221025013930-kducz7d\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221025000654-ihnx71x\u0026quot;,\u0026quot;focusStart\u0026quot;:31,\u0026quot;focusEnd\u0026quot;:31}",
+		"tags": "执行,之后,对应,请求,struts,struts2,filter,过滤器,启动流程",
 		"title": "005.Struts2-3的独有特性与StrutsPrepareAndExecute过滤器源码分析",
-		"updated": "20221030012623"
+		"updated": "20221030173302"
 	},
 	"Children": [
+		{
+			"ID": "20221030171128-f44ioid",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221030171128-f44ioid",
+				"updated": "20221030171134"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "action 后缀",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
 		{
 			"ID": "20221025000654-ihnx71x",
 			"Type": "NodeParagraph",
@@ -254,23 +285,802 @@
 		},
 		{
 			"ID": "20221028182637-m6cz2d1",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20221028182637-m6cz2d1",
-				"updated": "20221028182644"
+				"updated": "20221030171149"
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "test"
+					"Data": "其他类型转换",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
-			"ID": "20221028183641-kgfxhgf",
+			"ID": "20221030171234-2m4nfy1",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221028183641-kgfxhgf"
+				"id": "20221030171234-2m4nfy1",
+				"updated": "20221030171242"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "LoginAction 新增两个属性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030171150-wurxknc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221030171150-wurxknc",
+				"updated": "20221030171232"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "private Integer age;\nprivate Date date;\n\npublic Integer getAge() {\n\treturn age;\n}\n\npublic void setAge(Integer age) {\n\tthis.age = age;\n}\n\npublic Date getDate() {\n\treturn date;\n}\n\npublic void setDate(Date date) {\n\tthis.date = date;\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030171308-pmjemk3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030171308-pmjemk3",
+				"updated": "20221030171311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "login.jsp",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030171311-2udhhrg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "aHRtbA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221030171311-2udhhrg",
+				"updated": "20221030171337"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "年龄：\u003cinput type=\"text\" name=\"age\" /\u003e\u003cbr /\u003e\n日期：\u003cinput type=\"text\" name=\"date\" /\u003e\u003cbr /\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030171338-n674sox",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030171338-n674sox",
+				"updated": "20221030171342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "result.jsp",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030171343-sgkhrfd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "aHRtbA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221030171343-sgkhrfd",
+				"updated": "20221030171355"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "年龄：${requestScope.age }\u003cbr /\u003e\n日期：${requestScope.date }\u003cbr /\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030171357-lun2po0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030171357-lun2po0",
+				"updated": "20221030171400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "效果",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030171401-a6ncitt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030171401-a6ncitt",
+				"updated": "20221030171436"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221030171421.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030172010-30nvgzf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221030172010-30nvgzf",
+				"updated": "20221030172020"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Struts2 的基本执行流程",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030172020-er3d6l9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221030172020-er3d6l9",
+				"updated": "20221030172726"
+			},
+			"Children": [
+				{
+					"ID": "20221030172021-q3q7n0m",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221030172021-q3q7n0m",
+						"updated": "20221030172021"
+					},
+					"Children": [
+						{
+							"ID": "20221030172021-qvel0k3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030172021-qvel0k3",
+								"updated": "20221030172044"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户浏览器输入入口页面地址。例如：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "a",
+									"TextMarkTextContent": "http://localhost:8080/struts23/login.jsp"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221030172045-jdei45t",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221030172045-jdei45t",
+						"updated": "20221030172124"
+					},
+					"Children": [
+						{
+							"ID": "20221030172045-urp0vrq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030172045-urp0vrq",
+								"updated": "20221030172150"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输入表单信息之后，点击提交，通过 form 的 action，进行对应跳转。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221030172156-18s6orf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "aHRtbA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221030172156-18s6orf",
+								"updated": "20221030172214"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "aHRtbA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cform action=\"login.action\"\u003e\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221030172153-4bj9frq",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221030172153-4bj9frq",
+						"updated": "20221030172726"
+					},
+					"Children": [
+						{
+							"ID": "20221030172153-rw3pd0l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030172153-rw3pd0l",
+								"updated": "20221030172726"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我们这里是 login，那么，就会去 struts.xml 寻找 name=\"login\" 的 action 节点",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221030172219-e210r52",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "eG1s",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221030172219-e210r52",
+								"updated": "20221030172245"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "eG1s",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cpackage name=\"struts2\" extends=\"struts-default\"\u003e\n\t\u003caction name=\"login\" class=\"space.terwer.struts23.LoginAction\"\u003e\n\t\t\u003cresult name=\"success\"\u003e/result.jsp\u003c/result\u003e\n\t\u003c/action\u003e\n\u003c/package\u003e\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221030172251-up05iti",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030172251-up05iti",
+								"updated": "20221030172312"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "找到之后，实例化 class 配置的 Action 处理类。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221030172313-8lbwomt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030172313-8lbwomt",
+								"updated": "20221030172341"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "然后执行对应的 setXXX 方法进行属性赋值，接着执行 Action 里面的 execute 方法：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221030172341-tsvbuzf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221030172341-tsvbuzf",
+								"updated": "20221030172409"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public String execute() {\n\treturn \"success\";\n}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221030172216-7z8nnmj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 4,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "NA==",
+				"Num": 4
+			},
+			"Properties": {
+				"id": "20221030172216-7z8nnmj",
+				"updated": "20221030172604"
+			},
+			"Children": [
+				{
+					"ID": "20221030172416-4abhwto",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221030172416-4abhwto",
+						"updated": "20221030172604"
+					},
+					"Children": [
+						{
+							"ID": "20221030172416-wuyp35h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030172416-wuyp35h",
+								"updated": "20221030172459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行完成之后，根据返回值去 struts.xml 找到对应的跳转视图，我们这里是 result.jsp，然后显示最终结果。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221030172459-thmv8e7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221030172459-thmv8e7",
+								"updated": "20221030172604"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221030172553.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221030173034-1hyx6ai",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030173034-1hyx6ai",
+				"updated": "20221030173156"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": "",
+						"style": "color: var(--b3-font-color1);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "注意：Struts2 每次请求都会生成一个 Action 的对象。这与 Servlet 不同，Servlet 是每个请求共享一个对象，Struts2 的 Action 是每次请求都生成一个新对象。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221030173242-w2os2h9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030173242-w2os2h9",
+				"updated": "20221030173302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Struts1 的处理方式与 Servlet 类似。"
+				}
+			]
+		},
+		{
+			"ID": "20221030173149-yw88yp0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221030173149-yw88yp0",
+				"updated": "20221030173149"
 			}
 		}
 	]

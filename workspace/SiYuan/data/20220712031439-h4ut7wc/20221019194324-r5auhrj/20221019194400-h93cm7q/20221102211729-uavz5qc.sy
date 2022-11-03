@@ -1,0 +1,1417 @@
+{
+	"ID": "20221102211729-uavz5qc",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16853092",
+		"custom-conf-post-id": "17760261",
+		"custom-desc": "struts提供了两种校验方式。使用编码方式进行校验新建registerjsp页面pageencoding=%username_password_repassword_age_birthday_geaduation_%username_password_repassword_age_birthday_geaduation_%%流程处理的actionpackagespaceterwerstruts_importjavautilcalendar_importjavautildate_importcomopen",
+		"custom-kms-post-id": "1843b8a008fe55c442dcc32446cb5061",
+		"custom-slug": "struts2-input-verification-analysis-encoding-method-verification-jhxef",
+		"custom-vuepress-slug": "docs/001.后端开发/006.Struts2/010.Struts2输入校验剖析之编码方式校验.md",
+		"custom-wordpress-post-id": "4360",
+		"custom-yuque-post-id": "104823298_terwer/note",
+		"id": "20221102211729-uavz5qc",
+		"tags": "方法,错误,集合,校验,进行,struts2,struts,code,validate",
+		"title": "010.Struts2输入校验剖析之编码方式校验",
+		"updated": "20221103002856"
+	},
+	"Children": [
+		{
+			"ID": "20221102211729-derkrr4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221102211729-derkrr4",
+				"updated": "20221102215546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Struts2 提供了两种校验方式。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102215547-br2vdhm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221102215547-br2vdhm",
+				"updated": "20221102215601"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "使用编码方式进行校验",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102215640-gm8kjit",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221102215640-gm8kjit",
+				"updated": "20221102215654"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "新建 register.jsp 页面",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102215654-r2cz0w7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221102215654-r2cz0w7",
+				"updated": "20221102233720"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"\n\tpageEncoding=\"UTF-8\"%\u003e\n\u003c%@ taglib prefix=\"s\" uri=\"/struts-tags\"%\u003e\n\n\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003cmeta charset=\"UTF-8\"\u003e\n\u003ctitle\u003eRegister\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\t\u003ch2 style=\"color:blue;\"\u003e用户注册\u003c/h2\u003e\n\n\t\u003cs:actionerror cssStyle=\"color:red;\" /\u003e\n\n\t----------------------------------------------------------------------\n\n\t\u003c%--\n\t\u003cform action=\"register.action\"\u003e\n\t\tusername: \u003cinput type=\"text\" name=\"username\" size=\"20\" /\u003e\u003cbr/\u003e\n\t\tpassword: \u003cinput type=\"password\" name=\"password\" size=\"20\" /\u003e\u003cbr/\u003e\n\t\trepassword: \u003cinput type=\"password\" name=\"repassword\" size=\"20\" /\u003e\u003cbr/\u003e\n\t\tage: \u003cinput type=\"text\" name=\"age\" size=\"20\" /\u003e\u003cbr/\u003e\n\t\tbirthday: \u003cinput type=\"text\" name=\"birthday\" size=\"20\"/\u003e\u003cbr/\u003e\n\t\tgeaduation: \u003cinput type=\"text\" name=\"graduation\" size=\"20\"/\u003e\u003cbr/\u003e\n\t\n\t\t\u003cinput type=\"submit\" value=\"submit\"/\u003e\n\t\u003c/form\u003e\n\t --%\u003e\n\n\t\u003cs:fielderror cssStyle=\"color:blue;\"\u003e\u003c/s:fielderror\u003e\n\t\u003cs:form action=\"register\" theme=\"simple\"\u003e\n\t\tusername:\u003cs:textfield name=\"username\" label=\"username\"\u003e\u003c/s:textfield\u003e\u003cbr/\u003e\n\t\tpassword: \u003cs:password name=\"password\" label=\"password\"\u003e\u003c/s:password\u003e\u003cbr/\u003e\n\t\trepassword: \u003cs:password name=\"repassword\" label=\"repassword\"\u003e\u003c/s:password\u003e\u003cbr/\u003e\n\t\tage: \u003cs:textfield name=\"age\" label=\"age\"\u003e\u003c/s:textfield\u003e\u003cbr/\u003e\n\t\tbirthday: \u003cs:textfield name=\"birthday\" label=\"birthday\"\u003e\u003c/s:textfield\u003e\u003cbr/\u003e\n\t\tgeaduation: \u003cs:textfield name=\"graduation\" label=\"graduation\"\u003e\u003c/s:textfield\u003e\u003cbr/\u003e\n\t\n\t\t\u003cs:submit value=\"submit\"\u003e\u003c/s:submit\u003e\n\t\u003c/s:form\u003e\n\n\t\u003c%--\n\t\u003cs:form action=\"register\"\u003e\n\t\t\u003cs:textfield name=\"username\" label=\"username\"\u003e\u003c/s:textfield\u003e\n\t\t\u003cs:password name=\"password\" label=\"password\"\u003e\u003c/s:password\u003e\n\t\t\u003cs:password name=\"repassword\" label=\"repassword\"\u003e\u003c/s:password\u003e\n\t\t\u003cs:textfield name=\"age\" label=\"age\"\u003e\u003c/s:textfield\u003e\n\t\t\u003cs:textfield name=\"birthday\" label=\"birthday\"\u003e\u003c/s:textfield\u003e\n\t\t\u003cs:textfield name=\"graduation\" label=\"graduation\"\u003e\u003c/s:textfield\u003e\n\t\n\t\t\u003cs:submit value=\"submit\"\u003e\u003c/s:submit\u003e\n\t\u003c/s:form\u003e\n\t--%\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102215714-sr8pggq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221102215714-sr8pggq",
+				"updated": "20221102220102"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "流程处理的 Action",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102215734-pi6eo22",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221102215734-pi6eo22",
+				"updated": "20221103002254"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package space.terwer.struts23;\n\nimport java.util.Calendar;\nimport java.util.Date;\n\nimport com.opensymphony.xwork2.ActionSupport;\n\npublic class RegisterAction extends ActionSupport {\n\tprivate String username;\n\tprivate String password;\n\tprivate String repassword;\n\tprivate Integer age;\n\tprivate Date birthday;\n\tprivate Date graduation;\n\n\tpublic String getUsername() {\n\t\treturn username;\n\t}\n\n\tpublic void setUsername(String username) {\n\t\tthis.username = username;\n\t}\n\n\tpublic String getPassword() {\n\t\treturn password;\n\t}\n\n\tpublic void setPassword(String password) {\n\t\tthis.password = password;\n\t}\n\n\tpublic String getRepassword() {\n\t\treturn repassword;\n\t}\n\n\tpublic void setRepassword(String repassword) {\n\t\tthis.repassword = repassword;\n\t}\n\n\tpublic Integer getAge() {\n\t\treturn age;\n\t}\n\n\tpublic void setAge(Integer age) {\n\t\tthis.age = age;\n\t}\n\n\tpublic Date getBirthday() {\n\t\treturn birthday;\n\t}\n\n\tpublic void setBirthday(Date birthday) {\n\t\tthis.birthday = birthday;\n\t}\n\n\tpublic Date getGraduation() {\n\t\treturn graduation;\n\t}\n\n\tpublic void setGraduation(Date graduation) {\n\t\tthis.graduation = graduation;\n\t}\n\n\t@Override\n\tpublic void validate() {\n\t\t// System.out.println(\"validate incoked\");\n\n\t\tif (null == this.getUsername() || this.getUsername().length() \u003c 4 || this.getUsername().length() \u003e 6) {\n\t\t\tthis.addActionError(\"username invalid\");\n\t\t\n\t\t\tthis.addFieldError(\"username\", \"username invalid in field\");\n\t\t\tthis.addFieldError(\"username\", \"username invalid in field2\");\n\t\t}\n\n\t\tif (null == this.getPassword() || this.getPassword().length() \u003c 4 || this.getPassword().length() \u003e 6) {\n\t\t\tthis.addActionError(\"password invalid\");\n\t\t} else if (null == this.getRepassword() || this.getRepassword().length() \u003c 4\n\t\t\t\t|| this.getRepassword().length() \u003e 6) {\n\t\t\tthis.addActionError(\"repassword invalid\");\n\t\t} else if (!this.getPassword().equals(this.getRepassword())) {\n\t\t\tthis.addActionError(\"the passwords not same\");\n\t\t}\n\n\t\tif (this.getAge() \u003c 10 || this.getAge() \u003e 50) {\n\t\t\tthis.addActionError(\"age invalid\");\n\t\t}\n\n\t\tif (null == this.getBirthday()) {\n\t\t\tthis.addActionError(\"birthday invalid\");\n\t\t}\n\n\t\tif (null == this.getGraduation()) {\n\t\t\tthis.addActionError(\"graduation invalid\");\n\t\t}\n\n\t\tif (null != this.getBirthday() \u0026\u0026 null != this.getGraduation()) {\n\t\t\tCalendar c1 = Calendar.getInstance();\n\t\t\tc1.setTime(this.getBirthday());\n\n\t\t\tCalendar c2 = Calendar.getInstance();\n\t\t\tc2.setTime(this.getGraduation());\n\n\t\t\tif (c1.after(c2)) {\n\t\t\t\tthis.addActionError(\"birthday should be before graduation\");\n\t\t\t}\n\t\t}\n\n\t\t// 注意：这样不行\n\t\t// this.getFieldErrors().clear();\n\t\t// this.getActionErrors().clear();\n\t\n\t\t// 下面的代码可以直接清空错误，直接跳转\n\t\t// this.clearFieldErrors();\n\t\t// this.clearActionErrors();\n\t\n\t\tSystem.out.println(\"error cleared\");\n\t}\n\n\t@Override\n\tpublic String execute() throws Exception {\n\t\t// System.out.println(\"execute invoked\");\n\t\treturn SUCCESS;\n\t}\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102220713-uzbyaru",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221102220713-uzbyaru",
+				"updated": "20221102220722"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "流程处理 struts.xml",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102220722-zu5euzm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221102220722-zu5euzm",
+				"updated": "20221102230109"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003caction name=\"register\" class=\"space.terwer.struts23.RegisterAction\"\u003e\n\t\u003cresult name=\"success\"\u003e/registerResult.jsp\u003c/result\u003e\n\t\u003cresult name=\"input\"\u003e/register.jsp\u003c/result\u003e\n\u003c/action\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102220741-p12t7b9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221102220741-p12t7b9",
+				"updated": "20221102220758"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "结果页面 registerResult.jsp",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102220748-41vohnt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221102220748-41vohnt",
+				"updated": "20221102222405"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c%@ page language=\"java\" contentType=\"text/html; charset=UTF-8\"\n    pageEncoding=\"UTF-8\"%\u003e\n\u003c%@ taglib prefix=\"s\" uri=\"/struts-tags\" %\u003e  \n  \n\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003chead\u003e\n\u003cmeta charset=\"UTF-8\"\u003e\n\u003ctitle\u003eRegister result\u003c/title\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\tusername: \u003cs:property value=\"username\"/\u003e\u003cbr/\u003e\n\tpassword: \u003cs:property value=\"password\"/\u003e\u003cbr/\u003e\n\tage: \u003cs:property value=\"age\"/\u003e\u003cbr/\u003e\n\tbirthday: \u003cs:property value=\"birthday\"/\u003e\u003cbr/\u003e\n\tgraduation: \u003cs:property value=\"graduation\"/\u003e\u003cbr/\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102230227-5lf6wpp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221102230227-5lf6wpp",
+				"updated": "20221102230239"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "效果",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102230239-842jcog",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221102230239-842jcog",
+				"updated": "20221102230240"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221102230216.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102233730-qpnlv8y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221102233730-qpnlv8y",
+				"updated": "20221102233748"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "加入字段校验之后",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102233749-x4h2wpz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221102233749-x4h2wpz",
+				"updated": "20221102233830"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221102233817.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102233907-xobqfhl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221102233907-xobqfhl",
+				"updated": "20221102233914"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "总结",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102233915-76yefbv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221102233915-76yefbv",
+				"updated": "20221103000252"
+			},
+			"Children": [
+				{
+					"ID": "20221103000058-m3v3q5v",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221103000058-m3v3q5v",
+						"updated": "20221103000252"
+					},
+					"Children": [
+						{
+							"ID": "20221103000058-w567pgz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221103000058-w567pgz",
+								"updated": "20221103000235"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行流程：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "background-color: var(--b3-theme-background); color: var(--b3-theme-on-background);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "然后进行输入校验（执行 "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"background-color: var(--b3-theme-background); color: var(--b3-theme-on-background);\"}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "background-color: var(--b3-theme-background); color: var(--b3-theme-on-background);"
+									},
+									"TextMarkType": "text code",
+									"TextMarkTextContent": "validate"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"background-color: var(--b3-theme-background); color: var(--b3-theme-on-background);\"}",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": "",
+										"style": "background-color: var(--b3-theme-background); color: var(--b3-theme-on-background);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " 方法）"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"background-color: var(--b3-theme-background); color: var(--b3-theme-on-background);\"}",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221103000123-iktztz9",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20221103000123-iktztz9",
+								"updated": "20221103000252"
+							},
+							"Children": [
+								{
+									"ID": "20221103000126-ashxlej",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221103000126-ashxlej",
+										"updated": "20221103000126"
+									},
+									"Children": [
+										{
+											"ID": "20221103000126-vji62vx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221103000126-vji62vx",
+												"updated": "20221103000126"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "首先进行类转换",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221103000129-tn71ow8",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221103000129-tn71ow8",
+										"updated": "20221103000238"
+									},
+									"Children": [
+										{
+											"ID": "20221103000129-6osy0ov",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221103000129-6osy0ov",
+												"updated": "20221103000238"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "然后进行输入校验（执行 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
+													"TextMarkType": "code",
+													"TextMarkTextContent": "validate"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 方法）",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221103000132-s7me1jw",
+									"Type": "NodeListItem",
+									"Data": "3",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 3,
+										"Delimiter": 46,
+										"Padding": 3,
+										"Marker": "Mw==",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20221103000132-s7me1jw",
+										"updated": "20221103000252"
+									},
+									"Children": [
+										{
+											"ID": "20221103000132-nbqziia",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221103000132-nbqziia",
+												"updated": "20221103000252"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果在上述过程中出现了任何错误，都不会再去执行 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
+													"TextMarkType": "code",
+													"TextMarkTextContent": "execute"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 方法，页面会转向 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
+													"TextMarkType": "code",
+													"TextMarkTextContent": "struts.xml"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 该 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
+													"TextMarkType": "code",
+													"TextMarkTextContent": "Action"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的名为 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
+													"TextMarkType": "code",
+													"TextMarkTextContent": "input"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 的 ",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
+													"TextMarkType": "code",
+													"TextMarkTextContent": "result"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 所对应的页面。",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221103000053-cx6y7bd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 2,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "Mg==",
+				"Num": 2
+			},
+			"Properties": {
+				"id": "20221103000053-cx6y7bd",
+				"updated": "20221103001835"
+			},
+			"Children": [
+				{
+					"ID": "20221103000134-6q2efq8",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221103000134-6q2efq8",
+						"updated": "20221103000307"
+					},
+					"Children": [
+						{
+							"ID": "20221103000134-704wm2z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221103000134-704wm2z",
+								"updated": "20221103000307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ActionSupport"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 类的 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "addActionError()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 方法的视线：首先创建一个 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ArrayList"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 对象，然后将错误消息添加到该 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ArrayList"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​​​ 对象中。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221103000228-vv2t5gw",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221103000228-vv2t5gw",
+						"updated": "20221103001835"
+					},
+					"Children": [
+						{
+							"ID": "20221103000228-alv7x7u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221103000228-alv7x7u",
+								"updated": "20221103001830"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当调用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "getActionErrors()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 方法返回 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Action"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 级别的错误信息列表时，返回的实际上是集合的一个副本，而非原集合中的元素，因此对集合副本调用 clear() 方法清除的依旧是副本中的元素而非原集合中的元素，此时原集合中的元素没有受到任何影响。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221103001753-i8utjei",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221103001753-i8utjei",
+								"updated": "20221103001808"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果需要清空，可以调用",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221103001556-e0w8qee",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221103001556-e0w8qee",
+								"updated": "20221103001835"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注意：清空错误的方法不能使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "clearActionErrors()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ，这个操作的是错误对象列表。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221103001311-ye5vlh5",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221103001311-ye5vlh5",
+								"updated": "20221103001416"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// 注意：这样不行\nthis.getFieldErrors().clear();\nthis.getActionErrors().clear();\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221103001316-kuaetqm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221103001316-kuaetqm",
+								"updated": "20221103001319"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "必须使用",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221103001320-wdps3ny",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YQ==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221103001320-wdps3ny",
+								"updated": "20221103001411"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// 下面的代码可以直接清空错误，直接跳转\nthis.clearFieldErrors();\nthis.clearActionErrors();\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221103001259-9jd9xvx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221103001259-9jd9xvx",
+								"updated": "20221103001300"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221103001240.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221103000308-0czku52",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 10,
+				"Delimiter": 46,
+				"Padding": 4,
+				"Marker": "MTA=",
+				"Num": 10
+			},
+			"Properties": {
+				"id": "20221103000308-0czku52",
+				"updated": "20221103002856"
+			},
+			"Children": [
+				{
+					"ID": "20221103002622-mf4rsy7",
+					"Type": "NodeListItem",
+					"Data": "10",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 10,
+						"Delimiter": 46,
+						"Padding": 4,
+						"Marker": "MTA=",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20221103002622-mf4rsy7",
+						"updated": "20221103002856"
+					},
+					"Children": [
+						{
+							"ID": "20221103002622-4j51abc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221103002622-4j51abc",
+								"updated": "20221103002856"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "FieldError"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 级别的错误信息底层是用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "LinkedHashMap"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 实现的，该 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Map"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "key"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "String"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 类型， "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "value"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "List\u0026lt;String\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 类型，这表示一个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Field Name"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 可以对应多条错误信息，这些错误信息都放置在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "List\u0026lt;String\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 集合中。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

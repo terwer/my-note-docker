@@ -1,0 +1,510 @@
+{
+	"ID": "20221031183817-w9gdght",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16845361",
+		"custom-conf-post-id": "16777223",
+		"custom-desc": "搭建直接使用我写好的dockercompose​脚本即可。​dockerfile​#依赖的镜像fromdelferalpineftpserver_latest#镜像创建者的信息maintainerterwer#设置编码envlangcutf#设置时区envtzasiashanghai#dockerinspectportableftpserver_grepipaddres​dockercomposeyml​#dockercomposeloglevelinfoupbuildportableminaftpser",
+		"custom-kms-post-id": "1842da78a34e934f5dd0f054c66a4425",
+		"custom-slug": "build-a-lightweight-ftp-server-z1ch9hr",
+		"custom-vuepress-slug": "docs/003.经验分享/077.搭建一个轻量级的ftp服务器.md",
+		"custom-wordpress-post-id": "4354",
+		"custom-yuque-post-id": "102691904_terwer/note",
+		"id": "20221031183817-w9gdght",
+		"tags": "搭建,直接,light-weight,ftp,ftpserver,docker,轻量级",
+		"title": "077.搭建一个轻量级的ftp服务器",
+		"updated": "20221031184622"
+	},
+	"Children": [
+		{
+			"ID": "20221031184020-pas0vv2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221031184020-pas0vv2",
+				"updated": "20221031184023"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "搭建",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031183817-7ayb3yl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031183817-7ayb3yl",
+				"updated": "20221031183946"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "直接使用我写好的 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "docker-compose"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 脚本即可。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031183938-0ojyw1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031183938-0ojyw1a",
+				"updated": "20221031183956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Dockerfile"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031183957-ruo4vq6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "ZG9ja2VyZmlsZQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221031183957-ruo4vq6",
+				"updated": "20221031184014"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "ZG9ja2VyZmlsZQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 依赖的镜像\nFROM delfer/alpine-ftp-server:latest\n\n#镜像创建者的信息\nMAINTAINER terwer \"youweics@163.com\"\n\n# 设置编码\nENV LANG C.UTF-8\n\n# 设置时区\nENV TZ Asia/Shanghai\n\n# docker inspect portable-ftpserver | grep IPAddres\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031183942-73ya2q3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031183942-73ya2q3",
+				"updated": "20221031183953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "docker-compose.yml"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031183906-run5yir",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eWFtbA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221031183906-run5yir",
+				"updated": "20221031183936"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eWFtbA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# docker-compose --log-level INFO up --build portable-mina-ftpserver\n# docker-compose --log-level INFO up\n\nversion: '3'\nservices:\n  portable-redis7:\n    image: terwer/ftpserver:latest\n    container_name: portable-ftpserver\n    build:\n     context: .\n     dockerfile: Dockerfile\n    ports:\n     - \"21:21\"\n     - \"21000-21010:21000-21010\"\n    environment:\n     - \"TZ=Asia/Shanghai\"\n     - \"USERS=terwer|123456|/Users/terwer/ftppath|10000\"\n     - \"ADDRESS=localhost\"\n    volumes:\n      - ./ftphome:/Users/terwer/ftppath\n    stdin_open: true\n    restart: \"no\"\n    networks:\n      - local-dev\n\nnetworks:\n  local-dev:\n    external: true\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031184025-zblcm57",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221031184025-zblcm57",
+				"updated": "20221031184205"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "运行 ftpserver"
+				}
+			]
+		},
+		{
+			"ID": "20221031184027-aw9rwxe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031184027-aw9rwxe",
+				"updated": "20221031184122"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "docker-compose.yml"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 的同级目录，新建一个 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "ftphome"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 文件夹，然后运行下面命令即可。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031184038-aehzpuc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221031184038-aehzpuc",
+				"updated": "20221031184126"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "docker compose up --build\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221031184124-ozut0g0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221031184124-ozut0g0",
+				"updated": "20221031184546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "连接 ftp 测试"
+				}
+			]
+		},
+		{
+			"ID": "20221031184220-o1kfjto",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031184220-o1kfjto",
+				"updated": "20221031184230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 Filezilla"
+				}
+			]
+		},
+		{
+			"ID": "20221031184231-kr9ljg7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031184231-kr9ljg7",
+				"updated": "20221031184326"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221031184315.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221031184328-tafwkmy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031184328-tafwkmy",
+				"updated": "20221031184333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "信息如下："
+				}
+			]
+		},
+		{
+			"ID": "20221031184333-pvh1kwo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221031184333-pvh1kwo",
+				"updated": "20221031184437"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Host localhost\nPort 21 # 端口默认是21，可以不写\n\nUser terwer\nPassword 123456\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221031184438-pp5ex9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031184438-pp5ex9a",
+				"updated": "20221031184442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "效果："
+				}
+			]
+		},
+		{
+			"ID": "20221031184442-vvvfyri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031184442-vvvfyri",
+				"updated": "20221031184622"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221031184611.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

@@ -1,14 +1,18 @@
 [
-    {
-        "name": "-js-custom",
-        "type": "js",
-        "enabled": true,
-        "content": "import('/widgets/custom.js');"
-    },
-    {
-        "name": "-css-custom",
-        "type": "css",
-        "enabled": false,
-        "content": "@import url('/widgets/custom.css');"
-    }
+  {
+    "id": "20221030195819-69xbe0x",
+    "name": "-css-custom",
+    "memo": "",
+    "type": "css",
+    "enabled": true,
+    "content": ".protyle-background:has(.protyle-background__icon.fn__none) {min-height: 57px !important;}\n.protyle-title{margin-left:64px !important;margin-right:16px !important;}\n.protyle-wysiwyg{padding-left:64px !important;padding-right:16px !important;}\n\n.b3-typography .code-block .protyle-action .protyle-action__language,\n.protyle-wysiwyg .code-block .protyle-action .protyle-action__language{\n    opacity: 1 !important;\n}\n.b3-typography .code-block .protyle-action .protyle-icon,\n.protyle-wysiwyg .code-block .protyle-action .protyle-icon{\n\t/* copy按钮不调整 */\n}\n.b3-typography .hljs, .protyle-wysiwyg .hljs{\n\tpadding-left: 14px !important;\n\tpadding-bottom: 14px !important;\n}\n\n.b3-typography div.hljs, .protyle-wysiwyg div.hljs {\n    tab-size: 4 !important;\n}\n\n/* Sofill- */\n/*span[data-type=code] {\n\tcolor: white !important;\n    background-color: var(--b3-theme-primary) !important;\n}\n*/"
+  },
+  {
+    "id": "20221030195819-i8vku76",
+    "name": "-js-custom",
+    "memo": "",
+    "type": "js",
+    "enabled": true,
+    "content": "import('/widgets/custom.js');"
+  }
 ]

@@ -1,31 +1,28 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 0,
+    "mode": 1,
     "modeOS": true,
     "darkThemes": [
-      "notion-theme",
-      "midnight",
+      "Consistent",
       "Rem Craft",
-      "Dark+"
+      "midnight"
     ],
     "lightThemes": [
-      "notion-theme",
-      "pink-room",
+      "Consistent",
       "Rem Craft",
-      "daylight",
-      "Dark+"
+      "daylight"
     ],
     "themeDark": "Rem Craft",
     "themeLight": "Rem Craft",
-    "themeVer": "2.2.4",
+    "themeVer": "2.2.5",
     "icons": [
       "ant",
-      "notion-icon",
-      "material"
+      "material",
+      "notion-icon"
     ],
     "icon": "material",
-    "iconVer": "1.5.0",
+    "iconVer": "1.7.0",
     "nativeEmoji": false,
     "codeBlockThemeLight": "vs",
     "codeBlockThemeDark": "base16/dracula",
@@ -118,7 +115,11 @@
     "katexMacros": "{}",
     "readOnly": false,
     "embedBlockBreadcrumb": false,
-    "listLogicalOutdent": false
+    "listLogicalOutdent": false,
+    "floatWindowMode": 0,
+    "dynamicLoadBlocks": 48,
+    "justify": false,
+    "rtl": false
   },
   "export": {
     "paragraphBeginningSpace": false,
@@ -232,159 +233,86 @@
                 {
                   "children": [
                     {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221102203450-z5c8080",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221102203450-z5c8080",
+                        "scrollAttr": {
+                          "endId": "20221102204828-cq9srfq",
+                          "scrollTop": 0,
+                          "startId": "20221102203450-ijwg4p6"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "008.Struts2类型转换之全局类型转换"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221102204949-fesu7vb",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221102204949-fesu7vb",
+                        "scrollAttr": {
+                          "endId": "20221102211631-c1453th",
+                          "focusEnd": 0,
+                          "focusId": "20221102211247-v77tj7q",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20221102211247-v77tj7q"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "009.Struts2自定义方法最佳实践"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221102211729-uavz5qc",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "rootId": "20221102211729-uavz5qc",
+                        "scrollAttr": {
+                          "endId": "20221103000308-0czku52",
+                          "focusEnd": 0,
+                          "focusId": "20221102211729-derkrr4",
+                          "focusStart": 0,
+                          "scrollTop": 7481,
+                          "startId": "20221102211729-derkrr4"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "010.Struts2输入校验剖析之编码方式校验"
+                    },
+                    {
                       "active": true,
                       "children": {
                         "action": "",
-                        "blockId": "20221030012618-je6ljou",
+                        "blockId": "20221103212305-dg2btgu",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "rootId": "20221030012618-je6ljou",
+                        "rootId": "20221103212305-dg2btgu",
                         "scrollAttr": {
-                          "endId": "20221030150249-wpf8r3y",
-                          "focusEnd": 4,
-                          "focusId": "20221030150249-wpf8r3y",
-                          "focusStart": 4,
-                          "scrollTop": 493.5,
-                          "startId": "20221030012618-c5s065m"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "004.Struts2的类型转换"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221030131738-nvy7jl4",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221030131738-nvy7jl4",
-                        "scrollAttr": {
-                          "endId": "20221030135536-lhlrmck",
-                          "focusEnd": 73,
-                          "focusId": "20221030135536-lhlrmck",
-                          "focusStart": 73,
-                          "scrollTop": 0,
-                          "startId": "20221030131738-v7t41nq"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "076.Struts2使用标签库找不到URI:[struts-tags]的taglib[s]问题解决"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221024214405-cvlw2ng",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221024214405-cvlw2ng",
-                        "scrollAttr": {
-                          "endId": "20221025012754-de68sw7",
-                          "focusEnd": 67,
-                          "focusId": "20221024233025-2mdm78i",
-                          "focusStart": 0,
-                          "scrollTop": 2865,
-                          "startId": "20221025000559-u2dutcq"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "002.Struts2-3环境准备以及构建第一个Struts2-3的hello-word项目"
-                    },
-                    {
-                      "children": {},
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "003.使用MyEclipse2022-1搭建Maven版本的Struts2-3项目"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221028132551-cfjgyre",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20220708165128-7rypbi7",
-                        "scrollAttr": {
-                          "endId": "20220714164045-3dfwzfe",
+                          "endId": "20221103212305-wo639bz",
                           "focusEnd": 0,
-                          "focusId": "20221028132551-cfjgyre",
-                          "focusStart": 0,
-                          "scrollTop": 3181,
-                          "startId": "20220708165418-touu2bn"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "002.平台账号"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221030001329-7caczpx",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221030001329-7caczpx",
-                        "scrollAttr": {
-                          "endId": "20221030001332-k0dc8zz",
-                          "focusEnd": 43,
-                          "focusId": "20221030001332-pd43cl4",
-                          "focusStart": 43,
-                          "scrollTop": 3005,
-                          "startId": "20221030001332-cwfs2cw"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "001.使用MyEclipse2022-1搭建Struts2-5项目"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221030001257-4xskrhr",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221030001257-4xskrhr",
-                        "scrollAttr": {
-                          "endId": "20221030001257-sol39nm",
-                          "focusEnd": 0,
-                          "focusId": "20221030001257-sol39nm",
+                          "focusId": "20221103212305-wo639bz",
                           "focusStart": 0,
                           "scrollTop": 0,
-                          "startId": "20221030001257-sol39nm"
+                          "startId": "20221103212305-wo639bz"
                         }
                       },
                       "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "003.Struts25"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221020010808-ygp9rgz",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "rootId": "20221020010808-ygp9rgz",
-                        "scrollAttr": {
-                          "endId": "20221020010808-66mrz88",
-                          "focusEnd": 0,
-                          "focusId": "20221020010808-66mrz88",
-                          "focusStart": 0,
-                          "scrollTop": 0,
-                          "startId": "20221020010808-66mrz88"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "004.Struts6"
+                      "title": "011."
                     }
                   ],
                   "height": "",
@@ -548,14 +476,12 @@
   "readonly": false,
   "localIPs": [
     "192.168.3.60",
-    "10.211.55.2",
-    "10.37.129.2",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
   "system": {
     "id": "73C2A36A-4EC9-506D-AD05-90621F13A64A",
-    "kernelVersion": "2.4.6",
+    "kernelVersion": "2.4.9",
     "os": "darwin",
     "container": "std",
     "isMicrosoftStore": false,
@@ -573,6 +499,7 @@
       "port": ""
     },
     "uploadErrLog": false,
+    "disableGoogleAnalytics": true,
     "downloadInstallPkg": false
   },
   "keymap": {},
@@ -582,7 +509,9 @@
     "mode": 1,
     "synced": 0,
     "stat": "",
-    "generateConflictDoc": false
+    "generateConflictDoc": false,
+    "provider": 0,
+    "s3": null
   },
   "search": {
     "document": true,
@@ -612,7 +541,7 @@
     "virtualRefDoc": true
   },
   "stat": {
-    "docCount": 420
+    "docCount": 429
   },
   "api": {
     "token": "gzgovkf5fcou52rk"

@@ -4,6 +4,7 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16105653",
+		"custom-conf-post-id": "16482353",
 		"custom-desc": "默认的mac终端是不支持多个远程链接的也不支持多个tab通过配置使用iterm替换默认终端可以很方便的解决这些需求。下载地址https_itermcomdownloadsstableiterm__zip安装解压后直接拖进应用程序即可。配置管理多个远程链接并支持自动登录自动登录安装sshpass下载_http_sourceforgenetprojectssshpassfiles如果嫌慢可以使用我的阿里云osshttps_staticrsterwerosscnbeijingaliyuncscomlibsshp",
 		"custom-slug": "mac-use-iterm2-replace-default-termial",
 		"custom-vuepress-slug": "docs/003.经验分享/001.Mac使用iTerm2代替默认终端.md",
@@ -13,7 +14,7 @@
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221021183755-gg9fiun\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221021185948-pj6ahy9\u0026quot;,\u0026quot;scrollTop\u0026quot;:1510,\u0026quot;focusId\u0026quot;:\u0026quot;20221021190009-5solvwk\u0026quot;,\u0026quot;focusStart\u0026quot;:37,\u0026quot;focusEnd\u0026quot;:37}",
 		"tags": "mac,terminal,实用技巧,多个,配置,打开,默认,终端",
 		"title": "001.Mac使用iTerm2代替默认终端",
-		"updated": "20221021190036"
+		"updated": "20221021185525"
 	},
 	"Children": [
 		{
@@ -463,49 +464,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "点击 Edit Profiles ，可以在新窗口里面新增Profile"
-				}
-			]
-		},
-		{
-			"ID": "20221021185525-4vc1slt",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221021185525-4vc1slt",
-				"updated": "20221021185526"
-			},
-			"Children": [
-				{
-					"Type": "NodeImage",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeBang"
-						},
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeLinkText"
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://img1.terwer.space/api/public/20221021185452.png"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
-				},
-				{
-					"Type": "NodeText",
-					"Data": "​"
+					"Data": "点击 Edit Profiles ，可以在新窗口里面新增Profile​"
 				}
 			]
 		},

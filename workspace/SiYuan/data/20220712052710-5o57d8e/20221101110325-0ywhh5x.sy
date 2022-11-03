@@ -1,0 +1,220 @@
+{
+	"ID": "20221101110325-0ywhh5x",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221101110325-0ywhh5x",
+		"title": "079.tomcat9因为在清除过期缓存条目后可用空间仍不足-请考虑增加缓存的最大空间。",
+		"updated": "20221103132311"
+	},
+	"Children": [
+		{
+			"ID": "20221101110510-zzegxk2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221101110510-zzegxk2",
+				"updated": "20221101110510"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "问题",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221101110510-4a2k958",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101110510-4a2k958",
+				"updated": "20221101110510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因为在清除过期缓存条目后可用空间仍不足 - 请考虑增加缓存的最大空间。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221101110501-q9mt2kf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221101110501-q9mt2kf",
+				"updated": "20221101110515"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "解决方案",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221101110418-1hm71av",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101110418-1hm71av",
+				"updated": "20221101110526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将下面代码添加到 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Context"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 中",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221101110325-kvy3g64",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221101110325-kvy3g64",
+				"updated": "20221101110442"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cResources cachingAllowed=\"true\" cacheMaxSize=\"100000\"/\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221101110342-ewaa5qj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221101110342-ewaa5qj",
+				"updated": "20221101110355"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配合软连接之后的配置",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221101110356-drssvxu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221101110356-drssvxu",
+				"updated": "20221101110437"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cResources allowLinking=\"true\" cachingAllowed=\"true\" cacheMaxSize=\"100000\"/\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}

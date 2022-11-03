@@ -1,0 +1,65 @@
+{
+	"ID": "20221031185419-ky9876u",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221031185419-ky9876u",
+		"title": "临时存档",
+		"updated": "20221031185450"
+	},
+	"Children": [
+		{
+			"ID": "20221031185419-ht754jp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031185419-ht754jp",
+				"updated": "20221031185431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阿里云oss的s3兼容"
+				}
+			]
+		},
+		{
+			"ID": "20221031185431-87nlnhv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031185431-87nlnhv",
+				"updated": "20221031185446"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://help.aliyun.com/apsara/agile-data/v_2_5_0_20200506/oss/insight-developer-guide/s3-api-compatibility-instructions.html",
+					"TextMarkTextContent": "https://help.aliyun.com/apsara/agile-data/v_2_5_0_20200506/oss/insight-developer-guide/s3-api-compatibility-instructions.html"
+				}
+			]
+		},
+		{
+			"ID": "20221031185433-550l8aq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031185433-550l8aq",
+				"updated": "20221031185449"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.alibabacloud.com/help/zh/object-storage-service/latest/use-aws-s3-sdk-to-access-oss",
+					"TextMarkTextContent": "https://www.alibabacloud.com/help/zh/object-storage-service/latest/use-aws-s3-sdk-to-access-oss"
+				}
+			]
+		},
+		{
+			"ID": "20221031185450-bed4fgg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221031185450-bed4fgg"
+			}
+		}
+	]
+}

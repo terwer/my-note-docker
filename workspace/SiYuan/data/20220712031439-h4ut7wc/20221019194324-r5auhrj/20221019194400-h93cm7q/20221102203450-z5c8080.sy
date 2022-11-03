@@ -1,0 +1,290 @@
+{
+	"ID": "20221102203450-z5c8080",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16852428",
+		"custom-conf-post-id": "17596421",
+		"custom-desc": "概述全局类型转换。在src​目录下新建xworkconversionproperties​该文件的内容是待转换的类=转换器名字即_spaceterwerbeanuser=spaceterwerconverteruserconverter实例在src​目录新建一个xworkconversionproperties​文件spaceterwerbeanuser=spaceterwerconverteruserconverter其他配置保持不变。‍",
+		"custom-kms-post-id": "1843b89b636354ccca21b4d4c85b8fca",
+		"custom-slug": "struts2-type-conversion-global-type-conversion-z1ujjff",
+		"custom-vuepress-slug": "docs/001.后端开发/006.Struts2/008.Struts2类型转换之全局类型转换.md",
+		"custom-wordpress-post-id": "4358",
+		"custom-yuque-post-id": "104806309_terwer/note",
+		"id": "20221102203450-z5c8080",
+		"tags": "目录,新建,文件,概述,全局,类型,转换,converter,global",
+		"title": "008.Struts2类型转换之全局类型转换",
+		"updated": "20221102204828"
+	},
+	"Children": [
+		{
+			"ID": "20221102203450-ijwg4p6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221102203450-ijwg4p6",
+				"updated": "20221102203519"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "概述",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102203520-jdeyptp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221102203520-jdeyptp",
+				"updated": "20221102204634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全局类型转换。在 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "src"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 目录下新建 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "xwork-conversion.properties"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ ，该文件的内容是 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "待转换的类=转换器名字"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，即："
+				}
+			]
+		},
+		{
+			"ID": "20221102204605-csfv9r8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHJvcGVydGllcw==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221102204605-csfv9r8",
+				"updated": "20221102204611"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "space.terwer.bean.User=space.terwer.converter.UserConverter2\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102203525-kfu58gb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221102203525-kfu58gb",
+				"updated": "20221102203739"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "实例",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102203739-2r3h9hs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221102203739-2r3h9hs",
+				"updated": "20221102203804"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "在 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "src"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 目录新建一个 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "xwork-conversion.properties"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 文件",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102203749-4l66ez8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHJvcGVydGllcw==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221102203749-4l66ez8",
+				"updated": "20221102204013"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHJvcGVydGllcw==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "space.terwer.bean.User=space.terwer.converter.UserConverter2\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102204015-1zpdt00",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221102204015-1zpdt00",
+				"updated": "20221102204331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他配置保持不变。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221102204828-cq9srfq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221102204828-cq9srfq"
+			}
+		}
+	]
+}
