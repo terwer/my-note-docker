@@ -1,4 +1,4 @@
-# docker-compose --log-level INFO up --build
+# docker-compose --log-level INFO up --build  
 # docker-compose --log-level INFO up -d --build
 
 version: '3'
