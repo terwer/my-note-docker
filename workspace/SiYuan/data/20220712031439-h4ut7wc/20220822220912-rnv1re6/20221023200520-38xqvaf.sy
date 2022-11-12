@@ -10,7 +10,7 @@
 		"custom-wordpress-post-id": "4345",
 		"custom-yuque-post-id": "97675855_terwer/note",
 		"id": "20221023200520-38xqvaf",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221023200520-tm5bp7v\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221024000442-yy4t95w\u0026quot;,\u0026quot;scrollTop\u0026quot;:3328,\u0026quot;focusId\u0026quot;:\u0026quot;20221024004601-tbx0rbj\u0026quot;,\u0026quot;focusStart\u0026quot;:62,\u0026quot;focusEnd\u0026quot;:62}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221023200520-tm5bp7v\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221024000442-yy4t95w\u0026quot;,\u0026quot;scrollTop\u0026quot;:4264,\u0026quot;focusId\u0026quot;:\u0026quot;20221024004601-tbx0rbj\u0026quot;,\u0026quot;focusStart\u0026quot;:62,\u0026quot;focusEnd\u0026quot;:62}",
 		"tags": "方法,元素,调用,集合,java,linkedlist,collection",
 		"title": "023.LinkedList源代码深入剖析",
 		"updated": "20221024004628"

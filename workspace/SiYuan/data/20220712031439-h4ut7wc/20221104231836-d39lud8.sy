@@ -1,0 +1,20 @@
+{
+	"ID": "20221104231836-d39lud8",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221104231836-d39lud8",
+		"title": "010.Webservice",
+		"updated": "20221104231846"
+	},
+	"Children": [
+		{
+			"ID": "20221104231836-gbp3biw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221104231836-gbp3biw",
+				"updated": "20221104231836"
+			}
+		}
+	]
+}

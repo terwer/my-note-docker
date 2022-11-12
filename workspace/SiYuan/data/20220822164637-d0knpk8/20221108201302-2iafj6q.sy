@@ -1,0 +1,20 @@
+{
+	"ID": "20221108201302-2iafj6q",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221108201302-2iafj6q",
+		"title": "004.并发新思路",
+		"updated": "20221108201343"
+	},
+	"Children": [
+		{
+			"ID": "20221108201302-6bm4gj8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108201302-6bm4gj8",
+				"updated": "20221108201302"
+			}
+		}
+	]
+}

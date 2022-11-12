@@ -1,0 +1,20 @@
+{
+	"ID": "20221104231859-81rgj4z",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221104231859-81rgj4z",
+		"title": "001.JAX-WS",
+		"updated": "20221104231905"
+	},
+	"Children": [
+		{
+			"ID": "20221104231859-4zde05n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221104231859-4zde05n",
+				"updated": "20221104231859"
+			}
+		}
+	]
+}

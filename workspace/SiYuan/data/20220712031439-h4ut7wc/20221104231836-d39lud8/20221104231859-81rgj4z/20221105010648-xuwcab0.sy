@@ -1,0 +1,1404 @@
+{
+	"ID": "20221105010648-xuwcab0",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16870869",
+		"custom-conf-post-id": "18579463",
+		"custom-desc": "cxf的历史官网_https_cxfapacheorgceltix和xfire合并而来。稳定版本https_archiveapacheorgdistcxf入门项目新建一个普通java项目即可。最好使用maven服务端pomxmlxsi_schemalocation=服务端核心代码myservice接口packagespaceterwercxf_importjavaxjwswebservice_@webservicepublicinterfacemyservice{stringhello(stringuse",
+		"custom-slug": "introduction-to-apachecxf-and-the-entry-program-for-the-first-jaxws-286lne",
+		"custom-vuepress-slug": "docs/001.后端开发/010.Webservice/001.Apache-CXF简介与第一个JAX-WS的入门程序.md",
+		"custom-wordpress-post-id": "4364",
+		"custom-yuque-post-id": "105467699_terwer/note",
+		"id": "20221105010648-xuwcab0",
+		"tags": "客户端,版本,WS,Webservice,JAX-WS,CXF,Apache",
+		"title": "001.Apache-CXF简介与第一个JAX-WS的入门程序",
+		"updated": "20221108190631"
+	},
+	"Children": [
+		{
+			"ID": "20221105010648-2glvcjt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221105010648-2glvcjt",
+				"updated": "20221105010715"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "CXF 的历史",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221105010715-tlfkrjx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221105010715-tlfkrjx",
+				"updated": "20221105010848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "官网：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://cxf.apache.org/",
+					"TextMarkTextContent": "https://cxf.apache.org/"
+				}
+			]
+		},
+		{
+			"ID": "20221105010800-spiixwe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221105010800-spiixwe",
+				"updated": "20221105011151"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " Celtix 和 XFire 合并而来。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184023-n0artxe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221108184023-n0artxe",
+				"updated": "20221108185429"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "稳定版本"
+				}
+			]
+		},
+		{
+			"ID": "20221107144406-frytxqu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107144406-frytxqu",
+				"updated": "20221107144408"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.3.11",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221107144402-m8hc799",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107144402-m8hc799",
+				"updated": "20221107144411"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://archive.apache.org/dist/cxf/3.3.11/",
+					"TextMarkTextContent": "https://archive.apache.org/dist/cxf/3.3.11/"
+				}
+			]
+		},
+		{
+			"ID": "20221105011134-c8vs0p0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221105011134-c8vs0p0",
+				"updated": "20221108184036"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "入门项目",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184452-qvqewyz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184452-qvqewyz",
+				"updated": "20221108184506"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新建一个普通 Java 项目即可。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184516-ahi4mnp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184516-ahi4mnp",
+				"updated": "20221108184521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最好使用 Maven",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184348-l3ob8jx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221108184348-l3ob8jx",
+				"updated": "20221108184353"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "服务端",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184524-45rbb65",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184524-45rbb65",
+				"updated": "20221108184526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "pom.xml",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184405-vv0o9f7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221108184405-vv0o9f7",
+				"updated": "20221108185013"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cproject xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\"\u003e\n    \u003cmodelVersion\u003e4.0.0\u003c/modelVersion\u003e\n\n    \u003cgroupId\u003espace.terwer\u003c/groupId\u003e\n    \u003cartifactId\u003ecxf-server-demo\u003c/artifactId\u003e\n    \u003cversion\u003e1.0-SNAPSHOT\u003c/version\u003e\n    \u003cpackaging\u003ewar\u003c/packaging\u003e\n\n    \u003cname\u003ecxf-server-demo\u003c/name\u003e\n    \u003curl\u003ehttps://terwer.space\u003c/url\u003e\n\n    \u003cproperties\u003e\n        \u003cproject.build.sourceEncoding\u003eUTF-8\u003c/project.build.sourceEncoding\u003e\n        \u003cmaven.compiler.source\u003e8\u003c/maven.compiler.source\u003e\n        \u003cmaven.compiler.target\u003e8\u003c/maven.compiler.target\u003e\n        \u003ccxf.version\u003e3.3.11\u003c/cxf.version\u003e\n    \u003c/properties\u003e\n\n    \u003cdependencies\u003e\n        \u003c!-- Logback --\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003ech.qos.logback\u003c/groupId\u003e\n            \u003cartifactId\u003elogback-classic\u003c/artifactId\u003e\n            \u003cversion\u003e1.2.10\u003c/version\u003e\n            \u003cscope\u003ecompile\u003c/scope\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003ech.qos.logback\u003c/groupId\u003e\n            \u003cartifactId\u003elogback-core\u003c/artifactId\u003e\n            \u003cversion\u003e1.2.10\u003c/version\u003e\n            \u003cscope\u003ecompile\u003c/scope\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.slf4j\u003c/groupId\u003e\n            \u003cartifactId\u003eslf4j-api\u003c/artifactId\u003e\n            \u003cversion\u003e1.7.33\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.slf4j\u003c/groupId\u003e\n            \u003cartifactId\u003ejul-to-slf4j\u003c/artifactId\u003e\n            \u003cversion\u003e1.7.33\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.slf4j\u003c/groupId\u003e\n            \u003cartifactId\u003ejcl-over-slf4j\u003c/artifactId\u003e\n            \u003cversion\u003e1.7.33\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.slf4j\u003c/groupId\u003e\n            \u003cartifactId\u003elog4j-over-slf4j\u003c/artifactId\u003e\n            \u003cversion\u003e1.7.33\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.apache.logging.log4j\u003c/groupId\u003e\n            \u003cartifactId\u003elog4j-to-slf4j\u003c/artifactId\u003e\n            \u003cversion\u003e2.17.2\u003c/version\u003e\n        \u003c/dependency\u003e\n\n        \u003c!-- cfx --\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.apache.cxf\u003c/groupId\u003e\n            \u003cartifactId\u003ecxf-rt-frontend-jaxws\u003c/artifactId\u003e\n            \u003cversion\u003e${cxf.version}\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.apache.cxf\u003c/groupId\u003e\n            \u003cartifactId\u003ecxf-rt-transports-http-jetty\u003c/artifactId\u003e\n            \u003cversion\u003e${cxf.version}\u003c/version\u003e\n        \u003c/dependency\u003e\n\n        \u003cdependency\u003e\n            \u003cgroupId\u003ejunit\u003c/groupId\u003e\n            \u003cartifactId\u003ejunit\u003c/artifactId\u003e\n            \u003cversion\u003e4.13.2\u003c/version\u003e\n            \u003cscope\u003etest\u003c/scope\u003e\n        \u003c/dependency\u003e\n    \u003c/dependencies\u003e\n\n    \u003cbuild\u003e\n        \u003cpluginManagement\u003e\u003c!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) --\u003e\n            \u003cplugins\u003e\n                \u003cplugin\u003e\n                    \u003cgroupId\u003eorg.apache.maven.plugins\u003c/groupId\u003e\n                    \u003cartifactId\u003emaven-war-plugin\u003c/artifactId\u003e\n                    \u003cversion\u003e3.3.2\u003c/version\u003e\n                \u003c/plugin\u003e\n            \u003c/plugins\u003e\n        \u003c/pluginManagement\u003e\n    \u003c/build\u003e\n\u003c/project\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184528-6ihod9k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184528-6ihod9k",
+				"updated": "20221108184538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务端核心代码",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184713-e4iuv8x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184713-e4iuv8x",
+				"updated": "20221108184718"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyService 接口",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184718-rofbh7b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221108184718-rofbh7b",
+				"updated": "20221108184722"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package space.terwer.cxf;\n\nimport javax.jws.WebService;\n\n@WebService\npublic interface MyService {\n\tString hello(String username);\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184735-4yrxzxj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184735-4yrxzxj",
+				"updated": "20221108184743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyServiceImpl 实现类",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184744-26pzuls",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221108184744-26pzuls",
+				"updated": "20221108184747"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package space.terwer.cxf;\n\npublic class MyServiceImpl implements MyService {\n\n\t@Override\n\tpublic String hello(String username) {\n\t\tSystem.out.println(\"hello is invoked!\");\n\t\treturn \"hello,\" + username;\n\t}\n\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184754-ykhd8z4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184754-ykhd8z4",
+				"updated": "20221108184822"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MyServer 服务端",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184557-medv3sr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221108184557-medv3sr",
+				"updated": "20221108184831"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package space.terwer.cxf;\n\nimport org.apache.cxf.endpoint.Server;\nimport org.apache.cxf.jaxws.JaxWsServerFactoryBean;\n\npublic class MyServer {\n\n\tpublic static void main(String[] args) {\n\t\tJaxWsServerFactoryBean factory = new JaxWsServerFactoryBean();\n\n\t\tfactory.setServiceClass(MyServiceImpl.class);\n\t\tfactory.setAddress(\"http://localhost:8080/myservice?wsdl\");\n\n\t\tServer server = factory.create();\n\t\tserver.start();\n\t}\n\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184354-bitneeo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221108184354-bitneeo",
+				"updated": "20221108184357"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "客户端",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184540-ehhpxky",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184540-ehhpxky",
+				"updated": "20221108184542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "pom.xml",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184408-9t4qjpg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "eG1s",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221108184408-9t4qjpg",
+				"updated": "20221108185041"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eG1s",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cproject xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\"\u003e\n    \u003cmodelVersion\u003e4.0.0\u003c/modelVersion\u003e\n\n    \u003cgroupId\u003espace.terwer\u003c/groupId\u003e\n    \u003cartifactId\u003ecxf-client-demo\u003c/artifactId\u003e\n    \u003cversion\u003e1.0-SNAPSHOT\u003c/version\u003e\n\n    \u003cname\u003ecxf-client-demo\u003c/name\u003e\n    \u003curl\u003ehttps://terwer.space\u003c/url\u003e\n\n    \u003cproperties\u003e\n        \u003cproject.build.sourceEncoding\u003eUTF-8\u003c/project.build.sourceEncoding\u003e\n        \u003cmaven.compiler.encoding\u003eUTF-8\u003c/maven.compiler.encoding\u003e\n        \u003cjdk.version\u003e1.8\u003c/jdk.version\u003e\n        \u003cmaven.compiler.source\u003e1.8\u003c/maven.compiler.source\u003e\n        \u003cmaven.compiler.target\u003e1.8\u003c/maven.compiler.target\u003e\n        \u003ccxf.version\u003e3.3.11\u003c/cxf.version\u003e\n    \u003c/properties\u003e\n\n    \u003cdependencies\u003e\n        \u003c!-- Logback --\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003ech.qos.logback\u003c/groupId\u003e\n            \u003cartifactId\u003elogback-classic\u003c/artifactId\u003e\n            \u003cversion\u003e1.2.10\u003c/version\u003e\n            \u003cscope\u003ecompile\u003c/scope\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003ech.qos.logback\u003c/groupId\u003e\n            \u003cartifactId\u003elogback-core\u003c/artifactId\u003e\n            \u003cversion\u003e1.2.10\u003c/version\u003e\n            \u003cscope\u003ecompile\u003c/scope\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.slf4j\u003c/groupId\u003e\n            \u003cartifactId\u003eslf4j-api\u003c/artifactId\u003e\n            \u003cversion\u003e1.7.33\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.slf4j\u003c/groupId\u003e\n            \u003cartifactId\u003ejul-to-slf4j\u003c/artifactId\u003e\n            \u003cversion\u003e1.7.33\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.slf4j\u003c/groupId\u003e\n            \u003cartifactId\u003ejcl-over-slf4j\u003c/artifactId\u003e\n            \u003cversion\u003e1.7.33\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.slf4j\u003c/groupId\u003e\n            \u003cartifactId\u003elog4j-over-slf4j\u003c/artifactId\u003e\n            \u003cversion\u003e1.7.33\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.apache.logging.log4j\u003c/groupId\u003e\n            \u003cartifactId\u003elog4j-to-slf4j\u003c/artifactId\u003e\n            \u003cversion\u003e2.17.2\u003c/version\u003e\n        \u003c/dependency\u003e\n\n        \u003c!-- cfx --\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.apache.cxf\u003c/groupId\u003e\n            \u003cartifactId\u003ecxf-rt-frontend-jaxws\u003c/artifactId\u003e\n            \u003cversion\u003e${cxf.version}\u003c/version\u003e\n        \u003c/dependency\u003e\n        \u003cdependency\u003e\n            \u003cgroupId\u003eorg.apache.cxf\u003c/groupId\u003e\n            \u003cartifactId\u003ecxf-rt-transports-http-jetty\u003c/artifactId\u003e\n            \u003cversion\u003e${cxf.version}\u003c/version\u003e\n        \u003c/dependency\u003e\n\n        \u003cdependency\u003e\n            \u003cgroupId\u003ejunit\u003c/groupId\u003e\n            \u003cartifactId\u003ejunit\u003c/artifactId\u003e\n            \u003cversion\u003e4.13.1\u003c/version\u003e\n            \u003cscope\u003etest\u003c/scope\u003e\n        \u003c/dependency\u003e\n    \u003c/dependencies\u003e\n\n    \u003cbuild\u003e\n        \u003cplugins\u003e\n            \u003cplugin\u003e\n                \u003cgroupId\u003eorg.apache.maven.plugins\u003c/groupId\u003e\n                \u003cartifactId\u003emaven-surefire-plugin\u003c/artifactId\u003e\n                \u003cconfiguration\u003e\n                    \u003ctestFailureIgnore\u003etrue\u003c/testFailureIgnore\u003e\n                \u003c/configuration\u003e\n            \u003c/plugin\u003e\n        \u003c/plugins\u003e\n    \u003c/build\u003e\n\u003c/project\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184544-hpkittw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184544-hpkittw",
+				"updated": "20221108184553"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端核心代码：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184553-3dkgjae",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221108184553-3dkgjae",
+				"updated": "20221108184925"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "package space.terwer.cxf;\n\nimport org.apache.cxf.jaxws.JaxWsProxyFactoryBean;\n\npublic class Client {\n\n\tpublic static void main(String[] args) {\n\t\tJaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();\n\n\t\tfactory.setAddress(\"http://localhost:8080/myservice?wsdl\");\n\t\tfactory.setServiceClass(MyService.class);\n\n\t\tMyService myservice = (MyService) factory.create();\n\t\tString result = myservice.hello(\"terwer\");\n\n\t\tSystem.out.println(\"result=\u003e\" + result);\n\t}\n\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184357-f4j54h0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221108184357-f4j54h0",
+				"updated": "20221108184402"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "测试",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184404-ddzwsv3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108184404-ddzwsv3",
+				"updated": "20221108185158"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/20221108185144.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184036-7a2hyqt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221108184036-7a2hyqt",
+				"updated": "20221108184126"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "与.NET 交互，通过.NET 作为客户端链接 Webservice 服务",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221105010848-lu4ra89",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221105010848-lu4ra89",
+				"updated": "20221108185234"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "VS2022 版本",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184151-y6kuvxe",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221108184151-y6kuvxe",
+				"updated": "20221108190631"
+			},
+			"Children": [
+				{
+					"ID": "20221108184154-npybil5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108184154-npybil5",
+						"updated": "20221108185318"
+					},
+					"Children": [
+						{
+							"ID": "20221108184154-537gp7u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108184154-537gp7u",
+								"updated": "20221108190347"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新建一个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".NET Framework"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的控制台项目，注意不能选择 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".NET Core"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ，目前我选择的是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".NET Framework 4.8.1"
+								}
+							]
+						},
+						{
+							"ID": "20221108190348-6k0z2tl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108190348-6k0z2tl",
+								"updated": "20221108190359"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221108190335.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108184221-tyz7xhq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108184221-tyz7xhq",
+						"updated": "20221108184221"
+					},
+					"Children": [
+						{
+							"ID": "20221108184221-6b84ohf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108184221-6b84ohf",
+								"updated": "20221108184233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新建 Web 引用，输入地址"
+								}
+							]
+						},
+						{
+							"ID": "20221108190311-mcmo5im",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108190311-mcmo5im",
+								"updated": "20221108190312"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221108190249.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108184234-cx2nf9p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108184234-cx2nf9p",
+						"updated": "20221108184234"
+					},
+					"Children": [
+						{
+							"ID": "20221108184234-yve45r0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108184234-yve45r0",
+								"updated": "20221108184238"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新建客户端"
+								}
+							]
+						},
+						{
+							"ID": "20221108190403-q3mqk04",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221108190403-q3mqk04",
+								"updated": "20221108190544"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YyM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "using System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nusing System.Threading.Tasks;\n\nnamespace WebserviceNet4\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            Console.WriteLine(\"Hello World\");\n\n            hello.MyServiceImplService service = new hello.MyServiceImplService();\n            string result = service.hello(\"terwer\");\n            Console.WriteLine(result);\n\n            Console.ReadKey();\n        }\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108184240-phr3hq4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108184240-phr3hq4",
+						"updated": "20221108190631"
+					},
+					"Children": [
+						{
+							"ID": "20221108184240-vi7hz0m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108184240-vi7hz0m",
+								"updated": "20221108184241"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "测试"
+								}
+							]
+						},
+						{
+							"ID": "20221108190629-q3h0ka1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108190629-q3h0ka1",
+								"updated": "20221108190631"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221108190622.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221108184134-aetfl5g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221108184134-aetfl5g",
+				"updated": "20221108185238"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Rider 版本（可以用.NET Core 6）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221108184248-077ecmf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221108184248-077ecmf",
+				"updated": "20221108185909"
+			},
+			"Children": [
+				{
+					"ID": "20221108184249-jtjtj0a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108184249-jtjtj0a",
+						"updated": "20221108184249"
+					},
+					"Children": [
+						{
+							"ID": "20221108184249-wwxdath",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108184249-wwxdath",
+								"updated": "20221108185348"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新建一个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "C#"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的控制台项目"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108184324-t7x45ma",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108184324-t7x45ma",
+						"updated": "20221108184324"
+					},
+					"Children": [
+						{
+							"ID": "20221108184324-drl2x9a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108184324-drl2x9a",
+								"updated": "20221108184333"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加引用，输入地址"
+								}
+							]
+						},
+						{
+							"ID": "20221108185640-vex119h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108185640-vex119h",
+								"updated": "20221108185642"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221108185630.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221108185647-7nn6gp4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108185647-7nn6gp4",
+								"updated": "20221108185801"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加完成，点击会自动解析"
+								}
+							]
+						},
+						{
+							"ID": "20221108185755-1nngckc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108185755-1nngckc",
+								"updated": "20221108185756"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221108185734.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108184333-8j7w0v2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108184333-8j7w0v2",
+						"updated": "20221108184337"
+					},
+					"Children": [
+						{
+							"ID": "20221108184333-hvv4v66",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108184333-hvv4v66",
+								"updated": "20221108184337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调用客户端"
+								}
+							]
+						},
+						{
+							"ID": "20221108185807-z1u9m6h",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221108185807-z1u9m6h",
+								"updated": "20221108185829"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YyM="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "// See https://aka.ms/new-console-template for more information\n\nusing WebServiceTest.MyServiceImplService;\n\nnamespace WebServiceTest{\n    class Program{\n        static void Main(string[] args){\n            Console.WriteLine(\"Hello World\");\n\n            MyServiceClient client = new MyServiceClient();\n            Task\u003chelloResponse\u003e respone = client.helloAsync(\"lisi\");\n            respone.Wait();\n            string result = respone.Result.Body.@return;\n            Console.WriteLine(\"result=\u003e\" + result);\n        }\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108184344-sfsj5hq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108184344-sfsj5hq",
+						"updated": "20221108185909"
+					},
+					"Children": [
+						{
+							"ID": "20221108184344-965v3lz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108184344-965v3lz",
+								"updated": "20221108184345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "测试"
+								}
+							]
+						},
+						{
+							"ID": "20221108185908-k8xwouj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108185908-k8xwouj",
+								"updated": "20221108185909"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221108185857.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

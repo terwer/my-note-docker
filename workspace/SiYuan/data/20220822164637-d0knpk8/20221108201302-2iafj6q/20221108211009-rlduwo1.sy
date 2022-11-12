@@ -1,0 +1,454 @@
+{
+	"ID": "20221108211009-rlduwo1",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221108211009-rlduwo1",
+		"title": "001.Java并发知识体系",
+		"updated": "20221109005523"
+	},
+	"Children": [
+		{
+			"ID": "20221108211009-txrqnxb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108211009-txrqnxb",
+				"updated": "20221109001227"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java 并发是与硬件息息相关的。Java 线程由操作系统管理，而操作系统又是运行在 CPU 之上的。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221109001238-fsgfysy",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221109001238-fsgfysy",
+				"updated": "20221109005523"
+			},
+			"Children": [
+				{
+					"ID": "20221109003517-dnm0xps",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109003517-dnm0xps",
+						"updated": "20221109003517"
+					},
+					"Children": [
+						{
+							"ID": "20221109003517-bb85pup",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109003517-bb85pup",
+								"updated": "20221109003531"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Java 并发领域介绍"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109003532-nr7j08v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109003532-nr7j08v",
+						"updated": "20221109003532"
+					},
+					"Children": [
+						{
+							"ID": "20221109003532-ylc3jl1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109003532-ylc3jl1",
+								"updated": "20221109003556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "volatile 关键字的应用场景与原理剖析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109003556-sbxrxsm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109003556-sbxrxsm",
+						"updated": "20221109003630"
+					},
+					"Children": [
+						{
+							"ID": "20221109003556-vxw6iu6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109003556-vxw6iu6",
+								"updated": "20221109003630"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "synchronized 关键字的底层原理深入剖析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109003640-nxwa1qo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109003640-nxwa1qo",
+						"updated": "20221109003640"
+					},
+					"Children": [
+						{
+							"ID": "20221109003640-fq97s9y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109003640-fq97s9y",
+								"updated": "20221109003651"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Lock 原理深入剖析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109003651-ju49c7w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109003651-ju49c7w",
+						"updated": "20221109003712"
+					},
+					"Children": [
+						{
+							"ID": "20221109003651-zuq47zf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109003651-zuq47zf",
+								"updated": "20221109003712"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "何为原子操作以及原子操作的原理深入剖析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109003719-jpbiyk0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109003719-jpbiyk0",
+						"updated": "20221109003719"
+					},
+					"Children": [
+						{
+							"ID": "20221109003719-g1qzp5p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109003719-g1qzp5p",
+								"updated": "20221109003818"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "锁与锁原理深入剖析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109003819-rets4zh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109003819-rets4zh",
+						"updated": "20221109003819"
+					},
+					"Children": [
+						{
+							"ID": "20221109003819-guvuohu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109003819-guvuohu",
+								"updated": "20221109003931"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "锁框架详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109003932-3b7gb0o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109003932-3b7gb0o",
+						"updated": "20221109003932"
+					},
+					"Children": [
+						{
+							"ID": "20221109003932-2c9vy5f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109003932-2c9vy5f",
+								"updated": "20221109003954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "读写锁与重入锁分析"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109003954-ly0gw75",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109003954-ly0gw75",
+						"updated": "20221109003954"
+					},
+					"Children": [
+						{
+							"ID": "20221109003954-y71lyo1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109003954-y71lyo1",
+								"updated": "20221109004005"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "内存屏障详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109004006-6fgx6l2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109004006-6fgx6l2",
+						"updated": "20221109004025"
+					},
+					"Children": [
+						{
+							"ID": "20221109004006-vrb9rha",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109004006-vrb9rha",
+								"updated": "20221109004025"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Completion Service 详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109004035-b1t2itn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109004035-b1t2itn",
+						"updated": "20221109004035"
+					},
+					"Children": [
+						{
+							"ID": "20221109004035-x7p67tc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109004035-x7p67tc",
+								"updated": "20221109004045"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重排序详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109004049-sal09mf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109004049-sal09mf",
+						"updated": "20221109004049"
+					},
+					"Children": [
+						{
+							"ID": "20221109004049-9kiklnx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109004049-9kiklnx",
+								"updated": "20221109004101"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Fork-Join API 详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109004103-95oe1bd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109004103-95oe1bd",
+						"updated": "20221109004103"
+					},
+					"Children": [
+						{
+							"ID": "20221109004103-gtlhu2z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109004103-gtlhu2z",
+								"updated": "20221109004123"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一致性语义深入解读"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109004129-do9vg7q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109004129-do9vg7q",
+						"updated": "20221109004137"
+					},
+					"Children": [
+						{
+							"ID": "20221109004129-mwkho7j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109004129-mwkho7j",
+								"updated": "20221109004137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "资源死锁详解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221109005500-0ixn5he",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221109005500-0ixn5he",
+						"updated": "20221109005523"
+					},
+					"Children": [
+						{
+							"ID": "20221109005500-wepu18s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221109005500-wepu18s",
+								"updated": "20221109005523"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,235 @@
+{
+	"ID": "20221108201345-0v09bmc",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "title_java并发之回顾thread和runnabledate___permalink_postreviewthreadandrunnablehtmlmeta_name_keywordscontent_threadname_descriptioncontent_java并发之回顾thread和runnable。categories_新笔记并发新思路tags_threadauthor_name_terwerlink_https_githubcomterwer‍",
+		"custom-slug": "review-thread-and-runnable",
+		"custom-vuepress-slug": "docs/012.新笔记/004.并发新思路/002.Java并发之回顾Thread和runnable.md",
+		"id": "20221108201345-0v09bmc",
+		"tags": "并发,回顾,笔记,新思路,runnable,thread,concurrent",
+		"title": "002.Java并发之回顾Thread和runnable",
+		"updated": "20221108211014"
+	},
+	"Children": [
+		{
+			"ID": "20221108201345-32o1r3g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221108201345-32o1r3g",
+				"updated": "20221108201414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "jdk文档的描述"
+				}
+			]
+		},
+		{
+			"ID": "20221108201414-zcik1kd",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221108201414-zcik1kd",
+				"updated": "20221108201414"
+			}
+		},
+		{
+			"ID": "20221108201414-3kqy65t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108201414-3kqy65t",
+				"updated": "20221108201414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "title: Java并发之回顾Thread和runnable\ndate: 2022-05-05 22:17:32\npermalink: /post/review-thread-and-runnable.html\nmeta:"
+				}
+			]
+		},
+		{
+			"ID": "20221108201414-o1llirn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221108201414-o1llirn",
+				"updated": "20221108201414"
+			},
+			"Children": [
+				{
+					"ID": "20221108201414-2vdfl3i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108201414-2vdfl3i",
+						"updated": "20221108201414"
+					},
+					"Children": [
+						{
+							"ID": "20221108201414-3oy5l0h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108201414-3oy5l0h",
+								"updated": "20221108201414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "name: keywords\ncontent: thread"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108201414-70wca05",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108201414-70wca05",
+						"updated": "20221108201414"
+					},
+					"Children": [
+						{
+							"ID": "20221108201414-suqxtt9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108201414-suqxtt9",
+								"updated": "20221108201414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "name: description\ncontent: Java并发之回顾Thread和runnable。\ncategories:"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108201414-lc4fcrv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108201414-lc4fcrv",
+						"updated": "20221108201414"
+					},
+					"Children": [
+						{
+							"ID": "20221108201414-2fkq5vg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108201414-2fkq5vg",
+								"updated": "20221108201414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新笔记"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108201414-nhq2y3h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108201414-nhq2y3h",
+						"updated": "20221108201414"
+					},
+					"Children": [
+						{
+							"ID": "20221108201414-kd51srx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108201414-kd51srx",
+								"updated": "20221108201414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "并发新思路\ntags:"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221108201414-qyqcqo2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221108201414-qyqcqo2",
+						"updated": "20221108201414"
+					},
+					"Children": [
+						{
+							"ID": "20221108201414-wuumj1h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221108201414-wuumj1h",
+								"updated": "20221108201414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "thread\nauthor:\nname: terwer\nlink: https://github.com/terwer"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221108201414-1vktqa0",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221108201414-1vktqa0",
+				"updated": "20221108201414"
+			}
+		},
+		{
+			"ID": "20221108201414-j4qd99y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221108201414-j4qd99y",
+				"updated": "20221108201414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Java并发之回顾Thread和runnable"
+				}
+			]
+		},
+		{
+			"ID": "20221108201414-80i0fgc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221108201414-80i0fgc",
+				"updated": "20221108201414"
+			}
+		}
+	]
+}

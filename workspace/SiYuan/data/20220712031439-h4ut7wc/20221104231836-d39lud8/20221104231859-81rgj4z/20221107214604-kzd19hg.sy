@@ -1,0 +1,58 @@
+{
+	"ID": "20221107214604-kzd19hg",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221107214604-kzd19hg",
+		"title": "002.WSDL文件结构深度解读",
+		"updated": "20221107214725"
+	},
+	"Children": [
+		{
+			"ID": "20221107214604-b750l2x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221107214604-b750l2x",
+				"updated": "20221107214646"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "什么是 WSDL",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221107214647-bk8gcop",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107214647-bk8gcop",
+				"updated": "20221107214723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WSDL（Web Service Description language）, Web 服务描述语言。"
+				}
+			]
+		},
+		{
+			"ID": "20221107214725-qhkj16y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107214725-qhkj16y"
+			}
+		}
+	]
+}

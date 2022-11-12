@@ -1,0 +1,118 @@
+{
+	"ID": "20221107194028-v40ec71",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221107194028-v40ec71",
+		"title": "011.VC++",
+		"updated": "20221107201536"
+	},
+	"Children": [
+		{
+			"ID": "20221107194042-wonsis9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221107194042-wonsis9",
+				"updated": "20221107194042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "孙鑫VC++视频教程"
+				}
+			]
+		},
+		{
+			"ID": "20221107194044-z9vaaj3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107194044-z9vaaj3",
+				"updated": "20221107194057"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV1Ts411f7fw?p=7",
+					"TextMarkTextContent": "https://www.bilibili.com/video/BV1Ts411f7fw?p=7"
+				}
+			]
+		},
+		{
+			"ID": "20221107194059-emhmkex",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221107194059-emhmkex",
+				"updated": "20221107194118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MFC教程"
+				}
+			]
+		},
+		{
+			"ID": "20221107194115-ajraw3p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107194115-ajraw3p",
+				"updated": "20221107201536"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV1Wy4y1x7VE?p=7",
+					"TextMarkTextContent": "https://www.bilibili.com/video/BV1Wy4y1x7VE?p=7"
+				}
+			]
+		},
+		{
+			"ID": "20221107194120-lb0hau9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107194120-lb0hau9"
+			}
+		},
+		{
+			"ID": "20221107194120-n6s9peu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107194120-n6s9peu",
+				"updated": "20221107194121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20221107194122-kaa29pl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107194122-kaa29pl",
+				"updated": "20221107194133"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.zhihu.com/question/21661498",
+					"TextMarkTextContent": "https://www.zhihu.com/question/21661498"
+				}
+			]
+		},
+		{
+			"ID": "20221107194134-aun7yxo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221107194134-aun7yxo"
+			}
+		}
+	]
+}

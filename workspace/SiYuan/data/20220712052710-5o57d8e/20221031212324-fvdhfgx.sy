@@ -13,7 +13,7 @@
 		"id": "20221031212324-fvdhfgx",
 		"tags": "升级,版本,原先,项目,连接,tomcat,tomcat7,tomcat8,tomcat85,tomcat9",
 		"title": "078.解决Tomcat8+设置allowLinking不生效问题",
-		"updated": "20221031213004"
+		"updated": "20221109122438"
 	},
 	"Children": [
 		{
@@ -172,45 +172,26 @@
 			"ID": "20221031212347-tmcg7v8",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
-			"CodeBlockFenceChar": 96,
-			"CodeBlockFenceLen": 3,
-			"CodeBlockOpenFence": "YGBg",
-			"CodeBlockInfo": "eG1s",
-			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20221031212347-tmcg7v8",
-				"updated": "20221031212653"
+				"updated": "20221109122438"
 			},
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "eG1s",
-					"Properties": {
-						"id": ""
-					}
+					"CodeBlockInfo": "eG1s"
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "\u003c!-- Tomcat8 --\u003e\n\u003cContext docBase=\"/Users/terwer/workspace/test/WebContent\" path=\"/test\" reloadable=\"false\" allowLinking=\"true\"\u003e   \n      \u003cResources allowLinking=\"true\" /\u003e\n\u003c/Context\u003e\n",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "\u003c!-- Tomcat8 --\u003e\n\u003cContext docBase=\"/Users/terwer/workspace/test/WebContent\" path=\"/test\" reloadable=\"false\"\u003e   \n      \u003cResources allowLinking=\"true\" /\u003e\n\u003c/Context\u003e\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```",
-					"CodeBlockFenceLen": 3,
-					"Properties": {
-						"id": ""
-					}
+					"Data": "```"
 				}
 			]
 		},

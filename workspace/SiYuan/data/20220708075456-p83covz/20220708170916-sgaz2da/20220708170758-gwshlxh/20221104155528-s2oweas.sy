@@ -1,0 +1,78 @@
+{
+	"ID": "20221104155528-s2oweas",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221104155528-s2oweas",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221104155528-lndg6h8\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221104170726-pi6tau0\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221104170726-pi6tau0\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "2022-11-04-周报",
+		"updated": "20221104170726"
+	},
+	"Children": [
+		{
+			"ID": "20221104155528-lndg6h8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221104155528-lndg6h8",
+				"updated": "20221104155736"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "导入导出机制专项缺陷"
+				}
+			]
+		},
+		{
+			"ID": "20221104155528-cqoljzw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221104155528-cqoljzw",
+				"updated": "20221104155724"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#175647【专项测试】【证书管理】导入导出机制设置excel附件格式时，证书详情页添加人员，下载的人员导入模板类型为xlsx，而不是对应的et格式；且不支持et格式导入\n#175635【专项测试】【iso文控管理】设置导入导出机制为et格式时，导入文件时选择的文件格式为et时出现如图提示，上传不成功\n#175648【专项测试】【学习地图】导入导出机制设置excel附件格式时，新建地图详情页添加人员，下载的模板类型为xlsx，而不是对应的et格式，且不支持et格式导入\n#175649【专项测试】【原子知识管理】设置导入导出机制为et格式时，导出文件时，导出的文档格式是xls，不是et，没有跟导入导出机制配置的格式对应\n#175650【专项测试】【原子知识管理】设置导入导出机制为et格式时，导入原子知识的下载模板是xls格式不是et格式，也不支持et格式模板导入\t\t"
+				}
+			]
+		},
+		{
+			"ID": "20221104155528-mqdcw62",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221104155528-mqdcw62",
+				"updated": "20221021152244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务单"
+				}
+			]
+		},
+		{
+			"ID": "20221104155528-jr6ve8d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221104155528-jr6ve8d",
+				"updated": "20221104155628"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#176842【服务问题单】【考试管理-缺陷】试卷维护中，选择试卷，修改困难试题数量，考试分数不会自动更新\n#177085【服务问题单】文档库文档维护webserivce的服务文档新增接口没有返回fdid"
+				}
+			]
+		},
+		{
+			"ID": "20221104170726-pi6tau0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221104170726-pi6tau0"
+			}
+		}
+	]
+}
