@@ -11,5 +11,5 @@ git config user.email "youweics@163.com"
 git add -A
 git commit -m "${msg}"
 # 推送到github main分支
-git push $srcgithubUrl main:main
+git push $srcgithubUrl main:main --force
 echo "Github备份完毕."

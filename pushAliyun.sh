@@ -11,5 +11,5 @@ git config user.email "youweics@163.com"
 # git add -A
 # git commit -m "${msg}"
 # 推送到github main分支
-git push $srccodeupUrl main:main
+git push $srccodeupUrl main:main --force
 echo "阿里云备份完毕."
