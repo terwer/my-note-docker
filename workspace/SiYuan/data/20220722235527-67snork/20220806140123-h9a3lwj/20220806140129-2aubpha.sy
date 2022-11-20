@@ -9,8 +9,8 @@
 		"id": "20220806140129-2aubpha",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220822100640-w34fooi\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220806140136-aedmwvr\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220822100640-w34fooi\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "代理,支持,使用,下面,地址",
-		"title": "001.Charles代理支持localhost",
-		"updated": "20221023133748"
+		"title": "Charles代理支持localhost",
+		"updated": "20220822100640"
 	},
 	"Children": [
 		{
@@ -33,10 +33,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "使用下面的地址代替 localhost",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "使用下面的地址代替localhost"
 				}
 			]
 		},
@@ -50,9 +47,6 @@
 			"Children": [
 				{
 					"Type": "NodeTextMark",
-					"Properties": {
-						"id": ""
-					},
 					"TextMarkType": "code",
 					"TextMarkTextContent": "localhost.charlesproxy.com"
 				}
@@ -62,8 +56,7 @@
 			"ID": "20220806140136-aedmwvr",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220806140136-aedmwvr",
-				"updated": "20220806140136"
+				"id": "20220806140136-aedmwvr"
 			}
 		}
 	]

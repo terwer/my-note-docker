@@ -12,7 +12,7 @@
     "name": "-js-custom",
     "memo": "",
     "type": "js",
-    "enabled": true,
+    "enabled": false,
     "content": "import('/widgets/custom.js');"
   }
 ]

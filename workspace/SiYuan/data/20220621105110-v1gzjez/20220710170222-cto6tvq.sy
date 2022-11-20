@@ -1,0 +1,48 @@
+{
+	"ID": "20220710170222-cto6tvq",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220710170222-cto6tvq",
+		"title": "2022-07-10",
+		"updated": "20220710130506"
+	},
+	"Children": [
+		{
+			"ID": "20220710090222-8ynvxbi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710090222-8ynvxbi",
+				"updated": "20220710090222"
+			}
+		},
+		{
+			"ID": "20220710210448-ng9ausv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710210448-ng9ausv",
+				"updated": "20220710210449"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "spacevim"
+				}
+			]
+		},
+		{
+			"ID": "20220710170230-18csmdu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220710170230-18csmdu",
+				"updated": "20220710170235"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "playcover"
+				}
+			]
+		}
+	]
+}

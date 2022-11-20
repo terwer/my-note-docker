@@ -3,196 +3,826 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
-		"custom-desc": "title_java并发之回顾thread和runnabledate___permalink_postreviewthreadandrunnablehtmlmeta_name_keywordscontent_threadname_descriptioncontent_java并发之回顾thread和runnable。categories_新笔记并发新思路tags_threadauthor_name_terwerlink_https_githubcomterwer‍",
+		"custom-cnblogs-post-id": "16897550",
+		"custom-conf-post-id": "19628038",
+		"custom-desc": "jdk文档的描述threadathreadisathreadofexecutioninaprogramthejavavirtualmachineallowsanapplicationtohavemultiplethreadsofexecutionrunningconcurrentlyeverythreadhasaprioritythreadswithhigherpriorityareexecutedinpreferencetothreadswithlowerpriorityeachthreadmayorm",
 		"custom-slug": "review-thread-and-runnable",
 		"custom-vuepress-slug": "docs/012.新笔记/004.并发新思路/002.Java并发之回顾Thread和runnable.md",
+		"custom-wordpress-post-id": "4366",
+		"custom-yuque-post-id": "106355828_terwer/note",
 		"id": "20221108201345-0v09bmc",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221108201345-32o1r3g\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221108201414-80i0fgc\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221108201345-32o1r3g\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"tags": "并发,回顾,笔记,新思路,runnable,thread,concurrent",
 		"title": "002.Java并发之回顾Thread和runnable",
-		"updated": "20221108211014"
+		"updated": "20221116230152"
 	},
 	"Children": [
 		{
 			"ID": "20221108201345-32o1r3g",
 			"Type": "NodeHeading",
-			"HeadingLevel": 1,
+			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20221108201345-32o1r3g",
 				"updated": "20221108201414"
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "jdk文档的描述"
+					"Data": "jdk 文档的描述",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
-			"ID": "20221108201414-zcik1kd",
-			"Type": "NodeThematicBreak",
+			"ID": "20221113230329-qp4rag5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20221108201414-zcik1kd",
-				"updated": "20221108201414"
-			}
+				"id": "20221113230329-qp4rag5",
+				"updated": "20221113230335"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Thread",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
 		},
 		{
-			"ID": "20221108201414-3kqy65t",
+			"ID": "20221113224014-4445lg2",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221108201414-3kqy65t",
-				"updated": "20221108201414"
+				"id": "20221113224014-4445lg2",
+				"updated": "20221113225239"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "title: Java并发之回顾Thread和runnable\ndate: 2022-05-05 22:17:32\npermalink: /post/review-thread-and-runnable.html\nmeta:"
+					"Data": "A thread is a thread of execution in a program. The Java Virtual Machine allows an application to have multiple threads of execution running concurrently.",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
-			"ID": "20221108201414-o1llirn",
+			"ID": "20221113225241-is90akr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225241-is90akr",
+				"updated": "20221113225245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Every thread has a priority. Threads with higher priority are executed in preference to threads with lower priority. Each thread may or may not also be marked as a daemon. When code running in some thread creates a new Thread object, the new thread has its priority initially set equal to the priority of the creating thread, and is a daemon thread if and only if the creating thread is a daemon.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225246-005vo2j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225246-005vo2j",
+				"updated": "20221113225246"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "When a Java Virtual Machine starts up, there is usually a single non-daemon thread (which typically calls the method named main of some designated class). The Java Virtual Machine continues to execute threads until either of the following occurs:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225316-hr2yh8t",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221113225316-hr2yh8t",
+				"updated": "20221113225321"
+			},
+			"Children": [
+				{
+					"ID": "20221113225321-dnimg7j",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221113225321-dnimg7j",
+						"updated": "20221113225321"
+					},
+					"Children": [
+						{
+							"ID": "20221113225321-0c2u1qc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221113225321-0c2u1qc",
+								"updated": "20221113225337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "The exit method of class Runtime has been called and the security manager has permitted the exit operation to take place.",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221113225338-vcgkvsz",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221113225338-vcgkvsz",
+						"updated": "20221113225338"
+					},
+					"Children": [
+						{
+							"ID": "20221113225338-34t3pyw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221113225338-34t3pyw",
+								"updated": "20221113225338"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "All threads that are not daemon threads have died, either by returning from the call to the run method or by throwing an exception that propagates beyond the run method.",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221113225539-tgcjwhe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225539-tgcjwhe",
+				"updated": "20221113225539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "There are two ways to create a new thread of execution. One is to declare a class to be a subclass of Thread. This subclass should override the run method of class Thread. An instance of the subclass can then be allocated and started. For example, a thread that computes primes larger than a stated value could be written as follows:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225539-3lg8986",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225539-3lg8986",
+				"updated": "20221113225539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      class PrimeThread extends Thread {",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "          long minPrime;",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "          PrimeThread(long minPrime) {",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "              this.minPrime = minPrime;",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "          }",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225539-a3a4dpx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225539-a3a4dpx",
+				"updated": "20221113225539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "          public void run() {",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "              // compute primes larger than minPrime",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "               . . .",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "          }",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      }",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225539-blul6zu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225539-blul6zu",
+				"updated": "20221113225539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The following code would then create a thread and start it running:",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      PrimeThread p = new PrimeThread(143);",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      p.start();",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225643-eb8a2wj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225643-eb8a2wj",
+				"updated": "20221113225652"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The other way to create a thread is to declare a class that implements the Runnable interface. That class then implements the run method. An instance of the class can then be allocated, passed as an argument when creating Thread, and started. The same example in this other style looks like the following:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225643-jjxpjy2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225643-jjxpjy2",
+				"updated": "20221113225643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      class PrimeRun implements Runnable {",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "          long minPrime;",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "          PrimeRun(long minPrime) {",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "              this.minPrime = minPrime;",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "          }",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225643-elvf9s6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225643-elvf9s6",
+				"updated": "20221113225643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "          public void run() {",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "              // compute primes larger than minPrime",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "               . . .",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "          }",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      }",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225643-n604afh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225643-n604afh",
+				"updated": "20221113225643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The following code would then create a thread and start it running:",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      PrimeRun p = new PrimeRun(143);",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "      new Thread(p).start();",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113225643-ryhh9zq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221113225643-ryhh9zq",
+				"updated": "20221113225643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Every thread has a name for identification purposes. More than one thread may have the same name. If a name is not specified when a thread is created, a new name is generated for it.",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Unless otherwise noted, passing a null argument to a constructor or method in this class will cause a NullPointerException to be thrown.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113230351-arj5gpk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221113230351-arj5gpk",
+				"updated": "20221113230356"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Runnable",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221113230358-b1t87ou",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221113230358-b1t87ou",
+				"updated": "20221113230406"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * The \u003ccode\u003eRunnable\u003c/code\u003e interface should be implemented by any\n * class whose instances are intended to be executed by a thread. The\n * class must define a method of no arguments called \u003ccode\u003erun\u003c/code\u003e.\n * \u003cp\u003e\n * This interface is designed to provide a common protocol for objects that\n * wish to execute code while they are active. For example,\n * \u003ccode\u003eRunnable\u003c/code\u003e is implemented by class \u003ccode\u003eThread\u003c/code\u003e.\n * Being active simply means that a thread has been started and has not\n * yet been stopped.\n * \u003cp\u003e\n * In addition, \u003ccode\u003eRunnable\u003c/code\u003e provides the means for a class to be\n * active while not subclassing \u003ccode\u003eThread\u003c/code\u003e. A class that implements\n * \u003ccode\u003eRunnable\u003c/code\u003e can run without subclassing \u003ccode\u003eThread\u003c/code\u003e\n * by instantiating a \u003ccode\u003eThread\u003c/code\u003e instance and passing itself in\n * as the target.  In most cases, the \u003ccode\u003eRunnable\u003c/code\u003e interface should\n * be used if you are only planning to override the \u003ccode\u003erun()\u003c/code\u003e\n * method and no other \u003ccode\u003eThread\u003c/code\u003e methods.\n * This is important because classes should not be subclassed\n * unless the programmer intends on modifying or enhancing the fundamental\n * behavior of the class.\n *\n * @author  Arthur van Hoff\n * @see     java.lang.Thread\n * @see     java.util.concurrent.Callable\n * @since   JDK1.0\n */\n@FunctionalInterface\npublic interface Runnable {\n    /**\n     * When an object implementing interface \u003ccode\u003eRunnable\u003c/code\u003e is used\n     * to create a thread, starting the thread causes the object's\n     * \u003ccode\u003erun\u003c/code\u003e method to be called in that separately executing\n     * thread.\n     * \u003cp\u003e\n     * The general contract of the method \u003ccode\u003erun\u003c/code\u003e is that it may\n     * take any action whatsoever.\n     *\n     * @see     java.lang.Thread#run()\n     */\n    public abstract void run();\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221115211408-kmkaowh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221115211408-kmkaowh",
+				"updated": "20221115211443"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Thread 类的构造函数剖析",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221116222229-ihyvupm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221116222229-ihyvupm",
+				"updated": "20221116222838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "核心都是调用 init 方法，共 8 个构造方法。需要留意的是几个公开的构造函数："
+				}
+			]
+		},
+		{
+			"ID": "20221116223208-ofyfjly",
 			"Type": "NodeList",
 			"ListData": {},
 			"Properties": {
-				"id": "20221108201414-o1llirn",
-				"updated": "20221108201414"
+				"id": "20221116223208-ofyfjly",
+				"updated": "20221116223323"
 			},
 			"Children": [
 				{
-					"ID": "20221108201414-2vdfl3i",
+					"ID": "20221116223249-n7ff2tp",
 					"Type": "NodeListItem",
 					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
 					},
 					"Properties": {
-						"id": "20221108201414-2vdfl3i",
-						"updated": "20221108201414"
+						"id": "20221116223249-n7ff2tp",
+						"updated": "20221116223323"
 					},
 					"Children": [
 						{
-							"ID": "20221108201414-3oy5l0h",
+							"ID": "20221116223249-xmf9huf",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221108201414-3oy5l0h",
-								"updated": "20221108201414"
+								"id": "20221116223249-xmf9huf",
+								"updated": "20221116223314"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "name: keywords\ncontent: thread"
+									"Data": "Allocates a new Thread object. This constructor has the same effect as Thread (null, null, gname), where gname is a newly generated name. Automatically generated names are of the form \"Thread-\"+n, where n is an integer."
 								}
 							]
-						}
-					]
-				},
-				{
-					"ID": "20221108201414-70wca05",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20221108201414-70wca05",
-						"updated": "20221108201414"
-					},
-					"Children": [
+						},
 						{
-							"ID": "20221108201414-suqxtt9",
-							"Type": "NodeParagraph",
+							"ID": "20221116223317-knwz0ef",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
 							"Properties": {
-								"id": "20221108201414-suqxtt9",
-								"updated": "20221108201414"
+								"id": "20221116223317-knwz0ef",
+								"updated": "20221116223323"
 							},
 							"Children": [
 								{
-									"Type": "NodeText",
-									"Data": "name: description\ncontent: Java并发之回顾Thread和runnable。\ncategories:"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20221108201414-lc4fcrv",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20221108201414-lc4fcrv",
-						"updated": "20221108201414"
-					},
-					"Children": [
-						{
-							"ID": "20221108201414-2fkq5vg",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20221108201414-2fkq5vg",
-								"updated": "20221108201414"
-							},
-							"Children": [
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
 								{
-									"Type": "NodeText",
-									"Data": "新笔记"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20221108201414-nhq2y3h",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20221108201414-nhq2y3h",
-						"updated": "20221108201414"
-					},
-					"Children": [
-						{
-							"ID": "20221108201414-kd51srx",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20221108201414-kd51srx",
-								"updated": "20221108201414"
-							},
-							"Children": [
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
 								{
-									"Type": "NodeText",
-									"Data": "并发新思路\ntags:"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20221108201414-qyqcqo2",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
-					"Properties": {
-						"id": "20221108201414-qyqcqo2",
-						"updated": "20221108201414"
-					},
-					"Children": [
-						{
-							"ID": "20221108201414-wuumj1h",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20221108201414-wuumj1h",
-								"updated": "20221108201414"
-							},
-							"Children": [
+									"Type": "NodeCodeBlockCode",
+									"Data": "public Thread() {\n}\n"
+								},
 								{
-									"Type": "NodeText",
-									"Data": "thread\nauthor:\nname: terwer\nlink: https://github.com/terwer"
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
 								}
 							]
 						}
@@ -201,35 +831,1045 @@
 			]
 		},
 		{
-			"ID": "20221108201414-1vktqa0",
-			"Type": "NodeThematicBreak",
+			"ID": "20221116223225-ryr3mjk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
-				"id": "20221108201414-1vktqa0",
-				"updated": "20221108201414"
-			}
+				"id": "20221116223225-ryr3mjk",
+				"updated": "20221116224811"
+			},
+			"Children": [
+				{
+					"ID": "20221116223329-dvp8zmg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221116223329-dvp8zmg",
+						"updated": "20221116224811"
+					},
+					"Children": [
+						{
+							"ID": "20221116223329-iciz8jk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116223329-iciz8jk",
+								"updated": "20221116223414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Allocates a new Thread object. This constructor has the same effect as Thread (null, target, gname), where gname is a newly generated name. Automatically generated names are of the form \"Thread-\"+n, where n is an integer."
+								}
+							]
+						},
+						{
+							"ID": "20221116223414-pdbjzzb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116223414-pdbjzzb",
+								"updated": "20221116224811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Params:\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "target"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the object whose run method is invoked when this thread is started. If null, this classes run method does nothing."
+								}
+							]
+						},
+						{
+							"ID": "20221116223428-w37lfpy",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221116223428-w37lfpy",
+								"updated": "20221116223431"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public Thread(Runnable target) {\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
-			"ID": "20221108201414-j4qd99y",
-			"Type": "NodeHeading",
-			"HeadingLevel": 1,
+			"ID": "20221116223436-sauxep8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
-				"id": "20221108201414-j4qd99y",
-				"updated": "20221108201414"
+				"id": "20221116223436-sauxep8",
+				"updated": "20221116225748"
+			},
+			"Children": [
+				{
+					"ID": "20221116223450-zyrny05",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221116223450-zyrny05",
+						"updated": "20221116225748"
+					},
+					"Children": [
+						{
+							"ID": "20221116223450-jwwjzd1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116223450-jwwjzd1",
+								"updated": "20221116224654"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Allocates a new Thread object. This constructor has the same effect as Thread (group, target, gname) ,where gname is a newly generated name. Automatically generated names are of the form \"Thread-\"+n, where n is an integer."
+								}
+							]
+						},
+						{
+							"ID": "20221116224655-mb9z24c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116224655-mb9z24c",
+								"updated": "20221116225747"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Params:\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "group"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the thread group. If null and there is a security manager, the group is determined by SecurityManager.getThreadGroup(). If there is not a security manager or SecurityManager.getThreadGroup() returns null, the group is set to the current thread's thread group.\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "target"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the object whose run method is invoked when this thread is started. If null, this thread's run method is invoked."
+								}
+							]
+						},
+						{
+							"ID": "20221116225748-8uyebzb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225748-8uyebzb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Throws:\nSecurityException – if the current thread cannot create a thread in the specified thread group"
+								}
+							]
+						},
+						{
+							"ID": "20221116224713-6lz6x21",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221116224713-6lz6x21",
+								"updated": "20221116224725"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public Thread(ThreadGroup group, Runnable target) {\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221116224710-401937v",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221116224710-401937v",
+				"updated": "20221116225707"
+			},
+			"Children": [
+				{
+					"ID": "20221116225005-mtjktc4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221116225005-mtjktc4",
+						"updated": "20221116225707"
+					},
+					"Children": [
+						{
+							"ID": "20221116225005-nyvgs6s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225005-nyvgs6s",
+								"updated": "20221116225705"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Allocates a new Thread object. This constructor has the same effect as Thread (null, null, name)."
+								}
+							]
+						},
+						{
+							"ID": "20221116225707-7ke0ks2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225707-7ke0ks2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Params:\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "name"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the name of the new thread"
+								}
+							]
+						},
+						{
+							"ID": "20221116225009-71w92nq",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221116225009-71w92nq",
+								"updated": "20221116225029"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public Thread(String name) {\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221116224711-sj1a5hp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221116224711-sj1a5hp",
+				"updated": "20221116225744"
+			},
+			"Children": [
+				{
+					"ID": "20221116225408-zm43a03",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221116225408-zm43a03",
+						"updated": "20221116225744"
+					},
+					"Children": [
+						{
+							"ID": "20221116225408-2186ui7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225408-2186ui7",
+								"updated": "20221116225651"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Allocates a new Thread object. This constructor has the same effect as Thread (group, null, name)."
+								}
+							]
+						},
+						{
+							"ID": "20221116225653-ao6wved",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225653-ao6wved",
+								"updated": "20221116225743"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Params:\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "group"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the thread group. If null and there is a security manager, the group is determined by SecurityManager.getThreadGroup(). If there is not a security manager or SecurityManager.getThreadGroup() returns null, the group is set to the current thread's thread group.\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "name"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the name of the new thread"
+								}
+							]
+						},
+						{
+							"ID": "20221116225744-i9ucznk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225744-i9ucznk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Throws:\nSecurityException – if the current thread cannot create a thread in the specified thread group"
+								}
+							]
+						},
+						{
+							"ID": "20221116225445-llatbz0",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221116225445-llatbz0",
+								"updated": "20221116225454"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public Thread(ThreadGroup group, String name) {\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221116224711-npqjkt2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221116224711-npqjkt2",
+				"updated": "20221116225710"
+			},
+			"Children": [
+				{
+					"ID": "20221116225522-l0nkczv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221116225522-l0nkczv",
+						"updated": "20221116225710"
+					},
+					"Children": [
+						{
+							"ID": "20221116225522-pmwayky",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225522-pmwayky",
+								"updated": "20221116225710"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Allocates a new Thread object. This constructor has the same effect as Thread (null, target, name)."
+								}
+							]
+						},
+						{
+							"ID": "20221116225710-h15us22",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225710-h15us22"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Params:\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "target"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the object whose run method is invoked when this thread is started. If null, this thread's run method is invoked.\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "name"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the name of the new thread"
+								}
+							]
+						},
+						{
+							"ID": "20221116225556-rrs6qnt",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221116225556-rrs6qnt",
+								"updated": "20221116225609"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public Thread(Runnable target, String name) {\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221116223225-oqqdxll",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221116223225-oqqdxll",
+				"updated": "20221116230152"
+			},
+			"Children": [
+				{
+					"ID": "20221116225621-p5t7g7m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221116225621-p5t7g7m",
+						"updated": "20221116225621"
+					},
+					"Children": [
+						{
+							"ID": "20221116225621-u1bfytl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225621-u1bfytl",
+								"updated": "20221116225644"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Allocates a new Thread object so that it has target as its run object, has the specified name as its name, and belongs to the thread group referred to by group.\nIf there is a security manager, its checkAccess method is invoked with the ThreadGroup as its argument.\nIn addition, its checkPermission method is invoked with the RuntimePermission(\"enableContextClassLoaderOverride\") permission when invoked directly or indirectly by the constructor of a subclass which overrides the getContextClassLoader or setContextClassLoader methods.\nThe priority of the newly created thread is set equal to the priority of the thread creating it, that is, the currently running thread. The method setPriority may be used to change the priority to a new value.\nThe newly created thread is initially marked as being a daemon thread if and only if the thread creating it is currently marked as a daemon thread. The method setDaemon may be used to change whether or not a thread is a daemon."
+								}
+							]
+						},
+						{
+							"ID": "20221116225644-sgk6xtb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225644-sgk6xtb",
+								"updated": "20221116225739"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Params:\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "group"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the thread group. If null and there is a security manager, the group is determined by SecurityManager.getThreadGroup(). If there is not a security manager or SecurityManager.getThreadGroup() returns null, the group is set to the current thread's thread group.\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "target"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the object whose run method is invoked when this thread is started. If null, this thread's run method is invoked.\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "name"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the name of the new thread"
+								}
+							]
+						},
+						{
+							"ID": "20221116225733-s0kn6e5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116225733-s0kn6e5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Throws:\nSecurityException – if the current thread cannot create a thread in the specified thread group or cannot override the context class loader methods."
+								}
+							]
+						},
+						{
+							"ID": "20221116230043-en0nv5q",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221116230043-en0nv5q",
+								"updated": "20221116230058"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public Thread(ThreadGroup group, Runnable target, String name) {\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221116230038-ee1etgv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20221116230038-ee1etgv",
+						"updated": "20221116230152"
+					},
+					"Children": [
+						{
+							"ID": "20221116230038-t8hdpjv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116230038-t8hdpjv",
+								"updated": "20221116230050"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Allocates a new Thread object so that it has target as its run object, has the specified name as its name, and belongs to the thread group referred to by group, and has the specified stack size.\nThis constructor is identical to Thread(ThreadGroup, Runnable, String) with the exception of the fact that it allows the thread stack size to be specified. The stack size is the approximate number of bytes of address space that the virtual machine is to allocate for this thread's stack. The effect of the stackSize parameter, if any, is highly platform dependent.\nOn some platforms, specifying a higher value for the stackSize parameter may allow a thread to achieve greater recursion depth before throwing a StackOverflowError. Similarly, specifying a lower value may allow a greater number of threads to exist concurrently without throwing an OutOfMemoryError (or other internal error). The details of the relationship between the value of the stackSize parameter and the maximum recursion depth and concurrency level are platform-dependent. On some platforms, the value of the stackSize parameter may have no effect whatsoever.\nThe virtual machine is free to treat the stackSize parameter as a suggestion. If the specified value is unreasonably low for the platform, the virtual machine may instead use some platform-specific minimum value; if the specified value is unreasonably high, the virtual machine may instead use some platform-specific maximum. Likewise, the virtual machine is free to round the specified value up or down as it sees fit (or to ignore it completely).\nSpecifying a value of zero for the stackSize parameter will cause this constructor to behave exactly like the Thread(ThreadGroup, Runnable, String) constructor.\nDue to the platform-dependent nature of the behavior of this constructor, extreme care should be exercised in its use. The thread stack size necessary to perform a given computation will likely vary from one JRE implementation to another. In light of this variation, careful tuning of the stack size parameter may be required, and the tuning may need to be repeated for each JRE implementation on which an application is to run.\nImplementation note: Java platform implementers are encouraged to document their implementation's behavior with respect to the stackSize parameter.\n"
+								}
+							]
+						},
+						{
+							"ID": "20221116230121-hoa2vy7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116230121-hoa2vy7",
+								"updated": "20221116230152"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Params:\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "group"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the thread group. If null and there is a security manager, the group is determined by SecurityManager.getThreadGroup(). If there is not a security manager or SecurityManager.getThreadGroup() returns null, the group is set to the current thread's thread group.\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "target"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the object whose run method is invoked when this thread is started. If null, this thread's run method is invoked.\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "name"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the name of the new thread\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "stackSize"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ – the desired stack size for the new thread, or zero to indicate that this parameter is to be ignored."
+								}
+							]
+						},
+						{
+							"ID": "20221116230124-4j5ne8g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116230124-4j5ne8g"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Throws:\nSecurityException – if the current thread cannot create a thread in the specified thread group\n"
+								}
+							]
+						},
+						{
+							"ID": "20221116230125-z8ozta3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221116230125-z8ozta3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Since:\n1.4"
+								}
+							]
+						},
+						{
+							"ID": "20221116230111-rh0fg0q",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221116230111-rh0fg0q",
+								"updated": "20221116230113"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "public Thread(ThreadGroup group, Runnable target, String name,\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221116222439-6espfgi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221116222439-6espfgi",
+				"updated": "20221116222451"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Java并发之回顾Thread和runnable"
+					"Data": "分析 init 方法各参数的含义。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
-			"ID": "20221108201414-80i0fgc",
+			"ID": "20221116222447-mix95by",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221116222447-mix95by",
+				"updated": "20221116222548"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/**\n * Initializes a Thread.\n *\n * @param g the Thread group\n * @param target the object whose run() method gets called\n * @param name the name of the new Thread\n * @param stackSize the desired stack size for the new thread, or\n *        zero to indicate that this parameter is to be ignored.\n * @param acc the AccessControlContext to inherit, or\n *            AccessController.getContext() if null\n * @param inheritThreadLocals if {@code true}, inherit initial values for\n *            inheritable thread-locals from the constructing thread\n */\nprivate void init(ThreadGroup g, Runnable target, String name,\n                  long stackSize, AccessControlContext acc,\n                  boolean inheritThreadLocals) {\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221115211443-1hpe487",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221115211443-1hpe487",
+				"updated": "20221116214044"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Thread 类的 start() 方法解析",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221116213250-xu484n6",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221108201414-80i0fgc",
-				"updated": "20221108201414"
-			}
+				"id": "20221116213250-xu484n6",
+				"updated": "20221116213442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Causes this thread to begin execution; the Java Virtual Machine calls the run method of this thread.",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "The result is that two threads are running concurrently: the current thread (which returns from the call to the start method) and the other thread (which executes its run method).",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221116213443-201gjz8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221116213443-201gjz8",
+				"updated": "20221116213443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "It is never legal to start a thread more than once. In particular, a thread may not be restarted once it has completed execution.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221116214218-ki2c8hf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221116214218-ki2c8hf",
+				"updated": "20221116214246"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "public synchronized void start() {\n    /**\n     * This method is not invoked for the main method thread or \"system\"\n     * group threads created/set up by the VM. Any new functionality added\n     * to this method in the future may have to also be added to the VM.\n     *\n     * A zero status value corresponds to state \"NEW\".\n     */\n    if (threadStatus != 0)\n        throw new IllegalThreadStateException();\n\n    /* Notify the group that this thread is about to be started\n     * so that it can be added to the group's list of threads\n     * and the group's unstarted count can be decremented. */\n    group.add(this);\n\n    boolean started = false;\n    try {\n        start0();\n        started = true;\n    } finally {\n        try {\n            if (!started) {\n                group.threadStartFailed(this);\n            }\n        } catch (Throwable ignore) {\n            /* do nothing. If start0 threw a Throwable then\n              it will be passed up the call stack */\n        }\n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221116214002-nbfb797",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221116214002-nbfb797",
+				"updated": "20221116214046"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Thread 类的 run() 方法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221116214013-fco9sio",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221116214013-fco9sio",
+				"updated": "20221116214019"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "If this thread was constructed using a separate Runnable run object, then that Runnable object's run method is called; otherwise, this method does nothing and returns.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221116214019-np8sd7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221116214019-np8sd7h",
+				"updated": "20221116214019"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Subclasses of Thread should override this method.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221116214211-8ai2ej0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221116214211-8ai2ej0",
+				"updated": "20221116214213"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@Override\npublic void run() {\n    if (target != null) {\n        target.run();\n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
 		}
 	]
 }

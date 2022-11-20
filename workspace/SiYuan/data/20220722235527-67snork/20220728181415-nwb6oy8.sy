@@ -1,0 +1,20 @@
+{
+	"ID": "20220728181415-nwb6oy8",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220728181415-nwb6oy8",
+		"title": "Vue3",
+		"updated": "20220728181421"
+	},
+	"Children": [
+		{
+			"ID": "20220728181415-jfmu5p8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220728181415-jfmu5p8",
+				"updated": "20220728181415"
+			}
+		}
+	]
+}

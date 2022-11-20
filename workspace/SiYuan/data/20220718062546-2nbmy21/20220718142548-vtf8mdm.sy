@@ -1,0 +1,215 @@
+{
+	"ID": "20220718142548-vtf8mdm",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "两栏布局左右拖拽效果实现方案css方式实现第一种利用的css的方式实现利用浏览器非overflow_auto元素设置resize可以拉伸的特性实现无javascript的分栏宽度控制。webkit浏览器下滚动条可以自定义其中resize区域大小就是scrollbar的大小于是我们可以将整个拉伸区域变成和容器一样高红色的就是扩大后的区域不推荐使用css的方式实现毕竟兼容性并不好。在火狐上表现不佳。{padding__margin__}flcontainer{width_%_height_vh_overflo",
+		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
+		"custom-slug": "two-column-layout-left-and-right-dragging-effect-implementation-plan",
+		"custom-vuepress-slug": "two-column-layout-left-and-right-dragging-effect-implementation-plan",
+		"id": "20220718142548-vtf8mdm",
+		"tags": "拖拽,布局,实现,方式,可以,区域",
+		"title": "两栏布局左右拖拽效果实现方案",
+		"updated": "20220801095315"
+	},
+	"Children": [
+		{
+			"ID": "20220718142607-2qaj3rr",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/Note Attrs\" data-src=\"/widgets/Note Attrs\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"height: 122px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220718142607-2qaj3rr",
+				"style": "text-align: left;",
+				"updated": "20220718142607"
+			}
+		},
+		{
+			"ID": "20220728103014-7byvbns",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1046px; height: 539px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220728103014-7byvbns",
+				"style": "text-align: left;",
+				"updated": "20220728103014"
+			}
+		},
+		{
+			"ID": "20220718143805-nsbty18",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220718143805-nsbty18",
+				"updated": "20220718143811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CSS方式实现"
+				}
+			]
+		},
+		{
+			"ID": "20220718144223-w9vmixh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220718144223-w9vmixh",
+				"updated": "20220718144224"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "screenshot-20220718-144148"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/api/public/screenshot-20220718-144148.gif"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220718143755-qio1keu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220718143755-qio1keu",
+				"updated": "20220718143801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一种利用的css的方式实现，利用浏览器非 overflow:auto 元素 设置 resize 可以拉伸的特性实现无JavaScript的分栏宽度控制。"
+				}
+			]
+		},
+		{
+			"ID": "20220718143822-8olkpx0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220718143822-8olkpx0",
+				"updated": "20220718143829"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "webkit浏览器下滚动条可以自定义，其中resize区域大小就是scrollbar的大小，于是，我们可以将整个拉伸区域变成和容器一样高"
+				}
+			]
+		},
+		{
+			"ID": "20220718143839-824iywy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220718143839-824iywy",
+				"updated": "20220718143841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "红色的就是扩大后的区域"
+				}
+			]
+		},
+		{
+			"ID": "20220718143842-br8un9f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220718143842-br8un9f"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不推荐使用css的方式实现，毕竟兼容性并不好。在火狐上表现不佳。"
+				}
+			]
+		},
+		{
+			"ID": "20220718143846-phw6d64",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220718143846-phw6d64",
+				"updated": "20220718143912"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n  \u003chead\u003e\n    \u003cmeta charset=\"UTF-8\" /\u003e\n    \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /\u003e\n    \u003ctitle\u003eAA-drag\u003c/title\u003e\n    \u003cstyle\u003e\n      * {\n        padding: 0;\n        margin: 0;\n      }\n      .fl-container {\n        width: 100%;\n        height: 100vh;\n        overflow: hidden;\n      }\n      .fl-resize-bar,\n      .fl-resize-bar::-webkit-scrollbar {\n        width: 400px;\n      }\n      .fl-left {\n        position: relative;\n        float: left;\n        height: 100vh;\n        background: pink;\n      }\n      .fl-right {\n        box-sizing: border-box;\n        overflow-x: hidden;\n        height: 100vh;\n      }\n      .fl-cont-right {\n        height: 200vh;\n      }\n      .fl-resize-bar {\n        height: inherit;\n        resize: horizontal;\n        cursor: ew-resize;\n        cursor: col-resize;\n        opacity: 0;\n        overflow: scroll;\n      }\n      .fl-resize-bar::-webkit-scrollbar {\n        width: 400px;\n        height: inherit;\n      }\n\n      .fl-cont-left {\n        position: absolute;\n        top: 0;\n        right: 4px; /* 拖拽线的间距 */\n        bottom: 0;\n        left: 0;\n        overflow-x: hidden;\n        background: #fff;\n      }\n\n      .fl-resize-line {\n        position: absolute;\n        right: 1px;\n        top: 0;\n        bottom: 0;\n        border-right: 2px solid #bbb;\n        pointer-events: none;\n      }\n      .fl-resize-bar:hover ~ .fl-resize-line,\n      .fl-resize-bar:active ~ .fl-resize-line {\n        border-right: 2px dashed skyblue;\n      }\n\n      /* Firefox只有下面一小块区域可以拉伸 */\n      @supports (-moz-user-select: none) {\n        .fl-resize-bar:hover ~ .fl-resize-line,\n        .fl-resize-bar:active ~ .fl-resize-line {\n          border-right: 2px solid #bbb;\n        }\n        .fl-resize-bar:hover ~ .fl-resize-line::after,\n        .fl-resize-bar:active ~ .fl-resize-line::after {\n          content: '';\n          position: absolute;\n          width: 16px;\n          height: 16px;\n          bottom: 0;\n          right: -8px;\n          background: url(https://www.zhangxinxu.com/study/201903/css-idea/resize.svg);\n          background-size: 100% 100%;\n          z-index: 1;\n        }\n      }\n    \u003c/style\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cdiv class=\"fl-container\"\u003e\n      \u003cdiv class=\"fl-left\"\u003e\n        \u003cdiv class=\"fl-resize-bar\"\u003e\u003c/div\u003e\n        \u003cdiv class=\"fl-resize-line\"\u003e\u003c/div\u003e\n        \u003cdiv class=\"fl-cont-left\"\u003e左侧内容\u003c/div\u003e\n      \u003c/div\u003e\n      \u003cdiv class=\"fl-right\"\u003e\n        \u003cdiv class=\"fl-cont-right\"\u003e\n          右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容 右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容\n          右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧\n          内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容右侧内容\n        \u003c/div\u003e\n      \u003c/div\u003e\n    \u003c/div\u003e\n  \u003c/body\u003e\n\u003c/html\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220718144249-z8m2jvu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220718144249-z8m2jvu",
+				"updated": "20220718144323"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用js方式实现"
+				}
+			]
+		},
+		{
+			"ID": "20220718144323-5i58rht",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220718144323-5i58rht",
+				"updated": "20220718144327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n  \u003chead\u003e\n    \u003cmeta charset=\"UTF-8\" /\u003e\n    \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /\u003e\n    \u003ctitle\u003eAA-drag\u003c/title\u003e\n    \u003cstyle\u003e\n      * {\n        padding: 0;\n        margin: 0;\n      }\n      #left,\n      #right,\n      #middle {\n        height: 100vh;\n        position: absolute;\n      }\n      #left {\n        width: 300px;\n        background: #ccc;\n      }\n      #middle {\n        width: 5px;\n        background: #666;\n        left: 300px;\n      }\n      #middle:hover {\n        cursor: col-resize;\n      }\n      #right {\n        right: 0;\n        background: #ccc;\n        left: 305px;\n        width: auto;\n      }\n    \u003c/style\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cdiv id=\"left\"\u003e左侧内容\u003c/div\u003e\n    \u003cdiv id=\"middle\"\u003e\u003c/div\u003e\n    \u003cdiv id=\"right\"\u003e右侧内容\u003c/div\u003e\n  \u003c/body\u003e\n\u003c/html\u003e\n\u003cscript\u003e\n  function getEle(id) {\n    return document.getElementById(id);\n  }\n  window.onload = function () {\n    let left = getEle('left');\n    let right = getEle('right');\n    let middle = getEle('middle');\n\n    let middleWidth = 5;\n    middle.onmousedown = function (e) {\n      var disX = (e || event).clientX;\n      middle.left = middle.offsetLeft;\n      document.onmousemove = function (e) {\n        let middleLeft = middle.left + ((e || event).clientX - disX);\n        let maxWidth = document.body.clientWidth;\n        middleLeft \u003c 0 \u0026\u0026 (middleLeft = 0);\n        middleLeft \u003e maxWidth \u0026\u0026 (middleLeft = maxWidth);\n        middle.style.left = left.style.width = middleLeft + 'px';\n        right.style.width = maxWidth - middleLeft - middleWidth + 'px';\n        right.style.left = middleLeft + middleWidth + 'px';\n        return false;\n      };\n      document.onmouseup = function () {\n        document.onmousemove = null;\n        document.onmouseup = null;\n        middle.releaseCapture \u0026\u0026 middle.releaseCapture();\n      };\n      middle.setCapture \u0026\u0026 middle.setCapture();\n      return false;\n    };\n  };\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

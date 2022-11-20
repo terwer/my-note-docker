@@ -1,0 +1,1230 @@
+{
+	"ID": "20221114192958-dkm2rn8",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221114192958-dkm2rn8",
+		"title": "Windows版本维基导出docx中文乱码解决方案",
+		"updated": "20221115192013"
+	},
+	"Children": [
+		{
+			"ID": "20221114194127-gjjd2uk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221114194127-gjjd2uk",
+				"updated": "20221114194131"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "原因",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114194315-0ymilup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114194315-0ymilup",
+				"updated": "20221114194320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "先回答两个问题",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114194306-rh1idho",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221114194306-rh1idho",
+				"updated": "20221114194718"
+			},
+			"Children": [
+				{
+					"ID": "20221114194424-p4qlrxc",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221114194424-p4qlrxc",
+						"updated": "20221114194718"
+					},
+					"Children": [
+						{
+							"ID": "20221114194424-o6thu2k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114194424-o6thu2k",
+								"updated": "20221114194718"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为什么 exp​ 环境没有复现",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221114194322-coz36q8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114194322-coz36q8",
+				"updated": "20221115135835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "exp 默认是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Linux"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 部署，Linux 一般会默认设置为 UTF-8 编码，而 ekp 代码也是兼容 UTF-8 编码，因此不会出现乱码。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114194257-152y8r5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 2,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "Mg==",
+				"Num": 2
+			},
+			"Properties": {
+				"id": "20221114194257-152y8r5",
+				"updated": "20221114194427"
+			},
+			"Children": [
+				{
+					"ID": "20221114194427-2bnyyo6",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221114194427-2bnyyo6",
+						"updated": "20221114194427"
+					},
+					"Children": [
+						{
+							"ID": "20221114194427-qyghgh1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114194427-qyghgh1",
+								"updated": "20221114194427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为什么开发环境没有复现",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221114194359-7nmsltc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114194359-7nmsltc",
+				"updated": "20221115140129"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开发环境默认会给 JVM 附加 UTF-8 编码相关参数。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114194507-nufa40v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114194507-nufa40v",
+				"updated": "20221114194509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原因：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114194429-o6u1nyw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114194429-o6u1nyw",
+				"updated": "20221115140140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ekp 代码目前是兼容 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "UTF-8"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 编码，但是 Windows 版部署包的 tomcat 启动脚本 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": "",
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "没有指定JVM的编码"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221115140004-qhed5pq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221115140004-qhed5pq",
+				"updated": "20221115140100"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Windows 的默认编码是 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "GBK"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​，如果不指定编码就去取系统的 GBK ，而 ekp 是 UTF-8，这时候就会产生乱码。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114194534-oopfh17",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114194534-oopfh17",
+				"updated": "20221114194548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.jianshu.com/p/7688863e3a75",
+					"TextMarkTextContent": "https://www.jianshu.com/p/7688863e3a75"
+				}
+			]
+		},
+		{
+			"ID": "20221114194132-xip8qqx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221114194132-xip8qqx",
+				"updated": "20221114194138"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "最佳方案",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114194200-gahf0fh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114194200-gahf0fh",
+				"updated": "20221114194217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有多种解决方式，但是下面的方案是研究之后的最佳方案。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114194218-eiwreju",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114194218-eiwreju",
+				"updated": "20221114194255"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "不用改任何ekp代码，只需要修改启动脚本，也能与ekp现有代码实现方式保持兼容。"
+				}
+			]
+		},
+		{
+			"ID": "20221114192958-r2fx8hn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221114192958-r2fx8hn",
+				"updated": "20221114193023"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Windows",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114193103-96gk2n7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221114193103-96gk2n7",
+				"updated": "20221114195051"
+			},
+			"Children": [
+				{
+					"ID": "20221114193106-21puk3p",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221114193106-21puk3p",
+						"updated": "20221114195051"
+					},
+					"Children": [
+						{
+							"ID": "20221114193106-zk7qp6f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114193106-zk7qp6f",
+								"updated": "20221114194834"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修改 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "tomcat/bin/catalina64.bat"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221114193133-abxz1po",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114193133-abxz1po",
+								"updated": "20221114193136"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如下：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221114193140-8def4o6",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmF0",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221114193140-8def4o6",
+								"updated": "20221114193159"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmF0",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "rem Tomcat中文编码问题\nset JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8\nC:\\Windows\\System32\\chcp 65001\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221114193128-o5psw3y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114193128-o5psw3y",
+								"updated": "20221114193317"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221114193309.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221114195030-q0xuk1t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114195030-q0xuk1t",
+								"updated": "20221114195051"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解释：65001 就是 UTF-8，而默认是 936，就是 GBK。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221114193323-rr1nxmy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114193323-rr1nxmy",
+								"updated": "20221114193528"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这样加上之后，导出不会乱码，因为 ekp 设置的编码是 UTF-8。当前页面也不会乱码，因为修改了当前脚本的编码。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221114193414-vvr6w0j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114193414-vvr6w0j",
+								"updated": "20221114194803"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "但是 Windows 的 CMD 新窗口默认是 GBK，而 Tomcat 的默认启动方式会打开新窗口，新窗口的的输出日志会乱码。解决办法请看步骤 2。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221114193109-oyza3kf",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221114193109-oyza3kf",
+						"updated": "20221114194808"
+					},
+					"Children": [
+						{
+							"ID": "20221114193109-0w4jtt7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114193109-0w4jtt7",
+								"updated": "20221114194808"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修改 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "tomcat/bin/startup.bat"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221114193626-koxinsj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114193626-koxinsj",
+								"updated": "20221114193719"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最后一行行的 start 改成 run，改完之后",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221114193643-l7q2s59",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmF0",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221114193643-l7q2s59",
+								"updated": "20221114193708"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmF0",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "call \"%EXECUTABLE%\" run %CMD_LINE_ARGS%\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221114193831-yggq057",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221114193831-yggq057",
+								"updated": "20221114193832"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/20221114193815.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221114193024-6qvjf7v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221114193024-6qvjf7v",
+				"updated": "20221114194103"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Linux【可选】",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114193938-g5jx8su",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114193938-g5jx8su",
+				"updated": "20221114194054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前 Linux 是不乱码的，如果设置编码为 UTF-8 的话。但是也可以进一步明确设置，因为 ekp 基本上都是 UTF-8 编码，日志框架也是 UTF-8 编码，启动脚本可以保持一致。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114193027-wxtobbp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114193027-wxtobbp",
+				"updated": "20221114194844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "tomcat/bin/calalinla64.sh"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114193854-txa3aps",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221114193854-txa3aps",
+				"updated": "20221114193915"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# set encoding\nJAVA_OPTS=\"$JAVA_OPTS -Dfile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8\"\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114193028-d7p7db1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221114193028-d7p7db1",
+				"updated": "20221114193030"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "参考",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221114193057-rvdbdb3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114193057-rvdbdb3",
+				"updated": "20221114193059"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.jianshu.com/p/7688863e3a75",
+					"TextMarkTextContent": "https://www.jianshu.com/p/7688863e3a75"
+				}
+			]
+		},
+		{
+			"ID": "20221114193030-4jdr8z2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221114193030-4jdr8z2",
+				"updated": "20221114193102"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://juejin.cn/post/6844903687689601032",
+					"TextMarkTextContent": "https://juejin.cn/post/6844903687689601032"
+				}
+			]
+		},
+		{
+			"ID": "20221114193044-4tdj0bh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221114193044-4tdj0bh",
+				"updated": "20221115191938"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "后记",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221115191938-096hhzm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221115191938-096hhzm",
+				"updated": "20221115191942"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不改配置的方案：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221115191943-6lsl6c6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221115191943-6lsl6c6",
+				"updated": "20221115191943"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果不改配置，还有一种方法，申请开源改一下代码，在  com.landray.kmss.kms.wiki.util.HtmlConvertWordUtil.java 加上下面代码，检测默认编码，如果检测到就用系统编码，不再强制使用 UTF-8",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221115191954-bhmyybl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221115191954-bhmyybl",
+				"updated": "20221115192002"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "htmlDocument = Jsoup.parse(is, \"UTF-8\", \"\");\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221115191950-3okvt1c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221115191950-3okvt1c",
+				"updated": "20221115192013"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "改成",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221115192007-cjlwnv3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YQ==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221115192007-cjlwnv3",
+				"updated": "20221115192009"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YQ==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "String defaultEncoding = \"UTF-8\";\nString sysEncoding = System.getProperty(\"file.encoding\");\nif (StringUtils.isNotEmpty(sysEncoding)) {\n    defaultEncoding = sysEncoding;\n}\nhtmlDocument = Jsoup.parse(is, defaultEncoding, \"\");\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221115191943-ok4n85i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221115191943-ok4n85i",
+				"updated": "20221115191943"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你们自己评估下要不要用这个方案。当然，如果换了 tomcat 能解决，也没必要用这个方案。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}

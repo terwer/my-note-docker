@@ -7,10 +7,9 @@
 		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true}]",
 		"custom-slug": "message-middleware-ncudb",
 		"id": "20220715162032-hfvrtu4",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220716232108-46szpet\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220716014123-0qjdkyc\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220716232108-46szpet\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"tags": "消息,队列,消费,中间件,MQ",
-		"title": "001.消息中间件",
-		"updated": "20221023180326"
+		"title": "消息中间件",
+		"updated": "20220805175749"
 	},
 	"Children": [
 		{

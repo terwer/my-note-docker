@@ -4,44 +4,36 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-cnblogs-post-id": "16805717",
-		"custom-desc": "对于java中的常量的命名规则_所有字母的单词都是大写如果有多个单词那马使用下划线_​连接。​publicstaticfinalintage_of_persion=_​javacollection​​​​​​​​​",
+		"custom-desc": "对于java中的常量的命名规则_所有字母的单词都是大写如果有多个单词那马使用下划线_​连接。​publicstaticfinalintage_of_persion=_​javacollection​​​​​​​​​ide（integrateddevelopmentenvironment）集成开发环境。netbeans。https_netbeansorgjbuilder。intellijideaeclipse‍",
 		"custom-slug": "constant-and-java-collection-framework-zuwan4",
 		"custom-vuepress-slug": "docs/001.后端开发/001.JavaSE/020.常量与Java集合框架.md",
 		"custom-wordpress-post-id": "4314",
 		"custom-yuque-post-id": "97242566_terwer/note",
 		"id": "20221019003957-jstpp74",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221019003957-39d6gg1\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019003957-39d6gg1\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221019005513-e5srl00\u0026quot;,\u0026quot;focusStart\u0026quot;:3,\u0026quot;focusEnd\u0026quot;:3}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221019003957-39d6gg1\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221019010119-v3xh7p0\u0026quot;,\u0026quot;scrollTop\u0026quot;:296}",
 		"tags": "常量,命名,规则,java,javase,集合,collection",
-		"title": "020.常量与Java集合框架简介",
-		"updated": "20221021222251"
+		"title": "020.常量与Java集合框架",
+		"updated": "20221019145651"
 	},
 	"Children": [
 		{
 			"ID": "20221019003957-39d6gg1",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1,
-				"Start": 1,
-				"Delimiter": 46,
-				"Padding": 3,
-				"Marker": "MQ==",
-				"Num": 1
+				"Typ": 1
 			},
 			"Properties": {
 				"id": "20221019003957-39d6gg1",
-				"updated": "20221019005514"
+				"updated": "20221019113726"
 			},
 			"Children": [
 				{
 					"ID": "20221019004055-ssjo7cz",
 					"Type": "NodeListItem",
-					"Data": "1",
 					"ListData": {
 						"Typ": 1,
-						"Start": 1,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "MQ==",
+						"Marker": "MS4=",
 						"Num": 1
 					},
 					"Properties": {
@@ -59,25 +51,16 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "对于 Java 中的常量的命名规则：所有字母的单词都是大写，如果有多个单词，那马使用下划线 ",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "对于 Java 中的常量的命名规则：所有字母的单词都是大写，如果有多个单词，那马使用下划线 "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "_"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 连接。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​ 连接。"
 								}
 							]
 						},
@@ -91,25 +74,16 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "public static final int AGE_OF_PERSION = 20;"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						}
@@ -118,19 +92,15 @@
 				{
 					"ID": "20221019004242-dyao8v0",
 					"Type": "NodeListItem",
-					"Data": "2",
 					"ListData": {
 						"Typ": 1,
-						"Tight": true,
-						"Start": 2,
 						"Delimiter": 46,
-						"Padding": 3,
-						"Marker": "Mg==",
+						"Marker": "Mi4=",
 						"Num": 2
 					},
 					"Properties": {
 						"id": "20221019004242-dyao8v0",
-						"updated": "20221019005514"
+						"updated": "20221019113726"
 					},
 					"Children": [
 						{
@@ -143,10 +113,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Java Collection",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Java Collection"
 								}
 							]
 						},
@@ -160,60 +127,35 @@
 							"Children": [
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://img1.terwer.space/api/public/20221019004812.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://img1.terwer.space/api/public/20221019004812.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -227,60 +169,35 @@
 							"Children": [
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://img1.terwer.space/api/public/20221019004905.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://img1.terwer.space/api/public/20221019004905.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -294,60 +211,35 @@
 							"Children": [
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://img1.terwer.space/api/public/20221019113708.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://img1.terwer.space/api/public/20221019113708.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -361,60 +253,35 @@
 							"Children": [
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://img1.terwer.space/api/public/20221019005123.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://img1.terwer.space/api/public/20221019005123.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -428,60 +295,35 @@
 							"Children": [
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://img1.terwer.space/api/public/20221019005212.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://img1.terwer.space/api/public/20221019005212.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -495,60 +337,35 @@
 							"Children": [
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://img1.terwer.space/api/public/20221019005313.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://img1.terwer.space/api/public/20221019005313.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -562,60 +379,35 @@
 							"Children": [
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://img1.terwer.space/api/public/20221019005353.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://img1.terwer.space/api/public/20221019005353.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -629,60 +421,35 @@
 							"Children": [
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://img1.terwer.space/api/public/20221019005423.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://img1.terwer.space/api/public/20221019005423.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -731,6 +498,223 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20221019004318-f5y5feh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221019004318-f5y5feh",
+				"updated": "20221019145651"
+			},
+			"Children": [
+				{
+					"ID": "20221019005940-uf3w94l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221019005940-uf3w94l",
+						"updated": "20221019145651"
+					},
+					"Children": [
+						{
+							"ID": "20221019005940-pwofvss",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019005940-pwofvss",
+								"updated": "20221019010011"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "IDE（Integrated Development Environment），集成开发环境。"
+								}
+							]
+						},
+						{
+							"ID": "20221019010011-cxlxx22",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20221019010011-cxlxx22",
+								"updated": "20221019145651"
+							},
+							"Children": [
+								{
+									"ID": "20221019010025-p5dm1lg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221019010025-p5dm1lg",
+										"updated": "20221019010025"
+									},
+									"Children": [
+										{
+											"ID": "20221019010025-t7jljk2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221019010025-t7jljk2",
+												"updated": "20221019010119"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "NetBeans。"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "https://netbeans.org",
+													"TextMarkTextContent": "https://netbeans.org"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221019010032-cwu00en",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221019010032-cwu00en"
+									},
+									"Children": [
+										{
+											"ID": "20221019010032-28oa590",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221019010032-28oa590",
+												"updated": "20221019010241"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JBuilder。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221019010301-v3ozv5k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20221019010301-v3ozv5k"
+									},
+									"Children": [
+										{
+											"ID": "20221019010301-srgvq9j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221019010301-srgvq9j",
+												"updated": "20221019010314"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "IntelliJ IDEA"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221019010506-pm73uhy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20221019010506-pm73uhy",
+										"updated": "20221019010652"
+									},
+									"Children": [
+										{
+											"ID": "20221019010506-f6m1n57",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221019010506-f6m1n57",
+												"updated": "20221019010652"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Eclipse"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221019113952-h7xnzm4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20221019113952-h7xnzm4",
+										"updated": "20221019145651"
+									},
+									"Children": [
+										{
+											"ID": "20221019113952-9uxd267",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221019113952-9uxd267",
+												"updated": "20221019145651"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "MyEclipse"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221019010119-v3xh7p0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019010119-v3xh7p0"
+			}
 		}
 	]
 }

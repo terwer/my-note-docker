@@ -1,0 +1,195 @@
+{
+	"ID": "20220824003000-hzo0aof",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220824003000-hzo0aof",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220824100714-iuhpo29\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220824132135-m95w23m\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:1362,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220824113235-kmyzcl9\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "Nuxt3上手",
+		"updated": "20220824132135"
+	},
+	"Children": [
+		{
+			"ID": "20220824100714-iuhpo29",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220824100714-iuhpo29",
+				"updated": "20220824100738"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "回顾一下Nuxt2的构建"
+				}
+			]
+		},
+		{
+			"ID": "20220824003000-dp3zfot",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220824003000-dp3zfot",
+				"updated": "20220824100814"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn create nuxt-app final-note-app\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220824003109-pk38i7p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220824003109-pk38i7p",
+				"updated": "20220824004203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目初始化完成之后"
+				}
+			]
+		},
+		{
+			"ID": "20220824004204-bhg313n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220824004204-bhg313n",
+				"updated": "20220824100817"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "🎉  Successfully created project final-note-app\n\n  To get started:\n\n        cd final-note-app\n        yarn dev\n\n  To build \u0026 start for production:\n\n        cd final-note-app\n        yarn build\n        yarn start\n\n  To test:\n\n        cd final-note-app\n        yarn test\n\n\n  For TypeScript users. \n\n  See : https://typescript.nuxtjs.org/cookbook/components/\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220824100739-euhzj15",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220824100739-euhzj15",
+				"updated": "20220824100746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上手Nuxt3构建"
+				}
+			]
+		},
+		{
+			"ID": "20220824100747-mqeqoya",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220824100747-mqeqoya",
+				"updated": "20220824100827"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "npx nuxi init final-note-app\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220824100809-d6t1rtf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220824100809-d6t1rtf",
+				"updated": "20220824101143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "初始化后"
+				}
+			]
+		},
+		{
+			"ID": "20220824101143-xlp4nb7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220824101143-xlp4nb7",
+				"updated": "20220824101148"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "➜  mydocs node -v\nv16.17.0\n➜  mydocs npm -v\n8.15.0\n➜  mydocs yarn -v\n1.22.19\n➜  mydocs npx -v\n8.15.0\n➜  mydocs npx nuxi init final-note-app\nNeed to install the following packages:\n  nuxi@3.0.0-rc.8\nOk to proceed? (y) y\nNuxt CLI v3.0.0-rc.8                                                                      10:11:21\nℹ cloned nuxt/starter#v3 to /Users/terwer/Documents/mydocs/final-note-app                 10:11:23\n                                                                                          10:11:23\n ✨ Your doozie Nuxt project is just created! Next steps:\n\n 📁  cd final-note-app                                                                    10:11:23\n\n 💿  Install dependencies with npm install or yarn install or pnpm install --shamefully-hoist\n\n 🚀  Start development server with npm run dev or yarn dev or pnpm run dev                10:11:23\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220824113235-kmyzcl9",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220824113235-kmyzcl9",
+				"updated": "20220824113235"
+			}
+		},
+		{
+			"ID": "20220824132135-m95w23m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220824132135-m95w23m"
+			}
+		}
+	]
+}

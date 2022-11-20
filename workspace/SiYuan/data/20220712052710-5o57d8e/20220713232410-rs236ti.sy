@@ -3,18 +3,14 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
-		"custom-cnblogs-post-id": "16819005",
-		"custom-desc": "ideagoland类似配置goproxy=https_goproxycn",
+		"custom-desc": "idea开启go模块ideagoland类似配置goproxy=https_goproxycn",
 		"custom-metaweblog-test1-post-id": "31",
 		"custom-slug": "idea-opens-go-module-z1r2xdy",
-		"custom-vuepress-slug": "docs/003.经验分享/068.IDEA开启GO模块.md",
-		"custom-wordpress-post-id": "4333",
-		"custom-yuque-post-id": "97645877_terwer/note",
 		"id": "20220713232410-rs236ti",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220713152410-gvgybkh\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220713232548-kn7z7d6\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220713232548-kn7z7d6\u0026quot;,\u0026quot;focusStart\u0026quot;:31,\u0026quot;focusEnd\u0026quot;:31}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220713152410-gvgybkh\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220824000000-5jmdke1\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:558}",
 		"tags": "idea,go",
-		"title": "068.IDEA开启GO模块",
-		"updated": "20221023173100"
+		"title": "IDEA开启GO模块",
+		"updated": "20220824000000"
 	},
 	"Children": [
 		{
@@ -126,6 +122,15 @@
 					"Data": "```"
 				}
 			]
+		},
+		{
+			"ID": "20220824000000-5jmdke1",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20220824000000-5jmdke1",
+				"updated": "20220824000000"
+			}
 		}
 	]
 }

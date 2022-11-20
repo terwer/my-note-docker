@@ -5,38 +5,9 @@
 	"Properties": {
 		"id": "20221017172050-e8o4rma",
 		"title": "2022-10-21-周报",
-		"updated": "20221021154248"
+		"updated": "20221018152347"
 	},
 	"Children": [
-		{
-			"ID": "20221021152417-b2uxhz8",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20221021152417-b2uxhz8",
-				"updated": "20221021152436"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "迭代需求"
-				}
-			]
-		},
-		{
-			"ID": "20221021152326-pa4rx9k",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221021152326-pa4rx9k",
-				"updated": "20221021152340"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "#172944【文档协同】知识助手增加按分类检索"
-				}
-			]
-		},
 		{
 			"ID": "20221017172107-rwef566",
 			"Type": "NodeHeading",
@@ -82,95 +53,9 @@
 		},
 		{
 			"ID": "20221017172114-4ezy5gt",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20221017172114-4ezy5gt",
-				"updated": "20221021152244"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "服务单"
-				}
-			]
-		},
-		{
-			"ID": "20221021152244-3rd6riq",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221021152244-3rd6riq",
-				"updated": "20221021152254"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "#175506 【1231冲刺】【服务问题单】新建考试活动提示题库中试题数量不够"
-				}
-			]
-		},
-		{
-			"ID": "20221021152506-0x8ba4l",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221021152506-0x8ba4l",
-				"updated": "20221021152523"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "#176005【服务问题单】设置了必修课之后不会直接跳到下一阶段"
-				}
-			]
-		},
-		{
-			"ID": "20221021152547-6ivo575",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20221021152547-6ivo575",
-				"updated": "20221021152551"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "日常缺陷"
-				}
-			]
-		},
-		{
-			"ID": "20221021152605-vtpjvtk",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221021152605-vtpjvtk",
-				"updated": "20221021154248"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "#162434 【日常缺陷】【维基知识库】维基内表格存在合并单元格时，导出样式改变"
-				}
-			]
-		},
-		{
-			"ID": "20221021152612-j8vw3ay",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221021152612-j8vw3ay",
-				"updated": "20221021152639"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "#175698【日常缺陷】 【知识问答-修复】提问时，只写问题，点击提交失败，一直提示不能为空"
-				}
-			]
-		},
-		{
-			"ID": "20221021152634-gmljra8",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221021152634-gmljra8"
+				"id": "20221017172114-4ezy5gt"
 			}
 		}
 	]

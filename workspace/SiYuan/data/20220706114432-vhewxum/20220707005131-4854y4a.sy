@@ -1,0 +1,602 @@
+{
+	"ID": "20220707005131-4854y4a",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220707005131-4854y4a",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220707151014-w3zdc7v\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220707151014-ib99vxp\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220707151014-w3zdc7v\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "vdoing主题vuepress的v1版本集成Artalk",
+		"updated": "20220707151014"
+	},
+	"Children": [
+		{
+			"ID": "20220707151014-w3zdc7v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220707151014-w3zdc7v",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "后端部署",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-9tf3xa3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-9tf3xa3",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://artalk.js.org/guide/backend/install.html#%E4%BD%BF%E7%94%A8-docker",
+					"TextMarkTextContent": "https://artalk.js.org/guide/backend/install.html#%E4%BD%BF%E7%94%A8-docker"
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-cn26kjk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-cn26kjk",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 docker-compose 部署即可，很简单。这里需要注意的是配置 https。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-cnqb4hu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-cnqb4hu",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我的部署结果：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-7bfmyfm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-7bfmyfm",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://talk.terwergreen.com",
+					"TextMarkTextContent": "https://talk.terwergreen.com"
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-grdex1d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-grdex1d",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "备注：我开启了 CORS 保护，默认只有 https://terwergreen.com 域名才能引用。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-x7qgemu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220707151014-x7qgemu",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "前端部署",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-d1hdfob",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220707151014-d1hdfob",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "安装 Artalk 依赖",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-qxsdbur",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220707151014-qxsdbur",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yarn add artalk -S\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-tyirc3u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220707151014-tyirc3u",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "新建 Vue 组件 Artalk.vue 组件",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-jnbe4e7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dnVl",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220707151014-jnbe4e7",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dnVl",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctemplate\u003e\n  \u003cdiv\u003e\n    \u003c!-- 自定义评论 --\u003e\n    \u003ch2 id=\"commentArea\"\u003e评论\u003c/h2\u003e\n    \u003cdiv id=\"Comments\"\u003e\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/template\u003e\n\n\u003cscript\u003e\nimport \"artalk/dist/Artalk.css\";\n// import Artalk from \"artalk\";\n\nexport default {\n  mounted() {\n    if (typeof window != \"undefined\") {\n      // 初始化Artalk\n      this.initArtalk();\n      // consoel.log(\"初始化Artalk\");\n    }\n  },\n  methods: {\n    initArtalk() {\n      const ArtalkComponent = () =\u003e ({\n        // 需要加载的组件 (应该是一个 `Promise` 对象)\n        component: import(\"artalk\"),\n        // 异步组件加载时使用的组件\n        // loading: LoadingComponent,\n        // 加载失败时使用的组件\n        // error: ErrorComponent,\n        // 展示加载时组件的延时时间。默认值是 200 (毫秒)\n        // delay: 200,\n        // 如果提供了超时时间且组件加载也超时了，\n        // 则使用加载失败时使用的组件。默认值是：`Infinity`\n        // timeout: 3000,\n      });\n\n      // console.log(\"ArtalkComponent()=\u003e\", ArtalkComponent());\n\n      ArtalkComponent().component.then(function (result) {\n        // console.log(\"result=\u003e\", result.default);\n        const Artalk = result.default;\n        console.log(\"Artalk准备初始化...\");\n\n        new Artalk({\n          el: \"#Comments\",\n          pageKey: \"\", // 页面链接\n          pageTitle: \"\", // 页面标题\n          server: \"https://talk.terwergreen.com\", // 后端地址\n          site: \"远方的灯塔\",\n        });\n        console.log(\"Artalk初始化完成...\");\n      });\n    },\n  },\n};\n\u003c/script\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-7bac33n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-7bac33n",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "s",
+					"TextMarkTextContent": "注意：由于 Artalk 使用了 window ，下面的同步加载会导致 node 构建失败，不要使用"
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-ef460vu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dnVl",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220707151014-ef460vu",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dnVl",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctemplate\u003e\n  \u003cdiv id=\"Comments\"\u003e\u003c/div\u003e\n\u003c/template\u003e\n\n\u003cscript\u003e\nimport \"artalk/dist/Artalk.css\";\nimport Artalk from \"artalk\";\n\nexport default {\n  mounted() {\n    if (Artalk) {\n      new Artalk({\n        el: \"#Comments\",\n        pageKey: \"\", // 页面链接\n        pageTitle: \"\", // 页面标题\n        server: \"https://talk.terwergreen.com\", // 后端地址\n        site: \"远方的灯塔\",\n      });\n    }\n  },\n};\n\u003c/script\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-x7daflq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-x7daflq",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改 Page.vue",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-gn6c2bc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-gn6c2bc",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Content 组件后面加上评论即可。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-edsjlqn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-edsjlqn",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220707004134784",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220707004135.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-l46hqud",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-l46hqud",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "效果",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-1s2nqp8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-1s2nqp8",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220707005046846",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220707005047.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-zkuegh5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220707151014-zkuegh5",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "注意",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-ic2o1i4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-ic2o1i4",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https 配置问题",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707151014-ib99vxp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707151014-ib99vxp",
+				"updated": "20220707151014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个直接咨询云服务提供方即可，我的是阿里云的，使用官方文档就配置好了。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}

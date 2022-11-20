@@ -1,0 +1,84 @@
+{
+	"ID": "20220920110636-qm44ihh",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "仓库https_githubcomericgioreactbootstraptypeahead演示https_codesandboxiosreactbootstraptypeaheadasyncpaginationexampleqg?file=srcstylescss_‍",
+		"custom-slug": "a-automatic-completion-library-of-react-and-bootstrap-nn8fu",
+		"id": "20220920110636-qm44ihh",
+		"tags": "仓库,演示",
+		"title": "022.一款react和bootstrap的自动完成类库",
+		"updated": "20220920110751"
+	},
+	"Children": [
+		{
+			"ID": "20220920110706-n6c30w6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220920110706-n6c30w6",
+				"updated": "20220920110716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "仓库"
+				}
+			]
+		},
+		{
+			"ID": "20220920110725-nbssbf8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920110725-nbssbf8",
+				"updated": "20220920110751"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/ericgio/react-bootstrap-typeahead",
+					"TextMarkTextContent": "https://github.com/ericgio/react-bootstrap-typeahead"
+				}
+			]
+		},
+		{
+			"ID": "20220920110716-iuaaw5y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220920110716-iuaaw5y",
+				"updated": "20220920110722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "演示"
+				}
+			]
+		},
+		{
+			"ID": "20220920110700-ezfo608",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920110700-ezfo608",
+				"updated": "20220920110704"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://codesandbox.io/s/react-bootstrap-typeahead-async-pagination-example-qg895?file=/src/styles.css:0-25",
+					"TextMarkTextContent": "https://codesandbox.io/s/react-bootstrap-typeahead-async-pagination-example-qg895?file=/src/styles.css:0-25"
+				}
+			]
+		},
+		{
+			"ID": "20220920110751-lmpjgad",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220920110751-lmpjgad"
+			}
+		}
+	]
+}

@@ -1,0 +1,446 @@
+{
+	"ID": "20221117221244-wu1ud7c",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221117221244-wu1ud7c",
+		"title": "KB Parallels: How to change the default application for a file type in Mac OS X?",
+		"updated": "20221117221952"
+	},
+	"Children": [
+		{
+			"ID": "20221117221244-1f73etx",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221117221244-1f73etx",
+				"updated": "20221117221244"
+			}
+		},
+		{
+			"ID": "20221117221244-7jm0ag0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221117221244-7jm0ag0",
+				"updated": "20221117221244"
+			},
+			"Children": [
+				{
+					"ID": "20221117221244-o7k82d5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221117221244-o7k82d5",
+						"updated": "20221117221244"
+					},
+					"Children": [
+						{
+							"ID": "20221117221244-jtteww0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221117221244-jtteww0",
+								"updated": "20221117221244"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://kb.parallels.com/122949",
+									"TextMarkTextContent": "https://kb.parallels.com/122949 - How to change the default application for a file type in Mac OS X?"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221117221244-h0uyh3g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221117221244-h0uyh3g",
+						"updated": "20221117221244"
+					},
+					"Children": [
+						{
+							"ID": "20221117221244-lmigqcw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221117221244-lmigqcw",
+								"updated": "20221117221244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "How to change the default application for a file type in Mac OS X?"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221117221244-baus8j9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221117221244-baus8j9",
+						"updated": "20221117221244"
+					},
+					"Children": [
+						{
+							"ID": "20221117221244-3yfn4uv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221117221244-3yfn4uv",
+								"updated": "20221117221244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2022-11-17 22:12:44"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221117221244-3pvlepg",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221117221244-3pvlepg",
+				"updated": "20221117221244"
+			}
+		},
+		{
+			"ID": "20221117221244-olrsgn4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221117221244-olrsgn4",
+				"updated": "20221117221244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Symptoms"
+				}
+			]
+		},
+		{
+			"ID": "20221117221244-fsyxs9z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221117221244-fsyxs9z",
+				"updated": "20221117221244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How to change the default application for a file type in Mac OS X?"
+				}
+			]
+		},
+		{
+			"ID": "20221117221244-8jf2gfl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221117221244-8jf2gfl",
+				"updated": "20221117221244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Resolution"
+				}
+			]
+		},
+		{
+			"ID": "20221117221244-l9gw0w1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221117221244-l9gw0w1",
+				"updated": "20221117221952"
+			},
+			"Children": [
+				{
+					"ID": "20221117221244-w35pclq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221117221244-w35pclq",
+						"updated": "20221117221244"
+					},
+					"Children": [
+						{
+							"ID": "20221117221244-k87w04h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221117221244-k87w04h",
+								"updated": "20221117221733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Right-click on a file, then click on "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Get info"
+								},
+								{
+									"Type": "NodeText",
+									"Data": ".\n"
+								}
+							]
+						},
+						{
+							"ID": "20221117221734-84qv0e0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221117221734-84qv0e0",
+								"updated": "20221117221736"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/202211172217987.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221117221244-xa0daxd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221117221244-xa0daxd",
+						"updated": "20221117221244"
+					},
+					"Children": [
+						{
+							"ID": "20221117221244-ckppqo7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221117221244-ckppqo7",
+								"updated": "20221117221746"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "In the "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "“Get Info”"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " options, you can easily select which application you would like to be the default for opening your file. In case you configured Apps sharing between your host Mac and guest virtual machine, the apps from the both systems will be listed.\n"
+								}
+							]
+						},
+						{
+							"ID": "20221117221747-90otuo2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221117221747-90otuo2",
+								"updated": "20221117221830"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/202211172218551.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221117221244-ogbbgsf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221117221244-ogbbgsf",
+						"updated": "20221117221952"
+					},
+					"Children": [
+						{
+							"ID": "20221117221244-gvo57vr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221117221244-gvo57vr",
+								"updated": "20221117221244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "After selecting the default app for the single file, apply it to all files of the same type by clicking on the "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Change All"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " button in that same "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Get Info"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " window."
+								}
+							]
+						},
+						{
+							"ID": "20221117221837-f5uot57",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221117221837-f5uot57",
+								"updated": "20221117221952"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/api/public/202211172219702.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

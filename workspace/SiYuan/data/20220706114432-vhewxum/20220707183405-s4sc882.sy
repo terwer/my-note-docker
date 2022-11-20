@@ -1,0 +1,520 @@
+{
+	"ID": "20220707183405-s4sc882",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220707183405-s4sc882",
+		"title": "node发送邮件",
+		"updated": "20220707192453"
+	},
+	"Children": [
+		{
+			"ID": "20220707183411-tfbeqid",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220707183411-tfbeqid",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "代码",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-awmvjta",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707183411-awmvjta",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mail.mjs",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-7lvu9fk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "anM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220707183411-7lvu9fk",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import nodemailer from \"nodemailer\";\n\nexport default async function sendMail(to, title, msg) {\n    // 创建transporter\n    const transporter = nodemailer.createTransport({\n        host: \"smtp.qq.com\", // 邮箱的smtp地址\n        auth: {\n            user: \"tangyouwei@qq.com\", // 邮箱的smtp地址\n            pass: process.env.QQMAIL_SMTP_TOKEN // 邮箱授权码\n        }\n    });\n\n    // 配置邮件信息\n    const mailInfo = {\n        from: \"tangyouwei@qq.com\",\n        to: to,\n        subject: title, // Subject line\n        text: \"仓库容量邮件通知\", // plain text body\n        html: msg, // html body\n    };\n\n    // 发送邮件\n    const ret = await transporter.sendMail(mailInfo);\n    console.log(\"send mail finish to \" + to);\n    return ret;\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-wyzxz4v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220707183411-wyzxz4v",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "测试",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-hd4bto8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707183411-hd4bto8",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Checkrepo.mjs",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-i65z1vn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "anM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220707183411-i65z1vn",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// yarn add node-fetch -S\n// yarn add babel-cli -S\n\nimport fetch from 'node-fetch';\nimport sendMail from \"./mail.mjs\"\n\nconst args = process.argv.slice(2)\n\nconsole.log(args[1] + \" repo size:\");\n\nfetch('https://api.github.com/repos/' + args[0] + '/' + args[1])\n    .then(v =\u003e v.json()).then(async (v) =\u003e {\n    const msize = (v['size'] / 1024).toFixed(2)\n    const gsize = (v['size'] / 1024 / 1024).toFixed(2)\n    console.log(msize + 'MB');\n    console.log(gsize + 'GB');\n\n    const repoName = args[0] + '/' + args[1]\n    const to = \"youweics@163.com\";\n    const title = \"仓库【\" + repoName + \"】容量邮件通知邮件✔\";\n    const msg = \"您的仓库【\" + repoName + \"】目前容量大小为\u003ch1\u003e\" + msize + \"MB\u003c/h1\u003e相当于\u003ch1\u003e\" + gsize + \"GB\u003c/h1\u003e请留意！\";\n    console.log(\"check token is=\u003e\" + process.env.QQMAIL_SMTP_TOKEN);\n\n    const ret = await sendMail(to, title, msg);\n    console.log(\"finish.\" + ret.response);\n})\n    .catch(err =\u003e console.log(err));\n\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-dqngix0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220707183411-dqngix0",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "运行",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-e00wlqt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220707183411-e00wlqt",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "node checkrepo.mjs terwer upload\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-k5bcnpi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220707183411-k5bcnpi",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "效果",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-whd0j8z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707183411-whd0j8z",
+				"updated": "20220707191913"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220707161013420",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwergreen.com/20220707161019.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-z9jwyoq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220707183411-z9jwyoq",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "图片处理",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-fpy443f",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220707183411-fpy443f",
+				"updated": "20220707192453"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import fetch from 'node-fetch';\n\nexport default function handler(req, res) {\n    // https://img1.terwergreen.com/api/public/20220706194731.png\n    const imagePath = req.query.slug.join(\"/\");\n    let host = req.headers.host;\n    if (host.indexOf(\"localhost\") \u003e -1) {\n        host = \"http://localhost:3000\";\n    } else {\n        host = \"https://img1.terwergreen.com\";\n    }\n    const fileUrl = `${host}/${imagePath}`;\n    console.log(\"fileUrl=\u003e\", fileUrl)\n\n    fetch(fileUrl).then(async (v) =\u003e {\n        if (v.status == 200) {\n            const absUrl = '/' + imagePath;\n            console.log(\"absUrl=\u003e\", absUrl)\n            res.redirect(307, '/' + imagePath).end()\n        } else {\n            // 获取中间代理地址\n            const newUrl = 'https://ghproxy.com/https://raw.githubusercontent.com/terwer/upload/main/public/' + imagePath\n            console.log(\"newUrl=\u003e\", newUrl)\n            res.redirect(307, newUrl).end()\n        }\n    }).catch(err =\u003e {\n        console.log(err)\n        res.end(\"500\")\n    });\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-a2gpgrt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220707183411-a2gpgrt",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "测试图片",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-b3b4a1e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220707183411-b3b4a1e",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "未同步的时候",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-25e8rix",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707183411-25e8rix",
+				"updated": "20220707191806"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://img1.terwergreen.com/api/public/20220707191555.png",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-z44scey",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220707183411-z44scey",
+				"updated": "20220707183411"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "已经同步的",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707183411-phjijhb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707183411-phjijhb",
+				"updated": "20220707191830"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://img1.terwergreen.com/api/public/20220706194731.png",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220707191740-x6lns4q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220707191740-x6lns4q",
+				"updated": "20220707191740"
+			}
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"ID": "20220715144622-ovyxcjf",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220715144622-ovyxcjf",
+		"title": "2022-07-15",
+		"updated": "20220715064721"
+	},
+	"Children": [
+		{
+			"ID": "20220715064623-npl68z4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220715064623-npl68z4",
+				"updated": "20220715144639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今天天气不错。"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"ID": "20220801221729-rmezxws",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220801221729-rmezxws",
+		"title": "Next.js",
+		"updated": "20220801221734"
+	},
+	"Children": [
+		{
+			"ID": "20220801221729-3ala3kh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220801221729-3ala3kh",
+				"updated": "20220801221729"
+			}
+		}
+	]
+}

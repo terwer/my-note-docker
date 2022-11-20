@@ -756,25 +756,40 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "新建一个以 "
+									"Data": "新建一个以 ",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "Action"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 名命名的 properties 文件，如： "
+									"Data": "​ 名命名的 properties 文件，如： ",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "RegisterAction.properties"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​"
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -869,7 +884,8 @@
 			"ID": "20221104004747-wmrj5ag",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221104004747-wmrj5ag"
+				"id": "20221104004747-wmrj5ag",
+				"updated": "20221104004747"
 			}
 		}
 	]
