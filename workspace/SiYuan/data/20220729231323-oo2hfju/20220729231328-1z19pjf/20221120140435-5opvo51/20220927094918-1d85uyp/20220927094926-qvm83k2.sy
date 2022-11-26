@@ -1,0 +1,720 @@
+{
+	"ID": "20220927094926-qvm83k2",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "安装从edge商店下载插件或者在思源笔记集市下载挂件并添加到页面。思源笔记发布工具microsoftedgeaddons快速配置如果本地使用请确保思源笔记处于打开模式。​如果是docker部署请启动容器。如果本地使用并且是是​端口则无需设置请忽略此步骤_如果本地使用但是使用的是随机端口请在在思源笔记设置关于找到ip地址以及端口然后修改本插件的思源api地址​_如果是远程docker​部署请填写外网api地址​以及token​并配置代理地址​。配置地址可在列表页面底部找到_修改思源api地址​​如果您没有支",
+		"custom-slug": "start-to-get-started-zi0eyk",
+		"custom-vuepress-slug": "docs/013.作品展示/001.sy-post-publisher/002.开始上手.md",
+		"id": "20220927094926-qvm83k2",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220927094926-p0y31fv\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220927094926-p0y31fv\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220927094926-p0y31fv\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"tags": "地址,如果,思源,使用,部署,上手,入门",
+		"title": "002.开始上手",
+		"updated": "20221127001520"
+	},
+	"Children": [
+		{
+			"ID": "20221127001334-fcycb4u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221127001334-fcycb4u",
+				"updated": "20221127001340"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "安装",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220927094926-p0y31fv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927094926-p0y31fv",
+				"updated": "20221126230952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从 Edge 商店下载插件或者在思源笔记集市下载挂件并添加到页面。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221126231909-fiapuet",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221126231909-fiapuet",
+				"updated": "20221126231910"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://microsoftedge.microsoft.com/addons/detail/aejmkigifflimhjlhjkdckclhabbilee",
+					"TextMarkTextContent": "思源笔记发布工具 - Microsoft Edge Addons"
+				}
+			]
+		},
+		{
+			"ID": "20221127001328-nl3dz69",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221127001328-nl3dz69",
+				"updated": "20221127001357"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "快速配置",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221126231028-8dxjy9v",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221126231028-8dxjy9v",
+				"updated": "20221126233616"
+			},
+			"Children": [
+				{
+					"ID": "20221126231029-iyjwmrd",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126231029-iyjwmrd",
+						"updated": "20221126233243"
+					},
+					"Children": [
+						{
+							"ID": "20221126231029-a1rnrb0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126231029-a1rnrb0",
+								"updated": "20221126233201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果本地使用，请确保思源笔记处于打开模式。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126232912-3dwgbga",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126232912-3dwgbga",
+								"updated": "20221126232918"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/project/sy-post-publisher/docs/screenshot-20221126-232837.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221126233220-21vhuro",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126233220-21vhuro",
+								"updated": "20221126233243"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果是 docker 部署，请启动容器。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126232022-dt14r2e",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126232022-dt14r2e",
+						"updated": "20221126233616"
+					},
+					"Children": [
+						{
+							"ID": "20221126232022-r0ng2p6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126232022-r0ng2p6",
+								"updated": "20221126233319"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果本地使用，并且是是 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "6806"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 端口，则 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "无需设置"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，请忽略此步骤；",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126233320-fe05i83",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126233320-fe05i83",
+								"updated": "20221126233425"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果本地使用，但是使用的是随机端口，请在在思源笔记设置-\u003e 关于找到 IP 地址以及端口，然后修改本插件的 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "思源 API 地址"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ；",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126232040-7ezqa5w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126232040-7ezqa5w",
+								"updated": "20221126233002"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果是 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "远程 docker"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 部署，请填写 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "外网 API 地址"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 以及 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "token"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ ，并配置 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "代理地址"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126232117-dhy8kmi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126232117-dhy8kmi",
+								"updated": "20221126232143"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "配置地址可在列表页面底部找到：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "修改思源API地址"
+								}
+							]
+						},
+						{
+							"ID": "20221126232751-l9fcse0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126232751-l9fcse0",
+								"updated": "20221126232759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/project/sy-post-publisher/docs/screenshot-20221126-232612.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126233146-3kexwkr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126233146-3kexwkr",
+								"updated": "20221126233616"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果您没有支持跨域的代理地址，可以使用我的共享地址：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "https://publish.terwer.space/api/middleware"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 。出于性能考虑，建议自己部署一份。部署方法请参考 Vercel 远程部署模式 。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221126230954-cbl0fol",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221126230954-cbl0fol",
+				"updated": "20221127001520"
+			},
+			"Children": [
+				{
+					"ID": "20221126231011-a4fhxv4",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126231011-a4fhxv4",
+						"updated": "20221126231826"
+					},
+					"Children": [
+						{
+							"ID": "20221126231011-866y6xd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126231011-866y6xd",
+								"updated": "20221126231826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Edge 商店版本打开 popup 默认是文章列表页面；",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126231621-xpj3dxd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126231621-xpj3dxd",
+								"updated": "20221126231721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "挂件模式从 \u003csup\u003e0.1.0+\u003c/sup\u003e 版本开始，会自动检测，如果发现有子文档，会展示文章列表，否则，只展示发布页面。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126233646-6q2yh6c",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126233646-6q2yh6c",
+						"updated": "20221127001520"
+					},
+					"Children": [
+						{
+							"ID": "20221126233646-kj2efrj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126233646-kj2efrj",
+								"updated": "20221126233708"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "列表页面会有发布预览，新窗口等功能。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126233709-rlh7s6j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126233709-rlh7s6j",
+								"updated": "20221126233759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发布页面有设置、国际化、暗黑模式、平台绑定、平台设置、动态平台添加、平台开关等详细功能。后面会逐一讲解。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221127001455-ddymf4r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127001455-ddymf4r",
+								"updated": "20221127001520"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初步配置可直接根据提示操作。详细设置请参考后面的文档。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221126231612-yr1v7iw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221126231612-yr1v7iw",
+				"updated": "20221127001410"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "使用",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221127001411-cq9d140",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221127001411-cq9d140",
+				"updated": "20221127001442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置完成之后直接点击发布按钮，设置好属性发布即可。高级设置及操作后面会逐一讲解。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}

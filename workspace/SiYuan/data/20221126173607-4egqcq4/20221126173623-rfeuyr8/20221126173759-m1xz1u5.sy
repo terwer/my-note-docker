@@ -1,0 +1,21 @@
+{
+	"ID": "20221126173759-m1xz1u5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f361",
+		"id": "20221126173759-m1xz1u5",
+		"title": "001.Git",
+		"updated": "20221126173804"
+	},
+	"Children": [
+		{
+			"ID": "20221126173759-7uqz93q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221126173759-7uqz93q",
+				"updated": "20221126173759"
+			}
+		}
+	]
+}

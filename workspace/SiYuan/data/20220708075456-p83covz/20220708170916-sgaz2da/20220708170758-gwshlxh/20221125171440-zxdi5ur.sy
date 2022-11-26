@@ -1,0 +1,247 @@
+{
+	"ID": "20221125171440-zxdi5ur",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221125171440-zxdi5ur",
+		"title": "2022-11-25-周报",
+		"updated": "20221125193520"
+	},
+	"Children": [
+		{
+			"ID": "20221125171440-ay8ul15",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221125171440-ay8ul15",
+				"updated": "20221118154027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需求"
+				}
+			]
+		},
+		{
+			"ID": "20221125171440-tu7m2vs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125171440-tu7m2vs",
+				"updated": "20221118154032"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#170652 每日提醒模块-每日一学、每日一考的执行跟踪可以导出excel表"
+				}
+			]
+		},
+		{
+			"ID": "20221125193254-ipepu04",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125193254-ipepu04",
+				"updated": "20221125193321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#176132 【1231需求】【服务建议单】【培训管理】培训详情中查看未考试人员详情"
+				}
+			]
+		},
+		{
+			"ID": "20221125193334-h1my8tl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221125193334-h1my8tl",
+				"updated": "20221125193347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目支持"
+				}
+			]
+		},
+		{
+			"ID": "20221125193347-ugw62m3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125193347-ugw62m3",
+				"updated": "20221125193348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中金项目学习管理问题排查"
+				}
+			]
+		},
+		{
+			"ID": "20221125171440-n49lk7e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221125171440-n49lk7e",
+				"updated": "20221118154124"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务问题单"
+				}
+			]
+		},
+		{
+			"ID": "20221125171440-mk3nwnw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125171440-mk3nwnw",
+				"updated": "20221118154149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178065【服务问题单】考试管理中只能看到从考试活动中发起的考试，看不到从培训活动里面设置的考试活动"
+				}
+			]
+		},
+		{
+			"ID": "20221125171440-r68uk2v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221125171440-r68uk2v",
+				"updated": "20221118154136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日常缺陷"
+				}
+			]
+		},
+		{
+			"ID": "20221125171440-gmm6xhb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125171440-gmm6xhb",
+				"updated": "20221118154207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#177048 【日常缺陷】【员工黄页-修复】普通用户查看我的点评不能正常查看点评"
+				}
+			]
+		},
+		{
+			"ID": "20221125171440-gseqfkq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125171440-gseqfkq",
+				"updated": "20221118154426"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#177988 【日常缺陷】 【学习地图-修复】学员提交学习地图阶段下的作业后，学员查看学习地图报错"
+				}
+			]
+		},
+		{
+			"ID": "20221125171440-5v6wvgy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125171440-5v6wvgy",
+				"updated": "20221125193424"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178019【日常缺陷】 【考试管理-修复】选择word、excel导入的题库创建随机试卷，引用该试卷新建考试活动时提示题目数量不够，实际上是够的"
+				}
+			]
+		},
+		{
+			"ID": "20221125193425-cs821nv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125193425-cs821nv",
+				"updated": "20221125193439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#177048【日常缺陷】【员工黄页-修复】普通用户查看我的点评不能正常查看点评"
+				}
+			]
+		},
+		{
+			"ID": "20221125193439-z5lfmm9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125193439-z5lfmm9",
+				"updated": "20221125193451"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178173【关键任务缺陷】【每日提醒-修复】学员角色进入每日提醒发现出现多条重复的每日一学和每日一考的任务"
+				}
+			]
+		},
+		{
+			"ID": "20221125193451-zg8skmn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125193451-zg8skmn",
+				"updated": "20221125193501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178285【每日提醒-修复】学员角色的每日一学列表没有显示新创建的文档的学习任务"
+				}
+			]
+		},
+		{
+			"ID": "20221125193501-37xaloc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125193501-37xaloc",
+				"updated": "20221125193508"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178287【关键任务缺陷】【每日提醒-修复】导出到excel表的顺序跟列表中的排序不一致"
+				}
+			]
+		},
+		{
+			"ID": "20221125193508-a9rq62f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125193508-a9rq62f",
+				"updated": "20221125193515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#177988 【日常缺陷】 【学习地图-修复】学员提交学习地图阶段下的作业后，学员查看学习地图报错"
+				}
+			]
+		},
+		{
+			"ID": "20221125193520-4w7dqpr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125193520-4w7dqpr"
+			}
+		}
+	]
+}

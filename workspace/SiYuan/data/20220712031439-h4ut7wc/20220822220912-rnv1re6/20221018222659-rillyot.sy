@@ -12,7 +12,7 @@
 		"id": "20221018222659-rillyot",
 		"tags": "查找,数组,二分,必须,有序,二分查找,search,binary-search",
 		"title": "019.Java数组的查找方式及二分查找",
-		"updated": "20221019003841"
+		"updated": "20221125231959"
 	},
 	"Children": [
 		{
@@ -23,7 +23,7 @@
 			},
 			"Properties": {
 				"id": "20221018222659-xlvudz0",
-				"updated": "20221018223431"
+				"updated": "20221125231959"
 			},
 			"Children": [
 				{
@@ -37,7 +37,7 @@
 					},
 					"Properties": {
 						"id": "20221018222756-qp24q2y",
-						"updated": "20221018223431"
+						"updated": "20221125231959"
 					},
 					"Children": [
 						{
@@ -60,7 +60,7 @@
 							"IsFencedCodeBlock": true,
 							"Properties": {
 								"id": "20221018222801-y5volwy",
-								"updated": "20221018223431"
+								"updated": "20221125231959"
 							},
 							"Children": [
 								{
@@ -73,7 +73,7 @@
 								},
 								{
 									"Type": "NodeCodeBlockCode",
-									"Data": "public class ArraySearchTest {\n    public static void main(String[] args) {\n        int[] a = new int[]{1, 5, 6, 7, 10, 3, 9};\n        int value = 9;\n\n        int result = search(a, 9);\n\n        if (result \u003e 0) {\n            System.out.println(\"找到了，索引为\" + result);\n        } else {\n            System.out.println(\"未找到\");\n        }\n    }\n\n    public static int search(int[] array, int value) {\n        int index = -1;\n        for (int i = 0; i \u003c array.length; i++) {\n            if (array[i] == value) {\n                index = i;\n                break;\n            }\n        }\n        return index;\n    }\n}\n"
+									"Data": "public class ArraySearchTest {\n    public static void main(String[] args) {\n        int[] a = new int[]{1, 5, 6, 7, 10, 3, 9};\n        int value = 9;\n        int result = search(a, 9);\n\n        if (result \u003e 0) {\n            System.out.println(\"找到了，索引为\" + result);\n        } else {\n            System.out.println(\"未找到\");\n        }\n    }\n\n    public static int search(int[] array, int value) {\n         int index = -1;\n        for (int i = 0; i \u003c array.length; i++) {\n            if (array[i] == value) {\n                index = i;\n                break;\n            }\n        }\n        return index;\n    }\n}\n"
 								},
 								{
 									"Type": "NodeCodeBlockFenceCloseMarker",

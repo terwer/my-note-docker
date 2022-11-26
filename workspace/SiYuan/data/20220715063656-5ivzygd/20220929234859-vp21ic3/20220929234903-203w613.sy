@@ -1,0 +1,22 @@
+{
+	"ID": "20220929234903-203w613",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f433",
+		"id": "20220929234903-203w613",
+		"tags": "测试",
+		"title": "新文档",
+		"updated": "20220929234903"
+	},
+	"Children": [
+		{
+			"ID": "20220929234903-u6bzqi2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220929234903-u6bzqi2",
+				"updated": "20220929234903"
+			}
+		}
+	]
+}

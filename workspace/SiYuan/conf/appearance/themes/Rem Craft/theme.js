@@ -1,9 +1,7 @@
-(function () {
-  import("./scripts/index.js")
-    .then((module) => {
-      module.mode();
-    })
-    .catch((e) => {
-      console.error(e);
-    });
-})();
+import("./index.js")
+  .then((index) => {
+    index.main();
+  })
+  .catch((e) => {
+    console.error(e);
+  });

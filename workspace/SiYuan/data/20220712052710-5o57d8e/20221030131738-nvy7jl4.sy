@@ -3,17 +3,13 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
-		"custom-cnblogs-post-id": "16841158",
-		"custom-conf-post-id": "16515087",
 		"custom-desc": "找到strutscore​的jar​包将其复制到无关文件夹中当作压缩文件解压在其中的metainf​​目录中找到strutstagstld​​文件将其复制到项目中webappwebinf​​目录下然后在webxml​​文件中（之前）添加以下内容_",
 		"custom-slug": "struts2-can-not-find-uri-strutstags-taglib-s-problem-solving-z1gd2lw",
-		"custom-vuepress-slug": "docs/003.经验分享/076.Struts2使用标签库找不到URI:[struts-tags]的taglib[s]问题解决.md",
-		"custom-wordpress-post-id": "4351",
-		"custom-yuque-post-id": "100428559_terwer/note",
+		"custom-vuepress-slug": "docs/003.经验分享/076.Struts2使用标签库找不到URI-struts-tags的taglib问题解决.md",
 		"id": "20221030131738-nvy7jl4",
 		"tags": "struts2,tablib,标签库,not-found,uri,struts-tags",
-		"title": "076.Struts2使用标签库找不到URI:[struts-tags]的taglib[s]问题解决",
-		"updated": "20221030140125"
+		"title": "076.Struts2使用标签库找不到URI-struts-tags的taglib问题解决",
+		"updated": "20221124114606"
 	},
 	"Children": [
 		{
@@ -110,6 +106,13 @@
 					"Data": "```"
 				}
 			]
+		},
+		{
+			"ID": "20221124114606-fewpawq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221124114606-fewpawq"
+			}
 		}
 	]
 }

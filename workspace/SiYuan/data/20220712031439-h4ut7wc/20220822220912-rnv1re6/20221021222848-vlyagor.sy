@@ -13,7 +13,7 @@
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221023232756-jc1diod\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221023232756-951gppj\u0026quot;,\u0026quot;scrollTop\u0026quot;:89,\u0026quot;focusId\u0026quot;:\u0026quot;20221023232756-xdqn059\u0026quot;,\u0026quot;focusStart\u0026quot;:157,\u0026quot;focusEnd\u0026quot;:157}",
 		"tags": "结果,包装,操作,转换,基本,arraylist,deep,analysis",
 		"title": "022.ArrayList深入分析",
-		"updated": "20221024131713"
+		"updated": "20221125234005"
 	},
 	"Children": [
 		{
@@ -2198,6 +2198,13 @@
 					}
 				}
 			]
+		},
+		{
+			"ID": "20221125234005-5w5s0ld",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125234005-5w5s0ld"
+			}
 		}
 	]
 }

@@ -1,0 +1,135 @@
+{
+	"ID": "20221125192803-jfnl0jx",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221125192803-jfnl0jx",
+		"title": "002.自定义思源笔记样式",
+		"updated": "20221125193006"
+	},
+	"Children": [
+		{
+			"ID": "20221125192803-1ryzfnz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125192803-1ryzfnz",
+				"updated": "20221125192823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、代码片段"
+				}
+			]
+		},
+		{
+			"ID": "20221125192823-3orzacw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125192823-3orzacw",
+				"updated": "20221125192824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "css"
+				}
+			]
+		},
+		{
+			"ID": "20221125192828-zq8lduu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221125192828-zq8lduu",
+				"updated": "20221125192855"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@import url('/widgets/custom.css')\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221125192922-brzv4da",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221125192922-brzv4da",
+				"updated": "20221125193006"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@import \"./webfont.css\";\n\n:root {\n    --b3-font-family: \"JetBrains Mono\", \"LXGW WenKai\", \"-apple-system\", \"Wenquanyi Micro Hei\", \"Wenquanyi Micro Hei Mono\", \"Microsoft YaHei\", \"Times New Roman\", \"方正北魏楷书_GBK\" !important;\n    --b3-font-family-code: var(--b3-font-family);\n    --b3-font-family-graph: var(--b3-font-family);\n    --b3-font-family-emoji: var(--b3-font-family);\n    --b3-font-family-math: var(--b3-font-family);\n}\n\n/* Rem Craft */\n.protyle-background:has(.protyle-background__icon.fn__none) {\n    min-height: 57px !important;\n}\n\n.protyle-title {\n    margin-left: 64px !important;\n    margin-right: 16px !important;\n}\n\n.protyle-wysiwyg {\n    padding-left: 64px !important;\n    padding-right: 16px !important;\n}\n\n.b3-typography .code-block .protyle-action .protyle-action__language,\n.protyle-wysiwyg .code-block .protyle-action .protyle-action__language {\n    opacity: 1 !important;\n\n}\n\n.b3-typography .code-block .protyle-action .protyle-icon,\n.protyle-wysiwyg .code-block .protyle-action .protyle-icon {\n    /* copy按钮不调整 */\n}\n\n.b3-typography .hljs,\n.protyle-wysiwyg .hljs {\n    padding-left: 14px !important;\n    padding-bottom: 14px !important;\n\n}\n\n.b3-typography div.hljs,\n.protyle-wysiwyg div.hljs {\n    tab-size: 4 !important;\n\n}\n\n/* Sofill- */\n/*span[data-type=code] {color: white !important;    background-color: var(--b3-theme-primary) !important;}*/\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221125192825-f31f97e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221125192825-f31f97e",
+				"updated": "20221125192826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "js"
+				}
+			]
+		},
+		{
+			"ID": "20221125192830-1751yju",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221125192830-1751yju",
+				"updated": "20221125192915"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import('/widgets/custom.js')\nconsole.log(\"custom js loaded\")\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

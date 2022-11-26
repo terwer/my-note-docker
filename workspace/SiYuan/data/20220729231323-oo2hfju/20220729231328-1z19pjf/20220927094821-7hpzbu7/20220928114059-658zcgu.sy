@@ -6,11 +6,11 @@
 		"custom-desc": "将思源笔记的文章发布到支持的开放平台的思源笔记挂件目前支持vuepress以及种博客平台标准metaweblogapi和基于wordpress的xmlrpc远程调用api同时提供了一个统一通用的api适配器让适配任何平台成为可能。点击查看帮助文档点击查看配置视频教程最近更新点击这里查看开发进度关键特性发布feat_#标题支持数字编号例如在思源笔记的标题为利用pm后台运行nodejs程序发布的时候会自动去掉编号变成利用pm后台运行nodejs程序。这样做的目的是保持文章在思源笔记的结构化然后又不影响其他平台",
 		"custom-slug": "chinese-version-publishing-description-85qp3",
 		"id": "20220928114059-658zcgu",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220928114819-i7qg5ce\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220928140828-ds0d836\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:4385,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220928114064-f7sul2j\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:8,\u0026amp;quot;focusEnd\u0026amp;quot;:8}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220928114819-i7qg5ce\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220928140828-ds0d836\u0026quot;,\u0026quot;scrollTop\u0026quot;:4385,\u0026quot;focusId\u0026quot;:\u0026quot;20220928114064-f7sul2j\u0026quot;,\u0026quot;focusStart\u0026quot;:8,\u0026quot;focusEnd\u0026quot;:8}",
 		"tags": "点击,查看,思源,笔记,发布",
 		"title": "001.中文版发版说明",
 		"type": "doc",
-		"updated": "20220928150539"
+		"updated": "20220928140828"
 	},
 	"Children": [
 		{
@@ -3178,7 +3178,7 @@
 		{
 			"ID": "20220928140828-ds0d836",
 			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1153px; height: 562px;\"\u003e\u003c/iframe\u003e",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1306px; height: 543px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
 				"id": "20220928140828-ds0d836",
 				"style": "text-align: left;",

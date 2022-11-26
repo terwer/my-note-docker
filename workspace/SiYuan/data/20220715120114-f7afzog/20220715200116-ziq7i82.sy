@@ -5,23 +5,14 @@
 	"Properties": {
 		"custom-doc-attrs": "[{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;tags\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:0,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;updated\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:1,\u0026amp;quot;show\u0026amp;quot;:true},{\u0026amp;quot;name\u0026amp;quot;:\u0026amp;quot;custom_slug\u0026amp;quot;,\u0026amp;quot;order\u0026amp;quot;:2,\u0026amp;quot;show\u0026amp;quot;:true}]",
 		"custom-slug": "aliyun-service-list",
+		"icon": "1f984",
 		"id": "20220715200116-ziq7i82",
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220716174922-04iiibd\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220716173539-8l1v9rd\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220716173539-8l1v9rd\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
-		"tags": "domain,aliyun,service,serer",
-		"title": "阿里云服务列表",
-		"updated": "20221019121623"
+		"tags": "domain,aliyun,service,阿里云",
+		"title": "001.阿里云服务列表",
+		"updated": "20221126161633"
 	},
 	"Children": [
-		{
-			"ID": "20220716174922-04iiibd",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/Note Attrs\" data-src=\"/widgets/Note Attrs\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"height: 82px;\"\u003e\u003c/iframe\u003e",
-			"Properties": {
-				"id": "20220716174922-04iiibd",
-				"style": "text-align: left;",
-				"updated": "20220716174922"
-			}
-		},
 		{
 			"ID": "20220715212555-2n6nj4y",
 			"Type": "NodeHeading",
@@ -41,14 +32,15 @@
 			"ID": "20220715212555-f1911ak",
 			"Type": "NodeTable",
 			"TableAligns": [
-				2,
-				2
+				1,
+				1
 			],
 			"Properties": {
-				"colgroup": "|width: 108px;",
+				"colgroup": "width: 115px;|width: 245px;",
 				"custom-f": "auto",
 				"id": "20220715212555-f1911ak",
-				"updated": "20220715212555"
+				"style": "text-align: left; direction: ltr; width: 65%; flex: 0 0 auto;",
+				"updated": "20221126161241"
 			},
 			"Children": [
 				{
@@ -62,7 +54,7 @@
 								{
 									"Type": "NodeTableCell",
 									"Data": "th",
-									"TableCellAlign": 2,
+									"TableCellAlign": 1,
 									"Children": [
 										{
 											"Type": "NodeText",
@@ -73,7 +65,7 @@
 								{
 									"Type": "NodeTableCell",
 									"Data": "th",
-									"TableCellAlign": 2,
+									"TableCellAlign": 1,
 									"Children": [
 										{
 											"Type": "NodeText",
@@ -92,18 +84,18 @@
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
-							"TableCellAlign": 2,
+							"TableCellAlign": 1,
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "terwer"
+									"Data": "terwer@aliyun.com"
 								}
 							]
 						},
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
-							"TableCellAlign": 2,
+							"TableCellAlign": 1,
 							"Children": [
 								{
 									"Type": "NodeText",
@@ -223,7 +215,7 @@
 			"Properties": {
 				"id": "20220715212555-r5jl0kd",
 				"style": "text-align: left;",
-				"updated": "20220901000127"
+				"updated": "20221126160804"
 			},
 			"Children": [
 				{
@@ -236,7 +228,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "@startmindmap\n\n*_ \u0026lt;\u0026amp;flag\u0026gt; ecs\n** terwer-nginx\n*** terwer-nginx\n****_ http 80\n****_ https 443\n****_ https://terwer.terwergreen.com-\u0026gt;3000\n****_ https://terwr.terwergreen.com/api-\u0026gt;8082\n*** siyuan-nginx\n****_ https 9000\n****_ https://siyuan.terwrrgreen.com:9000-\u0026gt;6806\n** my-note-docker\n*** my-note-docker\n****_ http 6806\n****_ \u0026lt;\u0026amp;star\u0026gt;http://siyuan.terwergreen.com:6086\n** jvue\n*** jvue-server\n****_ http 8002\n****_ \u0026lt;\u0026amp;star\u0026gt;http://v4.terwergreen.com:8002\n*** jvue-front\n****_ http 3000\n****_ \u0026lt;\u0026amp;star\u0026gt;http://v4.terwergreen.com:3000\n** artalk\n***_ https 8003\n***_ \u0026lt;\u0026amp;star\u0026gt;https://talk.terwergreen.com:8003\n\n*_ * 星号代表是真实服务，没标注的表示是代理访问\n@endmindmap"
+					"Data": "@startmindmap\n\n'skinparam backgroundcolor transparent\n\n!include https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/lib/uml/starter-skin.puml\n\n\n*_ \u0026lt;\u0026amp;flag\u0026gt; ecs\n** terwer-nginx\n*** terwer-nginx\n****_ http 80\n****_ https 443\n****_ https://terwer.terwergreen.com-\u0026gt;3000\n****_ https://terwr.terwergreen.com/api-\u0026gt;8082\n*** siyuan-nginx\n****_ https 9000\n****_ https://siyuan.terwrrgreen.com:9000-\u0026gt;6806\n** my-note-docker\n*** my-note-docker\n****_ http 6806\n****_ \u0026lt;\u0026amp;star\u0026gt;http://siyuan.terwergreen.com:6086\n** jvue\n*** jvue-server\n****_ http 8002\n****_ \u0026lt;\u0026amp;star\u0026gt;http://v4.terwergreen.com:8002\n*** jvue-front\n****_ http 3000\n****_ \u0026lt;\u0026amp;star\u0026gt;http://v4.terwergreen.com:3000\n** artalk\n***_ https 8003\n***_ \u0026lt;\u0026amp;star\u0026gt;https://talk.terwergreen.com:8003\n\n*_ * 星号代表是真实服务，没标注的表示是代理访问\n@endmindmap"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -358,11 +350,19 @@
 									"TextMarkTextContent": "https://terwer.terwergreen.com/api"
 								},
 								{
+									"Type": "NodeBr",
+									"Data": "br"
+								},
+								{
 									"Type": "NodeTextMark",
 									"TextMarkType": "a",
 									"TextMarkAHref": "https://v4.terwergreen.com/api",
 									"TextMarkATitle": "https://v4.terwergreen.com/api",
 									"TextMarkTextContent": "https://v4.terwergreen.com/api"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
 								}
 							]
 						}
@@ -479,7 +479,7 @@
 			"Properties": {
 				"id": "20220715212555-6ov4koh",
 				"style": "text-align: left; color: var(--b3-font-color8);",
-				"updated": "20221019121623"
+				"updated": "20221126160818"
 			},
 			"Children": [
 				{
@@ -492,7 +492,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "@startmindmap\n\n*_ \u0026lt;\u0026amp;flag\u0026gt; Vercel\n** vuepress\n***_ https://terwergreen.com\n***_ https://www.terwergreen.com\n** xmlrpc\n***_ https://xmlrpc.terwergreen.com\n** note\n***_ https://note.terwergreen.com\n** memo\n@endmindmap"
+					"Data": "@startmindmap\n\n'skinparam backgroundcolor transparent\n\n!include https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/lib/uml/starter-skin.puml\n\n\n*_ \u0026lt;\u0026amp;flag\u0026gt; Vercel\n** vuepress\n***_ https://terwergreen.com\n***_ https://www.terwergreen.com\n** xmlrpc\n***_ https://xmlrpc.terwergreen.com\n** note\n***_ https://note.terwergreen.com\n** memo\n@endmindmap"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -508,7 +508,7 @@
 				0
 			],
 			"Properties": {
-				"colgroup": "|",
+				"colgroup": "width: 120px;|",
 				"custom-f": "auto",
 				"custom-t": "",
 				"id": "20220715221302-9xogf01",
@@ -574,11 +574,19 @@
 									"TextMarkTextContent": "https://terwergreen.com"
 								},
 								{
+									"Type": "NodeBr",
+									"Data": "br"
+								},
+								{
 									"Type": "NodeTextMark",
 									"TextMarkType": "a",
 									"TextMarkAHref": "https://www.terwergreen.com",
 									"TextMarkATitle": "https://www.terwergreen.com",
 									"TextMarkTextContent": "https://www.terwergreen.com"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
 								}
 							]
 						}

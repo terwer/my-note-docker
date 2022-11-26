@@ -1,0 +1,21 @@
+{
+	"ID": "20220927095012-b2bvsvp",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220927095012-b2bvsvp",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220927095012-u78pbdj\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220927095012-u78pbdj\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
+		"title": "004.思源笔记挂件模式",
+		"updated": "20221121105946"
+	},
+	"Children": [
+		{
+			"ID": "20220927095012-u78pbdj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220927095012-u78pbdj",
+				"updated": "20220927095012"
+			}
+		}
+	]
+}

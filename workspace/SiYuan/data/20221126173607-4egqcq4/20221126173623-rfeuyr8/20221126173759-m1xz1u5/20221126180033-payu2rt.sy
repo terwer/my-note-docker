@@ -1,0 +1,369 @@
+{
+	"ID": "20221126180033-payu2rt",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16927966",
+		"custom-desc": "git系列涉及的内容续git对象类型与索引git分支如何创建切换与删除分支git分支在项目开发中的作用git分支在工程化项目中的最佳实践分支常见重要命令详解",
+		"custom-slug": "environmental-preparation-continued",
+		"custom-vuepress-slug": "docs/006.开发流程/001.源代码管理/002.Git应用开发详解之环境准备续.md",
+		"custom-wordpress-post-id": "4369",
+		"icon": "1f3a3",
+		"id": "20221126180033-payu2rt",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221126180842-6zkspec\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221126180101-pcot08b\u0026quot;,\u0026quot;scrollTop\u0026quot;:126,\u0026quot;focusId\u0026quot;:\u0026quot;20221126185703-hj2eqmo\u0026quot;,\u0026quot;focusStart\u0026quot;:7,\u0026quot;focusEnd\u0026quot;:7}",
+		"tags": "git,env,分支,系列,项目,涉及,内容",
+		"title": "002.Git应用开发详解之环境准备续",
+		"updated": "20221126185711"
+	},
+	"Children": [
+		{
+			"ID": "20221126180842-6zkspec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221126180842-6zkspec",
+				"updated": "20221126180842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Git 系列涉及的内容续",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221126180101-pcot08b",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221126180101-pcot08b",
+				"updated": "20221126185711"
+			},
+			"Children": [
+				{
+					"ID": "20221126180101-qslpoaq",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126180101-qslpoaq",
+						"updated": "20221126180101"
+					},
+					"Children": [
+						{
+							"ID": "20221126180101-6w2mppj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126180101-6w2mppj",
+								"updated": "20221126180101"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git 对象类型与索引",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126180101-jprv2tp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126180101-jprv2tp",
+						"updated": "20221126180101"
+					},
+					"Children": [
+						{
+							"ID": "20221126180101-3sovnpl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126180101-3sovnpl",
+								"updated": "20221126180101"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git 分支",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126180101-33bbfc6",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126180101-33bbfc6",
+						"updated": "20221126180101"
+					},
+					"Children": [
+						{
+							"ID": "20221126180101-jan9x8t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126180101-jan9x8t",
+								"updated": "20221126180101"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何创建、切换与删除分支",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126180101-rogggzb",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126180101-rogggzb",
+						"updated": "20221126180101"
+					},
+					"Children": [
+						{
+							"ID": "20221126180101-rtd766u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126180101-rtd766u",
+								"updated": "20221126180101"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git 分支在项目开发中的作用",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126180101-5rzehh3",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126180101-5rzehh3",
+						"updated": "20221126180101"
+					},
+					"Children": [
+						{
+							"ID": "20221126180101-zpiw6yf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126180101-zpiw6yf",
+								"updated": "20221126180101"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git 分支在工程化项目中的最佳实践",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126180101-sqx24m0",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126180101-sqx24m0",
+						"updated": "20221126180101"
+					},
+					"Children": [
+						{
+							"ID": "20221126180101-1bwwo5d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126180101-1bwwo5d",
+								"updated": "20221126180101"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分支常见重要命令详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126185638-frl8goj",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126185638-frl8goj",
+						"updated": "20221126185638"
+					},
+					"Children": [
+						{
+							"ID": "20221126185638-ragvj9z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126185638-ragvj9z",
+								"updated": "20221126185642"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git merge",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126185643-7be7mi4",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126185643-7be7mi4",
+						"updated": "20221126185655"
+					},
+					"Children": [
+						{
+							"ID": "20221126185643-s65o0rn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126185643-s65o0rn",
+								"updated": "20221126185655"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git 冲突解决策略",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126185703-fdw0buv",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221126185703-fdw0buv",
+						"updated": "20221126185711"
+					},
+					"Children": [
+						{
+							"ID": "20221126185703-hj2eqmo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126185703-hj2eqmo",
+								"updated": "20221126185711"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HEAD 详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

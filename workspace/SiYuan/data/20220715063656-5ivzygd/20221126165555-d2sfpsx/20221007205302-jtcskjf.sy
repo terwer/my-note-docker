@@ -1,0 +1,93 @@
+{
+	"ID": "20221007205302-jtcskjf",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221007205302-jtcskjf",
+		"title": "快捷键",
+		"updated": "20221126162445"
+	},
+	"Children": [
+		{
+			"ID": "20221007205302-7lwrc48",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221007205302-7lwrc48",
+				"updated": "20221007205446"
+			},
+			"Children": [
+				{
+					"ID": "20221007205318-ay4d03f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221007205318-ay4d03f",
+						"updated": "20221007205412"
+					},
+					"Children": [
+						{
+							"ID": "20221007205318-4zotrcs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007205318-4zotrcs",
+								"updated": "20221007205412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "快速选中当前行中到末尾的内容：shift+end"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221007205413-i4294x2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221007205413-i4294x2",
+						"updated": "20221007205446"
+					},
+					"Children": [
+						{
+							"ID": "20221007205413-ai1l178",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221007205413-ai1l178",
+								"updated": "20221007205446"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "python中优化json格式：ctrl+alt+l"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221126162445-h9dudv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221126162445-h9dudv8",
+				"updated": "20221126162445"
+			}
+		}
+	]
+}

@@ -1,0 +1,905 @@
+{
+	"ID": "20221126211843-fl4u5r9",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-cnblogs-post-id": "16928345",
+		"custom-desc": "初始化插件项目在任意目录新建一个插件目录我这里在pkgvuepresspluginsimpleencryptmkdirpkgvuepresspluginsimpleencrypt进入该目录初始化项目yarninit输入插件名vuepresspluginsimpleencrypt入口文件名indexjs其他选项对应填写即可。初始化之后packagejson的文件内容_{_{}_{}_[]_{}}编写入口文件indexjsmoduleexports=(optionsctx)={return{name_vuep",
+		"custom-slug": "write-a-vuepress-plugin-from-scratch",
+		"custom-vuepress-slug": "docs/002.前端开发/002.从零开始写一个vuepress插件.md",
+		"custom-wordpress-post-id": "4370",
+		"icon": "1f9ef",
+		"id": "20221126211843-fl4u5r9",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221126211864-hatgn44\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221126211889-78114a7\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221126211864-hatgn44\u0026quot;,\u0026quot;focusStart\u0026quot;:7,\u0026quot;focusEnd\u0026quot;:7}",
+		"tags": "插件,目录,初始化,从零开始,vuepress,plugin",
+		"title": "002.从零开始写一个vuepress插件",
+		"updated": "20221126212234"
+	},
+	"Children": [
+		{
+			"ID": "20221126211864-hatgn44",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221126211864-hatgn44",
+				"updated": "20221126211864"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "初始化插件项目",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221126211865-t2k1ed4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221126211865-t2k1ed4",
+				"updated": "20221126212226"
+			},
+			"Children": [
+				{
+					"ID": "20221126211866-6b340l8",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221126211866-6b340l8",
+						"updated": "20221126212226"
+					},
+					"Children": [
+						{
+							"ID": "20221126211867-gi9ikqt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126211867-gi9ikqt",
+								"updated": "20221126211867"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在任意目录新建一个插件目录，我这里在 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/pkg/vuepress-plugin-simple-encrypt"
+								}
+							]
+						},
+						{
+							"ID": "20221126211868-9dlqyfc",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221126211868-9dlqyfc",
+								"updated": "20221126212226"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "mkdir /pkg/vuepress-plugin-simple-encrypt\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20221126211869-jn6s10a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126211869-jn6s10a",
+								"updated": "20221126211869"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image-20220424215029271",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/image-20220424215029271.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126211870-83kwj32",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221126211870-83kwj32",
+						"updated": "20221126211870"
+					},
+					"Children": [
+						{
+							"ID": "20221126211871-jgffrmv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126211871-jgffrmv",
+								"updated": "20221126211871"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "进入该目录，初始化项目",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126211872-s9e40ru",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "YmFzaA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221126211872-s9e40ru",
+								"updated": "20221126211872"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "yarn init\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126211873-v6rvxwr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126211873-v6rvxwr",
+								"updated": "20221126211873"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输入插件名 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "vuepress-plugin-simple-encrypt"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，入口文件名 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "index.js"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，其他选项对应填写即可。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126211874-ykzifh3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126211874-ykzifh3",
+								"updated": "20221126211874"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image-20220424215319909",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://img1.terwer.space/image-20220424215319909.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221126211875-mrpjdig",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126211875-mrpjdig",
+								"updated": "20221126211875"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始化之后，package.json 的文件内容：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126211876-4ifc47m",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YXNjcmlwdA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221126211876-4ifc47m",
+								"updated": "20221126211876"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YXNjcmlwdA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "{\n  \"name\": \"vuepress-plugin-simple-encrypt\",\n  \"version\": \"1.0.0\",\n  \"description\": \"a simple encrypt and decrypt for vuepress\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"yarn test\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/terwer/vuepress-plugin-simple-encrypt.git\"\n  },\n  \"keywords\": [\n    \"encrypt\",\n    \"decrypt\",\n    \"vuepress\"\n  ],\n  \"author\": \"terwer\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/terwer/vuepress-plugin-simple-encrypt/issues\"\n  },\n  \"homepage\": \"https://github.com/terwer/vuepress-plugin-simple-encrypt#readme\"\n}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126211877-xtejzk2",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221126211877-xtejzk2",
+						"updated": "20221126211877"
+					},
+					"Children": [
+						{
+							"ID": "20221126211878-7y2y5nc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126211878-7y2y5nc",
+								"updated": "20221126211878"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编写入口文件 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "index.js"
+								}
+							]
+						},
+						{
+							"ID": "20221126211879-29cg6do",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YXNjcmlwdA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221126211879-29cg6do",
+								"updated": "20221126211879"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YXNjcmlwdA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "module.exports = (options, ctx) =\u003e {\n    return {\n        name: 'vuepress-plugin-simple-encrypt',\n        async ready() {\n            console.log('Hello World!');\n        }\n    }\n}\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126211880-fnunpa6",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221126211880-fnunpa6",
+						"updated": "20221126211880"
+					},
+					"Children": [
+						{
+							"ID": "20221126211881-77h7c4t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126211881-77h7c4t",
+								"updated": "20221126211881"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注入插件到 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "vuepress"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。在 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "config.ts"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件的插件节点加上我们的插件，注意使用相对目录目录",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221126211882-plwxchw",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "amF2YXNjcmlwdA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20221126211882-plwxchw",
+								"updated": "20221126211882"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "amF2YXNjcmlwdA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "[\n  require('../../pkg/vuepress-plugin-simple-encrypt'), // 主要用于文章部分加密\n  {\n  }\n]\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221126211883-ujbgiy4",
+					"Type": "NodeListItem",
+					"Data": "5",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NQ==",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221126211883-ujbgiy4",
+						"updated": "20221126211883"
+					},
+					"Children": [
+						{
+							"ID": "20221126211884-weiii2e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221126211884-weiii2e",
+								"updated": "20221126211884"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启动项目 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "yarn dev"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，正常情况可以看到输出 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Hello World"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221126211885-wrd0jre",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221126211885-wrd0jre",
+				"updated": "20221126211885"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20220424215853496",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/image-20220424215853496.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221126211886-nybi21f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221126211886-nybi21f",
+				"updated": "20221126211886"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "插件高级开发",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221126211887-liyq3il",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221126211887-liyq3il",
+				"updated": "20221126211887"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "添加插件配置",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221126211888-dsekhl3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221126211888-dsekhl3",
+				"updated": "20221126211888"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "config.ts 修改插件对应配置如下",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221126211889-78114a7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "amF2YXNjcmlwdA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221126211889-78114a7",
+				"updated": "20221126211889"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "amF2YXNjcmlwdA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "[\n  require('../../pkg/vuepress-plugin-simple-encrypt'), // 主要用于文章部分加密\n  {\n    contentTitle: '加密内容',\n    unencryptedText: '未加密内容',\n    encryptedText: '该内容已加密，如需访问，请留言或者联系 youweics@163.com 获取密码。',\n    decryptedText: '文章已成功解密。',\n    decryptButtonText: '查看',\n    decryptFailText: '密码错误!',\n    unencryptedIcon: undefined,\n    encryptedIcon: undefined,\n    decryptedIcon: undefined\n  }\n]\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}

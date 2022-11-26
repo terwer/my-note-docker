@@ -1,6 +1,0 @@
-*.js.map
-node_modules/
-*.zip
-sy-secret-block
-dist
-src

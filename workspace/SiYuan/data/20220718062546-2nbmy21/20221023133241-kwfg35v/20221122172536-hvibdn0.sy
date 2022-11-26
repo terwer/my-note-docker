@@ -1,0 +1,364 @@
+{
+	"ID": "20221122172536-hvibdn0",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "原由当前端项目组件比较多的时候引用组件会面临路径特别长的情况不易维护且容易出错。定义绝对路径映射是个好办法下面就介绍vitetypescript的项目中中的具体实现。方案​​​viteconfigts​resolve_{alias_{)}}​tsconfigjson​{_{_{]}}使用import{api_type_constants}fromimportmetaweblogmainfrom原来的import{api_type_constants}fromimportmetaweblogmainfrom",
+		"custom-liandi-post-id": "1669226673080",
+		"custom-slug": "in-the-project-of-vite-typescript-replace-src-root-path-5ox0i",
+		"id": "20221122172536-hvibdn0",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221122172536-8q2pcmp\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221123020752-cvbhl9h\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221122173152-yfvpi79\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:87}",
+		"tags": "项目,组件,vite,typescript,src,relative,path,相对路径,绝对路径,vue,vue3",
+		"title": "030.在Vite+TypeScript的项目中使用~和@代替src根路径的方法",
+		"updated": "20221122172646"
+	},
+	"Children": [
+		{
+			"ID": "20221122172536-8q2pcmp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221122172536-8q2pcmp",
+				"updated": "20221122173151"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "原由",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221122173152-yfvpi79",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221122173152-yfvpi79",
+				"updated": "20221122173255"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当前端项目组件比较多的时候，引用组件会面临路径特别长的情况，不易维护且容易出错。定义绝对路径映射是个好办法，下面就介绍 Vite+TypeScript 的项目中中的具体实现。"
+				}
+			]
+		},
+		{
+			"ID": "20221122172643-hxjofnn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221122172643-hxjofnn",
+				"updated": "20221122172646"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方案"
+				}
+			]
+		},
+		{
+			"ID": "20221122172646-t8fmiix",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221122172646-t8fmiix",
+				"updated": "20221122194437"
+			},
+			"Children": [
+				{
+					"ID": "20221122172650-z6gqhjg",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221122172650-z6gqhjg",
+						"updated": "20221122194437"
+					},
+					"Children": [
+						{
+							"ID": "20221122172650-ztf7vwg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221122172650-ztf7vwg",
+								"updated": "20221122172658"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "vite.config.ts"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221122172700-0p7sfsd",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221122172700-0p7sfsd",
+								"updated": "20221122194437"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHlwZXNjcmlwdA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "resolve: {\n    alias: {\n        \"~\": path.resolve(path.dirname(fileURLToPath(import.meta.url)), \"src\"),\n\t}\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221122172800-sdu5w7m",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221122172800-sdu5w7m",
+				"updated": "20221122194442"
+			},
+			"Children": [
+				{
+					"ID": "20221122172802-q8kvf3k",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221122172802-q8kvf3k",
+						"updated": "20221122194442"
+					},
+					"Children": [
+						{
+							"ID": "20221122172802-l5h40wz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221122172802-l5h40wz",
+								"updated": "20221122172815"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "tsconfig.json"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221122172816-evlp09w",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20221122172816-evlp09w",
+								"updated": "20221122194442"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHlwZXNjcmlwdA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "{\n  \"compilerOptions\": {\n    \"paths\": {\n      \"~/*\": [\"./src/*\"]\n    }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221122172845-qwy4msp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221122172845-qwy4msp",
+				"updated": "20221122172850"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221122172850-q31n9oe",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHlwZXNjcmlwdA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221122172850-q31n9oe",
+				"updated": "20221122172945"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHlwZXNjcmlwdA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import {API_TYPE_CONSTANTS} from \"~/utils/constants/apiTypeConstants\";\nimport MetaweblogMain from \"~/components/publish/tab/main/MetaweblogMain.vue\";\n\n// 原来的\n// import {API_TYPE_CONSTANTS} from \"../../../../../../utils/constants/apiTypeConstants\";\n// import MetaweblogMain from \"../../MetaweblogMain.vue\";\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221123020752-cvbhl9h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221123020752-cvbhl9h",
+				"updated": "20221123020754"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/202211230207869.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

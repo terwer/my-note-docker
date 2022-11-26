@@ -1,0 +1,21 @@
+{
+	"ID": "20221126173623-rfeuyr8",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4a6",
+		"id": "20221126173623-rfeuyr8",
+		"title": "001.源代码管理",
+		"updated": "20221126173638"
+	},
+	"Children": [
+		{
+			"ID": "20221126173623-m08fv85",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221126173623-m08fv85",
+				"updated": "20221126173623"
+			}
+		}
+	]
+}

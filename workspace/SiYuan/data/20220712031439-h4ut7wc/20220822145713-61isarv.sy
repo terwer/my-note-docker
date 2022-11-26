@@ -3,21 +3,23 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-slug": "march-1xg4pa",
 		"icon": "1f3d3",
 		"id": "20220822145713-61isarv",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220822145713-nn3flb3\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220822145713-nn3flb3\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
 		"title": "001.MyBatis",
-		"updated": "20220923142558"
+		"title-img": "background-image:linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%)",
+		"updated": "20221122102114"
 	},
 	"Children": [
 		{
-			"ID": "20220923142558-9mb9ftc",
+			"ID": "20221122102114-cvo8ba8",
 			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/listChildDocs\" data-src=\"/widgets/listChildDocs\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1117px; height: 701px;\"\u003e\u003c/iframe\u003e",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1239px; height: 420px;\"\u003e\u003c/iframe\u003e",
 			"Properties": {
-				"id": "20220923142558-9mb9ftc",
+				"id": "20221122102114-cvo8ba8",
 				"style": "text-align: left;",
-				"updated": "20220923142558"
+				"updated": "20221122102114"
 			}
 		}
 	]
