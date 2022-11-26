@@ -60695,8 +60695,8 @@ function getBooleanEnv(key) {
 function getEnv(key) {
   let env2 = "";
   try {
-    if ({ "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_MIDDLEWARE_URL": "https://publish.terwer.space/api/middleware", "BASE_URL": "./", "MODE": "production", "DEV": false, "PROD": true }[key]) {
-      env2 = { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_MIDDLEWARE_URL": "https://publish.terwer.space/api/middleware", "BASE_URL": "./", "MODE": "production", "DEV": false, "PROD": true }[key];
+    if ({ "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_MIDDLEWARE_URL": "https://publish.terwer.space/api/middleware", "BASE_URL": "/widgets/sy-post-publisher/", "MODE": "production", "DEV": false, "PROD": true }[key]) {
+      env2 = { "VITE_LOG_INFO_ENABLED": "false", "VITE_SIYUAN_API_URL": "http://127.0.0.1:6806", "VITE_SIYUAN_CONFIG_TOKEN": "", "VITE_MIDDLEWARE_URL": "https://publish.terwer.space/api/middleware", "BASE_URL": "/widgets/sy-post-publisher/", "MODE": "production", "DEV": false, "PROD": true }[key];
     }
   } catch (e2) {
     throw new Error(e2);

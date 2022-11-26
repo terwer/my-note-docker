@@ -13,9 +13,19 @@
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221121023629-6dkv9dn\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221121010321-1u79pog\u0026quot;,\u0026quot;scrollTop\u0026quot;:401,\u0026quot;focusId\u0026quot;:\u0026quot;20221126192812-esw3b1v\u0026quot;,\u0026quot;focusStart\u0026quot;:4,\u0026quot;focusEnd\u0026quot;:4}",
 		"tags": "文档,sy-p-003,sy-p-010",
 		"title": "000.文档首页",
-		"updated": "20221127001221"
+		"updated": "20221127020155"
 	},
 	"Children": [
+		{
+			"ID": "20221127011041-9v4mfyp",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 854px; height: 495px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221127011041-9v4mfyp",
+				"style": "text-align: left;",
+				"updated": "20221127011041"
+			}
+		},
 		{
 			"ID": "20220928144033-5ofjdjn",
 			"Type": "NodeParagraph",
@@ -42,10 +52,11 @@
 		},
 		{
 			"ID": "20221121010301-3e4o1qt",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20221121010301-3e4o1qt",
-				"updated": "20221121010320"
+				"updated": "20221127020155"
 			},
 			"Children": [
 				{

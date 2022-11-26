@@ -214,7 +214,6 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "action": "",
                         "blockId": "20220927094918-1d85uyp",
@@ -223,18 +222,41 @@
                         "notebookId": "20220729231323-oo2hfju",
                         "rootId": "20220927094918-1d85uyp",
                         "scrollAttr": {
-                          "endId": "20221126192711-7qhyk02",
+                          "endId": "20221127004056-o0dlqhr",
                           "focusEnd": 0,
-                          "focusId": "20221126192711-7qhyk02",
+                          "focusId": "20221127004056-o0dlqhr",
                           "focusStart": 0,
                           "scrollTop": 0,
-                          "startId": "20221126192711-7qhyk02"
+                          "startId": "20221127004056-o0dlqhr"
                         }
                       },
                       "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
                       "title": "002.用户手册"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20220801221942-jjtj7mx",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220729231323-oo2hfju",
+                        "rootId": "20220801221942-jjtj7mx",
+                        "scrollAttr": {
+                          "endId": "20221127004857-1flrslf",
+                          "focusEnd": 0,
+                          "focusId": "20221127004857-1flrslf",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20220801221942-mjn558c"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "node-siyuan"
                     },
                     {
                       "children": {
@@ -500,7 +522,7 @@
     "confDir": "C:\\Users\\Terwer\\Documents\\mydocs\\my-note-docker\\workspace\\SiYuan\\conf",
     "dataDir": "C:\\Users\\Terwer\\Documents\\mydocs\\my-note-docker\\workspace\\SiYuan\\data",
     "networkServe": false,
-    "fixedPort": false,
+    "fixedPort": true,
     "networkProxy": {
       "scheme": "",
       "host": "",
@@ -514,9 +536,9 @@
   "sync": {
     "cloudName": "main",
     "enabled": true,
-    "mode": 2,
-    "synced": 1669479837173,
-    "stat": "同步于 2022-11-27 00:23:57\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 21 kB/36 kB",
+    "mode": 1,
+    "synced": 1669487231733,
+    "stat": "同步于 2022-11-27 02:27:11\n\n上传/下载文件数 0/1\n上传/下载分块数 0/0\n发送/接收字节数 0 B/36 kB",
     "generateConflictDoc": false,
     "provider": 2,
     "s3": {
@@ -567,9 +589,9 @@
   "stat": {
     "treeCount": 489,
     "cTreeCount": 500,
-    "blockCount": 10773,
+    "blockCount": 10822,
     "cBlockCount": 20000,
-    "dataSize": 66068823,
+    "dataSize": 65564168,
     "cDataSize": 104857600,
     "assetsSize": 8458269,
     "cAssetsSize": 104857600

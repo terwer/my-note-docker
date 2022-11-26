@@ -3,27 +3,86 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
-		"custom-desc": "敬请期待。。。",
+		"custom-desc": "哔哩哔哩推荐百度网盘链接_https_panbaiducomsgvjjkoijzpfgiifeoy_a?pwd=vo提取码_vo​",
 		"custom-slug": "configure-entry-video-brpm9",
 		"custom-vuepress-slug": "docs/013.作品展示/001.sy-post-publisher/001.配置入门视频.md",
 		"id": "20220928114622-u5qoqj0",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220928114622-peabyeo\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220928114622-peabyeo\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220928114622-peabyeo\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:4,\u0026amp;quot;focusEnd\u0026amp;quot;:4}",
 		"tags": "配置,入门,视频,sy-p-003",
 		"title": "001.配置入门视频",
-		"updated": "20221126233839"
+		"updated": "20221127020627"
 	},
 	"Children": [
 		{
 			"ID": "20220928114622-peabyeo",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20220928114622-peabyeo",
-				"updated": "20221126233839"
+				"updated": "20221127020426"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "敬请期待。。。"
+					"Data": "哔哩哔哩 \u003csup\u003e推荐\u003c/sup\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20221127020837-4jxx2na",
+			"Type": "NodeIFrame",
+			"Data": "\u003ciframe src=\"//player.bilibili.com/player.html?aid=988042886\u0026amp;bvid=BV1544y1D7Cf\u0026amp;cid=904134673\u0026amp;page=1\" data-src=\"//player.bilibili.com/player.html?aid=988042886\u0026amp;bvid=BV1544y1D7Cf\u0026amp;cid=904134673\u0026amp;page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 854px; height: 535px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221127020837-4jxx2na",
+				"style": "text-align: left;",
+				"updated": "20221127020837"
+			}
+		},
+		{
+			"ID": "20221127020428-gco0i3f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221127020428-gco0i3f",
+				"updated": "20221127020434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "百度网盘"
+				}
+			]
+		},
+		{
+			"ID": "20221127020411-0s1qqup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221127020411-0s1qqup",
+				"updated": "20221127020627"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链接："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://pan.baidu.com/s/1GvJJKO6IjZ1PfGIiFEOY_A?pwd=v9o8",
+					"TextMarkTextContent": "https://pan.baidu.com/s/1GvJJKO6IjZ1PfGIiFEOY_A?pwd=v9o8"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n提取码："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "v9o8"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
 				}
 			]
 		}
