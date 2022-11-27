@@ -1,5 +1,5 @@
-import { d as defineComponent, o as onMounted, l as logUtil, g as getWidgetId, i as isInChromeExtension, c as createElementBlock, a as createVNode, e as openBlock, p as pageUtil } from "./footer-d815302d.js";
-import { _ as _sfc_main$1 } from "./PublishService.vue_vue_type_script_setup_true_lang-035e1a8d.js";
+import { d as defineComponent, o as onMounted, l as logUtil, g as getWidgetId, i as isInChromeExtension, c as createElementBlock, a as createVNode, e as openBlock, p as pageUtil } from "./footer-282fdf81.js";
+import { _ as _sfc_main$1 } from "./PublishService.vue_vue_type_script_setup_true_lang-30e98d65.js";
 const __default__ = {
   name: "publish"
 };

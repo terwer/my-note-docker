@@ -1,5 +1,5 @@
-import { d as defineComponent, r as ref, o as onMounted, bt as ElButton, d5 as ElFooter, e as openBlock, c as createElementBlock, ah as createBaseVNode, a as createVNode, af as withCtx, b5 as createTextVNode, g as getWidgetId, d3 as goToPage, b as getPageId, cn as _export_sfc, ae as createBlock, p as pageUtil } from "./footer-d815302d.js";
-import { _ as _sfc_main$2, D as DefaultFooter } from "./DefaultPostDetailService.vue_vue_type_style_index_0_lang-d4f4182b.js";
+import { d as defineComponent, r as ref, o as onMounted, bt as ElButton, d5 as ElFooter, e as openBlock, c as createElementBlock, ah as createBaseVNode, a as createVNode, af as withCtx, b5 as createTextVNode, g as getWidgetId, d3 as goToPage, b as getPageId, cn as _export_sfc, ae as createBlock, p as pageUtil } from "./footer-282fdf81.js";
+import { _ as _sfc_main$2, D as DefaultFooter } from "./DefaultPostDetailService.vue_vue_type_style_index_0_lang-7867215c.js";
 const _hoisted_1 = {
   class: "post-detail-content-box"
 };

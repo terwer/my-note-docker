@@ -64344,13 +64344,15 @@ async function getSiyuanPageId(force) {
 }
 async function getPageId(force, pageId) {
   let syPageId;
-  const widgetResult = getWidgetId();
-  if (widgetResult.isInSiyuan) {
-    syPageId = await getSiyuanPageId(force);
-  }
-  if (!syPageId) {
+  if (pageId) {
     logUtil.logInfo("\u663E\u793A\u6307\u5B9ApageId=>", pageId);
     syPageId = pageId;
+  }
+  if (!syPageId) {
+    const widgetResult = getWidgetId();
+    if (widgetResult.isInSiyuan) {
+      syPageId = await getSiyuanPageId(force);
+    }
   }
   if (!syPageId) {
     if (!pageId) {

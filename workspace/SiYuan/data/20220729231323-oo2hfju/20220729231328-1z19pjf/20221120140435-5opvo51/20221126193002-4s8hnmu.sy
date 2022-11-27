@@ -6,10 +6,10 @@
 		"custom-desc": "将思源笔记的文章发布到支持的开放平台的思源笔记挂件目前支持基于github​​metaweblogapi​​wordpressapi​​以及自定义http协议​​(预研)的平台同时提供了一个统一通用的api适配器让适配任何平台成为可能。​​点击查看项目源码点击查看帮助文档点击查看新手小白级视频教程愿景为什么要做这个项目？发布到不同平台并且保持同步一直以来都是一个痛苦的过程。试想一下带着灵感满心欢喜的创作完成然后打开每个平台登录账号复制粘贴修改格式填写属性点击发布还没到最后一步已经感觉不耐烦了。如果有多个平",
 		"custom-slug": "chinese-version-publishing-description-tngh",
 		"id": "20221126193002-4s8hnmu",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221126193040-h025b3g\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221126193040-hcnhp3i\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221126193040-bgz2gkb\u0026quot;,\u0026quot;focusStart\u0026quot;:21,\u0026quot;focusEnd\u0026quot;:21}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221126193040-h025b3g\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221126193040-hcnhp3i\u0026quot;,\u0026quot;scrollTop\u0026quot;:4700,\u0026quot;focusId\u0026quot;:\u0026quot;20221127140419-en9fh80\u0026quot;,\u0026quot;focusStart\u0026quot;:4,\u0026quot;focusEnd\u0026quot;:4}",
 		"tags": "思源,发布,平台,笔记,支持",
 		"title": "001.中文版发版说明",
-		"updated": "20221126221132"
+		"updated": "20221127140433"
 	},
 	"Children": [
 		{
@@ -3851,31 +3851,20 @@
 			"ID": "20221126193040-5o14aj8",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 3,
-				"Tight": true,
-				"BulletChar": 42,
-				"Padding": 2,
-				"Checked": true,
-				"Marker": "Kg==",
-				"Num": -1
+				"Typ": 3
 			},
 			"Properties": {
 				"id": "20221126193040-5o14aj8",
-				"updated": "20221126193040"
+				"updated": "20221127140433"
 			},
 			"Children": [
 				{
 					"ID": "20221126193040-sqx0hm8",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
 						"Typ": 3,
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Checked": true,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126193040-sqx0hm8",
@@ -3884,11 +3873,7 @@
 					"Children": [
 						{
 							"Type": "NodeTaskListItemMarker",
-							"Data": "[X]",
-							"TaskListItemChecked": true,
-							"Properties": {
-								"id": ""
-							}
+							"TaskListItemChecked": true
 						},
 						{
 							"ID": "20221126193040-7s7f6b1",
@@ -3900,10 +3885,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Vuepress",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Vuepress"
 								}
 							]
 						}
@@ -3912,15 +3894,10 @@
 				{
 					"ID": "20221126193040-2fauxw5",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
 						"Typ": 3,
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Checked": true,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126193040-2fauxw5",
@@ -3929,11 +3906,7 @@
 					"Children": [
 						{
 							"Type": "NodeTaskListItemMarker",
-							"Data": "[X]",
-							"TaskListItemChecked": true,
-							"Properties": {
-								"id": ""
-							}
+							"TaskListItemChecked": true
 						},
 						{
 							"ID": "20221126193040-dwtvt8f",
@@ -3945,10 +3918,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "博客园",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "博客园"
 								}
 							]
 						}
@@ -3957,15 +3927,10 @@
 				{
 					"ID": "20221126193040-pgwel12",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
 						"Typ": 3,
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Checked": true,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126193040-pgwel12",
@@ -3974,11 +3939,7 @@
 					"Children": [
 						{
 							"Type": "NodeTaskListItemMarker",
-							"Data": "[X]",
-							"TaskListItemChecked": true,
-							"Properties": {
-								"id": ""
-							}
+							"TaskListItemChecked": true
 						},
 						{
 							"ID": "20221126193040-raaysy8",
@@ -3990,10 +3951,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "链滴社区",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "链滴社区"
 								}
 							]
 						}
@@ -4002,15 +3960,10 @@
 				{
 					"ID": "20221126193040-e8rncfe",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
 						"Typ": 3,
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Checked": true,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126193040-e8rncfe",
@@ -4019,11 +3972,7 @@
 					"Children": [
 						{
 							"Type": "NodeTaskListItemMarker",
-							"Data": "[X]",
-							"TaskListItemChecked": true,
-							"Properties": {
-								"id": ""
-							}
+							"TaskListItemChecked": true
 						},
 						{
 							"ID": "20221126193040-99bymxj",
@@ -4035,10 +3984,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "语雀",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "语雀"
 								}
 							]
 						}
@@ -4047,15 +3993,10 @@
 				{
 					"ID": "20221126193040-k3vbvin",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
 						"Typ": 3,
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Checked": true,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126193040-k3vbvin",
@@ -4064,11 +4005,7 @@
 					"Children": [
 						{
 							"Type": "NodeTaskListItemMarker",
-							"Data": "[X]",
-							"TaskListItemChecked": true,
-							"Properties": {
-								"id": ""
-							}
+							"TaskListItemChecked": true
 						},
 						{
 							"ID": "20221126193040-99dai2p",
@@ -4080,10 +4017,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Wordpress",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Wordpress"
 								}
 							]
 						}
@@ -4092,15 +4026,10 @@
 				{
 					"ID": "20221126193040-3c8yacm",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
 						"Typ": 3,
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Checked": true,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126193040-3c8yacm",
@@ -4109,11 +4038,7 @@
 					"Children": [
 						{
 							"Type": "NodeTaskListItemMarker",
-							"Data": "[X]",
-							"TaskListItemChecked": true,
-							"Properties": {
-								"id": ""
-							}
+							"TaskListItemChecked": true
 						},
 						{
 							"ID": "20221126193040-rc6mdrl",
@@ -4125,10 +4050,134 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Metaweblog API",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Metaweblog API"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221127140406-depy45r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127140406-depy45r"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20221127140406-9g2vn1y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127140406-9g2vn1y",
+								"updated": "20221127140410"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Github"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221127140419-4chzd4m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127140419-4chzd4m",
+						"updated": "20221127140433"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20221127140419-en9fh80",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127140419-en9fh80",
+								"updated": "20221127140433"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Hugo"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221127140422-y2h8r3d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127140422-y2h8r3d",
+						"updated": "20221127140430"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20221127140422-5xid3dl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127140422-5xid3dl",
+								"updated": "20221127140430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Hexo"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221127140424-hie6y57",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127140424-hie6y57",
+						"updated": "20221127140427"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20221127140424-oz0vlyp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127140424-oz0vlyp",
+								"updated": "20221127140427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Hekyll"
 								}
 							]
 						}

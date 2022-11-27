@@ -4,79 +4,221 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220715140749-o5wukfy",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221127030440-ht3nauh\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221127030548-d5iovbt\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221127030548-d5iovbt\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "待办事项",
-		"updated": "20221125161351"
+		"updated": "20221127030648"
 	},
 	"Children": [
 		{
-			"ID": "20220715060749-gn8blpe",
-			"Type": "NodeParagraph",
+			"ID": "20221127030440-ht3nauh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
 			"Properties": {
-				"id": "20220715060749-gn8blpe",
-				"updated": "20220715140815"
+				"id": "20221127030440-ht3nauh",
+				"updated": "20221127030648"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "1、思源笔记使用Nginx反代实现https"
+					"ID": "20221127030440-g1qpcsj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127030440-g1qpcsj",
+						"updated": "20221127030557"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20221127030430-56z9098",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127030430-56z9098",
+								"updated": "20221127030442"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "思源笔记使用Nginx反代实现https"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221127030630-v17q7a8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127030630-v17q7a8",
+						"updated": "20221127030646"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20221127030630-ch1evic",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127030630-ch1evic"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现文章平台绑定功能，按钮名称为：绑定发布平台"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221127030633-jjdpxi0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127030633-jjdpxi0",
+						"updated": "20221127030647"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20221127030633-x7k2slb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127030633-x7k2slb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发布或者更新完成在新窗口打开文章链接"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221127030637-u28sztx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127030637-u28sztx",
+						"updated": "20221127030647"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20221127030637-dbyrc4k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127030637-dbyrc4k"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现文章自动备份到百度云（最终使用GIT的方案）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221127030640-dfzfrmb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127030640-dfzfrmb",
+						"updated": "20221127030648"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"TaskListItemChecked": true
+						},
+						{
+							"ID": "20221127030640-8pa68dm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127030640-8pa68dm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "思源笔记的自定义css"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221127030644-sr7wfpo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221127030644-sr7wfpo"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20221127030644-w7bot7k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221127030644-w7bot7k"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "powershell入门指南"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
 		{
-			"ID": "20220715140819-rh57c3e",
+			"ID": "20221127030548-d5iovbt",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220715140819-rh57c3e",
-				"updated": "20220715140847"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "3、实现文章平台绑定功能，按钮名称为：绑定发布平台"
-				}
-			]
-		},
-		{
-			"ID": "20220715140848-z364pd2",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220715140848-z364pd2",
-				"updated": "20220715140937"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "4、发布或者更新完成在新窗口打开文章链接"
-				}
-			]
-		},
-		{
-			"ID": "20220715141013-q1jme7d",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220715141013-q1jme7d",
-				"updated": "20220715141023"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "5、实现文章自动备份到百度云"
-				}
-			]
-		},
-		{
-			"ID": "20221125161324-vf7af9a",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221125161324-vf7af9a",
-				"updated": "20221125161351"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "6、思源笔记的自定义css"
-				}
-			]
+				"id": "20221127030548-d5iovbt"
+			}
 		}
 	]
 }

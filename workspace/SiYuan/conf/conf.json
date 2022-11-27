@@ -157,10 +157,10 @@
         "super": false
       },
       "d3": {
-        "nodeSize": 15,
+        "nodeSize": 16,
         "linkWidth": 8,
         "lineOpacity": 0.36,
-        "centerStrength": 0.01,
+        "centerStrength": 0.015,
         "collideRadius": 600,
         "collideStrength": 0.08,
         "linkDistance": 400,
@@ -206,7 +206,7 @@
               ],
               "direction": "tb",
               "instance": "Layout",
-              "size": "416px",
+              "size": "406px",
               "type": "left"
             },
             {
@@ -222,12 +222,12 @@
                         "notebookId": "20220729231323-oo2hfju",
                         "rootId": "20220927094918-1d85uyp",
                         "scrollAttr": {
-                          "endId": "20221127004056-o0dlqhr",
+                          "endId": "20221127012202-399tuod",
                           "focusEnd": 0,
-                          "focusId": "20221127004056-o0dlqhr",
+                          "focusId": "20221127012202-399tuod",
                           "focusStart": 0,
                           "scrollTop": 0,
-                          "startId": "20221127004056-o0dlqhr"
+                          "startId": "20221127010842-hiwpczz"
                         }
                       },
                       "docIcon": "",
@@ -239,46 +239,24 @@
                       "active": true,
                       "children": {
                         "action": "",
-                        "blockId": "20220801221942-jjtj7mx",
+                        "blockId": "20220927094926-qvm83k2",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20220729231323-oo2hfju",
-                        "rootId": "20220801221942-jjtj7mx",
+                        "rootId": "20220927094926-qvm83k2",
                         "scrollAttr": {
-                          "endId": "20221127004857-1flrslf",
+                          "endId": "20221127001411-cq9d140",
                           "focusEnd": 0,
-                          "focusId": "20221127004857-1flrslf",
+                          "focusId": "20221127001334-fcycb4u",
                           "focusStart": 0,
                           "scrollTop": 0,
-                          "startId": "20220801221942-mjn558c"
+                          "startId": "20221127001334-fcycb4u"
                         }
                       },
-                      "docIcon": "",
+                      "docIcon": "1f5a5",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "node-siyuan"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221126193002-4s8hnmu",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220729231323-oo2hfju",
-                        "rootId": "20221126193002-4s8hnmu",
-                        "scrollAttr": {
-                          "endId": "20221126193040-hcnhp3i",
-                          "focusEnd": 21,
-                          "focusId": "20221126193040-bgz2gkb",
-                          "focusStart": 21,
-                          "scrollTop": 0,
-                          "startId": "20221126193040-h025b3g"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "001.中文版发版说明"
+                      "title": "002.开始上手"
                     },
                     {
                       "children": {
@@ -289,59 +267,18 @@
                         "notebookId": "20220729231323-oo2hfju",
                         "rootId": "20220928144033-i1o1ikj",
                         "scrollAttr": {
-                          "endId": "20221121010321-1u79pog",
-                          "focusEnd": 26,
-                          "focusId": "20220928144033-5ofjdjn",
-                          "focusStart": 26,
+                          "endId": "20221127140654-s108dm7",
+                          "focusEnd": 12,
+                          "focusId": "20221127141252-kqoc1z3",
+                          "focusStart": 0,
                           "scrollTop": 0,
-                          "startId": "20220928144033-5ofjdjn"
+                          "startId": "20221127011041-9v4mfyp"
                         }
                       },
                       "docIcon": "1f351",
                       "instance": "Tab",
                       "pin": false,
                       "title": "000.文档首页"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20220928114622-u5qoqj0",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220729231323-oo2hfju",
-                        "rootId": "20220928114622-u5qoqj0",
-                        "scrollAttr": {
-                          "endId": "20220928114622-peabyeo",
-                          "focusEnd": 7,
-                          "focusId": "20220928114622-peabyeo",
-                          "focusStart": 7,
-                          "scrollTop": 0,
-                          "startId": "20220928114622-peabyeo"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "001.配置入门视频"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20220927094926-qvm83k2",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220729231323-oo2hfju",
-                        "rootId": "20220927094926-qvm83k2",
-                        "scrollAttr": {
-                          "endId": "20221127001411-cq9d140",
-                          "scrollTop": 0,
-                          "startId": "20221127001334-fcycb4u"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "002.开始上手"
                     }
                   ],
                   "height": "",
@@ -411,7 +348,7 @@
           "show": true,
           "size": {
             "height": 0,
-            "width": 416
+            "width": 406
           },
           "type": "file"
         },
@@ -537,8 +474,8 @@
     "cloudName": "main",
     "enabled": true,
     "mode": 1,
-    "synced": 1669487231733,
-    "stat": "同步于 2022-11-27 02:27:11\n\n上传/下载文件数 0/1\n上传/下载分块数 0/0\n发送/接收字节数 0 B/36 kB",
+    "synced": 1669562848748,
+    "stat": "同步于 2022-11-27 23:27:28\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 20 kB/37 kB",
     "generateConflictDoc": false,
     "provider": 2,
     "s3": {
@@ -587,11 +524,11 @@
     "virtualRefKeywordsLimit": 512
   },
   "stat": {
-    "treeCount": 489,
-    "cTreeCount": 500,
-    "blockCount": 10822,
+    "treeCount": 502,
+    "cTreeCount": 1000,
+    "blockCount": 10897,
     "cBlockCount": 20000,
-    "dataSize": 65564168,
+    "dataSize": 65591818,
     "cDataSize": 104857600,
     "assetsSize": 8458269,
     "cAssetsSize": 104857600

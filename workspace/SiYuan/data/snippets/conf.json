@@ -5,7 +5,7 @@
     "memo": "",
     "type": "css",
     "enabled": true,
-    "content": "@import url('/widgets/custom.css')"
+    "content": "@import url('/widgets/custom.css')\n\n\n\n\n"
   },
   {
     "id": "20221030195819-i8vku76",

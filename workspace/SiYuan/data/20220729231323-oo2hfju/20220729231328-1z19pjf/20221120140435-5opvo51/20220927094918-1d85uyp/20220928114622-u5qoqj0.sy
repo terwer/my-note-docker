@@ -6,13 +6,24 @@
 		"custom-desc": "哔哩哔哩推荐百度网盘链接_https_panbaiducomsgvjjkoijzpfgiifeoy_a?pwd=vo提取码_vo​",
 		"custom-slug": "configure-entry-video-brpm9",
 		"custom-vuepress-slug": "docs/013.作品展示/001.sy-post-publisher/001.配置入门视频.md",
+		"icon": "1f58c",
 		"id": "20220928114622-u5qoqj0",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220928114622-peabyeo\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220928114622-peabyeo\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220928114622-peabyeo\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:4,\u0026amp;quot;focusEnd\u0026amp;quot;:4}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221127132652-j865bmw\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221127020411-0s1qqup\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221127132652-j865bmw\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"tags": "配置,入门,视频,sy-p-003",
 		"title": "001.配置入门视频",
-		"updated": "20221127020627"
+		"updated": "20221127132652"
 	},
 	"Children": [
+		{
+			"ID": "20221127132652-j865bmw",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 856px; height: 464px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221127132652-j865bmw",
+				"style": "text-align: left;",
+				"updated": "20221127132652"
+			}
+		},
 		{
 			"ID": "20220928114622-peabyeo",
 			"Type": "NodeHeading",

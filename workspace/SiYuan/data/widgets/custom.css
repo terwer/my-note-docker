@@ -12,15 +12,21 @@
     min-height: 57px !important;
 }
 
+.protyle-background__iconw{
+    top:16px;
+    left: 16px;;
+}
+
 .protyle-title {
-    margin-left: 64px !important;
+    margin-left: 16px !important;
     margin-right: 16px !important;
 }
 
 .protyle-wysiwyg {
-    padding-left: 64px !important;
+    padding-left: 16px !important;
     padding-right: 16px !important;
 }
+
 
 .b3-typography .code-block .protyle-action .protyle-action__language,
 .protyle-wysiwyg .code-block .protyle-action .protyle-action__language {
