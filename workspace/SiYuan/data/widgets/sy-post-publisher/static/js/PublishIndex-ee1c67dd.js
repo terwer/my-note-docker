@@ -1,1 +1,0 @@
-import{_ as e}from"./PublishService.vue_vue_type_script_setup_true_lang-2fdd677b.js";import{M as _,O as o,P as s,a1 as t}from"./vendor-a9bad54d.js";import{d as n}from"./api-26133740.js";const a={id:"publish-index-body"},d=_({__name:"PublishIndex",setup(i){return(c,p)=>(o(),s("div",a,[t(e,{"page-id":void 0})]))}});const l=n(d,[["__scopeId","data-v-30e8582f"]]);export{l as P};

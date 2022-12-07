@@ -584,8 +584,8 @@
     "cloudName": "main",
     "enabled": true,
     "mode": 1,
-    "synced": 1670408858915,
-    "stat": "同步于 2022-12-07 18:27:38\n\n上传/下载文件数 0/1\n上传/下载分块数 0/0\n发送/接收字节数 0 B/38 kB",
+    "synced": 1670410864747,
+    "stat": "同步于 2022-12-07 19:01:04\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 25 kB/38 kB",
     "generateConflictDoc": false,
     "provider": 2,
     "s3": {
