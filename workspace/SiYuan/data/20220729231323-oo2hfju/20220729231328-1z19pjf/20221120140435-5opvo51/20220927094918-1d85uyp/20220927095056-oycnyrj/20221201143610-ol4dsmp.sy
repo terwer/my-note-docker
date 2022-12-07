@@ -1,0 +1,108 @@
+{
+	"ID": "20221201143610-ol4dsmp",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221201143610-ol4dsmp",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221201143610-ryy0yex\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221201225217-rc9gh8m\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221201225217-rc9gh8m\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "011.Hexo",
+		"updated": "20221201225549"
+	},
+	"Children": [
+		{
+			"ID": "20221201143610-ryy0yex",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221201143610-ryy0yex",
+				"updated": "20221201225209"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "官网"
+				}
+			]
+		},
+		{
+			"ID": "20221201225209-c16hwz0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201225209-c16hwz0",
+				"updated": "20221201225212"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://hexo.io/zh-cn/",
+					"TextMarkTextContent": "https://hexo.io/zh-cn/"
+				}
+			]
+		},
+		{
+			"ID": "20221201225535-zdvmk3b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221201225535-zdvmk3b",
+				"updated": "20221201225542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "准备工作"
+				}
+			]
+		},
+		{
+			"ID": "20221201225542-wj0jgqa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221201225542-wj0jgqa",
+				"updated": "20221201225549"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "npm install hexo-cli -g\nhexo init hexo-blog\ncd blog\nnpm install\nhexo server\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221201225213-dr5anrk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221201225213-dr5anrk",
+				"updated": "20221201225217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发布配置"
+				}
+			]
+		},
+		{
+			"ID": "20221201225217-rc9gh8m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201225217-rc9gh8m"
+			}
+		}
+	]
+}

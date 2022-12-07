@@ -1,0 +1,574 @@
+{
+	"ID": "20221207165230-6vxqiia",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221207165230-6vxqiia",
+		"title": "使用TypeScript写一个Vue-js插件",
+		"updated": "20221207165922"
+	},
+	"Children": [
+		{
+			"ID": "20221207165230-qxbntze",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207165230-qxbntze",
+				"updated": "20221207165643"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://vuejs.org/v2/guide/plugins.html",
+					"TextMarkTextContent": "插件"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 是使用其他属性、方法、assets 等来增强 Vue.js 功能集推荐的方法。用当前版本",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "em",
+					"TextMarkTextContent": "的"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Vue.js 在 TypeScript 中编写它们很简单，但你可以在 Web 上找到的建议通常是指旧版本，不再适用。事实上，你发现的矛盾建议可能会很令人困惑：我如何在我的插件中引用 Vue.js 类型？好吧，这里有一个一般的经验法则，它会有所帮助，并且永远不会让你再次谷歌搜索所需的语法。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-5xa1a49",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207165230-5xa1a49",
+				"updated": "20221207165729"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自从 Vue.js 发布了自己的 typings 以来，要解决这个问题，您可以简单地查看它们。基本上有两种方法可以定义插件：要么使用基于函数的方法，要么使用插件对象（实际上只是插件函数的包装器）。两者都可以在 Vue.js 包中找到（遵循版本 2.5.13 的代码）：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "types/plugin.d.ts"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-n7vybex",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221207165230-n7vybex",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { Vue as _Vue } from \"./vue\";\n\nexport type PluginFunction\u003cT\u003e = (Vue: typeof _Vue, options?: T) =\u003e void;\n\nexport interface PluginObject\u003cT\u003e {\n  install: PluginFunction\u003cT\u003e;\n  [key: string]: any;\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-y0siyhd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207165230-y0siyhd",
+				"updated": "20221207165922"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这正是您用作自己代码模板的内容。让我们编写一个插件函数！"
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-9o6qe5r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221207165230-9o6qe5r",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import _Vue from \"vue\"; // \u003c-- notice the changed import\nimport Axios from \"axios\";\n\n// export type PluginFunction\u003cT\u003e = (Vue: typeof _Vue, options?: T) =\u003e void;\nexport function AxiosPlugin(Vue: typeof _Vue, options?: any): void {\n    Vue.prototype.$http = Axios;\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-l3sn7si",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207165230-l3sn7si",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这就是实施所需的一切。对于示例，我只是在此处将 Axios 附加到 Vue。如果需要，您可以使用 or 功能进行更复杂的扩充。当然，如果需要，您可以使用自己的类型安全选项：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "mixin"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "directive"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-ohz9lq1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221207165230-ohz9lq1",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import _Vue from \"vue\";\nimport Axios from \"axios\";\n\n// export type PluginFunction\u003cT\u003e = (Vue: typeof _Vue, options?: T) =\u003e void;\nexport function AxiosPlugin\u003cAxiosPlugOptions\u003e(Vue: typeof _Vue, options?: AxiosPluginOptions): void {\n    // do stuff with options\n    Vue.prototype.$http = Axios;\n}\n\nexport class AxiosPluginOptions {\n    // add stuff\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-e4vsl5d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221207165230-e4vsl5d",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "配置和使用您的插件",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-glwvlwn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207165230-glwvlwn",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所需的进一步步骤类似于任何其他插件。确保在启动时正确配置它：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-elsqc49",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221207165230-elsqc49",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import Vue from \"vue\";\nimport { AxiosPlugin } from \"./AxiosPlugin\";\n\n// pass in your custom options as second parameter if applicable\nVue.use(AxiosPlugin); \nnew Vue({\n    // ...\n});\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-3rxtuzz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207165230-3rxtuzz",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果你的插件像我上面的例子一样扩展了 Vue 原型，你需要提供类型，以便编译器可以正确地选择它（否则当你在组件中使用插件时，你会收到编译器错误）：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-bodhtuf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221207165230-bodhtuf",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// put this in your source folder somewhere\n// with a .d.ts extension the TS compiler will pick it up automatically\nimport { AxiosStatic } from \"axios\";\n\ndeclare module 'vue/types/vue' {\n  interface Vue {\n    $http: AxiosStatic;\n  }\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-d6ojusd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207165230-d6ojusd",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在这里使用只是 Axios 的一个特点，不用担心。您只需在此处配置扩展属性或函数的类型，就可以在组件中使用：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "AxiosStatic"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-vusspw3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221207165230-vusspw3",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// in your components\nthis.$http.[...] // use all Axios features, with full intellisense support\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165230-qxde8hn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207165230-qxde8hn",
+				"updated": "20221207165230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "玩得愉快！",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165356-ohpv1d0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221207165356-ohpv1d0",
+				"updated": "20221207165357"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "参考",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221207165332-0g9uuu3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207165332-0g9uuu3",
+				"updated": "20221207165333"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.mistergoodcat.com/post/vuejs-plugins-with-typescript",
+					"TextMarkTextContent": "https://www.mistergoodcat.com/post/vuejs-plugins-with-typescript"
+				}
+			]
+		}
+	]
+}

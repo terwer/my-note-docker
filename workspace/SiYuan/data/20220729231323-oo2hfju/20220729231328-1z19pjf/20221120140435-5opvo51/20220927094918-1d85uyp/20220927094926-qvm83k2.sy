@@ -3,72 +3,62 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
-		"custom-desc": "安装从edge商店下载插件或者在思源笔记集市下载挂件并添加到页面。思源笔记发布工具microsoftedgeaddons快速配置如果本地使用请确保思源笔记处于打开模式。​如果是docker部署请启动容器。如果本地使用并且是是​端口则无需设置请忽略此步骤_如果本地使用但是使用的是随机端口请在在思源笔记设置关于找到ip地址以及端口然后修改本插件的思源api地址​_如果是远程docker​部署请填写外网api地址​以及token​并配置代理地址​。配置地址可在列表页面底部找到_修改思源api地址​​如果您没有支",
+		"custom-desc": "安装思源笔记发布工具的安装步骤如下从edge商店下载插件或者在思源笔记集市下载挂件并添加到页面。思源笔记发布工具microsoftedgeaddons快速配置浏览器插件方式使用推荐如果本地使用请确保思源笔记处于打开模式。​​如果是docker部署请启动容器。如果本地使用并且是​​端口则无需设置请忽略此步骤_如果本地使用但是使用的是随机端口请在在思源笔记设置关于找到ip地址以及端口然后修改本插件的思源api地址​​_如果是远程docker​​部署请填写外网api地址​​以及token​​并配置代理地址​​。",
+		"custom-githubGiteepages-zrxshe-post-id": "大风歌V的覆盖的发的非官方的",
+		"custom-githubHugo-zdlpq-post-id": "dfgfd",
+		"custom-githubPages-z15mjzm-post-id": "dfgfgdf",
+		"custom-githubVuepress-vfz1y-post-id": "dfgdfg",
+		"custom-hugo-slug": "dfd",
 		"custom-slug": "start-to-get-started-zi0eyk",
 		"custom-vuepress-slug": "docs/013.作品展示/001.sy-post-publisher/002.开始上手.md",
 		"icon": "1f5a5",
 		"id": "20220927094926-qvm83k2",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221127132724-1t0yljw\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221127001411-cq9d140\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221126231909-fiapuet\u0026quot;,\u0026quot;focusStart\u0026quot;:32,\u0026quot;focusEnd\u0026quot;:32}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221201191244-kkgghl6\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221127001411-cq9d140\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220927094926-p0y31fv\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"tags": "地址,如果,思源,使用,部署,上手,入门",
 		"title": "002.开始上手",
-		"updated": "20221127132724"
+		"updated": "20221207133743"
 	},
 	"Children": [
+		{
+			"ID": "20221201191244-kkgghl6",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1128px; height: 638px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221201191244-kkgghl6",
+				"style": "text-align: left;",
+				"updated": "20221201191244"
+			}
+		},
 		{
 			"ID": "20221127001334-fcycb4u",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"custom-ankilink": "deck_name=\u0026quot;用户手册::开始上手\u0026quot;_esc_newline_tags=[\u0026quot;思源笔记\u0026quot;,\u0026quot;笔记\u0026quot;]",
 				"id": "20221127001334-fcycb4u",
-				"updated": "20221127001340"
+				"updated": "20221207004402"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## ",
-					"Properties": {
-						"id": ""
-					}
+					"Type": "NodeText",
+					"Data": "安装"
+				}
+			]
+		},
+		{
+			"ID": "20221206221525-g29qmfm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221206221525-g29qmfm",
+				"updated": "20221207004621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思源笔记发布工具的安装步骤如下\n从 Edge 商店下载插件或者在思源笔记集市下载挂件并添加到页面。\n"
 				},
 				{
-					"Type": "NodeText",
-					"Data": "安装",
-					"Properties": {
-						"id": ""
-					}
-				}
-			]
-		},
-		{
-			"ID": "20220927094926-p0y31fv",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220927094926-p0y31fv",
-				"updated": "20221126230952"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "从 Edge 商店下载插件或者在思源笔记集市下载挂件并添加到页面。",
-					"Properties": {
-						"id": ""
-					}
-				}
-			]
-		},
-		{
-			"ID": "20221126231909-fiapuet",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221126231909-fiapuet",
-				"updated": "20221126231910"
-			},
-			"Children": [
-				{
 					"Type": "NodeTextMark",
-					"Properties": {
-						"id": ""
-					},
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://microsoftedge.microsoft.com/addons/detail/aejmkigifflimhjlhjkdckclhabbilee",
 					"TextMarkTextContent": "思源笔记发布工具 - Microsoft Edge Addons"
@@ -80,53 +70,52 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"custom-ankilink": "deck_name=\u0026quot;用户手册/快速配置\u0026quot;",
 				"id": "20221127001328-nl3dz69",
-				"updated": "20221127001357"
+				"updated": "20221206215806"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## ",
-					"Properties": {
-						"id": ""
-					}
-				},
+					"Type": "NodeText",
+					"Data": "快速配置"
+				}
+			]
+		},
+		{
+			"ID": "20221129174252-9jezdn7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"custom-ankilink": "deck_name=\u0026quot;用户手册::快速配置\u0026quot;_esc_newline_tags=[\u0026quot;思源笔记\u0026quot;,\u0026quot;笔记\u0026quot;,\u0026quot;配置\u0026quot;]",
+				"id": "20221129174252-9jezdn7",
+				"updated": "20221207021416"
+			},
+			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "快速配置",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "浏览器插件方式使用 \u003csup\u003e 推荐 \u003c/sup\u003e"
 				}
 			]
 		},
 		{
 			"ID": "20221126231028-8dxjy9v",
 			"Type": "NodeList",
-			"ListData": {
-				"BulletChar": 42,
-				"Padding": 2,
-				"Marker": "Kg==",
-				"Num": -1
-			},
+			"ListData": {},
 			"Properties": {
 				"id": "20221126231028-8dxjy9v",
-				"updated": "20221126233616"
+				"updated": "20221207021931"
 			},
 			"Children": [
 				{
 					"ID": "20221126231029-iyjwmrd",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126231029-iyjwmrd",
-						"updated": "20221126233243"
+						"updated": "20221207021931"
 					},
 					"Children": [
 						{
@@ -134,15 +123,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126231029-a1rnrb0",
-								"updated": "20221126233201"
+								"updated": "20221207021254"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果本地使用，请确保思源笔记处于打开模式。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "如果本地使用，请确保思源笔记处于打开模式。\n"
 								}
 							]
 						},
@@ -156,60 +142,39 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								},
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/project/sy-post-publisher/docs/screenshot-20221126-232837.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/project/sy-post-publisher/docs/screenshot-20221126-232837.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
 								}
 							]
 						},
@@ -218,15 +183,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126233220-21vhuro",
-								"updated": "20221126233243"
+								"updated": "20221207021931"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果是 docker 部署，请启动容器。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "如果是 docker 部署，请启动容器。\n"
 								}
 							]
 						}
@@ -235,17 +197,13 @@
 				{
 					"ID": "20221126232022-dt14r2e",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126232022-dt14r2e",
-						"updated": "20221126233616"
+						"updated": "20221128011524"
 					},
 					"Children": [
 						{
@@ -253,45 +211,30 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126232022-r0ng2p6",
-								"updated": "20221126233319"
+								"updated": "20221128011524"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果本地使用，并且是是 ",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "如果本地使用，并且是 "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "6806"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 端口，则 ",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​​ 端口，则 "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "strong",
 									"TextMarkTextContent": "无需设置"
 								},
 								{
 									"Type": "NodeText",
-									"Data": " ，请忽略此步骤；",
-									"Properties": {
-										"id": ""
-									}
+									"Data": " ，请忽略此步骤；"
 								}
 							]
 						},
@@ -305,25 +248,16 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果本地使用，但是使用的是随机端口，请在在思源笔记设置-\u003e 关于找到 IP 地址以及端口，然后修改本插件的 ",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "如果本地使用，但是使用的是随机端口，请在在思源笔记设置-\u003e 关于找到 IP 地址以及端口，然后修改本插件的 "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "思源 API 地址"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ ；",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​​ ；"
 								}
 							]
 						},
@@ -337,70 +271,43 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果是 ",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "如果是 "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "远程 docker"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 部署，请填写 ",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​​ 部署，请填写 "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "外网 API 地址"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 以及 ",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​​ 以及 "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "token"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ ，并配置 ",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​​ ，并配置 "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "代理地址"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​​ 。"
 								}
 							]
 						},
@@ -414,16 +321,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "配置地址可在列表页面底部找到：",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "配置地址可在列表页面底部找到："
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "strong",
 									"TextMarkTextContent": "修改思源API地址"
 								}
@@ -439,67 +340,39 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								},
 								{
 									"Type": "NodeImage",
-									"Properties": {
-										"id": ""
-									},
+									"Data": "span",
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeLinkText"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/project/sy-post-publisher/docs/screenshot-20221126-232612.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/project/sy-post-publisher/docs/screenshot-20221126-232612.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -513,25 +386,16 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果您没有支持跨域的代理地址，可以使用我的共享地址：",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "如果您没有支持跨域的代理地址，可以使用我的共享地址："
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "https://publish.terwer.space/api/middleware"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 。出于性能考虑，建议自己部署一份。部署方法请参考 Vercel 远程部署模式 。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​​ 。出于性能考虑，建议自己部署一份。部署方法请参考 Vercel 远程部署模式 。"
 								}
 							]
 						}
@@ -542,12 +406,7 @@
 		{
 			"ID": "20221126230954-cbl0fol",
 			"Type": "NodeList",
-			"ListData": {
-				"BulletChar": 42,
-				"Padding": 2,
-				"Marker": "Kg==",
-				"Num": -1
-			},
+			"ListData": {},
 			"Properties": {
 				"id": "20221126230954-cbl0fol",
 				"updated": "20221127001520"
@@ -556,12 +415,9 @@
 				{
 					"ID": "20221126231011-a4fhxv4",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126231011-a4fhxv4",
@@ -578,10 +434,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Edge 商店版本打开 popup 默认是文章列表页面；",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Edge 商店版本打开 popup 默认是文章列表页面；"
 								}
 							]
 						},
@@ -595,10 +448,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "挂件模式从 \u003csup\u003e0.1.0+\u003c/sup\u003e 版本开始，会自动检测，如果发现有子文档，会展示文章列表，否则，只展示发布页面。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "挂件模式从 \u003csup\u003e0.1.0+\u003c/sup\u003e 版本开始，会自动检测，如果发现有子文档，会展示文章列表，否则，只展示发布页面。"
 								}
 							]
 						}
@@ -607,13 +457,9 @@
 				{
 					"ID": "20221126233646-6q2yh6c",
 					"Type": "NodeListItem",
-					"Data": "*",
 					"ListData": {
-						"Tight": true,
 						"BulletChar": 42,
-						"Padding": 2,
-						"Marker": "Kg==",
-						"Num": -1
+						"Marker": "Kg=="
 					},
 					"Properties": {
 						"id": "20221126233646-6q2yh6c",
@@ -630,10 +476,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "列表页面会有发布预览，新窗口等功能。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "列表页面会有发布预览，新窗口等功能。"
 								}
 							]
 						},
@@ -647,10 +490,7 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "发布页面有设置、国际化、暗黑模式、平台绑定、平台设置、动态平台添加、平台开关等详细功能。后面会逐一讲解。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "发布页面有设置、国际化、暗黑模式、平台绑定、平台设置、动态平台添加、平台开关等详细功能。后面会逐一讲解。"
 								}
 							]
 						},
@@ -664,14 +504,100 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "初步配置可直接根据提示操作。详细设置请参考后面的文档。",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "初步配置可直接根据提示操作。详细设置请参考后面的文档。"
 								}
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20221129174319-vz80sjr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"custom-ankilink": "deck_name=\u0026quot;用户手册::快速配置\u0026quot;_esc_newline_tags=[\u0026quot;思源笔记\u0026quot;,\u0026quot;笔记\u0026quot;,\u0026quot;配置\u0026quot;,\u0026quot;挂件\u0026quot;]",
+				"id": "20221129174319-vz80sjr",
+				"updated": "20221207021448"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思源笔记挂件方式使用"
+				}
+			]
+		},
+		{
+			"ID": "20221207021453-r4eelsn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207021453-r4eelsn",
+				"updated": "20221207021537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "挂件方式使用\n首先在设置 - 集市 - 挂件 中下载 sy-post-publisher\n然后写好文章\n在文中最后面输入 / 找到挂件，选择 sy-post-publisher\n然后选择你需要的平台然后进行设置\n点击发布即可"
+				}
+			]
+		},
+		{
+			"ID": "20221205234900-2p5oows",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"custom-ankilink": "deck_name=\u0026quot;用户手册::快速配置\u0026quot;_esc_newline_tags=[\u0026quot;思源笔记\u0026quot;,\u0026quot;笔记\u0026quot;,\u0026quot;配置\u0026quot;,\u0026quot;浏览器\u0026quot;]",
+				"id": "20221205234900-2p5oows",
+				"updated": "20221207022249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浏览器直接访问"
+				}
+			]
+		},
+		{
+			"ID": "20221205234922-3alt4hv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221205234922-3alt4hv",
+				"updated": "20221207022625"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "打开思源笔记 "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，并在集市下载 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "sy-post-publisher"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 挂件，然后 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "在浏览器打开"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 下面的链接即可直接访问：\n"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://127.0.0.1:6806/widgets/sy-post-publisher/blog/?from=siyuan",
+					"TextMarkTextContent": "http://127.0.0.1:6806/widgets/sy-post-publisher/blog/?from=siyuan"
 				}
 			]
 		},
@@ -711,6 +637,338 @@
 				{
 					"Type": "NodeText",
 					"Data": "配置完成之后直接点击发布按钮，设置好属性发布即可。高级设置及操作后面会逐一讲解。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221202101438-pwxbljl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"custom-ankilink": "deck_name=\u0026quot;用户手册::快速配置\u0026quot;_esc_newline_tags=[\u0026quot;思源笔记\u0026quot;,\u0026quot;笔记\u0026quot;,\u0026quot;进阶\u0026quot;]",
+				"id": "20221202101438-pwxbljl",
+				"updated": "20221207030622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "进阶"
+				}
+			]
+		},
+		{
+			"ID": "20221204174015-hlw2zap",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221204174015-hlw2zap",
+				"updated": "20221207032052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过源码编译：\n"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/src-sy-post-publisher",
+					"TextMarkTextContent": "https://github.com/terwer/src-sy-post-publisher"
+				}
+			]
+		},
+		{
+			"ID": "20221204174043-sjc8dj6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221204174043-sjc8dj6",
+				"updated": "20221204174047"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git clone https://github.com/terwer/src-sy-post-publisher\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221204175602-seci0m7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221204175602-seci0m7",
+				"style": "text-align: left;",
+				"updated": "20221207133743"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhbnR1bWw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@startmindmap\n\nskinparam backgroundcolor transparent\n\n!include https://static-rs-terwer.oss-cn-beijing.aliyuncs.com/lib/uml/starter-skin.puml\n\n* sy-post-publisher\n\t* api/ 提供统一的需要server环境的API请求代理\n\t* assets/ 资源文件、样式文件等\n\t* components/ 通用组件\n\t* composables/ 可复用单元\n\t* layouts/ 页面布局\n\t* locals/ 国际化\n\t* pages/ 页面统一出口\n\t* plugins/ 插件\n\t* scripts/ 脚本（构建脚本、打包脚本等）\n\t* stores/ 存储\n\t* test/ 基于vitest的单元测试\n\t* typings/ 类型定义文件（主要用于开发阶段的代码智能提示）\n\t* utils/ 工具类\n\t* vite.config.ts 统一配置文件\n\t* vercel.json vercel部署描述文件\n\n@endmindmap"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221204180233-2ip1zki",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221204180233-2ip1zki",
+				"updated": "20221204180236"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "准备",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221204180237-ont07i5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221204180237-ont07i5",
+				"updated": "20221204180244"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "npm i -g pnpm\nnpm i -g vercel\npnpm install\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221204175821-qzxww41",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221204175821-qzxww41",
+				"updated": "20221204175826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "运行",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221204175827-fw1k553",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221204175827-fw1k553",
+				"updated": "20221204180248"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pnpm run serve\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221204180448-3zf73sl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221204180448-3zf73sl",
+				"updated": "20221204180507"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "大功告成。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221204180503-waezv7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221204180503-waezv7d",
+				"updated": "20221204180503"
+			}
+		},
+		{
+			"ID": "20221204181044-5n6aa2d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221204181044-5n6aa2d",
+				"updated": "20221204181059"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Copyright",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221204181054-qjkry22",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cGxhaW50ZXh0",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221204181054-qjkry22",
+				"updated": "20221204181119"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/*\n * Copyright (c) 2022, Terwer . All rights reserved.\n * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.\n *\n * This code is free software; you can redistribute it and/or modify it\n * under the terms of the GNU General Public License version 2 only, as\n * published by the Free Software Foundation.  Terwer designates this\n * particular file as subject to the \"Classpath\" exception as provided\n * by Terwer in the LICENSE file that accompanied this code.\n *\n * This code is distributed in the hope that it will be useful, but WITHOUT\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n * version 2 for more details (a copy is included in the LICENSE file that\n * accompanied this code).\n *\n * You should have received a copy of the GNU General Public License version\n * 2 along with this work; if not, write to the Free Software Foundation,\n * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.\n *\n * Please contact Terwer, Shenzhen, Guangdong, China, youweics@163.com\n * or visit www.terwer.space if you need additional information or have any\n * questions.\n */\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
 					"Properties": {
 						"id": ""
 					}

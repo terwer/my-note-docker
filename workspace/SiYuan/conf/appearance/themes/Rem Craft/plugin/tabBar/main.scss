@@ -84,7 +84,8 @@ $item-radius: get($radius, $item-type);
 
     .item {
       @include item-tran("base");
-      transition: unset !important;
+      transition: max-width get($transition-duration, "base")
+        get($transition-function, "ease-in-out") !important;
       height: $item-h;
       background-color: transparent;
       padding: 0 math.div($item-h - $inner-btn-w, 2);
@@ -157,9 +158,6 @@ $item-radius: get($radius, $item-type);
       &--pin {
         background-color: get($bg, "base", 1);
         min-width: unset;
-        &:has(.item__text.fn__none) {
-          padding: 0 12px;
-        }
         &:hover::after {
           z-index: 1;
         }
@@ -291,4 +289,12 @@ $item-radius: get($radius, $item-type);
 //  dock
 .dock--vertical {
   padding-top: $top-h - $interval;
+}
+
+// empty
+.layout__center:has(.layout__empty) {
+  padding-top: $top-h - $interval;
+  .layout-tab-container {
+    border-width: 1px;
+  }
 }

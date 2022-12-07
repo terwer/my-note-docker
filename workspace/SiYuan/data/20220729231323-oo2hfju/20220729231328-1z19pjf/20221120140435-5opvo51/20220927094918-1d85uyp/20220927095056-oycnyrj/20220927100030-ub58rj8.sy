@@ -4,17 +4,237 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220927100030-ub58rj8",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220927100030-232lsjs\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220927100030-232lsjs\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221201211731-1qpmstr\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221201143434-enjr70h\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221201211737-leoidsg\u0026quot;,\u0026quot;focusStart\u0026quot;:21,\u0026quot;focusEnd\u0026quot;:21}",
 		"title": "010.Hugo",
-		"updated": "20220927100034"
+		"updated": "20221201211827"
 	},
 	"Children": [
+		{
+			"ID": "20221201211731-1qpmstr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221201211731-1qpmstr",
+				"updated": "20221201211737"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装HUGO"
+				}
+			]
+		},
+		{
+			"ID": "20221201211737-leoidsg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221201211737-leoidsg",
+				"updated": "20221201211827"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "brew install hugo\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221129113447-wdd5vce",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221129113447-wdd5vce",
+				"updated": "20221129113452"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "准备工作",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
 		{
 			"ID": "20220927100030-232lsjs",
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220927100030-232lsjs",
-				"updated": "20220927100030"
+				"updated": "20221129113523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HUGO 博客部署：这个详细大家都已经会了。不过这里还是推荐一个最佳实践。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221129113243-th4n45v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221129113243-th4n45v",
+				"updated": "20221129113309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "推荐使用 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/hugo-next/hugo-theme-next-starter",
+					"TextMarkTextContent": "hugo-theme-next-starter"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 生成博客。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221129113327-eqqjeb9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221129113327-eqqjeb9",
+				"updated": "20221129113424"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "博客设置参考：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/hugo-next/hugo-theme-next#-direct-reference",
+					"TextMarkTextContent": "hugo-theme-next"
+				}
+			]
+		},
+		{
+			"ID": "20221201143436-6w9nk1l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201143436-6w9nk1l",
+				"updated": "20221201143518"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我开发此功能的测试博客：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://hugo.terwer.space",
+					"TextMarkTextContent": "https://hugo.terwer.space"
+				}
+			]
+		},
+		{
+			"ID": "20221201143505-ejvrr0b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201143505-ejvrr0b",
+				"updated": "20221201143533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "源码：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/hugo-blog",
+					"TextMarkTextContent": "https://github.com/terwer/hugo-blog"
+				}
+			]
+		},
+		{
+			"ID": "20221129113405-9081zq6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221129113405-9081zq6",
+				"updated": "20221129113539"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "发布配置",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201143434-enjr70h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201143434-enjr70h",
+				"updated": "20221201143434"
 			}
 		}
 	]

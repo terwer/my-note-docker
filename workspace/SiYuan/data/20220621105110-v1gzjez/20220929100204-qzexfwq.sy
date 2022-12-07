@@ -4,16 +4,26 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220929100204-qzexfwq",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221205193952-ysq601p\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221205194120-m5f6su7\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221205194120-m5f6su7\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "daily note",
-		"updated": "20220929100204"
+		"updated": "20221205194120"
 	},
 	"Children": [
 		{
-			"ID": "20220929100204-8ev1r7a",
+			"ID": "20221205193952-ysq601p",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1134px; height: 578px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221205193952-ysq601p",
+				"style": "text-align: left;",
+				"updated": "20221205193952"
+			}
+		},
+		{
+			"ID": "20221205194120-m5f6su7",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220929100204-8ev1r7a",
-				"updated": "20220929100204"
+				"id": "20221205194120-m5f6su7"
 			}
 		}
 	]

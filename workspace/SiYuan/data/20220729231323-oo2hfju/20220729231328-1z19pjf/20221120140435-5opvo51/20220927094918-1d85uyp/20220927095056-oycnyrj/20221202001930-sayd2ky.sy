@@ -1,0 +1,85 @@
+{
+	"ID": "20221202001930-sayd2ky",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221202001930-sayd2ky",
+		"title": "015.Next",
+		"updated": "20221202003145"
+	},
+	"Children": [
+		{
+			"ID": "20221202001930-yu1jvj2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221202001930-yu1jvj2",
+				"updated": "20221202001954"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "准备工作"
+				}
+			]
+		},
+		{
+			"ID": "20221202001954-hzcwntq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221202001954-hzcwntq",
+				"updated": "20221202003128"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/vercel/swr",
+					"TextMarkTextContent": "https://content.nuxtjs.org/get-started"
+				}
+			]
+		},
+		{
+			"ID": "20221202002052-9lpn4w0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221202002052-9lpn4w0",
+				"updated": "20221202003134"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我的测试博客："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/next-blog",
+					"TextMarkTextContent": "https://github.com/terwer/next-blog"
+				}
+			]
+		},
+		{
+			"ID": "20221202002735-21fg3cr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221202002735-21fg3cr",
+				"updated": "20221202003144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发布配置"
+				}
+			]
+		},
+		{
+			"ID": "20221202003145-fc7osb7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221202003145-fc7osb7"
+			}
+		}
+	]
+}

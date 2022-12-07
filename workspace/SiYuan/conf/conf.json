@@ -2,24 +2,31 @@
   "logLevel": "debug",
   "appearance": {
     "mode": 1,
-    "modeOS": false,
+    "modeOS": true,
     "darkThemes": [
+      "Dark+",
       "Rem Craft",
+      "Savor",
+      "Sofill-",
       "midnight"
     ],
     "lightThemes": [
+      "Dark+",
       "Rem Craft",
-      "daylight"
+      "Savor",
+      "Sofill-",
+      "daylight",
+      "pink-room"
     ],
     "themeDark": "Rem Craft",
     "themeLight": "Rem Craft",
-    "themeVer": "2.4.0",
+    "themeVer": "2.5.3",
     "icons": [
       "ant",
       "material"
     ],
     "icon": "material",
-    "iconVer": "1.7.0",
+    "iconVer": "1.9.0",
     "nativeEmoji": true,
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "base16/dracula",
@@ -206,7 +213,7 @@
               ],
               "direction": "tb",
               "instance": "Layout",
-              "size": "406px",
+              "size": "400px",
               "type": "left"
             },
             {
@@ -216,41 +223,18 @@
                     {
                       "children": {
                         "action": "",
-                        "blockId": "20220927094918-1d85uyp",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220729231323-oo2hfju",
-                        "rootId": "20220927094918-1d85uyp",
-                        "scrollAttr": {
-                          "endId": "20221127012202-399tuod",
-                          "focusEnd": 0,
-                          "focusId": "20221127012202-399tuod",
-                          "focusStart": 0,
-                          "scrollTop": 0,
-                          "startId": "20221127010842-hiwpczz"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "002.用户手册"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "",
                         "blockId": "20220927094926-qvm83k2",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20220729231323-oo2hfju",
                         "rootId": "20220927094926-qvm83k2",
                         "scrollAttr": {
-                          "endId": "20221127001411-cq9d140",
-                          "focusEnd": 0,
-                          "focusId": "20221127001334-fcycb4u",
-                          "focusStart": 0,
-                          "scrollTop": 0,
-                          "startId": "20221127001334-fcycb4u"
+                          "endId": "20221204181054-qjkry22",
+                          "focusEnd": 5,
+                          "focusId": "20221204180448-3zf73sl",
+                          "focusStart": 5,
+                          "scrollTop": 2964,
+                          "startId": "20221201191244-kkgghl6"
                         }
                       },
                       "docIcon": "1f5a5",
@@ -261,24 +245,151 @@
                     {
                       "children": {
                         "action": "",
-                        "blockId": "20220928144033-i1o1ikj",
+                        "blockId": "20220708165128-7rypbi7",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220708084833-fgfcb6r",
+                        "rootId": "20220708165128-7rypbi7",
+                        "scrollAttr": {
+                          "endId": "20221203133303-lik0syb",
+                          "focusEnd": 2173,
+                          "focusId": "20220708165418-touu2bn",
+                          "focusStart": 2173,
+                          "scrollTop": 4948,
+                          "startId": "20220708165418-touu2bn"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "平台账号"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221207165230-6vxqiia",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220621105123-dlyn6nl",
+                        "rootId": "20221207165230-6vxqiia",
+                        "scrollAttr": {
+                          "endId": "20221207165332-0g9uuu3",
+                          "focusEnd": 266,
+                          "focusId": "20221207165230-9o6qe5r",
+                          "focusStart": 266,
+                          "scrollTop": 0,
+                          "startId": "20221207165230-qxbntze"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "使用TypeScript写一个Vue-js插件"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221207171218-3mxnb2l",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20221013095018-ehr3cbb",
+                        "rootId": "20221207171218-3mxnb2l",
+                        "scrollAttr": {
+                          "endId": "20221207171218-4thmtw6",
+                          "scrollTop": 0,
+                          "startId": "20221207171218-4thmtw6"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "003.服务端开发"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221207171234-gqss6tp",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20221013095018-ehr3cbb",
+                        "rootId": "20221207171234-gqss6tp",
+                        "scrollAttr": {
+                          "endId": "20221207171234-mjneqc0",
+                          "focusEnd": 0,
+                          "focusId": "20221207171234-mjneqc0",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20221207171234-mjneqc0"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "004.前端开发"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221207171247-xblx4sd",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20221013095018-ehr3cbb",
+                        "rootId": "20221207171247-xblx4sd",
+                        "scrollAttr": {
+                          "endId": "20221207171247-ymd0bzq",
+                          "scrollTop": 0,
+                          "startId": "20221207171247-ymd0bzq"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "《JavaScript高级程序设计》"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20220905122249-qxymgvu",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220712031439-h4ut7wc",
+                        "rootId": "20220905122012-0eu1hns",
+                        "scrollAttr": {
+                          "endId": "20220905122339-4kt2xrj",
+                          "focusEnd": 0,
+                          "focusId": "20220905122249-qxymgvu",
+                          "focusStart": 0,
+                          "scrollTop": 255,
+                          "startId": "20220905122249-mmgjilp"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "001.Java_SE之Java_SE平台与JDK"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20220927094918-1d85uyp",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20220729231323-oo2hfju",
-                        "rootId": "20220928144033-i1o1ikj",
+                        "rootId": "20220927094918-1d85uyp",
                         "scrollAttr": {
-                          "endId": "20221127140654-s108dm7",
-                          "focusEnd": 12,
-                          "focusId": "20221127141252-kqoc1z3",
+                          "endId": "20221127010842-hiwpczz",
+                          "focusEnd": 0,
+                          "focusId": "20221127010842-hiwpczz",
                           "focusStart": 0,
-                          "scrollTop": 0,
-                          "startId": "20221127011041-9v4mfyp"
+                          "scrollTop": 56,
+                          "startId": "20221127010842-hiwpczz"
                         }
                       },
-                      "docIcon": "1f351",
+                      "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "000.文档首页"
+                      "title": "002.用户手册"
                     }
                   ],
                   "height": "",
@@ -348,7 +459,7 @@
           "show": true,
           "size": {
             "height": 0,
-            "width": 406
+            "width": 400
           },
           "type": "file"
         },
@@ -441,23 +552,22 @@
   },
   "readonly": false,
   "localIPs": [
-    "2.0.0.1",
-    "192.168.3.2",
+    "192.168.248.37",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "071f35ed-1eb1-4971-9fd1-28cdbf0187de",
-    "kernelVersion": "2.5.1",
-    "os": "windows",
+    "id": "73C2A36A-4EC9-506D-AD05-90621F13A64A",
+    "kernelVersion": "2.5.3",
+    "os": "darwin",
     "container": "std",
-    "isMicrosoftStore": true,
+    "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\Terwer",
-    "workspaceDir": "C:\\Users\\Terwer\\Documents\\mydocs\\my-note-docker\\workspace\\SiYuan",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_2.5.1.0_x64__1qfd3tsw4ngc2\\app\\resources",
-    "confDir": "C:\\Users\\Terwer\\Documents\\mydocs\\my-note-docker\\workspace\\SiYuan\\conf",
-    "dataDir": "C:\\Users\\Terwer\\Documents\\mydocs\\my-note-docker\\workspace\\SiYuan\\data",
+    "homeDir": "/Users/terwer",
+    "workspaceDir": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan",
+    "appDir": "/Applications/SiYuan.app/Contents/Resources",
+    "confDir": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan/conf",
+    "dataDir": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan/data",
     "networkServe": false,
     "fixedPort": true,
     "networkProxy": {
@@ -474,8 +584,8 @@
     "cloudName": "main",
     "enabled": true,
     "mode": 1,
-    "synced": 1669562848748,
-    "stat": "同步于 2022-11-27 23:27:28\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 20 kB/37 kB",
+    "synced": 1670408858915,
+    "stat": "同步于 2022-12-07 18:27:38\n\n上传/下载文件数 0/1\n上传/下载分块数 0/0\n发送/接收字节数 0 B/38 kB",
     "generateConflictDoc": false,
     "provider": 2,
     "s3": {
@@ -485,13 +595,15 @@
       "bucket": "terwer",
       "region": "oss-cn-qingdao",
       "pathStyle": true,
-      "skipTlsVerify": true
+      "skipTlsVerify": true,
+      "timeout": 30
     },
     "webdav": {
       "endpoint": "",
       "username": "",
       "password": "",
-      "skipTlsVerify": false
+      "skipTlsVerify": false,
+      "timeout": 30
     }
   },
   "search": {
@@ -524,13 +636,13 @@
     "virtualRefKeywordsLimit": 512
   },
   "stat": {
-    "treeCount": 502,
+    "treeCount": 517,
     "cTreeCount": 1000,
-    "blockCount": 10897,
+    "blockCount": 11102,
     "cBlockCount": 20000,
-    "dataSize": 65591818,
+    "dataSize": 59641929,
     "cDataSize": 104857600,
-    "assetsSize": 8458269,
+    "assetsSize": 7392914,
     "cAssetsSize": 104857600
   },
   "api": {

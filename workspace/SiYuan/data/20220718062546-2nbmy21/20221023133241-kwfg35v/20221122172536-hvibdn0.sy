@@ -7,10 +7,10 @@
 		"custom-liandi-post-id": "1669226673080",
 		"custom-slug": "in-the-project-of-vite-typescript-replace-src-root-path-5ox0i",
 		"id": "20221122172536-hvibdn0",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221122172536-8q2pcmp\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221123020752-cvbhl9h\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221122173152-yfvpi79\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:87}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221122172536-8q2pcmp\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221123020752-cvbhl9h\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221122172700-0p7sfsd\u0026quot;,\u0026quot;focusStart\u0026quot;:10,\u0026quot;focusEnd\u0026quot;:10}",
 		"tags": "项目,组件,vite,typescript,src,relative,path,相对路径,绝对路径,vue,vue3",
 		"title": "030.在Vite+TypeScript的项目中使用~和@代替src根路径的方法",
-		"updated": "20221122172646"
+		"updated": "20221122194437"
 	},
 	"Children": [
 		{

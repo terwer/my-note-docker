@@ -10,8 +10,7 @@ $wnd-radius: get($radius, "medium");
 //边窗动画
 $time: get($transition-duration, "base");
 $func: get($transition-function, "ease-in-out");
-$scale: scale(0.75);
-$wnd-transition: all $time $func 0s;
+$scale: scale(0.1);
 
 :root {
   // 动画效果
@@ -28,12 +27,6 @@ $wnd-transition: all $time $func 0s;
     max-height: 100%;
   }
 
-  50% {
-    opacity: 0;
-    transform: $scale;
-    max-height: 100%;
-  }
-
   to {
     opacity: 0;
     transform: $scale;
@@ -41,11 +34,24 @@ $wnd-transition: all $time $func 0s;
   }
 }
 
+@keyframes open {
+  from {
+    opacity: 0;
+    transform: $scale;
+    max-height: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    max-height: 100%;
+  }
+}
+
 @mixin wnd {
   min-height: 10% !important;
   margin: $interval;
   border-radius: $wnd-radius;
-  transition: all $time $func 0s;
   background-color: $wnd-bg;
   border: $fn-border;
 }
@@ -58,40 +64,18 @@ $wnd-transition: all $time $func 0s;
   > .fn__flex-column:not(.layout__center) {
     // 显示的边窗
     > .fn__flex {
-      overflow-x: hidden;
+      overflow: hidden;
+      transition: all $time $func 0s;
+      animation: open $time forwards $func;
+      
+      // 隐藏的边窗
+      &.fn__none {
+        display: flex !important;
+        animation: close $time forwards $func;
+      }
 
       > div[data-type="wnd"] {
         @include wnd;
-      }
-
-      &:has(+ .layout__resize.fn__none),
-      &:last-child {
-        > [data-type="wnd"] {
-          padding-bottom: status.$s-h - $interval;
-        }
-      }
-    }
-
-    // 隐藏的边窗
-    > .fn__none:not(.layout__resize) {
-      display: flex !important;
-      animation: close $time * 2 forwards $func;
-
-      > [data-type="wnd"] {
-        @include wnd;
-        opacity: 0;
-        transform: $scale; //translateX(50%);
-      }
-    }
-  }
-
-  //左侧边窗特殊处理
-  > .fn__flex-shrink:not(.layout__center) {
-    > .fn__none:not(.layout__resize) {
-      animation: close $time * 2 forwards $func;
-
-      > [data-type="wnd"] {
-        transform: $scale;
       }
     }
   }
@@ -124,57 +108,9 @@ $wnd-transition: all $time $func 0s;
 // 居中窗口
 .layout__center {
   background-color: transparent; //$wnd-base;
-  
+
   [data-type="wnd"] {
     position: relative;
     @include wnd;
-
-    // 标签搜索页面
-    .fn__flex-column[style*="min-height"][style*="50%"]
-      > .fn__flex:first-child {
-      padding: 8px !important;
-    }
-
-    // 搜索历史按钮
-    #searchHistoryBtn {
-      @include component();
-      width: 36px;
-
-      svg {
-        &:first-child {
-          @include svg(12px);
-        }
-
-        &:last-child {
-          @include svg(8px, $important: true);
-          margin-left: 2px;
-        }
-      }
-    }
-
-    // 刷新按钮
-    #globalSearchReload {
-      @include icon-btn("page", get($component-size, "base"), 12px);
-    }
-
-    //搜索结果统计
-    #globalSearchResult {
-      @include component();
-      margin: 0 $fn-space $interval !important;
-      padding: 0 8px 4px;
-      cursor: unset;
-      background-color: transparent !important; //get($bg,"component");
-    }
-
-    // 搜索结果列表
-    #globalSearchList {
-      padding: 0;
-      margin: 0 $fn-space;
-    }
-
-    // 搜索结果列表项
-    [data-type="search-item"].b3-list-item {
-      @include search.search-item();
-    }
   }
 }

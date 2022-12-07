@@ -1,0 +1,285 @@
+{
+	"ID": "20221206113349-igyvazq",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221206113349-igyvazq",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221206113409-iggm8g7\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221206113452-zj6j8vg\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221206113452-zj6j8vg\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "2022-12-06",
+		"updated": "20221206113639"
+	},
+	"Children": [
+		{
+			"ID": "20221206113409-iggm8g7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221206113409-iggm8g7",
+				"updated": "20221206113409"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "工作",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221206113409-cpcdcao",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3,
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221206113409-cpcdcao",
+				"updated": "20221206113409"
+			},
+			"Children": [
+				{
+					"ID": "20221206113409-36rk6v3",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Typ": 3,
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221206113409-36rk6v3",
+						"updated": "20221206113409"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"Data": "[ ]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"ID": "20221206113409-sghzdr6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221206113409-sghzdr6",
+								"updated": "20221206113409"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "培训报名截止未到开班时间允许修改开班时间，同步到 V15",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221206113456-4frexsq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221206113456-4frexsq",
+				"updated": "20221206113501"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "业余",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221206113501-z5496x4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3,
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221206113501-z5496x4",
+				"updated": "20221206113526"
+			},
+			"Children": [
+				{
+					"ID": "20221206113505-boota9y",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Typ": 3,
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221206113505-boota9y",
+						"updated": "20221206113526"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker",
+							"Data": "[ ]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"ID": "20221206113505-ydcb534",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221206113505-ydcb534",
+								"updated": "20221206113526"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修复 vuepress-vdoding-comment 缺陷",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221206113409-u0oy96d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221206113409-u0oy96d",
+				"updated": "20221206113409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "生活"
+				}
+			]
+		},
+		{
+			"ID": "20221206113607-zp7m1qu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 3
+			},
+			"Properties": {
+				"id": "20221206113607-zp7m1qu",
+				"updated": "20221206113639"
+			},
+			"Children": [
+				{
+					"ID": "20221206113617-vsy7wwy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221206113617-vsy7wwy",
+						"updated": "20221206113617"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20221206113617-bnd9nny",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221206113617-bnd9nny",
+								"updated": "20221206113627"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "过年回家事宜，村上不让回家"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221206113627-syxedki",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 3,
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221206113627-syxedki",
+						"updated": "20221206113639"
+					},
+					"Children": [
+						{
+							"Type": "NodeTaskListItemMarker"
+						},
+						{
+							"ID": "20221206113627-gp98vvd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221206113627-gp98vvd",
+								"updated": "20221206113639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "元旦去武汉医院检查"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221206113452-zj6j8vg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221206113452-zj6j8vg",
+				"updated": "20221206113452"
+			}
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"ID": "20221202001916-qt7lm1j",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221202001916-qt7lm1j",
+		"title": "014.Nuxt",
+		"updated": "20221202003029"
+	},
+	"Children": [
+		{
+			"ID": "20221202003029-ibxla0b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221202003029-ibxla0b",
+				"updated": "20221202003029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "准备工作"
+				}
+			]
+		},
+		{
+			"ID": "20221202003029-bpoyw0g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221202003029-bpoyw0g",
+				"updated": "20221202003029"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://content.nuxtjs.org/get-started",
+					"TextMarkTextContent": "https://content.nuxtjs.org/get-started"
+				}
+			]
+		},
+		{
+			"ID": "20221202003029-l4ew9r5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221202003029-l4ew9r5",
+				"updated": "20221202003029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我的测试博客："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/terwer/nuxt-blog",
+					"TextMarkTextContent": "https://github.com/terwer/nuxt-blog"
+				}
+			]
+		}
+	]
+}

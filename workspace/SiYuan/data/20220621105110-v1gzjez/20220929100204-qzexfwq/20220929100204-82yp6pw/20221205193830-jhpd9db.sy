@@ -1,0 +1,23 @@
+{
+	"ID": "20221205193830-jhpd9db",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221205193830-jhpd9db",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221205194305-ub9p4qx\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221205194305-ub9p4qx\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221205194305-ub9p4qx\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "12",
+		"updated": "20221205194305"
+	},
+	"Children": [
+		{
+			"ID": "20221205194305-ub9p4qx",
+			"Type": "NodeWidget",
+			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1135px; height: 512px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221205194305-ub9p4qx",
+				"style": "text-align: left;",
+				"updated": "20221205194305"
+			}
+		}
+	]
+}

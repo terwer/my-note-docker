@@ -1,0 +1,2537 @@
+{
+	"ID": "20221201123329-6dbgvf5",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "[scodetype=]dict字典类型[scode]字典是​有序键不重复且元素只能是键值对的可变的数据容器。在python中用​​dict​表示。注意_在python之前字典是无序的之后就是有序的了。一定义字典是包含个或多个键值对元素组成的有序字典。字典可以对元素进行增加删除替换查找等操作。字典没有长度的限制但键必须是可哈希。字典用{k_v}​表示也可以通过dict()​函数创建空字典或将一对的集合或字符串类型转换为字典类型。注意_字典的键不能重复重复则会被覆盖#创建字典方式一data={}print(",
+		"custom-slug": "data-type-dictionary-type-z26jjrh",
+		"id": "20221201123329-6dbgvf5",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221201123330-q4n8n6g\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221201123410-6tdeb65\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221201123330-q4n8n6g\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"tags": "字典,有序,重复,元素,类型",
+		"title": "数据类型之字典类型",
+		"updated": "20221201123329"
+	},
+	"Children": [
+		{
+			"ID": "20221201123330-q4n8n6g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221201123330-q4n8n6g",
+				"updated": "20221201123330"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "数据类型之字典类型",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123331-aljbkne",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221201123331-aljbkne",
+				"updated": "20221201123331"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "[scode type=\"green\" size=\"\"]dict  字典类型[/scode]",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123332-1zauqqo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123332-1zauqqo",
+				"updated": "20221201123332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "字典是"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "有序、键不重复且元素只能是键值对的可变****的数据容器。在Python中用 ​"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "dict"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "表示。"
+				}
+			]
+		},
+		{
+			"ID": "20221201123333-c2s9z5l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123333-c2s9z5l",
+				"updated": "20221201123333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "注意：在Python3.6之前字典是无序的，之后就是有序的了。"
+				}
+			]
+		},
+		{
+			"ID": "20221201123334-74mxt34",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221201123334-74mxt34",
+				"updated": "20221201123334"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "一、定义",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123335-p60ou4z",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20221201123335-p60ou4z",
+				"updated": "20221201123335"
+			},
+			"Children": [
+				{
+					"ID": "20221201123336-jktucdj",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221201123336-jktucdj",
+						"updated": "20221201123336"
+					},
+					"Children": [
+						{
+							"ID": "20221201123337-mytduuu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123337-mytduuu",
+								"updated": "20221201123337"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字典是包含0个或多个键值对元素组成的有序字典。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221201123338-evj964l",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221201123338-evj964l",
+						"updated": "20221201123338"
+					},
+					"Children": [
+						{
+							"ID": "20221201123339-etmvdd4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123339-etmvdd4",
+								"updated": "20221201123339"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字典可以对元素进行增加、删除、替换、查找等操作。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221201123340-ei6snk7",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221201123340-ei6snk7",
+						"updated": "20221201123340"
+					},
+					"Children": [
+						{
+							"ID": "20221201123341-48ek3uo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123341-48ek3uo",
+								"updated": "20221201123341"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字典没有长度的限制，但键必须是可哈希。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221201123342-77wa4f8",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221201123342-77wa4f8",
+						"updated": "20221201123342"
+					},
+					"Children": [
+						{
+							"ID": "20221201123343-7irslmj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123343-7irslmj",
+								"updated": "20221201123343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字典用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "{k:v}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 表示，也可以通过 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "dict()"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 函数创建空字典或将一对的集合或字符串类型转换为字典类型。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221201123344-5ji8oqa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123344-5ji8oqa",
+				"updated": "20221201123344"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　注意：字典的键不能重复，重复则会被覆盖",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123345-i0b32ra",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123345-i0b32ra",
+				"updated": "20221201123345"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 创建字典方式一\ndata = {\"uesr\":\"pwd\",\"uesr\",\"123\"}\nprint(data)   # {\"uesr\",\"123\"}\n\n# 创建字典方式二\nv1 = {}  # 空字典\nv2 = dict()\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123346-i5ok037",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123346-i5ok037",
+				"updated": "20221201123346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　当我们想要表示一组固定的信息时，用字典更加直观。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123347-19m7ajg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123347-19m7ajg",
+				"updated": "20221201123347"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 用户列表\nuser_list = [{\"name\":\"lishi\",\"pwd\",\"123\"},{\"name\":\"zhangsan\",\"pwd\",\"1230\"}]\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123348-csqlgio",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221201123348-csqlgio",
+				"updated": "20221201123348"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "二、字典类型的操作"
+				}
+			]
+		},
+		{
+			"ID": "20221201123349-xxybyey",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123349-xxybyey",
+				"updated": "20221201123349"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "1、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "get"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 获取值",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123350-5wlsu5v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123350-5wlsu5v",
+				"updated": "20221201123350"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data = {\"name\":\"张三\",\"age\":27}\nv1 = data.get(\"name\")\n\nprint(v1)\n# 张三\n\nv2 = data.get(\"age\")\nprint(v2)\n# 27\n\nv3 = data.get(\"emall\")\nprint(v3)\n# None  当没有键时，默认返回None\n\nif v3:\n    print(v3)\nelse:\n    print(\"没有这个键\")\n# 没有这个键\n\nv4 = data.get(\"boyy\",123)\nprint(v1)  # 存在键名就返回键名，不存在就返回后面的值。\n# 123\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123351-x2q1xhh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123351-x2q1xhh",
+				"updated": "20221201123351"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "keys"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 取​所有的键",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123352-5y88w1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123352-5y88w1r",
+				"updated": "20221201123352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "输出的是一个高仿的列表，这个高仿的列表可以被循环。也可以判断是否存在。"
+				}
+			]
+		},
+		{
+			"ID": "20221201123353-ec4b3t2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123353-ec4b3t2",
+				"updated": "20221201123353"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata = data_dict.keys()\nprint(data)  # dict_keys(['name', 'age']) \n# 输出的是一个高仿的列表，这个高仿的列表可以被循环。也可以判断是否存在。\n\nfor ele in data:\n    print(ele)\n#  name\n#  age\n\nif \"name\" in data:\n    print(\"name这个键存在\")\n#  name这个键存在\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123354-k1mxnzj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123354-k1mxnzj",
+				"updated": "20221201123354"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "3、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "values"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 取所有的值",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123355-9z42dks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123355-9z42dks",
+				"updated": "20221201123355"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "输出的也是高仿的列表。"
+				}
+			]
+		},
+		{
+			"ID": "20221201123356-drr9gq6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123356-drr9gq6",
+				"updated": "20221201123356"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata = data_dict .values()\nprint(data)  # dict_values(['张三', 27])\n# 获取所有的值，也是一个高仿的列表。\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123357-qjcud2m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123357-qjcud2m",
+				"updated": "20221201123357"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "4、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "items"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 取所有的键值对",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123358-9k36juv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123358-9k36juv",
+				"updated": "20221201123358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "输出的也是高仿的列表，里面存放的是元组类型。"
+				}
+			]
+		},
+		{
+			"ID": "20221201123359-jkv53h7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123359-jkv53h7",
+				"updated": "20221201123359"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata = data_dict.items()\nprint(data)  # dict_items([('name', '张三'), ('age', 27)])\n# 也是高仿的列表，里面是元组。\n\nfor item in data:\n    print(item)  # 输出的是元组\n    # ('name', '张三')\n    # ('age', 27)\n    print(item[0],item[1])  \n    # name 张三\n    # age 27\n-------------------------------------------\nfor key,value in data:\n    print(key,value)  # 将键值从元组里取出来,输出的是字符串\n    # name 张三\n    # age 27\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123360-gzwgmic",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123360-gzwgmic",
+				"updated": "20221201123360"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "5、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "setdefault"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 设置值/添加值",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123361-h5dtnfe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123361-h5dtnfe",
+				"updated": "20221201123361"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "字典里面有的键值对不做改变，没有就添加进去。"
+				}
+			]
+		},
+		{
+			"ID": "20221201123362-8kskcvj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123362-8kskcvj",
+				"updated": "20221201123362"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata_dict.setdefault(\"emall\",123456)\nprint(data_dict )  # {'name': '张三', 'age': 27, 'emall': 123456}\n\n# 如有添加的键则不做改变。\ndata_dict.setdefault(\"name\",\"李四\")\nprint(data_dict )  # {'name': '张三', 'age': 27, 'emall': 123456}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123363-sj2hlmv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123363-sj2hlmv",
+				"updated": "20221201123363"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "6、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "update"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 更新字典的键值对",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123364-it02zek",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123364-it02zek",
+				"updated": "20221201123364"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "字典里面有的键值对就改变值，没有就添加进去。"
+				}
+			]
+		},
+		{
+			"ID": "20221201123365-anpc4xp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123365-anpc4xp",
+				"updated": "20221201123365"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata_dict.update({'name': '李四', 'age': 29, 'emall': 444593})\nprint(data_dict)  # {'name': '李四', 'age': 29, 'emall': 444593}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123366-0mu7add",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123366-0mu7add",
+				"updated": "20221201123366"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "7、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "pop"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 移除指定键值对",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123367-j7fc2kh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123367-j7fc2kh",
+				"updated": "20221201123367"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "移除的值可以赋值给一个变量"
+				}
+			]
+		},
+		{
+			"ID": "20221201123368-gyvpl3b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123368-gyvpl3b",
+				"updated": "20221201123368"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata = data_dict.pop(\"age\")  #  没有 键 则会报错\nprint(data_dict)  # {'name': '张三'}\nprint(data)  # 27\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123369-ua9h68j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123369-ua9h68j",
+				"updated": "20221201123369"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "8、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "popitem"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 按顺序移除",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123370-rbd4azl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123370-rbd4azl",
+				"updated": "20221201123370"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata = data_dict.popitem()\nprint(data_dict)  # {'age': 27}\nprint(data)  # ('name', '张三')\n\ndata = data_dict.popitem()\nprint(data_dict)  #  {}\nprint(data)  #  ('age', 27)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123371-zug1728",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123371-zug1728",
+				"updated": "20221201123371"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　注意：Python3.6之前popitem是随机移除，Python3.6之后popitem改为移除第一个键值对。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123372-x92a8k3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123372-x92a8k3",
+				"updated": "20221201123372"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "9、求并集 （Python3.9加入的功能）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123373-bj129ky",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123373-bj129ky",
+				"updated": "20221201123373"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "如果多个字典中有相同的键，则取最后的字典的值。"
+				}
+			]
+		},
+		{
+			"ID": "20221201123374-w7xcvel",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123374-w7xcvel",
+				"updated": "20221201123374"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "v1 = {\"k1\":1,\"k2\":2}\nv2 = {\"k2\":33,\"k3\":10}\n\nv3 = v1|v2\nprint(v3)  # 输出： {'k1': 1, 'k2': 33, 'k3': 10}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123375-2ovh369",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123375-2ovh369",
+				"updated": "20221201123375"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "10、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "len"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 求长度",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123376-tc2fabb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123376-tc2fabb",
+				"updated": "20221201123376"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata = len(data_dict)\nprint(data)  # 2\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123377-tc801g9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123377-tc801g9",
+				"updated": "20221201123377"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "11、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "[key]"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 索引",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123378-mzjiedh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123378-mzjiedh",
+				"updated": "20221201123378"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "字典不同于元组和列表，字典的索引是  ​"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​**",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "键"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "**​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123379-ky3i2ac",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221201123379-ky3i2ac",
+				"updated": "20221201123379"
+			},
+			"Children": [
+				{
+					"ID": "20221201123380-lnu5fcy",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221201123380-lnu5fcy",
+						"updated": "20221201123380"
+					},
+					"Children": [
+						{
+							"ID": "20221201123381-z50p9gn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123381-z50p9gn",
+								"updated": "20221201123381"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "获取值，没有键就会报错",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221201123382-1549ewy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123382-1549ewy",
+				"updated": "20221201123382"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\nprint(data_dict[\"name\"])  # 张三\nprint(data_dict[\"age\"])   # 27\nprint(data_dict[\"xxx\"])   # 报错，没有这个键\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123383-qa226kq",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221201123383-qa226kq",
+				"updated": "20221201123383"
+			},
+			"Children": [
+				{
+					"ID": "20221201123384-xfur61h",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221201123384-xfur61h",
+						"updated": "20221201123384"
+					},
+					"Children": [
+						{
+							"ID": "20221201123385-d205079",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123385-d205079",
+								"updated": "20221201123385"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "增加值，没有键就会增加",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221201123386-vadw4ll",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123386-vadw4ll",
+				"updated": "20221201123386"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata_dict[\"gender\"] = \"男\"\nprint(data_dict)  # {'name': '张三', 'age': 27, 'gender': '男'}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123387-vio2eqr",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221201123387-vio2eqr",
+				"updated": "20221201123387"
+			},
+			"Children": [
+				{
+					"ID": "20221201123388-xb20zt8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221201123388-xb20zt8",
+						"updated": "20221201123388"
+					},
+					"Children": [
+						{
+							"ID": "20221201123389-dv17f7v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123389-dv17f7v",
+								"updated": "20221201123389"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修改值，有键就会更改原来的键值",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221201123390-rfl6ny7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123390-rfl6ny7",
+				"updated": "20221201123390"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\ndata_dict[\"name\"] = \"李四\"\nprint(data_dict)  # {'name': '李四', 'age': 27}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123391-kl5l3yk",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221201123391-kl5l3yk",
+				"updated": "20221201123391"
+			},
+			"Children": [
+				{
+					"ID": "20221201123392-6jomd4r",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221201123392-6jomd4r",
+						"updated": "20221201123392"
+					},
+					"Children": [
+						{
+							"ID": "20221201123393-s11jnzn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123393-s11jnzn",
+								"updated": "20221201123393"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除值，没有键就会报错",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221201123394-r5tuwgb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123394-r5tuwgb",
+				"updated": "20221201123394"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张俊\",\"age\":27}\ndel data_dict[\"name\"]\nprint(dict)  # {\"age\":27}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123395-1c7k92x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123395-1c7k92x",
+				"updated": "20221201123395"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "注意：字典尽量使用"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​**",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "get"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "​"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "取值，",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "​"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "get"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "​"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "取值没有  键  不会报错。**",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123396-1mxgh4c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123396-1mxgh4c",
+				"updated": "20221201123396"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "12、",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "for"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 循环",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123397-3nz85p5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123397-3nz85p5",
+				"updated": "20221201123397"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data_dict = {\"name\":\"张三\",\"age\":27}\nfor data in data_dict:\n    print(data)  # 默认循环的是 键\n    # name\n    # age\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123398-9o7g7rp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123398-9o7g7rp",
+				"updated": "20221201123398"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "13、类型转换",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123399-sxpx6gd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123399-sxpx6gd",
+				"updated": "20221201123399"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "元素必须一对一对的才能转换"
+				}
+			]
+		},
+		{
+			"ID": "20221201123400-ki93sct",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123400-ki93sct",
+				"updated": "20221201123400"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "v = dict((\"k1\",\"v1\"))\nprint(v)\n# {'k': '1', 'v': '1'}\n\nv = dict([\"k1\",\"v1\"])\nprint(v)\n# {'k': '1', 'v': '1'}\n\nv = dict([(\"k1\",\"v1\"),(\"k2\",\"v2\")])\nprint(v)\n# {'k1': 'v1', 'k2': 'v2'}\n\nv = dict([[\"k1\",\"v1\"],[\"k2\",\"v2\"]])\nprint(v)\n# {'k1': 'v1', 'k2': 'v2'}\n\nv = dict(([\"k1\",\"v1\"],[\"k2\",\"v2\"]))\nprint(v)\n# {'k1': 'v1', 'k2': 'v2'}\n\nv = dict(((\"k1\",\"v1\"),(\"k2\",\"v2\")))\nprint(v)\n# {'k1': 'v1', 'k2': 'v2'}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123401-1moec83",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123401-1moec83",
+				"updated": "20221201123401"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "14、嵌套",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123402-wgzcc4a",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221201123402-wgzcc4a",
+				"updated": "20221201123402"
+			},
+			"Children": [
+				{
+					"ID": "20221201123403-m0lc1ic",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221201123403-m0lc1ic",
+						"updated": "20221201123403"
+					},
+					"Children": [
+						{
+							"ID": "20221201123404-pf23xbb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123404-pf23xbb",
+								"updated": "20221201123404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字典的键必须可哈希",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221201123405-tcwb7lw",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221201123405-tcwb7lw",
+						"updated": "20221201123405"
+					},
+					"Children": [
+						{
+							"ID": "20221201123406-p4c4bor",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221201123406-p4c4bor",
+								"updated": "20221201123406"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字典的值可以是任意类型",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221201123407-jlha6nn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "cHl0aG9u",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221201123407-jlha6nn",
+				"updated": "20221201123407"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cHl0aG9u",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "data = {\"name\":\"张三\",\"age\":27,\"hobby\":['足球','篮球']}\nprint(data)\n\ndata = {\"name\":\"张三\",\"age\":27,\"hobby\":('足球','篮球')}\nprint(data)\n\ndata = {\"name\":\"张三\",\"age\":27,\"hobby\":['足球','篮球']}\nprint(data)\n\ndata = {\"name\":\"张三\",\"age\":27,\"hobby\":{\n    'motion':['足球','篮球'],\n    'video':['白日焰火','猫和老鼠'],\n  \n}}\nprint(data)\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123408-stwmzd0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221201123408-stwmzd0",
+				"updated": "20221201123408"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "15、其他"
+				}
+			]
+		},
+		{
+			"ID": "20221201123409-56qzb5u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123409-56qzb5u",
+				"updated": "20221201123409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　因为底层存储原理，字典只是对键进行哈希值比较，所以根据 键 查找 值，查找效率非常高（只有数据量大了才明显）。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221201123410-6tdeb65",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221201123410-6tdeb65",
+				"updated": "20221201123410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "　　‍",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}
