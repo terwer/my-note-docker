@@ -1,0 +1,143 @@
+{
+	"ID": "20221209150833-w9w6pc9",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221209150833-w9w6pc9",
+		"title": "033.Vites中Mock异步方法调用的两种方法",
+		"updated": "20221209152428"
+	},
+	"Children": [
+		{
+			"ID": "20221209151242-wztgju5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221209151242-wztgju5",
+				"updated": "20221209151253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方法一"
+				}
+			]
+		},
+		{
+			"ID": "20221209151335-n2r15xv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221209151335-n2r15xv",
+				"updated": "20221209151425"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "let page\nif (commonIsTest) {\n\tconst filename = path.resolve(\"./\", \"test/data/demo\", \"siyuanPage.txt\")\n\tconst pageStr = readFileSync(filename)\n\tconst pageObj = JSON.parse(pageStr)\n\tconst asyncMock_siyuanApi_getBlockByID = vi\n\t\t\t.fn()\n\t\t\t.mockResolvedValue(pageObj)\n\tpage = await asyncMock_siyuanApi_getBlockByID(pageId)\n} else {\n\tpage = await siyuanApi.getBlockByID(pageId)\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221209151247-xjd21ja",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221209151247-xjd21ja",
+				"updated": "20221209151255"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方法二"
+				}
+			]
+		},
+		{
+			"ID": "20221209151256-v1e7abw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221209151256-v1e7abw",
+				"updated": "20221209152428"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// =====================\n// == Test Mock Start ==\nif (commonIsTest) {\n  const filename = path.resolve(\"./\", \"test/data/demo\", \"siyuanPage.txt\")\n  const pageStr = readFileSync(filename)\n  const pageObj = JSON.parse(pageStr)\n\n  vi.spyOn(siyuanApi, \"getBlockByID\").mockResolvedValueOnce(pageObj)\n}\n// == Test Mock End ==\n// =====================\nconst page = await siyuanApi.getBlockByID(pageId)\nlogger.debug(\"获取到思源页面数据=\u003e\", page)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221209150833-lut17h7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221209150833-lut17h7",
+				"updated": "20221209150907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考"
+				}
+			]
+		},
+		{
+			"ID": "20221209150918-5q3sedy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209150918-5q3sedy",
+				"updated": "20221209151239"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://test-utils.vuejs.org/guide/advanced/async-suspense.html",
+					"TextMarkTextContent": "Asynchronous Behavior | Vue Test Utils (vuejs.org)"
+				}
+			]
+		},
+		{
+			"ID": "20221209150910-yx7rffx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209150910-yx7rffx",
+				"updated": "20221209150916"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://jestjs.io/docs/mock-function-api#mockfnmockimplementationfn",
+					"TextMarkTextContent": "Mock Functions · Jest (jestjs.io)"
+				}
+			]
+		}
+	]
+}

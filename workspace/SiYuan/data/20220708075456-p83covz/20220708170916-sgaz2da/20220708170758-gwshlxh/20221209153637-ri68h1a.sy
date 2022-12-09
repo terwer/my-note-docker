@@ -1,0 +1,177 @@
+{
+	"ID": "20221209153637-ri68h1a",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221209153637-ri68h1a",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221209153637-gvvohkz\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221209153940-q3rh5hv\u0026quot;,\u0026quot;scrollTop\u0026quot;:82.5,\u0026quot;focusId\u0026quot;:\u0026quot;20221209153940-q3rh5hv\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "2022-12-09-周报",
+		"updated": "20221209154255"
+	},
+	"Children": [
+		{
+			"ID": "20221209153637-gvvohkz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221209153637-gvvohkz",
+				"updated": "20221118154027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需求"
+				}
+			]
+		},
+		{
+			"ID": "20221209154019-qhupcop",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209154019-qhupcop",
+				"updated": "20221209154201"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#179278 培训详情中查看未考试人员详情同步到CR"
+				}
+			]
+		},
+		{
+			"ID": "20221209153637-04zkoyl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221209153637-04zkoyl",
+				"updated": "20221118154124"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务问题单"
+				}
+			]
+		},
+		{
+			"ID": "20221209153637-qx4q4qt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209153637-qx4q4qt",
+				"updated": "20221209154008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#179826 【服务问题单】新建考试活动提示题库中试题数量不够"
+				}
+			]
+		},
+		{
+			"ID": "20221209154035-v4gphll",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209154035-v4gphll",
+				"updated": "20221209154039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#179849 【服务问题单】文档库文档维护webserivce的服务文档新版本、删除接口、更新接口没有返回fdid"
+				}
+			]
+		},
+		{
+			"ID": "20221209154058-i3wz9xj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209154058-i3wz9xj",
+				"updated": "20221209154102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178950 【服务问题单】报名截止时间与开班开始时间一样时，修改开班开始时间后，报名截止时间到了，但开班时间还没到，此时不能修改开班时间了"
+				}
+			]
+		},
+		{
+			"ID": "20221209154117-2obm36s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209154117-2obm36s",
+				"updated": "20221209154120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178949 【服务问题单】【维基知识文档】编辑目录确定后，再点击目录不跳转"
+				}
+			]
+		},
+		{
+			"ID": "20221209154137-rxayxqi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209154137-rxayxqi",
+				"updated": "20221209154140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178983 【服务问题单】【维基知识】新增同级时，内容出现异常"
+				}
+			]
+		},
+		{
+			"ID": "20221209154251-ecw1i0h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209154251-ecw1i0h",
+				"updated": "20221209154255"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178974 【服务问题单】【维基知识库-缺陷】维基导入后，编辑进行目录新增同级，新增后直接到最后一级了"
+				}
+			]
+		},
+		{
+			"ID": "20221209153637-3b3mjfw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221209153637-3b3mjfw",
+				"updated": "20221118154136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日常缺陷"
+				}
+			]
+		},
+		{
+			"ID": "20221209153926-9cjlhl0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209153926-9cjlhl0",
+				"updated": "20221209153933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#178896 【日常缺陷】 【考试管理-修复】选择word、excel导入的题库创建随机试卷，引用该试卷新建考试活动时提示题目数量不够，实际上是够的---同步15版本"
+				}
+			]
+		},
+		{
+			"ID": "20221209153940-q3rh5hv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209153940-q3rh5hv"
+			}
+		}
+	]
+}

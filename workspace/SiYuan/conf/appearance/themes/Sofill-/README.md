@@ -1,17 +1,11 @@
 # 🪁 Sofill-主题：内部代号 [ winsay ]（风颂）
 
 <p align="center">
-    <img src="https://img.shields.io/pypi/l/color-theme-analyse.svg" alt="License">
     <a href="https://github.com/Hi-Windom/winsay/releases">
-    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/Hi-Windom/winsay?include_prereleases">
-    <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/Hi-Windom/winsay">
-    </a><a href="https://github.com/Hi-Windom/winsay/issues?q=is%3Aopen+is%3Aissue">
-    <img alt="GitHub open issues" src="https://img.shields.io/github/issues-raw/Hi-Windom/winsay"/>
-    </a><a href="https://github.com/Hi-Windom/winsay/issues?q=is%3Aissue+is%3Aclosed">
-    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/Hi-Windom/winsay">
-    </a><a href="https://github.com/Hi-Windom/winsay/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Hi-Windom/winsay"></a>
-    <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=694357845&website=www.oicqzone.com"><img src="https://img.shields.io/badge/QQ-694357845-orange"></a>
+    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/Hi-Windom/winsay?include_prereleases&logo=GitHub"  style="cursor:pointer;height: 31px;margin: 3px auto;">
+    <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/Hi-Windom/winsay?logo=GitHub" style="cursor:pointer;height: 31px;margin: 3px auto;">
+    </a>
+    <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=694357845&website=www.oicqzone.com"><img src="https://img.shields.io/badge/QQ-694357845-blue?logo=Tencent QQ" style="cursor:pointer;height: 31px;margin: 3px auto;"></a>
 </p>
 
 ## 🔭 更新预告
@@ -20,17 +14,11 @@
 
 * [ ] 持续扩大跟随主题形态的样式范围
 * [ ] 持续完善主题设置面板
-* [ ] 支持通过主题设置面板配置导出PDF渲染字体
-* [ ] 在主题设置面板导出配置时支持附加思源编辑器配置
-* [ ] 在主题设置面板导出配置时支持附加思源快捷键配置
 
 ### 中期计划⛳
 
-* [ ] S2形态组暗黑模式计划增加午夜风暴，新增S3形态组
-* [ ] 右侧面板悬浮
-* [ ] 打字机模式
-* [ ] 支持通过主题设置界面配置分隔线样式
-* [ ] 支持标题自动编号
+* [ ] 暗黑模式计划增加午夜风暴
+* [ ] S3形态
 * [ ] 支持配置文档面包屑表现形式
 * [ ] [提供接口 · Issue #425](https://github.com/Hi-Windom/winsay/issues/425)
 
@@ -38,25 +26,23 @@
 
 ---
 
-## ✨ 主题设置界面可配置更多项目了，文档宽度模式增加固宽预览类选项，13号色特殊显示，图片预览viewer界面美化，修复已知问题，持续优化体验
+## ✨ 主题设置界面可配置更多项目了，滚屏显示支持代码块和嵌入块，持续优化体验
 
 > 版本更新详细内容请下滑至【集市更新版本日志】部分查看
 
 ### 可能错过的重要更新
 
-1. 一系列页签相关配置在主题设置面板现已可用；
-2. 优化 Ctrl + 鼠标滚轮缩放功能；
-3. 主题引用锚文本样式配置支持同步至思源导出配置，支持通过主题设置界面配置主题明亮模式缺省形态
+1. 优化浏览器环境兼容性，优化安卓手机端体验
+3. 特殊色号，添加 emoji 面板样式，文档宽度模式支持更多固宽选项，支持通过主题设置界面开启思源设置资源界面粘性布局，持通过主题设置界面开启图片制卡，主题设置界面支持自动翻译
+4. 导出PDF【跟随当前模式形态】调整为【跟随明亮模式形态】，新增一次性通知弹窗和跨平台警告弹窗
 
 ### 主题设置界面入口指南
 
 Step 1 确保在思源软件设置里关闭了【隐藏底部状态栏】
 
-Step 2 鼠标悬浮在【帮助（问号）】，在呼出的菜单中点击【主题设置】
+Step 2 鼠标悬浮或左键单击右下角控件，在呼出的菜单中点击【主题设置】
 
-<img src="https://b3logfile.com/siyuan/1662398123089/assets/image-20221120203418-tafootj.png"/>
-
-> 安卓手机端也可以打开主题设置界面，不过因为还不完善，所以入口隐藏起来了
+<img src="https://b3logfile.com/siyuan/1662398123089/assets/image-20221130191023-ml78khi.png"/>
 
 ## 🏳️‍🌈 主题特色介绍
 
@@ -65,6 +51,8 @@ Step 2 鼠标悬浮在【帮助（问号）】，在呼出的菜单中点击【�
 多端适配，体积小巧，深度优化默认主题已知缺陷，明亮/暗黑多种形态随心切换 🎨
 
 如此合适，微风迎怀，看得到的看不到的地方都充满了 Sofill- 的优化印记，满足细节控对 ⌈润物细无声⌋ 的极致追求，永不疲劳的舒适体验 🎡
+
+亲爱的用户：我们推荐您搭配 [Remix-icon](https://github.com/mozhux/Remix-icon) 图标包使用 Sofill 系列主题
 
 ### 轻量化简洁风绛亽特色思源笔记主题
 
@@ -78,16 +66,20 @@ Sofill- 适合哪些人：13~58岁非色弱人群；青少年请在家长指导�
 
 Sofill- 主题形态一览表 ✨
 
-| 形态   | 模式      | 是否上线 | 开发阶段 | json键值                   | 说明             |
-| ------ | --------- | -------- | -------- | -------------------------- | ---------------- |
-| 绝绝紫 | ⬜ light | ✔️     | 维护     | root.css                   | 默认形态         |
-| 纯洁蓝 | ⬜ light  | ✔️     | 维护     | root-L-Blue.css            | 缺省形态         |
-| 文中红 | ⬜ light  | ✔️     | 构建     | root-L-Red.css             |                  |
-| 砰砰粉 | ⬜ light  | ✔️     | 维护     | root-L-Pink.css            |                  |
-| 青葱绿 | ⬜ light  | ✔️     | 维护     | root-L-Green.css           |                  |
-| 智慧金 | ⬜ light  | ✔️     | 维护     | root-L-Yellow.css          |                  |
-| 黑金蓝 | ⬛ dark   | ✔️     | 维护     | root-D-BlackGoldPurple.css | 暗黑模式默认形态 |
-| 墨绿紫 | ⬛ dark   | ✔️     | 构建     | root-D-InkGreenPurple.css  |                  |
+| 形态     | 明暗模式 | 支持跟随 | 开发阶段 | json键值                   | 说明             |
+| -------- | -------- | -------- | -------- | -------------------------- | ---------------- |
+| 绝绝紫   | ⬜⬜     | ✔️     | 构建     | root.css                   | 默认形态         |
+| 纯洁蓝   | ⬜⬜     | ✔️     | 维护     | root-L-Blue.css            |                  |
+| 文中红   | ⬜⬜     | ✔️     | 构建     | root-L-Red.css             |                  |
+| 砰砰粉   | ⬜⬜     | ✔️     | 维护     | root-L-Pink.css            |                  |
+| 青葱绿   | ⬜⬜     | ✔️     | 维护     | root-L-Green.css           |                  |
+| 智慧金   | ⬜⬜     | ✔️     | 维护     | root-L-Yellow.css          |                  |
+| 黑金蓝   | ⬛⬛     | ✔️     | 维护     | root-D-BlackGoldPurple.css | 暗黑模式默认形态 |
+| 墨绿紫   | ⬛⬛     | ✔️     | 构建     | root-D-InkGreenPurple.css  |                  |
+| 暗夜紫   | ⬛⬛     | ✔️     | 计划     |                            |                  |
+| 暗夜红   | ⬛⬛     | ✔️     | 计划     |                            |                  |
+| 暗夜粉   | ⬛⬛     | ✔️     | 计划     |                            |                  |
+| 午夜风暴 | ⬛⬜     | ❌       | 计划     |                            |                  |
 
 ---
 
@@ -116,41 +108,58 @@ Sofill- 主题形态一览表 ✨
 * 包含【SiYuan】标签的版本，建议更新思源至适配版本后再更新主题，否则可能存在适配问题；声明为【构建】标签的版本，**建议手动删除旧版本后再下载**（更新只会替换已有文件，不会删除不再引用的文件）
 * [全部版本更新日志](https://gitee.com/soltus/Sofill/blob/main/CHANGELOG/winsay.md)  |  [关注后续版本开发动态](https://github.com/Hi-Windom/winsay/milestones)
 
-### v0.198 ~ v0.216 聚合说明
+### v0.250 ~ v0.262 聚合说明
 
-> 2022-11-28 released
+> 2022-12-08 released
 
-<p><a href="https://github.com/Hi-Windom/winsay/issues/501"><img src="https://img.shields.io/badge/SiYuan-2.5.1-green"/></a> <a href="https://github.com/Hi-Windom/winsay/issues/409"><img src="https://img.shields.io/badge/%E4%B8%8D%E5%85%BC%E5%AE%B9-2.4.5---red"/></a> <img src="https://img.shields.io/badge/-%E6%9E%84%E5%BB%BA-yellow"/></p></p>
+<p><a href="https://github.com/Hi-Windom/winsay/issues/679"><img src="https://img.shields.io/badge/SiYuan-2.5.3-green" style="cursor:pointer;height: 31px;margin: 1px;"/></a> <a href="https://github.com/Hi-Windom/winsay/issues/678"><img src="https://img.shields.io/badge/%E4%B8%8D%E5%85%BC%E5%AE%B9-2.5.2---red" style="cursor:pointer;height: 31px;margin: 1px;"/></a> <img src="https://img.shields.io/badge/-%E6%9E%84%E5%BB%BA-yellow" style="cursor:pointer;height: 31px;margin: 1px;"/></p></p>
 
 引入特性：
 
-1. [选区菜单注入一个搜索控件 · Issue #563 · v0.198](https://github.com/Hi-Windom/winsay/issues/563)
-2. [主题设置支持显示调试信息 · Issue #566 · v0.200](https://github.com/Hi-Windom/winsay/issues/566)
-3. [支持通过主题设置面板临时突破思源最大页签打开数限制 · Issue #568 · v0.200](https://github.com/Hi-Windom/winsay/issues/568)
-4. [主题引用锚文本样式配置支持同步至思源导出配置 · Issue #565 · v0.206](https://github.com/Hi-Windom/winsay/issues/565)
-5. [支持通过主题设置界面配置主题明亮模式缺省形态 · Issue #577 · v0.206](https://github.com/Hi-Windom/winsay/issues/577)
-6. [文档宽度模式增加固宽预览类选项 · Issue #583 · v0.208](https://github.com/Hi-Windom/winsay/issues/583)
-7. [13号色特殊显示 · Issue #320 · v0.210](https://github.com/Hi-Windom/winsay/issues/320)
-8. [反链面板粘性布局 · Issue #590 · v0.210](https://github.com/Hi-Windom/winsay/issues/590)
-9. [图片预览viewer界面美化 · Issue #595 · v0.214](https://github.com/Hi-Windom/winsay/issues/595)
-10. [文档选区工具条位置 · Issue #600 · v0.216](https://github.com/Hi-Windom/winsay/issues/600)
+1. [支持通过主题设置界面禁用文档树笔记本名和文档名染色 · Issue #694 · v0.250](https://github.com/Hi-Windom/winsay/issues/694)
+2. [支持通过主题设置界面恢复默认搜索布局 · Issue #689 · v0.250](https://github.com/Hi-Windom/winsay/issues/689)
+3. [背景色11、12改为标记色 · Issue #585 · v0.252](https://github.com/Hi-Windom/winsay/issues/585)
+4. [9、10、11、12号色特殊样式 · Issue #703 · v0.252](https://github.com/Hi-Windom/winsay/issues/703)
+5. [支持通过主题设置界面开启思源设置资源界面粘性布局 · Issue #712 ·v0.254](https://github.com/Hi-Windom/winsay/issues/712)
+6. [支持通过主题设置界面开启图片制卡 · Issue #715 · v0.256](https://github.com/Hi-Windom/winsay/issues/715)
+7. [主题设置界面支持自动翻译 · Issue #638 · v0.258](https://github.com/Hi-Windom/winsay/issues/638)
+8. [文档宽度模式支持更多固宽选项 · Issue #709 · v0.258](https://github.com/Hi-Windom/winsay/issues/709)
+9. [文档选区工具条位置新增【跟随选区（多行）】选项 · Issue #687 · v0.260](https://github.com/Hi-Windom/winsay/issues/687)
+10. [添加 emoji 面板样式 · Issue #728 · v0.260](https://github.com/Hi-Windom/winsay/issues/728)
+11. [新增一次性通知弹窗和跨平台警告弹窗 · Issue #733 · v0.262](https://github.com/Hi-Windom/winsay/issues/733)
 
 改进优化：
 
-1. [细节优化 · Issue #567 · v0.200](https://github.com/Hi-Windom/winsay/issues/567)
-2. [Ctrl + 鼠标滚轮缩放字号优化 · Issue #86 · v0.202](https://github.com/Hi-Windom/winsay/issues/86)
-3. [细节优化 · Issue #571 · v0.202](https://github.com/Hi-Windom/winsay/issues/571)
-4. [细节优化 · Issue #574 · v0.204](https://github.com/Hi-Windom/winsay/issues/574)
-5. [细节优化 · Issue #584 · v0.208](https://github.com/Hi-Windom/winsay/issues/584)
-6. [CTRL + TAB 弹出层鲁棒性增强 · Issue #588 · v0.210](https://github.com/Hi-Windom/winsay/issues/588)
-7. [使用思源集市自检源支持跳转到集市更新 · Issue #592 · v0.212](https://github.com/Hi-Windom/winsay/issues/592)
-8. [去除文档树多余滚动条+细节优化 · Issue #594 · v0.214](https://github.com/Hi-Windom/winsay/issues/594)
+1. [取消压缩CP.js · Issue #688 · v0.250](https://github.com/Hi-Windom/winsay/issues/688)
+2. [桌面端选区搜索功能变更 · Issue #683 · v0.250](https://github.com/Hi-Windom/winsay/issues/683)
+3. [面包屑自适应视觉效果优化 · Issue #690 · v0.250](https://github.com/Hi-Windom/winsay/issues/690)
+4. [主题设置项联动显示支持移动端 · Issue #692 · v0.250](https://github.com/Hi-Windom/winsay/issues/692)
+5. [文档树自适应显示支持安卓手机端 · Issue #693 · v0.250](https://github.com/Hi-Windom/winsay/issues/693)
+6. [文档树笔记本项粘性布局改为需开启自适应显示 · Issue #695 · v0.250](https://github.com/Hi-Windom/winsay/issues/695)
+7. [优化搜索建议 · Issue #696 · v0.250](https://github.com/Hi-Windom/winsay/issues/696)
+8. [搜索界面显示当前布局模式 · Issue #698 · v0.250](https://github.com/Hi-Windom/winsay/issues/698)
+9. [优化暗黑模式夜间模式滤镜，明亮模式反色模式修改为深夜模式，关灯场景也能从容应对 · Issue #701 · v0.252](https://github.com/Hi-Windom/winsay/issues/701)
+10. [在抽屉增加Sofill系列区分标识 · Issue #691 · v0.252](https://github.com/Hi-Windom/winsay/issues/691)
+11. [细节优化 · Issue #702 · v0.252](https://github.com/Hi-Windom/winsay/issues/702)
+12. [细节优化 · Issue #710 ·v0.254](https://github.com/Hi-Windom/winsay/issues/710)
+13. [优化浏览器环境兼容性 · Issue #714 · v0.258](https://github.com/Hi-Windom/winsay/issues/714)
+14. [只读模式高亮图标 · Issue #721 · v0.258](https://github.com/Hi-Windom/winsay/issues/721)
+15. [选区工具条位置配置适配安卓手机端 · Issue #729 · v0.260](https://github.com/Hi-Windom/winsay/issues/729)
+16. [优化 Android 端块滚动条操作体验 · Issue #726 · v0.260](https://github.com/Hi-Windom/winsay/issues/726)
+17. [优化对话框按钮交互体验 · Issue #724 · v0.260](https://github.com/Hi-Windom/winsay/issues/724)
+18. [导出PDF【跟随当前模式形态】调整为【跟随明亮模式形态】 · Issue #732 · v0.262](https://github.com/Hi-Windom/winsay/issues/732)
+19. [细节优化 · Issue #731 · v0.262](https://github.com/Hi-Windom/winsay/issues/731)
+20. [滚屏显示支持代码块和嵌入块 · Issue #740 · v0.266](https://github.com/Hi-Windom/winsay/issues/740)
+21. [细节优化 · Issue #739 · v0.266](https://github.com/Hi-Windom/winsay/issues/739)
 
 缺陷修复：
 
-1. [笔记本设置界面复制ID按钮样式未定义 · Issue #573 · v0.212](https://github.com/Hi-Windom/winsay/issues/573)
-2. [反链面板选区工具条不显示 · Issue #599 · v0.216](https://github.com/Hi-Windom/winsay/issues/599)
-3. [工具条搜索框并不总是存在 · Issue #598 · v0.216](https://github.com/Hi-Windom/winsay/issues/598)
+1. [指定路径状态高亮异常 · Issue #697 · v0.250](https://github.com/Hi-Windom/winsay/issues/697)
+2. [搜索结果未分组时切换排序类型后预览界面消失 · Issue #711 ·v0.254](https://github.com/Hi-Windom/winsay/issues/711)
+3. [引用块弹出层限高未生效 · Issue #716 · v0.256](https://github.com/Hi-Windom/winsay/issues/716)
+4. [文档内引用计数器显示异常 · Issue #727 · v0.260](https://github.com/Hi-Windom/winsay/issues/727)
+5. [偶发搜索头丢失 · Issue #736 · v0.264](https://github.com/Hi-Windom/winsay/issues/736)
+6. [搜索智能布局模式上下布局异常 · Issue #737 · v0.264](https://github.com/Hi-Windom/winsay/issues/737)
 
 ## 🎈 鸣谢
 
@@ -176,11 +185,13 @@ Sofill 系列主题的诞生与成长离不开下列开源项目的贡献，以�
 字体：（排名不分先后）
 
 * [得意黑 Smiley Sans：一款在人文观感和几何特征中寻找平衡的中文黑体](https://github.com/atelier-anchor/smiley-sans)
+* [阿里巴巴普惠体](https://done.alibabadesign.com/puhuiti2.0)
 
 图片：（排名不分先后）
 
 * [icon-icons.com](https://icon-icons.com/zh/)
 * [iconfont](https://www.iconfont.cn/)
+* [Simple Icons](https://simpleicons.org/)
 
 ## 💎 特别鸣谢
 
@@ -191,6 +202,14 @@ Sofill 系列主题的诞生与成长离不开下列开源项目的贡献，以�
 
 1. Sofill 系列主题均可免费使用和基于交流学习的无限制修改
 2. 基于 Sofill 系列主题二次创作的作品不得在未获得原作者团队授权的情况下擅自在思源集市或者其他渠道公开发行
+
+<p align="center" style="margin: 131px auto;">
+    <img src="https://img.shields.io/pypi/l/color-theme-analyse.svg?logo=GitHub" alt="License" style="cursor:pointer;height: 31px;margin: 5px auto;"><a href="https://github.com/Hi-Windom/winsay/issues?q=is%3Aopen+is%3Aissue">
+    <img alt="GitHub open issues" src="https://img.shields.io/github/issues-raw/Hi-Windom/winsay?logo=GitHub" style="cursor:pointer;height: 31px;margin: 5px auto;"/>
+    </a><a href="https://github.com/Hi-Windom/winsay/issues?q=is%3Aissue+is%3Aclosed">
+    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/Hi-Windom/winsay?logo=GitHub" style="cursor:pointer;height: 31px;margin: 5px auto;">
+    </a><a href="https://github.com/Hi-Windom/winsay/commits/main"></a>
+</p>
 
 ---
 

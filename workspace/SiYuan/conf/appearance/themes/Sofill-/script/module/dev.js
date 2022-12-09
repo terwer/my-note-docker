@@ -1,5 +1,11 @@
 import * as API from "./../utils/api.min.js";
 import * as config from "./../config.js";
+if (API.isAppMode()) {
+  const { globalShortcut } = require("@electron/remote");
+  globalShortcut.register("CommandOrControl+alt+P", () => {
+    console.info("predefined shortcut");
+  });
+}
 
 // 初始缩放比例
 let originPixelRatio = localStorage.SC_winsay_data_devicePixelRatio;
@@ -64,9 +70,14 @@ new Promise(function (response) {
 
 function ExtendProtyleToolbar() {
   setInterval(() => {
-    var all_protyle_toolbar = document.querySelectorAll(".fn__flex-1.protyle .protyle-toolbar");
+    var all_protyle_toolbar = document.querySelectorAll(
+      ".fn__flex-1.protyle .protyle-toolbar"
+    );
     all_protyle_toolbar.forEach(function (protyle_toolbar) {
-      if (protyle_toolbar.querySelectorAll(".sc_protyle_toolbar_search").length == 0) {
+      if (
+        protyle_toolbar.querySelectorAll(".sc_protyle_toolbar_search").length ==
+        0
+      ) {
         var divider = document.createElement("div");
         divider.className = "protyle-toolbar__divider";
         protyle_toolbar.insertAdjacentElement("beforeend", divider);
@@ -81,8 +92,6 @@ function ExtendProtyleToolbar() {
         protyle_toolbar.addEventListener(
           "click",
           (event) => {
-            console.log(event.target);
-            console.log(event.target.parentNode);
             if (
               event.target.classList.contains("sc_protyle_toolbar_search") ||
               event.target.parentNode.classList.contains(
@@ -90,17 +99,7 @@ function ExtendProtyleToolbar() {
               )
             ) {
               var text = window.getSelection().toString();
-              document.querySelector("#toolbar #barSearch").click();
-              setTimeout(() => {
-                let i = document.querySelector(".b3-dialog--open #searchInput");
-                i.value = text;
-                let e = new Event("input", { bubbles: true });
-                let tracker = i._valueTracker;
-                if (tracker) {
-                  tracker.setValue("");
-                }
-                i.dispatchEvent(e);
-              }, 500);
+              window.open(`https://cn.bing.com/search?q=${text}`, "_blank");
               event.stopPropagation();
             }
           },

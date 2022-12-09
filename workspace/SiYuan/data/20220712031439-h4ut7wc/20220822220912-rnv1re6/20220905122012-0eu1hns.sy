@@ -13,7 +13,7 @@
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220905122249-mmgjilp\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220905122339-4kt2xrj\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220905122249-mevr58u\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"tags": "平台,版本,jdk,javase,java,kotlin",
 		"title": "001.Java_SE之Java_SE平台与JDK",
-		"updated": "20221207121649"
+		"updated": "20221209201600"
 	},
 	"Children": [
 		{
@@ -51,6 +51,20 @@
 					"Data": "：Java Platform, Standard Edition\nJava SE是一个计算平台，用于为桌面和服务器环境开发和部署可移植代码。 Java SE 以前称为 Java 2 Platform, Standard Edition (J2SE)。"
 				}
 			]
+		},
+		{
+			"ID": "20221209201600-455lbyo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221209201600-455lbyo"
+			}
+		},
+		{
+			"ID": "20221207210234-31jbdb4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221207210234-31jbdb4"
+			}
 		},
 		{
 			"ID": "20220905122249-j892sxc",

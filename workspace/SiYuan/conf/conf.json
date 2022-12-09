@@ -1,8 +1,8 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 1,
-    "modeOS": true,
+    "mode": 0,
+    "modeOS": false,
     "darkThemes": [
       "Dark+",
       "Rem Craft",
@@ -15,12 +15,13 @@
       "Rem Craft",
       "Savor",
       "Sofill-",
+      "Sofill=",
       "daylight",
       "pink-room"
     ],
-    "themeDark": "Rem Craft",
-    "themeLight": "Rem Craft",
-    "themeVer": "2.5.3",
+    "themeDark": "midnight",
+    "themeLight": "Sofill=",
+    "themeVer": "1.0d1",
     "icons": [
       "ant",
       "material"
@@ -223,113 +224,6 @@
                     {
                       "children": {
                         "action": "",
-                        "blockId": "20220927094926-qvm83k2",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220729231323-oo2hfju",
-                        "rootId": "20220927094926-qvm83k2",
-                        "scrollAttr": {
-                          "endId": "20221204181054-qjkry22",
-                          "focusEnd": 5,
-                          "focusId": "20221204180448-3zf73sl",
-                          "focusStart": 5,
-                          "scrollTop": 2964,
-                          "startId": "20221201191244-kkgghl6"
-                        }
-                      },
-                      "docIcon": "1f5a5",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "002.开始上手"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20220708165128-7rypbi7",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220708084833-fgfcb6r",
-                        "rootId": "20220708165128-7rypbi7",
-                        "scrollAttr": {
-                          "endId": "20221203133303-lik0syb",
-                          "focusEnd": 2173,
-                          "focusId": "20220708165418-touu2bn",
-                          "focusStart": 2173,
-                          "scrollTop": 4948,
-                          "startId": "20220708165418-touu2bn"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "平台账号"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221207165230-6vxqiia",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220621105123-dlyn6nl",
-                        "rootId": "20221207165230-6vxqiia",
-                        "scrollAttr": {
-                          "endId": "20221207165332-0g9uuu3",
-                          "focusEnd": 266,
-                          "focusId": "20221207165230-9o6qe5r",
-                          "focusStart": 266,
-                          "scrollTop": 0,
-                          "startId": "20221207165230-qxbntze"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "使用TypeScript写一个Vue-js插件"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221207171218-3mxnb2l",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20221013095018-ehr3cbb",
-                        "rootId": "20221207171218-3mxnb2l",
-                        "scrollAttr": {
-                          "endId": "20221207171218-4thmtw6",
-                          "scrollTop": 0,
-                          "startId": "20221207171218-4thmtw6"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "003.服务端开发"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221207171234-gqss6tp",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20221013095018-ehr3cbb",
-                        "rootId": "20221207171234-gqss6tp",
-                        "scrollAttr": {
-                          "endId": "20221207171234-mjneqc0",
-                          "focusEnd": 0,
-                          "focusId": "20221207171234-mjneqc0",
-                          "focusStart": 0,
-                          "scrollTop": 0,
-                          "startId": "20221207171234-mjneqc0"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "004.前端开发"
-                    },
-                    {
-                      "children": {
-                        "action": "",
                         "blockId": "20221207171247-xblx4sd",
                         "instance": "Editor",
                         "mode": "wysiwyg",
@@ -347,7 +241,6 @@
                       "title": "《JavaScript高级程序设计》"
                     },
                     {
-                      "active": true,
                       "children": {
                         "action": "",
                         "blockId": "20220905122249-qxymgvu",
@@ -356,18 +249,60 @@
                         "notebookId": "20220712031439-h4ut7wc",
                         "rootId": "20220905122012-0eu1hns",
                         "scrollAttr": {
-                          "endId": "20220905122339-4kt2xrj",
-                          "focusEnd": 0,
-                          "focusId": "20220905122249-qxymgvu",
-                          "focusStart": 0,
-                          "scrollTop": 255,
-                          "startId": "20220905122249-mmgjilp"
+                          "endId": "20220905122249-qxymgvu",
+                          "scrollTop": 0,
+                          "startId": "20220905122249-qxymgvu"
                         }
                       },
                       "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
                       "title": "001.Java_SE之Java_SE平台与JDK"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "",
+                        "blockId": "20220831131637-zdnmp2m",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220621105123-dlyn6nl",
+                        "rootId": "20220831131637-zdnmp2m",
+                        "scrollAttr": {
+                          "endId": "20221209201459-n9xk6ig",
+                          "focusEnd": 0,
+                          "focusId": "20221204180402-btslqof",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20221204180402-btslqof"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "001.文档测试"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221209150833-w9w6pc9",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220718062546-2nbmy21",
+                        "rootId": "20221209150833-w9w6pc9",
+                        "scrollAttr": {
+                          "endId": "20221209150910-yx7rffx",
+                          "focusEnd": 2,
+                          "focusId": "20221209151256-v1e7abw",
+                          "focusStart": 2,
+                          "scrollTop": 561,
+                          "startId": "20221209151242-wztgju5"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "033.Vites中Mock异步方法调用的两种方法"
                     },
                     {
                       "children": {
@@ -382,7 +317,7 @@
                           "focusEnd": 0,
                           "focusId": "20221127010842-hiwpczz",
                           "focusStart": 0,
-                          "scrollTop": 56,
+                          "scrollTop": 202,
                           "startId": "20221127010842-hiwpczz"
                         }
                       },
@@ -552,7 +487,7 @@
   },
   "readonly": false,
   "localIPs": [
-    "192.168.248.37",
+    "192.168.3.20",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
@@ -584,8 +519,8 @@
     "cloudName": "main",
     "enabled": true,
     "mode": 1,
-    "synced": 1670410864747,
-    "stat": "同步于 2022-12-07 19:01:04\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 25 kB/38 kB",
+    "synced": 1670592557721,
+    "stat": "同步于 2022-12-09 21:29:17\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 24 kB/36 kB",
     "generateConflictDoc": false,
     "provider": 2,
     "s3": {
@@ -636,11 +571,11 @@
     "virtualRefKeywordsLimit": 512
   },
   "stat": {
-    "treeCount": 517,
+    "treeCount": 519,
     "cTreeCount": 1000,
-    "blockCount": 11102,
+    "blockCount": 11127,
     "cBlockCount": 20000,
-    "dataSize": 59641929,
+    "dataSize": 63227591,
     "cDataSize": 104857600,
     "assetsSize": 7392914,
     "cAssetsSize": 104857600
