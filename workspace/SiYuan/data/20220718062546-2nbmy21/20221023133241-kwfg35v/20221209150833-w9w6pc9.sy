@@ -3,6 +3,7 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-slug": "two-methods-of-mock-asynchronous-method-calls-in-vites-z1vfvhy",
 		"id": "20221209150833-w9w6pc9",
 		"title": "033.Vites中Mock异步方法调用的两种方法",
 		"updated": "20221209152428"

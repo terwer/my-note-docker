@@ -1,8 +1,8 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 0,
-    "modeOS": false,
+    "mode": 1,
+    "modeOS": true,
     "darkThemes": [
       "Dark+",
       "Rem Craft",
@@ -19,9 +19,9 @@
       "daylight",
       "pink-room"
     ],
-    "themeDark": "midnight",
-    "themeLight": "Sofill=",
-    "themeVer": "1.0d1",
+    "themeDark": "Rem Craft",
+    "themeLight": "Rem Craft",
+    "themeVer": "2.5.3",
     "icons": [
       "ant",
       "material"
@@ -113,14 +113,14 @@
   "export": {
     "paragraphBeginningSpace": false,
     "addTitle": true,
-    "blockRefMode": 3,
+    "blockRefMode": 2,
     "blockEmbedMode": 1,
     "blockRefTextLeft": "",
     "blockRefTextRight": "",
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "C:\\Users\\Terwer\\Documents\\SiYuan\\temp\\pandoc\\bin\\pandoc.exe"
+    "pandocBin": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan/temp/pandoc/bin/pandoc"
   },
   "graph": {
     "maxBlocks": 10240,
@@ -269,9 +269,9 @@
                         "notebookId": "20220621105123-dlyn6nl",
                         "rootId": "20220831131637-zdnmp2m",
                         "scrollAttr": {
-                          "endId": "20221209201459-n9xk6ig",
+                          "endId": "20221212110055-qzwptd9",
                           "focusEnd": 0,
-                          "focusId": "20221204180402-btslqof",
+                          "focusId": "20221212110855-9nwgv4f",
                           "focusStart": 0,
                           "scrollTop": 0,
                           "startId": "20221204180402-btslqof"
@@ -281,6 +281,72 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "001.文档测试"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20220927094918-1d85uyp",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220729231323-oo2hfju",
+                        "rootId": "20220927094918-1d85uyp",
+                        "scrollAttr": {
+                          "endId": "20221127010842-hiwpczz",
+                          "focusEnd": 0,
+                          "focusId": "20221127010842-hiwpczz",
+                          "focusStart": 0,
+                          "scrollTop": 128,
+                          "startId": "20221127010842-hiwpczz"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "002.用户手册"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221212105211-exfn013",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220718001803-ogquxbe",
+                        "rootId": "20221212105211-exfn013",
+                        "scrollAttr": {
+                          "endId": "20221212105211-9ufu2g8",
+                          "focusEnd": 0,
+                          "focusId": "20221212105211-9ufu2g8",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20221212105211-9ufu2g8"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Subscribe"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20220927094926-qvm83k2",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220729231323-oo2hfju",
+                        "rootId": "20220927094926-qvm83k2",
+                        "scrollAttr": {
+                          "endId": "20221204181054-qjkry22",
+                          "focusEnd": 0,
+                          "focusId": "20221201191244-kkgghl6",
+                          "focusStart": 0,
+                          "scrollTop": 4362,
+                          "startId": "20221201191244-kkgghl6"
+                        }
+                      },
+                      "docIcon": "1f5a5",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "002.开始上手"
                     },
                     {
                       "children": {
@@ -303,28 +369,6 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "033.Vites中Mock异步方法调用的两种方法"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20220927094918-1d85uyp",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220729231323-oo2hfju",
-                        "rootId": "20220927094918-1d85uyp",
-                        "scrollAttr": {
-                          "endId": "20221127010842-hiwpczz",
-                          "focusEnd": 0,
-                          "focusId": "20221127010842-hiwpczz",
-                          "focusStart": 0,
-                          "scrollTop": 202,
-                          "startId": "20221127010842-hiwpczz"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "002.用户手册"
                     }
                   ],
                   "height": "",
@@ -487,7 +531,7 @@
   },
   "readonly": false,
   "localIPs": [
-    "192.168.3.20",
+    "192.168.248.37",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
@@ -519,8 +563,8 @@
     "cloudName": "main",
     "enabled": true,
     "mode": 1,
-    "synced": 1670592557721,
-    "stat": "同步于 2022-12-09 21:29:17\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 24 kB/36 kB",
+    "synced": 1670929576462,
+    "stat": "同步于 2022-12-13 19:06:16\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 26 kB/38 kB",
     "generateConflictDoc": false,
     "provider": 2,
     "s3": {
@@ -571,11 +615,11 @@
     "virtualRefKeywordsLimit": 512
   },
   "stat": {
-    "treeCount": 519,
+    "treeCount": 520,
     "cTreeCount": 1000,
-    "blockCount": 11127,
+    "blockCount": 11139,
     "cBlockCount": 20000,
-    "dataSize": 63227591,
+    "dataSize": 59651097,
     "cDataSize": 104857600,
     "assetsSize": 7392914,
     "cAssetsSize": 104857600
