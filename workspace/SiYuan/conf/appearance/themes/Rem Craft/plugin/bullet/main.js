@@ -1,3 +1,4 @@
+import { config } from "../../script/config.js";
 import { prefix } from "../../util/layout.js";
 
 /**
@@ -18,18 +19,11 @@ function getTargetEditor(block) {
  * @return {null} 光标不在块内
  */
 function getFocusedBlock() {
-  let block = window.getSelection()?.focusNode?.parentElement; // 当前光标
-  while (block != null && block.dataset.nodeId == null)
-    block = block.parentElement;
-  return block;
-}
-
-function setSelector(block) {
-  while (block != null && !block.classList.contains("protyle-wysiwyg")) {
-    if (block.dataset.nodeId != null) {
-      block.classList.add(prefix + "focus");
-    }
-    block = block.parentElement;
+  if (document.activeElement.classList.contains("protyle-wysiwyg")) {
+    let block = window.getSelection()?.focusNode?.parentElement; // 当前光标
+    while (block != null && block.dataset.nodeId == null)
+      block = block.parentElement;
+    return block;
   }
 }
 
@@ -37,21 +31,23 @@ function focusHandler() {
   /* 获取当前编辑区 */
   let block = getFocusedBlock(); // 当前光标所在块
   /* 当前块已经设置焦点 */
-  if (block?.classList.contains(prefix + "focus")) return;
+  if (block?.classList.contains(`${prefix}-focus`)) return;
 
   /* 当前块未设置焦点 */
   const editor = getTargetEditor(block); // 当前光标所在块位于的编辑区
   if (editor) {
     editor
-      .querySelectorAll("." + prefix + "focus")
-      .forEach((element) => element.classList.remove(prefix + "focus"));
-    block.classList.add(prefix + "focus");
+      .querySelectorAll(`.${prefix}-focus`)
+      .forEach((element) => element.classList.remove(`${prefix}-focus`));
+    block.classList.add(`${prefix}-focus`);
     // setSelector(block);
   }
 }
 
 export function bulletMain() {
   // 跟踪当前所在块
-  window.addEventListener("mouseup", focusHandler, true);
-  window.addEventListener("keyup", focusHandler, true);
+  if (config.plugin.bullet) {
+    window.addEventListener("mouseup", focusHandler, true);
+    window.addEventListener("keyup", focusHandler, true);
+  }
 }

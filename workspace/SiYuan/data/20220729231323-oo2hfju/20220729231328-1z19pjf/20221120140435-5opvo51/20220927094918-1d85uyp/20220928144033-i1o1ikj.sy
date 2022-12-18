@@ -3,7 +3,9 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
-		"custom-desc": "这里是sypostpublisher的文档。文档目录配置入门视频开始上手三种使用方式简介思源笔记挂件模式chrome浏览器扩展模式vercel远程部署模式平台配置博客园语雀wordpressjvueconferencevuepress链滴知识仓库githubpageshugojekylltypeecho高级使用之文章与平台绑定高级使用之动态新增平台metaweblogapiwordpressgithubpages系列高级使用之自定义页面布局样式组件化拖拽式所见即所得的设计高级使用之自定义http请求协议高",
+		"custom-desc": "这里是sypostpublisher的文档。文档目录配置入门视频开始上手三种使用方式简介思源笔记挂件模式chrome浏览器扩展模式vercel远程部署模式平台配置博客园语雀wordpressjvueconferencevuepress链滴知识仓库jekyll（githubpages）hugohexonuxtnexttypeecho高级使用之文章与平台绑定高级使用之动态新增平台metaweblogapiwordpressgithubpages系列高级使用之自定义页面布局样式组件化拖拽式所见即所得的设计高级使",
+		"custom-hugo-slug": "content/post/readme-1j4ltp.md",
+		"custom-jekyll-slug": "_posts/2022-12-14-readme-1j4ltp.md",
 		"custom-metaweblog-osc-post-id": "5581242",
 		"custom-metaweblog-oschina-post-id": "5581210",
 		"custom-slug": "readme-1j4ltp",
@@ -13,7 +15,7 @@
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221127011041-9v4mfyp\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221127140654-s108dm7\u0026quot;,\u0026quot;scrollTop\u0026quot;:1475.5,\u0026quot;focusId\u0026quot;:\u0026quot;20221127141252-kqoc1z3\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:12}",
 		"tags": "文档,sy-p-003,sy-p-010",
 		"title": "000.文档首页",
-		"updated": "20221127141534"
+		"updated": "20221214132948"
 	},
 	"Children": [
 		{
@@ -95,7 +97,7 @@
 			},
 			"Properties": {
 				"id": "20221121010321-1u79pog",
-				"updated": "20221127001221"
+				"updated": "20221214132948"
 			},
 			"Children": [
 				{
@@ -324,7 +326,7 @@
 					},
 					"Properties": {
 						"id": "20221126192812-hovck7i",
-						"updated": "20221127001221"
+						"updated": "20221214132948"
 					},
 					"Children": [
 						{
@@ -347,28 +349,18 @@
 						{
 							"ID": "20221127000957-z8niq2q",
 							"Type": "NodeList",
-							"ListData": {
-								"Tight": true,
-								"BulletChar": 42,
-								"Padding": 2,
-								"Marker": "Kg==",
-								"Num": -1
-							},
+							"ListData": {},
 							"Properties": {
 								"id": "20221127000957-z8niq2q",
-								"updated": "20221127001221"
+								"updated": "20221214132948"
 							},
 							"Children": [
 								{
 									"ID": "20221127000958-qgkonhi",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127000958-qgkonhi",
@@ -385,10 +377,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "博客园 \u003csup\u003e0.0.1+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "博客园 \u003csup\u003e0.0.1+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -397,13 +386,9 @@
 								{
 									"ID": "20221127001007-1nl76ln",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001007-1nl76ln",
@@ -420,10 +405,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "语雀 \u003csup\u003e0.0.1+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "语雀 \u003csup\u003e0.0.1+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -432,13 +414,9 @@
 								{
 									"ID": "20221127001021-l5xz5ct",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001021-l5xz5ct",
@@ -455,10 +433,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "Wordpress \u003csup\u003e0.0.1+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "Wordpress \u003csup\u003e0.0.1+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -467,13 +442,9 @@
 								{
 									"ID": "20221127001026-nxm4n3p",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001026-nxm4n3p",
@@ -490,10 +461,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "JVue \u003csup\u003e0.0.1+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "JVue \u003csup\u003e0.0.1+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -502,13 +470,9 @@
 								{
 									"ID": "20221127001029-u70227i",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001029-u70227i",
@@ -525,10 +489,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "Conference \u003csup\u003e0.0.1+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "Conference \u003csup\u003e0.0.1+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -537,13 +498,9 @@
 								{
 									"ID": "20221127001032-fnbdhd9",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001032-fnbdhd9",
@@ -560,10 +517,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "Vuepress \u003csup\u003e0.0.1+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "Vuepress \u003csup\u003e0.0.1+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -572,13 +526,9 @@
 								{
 									"ID": "20221127001040-bp6ytuh",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001040-bp6ytuh",
@@ -595,10 +545,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "链滴 \u003csup\u003e0.0.1+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "链滴 \u003csup\u003e0.0.1+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -607,13 +554,9 @@
 								{
 									"ID": "20221127001052-8hvv6x0",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001052-8hvv6x0",
@@ -630,10 +573,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "知识仓库 \u003csup\u003e0.0.1+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "知识仓库 \u003csup\u003e0.0.1+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -642,17 +582,13 @@
 								{
 									"ID": "20221127001102-37j7a9q",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001102-37j7a9q",
-										"updated": "20221127001203"
+										"updated": "20221214022403"
 									},
 									"Children": [
 										{
@@ -660,15 +596,18 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20221127001102-26fud3f",
-												"updated": "20221127001203"
+												"updated": "20221214022403"
 											},
 											"Children": [
 												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "/post/jekyll-1hynv2.html",
+													"TextMarkTextContent": "Jekyll（Github pages）"
+												},
+												{
 													"Type": "NodeText",
-													"Data": "Github pages \u003csup\u003e0.1.0+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": " \u003csup\u003e0.1.0+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -677,17 +616,13 @@
 								{
 									"ID": "20221127001109-nnp2nfq",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001109-nnp2nfq",
-										"updated": "20221127001145"
+										"updated": "20221214132948"
 									},
 									"Children": [
 										{
@@ -695,15 +630,18 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20221127001109-kn9sc7t",
-												"updated": "20221127001145"
+												"updated": "20221214132948"
 											},
 											"Children": [
 												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "a",
+													"TextMarkAHref": "/post/hugo-2x5m9a.html",
+													"TextMarkTextContent": "Hugo"
+												},
+												{
 													"Type": "NodeText",
-													"Data": "Hugo \u003csup\u003e0.1.0+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": " \u003csup\u003e0.1.0+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -712,13 +650,9 @@
 								{
 									"ID": "20221127001111-mwh3pgv",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001111-mwh3pgv",
@@ -730,15 +664,68 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20221127001111-m2sjqly",
-												"updated": "20221127001149"
+												"updated": "20221214021014"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "Jekyll \u003csup\u003e0.1.0+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "Hexo \u003csup\u003e0.1.0+\u003c/sup\u003e"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221214021029-44o1jok",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221214021029-44o1jok",
+										"updated": "20221214021038"
+									},
+									"Children": [
+										{
+											"ID": "20221214021029-r7l6v8j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221214021029-r7l6v8j",
+												"updated": "20221214021038"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Nuxt \u003csup\u003e0.1.0+\u003c/sup\u003e"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221214021031-4v5oevo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221214021031-4v5oevo",
+										"updated": "20221214021039"
+									},
+									"Children": [
+										{
+											"ID": "20221214021031-523kke0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221214021031-523kke0",
+												"updated": "20221214021039"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Next \u003csup\u003e0.1.0+\u003c/sup\u003e"
 												}
 											]
 										}
@@ -747,13 +734,9 @@
 								{
 									"ID": "20221127001117-garjg2a",
 									"Type": "NodeListItem",
-									"Data": "*",
 									"ListData": {
-										"Tight": true,
 										"BulletChar": 42,
-										"Padding": 2,
-										"Marker": "Kg==",
-										"Num": -1
+										"Marker": "Kg=="
 									},
 									"Properties": {
 										"id": "20221127001117-garjg2a",
@@ -770,10 +753,7 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "Typeecho \u003csup\u003e1.0.0+\u003c/sup\u003e",
-													"Properties": {
-														"id": ""
-													}
+													"Data": "Typeecho \u003csup\u003e1.0.0+\u003c/sup\u003e"
 												}
 											]
 										}

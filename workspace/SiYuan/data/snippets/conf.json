@@ -13,6 +13,6 @@
     "memo": "",
     "type": "js",
     "enabled": true,
-    "content": "import('/widgets/custom.js')\nconsole.log(\"custom js loaded\")"
+    "content": "import('/widgets/sy-post-publisher/lib/siyuanhook.js')\n\nconsole.log(\"custom js loaded\")"
   }
 ]

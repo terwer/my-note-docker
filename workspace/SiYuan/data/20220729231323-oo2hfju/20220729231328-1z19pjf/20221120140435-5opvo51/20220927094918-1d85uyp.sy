@@ -9,17 +9,14 @@
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221127010842-hiwpczz\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221127010842-hiwpczz\u0026quot;,\u0026quot;scrollTop\u0026quot;:56,\u0026quot;focusId\u0026quot;:\u0026quot;20221127010842-hiwpczz\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"tags": "文档,首页",
 		"title": "002.用户手册",
-		"updated": "20221205160016"
+		"updated": "20221215102850"
 	},
 	"Children": [
 		{
-			"ID": "20221127010842-hiwpczz",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 1128px; height: 614px;\"\u003e\u003c/iframe\u003e",
+			"ID": "20221215102850-mpwoufm",
+			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221127010842-hiwpczz",
-				"style": "text-align: left;",
-				"updated": "20221127010842"
+				"id": "20221215102850-mpwoufm"
 			}
 		}
 	]

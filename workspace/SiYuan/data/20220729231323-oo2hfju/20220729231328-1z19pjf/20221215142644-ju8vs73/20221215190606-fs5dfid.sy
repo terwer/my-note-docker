@@ -1,0 +1,329 @@
+{
+	"ID": "20221215190606-fs5dfid",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"custom-desc": "挂件模式用挂载菜单的方式使用新特性feat_#挂件模式用挂载菜单的方式使用效果演示​​使用方法现在支持挂件打开窗口了就是还得import一句话import(widgetssypostpublisherlibsiyuanhookjs)​​如果没有添加给出提示​​‍",
+		"custom-slug": "the-pendant-mode-is-used-in-the-method-of-mounting-menu-169wrw",
+		"custom-vuepress-slug": "docs/013.作品展示/001.sy-post-publisher/200.挂件模式用挂载菜单的方式使用.md",
+		"id": "20221215190606-fs5dfid",
+		"tags": "挂件,模式,挂载,菜单,方式",
+		"title": "200.挂件模式用挂载菜单的方式使用",
+		"updated": "20221218014219"
+	},
+	"Children": [
+		{
+			"ID": "20221215190625-brpebnk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221215190625-brpebnk",
+				"updated": "20221215190625"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "新特性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221215190625-o8ckhfj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221215190625-o8ckhfj",
+				"updated": "20221215190659"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "feat: #213 挂件模式用挂载菜单的方式使用 \u003csup\u003e0.4.2\u003c/sup\u003e",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221218013956-nteyy4b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221218013956-nteyy4b",
+				"updated": "20221218014219"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "fix: #282 发布菜单新增只读预览与管理所有文档按钮，美化图标 \u003csup\u003e0.5.1\u003c/sup\u003e",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221218014104-1hkkbsk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221218014104-1hkkbsk",
+				"updated": "20221218014110"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "使用方法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221215212533-ln18hi7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221215212533-ln18hi7",
+				"updated": "20221215212533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首先在设置 - 集市 - 挂件 中下载 sy-post-publisher",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221215212533-5nvp1gy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221215212533-5nvp1gy",
+				"updated": "20221215212533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "点击设置 - 外观- 代码片段，代码片段加上下面的 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "js"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 片段，然后重启思源",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221215212533-ovrjecb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "anM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221215212533-ovrjecb",
+				"updated": "20221215212533"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import(\"/widgets/sy-post-publisher/lib/siyuanhook.js\")\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221215212533-b2srg8b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221215212533-b2srg8b",
+				"updated": "20221215212533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "点击按钮开始体验",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221218014123-a41cr1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221218014123-a41cr1o",
+				"updated": "20221218014127"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img1.terwer.space/api/public/202212180137539.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221215212533-fb0wdny",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221215212533-fb0wdny",
+				"updated": "20221215213044"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "视频教程",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221215213045-wbwqmyb",
+			"Type": "NodeIFrame",
+			"Data": "\u003ciframe src=\"https://player.bilibili.com/player.html?aid=818780043\u0026amp;bvid=BV1cG4y1g7B4\u0026amp;cid=925201310\u0026amp;page=1\" data-src=\"//player.bilibili.com/player.html?aid=818780043\u0026amp;bvid=BV1cG4y1g7B4\u0026amp;cid=925201310\u0026amp;page=1\" scrolling=\"no\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 836px; height: 584px;\"\u003e\u003c/iframe\u003e",
+			"Properties": {
+				"id": "20221215213045-wbwqmyb",
+				"style": "text-align: left;",
+				"updated": "20221215213045"
+			}
+		},
+		{
+			"ID": "20221215213036-0hx8jtg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221215213036-0hx8jtg",
+				"updated": "20221215213036"
+			}
+		}
+	]
+}

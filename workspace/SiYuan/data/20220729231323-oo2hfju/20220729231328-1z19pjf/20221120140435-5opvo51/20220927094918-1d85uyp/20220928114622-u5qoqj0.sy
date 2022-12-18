@@ -4,6 +4,8 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"custom-desc": "哔哩哔哩推荐bilibilihttps_wwwbilibilicomvideobvydcf?zw百度网盘下载链接链接_https_panbaiducomsgvjjkoijzpfgiifeoy_a?pwd=vo提取码_vo​‍",
+		"custom-hugo-slug": "content/post/configure-entry-video-brpm9.md",
+		"custom-jekyll-slug": "_posts/2022-12-14-configure-entry-video-brpm9.md",
 		"custom-slug": "configure-entry-video-brpm9",
 		"custom-vuepress-slug": "docs/013.作品展示/001.sy-post-publisher/001.配置入门视频.md",
 		"icon": "1f58c",
@@ -11,27 +13,17 @@
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221127132652-j865bmw\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221206222315-0c7ov83\u0026quot;,\u0026quot;scrollTop\u0026quot;:425,\u0026quot;focusId\u0026quot;:\u0026quot;20220928114622-peabyeo\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"tags": "配置,入门,视频,sy-p-003",
 		"title": "001.配置入门视频",
-		"updated": "20221206222342"
+		"updated": "20221217001830"
 	},
 	"Children": [
-		{
-			"ID": "20221127132652-j865bmw",
-			"Type": "NodeWidget",
-			"Data": "\u003ciframe src=\"/widgets/sy-post-publisher\" data-src=\"/widgets/sy-post-publisher\" data-subtype=\"widget\" border=\"0\" frameborder=\"no\" framespacing=\"0\" allowfullscreen=\"true\" style=\"width: 856px; height: 464px;\"\u003e\u003c/iframe\u003e",
-			"Properties": {
-				"id": "20221127132652-j865bmw",
-				"style": "text-align: left;",
-				"updated": "20221127132652"
-			}
-		},
 		{
 			"ID": "20220928114622-peabyeo",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
-				"custom-ankilink": "deck_name=\u0026quot;用户手册/配置入门视频\u0026quot;",
+				"custom-ankilink": "deck_name=\u0026quot;用户手册::配置入门视频\u0026quot;",
 				"id": "20220928114622-peabyeo",
-				"updated": "20221206222125"
+				"updated": "20221217001713"
 			},
 			"Children": [
 				{
@@ -45,12 +37,18 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221206222136-umuck42",
-				"updated": "20221206222251"
+				"updated": "20221217001830"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "bilibili\nhttps://www.bilibili.com/video/BV1544y1D7Cf/?zw"
+					"Data": "哔哩哔哩视频\n"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV1544y1D7Cf/?zw",
+					"TextMarkTextContent": "https://www.bilibili.com/video/BV1544y1D7Cf/?zw"
 				}
 			]
 		},

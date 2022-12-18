@@ -3,12 +3,63 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "hugo官网theworld’sfastestframeworkforbuildingwebsites_hugo(gohugoio)安装hugobrewinstallhugo准备工作hugo博客部署_这个相信大家都已经会了。不过这里还是推荐一个最佳实践。推荐使用hugothemenextstarter生成博客。博客设置参考_hugothemenextgitsubmoduleaddhttps_githubcomhugonexthugothemenextgitthemeshugothemenext我开发此功能",
+		"custom-githubNext-zjkc43-post-id": "pages/sub/hugo-2x5m9a.md",
+		"custom-hugo-slug": "content/post/hugo-2x5m9a.md",
+		"custom-jekyll-slug": "_posts/2022-12-14-hugo-2x5m9a.md",
+		"custom-slug": "hugo-2x5m9a",
+		"custom-vuepress-slug": "docs/013.作品展示/001.sy-post-publisher/007.平台配置/010.Hugo.md",
 		"id": "20220927100030-ub58rj8",
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221201211731-1qpmstr\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221201143434-enjr70h\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221201211737-leoidsg\u0026quot;,\u0026quot;focusStart\u0026quot;:21,\u0026quot;focusEnd\u0026quot;:21}",
-		"title": "010.Hugo",
-		"updated": "20221201211827"
+		"tags": "博客,推荐,安装,准备,工作",
+		"title": "010.Hugo平台配置指南",
+		"updated": "20221214163043"
 	},
 	"Children": [
+		{
+			"ID": "20221214141750-j35el1d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221214141750-j35el1d",
+				"updated": "20221214141755"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "HUGO 官网",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221214141755-st4i4ao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221214141755-st4i4ao",
+				"updated": "20221214141815"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://gohugo.io/",
+					"TextMarkTextContent": "The world’s fastest framework for building websites | Hugo (gohugo.io)"
+				}
+			]
+		},
 		{
 			"ID": "20221201211731-1qpmstr",
 			"Type": "NodeHeading",
@@ -19,8 +70,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "安装HUGO"
+					"Data": "安装 HUGO",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -28,6 +89,11 @@
 			"ID": "20221201211737-leoidsg",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20221201211737-leoidsg",
 				"updated": "20221201211827"
@@ -35,19 +101,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "YmFzaA=="
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "brew install hugo\n"
+					"Data": "brew install hugo\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -81,12 +161,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220927100030-232lsjs",
-				"updated": "20221129113523"
+				"updated": "20221214022949"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "HUGO 博客部署：这个详细大家都已经会了。不过这里还是推荐一个最佳实践。",
+					"Data": "HUGO 博客部署：这个相信大家都已经会了。不过这里还是推荐一个最佳实践。",
 					"Properties": {
 						"id": ""
 					}
@@ -136,19 +216,40 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "博客设置参考：",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "博客设置参考："
 				},
 				{
 					"Type": "NodeTextMark",
-					"Properties": {
-						"id": ""
-					},
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://github.com/hugo-next/hugo-theme-next#-direct-reference",
 					"TextMarkTextContent": "hugo-theme-next"
+				}
+			]
+		},
+		{
+			"ID": "20221214163038-s33d9rb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221214163038-s33d9rb",
+				"updated": "20221214163043"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git submodule add https://github.com/hugo-next/hugo-theme-next.git themes/hugo-theme-next\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
 				}
 			]
 		},
@@ -201,6 +302,50 @@
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://github.com/terwer/hugo-blog",
 					"TextMarkTextContent": "https://github.com/terwer/hugo-blog"
+				}
+			]
+		},
+		{
+			"ID": "20221214142258-31tax7t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221214142258-31tax7t",
+				"updated": "20221214142317"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "HUGO 的 front-matter 规则",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221214142300-ju6qvyc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221214142300-ju6qvyc",
+				"updated": "20221214142312"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://gohugo.io/content-management/front-matter/",
+					"TextMarkTextContent": "Front Matter | Hugo (gohugo.io)"
 				}
 			]
 		},

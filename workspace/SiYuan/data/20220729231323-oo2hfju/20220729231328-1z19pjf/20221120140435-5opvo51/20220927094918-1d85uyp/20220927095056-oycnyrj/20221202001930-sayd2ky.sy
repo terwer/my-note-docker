@@ -5,9 +5,40 @@
 	"Properties": {
 		"id": "20221202001930-sayd2ky",
 		"title": "015.Next",
-		"updated": "20221202003145"
+		"updated": "20221215022327"
 	},
 	"Children": [
+		{
+			"ID": "20221215021437-xllvajt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221215021437-xllvajt",
+				"updated": "20221215021443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "官网"
+				}
+			]
+		},
+		{
+			"ID": "20221215021443-9bnn39h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221215021443-9bnn39h",
+				"updated": "20221215021444"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://nextra.site/",
+					"TextMarkTextContent": "Nextra – Next.js Static Site Generator"
+				}
+			]
+		},
 		{
 			"ID": "20221202001930-yu1jvj2",
 			"Type": "NodeHeading",
@@ -25,17 +56,28 @@
 		},
 		{
 			"ID": "20221202001954-hzcwntq",
-			"Type": "NodeParagraph",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20221202001954-hzcwntq",
-				"updated": "20221202003128"
+				"updated": "20221215022327"
 			},
 			"Children": [
 				{
-					"Type": "NodeTextMark",
-					"TextMarkType": "a",
-					"TextMarkAHref": "https://github.com/vercel/swr",
-					"TextMarkTextContent": "https://content.nuxtjs.org/get-started"
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pnpm i next react react-dom nextra nextra-theme-blog\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
 				}
 			]
 		},
@@ -56,6 +98,22 @@
 					"TextMarkType": "a",
 					"TextMarkAHref": "https://github.com/terwer/next-blog",
 					"TextMarkTextContent": "https://github.com/terwer/next-blog"
+				}
+			]
+		},
+		{
+			"ID": "20221215020302-nn4s1h7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221215020302-nn4s1h7",
+				"updated": "20221215020508"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://next.terwer.space",
+					"TextMarkTextContent": "https://next.terwer.space"
 				}
 			]
 		},

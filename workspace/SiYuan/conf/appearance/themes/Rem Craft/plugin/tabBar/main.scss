@@ -206,7 +206,7 @@ $item-radius: get($radius, $item-type);
         margin: math.div($item-h - $btn-w, 2) 0px 0 0;
         padding: 0 8px 0 0;
         min-width: $btn-w * 2 + $fn-space * 2 - $item-radius;
-        // border-right: $fn-border-2;
+        border-right: $fn-border-2;
         // border-radius: unset;
 
         .item__close {
@@ -267,7 +267,7 @@ $item-radius: get($radius, $item-type);
   .layout-tab-container {
     border-radius: get($radius, "medium");
     border: $fn-border;
-    border-width: 0 1px 1px 1px;
+    border-top: 1px solid transparent;
     box-shadow: 0 -1px 0 0 get($border, 3);
   }
 }
@@ -288,13 +288,14 @@ $item-radius: get($radius, $item-type);
 
 //  dock
 .dock--vertical {
-  padding-top: $top-h - $interval;
+  margin-top: $top-h - $interval;
+  height: calc(100vh - $top-h + $interval);
 }
 
 // empty
 .layout__center:has(.layout__empty) {
   padding-top: $top-h - $interval;
   .layout-tab-container {
-    border-width: 1px;
+    border-top: $fn-border;
   }
 }

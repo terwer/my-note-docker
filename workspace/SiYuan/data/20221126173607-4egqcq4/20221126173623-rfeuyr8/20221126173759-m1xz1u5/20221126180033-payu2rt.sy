@@ -13,23 +13,22 @@
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221126180842-6zkspec\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221126180101-pcot08b\u0026quot;,\u0026quot;scrollTop\u0026quot;:126,\u0026quot;focusId\u0026quot;:\u0026quot;20221126185703-hj2eqmo\u0026quot;,\u0026quot;focusStart\u0026quot;:7,\u0026quot;focusEnd\u0026quot;:7}",
 		"tags": "git,env,分支,系列,项目,涉及,内容",
 		"title": "002.Git应用开发详解之环境准备续",
-		"updated": "20221126185711"
+		"updated": "20221217214229"
 	},
 	"Children": [
 		{
 			"ID": "20221126180842-6zkspec",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
+				"custom-ankilink": "deck_name=\u0026quot;版本控制::GIT::GIT知识体系\u0026quot;_esc_newline_tags=[\u0026quot;git\u0026quot;,\u0026quot;环境\u0026quot;,\u0026quot;配置\u0026quot;]",
 				"id": "20221126180842-6zkspec",
-				"updated": "20221126180842"
+				"updated": "20221217214229"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Git 系列涉及的内容续",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "Git 系列涉及的内容续"
 				}
 			]
 		},
@@ -69,15 +68,38 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126180101-6w2mppj",
-								"updated": "20221126180101"
+								"updated": "20221217013926"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Git 对象类型与索引",
+									"Data": "Git ",
 									"Properties": {
 										"id": ""
 									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "对象类型 "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "与 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "索引 详解"
 								}
 							]
 						}
@@ -104,15 +126,23 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126180101-3sovnpl",
-								"updated": "20221126180101"
+								"updated": "20221217013610"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Git 分支",
+									"Data": "Git ",
 									"Properties": {
 										"id": ""
 									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "分支"
 								}
 							]
 						}
@@ -139,12 +169,57 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126180101-jan9x8t",
-								"updated": "20221126180101"
+								"updated": "20221217013626"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如何创建、切换与删除分支",
+									"Data": "如何 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "创建"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 、",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "切换 "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "与 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "删除 "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "分支",
 									"Properties": {
 										"id": ""
 									}
@@ -174,12 +249,27 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126180101-rtd766u",
-								"updated": "20221126180101"
+								"updated": "20221217013648"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Git 分支在项目开发中的作用",
+									"Data": "Git 分支在 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "项目开发"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 中的作用",
 									"Properties": {
 										"id": ""
 									}
@@ -209,12 +299,27 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126180101-zpiw6yf",
-								"updated": "20221126180101"
+								"updated": "20221217013654"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Git 分支在工程化项目中的最佳实践",
+									"Data": "Git 分支在 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "工程化项目"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 中的最佳实践",
 									"Properties": {
 										"id": ""
 									}
@@ -244,12 +349,27 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126180101-1bwwo5d",
-								"updated": "20221126180101"
+								"updated": "20221217013702"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "分支常见重要命令详解",
+									"Data": "分支常见 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "重要命令 "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "详解",
 									"Properties": {
 										"id": ""
 									}
@@ -279,15 +399,23 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126185638-ragvj9z",
-								"updated": "20221126185642"
+								"updated": "20221217013705"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Git merge",
+									"Data": "Git ",
 									"Properties": {
 										"id": ""
 									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "merge"
 								}
 							]
 						}
@@ -314,15 +442,23 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126185643-s65o0rn",
-								"updated": "20221126185655"
+								"updated": "20221217013708"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Git 冲突解决策略",
+									"Data": "Git ",
 									"Properties": {
 										"id": ""
 									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "冲突解决策略"
 								}
 							]
 						}
@@ -349,12 +485,1128 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126185703-hj2eqmo",
-								"updated": "20221126185711"
+								"updated": "20221217013711"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "HEAD"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217014240-49d4ltu",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217014240-49d4ltu",
+						"updated": "20221217014240"
+					},
+					"Children": [
+						{
+							"ID": "20221217014240-a6gwc6w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217014240-a6gwc6w",
+								"updated": "20221217014300"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "HEAD 详解",
+									"Data": "Git ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "commit"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 修改详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217014301-36hleu2",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217014301-36hleu2",
+						"updated": "20221217014301"
+					},
+					"Children": [
+						{
+							"ID": "20221217014301-bwxrdl7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217014301-bwxrdl7",
+								"updated": "20221217014317"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "远程版本库"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 介绍",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217014318-zlvek1s",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217014318-zlvek1s",
+						"updated": "20221217014318"
+					},
+					"Children": [
+						{
+							"ID": "20221217014318-dh4lmaf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217014318-dh4lmaf",
+								"updated": "20221217014331"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "远程版本库"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221217014358-31tzg02",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221217014358-31tzg02",
+				"updated": "20221217014358"
+			}
+		},
+		{
+			"ID": "20221217014400-ondhb9m",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221217014400-ondhb9m",
+				"updated": "20221217014402"
+			},
+			"Children": [
+				{
+					"ID": "20221217014402-4dbubiy",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217014402-4dbubiy",
+						"updated": "20221217014402"
+					},
+					"Children": [
+						{
+							"ID": "20221217014402-y45hwwu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217014402-y45hwwu",
+								"updated": "20221217014509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git push、pull、fetch 使用与注意事项",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217014509-17hd7j4",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217014509-17hd7j4",
+						"updated": "20221217014509"
+					},
+					"Children": [
+						{
+							"ID": "20221217014509-mi4uhet",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217014509-mi4uhet",
+								"updated": "20221217014521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "合并"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的基本原则",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217014524-8ut59wf",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217014524-8ut59wf",
+						"updated": "20221217014524"
+					},
+					"Children": [
+						{
+							"ID": "20221217014524-4cs2ac5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217014524-4cs2ac5",
+								"updated": "20221217014855"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "别名"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 、 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "config 文件"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217014941-czzw03r",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217014941-czzw03r",
+						"updated": "20221217014941"
+					},
+					"Children": [
+						{
+							"ID": "20221217014941-nae52qh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217014941-nae52qh",
+								"updated": "20221217014954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git tag 详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217014954-8746qzw",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217014954-8746qzw",
+						"updated": "20221217014954"
+					},
+					"Children": [
+						{
+							"ID": "20221217014954-6bcrtvt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217014954-6bcrtvt",
+								"updated": "20221217015006"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何创建于推送 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "tag"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217015008-wp8ii8r",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217015008-wp8ii8r",
+						"updated": "20221217015008"
+					},
+					"Children": [
+						{
+							"ID": "20221217015008-l0r2wm6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217015008-l0r2wm6",
+								"updated": "20221217015023"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "feature"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 分支详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221217015219-ysjfsvp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221217015219-ysjfsvp",
+				"updated": "20221217015219"
+			}
+		},
+		{
+			"ID": "20221217015220-jvqrauh",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221217015220-jvqrauh",
+				"updated": "20221217015450"
+			},
+			"Children": [
+				{
+					"ID": "20221217015222-ac9ol7l",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217015222-ac9ol7l",
+						"updated": "20221217015222"
+					},
+					"Children": [
+						{
+							"ID": "20221217015222-9zfowez",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217015222-9zfowez",
+								"updated": "20221217015343"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "何时应该使用 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "submodule"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217015238-eccvgib",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217015238-eccvgib",
+						"updated": "20221217015238"
+					},
+					"Children": [
+						{
+							"ID": "20221217015238-h3pg2iw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217015238-h3pg2iw",
+								"updated": "20221217015347"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "subtree"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217015339-6mjsokj",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217015339-6mjsokj",
+						"updated": "20221217015339"
+					},
+					"Children": [
+						{
+							"ID": "20221217015339-eggpmab",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217015339-eggpmab",
+								"updated": "20221217015400"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git subtree 的使用方式详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217015402-568nbhz",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217015402-568nbhz",
+						"updated": "20221217015421"
+					},
+					"Children": [
+						{
+							"ID": "20221217015402-m0zzre8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217015402-m0zzre8",
+								"updated": "20221217015421"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": ".gitignore"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的正确使用方式",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217015414-fizi6n8",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217015414-fizi6n8",
+						"updated": "20221217015450"
+					},
+					"Children": [
+						{
+							"ID": "20221217015414-cnwf39d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217015414-cnwf39d",
+								"updated": "20221217015450"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git 私服 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Gitlab"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的搭建方法",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221217015508-pnlib8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221217015508-pnlib8n",
+				"updated": "20221217015508"
+			}
+		},
+		{
+			"ID": "20221217132224-egezd4k",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221217132224-egezd4k",
+				"updated": "20221217132407"
+			},
+			"Children": [
+				{
+					"ID": "20221217132225-taozktp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217132225-taozktp",
+						"updated": "20221217132225"
+					},
+					"Children": [
+						{
+							"ID": "20221217132225-6iqzsgl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217132225-6iqzsgl",
+								"updated": "20221217132246"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在公司内部使用 Gitlab 作为版本控制服务器",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217132249-o1q6deo",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217132249-o1q6deo",
+						"updated": "20221217132249"
+					},
+					"Children": [
+						{
+							"ID": "20221217132249-t6rkysf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217132249-t6rkysf",
+								"updated": "20221217132257"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Gitlab 使用详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217132257-s5mja72",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217132257-s5mja72",
+						"updated": "20221217132407"
+					},
+					"Children": [
+						{
+							"ID": "20221217132257-bx1cm3m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217132257-bx1cm3m",
+								"updated": "20221217132407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如何使用 Gitlab 管理项目分组、",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "用户角色"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217132320-4y9t2qm",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217132320-4y9t2qm",
+						"updated": "20221217132320"
+					},
+					"Children": [
+						{
+							"ID": "20221217132320-1571yrf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217132320-1571yrf",
+								"updated": "20221217132339"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Gitlab issue 与提交使用技巧",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217132339-r7u55rb",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217132339-r7u55rb",
+						"updated": "20221217132339"
+					},
+					"Children": [
+						{
+							"ID": "20221217132339-l9binl0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217132339-l9binl0",
+								"updated": "20221217132349"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Github 使用方式介绍",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221217132351-ywt3ehy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221217132351-ywt3ehy",
+				"updated": "20221217132351"
+			}
+		},
+		{
+			"ID": "20221217132352-kh340o0",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20221217132352-kh340o0",
+				"updated": "20221217201526"
+			},
+			"Children": [
+				{
+					"ID": "20221217201416-jbw1i3e",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217201416-jbw1i3e",
+						"updated": "20221217201416"
+					},
+					"Children": [
+						{
+							"ID": "20221217201416-ekl8f4h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217201416-ekl8f4h",
+								"updated": "20221217201435"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "搭建基于 IntelliJ IDEA 的 Java 开发环境",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217201435-zzxp7q9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217201435-zzxp7q9",
+						"updated": "20221217201537"
+					},
+					"Children": [
+						{
+							"ID": "20221217201435-nxg9gxw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217201435-nxg9gxw",
+								"updated": "20221217201537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "搭建基于 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Gradle"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的 Java 开发环境",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217201450-ooif07n",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217201450-ooif07n",
+						"updated": "20221217201450"
+					},
+					"Children": [
+						{
+							"ID": "20221217201450-7i2kncf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217201450-7i2kncf",
+								"updated": "20221217201508"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Git 与 IntelliJ IDEA 的整合方式详解",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217201509-xd0vw5u",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217201509-xd0vw5u",
+						"updated": "20221217201509"
+					},
+					"Children": [
+						{
+							"ID": "20221217201509-bczbdiw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217201509-bczbdiw",
+								"updated": "20221217201519"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Gradle 初步使用",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221217201519-k1adhcm",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20221217201519-k1adhcm",
+						"updated": "20221217201526"
+					},
+					"Children": [
+						{
+							"ID": "20221217201519-kze3z2x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221217201519-kze3z2x",
+								"updated": "20221217201526"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": ".gitignore 最佳实践",
 									"Properties": {
 										"id": ""
 									}

@@ -1,0 +1,471 @@
+{
+	"ID": "20221216220243-s4241fz",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221216220243-s4241fz",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221216220247-j8l9trk\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221216220247-hvbv6j6\u0026quot;,\u0026quot;scrollTop\u0026quot;:2163.5,\u0026quot;focusId\u0026quot;:\u0026quot;20221216220247-ps6s14u\u0026quot;,\u0026quot;focusStart\u0026quot;:3,\u0026quot;focusEnd\u0026quot;:3}",
+		"title": "Untitled",
+		"updated": "20221216220247"
+	},
+	"Children": [
+		{
+			"ID": "20221216220247-j8l9trk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221216220247-j8l9trk",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://app.tango.us/app/workflow/48f15d7e-2787-43b4-a2e2-d166c27b6033?utm_source=markdown\u0026utm_medium=markdown\u0026utm_campaign=workflow%20export%20links",
+					"TextMarkTextContent": "Workflow with 127.0.0.1"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-nwku72h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221216220247-nwku72h",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Date:"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " December 16, 2022"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-810guce",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221216220247-810guce",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Author:"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Green Terwer"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-3i6iy6p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221216220247-3i6iy6p",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Source:"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://app.tango.us/app/workflow/48f15d7e-2787-43b4-a2e2-d166c27b6033?utm_source=markdown\u0026utm_medium=markdown\u0026utm_campaign=workflow%20export%20links",
+					"TextMarkTextContent": "Tango"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-9n6eu90",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221216220247-9n6eu90",
+				"updated": "20221216220247"
+			}
+		},
+		{
+			"ID": "20221216220247-hncidp0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221216220247-hncidp0",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://127.0.0.1:6806/widgets/sy-post-publisher/blog/?from=siyuan",
+					"TextMarkTextContent": "Go to 文章列表查看 - 思源笔记发布辅助工具"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-iautfbp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221216220247-iautfbp",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. Type \"文档测试\""
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-xsin6z9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221216220247-xsin6z9",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Step 2 screenshot"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://images.tango.us/workflows/48f15d7e-2787-43b4-a2e2-d166c27b6033/steps/8b832985-d6f3-41a4-ae48-658654a97939/f66010c2-b456-4cb2-a841-7f419a984274.png?crop=focalpoint\u0026fit=crop\u0026fp-x=0.1507\u0026fp-y=0.0937\u0026fp-z=1.7645\u0026w=1200\u0026mark-w=0.2\u0026mark-pad=0\u0026mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n\u0026ar=3584%3A1836"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-ijvzpbv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221216220247-ijvzpbv",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. Click on 搜索"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-1ycuh2b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221216220247-1ycuh2b",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Step 3 screenshot"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://images.tango.us/workflows/48f15d7e-2787-43b4-a2e2-d166c27b6033/steps/598fee7b-a66b-4d69-95a8-2f5058fb1508/572013cc-d81d-44c5-af49-87e9ccfdeca5.png?crop=focalpoint\u0026fit=crop\u0026fp-x=0.3181\u0026fp-y=0.0937\u0026fp-z=3.1683\u0026w=1200\u0026mark-w=0.2\u0026mark-pad=0\u0026mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n\u0026ar=3584%3A1836"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-giv2qe6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221216220247-giv2qe6",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. Click on 新窗口预览"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-fgmb8qn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221216220247-fgmb8qn",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Step 4 screenshot"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://images.tango.us/workflows/48f15d7e-2787-43b4-a2e2-d166c27b6033/steps/379614a2-94f7-429a-aea2-5e9ea351cf84/2a38bfce-56ce-4bf3-9fe7-50f8698f6134.png?crop=focalpoint\u0026fit=crop\u0026fp-x=0.8641\u0026fp-y=0.1874\u0026fp-z=3.1942\u0026w=1200\u0026mark-w=0.2\u0026mark-pad=0\u0026mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n\u0026ar=3584%3A1836"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-1tjwgji",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221216220247-1tjwgji",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. Click on 警告信息"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-ps6s14u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221216220247-ps6s14u",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Step 5 screenshot"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://images.tango.us/workflows/48f15d7e-2787-43b4-a2e2-d166c27b6033/steps/4f2a12a9-5294-4fd0-a50b-54179b44dfdc/6bc8c0c9-3b6b-4234-9bf9-b0a721428d90.png?crop=focalpoint\u0026fit=crop\u0026fp-x=0.5921\u0026fp-y=0.5447\u0026fp-z=2.9863\u0026w=1200\u0026mark-w=0.2\u0026mark-pad=0\u0026mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n\u0026ar=3584%3A1836"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-cw9vud1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221216220247-cw9vud1",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. Click on 发布到其他平台"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-4vm3fn9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221216220247-4vm3fn9",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7. Click on tab"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-3cdoi8i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221216220247-3cdoi8i",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Step 7 screenshot"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://images.tango.us/workflows/48f15d7e-2787-43b4-a2e2-d166c27b6033/steps/7edaf9f9-33fb-41eb-bf15-d0dfafd7349f/80ba2856-110c-4409-8e00-1b93b81249b0.png?crop=focalpoint\u0026fit=crop\u0026fp-x=0.0268\u0026fp-y=0.1068\u0026fp-z=2.8283\u0026w=1200\u0026mark-w=0.2\u0026mark-pad=0\u0026mark64=aHR0cHM6Ly9pbWFnZXMudGFuZ28udXMvc3RhdGljL21hZGUtd2l0aC10YW5nby13YXRlcm1hcmsucG5n\u0026ar=3584%3A1836"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221216220247-0g3qp1p",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221216220247-0g3qp1p",
+				"updated": "20221216220247"
+			}
+		},
+		{
+			"ID": "20221216220247-hvbv6j6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221216220247-hvbv6j6",
+				"updated": "20221216220247"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "em a",
+					"TextMarkAHref": "https://app.tango.us/app/workflow/48f15d7e-2787-43b4-a2e2-d166c27b6033?utm_source=markdown\u0026utm_medium=markdown\u0026utm_campaign=workflow%20export%20links",
+					"TextMarkTextContent": "This Workflow was created with Tango"
+				}
+			]
+		}
+	]
+}

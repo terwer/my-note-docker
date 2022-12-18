@@ -11,9 +11,9 @@
 		"icon": "1f3cd",
 		"id": "20221126173747-w7c9dld",
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221126173903-n8jvd3o\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221126173903-v7egmh2\u0026quot;,\u0026quot;scrollTop\u0026quot;:853,\u0026quot;focusId\u0026quot;:\u0026quot;20221126173903-n8jvd3o\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
-		"tags": "命令,配置,scm,git,zsh",
+		"tags": "命令,配置,scm,git,zsh,linux",
 		"title": "001.Git应用开发详解之Git概述与环境准备",
-		"updated": "20221126175524"
+		"updated": "20221217011343"
 	},
 	"Children": [
 		{
@@ -22,7 +22,7 @@
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20221126173903-n8jvd3o",
-				"updated": "20221126173903"
+				"updated": "20221217003144"
 			},
 			"Children": [
 				{
@@ -46,8 +46,9 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"custom-ankilink": "deck_name=\u0026amp;quot;版本控制::GIT::环境准备\u0026amp;quot;_esc_newline_tags=[\u0026amp;quot;git\u0026amp;quot;,\u0026amp;quot;环境\u0026amp;quot;,\u0026amp;quot;配置\u0026amp;quot;]",
 				"id": "20221126173903-hf46yb8",
-				"updated": "20221126173903"
+				"updated": "20221217003250"
 			},
 			"Children": [
 				{
@@ -67,7 +68,7 @@
 			]
 		},
 		{
-			"ID": "20221126173903-6gpda7s",
+			"ID": "20221217003445-z9z25fl",
 			"Type": "NodeList",
 			"ListData": {
 				"Tight": true,
@@ -77,12 +78,12 @@
 				"Num": -1
 			},
 			"Properties": {
-				"id": "20221126173903-6gpda7s",
-				"updated": "20221126173903"
+				"id": "20221217003445-z9z25fl",
+				"updated": "20221217004028"
 			},
 			"Children": [
 				{
-					"ID": "20221126173903-kq9eawf",
+					"ID": "20221217003457-b4usst8",
 					"Type": "NodeListItem",
 					"Data": "*",
 					"ListData": {
@@ -93,16 +94,16 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20221126173903-kq9eawf",
-						"updated": "20221126173903"
+						"id": "20221217003457-b4usst8",
+						"updated": "20221217003457"
 					},
 					"Children": [
 						{
-							"ID": "20221126173903-15cnrnr",
+							"ID": "20221217003457-lh9xfz6",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221126173903-15cnrnr",
-								"updated": "20221126173903"
+								"id": "20221217003457-lh9xfz6",
+								"updated": "20221217003503"
 							},
 							"Children": [
 								{
@@ -132,7 +133,7 @@
 					]
 				},
 				{
-					"ID": "20221126173903-hacc7mo",
+					"ID": "20221217003506-p6hwe74",
 					"Type": "NodeListItem",
 					"Data": "*",
 					"ListData": {
@@ -143,21 +144,21 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20221126173903-hacc7mo",
-						"updated": "20221126173903"
+						"id": "20221217003506-p6hwe74",
+						"updated": "20221217004028"
 					},
 					"Children": [
 						{
-							"ID": "20221126173903-5uwhuil",
+							"ID": "20221217003506-8tzy2mg",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221126173903-5uwhuil",
-								"updated": "20221126173903"
+								"id": "20221217003506-8tzy2mg",
+								"updated": "20221217004028"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "zshenv 与 zshrc 的区别：",
+									"Data": "​",
 									"Properties": {
 										"id": ""
 									}
@@ -172,7 +173,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 始终是 source 的，也就是说一直生效，但是 ",
+									"Data": "​ 与 ",
 									"Properties": {
 										"id": ""
 									}
@@ -187,7 +188,97 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 只是活跃的 shell 生效，另外，zshrc 会覆盖 zshenv 的设置。",
+									"Data": "​ 的区别：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zshenv"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 始终是 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "source"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的，也就是说 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "一直生效"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，但是 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zshrc"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 只是 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "活跃的 shell 生效"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，另外，zshrc 会 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "覆盖"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " zshenv 的设置。",
 									"Properties": {
 										"id": ""
 									}
@@ -203,23 +294,14 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"custom-ankilink": "deck_name=\u0026quot;版本控制::GIT::环境准备\u0026quot;_esc_newline_tags=[\u0026quot;git\u0026quot;,\u0026quot;环境\u0026quot;,\u0026quot;配置\u0026quot;]",
 				"id": "20221126173903-05fwq40",
-				"updated": "20221126173903"
+				"updated": "20221217011156"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "### ",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
 					"Type": "NodeText",
-					"Data": "linux 常用命令",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "linux 常用命令"
 				}
 			]
 		},
@@ -234,7 +316,7 @@
 			},
 			"Properties": {
 				"id": "20221126173903-thgq1ad",
-				"updated": "20221126175524"
+				"updated": "20221217011128"
 			},
 			"Children": [
 				{
@@ -249,7 +331,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-7jk5vtf",
-						"updated": "20221126173903"
+						"updated": "20221217004101"
 					},
 					"Children": [
 						{
@@ -257,7 +339,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-vcg1ot6",
-								"updated": "20221126173903"
+								"updated": "20221217004101"
 							},
 							"Children": [
 								{
@@ -277,10 +359,18 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 可以快速清屏",
+									"Data": "​ 可以 ",
 									"Properties": {
 										"id": ""
 									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "快速清屏"
 								}
 							]
 						}
@@ -299,7 +389,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-ptxmpqc",
-						"updated": "20221126173903"
+						"updated": "20221217004112"
 					},
 					"Children": [
 						{
@@ -307,12 +397,27 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-hkpfvnt",
-								"updated": "20221126173903"
+								"updated": "20221217004112"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "vi 中设置行号：",
+									"Data": "vi 中 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "设置行号"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：",
 									"Properties": {
 										"id": ""
 									}
@@ -349,7 +454,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-ssb9qz0",
-						"updated": "20221126173903"
+						"updated": "20221217004129"
 					},
 					"Children": [
 						{
@@ -357,12 +462,27 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-hzq2c03",
-								"updated": "20221126173903"
+								"updated": "20221217004118"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "vi 中的滚屏：",
+									"Data": "vi 中的 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "滚屏"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：",
 									"Properties": {
 										"id": ""
 									}
@@ -381,7 +501,7 @@
 							},
 							"Properties": {
 								"id": "20221126173903-6dwgokm",
-								"updated": "20221126173903"
+								"updated": "20221217004129"
 							},
 							"Children": [
 								{
@@ -397,7 +517,7 @@
 									},
 									"Properties": {
 										"id": "20221126173903-z7wxii7",
-										"updated": "20221126173903"
+										"updated": "20221217004123"
 									},
 									"Children": [
 										{
@@ -405,7 +525,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20221126173903-2h3utqu",
-												"updated": "20221126173903"
+												"updated": "20221217004123"
 											},
 											"Children": [
 												{
@@ -425,10 +545,18 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​：向下滚屏",
+													"Data": "​​：",
 													"Properties": {
 														"id": ""
 													}
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "向下滚屏"
 												}
 											]
 										}
@@ -447,7 +575,7 @@
 									},
 									"Properties": {
 										"id": "20221126173903-wq38i7g",
-										"updated": "20221126173903"
+										"updated": "20221217004126"
 									},
 									"Children": [
 										{
@@ -455,7 +583,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20221126173903-ovh7gl6",
-												"updated": "20221126173903"
+												"updated": "20221217004126"
 											},
 											"Children": [
 												{
@@ -475,10 +603,18 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​：向上滚屏",
+													"Data": "​​：",
 													"Properties": {
 														"id": ""
 													}
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "向上滚屏"
 												}
 											]
 										}
@@ -497,7 +633,7 @@
 									},
 									"Properties": {
 										"id": "20221126173903-0tiva3c",
-										"updated": "20221126173903"
+										"updated": "20221217004129"
 									},
 									"Children": [
 										{
@@ -505,7 +641,7 @@
 											"Type": "NodeParagraph",
 											"Properties": {
 												"id": "20221126173903-vn0iwxg",
-												"updated": "20221126173903"
+												"updated": "20221217004129"
 											},
 											"Children": [
 												{
@@ -525,10 +661,18 @@
 												},
 												{
 													"Type": "NodeText",
-													"Data": "​：最后一行",
+													"Data": "​​：",
 													"Properties": {
 														"id": ""
 													}
+												},
+												{
+													"Type": "NodeTextMark",
+													"Properties": {
+														"id": ""
+													},
+													"TextMarkType": "strong",
+													"TextMarkTextContent": "最后一行"
 												}
 											]
 										}
@@ -551,7 +695,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-cp5e0gg",
-						"updated": "20221126173903"
+						"updated": "20221217004139"
 					},
 					"Children": [
 						{
@@ -559,12 +703,27 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-w7bshv0",
-								"updated": "20221126173903"
+								"updated": "20221217004139"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "vi 中跳转到某一行：",
+									"Data": "vi 中 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "跳转到某一行"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：",
 									"Properties": {
 										"id": ""
 									}
@@ -601,7 +760,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-laku8xi",
-						"updated": "20221126173903"
+						"updated": "20221217004144"
 					},
 					"Children": [
 						{
@@ -609,7 +768,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-yigoveb",
-								"updated": "20221126173903"
+								"updated": "20221217004144"
 							},
 							"Children": [
 								{
@@ -629,10 +788,18 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​ 直接删除某一行",
+									"Data": "​ 直接 ",
 									"Properties": {
 										"id": ""
 									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "删除某一行"
 								}
 							]
 						}
@@ -651,7 +818,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-hy34gzg",
-						"updated": "20221126173903"
+						"updated": "20221217004147"
 					},
 					"Children": [
 						{
@@ -659,12 +826,20 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-qf2ozn5",
-								"updated": "20221126173903"
+								"updated": "20221217004147"
 							},
 							"Children": [
 								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "新建文件"
+								},
+								{
 									"Type": "NodeText",
-									"Data": "新建文件：",
+									"Data": "：",
 									"Properties": {
 										"id": ""
 									}
@@ -679,7 +854,7 @@
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
+									"Data": "​​",
 									"Properties": {
 										"id": ""
 									}
@@ -701,7 +876,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-4np42zm",
-						"updated": "20221126175524"
+						"updated": "20221217011128"
 					},
 					"Children": [
 						{
@@ -709,12 +884,21 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-onjzyqo",
-								"updated": "20221126175524"
+								"updated": "20221217011125"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "查看命令帮助手册："
+									"Data": "查看命令 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "帮助手册 "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
 								},
 								{
 									"Type": "NodeTextMark",
@@ -732,30 +916,30 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-svycygi",
-								"updated": "20221126173903"
+								"updated": "20221217011126"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "man 滚屏：",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "man "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "滚屏 "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "："
+								},
+								{
+									"Type": "NodeTextMark",
 									"TextMarkType": "code",
 									"TextMarkTextContent": "空格键"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						},
@@ -764,30 +948,26 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-zpcec4b",
-								"updated": "20221126173903"
+								"updated": "20221217011128"
 							},
 							"Children": [
 								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "退出 "
+								},
+								{
 									"Type": "NodeText",
-									"Data": "退出： ",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "： "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
 									"TextMarkType": "code",
 									"TextMarkTextContent": "q"
 								},
 								{
 									"Type": "NodeText",
-									"Data": "​",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "​"
 								}
 							]
 						}
@@ -800,23 +980,14 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"custom-ankilink": "deck_name=\u0026quot;版本控制::GIT::GIT知识体系\u0026quot;_esc_newline_tags=[\u0026quot;git\u0026quot;,\u0026quot;环境\u0026quot;,\u0026quot;配置\u0026quot;]",
 				"id": "20221126173903-9rgakpi",
-				"updated": "20221126173903"
+				"updated": "20221217011240"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "## ",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
 					"Type": "NodeText",
-					"Data": "Git 系列涉及的内容",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "Git 系列涉及的内容"
 				}
 			]
 		},
@@ -832,7 +1003,7 @@
 			},
 			"Properties": {
 				"id": "20221126173903-v7egmh2",
-				"updated": "20221126173903"
+				"updated": "20221217011342"
 			},
 			"Children": [
 				{
@@ -848,7 +1019,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-8l2gqsy",
-						"updated": "20221126173903"
+						"updated": "20221217011247"
 					},
 					"Children": [
 						{
@@ -856,21 +1027,24 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-xidzzlr",
-								"updated": "20221126173903"
+								"updated": "20221217011247"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Git 官网：",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Git "
 								},
 								{
 									"Type": "NodeTextMark",
-									"Properties": {
-										"id": ""
-									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "官网"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ："
+								},
+								{
+									"Type": "NodeTextMark",
 									"TextMarkType": "a",
 									"TextMarkAHref": "https://git-scm.com/",
 									"TextMarkTextContent": "https://git-scm.com/"
@@ -892,7 +1066,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-vy4omtw",
-						"updated": "20221126173903"
+						"updated": "20221217011251"
 					},
 					"Children": [
 						{
@@ -900,15 +1074,21 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-tk68sa9",
-								"updated": "20221126173903"
+								"updated": "20221217011251"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "常见 Linux 命令",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "常见 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Linux"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 命令"
 								}
 							]
 						}
@@ -927,7 +1107,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-8cbsz2j",
-						"updated": "20221126173903"
+						"updated": "20221217011256"
 					},
 					"Children": [
 						{
@@ -935,15 +1115,17 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-2ygpqse",
-								"updated": "20221126173903"
+								"updated": "20221217011256"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Git 在各种平台下的安装与配置",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Git 在各种平台下的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "安装与配置"
 								}
 							]
 						}
@@ -962,7 +1144,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-nwf08jk",
-						"updated": "20221126173903"
+						"updated": "20221217011308"
 					},
 					"Children": [
 						{
@@ -970,15 +1152,26 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-9lam5yu",
-								"updated": "20221126173903"
+								"updated": "20221217011308"
 							},
 							"Children": [
 								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "分布式 "
+								},
+								{
 									"Type": "NodeText",
-									"Data": "分布式与集中式版本控制系统的差别",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "与 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "集中式"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 版本控制系统的差别"
 								}
 							]
 						}
@@ -997,7 +1190,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-z0arzis",
-						"updated": "20221126173903"
+						"updated": "20221217011320"
 					},
 					"Children": [
 						{
@@ -1005,15 +1198,31 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-8g7z1bp",
-								"updated": "20221126173903"
+								"updated": "20221217011320"
 							},
 							"Children": [
 								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "缓冲区"
+								},
+								{
 									"Type": "NodeText",
-									"Data": "缓冲区、工作区与 Git 提交",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "、"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "工作区 "
+								},
+								{
+									"Type": "NodeText",
+									"Data": "与 Git "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "提交"
 								}
 							]
 						}
@@ -1032,7 +1241,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-6jlkvpd",
-						"updated": "20221126173903"
+						"updated": "20221217011328"
 					},
 					"Children": [
 						{
@@ -1040,15 +1249,17 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-wlwcm23",
-								"updated": "20221126173903"
+								"updated": "20221217011328"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "版本回退",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "版本 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "回退"
 								}
 							]
 						}
@@ -1067,7 +1278,7 @@
 					},
 					"Properties": {
 						"id": "20221126173903-r1tgtkj",
-						"updated": "20221126173903"
+						"updated": "20221217011342"
 					},
 					"Children": [
 						{
@@ -1075,21 +1286,35 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20221126173903-y8rgujf",
-								"updated": "20221126173903"
+								"updated": "20221217011342"
 							},
 							"Children": [
 								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "修改与撤销修改"
+								},
+								{
 									"Type": "NodeText",
-									"Data": "修改与撤销修改、文件的添加与删除",
-									"Properties": {
-										"id": ""
-									}
+									"Data": " 、文件的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "添加与删除"
 								}
 							]
 						}
 					]
 				}
 			]
+		},
+		{
+			"ID": "20221217011343-o68dh92",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221217011343-o68dh92"
+			}
 		}
 	]
 }

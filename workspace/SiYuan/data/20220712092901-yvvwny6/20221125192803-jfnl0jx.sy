@@ -3,8 +3,11 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "代码片段自定义css片段at_importurl(widgetscustomcss)customcssat_importhtml{filter_grayscale()_}全局样式_root{bfontfamily_bfontfamilycode_var(bfontfamily)_bfontfamilygraph_var(bfontfamily)_bfontfamilyemoji_var(bfontfamily)_bfontfamilymath_var(bfontfamily)_}代码类型显示btypogr",
+		"custom-hugo-slug": "content/post/customize-siyuan-note-style-xyrmb.md",
+		"custom-slug": "customize-siyuan-note-style-xyrmb",
 		"id": "20221125192803-jfnl0jx",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221125192803-1ryzfnz\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221125192830-1751yju\u0026quot;,\u0026quot;scrollTop\u0026quot;:1750,\u0026quot;focusId\u0026quot;:\u0026quot;20221125192803-1ryzfnz\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221125192803-1ryzfnz\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221125192830-1751yju\u0026quot;,\u0026quot;scrollTop\u0026quot;:6,\u0026quot;focusId\u0026quot;:\u0026quot;20221125192803-1ryzfnz\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "002.自定义思源笔记样式",
 		"updated": "20221207021014"
 	},

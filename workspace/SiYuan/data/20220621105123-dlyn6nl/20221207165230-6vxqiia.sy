@@ -3,7 +3,11 @@
 	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
+		"custom-desc": "插件是使用其他属性方法assets等来增强vuejs功能集推荐的方法。用当前版本的vuejs在typescript中编写它们很简单但你可以在web上找到的建议通常是指旧版本不再适用。事实上你发现的矛盾建议可能会很令人困惑_我如何在我的插件中引用vuejs类型？好吧这里有一个一般的经验法则它会有所帮助并且永远不会让你再次谷歌搜索所需的语法。自从vuejs发布了自己的typings以来要解决这个问题您可以简单地查看它们。基本上有两种方法可以定义插件_要么使用基于函数的方法要么使用插件对象（实际上只是插件函数的",
+		"custom-hugo-slug": "content/post/write-a-vuejs-plugin-with-typescript-zbkw9e.md",
+		"custom-slug": "write-a-vuejs-plugin-with-typescript-zbkw9e",
 		"id": "20221207165230-6vxqiia",
+		"tags": "插件,使用,可以,一个,方法",
 		"title": "使用TypeScript写一个Vue-js插件",
 		"updated": "20221207165922"
 	},

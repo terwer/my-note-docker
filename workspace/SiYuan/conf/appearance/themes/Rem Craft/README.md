@@ -5,20 +5,29 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/svchord/Rem-Craft)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hy/svchord/Rem-Craft?label=hits)
 
-一款现代化、平面化设计的思源笔记主题
+一款现代化、扁平化设计的思源笔记主题
 
 <img width="1280" alt="preview" src="https://user-images.githubusercontent.com/61345763/203089325-75a4d1c7-9b59-43a1-b98d-9c1bb0dcd63e.png">
 
 ## 使用说明
 
-- 最新
-  - v2.5.2及之后版本均不再内置 `Noto Sans SC` 字体文件，有需求请往[官网](https://fonts.google.com/noto/specimen/Noto+Sans+SC)下载
-- 其他
-  - `script/config.js` 可以设置主题特殊功能的启用与否，默认启用，将值修改为 `false` 并重启软件即可关闭
-  - 顶栏除了按钮以外的区域都可以拖拽窗口
-  - 多次分屏后，页签栏有概率被顶栏按钮覆盖，重启软件即可解决
-  - 鼠标点击右下角问号按钮，菜单才会持续显示，再次点击按钮或者点击周围空白处即可关闭，指南文档按钮在右上方
-  - 设置、搜索等大弹窗的关闭按钮被隐藏了，点击周围空白处即可关闭
+### 最新
+
+1. 左右边栏除了按钮以外的区域都可以拖拽窗口
+
+### 其他
+
+1. v2.5.2及之后版本均不再内置 `Noto Sans SC` 字体文件，有需求请往[官网](https://fonts.google.com/noto/specimen/Noto+Sans+SC)下载
+
+2. `script/config.js` 可以设置主题特殊功能的启用与否，默认启用，将值修改为 `false` 并重启软件即可关闭
+
+3. 顶栏除了按钮以外的区域都可以拖拽窗口
+
+4. 极端情况下，页签栏可能会被顶栏按钮覆盖，重启软件即可解决
+
+5. 鼠标点击右下角问号按钮，菜单才会持续显示，再次点击按钮或者点击周围空白处即可关闭，指南文档按钮在右上方
+
+6. 设置、搜索等大弹窗的关闭按钮被隐藏了，点击周围空白处即可关闭
 
 ## 参考样式
 

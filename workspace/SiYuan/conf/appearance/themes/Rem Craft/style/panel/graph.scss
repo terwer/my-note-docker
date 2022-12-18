@@ -1,4 +1,3 @@
-
 @use "../common" as *;
 
 .graph {
@@ -36,7 +35,7 @@
   }
 
   &__svg {
-    background-color: get($bg, "page", 1);
+    background-color: get($bg, "page", 1) !important;
   }
 
   &__loading {

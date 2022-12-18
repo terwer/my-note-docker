@@ -1,1 +1,1 @@
-// condole.log("hello");
+// import('/widgets/sy-post-publisher/lib/siyuanhook.js')

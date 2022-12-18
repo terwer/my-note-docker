@@ -1,5 +1,5 @@
 import { config } from "../../script/config.js";
-import { setMutationObserver } from "../../util/observer.js";
+// import { setMutationObserver } from "../../util/observer.js";
 import { prefix, setWndPadding } from "../../util/layout.js";
 import { isDockExist, setDockObserver } from "../../util/layout.js";
 
@@ -18,29 +18,28 @@ function addButton(id, iconId, label) {
 function addDockButton() {
   let dockBtn = addButton(
     "dockBtn",
-    "iconHideDock",
-    window.siyuan.languages.hideDock
+    window.siyuan.config.uiLayout.hideDock ? "iconDock" : "iconHideDock",
+    window.siyuan.config.uiLayout.hideDock
+      ? window.siyuan.languages.showDock
+      : window.siyuan.languages.hideDock
   );
 
   const useElement = dockBtn.firstElementChild.firstElementChild;
   const label = dockBtn.querySelector(".b3-menu__label");
-  if (!isDockExist("left") && !isDockExist("left")) {
-    useElement.setAttribute("xlink:href", "#iconDock");
-    label.innerHTML = window.siyuan.languages.showDock;
-  }
-
   dockBtn.addEventListener("click", () => {
-    const dockIsShow =
-      useElement.getAttribute("xlink:href") === "#iconHideDock";
-    if (dockIsShow) {
+    // const dockIsShow =
+    //   useElement.getAttribute("xlink:href") === "#iconHideDock";
+    if (!window.siyuan.config.uiLayout.hideDock) {
       useElement.setAttribute("xlink:href", "#iconDock");
       label.innerHTML = window.siyuan.languages.showDock;
+      window.siyuan.config.uiLayout.hideDock = true;
     } else {
       useElement.setAttribute("xlink:href", "#iconHideDock");
       label.innerHTML = window.siyuan.languages.hideDock;
+      window.siyuan.config.uiLayout.hideDock = false;
     }
     document.querySelectorAll(".dock").forEach((item) => {
-      if (dockIsShow) {
+      if (window.siyuan.config.uiLayout.hideDock) {
         if (item.querySelector(".dock__item")) {
           item.classList.add("fn__none");
         }
@@ -57,7 +56,7 @@ function addDockMenu() {
   let menuBtn = addButton("wndBtn", "iconLeft", "打开选中边窗");
   let dockBtn = document.getElementById("barDock");
   let menu = dockBtn.querySelector(".b3-menu");
-  menu.classList.add(prefix + "dock-menu");
+  menu.classList.add(`${prefix}-dock-menu`);
   menuBtn.appendChild(menu);
 
   menuBtn.addEventListener("mouseover", () => {
@@ -75,21 +74,21 @@ function addDockMenu() {
   });
 }
 
-function autoSetMsgWidth() {
-  let msg = document.getElementsByClassName("status__msg")[0];
-  setMutationObserver(
-    msg,
-    "childList",
-    (observer, mutation) => {
-      let msgDom = mutation.target;
-      msgDom.style.maxWidth = "400px";
-      setTimeout(() => {
-        msgDom.style.maxWidth = "120px";
-      }, 1500);
-    },
-    { childList: true }
-  );
-}
+// function autoSetMsgWidth() {
+//   let msg = document.getElementsByClassName("status__msg")[0];
+//   setMutationObserver(
+//     msg,
+//     "childList",
+//     (observer, mutation) => {
+//       let msgDom = mutation.target;
+//       msgDom.style.maxWidth = "400px";
+//       setTimeout(() => {
+//         msgDom.style.maxWidth = "120px";
+//       }, 1500);
+//     },
+//     { childList: true }
+//   );
+// }
 
 function setStatusRight() {
   let status = document.getElementById("status");

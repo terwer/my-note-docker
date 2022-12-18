@@ -1,27 +1,22 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 1,
+    "mode": 0,
     "modeOS": true,
     "darkThemes": [
-      "Dark+",
       "Rem Craft",
-      "Savor",
       "Sofill-",
       "midnight"
     ],
     "lightThemes": [
-      "Dark+",
       "Rem Craft",
-      "Savor",
       "Sofill-",
       "Sofill=",
-      "daylight",
-      "pink-room"
+      "daylight"
     ],
     "themeDark": "Rem Craft",
     "themeLight": "Rem Craft",
-    "themeVer": "2.5.3",
+    "themeVer": "2.5.5",
     "icons": [
       "ant",
       "material"
@@ -87,11 +82,11 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "26f3",
       "1f4a6",
       "1f361",
       "1f42c",
       "1f683",
-      "26f3",
       "1f984",
       "1f422"
     ],
@@ -224,63 +219,88 @@
                     {
                       "children": {
                         "action": "",
-                        "blockId": "20221207171247-xblx4sd",
+                        "blockId": "20221126173747-w7c9dld",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20221013095018-ehr3cbb",
-                        "rootId": "20221207171247-xblx4sd",
+                        "notebookId": "20221126173607-4egqcq4",
+                        "rootId": "20221126173747-w7c9dld",
                         "scrollAttr": {
-                          "endId": "20221207171247-ymd0bzq",
+                          "endId": "20221217011343-o68dh92",
+                          "focusEnd": 4,
+                          "focusId": "20221126173903-hf46yb8",
+                          "focusStart": 4,
                           "scrollTop": 0,
-                          "startId": "20221207171247-ymd0bzq"
+                          "startId": "20221126173903-n8jvd3o"
                         }
                       },
-                      "docIcon": "",
+                      "docIcon": "1f3cd",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "《JavaScript高级程序设计》"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20220905122249-qxymgvu",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220712031439-h4ut7wc",
-                        "rootId": "20220905122012-0eu1hns",
-                        "scrollAttr": {
-                          "endId": "20220905122249-qxymgvu",
-                          "scrollTop": 0,
-                          "startId": "20220905122249-qxymgvu"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "001.Java_SE之Java_SE平台与JDK"
+                      "title": "001.Git应用开发详解之Git概述与环境准备"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "",
-                        "blockId": "20220831131637-zdnmp2m",
+                        "blockId": "20221217213005-l1etfqn",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20220621105123-dlyn6nl",
-                        "rootId": "20220831131637-zdnmp2m",
+                        "notebookId": "20221126173607-4egqcq4",
+                        "rootId": "20221217213005-l1etfqn",
                         "scrollAttr": {
-                          "endId": "20221212110055-qzwptd9",
+                          "endId": "20221218175202-p7rqn16",
                           "focusEnd": 0,
-                          "focusId": "20221212110855-9nwgv4f",
+                          "focusId": "20221218175202-p7rqn16",
                           "focusStart": 0,
-                          "scrollTop": 0,
-                          "startId": "20221204180402-btslqof"
+                          "scrollTop": 1920.5,
+                          "startId": "20221217213005-qenj6uk"
                         }
                       },
                       "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "001.文档测试"
+                      "title": "003.Git应用开发详解之Git入门指引"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221126180033-payu2rt",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20221126173607-4egqcq4",
+                        "rootId": "20221126180033-payu2rt",
+                        "scrollAttr": {
+                          "endId": "20221217132352-kh340o0",
+                          "scrollTop": 126,
+                          "startId": "20221126180842-6zkspec"
+                        }
+                      },
+                      "docIcon": "1f3a3",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "002.Git应用开发详解之环境准备续"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221215190606-fs5dfid",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220729231323-oo2hfju",
+                        "rootId": "20221215190606-fs5dfid",
+                        "scrollAttr": {
+                          "endId": "20221215213036-0hx8jtg",
+                          "focusEnd": 23,
+                          "focusId": "20221218013956-nteyy4b",
+                          "focusStart": 23,
+                          "scrollTop": 65,
+                          "startId": "20221215190625-brpebnk"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "200.挂件模式用挂载菜单的方式使用"
                     },
                     {
                       "children": {
@@ -291,40 +311,18 @@
                         "notebookId": "20220729231323-oo2hfju",
                         "rootId": "20220927094918-1d85uyp",
                         "scrollAttr": {
-                          "endId": "20221127010842-hiwpczz",
+                          "endId": "20221215102850-mpwoufm",
                           "focusEnd": 0,
-                          "focusId": "20221127010842-hiwpczz",
+                          "focusId": "20221215102850-mpwoufm",
                           "focusStart": 0,
-                          "scrollTop": 128,
-                          "startId": "20221127010842-hiwpczz"
+                          "scrollTop": 0,
+                          "startId": "20221215102850-mpwoufm"
                         }
                       },
                       "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
                       "title": "002.用户手册"
-                    },
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221212105211-exfn013",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20220718001803-ogquxbe",
-                        "rootId": "20221212105211-exfn013",
-                        "scrollAttr": {
-                          "endId": "20221212105211-9ufu2g8",
-                          "focusEnd": 0,
-                          "focusId": "20221212105211-9ufu2g8",
-                          "focusStart": 0,
-                          "scrollTop": 0,
-                          "startId": "20221212105211-9ufu2g8"
-                        }
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Subscribe"
                     },
                     {
                       "children": {
@@ -336,10 +334,10 @@
                         "rootId": "20220927094926-qvm83k2",
                         "scrollAttr": {
                           "endId": "20221204181054-qjkry22",
-                          "focusEnd": 0,
-                          "focusId": "20221201191244-kkgghl6",
-                          "focusStart": 0,
-                          "scrollTop": 4362,
+                          "focusEnd": 4,
+                          "focusId": "20221127001328-nl3dz69",
+                          "focusStart": 4,
+                          "scrollTop": 0,
                           "startId": "20221201191244-kkgghl6"
                         }
                       },
@@ -351,24 +349,46 @@
                     {
                       "children": {
                         "action": "",
-                        "blockId": "20221209150833-w9w6pc9",
+                        "blockId": "20220928114622-u5qoqj0",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20220718062546-2nbmy21",
-                        "rootId": "20221209150833-w9w6pc9",
+                        "notebookId": "20220729231323-oo2hfju",
+                        "rootId": "20220928114622-u5qoqj0",
                         "scrollAttr": {
-                          "endId": "20221209150910-yx7rffx",
-                          "focusEnd": 2,
-                          "focusId": "20221209151256-v1e7abw",
-                          "focusStart": 2,
-                          "scrollTop": 561,
-                          "startId": "20221209151242-wztgju5"
+                          "endId": "20221206222315-0c7ov83",
+                          "focusEnd": 0,
+                          "focusId": "20220928114622-peabyeo",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20220928114622-peabyeo"
+                        }
+                      },
+                      "docIcon": "1f58c",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "001.配置入门视频"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20220719180214-04wur9s",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220708075456-p83covz",
+                        "rootId": "20220719180214-04wur9s",
+                        "scrollAttr": {
+                          "endId": "20220721160239-pksn2tu",
+                          "focusEnd": 15,
+                          "focusId": "20220719181825-shypwo8",
+                          "focusStart": 15,
+                          "scrollTop": 0,
+                          "startId": "20220719181825-shypwo8"
                         }
                       },
                       "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "033.Vites中Mock异步方法调用的两种方法"
+                      "title": "文档协同开发"
                     }
                   ],
                   "height": "",
@@ -531,13 +551,13 @@
   },
   "readonly": false,
   "localIPs": [
-    "192.168.248.37",
+    "192.168.3.20",
     "127.0.0.1"
   ],
   "accessAuthCode": "",
   "system": {
     "id": "73C2A36A-4EC9-506D-AD05-90621F13A64A",
-    "kernelVersion": "2.5.3",
+    "kernelVersion": "2.5.4",
     "os": "darwin",
     "container": "std",
     "isMicrosoftStore": false,
@@ -556,15 +576,16 @@
     },
     "uploadErrLog": false,
     "disableGoogleAnalytics": false,
-    "downloadInstallPkg": true
+    "downloadInstallPkg": true,
+    "autoLaunch": false
   },
   "keymap": {},
   "sync": {
     "cloudName": "main",
     "enabled": true,
     "mode": 1,
-    "synced": 1670929576462,
-    "stat": "同步于 2022-12-13 19:06:16\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 26 kB/38 kB",
+    "synced": 1671357382354,
+    "stat": "同步于 2022-12-18 17:56:22\n\n上传/下载文件数 3/0\n上传/下载分块数 3/0\n发送/接收字节数 40 kB/38 kB",
     "generateConflictDoc": false,
     "provider": 2,
     "s3": {
@@ -615,13 +636,13 @@
     "virtualRefKeywordsLimit": 512
   },
   "stat": {
-    "treeCount": 520,
+    "treeCount": 526,
     "cTreeCount": 1000,
-    "blockCount": 11139,
+    "blockCount": 11303,
     "cBlockCount": 20000,
-    "dataSize": 59651097,
+    "dataSize": 60099733,
     "cDataSize": 104857600,
-    "assetsSize": 7392914,
+    "assetsSize": 7392305,
     "cAssetsSize": 104857600
   },
   "api": {
