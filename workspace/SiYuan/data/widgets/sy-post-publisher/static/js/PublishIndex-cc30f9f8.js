@@ -1,1 +1,0 @@
-import{P as e}from"./PublishService-104bf9b6.js";import{M as o,O as s,P as _,a1 as t}from"./vendor-06c1572e.js";import{j as a}from"./api-ea6d6be6.js";const n={id:"publish-index-body"},i=o({__name:"PublishIndex",setup(c){return(d,r)=>(s(),_("div",n,[t(e,{"page-id":void 0})]))}});const u=a(i,[["__scopeId","data-v-473e5abf"]]);export{u as P};

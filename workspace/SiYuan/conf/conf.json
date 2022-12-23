@@ -108,6 +108,7 @@
   "export": {
     "paragraphBeginningSpace": false,
     "addTitle": true,
+    "addFooter": false,
     "blockRefMode": 2,
     "blockEmbedMode": 1,
     "blockRefTextLeft": "",
@@ -219,40 +220,17 @@
                     {
                       "children": {
                         "action": "",
-                        "blockId": "20221126173747-w7c9dld",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20221126173607-4egqcq4",
-                        "rootId": "20221126173747-w7c9dld",
-                        "scrollAttr": {
-                          "endId": "20221217011343-o68dh92",
-                          "focusEnd": 4,
-                          "focusId": "20221126173903-hf46yb8",
-                          "focusStart": 4,
-                          "scrollTop": 0,
-                          "startId": "20221126173903-n8jvd3o"
-                        }
-                      },
-                      "docIcon": "1f3cd",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "001.Git应用开发详解之Git概述与环境准备"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "",
                         "blockId": "20221217213005-l1etfqn",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20221126173607-4egqcq4",
                         "rootId": "20221217213005-l1etfqn",
                         "scrollAttr": {
-                          "endId": "20221218175202-p7rqn16",
+                          "endId": "20221218193637-9d5s53i",
                           "focusEnd": 0,
-                          "focusId": "20221218175202-p7rqn16",
+                          "focusId": "20221218193637-9d5s53i",
                           "focusStart": 0,
-                          "scrollTop": 1920.5,
+                          "scrollTop": 0,
                           "startId": "20221217213005-qenj6uk"
                         }
                       },
@@ -262,25 +240,7 @@
                       "title": "003.Git应用开发详解之Git入门指引"
                     },
                     {
-                      "children": {
-                        "action": "",
-                        "blockId": "20221126180033-payu2rt",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20221126173607-4egqcq4",
-                        "rootId": "20221126180033-payu2rt",
-                        "scrollAttr": {
-                          "endId": "20221217132352-kh340o0",
-                          "scrollTop": 126,
-                          "startId": "20221126180842-6zkspec"
-                        }
-                      },
-                      "docIcon": "1f3a3",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "002.Git应用开发详解之环境准备续"
-                    },
-                    {
+                      "active": true,
                       "children": {
                         "action": "",
                         "blockId": "20221215190606-fs5dfid",
@@ -290,10 +250,10 @@
                         "rootId": "20221215190606-fs5dfid",
                         "scrollAttr": {
                           "endId": "20221215213036-0hx8jtg",
-                          "focusEnd": 23,
-                          "focusId": "20221218013956-nteyy4b",
-                          "focusStart": 23,
-                          "scrollTop": 65,
+                          "focusEnd": 4,
+                          "focusId": "20221218014104-1hkkbsk",
+                          "focusStart": 4,
+                          "scrollTop": 0,
                           "startId": "20221215190625-brpebnk"
                         }
                       },
@@ -301,6 +261,28 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "200.挂件模式用挂载菜单的方式使用"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20221219103730-c67j0yy",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220621105110-v1gzjez",
+                        "rootId": "20221219103730-c67j0yy",
+                        "scrollAttr": {
+                          "endId": "20221219103730-qwrj992",
+                          "focusEnd": 0,
+                          "focusId": "20221219103733-7b2ycch",
+                          "focusStart": 0,
+                          "scrollTop": 0,
+                          "startId": "20221219103730-qwrj992"
+                        }
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "2022-12-19"
                     },
                     {
                       "children": {
@@ -323,6 +305,28 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "002.用户手册"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20220718081806-ajwelut",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20220718001803-ogquxbe",
+                        "rootId": "20220718081806-ajwelut",
+                        "scrollAttr": {
+                          "endId": "20221205202756-020yppd",
+                          "focusEnd": 21,
+                          "focusId": "20221205202920-jjnab2b",
+                          "focusStart": 21,
+                          "scrollTop": 42,
+                          "startId": "20221205232909-kv4p12w"
+                        }
+                      },
+                      "docIcon": "1f401",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "HK"
                     },
                     {
                       "children": {
@@ -557,7 +561,7 @@
   "accessAuthCode": "",
   "system": {
     "id": "73C2A36A-4EC9-506D-AD05-90621F13A64A",
-    "kernelVersion": "2.5.4",
+    "kernelVersion": "2.5.5",
     "os": "darwin",
     "container": "std",
     "isMicrosoftStore": false,
@@ -568,7 +572,6 @@
     "confDir": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan/conf",
     "dataDir": "/Users/terwer/Documents/mydocs/my-note-docker/workspace/SiYuan/data",
     "networkServe": false,
-    "fixedPort": true,
     "networkProxy": {
       "scheme": "",
       "host": "",
@@ -584,8 +587,8 @@
     "cloudName": "main",
     "enabled": true,
     "mode": 1,
-    "synced": 1671357382354,
-    "stat": "同步于 2022-12-18 17:56:22\n\n上传/下载文件数 3/0\n上传/下载分块数 3/0\n发送/接收字节数 40 kB/38 kB",
+    "synced": 1671767831186,
+    "stat": "同步于 2022-12-23 11:57:11\n\n上传/下载文件数 1/0\n上传/下载分块数 1/0\n发送/接收字节数 35 kB/39 kB",
     "generateConflictDoc": false,
     "provider": 2,
     "s3": {
@@ -636,11 +639,11 @@
     "virtualRefKeywordsLimit": 512
   },
   "stat": {
-    "treeCount": 526,
+    "treeCount": 527,
     "cTreeCount": 1000,
-    "blockCount": 11303,
+    "blockCount": 11389,
     "cBlockCount": 20000,
-    "dataSize": 60099733,
+    "dataSize": 63679227,
     "cDataSize": 104857600,
     "assetsSize": 7392305,
     "cAssetsSize": 104857600

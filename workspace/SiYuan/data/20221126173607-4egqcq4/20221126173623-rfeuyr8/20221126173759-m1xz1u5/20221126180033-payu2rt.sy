@@ -10,7 +10,7 @@
 		"custom-wordpress-post-id": "4369",
 		"icon": "1f3a3",
 		"id": "20221126180033-payu2rt",
-		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221126180842-6zkspec\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221126180101-pcot08b\u0026quot;,\u0026quot;scrollTop\u0026quot;:126,\u0026quot;focusId\u0026quot;:\u0026quot;20221126185703-hj2eqmo\u0026quot;,\u0026quot;focusStart\u0026quot;:7,\u0026quot;focusEnd\u0026quot;:7}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221126180842-6zkspec\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221217132352-kh340o0\u0026quot;,\u0026quot;scrollTop\u0026quot;:126}",
 		"tags": "git,env,分支,系列,项目,涉及,内容",
 		"title": "002.Git应用开发详解之环境准备续",
 		"updated": "20221217214229"
