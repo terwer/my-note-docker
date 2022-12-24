@@ -1,0 +1,104 @@
+{
+	"ID": "20221223145948-s7f5csz",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221223145948-s7f5csz",
+		"title": "2022-12-23-周报",
+		"updated": "20221223152913"
+	},
+	"Children": [
+		{
+			"ID": "20221223145948-5uj1fn0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221223145948-5uj1fn0",
+				"updated": "20221118154136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日常缺陷"
+				}
+			]
+		},
+		{
+			"ID": "20221223145948-fkpoygi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221223145948-fkpoygi",
+				"updated": "20221216152909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#171872【日常缺陷】【知识仓库】定义属性为组织架构，文档选择部门后，列表筛选此部门却不显示文档(多选时)"
+				}
+			]
+		},
+		{
+			"ID": "20221223145948-11bi2wg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221223145948-11bi2wg",
+				"updated": "20221223152810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#179124【日常缺陷】 【每日提醒-修复】通过每日一考完成考试且及格后，没有获得学分"
+				}
+			]
+		},
+		{
+			"ID": "20221223152750-63cg6jl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221223152750-63cg6jl",
+				"updated": "20221223152808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#180520【KMSV16.0.8.R回归测试】【考试管理】已有人参加考试，地图详情页点点击已参加人数，跳转页面列表为空"
+				}
+			]
+		},
+		{
+			"ID": "20221223145948-lw8wwgf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221223145948-lw8wwgf",
+				"updated": "20221223152834"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#180568 V16.0.8.R研发项目 - 【KMSV16.0.8.R回归测试】【学习地图】列表背景模式地图，移动端查看评语报错"
+				}
+			]
+		},
+		{
+			"ID": "20221223152835-qns322i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221223152835-qns322i",
+				"updated": "20221223152859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "#180561【KMSV16.0.8.R回归测试】【学习管理】移动端学习地图内课件被收藏，pc端按钮应显示“取消收藏”按钮"
+				}
+			]
+		},
+		{
+			"ID": "20221223152913-b77z7h7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221223152913-b77z7h7"
+			}
+		}
+	]
+}
