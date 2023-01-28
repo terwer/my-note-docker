@@ -1,7 +1,0 @@
-@use "../common" as *;
-
-.inbox {
-  &__list {
-    background-color: get($bg, "page", 1) !important;
-  }
-}

@@ -6,7 +6,7 @@ services:
   prd-note:
     stdin_open: true
     tty: true
-    image: terwer/prd-note:2.1.5-mac-build
+    image: terwer/my-note:2.7.0
     container_name: prd
     build:
       context: .
