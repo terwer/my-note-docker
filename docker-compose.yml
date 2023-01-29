@@ -7,7 +7,7 @@ services:
     stdin_open: true
     tty: true
     image: terwer/my-note:2.7.0
-    container_name: prd
+    container_name: my-note
     build:
       context: .
       dockerfile: Dockerfile
