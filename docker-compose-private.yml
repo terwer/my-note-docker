@@ -6,13 +6,13 @@ services:
   prd-note:
     stdin_open: true
     tty: true
-    image: terwer/my-note-docker:latest
-    container_name: my-note-docker
+    image: terwer/my-note-docker-private:latest
+    container_name: my-note-docker-private
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "6808:6806"
+      - "6807:6806"
     environment:
       # 最好使用此设定时区，其它镜像也可以使用，也可以用"TZ=Asia/Shanghai"
       - "TZ=CST-8"
