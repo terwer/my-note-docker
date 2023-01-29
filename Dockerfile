@@ -1,5 +1,5 @@
 # 依赖的镜像
-FROM terwer/my-note:2.7.0
+FROM terwer/my-note:latest
 
 #镜像创建者的信息
 LABEL maintainer="Terwer<youweics@163.com>"

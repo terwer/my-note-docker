@@ -6,8 +6,8 @@ services:
   prd-note:
     stdin_open: true
     tty: true
-    image: terwer/my-note:2.7.0
-    container_name: my-note
+    image: terwer/my-note-docker:latest
+    container_name: my-note-docker
     build:
       context: .
       dockerfile: Dockerfile
