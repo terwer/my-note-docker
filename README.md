@@ -2,27 +2,14 @@
 
 my note for docker
 
-## use
-
-## 备份
-
-Linux或者macOS
-
-```bash
-./p.sh
-```
-
-Windows
-```powershell
-./p.ps1
-```
+## Use
 
 ```bash
 docker compose up --build
 ```
 
-## ckeckip
+## Backup
 
 ```bash
-docker inspect my-note-docker | grep IPAddres
+python script/backup.py
 ```
