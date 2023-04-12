@@ -8,6 +8,12 @@ my note for docker
 docker compose up --build
 ```
 
+Run background
+
+```bash
+docker compose up -d --build
+```
+
 ## Backup
 
 ```bash

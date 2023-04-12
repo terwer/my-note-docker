@@ -46,9 +46,9 @@ if __name__ == "__main__":
     # 压缩dist为zip
     # 生成zip
     src_folder = dist_folder
-    tmp_folder_name = "./my-note-"+backup_folder_sign
+    tmp_folder_name = "./my-note-" + backup_folder_sign
     build_zip_path = "./backup"
-    build_zip_name = "my-note-" + backup_folder_sign + ".zip"
+    build_zip_name = "my-note-" + backup_folder_sign + "-" + scriptutils.get_filename_from_time() + ".zip"
     scriptutils.zip_folder(src_folder, tmp_folder_name, build_zip_path, build_zip_name)
     print("将dist文件打包成zip，用于笔记备份.")
     print("笔记备份完毕.")
