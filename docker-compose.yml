@@ -3,19 +3,30 @@
 
 version: '3'
 services:
-  prd-note:
+  note:
     stdin_open: true
     tty: true
-    image: terwer/my-note-docker:latest
-    container_name: my-note-docker
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: b3log/siyuan:latest
     ports:
       - "6808:6806"
     environment:
-      # 最好使用此设定时区，其它镜像也可以使用，也可以用"TZ=Asia/Shanghai"
       - "TZ=CST-8"
     volumes:
       - ./workspace:/home/siyuan/Documents
     restart: "no"
+    networks:
+      - note_blog_network
+
+  blog:
+    image: terwer/vue3-ssr:latest
+    ports:
+      - "3333:3333"
+    env_file:
+      - ./.env.docker
+    environment:
+      VITE_SIYUAN_API_URL: http://note:6806
+    networks:
+      - note_blog_network
+
+networks:
+  note_blog_network:

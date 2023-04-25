@@ -6,15 +6,10 @@ services:
   prd-note:
     stdin_open: true
     tty: true
-    image: terwer/my-note-docker-zhangy:latest
-    container_name: my-note-docker-zhangy
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: b3log/siyuan:latest
     ports:
       - "6809:6806"
     environment:
-      # 最好使用此设定时区，其它镜像也可以使用，也可以用"TZ=Asia/Shanghai"
       - "TZ=CST-8"
     volumes:
       - ./workspace:/home/siyuan/Documents
