@@ -17,16 +17,16 @@ services:
     networks:
       - note_blog_network
 
-  blog:
-    image: terwer/vue3-ssr:latest
-    ports:
-      - "3333:3333"
-    env_file:
-      - ./.env.docker
-    environment:
-      VITE_SIYUAN_API_URL: http://note:6806
-    networks:
-      - note_blog_network
+#  blog:
+#    image: terwer/vue3-ssr:latest
+#    ports:
+#      - "3333:3333"
+#    env_file:
+#      - ./.env.docker
+#    environment:
+#      VITE_SIYUAN_API_URL: http://note:6806
+#    networks:
+#      - note_blog_network
 
 networks:
   note_blog_network:
