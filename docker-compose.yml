@@ -21,13 +21,8 @@ services:
     image: terwer/nuxt3-blog:1.2.0
     ports:
       - "3333:3000"
-    # env_file:
-    #   - ./.env.docker
-    environment:
-      NUXT_PUBLIC_DEFAULT_TYPE: siyuan
-      NUXT_PUBLIC_SIYUAN_API_URL: http://note:6806
-      NUXT_PUBLIC_WAIT_TIME: 0
-      NUXT_SIYUAN_AUTH_TOKEN:
+    env_file:
+      - ./.env.docker
     networks:
       - note_blog_network
 
