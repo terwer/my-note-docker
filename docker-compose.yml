@@ -6,7 +6,7 @@ services:
   note:
     stdin_open: true
     tty: true
-    image: b3log/siyuan:v2.9.1
+    image: b3log/siyuan:v2.9.2
     ports:
       - "6808:6806"
     environment:
@@ -17,16 +17,19 @@ services:
     networks:
       - note_blog_network
 
-#  blog:
-#    image: terwer/vue3-ssr:latest
-#    ports:
-#      - "3333:3333"
-#    env_file:
-#      - ./.env.docker
-#    environment:
-#      VITE_SIYUAN_API_URL: http://note:6806
-#    networks:
-#      - note_blog_network
+  blog:
+    image: terwer/nuxt3-blog:1.2.0
+    ports:
+      - "3333:3333"
+    # env_file:
+    #   - ./.env.docker
+    environment:
+      NUXT_PUBLIC_DEFAULT_TYPE: siyuan
+      NUXT_PUBLIC_SIYUAN_API_URL: http://note:6806
+      NUXT_PUBLIC_WAIT_TIME: 0
+      NUXT_SIYUAN_AUTH_TOKEN:
+    networks:
+      - note_blog_network
 
 networks:
   note_blog_network:
