@@ -1,0 +1,16 @@
+# docker-compose --log-level INFO up --build  
+# docker-compose --log-level INFO up -d --build
+
+version: '3'
+services:
+  prd-note:
+    stdin_open: true
+    tty: true
+    image: b3log/siyuan:v2.9.2
+    ports:
+      - "6806:6806"
+    environment:
+      - "TZ=CST-8"
+    volumes:
+      - ./workspace:/home/siyuan/Documents
+    restart: "no"
