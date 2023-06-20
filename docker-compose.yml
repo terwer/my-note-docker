@@ -20,7 +20,7 @@ services:
   blog:
     image: terwer/nuxt3-blog:1.2.0
     ports:
-      - "3333:3333"
+      - "3333:3000"
     # env_file:
     #   - ./.env.docker
     environment:
