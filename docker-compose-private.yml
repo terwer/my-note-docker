@@ -3,7 +3,7 @@
 
 version: '3'
 services:
-  prd-note:
+  private-note:
     stdin_open: true
     tty: true
     image: b3log/siyuan:v2.9.2
@@ -14,3 +14,17 @@ services:
     volumes:
       - ./workspace:/home/siyuan/Documents
     restart: "no"
+    networks:
+      - note_blog_network
+
+  private-blog:
+    image: terwer/nuxt3-blog:latest
+    ports:
+      - "3333:3000"
+    env_file:
+      - ./.env.docker
+    networks:
+      - note_blog_network
+
+networks:
+  note_blog_network:

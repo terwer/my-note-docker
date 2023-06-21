@@ -3,7 +3,7 @@
 
 version: '3'
 services:
-  prd-note:
+  test-note:
     stdin_open: true
     tty: true
     image: b3log/siyuan:v2.9.2
