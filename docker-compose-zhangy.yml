@@ -14,3 +14,17 @@ services:
     volumes:
       - ./workspace:/home/siyuan/Documents
     restart: "no"
+#    networks:
+#      - zhangy_note_blog_network
+#
+#  zhangy-blog:
+#    image: terwer/nuxt3-blog:latest
+#    ports:
+#      - "3333:3000"
+#    env_file:
+#      - ./.env.docker
+#    networks:
+#      - zhangy_note_blog_network
+#
+#networks:
+#  zhangy_note_blog_network:

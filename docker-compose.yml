@@ -14,3 +14,17 @@ services:
     volumes:
       - ./workspace:/home/siyuan/Documents
     restart: "no"
+#    networks:
+#      - public_note_blog_network
+#
+#  public-blog:
+#    image: terwer/nuxt3-blog:latest
+#    ports:
+#      - "3333:3000"
+#    env_file:
+#      - ./.env.docker
+#    networks:
+#      - public_note_blog_network
+#
+#networks:
+#  public_note_blog_network:
