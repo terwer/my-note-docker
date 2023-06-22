@@ -4,3 +4,4 @@ workspace/SiYuan/
 backup
 *.iml
 .env.docker
+__pycache__
