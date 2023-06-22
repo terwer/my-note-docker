@@ -3,19 +3,28 @@
 
 version: '3'
 services:
-  prd-note:
+  private-note:
     stdin_open: true
     tty: true
-    image: terwer/my-note-docker-private:latest
-    container_name: my-note-docker-private
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: b3log/siyuan:v2.9.2
     ports:
       - "6807:6806"
     environment:
-      # 最好使用此设定时区，其它镜像也可以使用，也可以用"TZ=Asia/Shanghai"
       - "TZ=CST-8"
     volumes:
       - ./workspace:/home/siyuan/Documents
     restart: "no"
+#    networks:
+#      - private_note_blog_network
+#
+#  private-blog:
+#    image: terwer/nuxt3-blog:latest
+#    ports:
+#      - "3333:3000"
+#    env_file:
+#      - ./.env.docker
+#    networks:
+#      - private_note_blog_network
+#
+#networks:
+#  private_note_blog_network:

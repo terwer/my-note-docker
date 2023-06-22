@@ -2,20 +2,7 @@
 
 my note for docker
 
-## use
-
-## 备份
-
-Linux或者macOS
-
-```bash
-./p.sh
-```
-
-Windows
-```powershell
-./p.ps1
-```
+## Use
 
 ```bash
 docker compose up --build
@@ -23,8 +10,14 @@ docker compose -f docker-compose-test.yml up --build
 docker compose -f docker-compose-private.yml up --build
 ```
 
-## ckeckip
+Run background
 
 ```bash
-docker inspect my-note-docker | grep IPAddres
+docker compose up -d --build
+```
+
+## Backup
+
+```bash
+python script/backup.py
 ```
