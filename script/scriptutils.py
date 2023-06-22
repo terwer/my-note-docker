@@ -1,6 +1,25 @@
-# Copyright (c) 2022 Terwer Authors. All Rights Reserved.
-# @author terwer on 2023/3/22
-# ========================================================
+#  Copyright (c) 2023, Terwer . All rights reserved.
+#  DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+#
+#  This code is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU General Public License version 2 only, as
+#  published by the Free Software Foundation.  Terwer designates this
+#  particular file as subject to the "Classpath" exception as provided
+#  by Terwer in the LICENSE file that accompanied this code.
+#
+#  This code is distributed in the hope that it will be useful, but WITHOUT
+#  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+#  FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+#  version 2 for more details (a copy is included in the LICENSE file that
+#  accompanied this code).
+#
+#  You should have received a copy of the GNU General Public License version
+#  2 along with this work; if not, write to the Free Software Foundation,
+#  Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+#
+#  Please contact Terwer, Shenzhen, Guangdong, China, youweics@163.com
+#  or visit www.terwer.space if you need additional information or have any
+#  questions.
 
 import distutils
 import glob
@@ -83,19 +102,27 @@ def rm_files(regex):
         rm_file(file)
 
 
-def cp_folder(src, dst, remove_folder=False):
+def cp_folder(src, dst):
     """
     拷贝文件夹
     :param src: 源文件夹，例如："/path/to/source/folder"
     :param dst: 目的地，例如："/path/to/destination/folder"
-    :param remove_folder: 是否删除文件夹
     """
-    if os.path.exists(dst) and remove_folder:
+    if os.path.exists(dst):
         rm_folder(dst)
 
     if not os.path.exists(dst):
         mkdir(dst)
-    shutil.copytree(src, dst, ignore_dangling_symlinks=True, dirs_exist_ok=True)
+
+    try:
+        shutil.copytree(src, dst)
+    except FileExistsError:
+        # 如果目标文件夹已经存在，则删除它并重试
+        shutil.rmtree(dst)
+        shutil.copytree(src, dst)
+    except Exception as e:
+        print(f"无法拷贝文件夹,{e}")
+        raise e
 
 
 def mkdir(dirname):
@@ -160,7 +187,7 @@ def zip_folder(src_folder, tmp_folder_name, build_zip_path, build_zip_name):
     rm_folder(tmp_folder_name)
 
 
-def create_zip(root_path, file_name, ignored=[], storage_path=None):
+def create_zip(root_path, file_name, ignored=None, storage_path=None):
     """Create a ZIP
 
     This function creates a ZIP file of the provided root path.
@@ -173,6 +200,8 @@ def create_zip(root_path, file_name, ignored=[], storage_path=None):
         storage_path: If provided, ZIP file will be placed in this location. If None, the
                         ZIP will be created in root_path
     """
+    if ignored is None:
+        ignored = []
     if storage_path is not None:
         zip_root = os.path.join(storage_path, file_name)
     else:
@@ -193,6 +222,7 @@ def create_zip(root_path, file_name, ignored=[], storage_path=None):
 
     iter_subtree(root_path)
     zipf.close()
+
 
 def get_filename_from_time():
     """
