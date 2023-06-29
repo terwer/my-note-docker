@@ -6,13 +6,13 @@ services:
   public-note:
     stdin_open: true
     tty: true
-    image: b3log/siyuan:v2.9.2
+    image: b3log/siyuan:v2.9.3
     ports:
       - "6808:6806"
     environment:
       - "TZ=CST-8"
     volumes:
-      - ./workspace:/home/siyuan/Documents
+      - ./workspace:/home/siyuan
     restart: "no"
 #    networks:
 #      - public_note_blog_network
