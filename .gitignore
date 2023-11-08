@@ -1,6 +1,6 @@
 .idea/
 .DS_Store
-workspace/SiYuan/
+workspace/
 backup
 *.iml
 .env.docker

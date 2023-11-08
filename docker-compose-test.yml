@@ -6,7 +6,8 @@ services:
   test-note:
     stdin_open: true
     tty: true
-    image: b3log/siyuan:v2.9.2
+    image: b3log/siyuan:v2.10.13
+    command: [ "--workspace=/home/siyuan/Documents", "--accessAuthCode=123456" ]
     ports:
       - "6806:6806"
     environment:

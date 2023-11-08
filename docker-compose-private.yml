@@ -6,7 +6,7 @@ services:
   private-note:
     stdin_open: true
     tty: true
-    image: b3log/siyuan:v2.9.2
+    image: b3log/siyuan:v2.10.13
     ports:
       - "6807:6806"
     environment:
