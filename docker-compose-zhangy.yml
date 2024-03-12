@@ -6,7 +6,7 @@ services:
   zhangy-note:
     stdin_open: true
     tty: true
-    image: b3log/siyuan:v2.10.13
+    image: b3log/siyuan:v2.9.6
     ports:
       - "6809:6806"
     environment:
