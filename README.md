@@ -6,6 +6,8 @@ my note for docker
 
 ```bash
 docker compose up --build
+docker compose -f docker-compose-test.yml up --build
+docker compose -f docker-compose-private.yml up --build
 ```
 
 Run background

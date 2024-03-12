@@ -1,0 +1,30 @@
+# docker-compose --log-level INFO up --build  
+# docker-compose --log-level INFO up -d --build
+
+version: '3'
+services:
+  private-note:
+    stdin_open: true
+    tty: true
+    image: b3log/siyuan:v2.10.13
+    ports:
+      - "6807:6806"
+    environment:
+      - "TZ=CST-8"
+    volumes:
+      - ./workspace:/home/siyuan/Documents
+    restart: "no"
+#    networks:
+#      - private_note_blog_network
+#
+#  private-blog:
+#    image: terwer/nuxt3-blog:latest
+#    ports:
+#      - "3333:3000"
+#    env_file:
+#      - ./.env.docker
+#    networks:
+#      - private_note_blog_network
+#
+#networks:
+#  private_note_blog_network:
