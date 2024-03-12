@@ -11,6 +11,7 @@ services:
       - "6808:6806"
     environment:
       - "TZ=CST-8"
+    command: --accessAuthCode=123456
     volumes:
       - ./workspace:/home/siyuan
     restart: "no"
