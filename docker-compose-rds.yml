@@ -1,0 +1,31 @@
+# docker-compose --log-level INFO up --build  
+# docker-compose --log-level INFO up -d --build
+
+version: '3'
+services:
+  public:
+    container_name: my-note
+    image: registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.1.11
+    # image: b3log/siyuan:v3.1.11
+    ports:
+      - "6808:6806"
+    environment:
+      - "TZ=CST-8"
+    command: --accessAuthCode=${ACCESS_AUTH_CODE}
+    volumes:
+      - ./workspace:/siyuan/workspace
+    restart: "no"
+#    networks:
+#      - public_note_blog_network
+#
+#  test-blog:
+#    image: terwer/nuxt3-blog:latest
+#    ports:
+#      - "3333:3000"
+#    env_file:
+#      - ./.env.docker
+#    networks:
+#      - public_note_blog_network
+#
+#networks:
+#  public_note_blog_network:
