@@ -5,3 +5,4 @@ backup
 *.iml
 .env.docker
 __pycache__
+docker-compose-with-rds.yml
