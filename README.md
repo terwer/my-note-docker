@@ -25,7 +25,7 @@ python script/backup.py
 ```bash
 docker pull b3log/siyuan:v3.3.0
 docker images
-docker tag a7482b0b6404 registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.3.0
+docker tag afbd4698f135 registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.3.0
 docker login --username=terwer@aliyun.com registry.cn-shenzhen.aliyuncs.com
 docker push registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.3.0
 ```
