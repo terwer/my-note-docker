@@ -1,6 +1,6 @@
 # 运行时镜像
-FROM registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.3.0
-# FROM b3log/siyuan:v3.3.0
+FROM registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.6.4
+# FROM b3log/siyuan:v3.6.4
 
 # 镜像创建者的信息
 MAINTAINER terwer youweics@163.com

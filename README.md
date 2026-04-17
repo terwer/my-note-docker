@@ -23,9 +23,9 @@ python script/backup.py
 ## Mirror
 
 ```bash
-docker pull b3log/siyuan:v3.3.0
+docker pull b3log/siyuan:v3.6.4
 docker images
-docker tag afbd4698f135 registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.3.0
+docker tag 1c3666d6064c registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.6.4
 docker login --username=terwer@aliyun.com registry.cn-shenzhen.aliyuncs.com
-docker push registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.3.0
+docker push registry.cn-shenzhen.aliyuncs.com/terwer/dm:siyuan-3.6.4
 ```
